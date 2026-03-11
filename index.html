@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRIMECHANGE ホテル品質管理ポータル</title>
+<style>
+:root { --navy: #0F172A; --navy-light: #1E293B; --accent: #3B82F6; --accent-light: #60A5FA; --bg: #F8FAFC; --card: #FFFFFF; --text: #1E293B; --text-light: #64748B; --border: #E2E8F0; --green: #10B981; --blue: #3B82F6; --orange: #F59E0B; --red: #EF4444; --radius: 12px; --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06); --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.05); }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+/* Navigation */
+.main-nav { background: var(--navy); color: white; position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow-lg); }
+.nav-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; min-height: 56px; gap: 2rem; }
+.nav-brand { color: white; font-weight: 800; font-size: 1.1rem; text-decoration: none; letter-spacing: 0.05em; white-space: nowrap; }
+.nav-links { display: flex; gap: 0.25rem; flex-wrap: wrap; }
+.nav-link { color: #94A3B8; text-decoration: none; font-size: 0.8rem; font-weight: 500; padding: 0.5rem 0.75rem; border-radius: 6px; transition: all 0.2s; white-space: nowrap; }
+.nav-link:hover { color: white; background: rgba(255,255,255,0.1); }
+.nav-link.active { color: white; background: var(--accent); }
+.nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+
+/* Container */
+.container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+.page-title { font-size: 1.5rem; font-weight: 800; color: var(--navy); margin-bottom: 0.5rem; }
+.page-subtitle { font-size: 0.85rem; color: var(--text-light); margin-bottom: 2rem; }
+
+/* Cards */
+.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.5rem; margin-bottom: 1.25rem; }
+.card-title { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--accent); }
+
+/* KPI Grid */
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+.kpi-card { background: var(--card); border-radius: var(--radius); padding: 1.25rem 1.5rem; box-shadow: var(--shadow); border-left: 4px solid var(--accent); }
+.kpi-label { font-size: 0.7rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+.kpi-value { font-size: 1.8rem; font-weight: 800; color: var(--navy); margin: 0.2rem 0; }
+.kpi-sub { font-size: 0.75rem; color: var(--text-light); }
+
+/* Tables */
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.data-table th { background: #F1F5F9; padding: 0.6rem 0.75rem; text-align: left; font-weight: 600; color: var(--text-light); font-size: 0.72rem; text-transform: uppercase; }
+.data-table td { padding: 0.6rem 0.75rem; border-top: 1px solid var(--border); }
+.data-table tr:hover td { background: #F8FAFC; }
+
+/* Badges */
+.badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.65rem; font-weight: 700; color: white; }
+.badge-green { background: var(--green); }
+.badge-blue { background: var(--blue); }
+.badge-orange { background: var(--orange); }
+.badge-red { background: var(--red); }
+.badge-gray { background: #6B7280; }
+
+/* Bar chart */
+.h-bar { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+.h-bar-label { font-size: 0.75rem; width: 120px; text-align: right; flex-shrink: 0; }
+.h-bar-track { flex: 1; height: 20px; background: #E2E8F0; border-radius: 4px; overflow: hidden; }
+.h-bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 6px; }
+.h-bar-val { font-size: 0.65rem; font-weight: 700; color: white; white-space: nowrap; }
+
+/* Gauge */
+.gauge-row { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.gauge-item { flex: 1; min-width: 200px; text-align: center; }
+.gauge-label { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0.5rem; }
+.gauge-circle { width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; border: 6px solid #E2E8F0; position: relative; }
+.gauge-target { font-size: 0.7rem; color: var(--text-light); }
+
+/* Tabs */
+.tabs { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--border); margin-bottom: 1.5rem; flex-wrap: wrap; }
+.tab-btn { padding: 0.6rem 1rem; border: none; background: none; cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--text-light); border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.2s; white-space: nowrap; }
+.tab-btn:hover { color: var(--accent); }
+.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Accordion */
+.accordion-item { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden; }
+.accordion-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: #F8FAFC; font-weight: 600; font-size: 0.9rem; transition: background 0.2s; }
+.accordion-header:hover { background: #F1F5F9; }
+.accordion-arrow { transition: transform 0.3s; font-size: 0.8rem; }
+.accordion-item.open .accordion-arrow { transform: rotate(180deg); }
+.accordion-body { padding: 0 1.25rem; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+.accordion-item.open .accordion-body { max-height: 2000px; padding: 1rem 1.25rem; }
+
+/* Heatmap */
+.heatmap-wrap { overflow-x: auto; }
+.heatmap { border-collapse: collapse; font-size: 0.7rem; white-space: nowrap; }
+.heatmap th, .heatmap td { padding: 0.4rem 0.5rem; text-align: center; border: 1px solid var(--border); }
+.heatmap th { background: #F1F5F9; font-weight: 600; font-size: 0.65rem; position: sticky; top: 0; }
+.heatmap .row-header { text-align: left; font-weight: 600; background: #F8FAFC; position: sticky; left: 0; }
+
+/* Grid */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1.25rem; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
+
+/* Priority cards */
+.priority-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+.priority-card { border-radius: var(--radius); padding: 1.25rem; border-left: 5px solid; }
+.priority-card.urgent { background: #FEF2F2; border-color: var(--red); }
+.priority-card.high { background: #FFFBEB; border-color: var(--orange); }
+.priority-card.standard { background: #F0F9FF; border-color: var(--blue); }
+.priority-card.maintenance { background: #ECFDF5; border-color: var(--green); }
+.priority-title { font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem; }
+.priority-hotels { font-size: 0.78rem; color: var(--text-light); }
+
+/* Phase timeline */
+.phase { margin-bottom: 1rem; }
+.phase-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+.phase-num { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 800; color: white; }
+.phase-title { font-size: 0.85rem; font-weight: 700; }
+.phase-timeline { font-size: 0.7rem; color: var(--text-light); }
+.action-list { list-style: none; padding-left: 2.5rem; }
+.action-list li { font-size: 0.78rem; padding: 0.3rem 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; gap: 0.5rem; }
+.action-list li:last-child { border-bottom: none; }
+.action-cat { font-size: 0.65rem; color: var(--text-light); background: #F1F5F9; padding: 0.1rem 0.4rem; border-radius: 3px; white-space: nowrap; }
+
+/* Footer */
+.footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.7rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container { padding: 1rem; }
+  .nav-links { display: none; position: absolute; top: 56px; left: 0; right: 0; background: var(--navy); flex-direction: column; padding: 1rem; }
+  .nav-links.open { display: flex; }
+  .nav-toggle { display: block; margin-left: auto; }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+  .grid-2, .grid-3, .priority-grid { grid-template-columns: 1fr; }
+  .h-bar-label { width: 80px; font-size: 0.65rem; }
+  .heatmap { font-size: 0.6rem; }
+}
+</style>
+</head>
+<body>
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">PRIMECHANGE</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">ポータル</a>
+      <a href="hotel-dashboard.html" class="nav-link">ホテル別口コミ</a>
+      <a href="cleaning-strategy.html" class="nav-link">清掃戦略</a>
+      <a href="deep-analysis.html" class="nav-link">深掘り分析</a>
+      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
+      <a href="action-plans.html" class="nav-link">アクションプラン</a>
+    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+  </div>
+</nav>
+<div class="container">
+  <h1 class="page-title">ホテル品質管理ポータル</h1>
+  <p class="page-subtitle">PRIMECHANGE 19ホテル・1,850件の口コミデータに基づく分析ダッシュボード &mdash; 2026年3月11日</p>
+
+  <div class="kpi-grid">
+    <div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">管理ホテル数</div><div class="kpi-value">19</div><div class="kpi-sub">ホテル</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">総口コミ数</div><div class="kpi-value">1,850</div><div class="kpi-sub">件</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">平均スコア</div><div class="kpi-value">8.37</div><div class="kpi-sub">/ 10 点</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">高評価率</div><div class="kpi-value">78.1%</div><div class="kpi-sub">8点以上</div></div>
+    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃課題率</div><div class="kpi-value">5%</div><div class="kpi-sub">92件</div></div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.25rem;margin-bottom:2rem;">
+    <a href="hotel-dashboard.html" style="text-decoration:none;color:inherit;">
+    <div class="card" style="transition:transform 0.2s;cursor:pointer;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+      <div style="font-size:2rem;margin-bottom:0.5rem;">&#128200;</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:0.4rem;">ホテル別口コミダッシュボード</div>
+      <div style="font-size:0.8rem;color:var(--text-light);margin-bottom:0.75rem;line-height:1.5;">19ホテルの口コミ分析をカード形式で一覧。サイト別評価・スコア分布・口コミ詳細をモーダルで閲覧。</div>
+      <div style="font-size:0.75rem;font-weight:600;color:var(--accent);">19ホテル / 1850件 &rarr;</div>
+    </div></a>
+    <a href="cleaning-strategy.html" style="text-decoration:none;color:inherit;">
+    <div class="card" style="transition:transform 0.2s;cursor:pointer;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+      <div style="font-size:2rem;margin-bottom:0.5rem;">&#128167;</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:0.4rem;">清掃戦略レポート</div>
+      <div style="font-size:0.8rem;color:var(--text-light);margin-bottom:0.75rem;line-height:1.5;">清掃品質の課題分析、カテゴリ別ヒートマップ、優先度マトリクス、横断的改善施策を一覧。</div>
+      <div style="font-size:0.75rem;font-weight:600;color:var(--accent);">92件の清掃指摘 &rarr;</div>
+    </div></a>
+    <a href="deep-analysis.html" style="text-decoration:none;color:inherit;">
+    <div class="card" style="transition:transform 0.2s;cursor:pointer;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+      <div style="font-size:2rem;margin-bottom:0.5rem;">&#128270;</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:0.4rem;">7つの深掘り分析</div>
+      <div style="font-size:0.8rem;color:var(--text-light);margin-bottom:0.75rem;line-height:1.5;">クレーム類型・スタッフ・人員配置・完了時間・安全・品質売上・ベストプラクティスの7分析。</div>
+      <div style="font-size:0.75rem;font-weight:600;color:var(--accent);">7つの専門分析 &rarr;</div>
+    </div></a>
+    <a href="revenue-impact.html" style="text-decoration:none;color:inherit;">
+    <div class="card" style="transition:transform 0.2s;cursor:pointer;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+      <div style="font-size:2rem;margin-bottom:0.5rem;">&#128176;</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:0.4rem;">品質×売上・ROI分析</div>
+      <div style="font-size:0.8rem;color:var(--text-light);margin-bottom:0.75rem;line-height:1.5;">品質スコアと売上の相関分析、弾力性係数、3つのROIシナリオ比較。</div>
+      <div style="font-size:0.75rem;font-weight:600;color:var(--accent);">月間約9,985万円 &rarr;</div>
+    </div></a>
+    <a href="action-plans.html" style="text-decoration:none;color:inherit;">
+    <div class="card" style="transition:transform 0.2s;cursor:pointer;" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='none'">
+      <div style="font-size:2rem;margin-bottom:0.5rem;">&#9989;</div>
+      <div style="font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:0.4rem;">アクションプラン</div>
+      <div style="font-size:0.8rem;color:var(--text-light);margin-bottom:0.75rem;line-height:1.5;">19ホテル別の3フェーズ改善計画（即時/短期/中期）とKPI目標管理。</div>
+      <div style="font-size:0.75rem;font-weight:600;color:var(--accent);">8ホテルの改善計画 &rarr;</div>
+    </div></a>
+  </div>
+  <div class="card" style="border-left:5px solid var(--red);background:#FEF2F2;">
+    <div class="card-title" style="color:var(--red);">&#9888; 緊急対応が必要なホテル (4件)</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1rem;">
+      <div style="background:white;padding:1rem;border-radius:8px;">
+        <div style="font-weight:700;font-size:0.9rem;">コンフォートホテル博多</div>
+        <div style="font-size:0.8rem;color:var(--text-light);margin:0.3rem 0;">スコア: <strong style="color:var(--red);">7.71</strong> / 清掃課題率: <strong>15.3%</strong></div>
+        <div style="font-size:0.7rem;color:var(--text-light);">主要課題: 清掃品質全般, 臭気・異臭, カーペット汚れ</div>
+      </div>
+      <div style="background:white;padding:1rem;border-radius:8px;">
+        <div style="font-weight:700;font-size:0.9rem;">チサンホテル浜松町</div>
+        <div style="font-size:0.8rem;color:var(--text-light);margin:0.3rem 0;">スコア: <strong style="color:var(--red);">7.15</strong> / 清掃課題率: <strong>13.2%</strong></div>
+        <div style="font-size:0.7rem;color:var(--text-light);">主要課題: 清掃品質全般, 排水・詰まり, ほこり・塵</div>
+      </div>
+      <div style="background:white;padding:1rem;border-radius:8px;">
+        <div style="font-weight:700;font-size:0.9rem;">アパホテル蒲田駅東</div>
+        <div style="font-size:0.8rem;color:var(--text-light);margin:0.3rem 0;">スコア: <strong style="color:var(--red);">7.34</strong> / 清掃課題率: <strong>9.8%</strong></div>
+        <div style="font-size:0.7rem;color:var(--text-light);">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
+      </div>
+      <div style="background:white;padding:1rem;border-radius:8px;">
+        <div style="font-weight:700;font-size:0.9rem;">コートホテル新横浜</div>
+        <div style="font-size:0.8rem;color:var(--text-light);margin:0.3rem 0;">スコア: <strong style="color:var(--red);">7.03</strong> / 清掃課題率: <strong>9.2%</strong></div>
+        <div style="font-size:0.7rem;color:var(--text-light);">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-title">&#127919; KPI目標 (2026年9月)</div>
+    <div class="gauge-row">
+      <div class="gauge-item">
+        <div class="gauge-label">平均スコア</div>
+        <div class="gauge-circle" style="border-color:var(--accent);"><span>8.37</span></div>
+        <div class="gauge-target">目標: 8.89</div>
+      </div>
+      <div class="gauge-item">
+        <div class="gauge-label">清掃課題率</div>
+        <div class="gauge-circle" style="border-color:var(--red);"><span>5%</span></div>
+        <div class="gauge-target">目標: 1.8%</div>
+      </div>
+      <div class="gauge-item">
+        <div class="gauge-label">高評価率</div>
+        <div class="gauge-circle" style="border-color:var(--green);"><span>78.1%</span></div>
+        <div class="gauge-target">目標: 83.1%</div>
+      </div>
+      <div class="gauge-item">
+        <div class="gauge-label">低評価率</div>
+        <div class="gauge-circle" style="border-color:var(--orange);"><span>4.5%</span></div>
+        <div class="gauge-target">目標: 2.4%</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">&copy; 2026 PRIMECHANGE ホテル品質管理ポータル &mdash; Confidential</div>
+</body>
+</html>

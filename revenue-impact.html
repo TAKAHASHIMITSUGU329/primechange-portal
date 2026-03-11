@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>品質×売上・ROI分析 - PRIMECHANGE</title>
+<style>
+:root { --navy: #0F172A; --navy-light: #1E293B; --accent: #3B82F6; --accent-light: #60A5FA; --bg: #F8FAFC; --card: #FFFFFF; --text: #1E293B; --text-light: #64748B; --border: #E2E8F0; --green: #10B981; --blue: #3B82F6; --orange: #F59E0B; --red: #EF4444; --radius: 12px; --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06); --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.05); }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+
+/* Navigation */
+.main-nav { background: var(--navy); color: white; position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow-lg); }
+.nav-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; min-height: 56px; gap: 2rem; }
+.nav-brand { color: white; font-weight: 800; font-size: 1.1rem; text-decoration: none; letter-spacing: 0.05em; white-space: nowrap; }
+.nav-links { display: flex; gap: 0.25rem; flex-wrap: wrap; }
+.nav-link { color: #94A3B8; text-decoration: none; font-size: 0.8rem; font-weight: 500; padding: 0.5rem 0.75rem; border-radius: 6px; transition: all 0.2s; white-space: nowrap; }
+.nav-link:hover { color: white; background: rgba(255,255,255,0.1); }
+.nav-link.active { color: white; background: var(--accent); }
+.nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+
+/* Container */
+.container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
+.page-title { font-size: 1.5rem; font-weight: 800; color: var(--navy); margin-bottom: 0.5rem; }
+.page-subtitle { font-size: 0.85rem; color: var(--text-light); margin-bottom: 2rem; }
+
+/* Cards */
+.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.5rem; margin-bottom: 1.25rem; }
+.card-title { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--accent); }
+
+/* KPI Grid */
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+.kpi-card { background: var(--card); border-radius: var(--radius); padding: 1.25rem 1.5rem; box-shadow: var(--shadow); border-left: 4px solid var(--accent); }
+.kpi-label { font-size: 0.7rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
+.kpi-value { font-size: 1.8rem; font-weight: 800; color: var(--navy); margin: 0.2rem 0; }
+.kpi-sub { font-size: 0.75rem; color: var(--text-light); }
+
+/* Tables */
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+.data-table th { background: #F1F5F9; padding: 0.6rem 0.75rem; text-align: left; font-weight: 600; color: var(--text-light); font-size: 0.72rem; text-transform: uppercase; }
+.data-table td { padding: 0.6rem 0.75rem; border-top: 1px solid var(--border); }
+.data-table tr:hover td { background: #F8FAFC; }
+
+/* Badges */
+.badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.65rem; font-weight: 700; color: white; }
+.badge-green { background: var(--green); }
+.badge-blue { background: var(--blue); }
+.badge-orange { background: var(--orange); }
+.badge-red { background: var(--red); }
+.badge-gray { background: #6B7280; }
+
+/* Bar chart */
+.h-bar { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
+.h-bar-label { font-size: 0.75rem; width: 120px; text-align: right; flex-shrink: 0; }
+.h-bar-track { flex: 1; height: 20px; background: #E2E8F0; border-radius: 4px; overflow: hidden; }
+.h-bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 6px; }
+.h-bar-val { font-size: 0.65rem; font-weight: 700; color: white; white-space: nowrap; }
+
+/* Gauge */
+.gauge-row { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.gauge-item { flex: 1; min-width: 200px; text-align: center; }
+.gauge-label { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0.5rem; }
+.gauge-circle { width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; border: 6px solid #E2E8F0; position: relative; }
+.gauge-target { font-size: 0.7rem; color: var(--text-light); }
+
+/* Tabs */
+.tabs { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--border); margin-bottom: 1.5rem; flex-wrap: wrap; }
+.tab-btn { padding: 0.6rem 1rem; border: none; background: none; cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--text-light); border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.2s; white-space: nowrap; }
+.tab-btn:hover { color: var(--accent); }
+.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* Accordion */
+.accordion-item { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden; }
+.accordion-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: #F8FAFC; font-weight: 600; font-size: 0.9rem; transition: background 0.2s; }
+.accordion-header:hover { background: #F1F5F9; }
+.accordion-arrow { transition: transform 0.3s; font-size: 0.8rem; }
+.accordion-item.open .accordion-arrow { transform: rotate(180deg); }
+.accordion-body { padding: 0 1.25rem; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+.accordion-item.open .accordion-body { max-height: 2000px; padding: 1rem 1.25rem; }
+
+/* Heatmap */
+.heatmap-wrap { overflow-x: auto; }
+.heatmap { border-collapse: collapse; font-size: 0.7rem; white-space: nowrap; }
+.heatmap th, .heatmap td { padding: 0.4rem 0.5rem; text-align: center; border: 1px solid var(--border); }
+.heatmap th { background: #F1F5F9; font-weight: 600; font-size: 0.65rem; position: sticky; top: 0; }
+.heatmap .row-header { text-align: left; font-weight: 600; background: #F8FAFC; position: sticky; left: 0; }
+
+/* Grid */
+.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1.25rem; }
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
+
+/* Priority cards */
+.priority-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+.priority-card { border-radius: var(--radius); padding: 1.25rem; border-left: 5px solid; }
+.priority-card.urgent { background: #FEF2F2; border-color: var(--red); }
+.priority-card.high { background: #FFFBEB; border-color: var(--orange); }
+.priority-card.standard { background: #F0F9FF; border-color: var(--blue); }
+.priority-card.maintenance { background: #ECFDF5; border-color: var(--green); }
+.priority-title { font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem; }
+.priority-hotels { font-size: 0.78rem; color: var(--text-light); }
+
+/* Phase timeline */
+.phase { margin-bottom: 1rem; }
+.phase-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+.phase-num { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 800; color: white; }
+.phase-title { font-size: 0.85rem; font-weight: 700; }
+.phase-timeline { font-size: 0.7rem; color: var(--text-light); }
+.action-list { list-style: none; padding-left: 2.5rem; }
+.action-list li { font-size: 0.78rem; padding: 0.3rem 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; gap: 0.5rem; }
+.action-list li:last-child { border-bottom: none; }
+.action-cat { font-size: 0.65rem; color: var(--text-light); background: #F1F5F9; padding: 0.1rem 0.4rem; border-radius: 3px; white-space: nowrap; }
+
+/* Footer */
+.footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.7rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container { padding: 1rem; }
+  .nav-links { display: none; position: absolute; top: 56px; left: 0; right: 0; background: var(--navy); flex-direction: column; padding: 1rem; }
+  .nav-links.open { display: flex; }
+  .nav-toggle { display: block; margin-left: auto; }
+  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+  .grid-2, .grid-3, .priority-grid { grid-template-columns: 1fr; }
+  .h-bar-label { width: 80px; font-size: 0.65rem; }
+  .heatmap { font-size: 0.6rem; }
+}
+</style>
+</head>
+<body>
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">PRIMECHANGE</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">ポータル</a>
+      <a href="hotel-dashboard.html" class="nav-link">ホテル別口コミ</a>
+      <a href="cleaning-strategy.html" class="nav-link">清掃戦略</a>
+      <a href="deep-analysis.html" class="nav-link">深掘り分析</a>
+      <a href="revenue-impact.html" class="nav-link active">品質×売上</a>
+      <a href="action-plans.html" class="nav-link">アクションプラン</a>
+    </div>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+  </div>
+</nav>
+<div class="container">
+  <h1 class="page-title">品質×売上・ROI分析</h1>
+  <p class="page-subtitle">口コミスコアと売上の相関分析・投資対効果シナリオ</p>
+  <div class="kpi-grid">
+    <div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">月間売上合計</div><div class="kpi-value">&#165;9,985万</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">平均稼働率</div><div class="kpi-value">73.9%</div></div>
+    <div class="kpi-card" style="border-left-color:var(--blue);"><div class="kpi-label">平均ADR</div><div class="kpi-value">&#165;1,261</div></div>
+    <div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">平均RevPAR</div><div class="kpi-value">&#165;937</div></div>
+  </div>
+<div class="card"><div class="card-title">&#128200; 回帰分析結果</div>
+<div style="overflow-x:auto;"><table class="data-table"><thead><tr><th>指標</th><th>傾き</th><th>相関係数 r</th><th>R&sup2;</th><th>解釈</th></tr></thead><tbody>
+<tr><td><strong>稼働率</strong></td><td>0.03</td><td style="color:var(--orange);font-weight:700;">0.3034</td><td>0.0920</td><td style="font-size:0.75rem;">スコア1点上昇で稼働率が3.4%ポイント変動</td></tr>
+<tr><td><strong>ADR（客室単価）</strong></td><td>262.93</td><td style="color:var(--green);font-weight:700;">0.5807</td><td>0.3372</td><td style="font-size:0.75rem;">スコア1点上昇でADRが263円変動</td></tr>
+<tr><td><strong>RevPAR</strong></td><td>232.11</td><td style="color:var(--green);font-weight:700;">0.6054</td><td>0.3666</td><td style="font-size:0.75rem;">スコア1点上昇でRevPARが232円変動</td></tr>
+<tr><td><strong>1室あたり月間売上</strong></td><td>6499.17</td><td style="color:var(--green);font-weight:700;">0.6054</td><td>0.3666</td><td style="font-size:0.75rem;">スコア1点上昇で1室あたり月間売上が6499円変動</td></tr>
+</tbody></table></div></div>
+<div class="card"><div class="card-title">&#128201; スコア帯別パフォーマンス</div>
+<div style="overflow-x:auto;"><table class="data-table"><thead><tr><th>スコア帯</th><th>ホテル数</th><th>平均稼働率</th><th>平均ADR</th><th>平均RevPAR</th><th>平均月間売上</th></tr></thead><tbody>
+<tr><td><strong>7.0-8.0</strong></td><td>4</td><td>72.8%</td><td>&#165;1,013</td><td>&#165;740</td><td>&#165;4,932,004</td></tr>
+<tr><td><strong>8.0-8.5</strong></td><td>5</td><td>67.8%</td><td>&#165;1,153</td><td>&#165;787</td><td>&#165;3,521,370</td></tr>
+<tr><td><strong>8.5-9.0</strong></td><td>7</td><td>80.0%</td><td>&#165;1,347</td><td>&#165;1,073</td><td>&#165;5,846,666</td></tr>
+<tr><td><strong>9.0+</strong></td><td>3</td><td>71.4%</td><td>&#165;1,573</td><td>&#165;1,130</td><td>&#165;7,195,417</td></tr>
+</tbody></table></div></div>
+<div class="card"><div class="card-title">&#128176; 品質改善による売上インパクト</div>
+<h3 style="font-size:0.9rem;font-weight:700;color:var(--accent);margin:1rem 0 0.5rem;">スコア +0.1点改善シナリオ</h3>
+<div class="kpi-grid" style="margin-bottom:1rem;">
+<div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">RevPAR変動</div><div class="kpi-value">+&#165;23</div><div class="kpi-sub">2.5%</div></div>
+<div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">月間売上変動</div><div class="kpi-value">+&#165;2,474,634</div></div>
+<div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">年間売上変動</div><div class="kpi-value">+&#165;29,695,608</div></div>
+</div>
+<details style="margin-bottom:1rem;"><summary style="cursor:pointer;font-size:0.8rem;font-weight:600;color:var(--accent);">ホテル別詳細 (19件)</summary>
+<table class="data-table" style="margin-top:0.5rem;"><thead><tr><th>ホテル名</th><th>現スコア</th><th>現月間売上</th><th>売上変動額</th></tr></thead><tbody>
+<tr><td>コンフォートスイーツ東京ベイ</td><td>9.17</td><td>&#165;13,228,360</td><td style="color:var(--green);font-weight:700;">+&#165;327,853</td></tr>
+<tr><td>ハートンホテル東品川</td><td>8.74</td><td>&#165;11,211,550</td><td style="color:var(--green);font-weight:700;">+&#165;277,868</td></tr>
+<tr><td>川崎日航ホテル</td><td>8.6</td><td>&#165;7,168,120</td><td style="color:var(--green);font-weight:700;">+&#165;177,655</td></tr>
+<tr><td>コンフォートホテル博多</td><td>7.63</td><td>&#165;5,764,630</td><td style="color:var(--green);font-weight:700;">+&#165;142,871</td></tr>
+<tr><td>チサンホテル浜松町</td><td>7.15</td><td>&#165;5,578,650</td><td style="color:var(--green);font-weight:700;">+&#165;138,262</td></tr>
+<tr><td>変なホテル東京羽田</td><td>8.28</td><td>&#165;5,358,150</td><td style="color:var(--green);font-weight:700;">+&#165;132,797</td></tr>
+<tr><td>ダイワロイネットホテル東京大崎</td><td>8.7</td><td>&#165;5,203,037</td><td style="color:var(--green);font-weight:700;">+&#165;128,952</td></tr>
+<tr><td>京成リッチモンドホテル東京錦糸町</td><td>8.96</td><td>&#165;4,791,800</td><td style="color:var(--green);font-weight:700;">+&#165;118,760</td></tr>
+<tr><td>アパホテル蒲田駅東</td><td>7.28</td><td>&#165;4,679,520</td><td style="color:var(--green);font-weight:700;">+&#165;115,978</td></tr>
+<tr><td>ホテルコメント横浜関内</td><td>8.88</td><td>&#165;4,463,320</td><td style="color:var(--green);font-weight:700;">+&#165;110,619</td></tr>
+<tr><td>ホテルケヤキゲート東京府中</td><td>8.74</td><td>&#165;4,425,395</td><td style="color:var(--green);font-weight:700;">+&#165;109,679</td></tr>
+<tr><td>第一イン池袋</td><td>9.03</td><td>&#165;4,310,610</td><td style="color:var(--green);font-weight:700;">+&#165;106,834</td></tr>
+<tr><td>コンフォートホテル横浜関内</td><td>8</td><td>&#165;4,051,890</td><td style="color:var(--green);font-weight:700;">+&#165;100,422</td></tr>
+<tr><td>コンフォートホテルERA東京東神田</td><td>9.1</td><td>&#165;4,047,280</td><td style="color:var(--green);font-weight:700;">+&#165;100,308</td></tr>
+<tr><td>コートホテル新横浜</td><td>7.03</td><td>&#165;3,705,215</td><td style="color:var(--green);font-weight:700;">+&#165;91,830</td></tr>
+<tr><td>リッチモンドホテル東京目白</td><td>8.69</td><td>&#165;3,663,440</td><td style="color:var(--green);font-weight:700;">+&#165;90,795</td></tr>
+<tr><td>コンフォートイン六本木</td><td>8.08</td><td>&#165;2,842,630</td><td style="color:var(--green);font-weight:700;">+&#165;70,452</td></tr>
+<tr><td>アパホテル相模原橋本駅東</td><td>8.21</td><td>&#165;2,698,420</td><td style="color:var(--green);font-weight:700;">+&#165;66,878</td></tr>
+<tr><td>コンフォートホテル成田</td><td>8.48</td><td>&#165;2,655,760</td><td style="color:var(--green);font-weight:700;">+&#165;65,821</td></tr>
+</tbody></table></details>
+<h3 style="font-size:0.9rem;font-weight:700;color:var(--accent);margin:1rem 0 0.5rem;">スコア +0.3点改善シナリオ</h3>
+<div class="kpi-grid" style="margin-bottom:1rem;">
+<div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">RevPAR変動</div><div class="kpi-value">+&#165;70</div><div class="kpi-sub">7.4%</div></div>
+<div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">月間売上変動</div><div class="kpi-value">+&#165;7,423,903</div></div>
+<div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">年間売上変動</div><div class="kpi-value">+&#165;89,086,836</div></div>
+</div>
+<details style="margin-bottom:1rem;"><summary style="cursor:pointer;font-size:0.8rem;font-weight:600;color:var(--accent);">ホテル別詳細 (19件)</summary>
+<table class="data-table" style="margin-top:0.5rem;"><thead><tr><th>ホテル名</th><th>現スコア</th><th>現月間売上</th><th>売上変動額</th></tr></thead><tbody>
+<tr><td>コンフォートスイーツ東京ベイ</td><td>9.17</td><td>&#165;13,228,360</td><td style="color:var(--green);font-weight:700;">+&#165;983,558</td></tr>
+<tr><td>ハートンホテル東品川</td><td>8.74</td><td>&#165;11,211,550</td><td style="color:var(--green);font-weight:700;">+&#165;833,603</td></tr>
+<tr><td>川崎日航ホテル</td><td>8.6</td><td>&#165;7,168,120</td><td style="color:var(--green);font-weight:700;">+&#165;532,966</td></tr>
+<tr><td>コンフォートホテル博多</td><td>7.63</td><td>&#165;5,764,630</td><td style="color:var(--green);font-weight:700;">+&#165;428,613</td></tr>
+<tr><td>チサンホテル浜松町</td><td>7.15</td><td>&#165;5,578,650</td><td style="color:var(--green);font-weight:700;">+&#165;414,785</td></tr>
+<tr><td>変なホテル東京羽田</td><td>8.28</td><td>&#165;5,358,150</td><td style="color:var(--green);font-weight:700;">+&#165;398,390</td></tr>
+<tr><td>ダイワロイネットホテル東京大崎</td><td>8.7</td><td>&#165;5,203,037</td><td style="color:var(--green);font-weight:700;">+&#165;386,857</td></tr>
+<tr><td>京成リッチモンドホテル東京錦糸町</td><td>8.96</td><td>&#165;4,791,800</td><td style="color:var(--green);font-weight:700;">+&#165;356,281</td></tr>
+<tr><td>アパホテル蒲田駅東</td><td>7.28</td><td>&#165;4,679,520</td><td style="color:var(--green);font-weight:700;">+&#165;347,933</td></tr>
+<tr><td>ホテルコメント横浜関内</td><td>8.88</td><td>&#165;4,463,320</td><td style="color:var(--green);font-weight:700;">+&#165;331,858</td></tr>
+<tr><td>ホテルケヤキゲート東京府中</td><td>8.74</td><td>&#165;4,425,395</td><td style="color:var(--green);font-weight:700;">+&#165;329,038</td></tr>
+<tr><td>第一イン池袋</td><td>9.03</td><td>&#165;4,310,610</td><td style="color:var(--green);font-weight:700;">+&#165;320,503</td></tr>
+<tr><td>コンフォートホテル横浜関内</td><td>8</td><td>&#165;4,051,890</td><td style="color:var(--green);font-weight:700;">+&#165;301,267</td></tr>
+<tr><td>コンフォートホテルERA東京東神田</td><td>9.1</td><td>&#165;4,047,280</td><td style="color:var(--green);font-weight:700;">+&#165;300,924</td></tr>
+<tr><td>コートホテル新横浜</td><td>7.03</td><td>&#165;3,705,215</td><td style="color:var(--green);font-weight:700;">+&#165;275,491</td></tr>
+<tr><td>リッチモンドホテル東京目白</td><td>8.69</td><td>&#165;3,663,440</td><td style="color:var(--green);font-weight:700;">+&#165;272,385</td></tr>
+<tr><td>コンフォートイン六本木</td><td>8.08</td><td>&#165;2,842,630</td><td style="color:var(--green);font-weight:700;">+&#165;211,356</td></tr>
+<tr><td>アパホテル相模原橋本駅東</td><td>8.21</td><td>&#165;2,698,420</td><td style="color:var(--green);font-weight:700;">+&#165;200,633</td></tr>
+<tr><td>コンフォートホテル成田</td><td>8.48</td><td>&#165;2,655,760</td><td style="color:var(--green);font-weight:700;">+&#165;197,462</td></tr>
+</tbody></table></details>
+<h3 style="font-size:0.9rem;font-weight:700;color:var(--accent);margin:1rem 0 0.5rem;">スコア +0.5点改善シナリオ</h3>
+<div class="kpi-grid" style="margin-bottom:1rem;">
+<div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">RevPAR変動</div><div class="kpi-value">+&#165;116</div><div class="kpi-sub">12.4%</div></div>
+<div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">月間売上変動</div><div class="kpi-value">+&#165;12,373,170</div></div>
+<div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">年間売上変動</div><div class="kpi-value">+&#165;148,478,040</div></div>
+</div>
+<details style="margin-bottom:1rem;"><summary style="cursor:pointer;font-size:0.8rem;font-weight:600;color:var(--accent);">ホテル別詳細 (19件)</summary>
+<table class="data-table" style="margin-top:0.5rem;"><thead><tr><th>ホテル名</th><th>現スコア</th><th>現月間売上</th><th>売上変動額</th></tr></thead><tbody>
+<tr><td>コンフォートスイーツ東京ベイ</td><td>9.17</td><td>&#165;13,228,360</td><td style="color:var(--green);font-weight:700;">+&#165;1,639,263</td></tr>
+<tr><td>ハートンホテル東品川</td><td>8.74</td><td>&#165;11,211,550</td><td style="color:var(--green);font-weight:700;">+&#165;1,389,339</td></tr>
+<tr><td>川崎日航ホテル</td><td>8.6</td><td>&#165;7,168,120</td><td style="color:var(--green);font-weight:700;">+&#165;888,276</td></tr>
+<tr><td>コンフォートホテル博多</td><td>7.63</td><td>&#165;5,764,630</td><td style="color:var(--green);font-weight:700;">+&#165;714,355</td></tr>
+<tr><td>チサンホテル浜松町</td><td>7.15</td><td>&#165;5,578,650</td><td style="color:var(--green);font-weight:700;">+&#165;691,308</td></tr>
+<tr><td>変なホテル東京羽田</td><td>8.28</td><td>&#165;5,358,150</td><td style="color:var(--green);font-weight:700;">+&#165;663,984</td></tr>
+<tr><td>ダイワロイネットホテル東京大崎</td><td>8.7</td><td>&#165;5,203,037</td><td style="color:var(--green);font-weight:700;">+&#165;644,762</td></tr>
+<tr><td>京成リッチモンドホテル東京錦糸町</td><td>8.96</td><td>&#165;4,791,800</td><td style="color:var(--green);font-weight:700;">+&#165;593,801</td></tr>
+<tr><td>アパホテル蒲田駅東</td><td>7.28</td><td>&#165;4,679,520</td><td style="color:var(--green);font-weight:700;">+&#165;579,888</td></tr>
+<tr><td>ホテルコメント横浜関内</td><td>8.88</td><td>&#165;4,463,320</td><td style="color:var(--green);font-weight:700;">+&#165;553,096</td></tr>
+<tr><td>ホテルケヤキゲート東京府中</td><td>8.74</td><td>&#165;4,425,395</td><td style="color:var(--green);font-weight:700;">+&#165;548,396</td></tr>
+<tr><td>第一イン池袋</td><td>9.03</td><td>&#165;4,310,610</td><td style="color:var(--green);font-weight:700;">+&#165;534,172</td></tr>
+<tr><td>コンフォートホテル横浜関内</td><td>8</td><td>&#165;4,051,890</td><td style="color:var(--green);font-weight:700;">+&#165;502,112</td></tr>
+<tr><td>コンフォートホテルERA東京東神田</td><td>9.1</td><td>&#165;4,047,280</td><td style="color:var(--green);font-weight:700;">+&#165;501,540</td></tr>
+<tr><td>コートホテル新横浜</td><td>7.03</td><td>&#165;3,705,215</td><td style="color:var(--green);font-weight:700;">+&#165;459,151</td></tr>
+<tr><td>リッチモンドホテル東京目白</td><td>8.69</td><td>&#165;3,663,440</td><td style="color:var(--green);font-weight:700;">+&#165;453,975</td></tr>
+<tr><td>コンフォートイン六本木</td><td>8.08</td><td>&#165;2,842,630</td><td style="color:var(--green);font-weight:700;">+&#165;352,260</td></tr>
+<tr><td>アパホテル相模原橋本駅東</td><td>8.21</td><td>&#165;2,698,420</td><td style="color:var(--green);font-weight:700;">+&#165;334,389</td></tr>
+<tr><td>コンフォートホテル成田</td><td>8.48</td><td>&#165;2,655,760</td><td style="color:var(--green);font-weight:700;">+&#165;329,103</td></tr>
+</tbody></table></details>
+</div>
+<div class="card"><div class="card-title">&#128178; ROI推定シナリオ</div>
+<p style="font-size:0.8rem;color:var(--text-light);margin-bottom:1rem;">口コミスコア0.1pt改善 ≒ RevPAR約1%向上（業界ベンチマーク）</p>
+<div style="overflow-x:auto;"><table class="data-table"><thead><tr><th>シナリオ</th><th>対象</th><th>投資額</th><th>期待効果</th><th>ROI回収期間</th></tr></thead><tbody>
+<tr><td><strong>シナリオ1</strong></td><td></td><td></td><td></td><td>6-12ヶ月</td></tr>
+<tr><td><strong>シナリオ2</strong></td><td></td><td></td><td></td><td>8-14ヶ月</td></tr>
+<tr><td><strong>シナリオ3</strong></td><td></td><td></td><td></td><td>12-18ヶ月</td></tr>
+</tbody></table></div>
+</div>
+</div>
+<div class="footer">&copy; 2026 PRIMECHANGE ホテル品質管理ポータル &mdash; Confidential</div>
+</body>
+</html>
