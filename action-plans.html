@@ -4,129 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>アクションプラン - PRIMECHANGE</title>
-<style>
-:root { --navy: #0F172A; --navy-light: #1E293B; --accent: #3B82F6; --accent-light: #60A5FA; --bg: #F8FAFC; --card: #FFFFFF; --text: #1E293B; --text-light: #64748B; --border: #E2E8F0; --green: #10B981; --blue: #3B82F6; --orange: #F59E0B; --red: #EF4444; --radius: 12px; --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06); --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.05); }
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
-
-/* Navigation */
-.main-nav { background: var(--navy); color: white; position: sticky; top: 0; z-index: 100; box-shadow: var(--shadow-lg); }
-.nav-inner { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; min-height: 56px; gap: 2rem; }
-.nav-brand { color: white; font-weight: 800; font-size: 1.1rem; text-decoration: none; letter-spacing: 0.05em; white-space: nowrap; }
-.nav-links { display: flex; gap: 0.25rem; flex-wrap: wrap; }
-.nav-link { color: #94A3B8; text-decoration: none; font-size: 0.8rem; font-weight: 500; padding: 0.5rem 0.75rem; border-radius: 6px; transition: all 0.2s; white-space: nowrap; }
-.nav-link:hover { color: white; background: rgba(255,255,255,0.1); }
-.nav-link.active { color: white; background: var(--accent); }
-.nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
-
-/* Container */
-.container { max-width: 1400px; margin: 0 auto; padding: 2rem; }
-.page-title { font-size: 1.5rem; font-weight: 800; color: var(--navy); margin-bottom: 0.5rem; }
-.page-subtitle { font-size: 0.85rem; color: var(--text-light); margin-bottom: 2rem; }
-
-/* Cards */
-.card { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.5rem; margin-bottom: 1.25rem; }
-.card-title { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--accent); }
-
-/* KPI Grid */
-.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
-.kpi-card { background: var(--card); border-radius: var(--radius); padding: 1.25rem 1.5rem; box-shadow: var(--shadow); border-left: 4px solid var(--accent); }
-.kpi-label { font-size: 0.7rem; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; }
-.kpi-value { font-size: 1.8rem; font-weight: 800; color: var(--navy); margin: 0.2rem 0; }
-.kpi-sub { font-size: 0.75rem; color: var(--text-light); }
-
-/* Tables */
-.data-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
-.data-table th { background: #F1F5F9; padding: 0.6rem 0.75rem; text-align: left; font-weight: 600; color: var(--text-light); font-size: 0.72rem; text-transform: uppercase; }
-.data-table td { padding: 0.6rem 0.75rem; border-top: 1px solid var(--border); }
-.data-table tr:hover td { background: #F8FAFC; }
-
-/* Badges */
-.badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.65rem; font-weight: 700; color: white; }
-.badge-green { background: var(--green); }
-.badge-blue { background: var(--blue); }
-.badge-orange { background: var(--orange); }
-.badge-red { background: var(--red); }
-.badge-gray { background: #6B7280; }
-
-/* Bar chart */
-.h-bar { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
-.h-bar-label { font-size: 0.75rem; width: 120px; text-align: right; flex-shrink: 0; }
-.h-bar-track { flex: 1; height: 20px; background: #E2E8F0; border-radius: 4px; overflow: hidden; }
-.h-bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 6px; }
-.h-bar-val { font-size: 0.65rem; font-weight: 700; color: white; white-space: nowrap; }
-
-/* Gauge */
-.gauge-row { display: flex; gap: 1.5rem; flex-wrap: wrap; }
-.gauge-item { flex: 1; min-width: 200px; text-align: center; }
-.gauge-label { font-size: 0.75rem; color: var(--text-light); margin-bottom: 0.5rem; }
-.gauge-circle { width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 0.5rem; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; font-weight: 800; border: 6px solid #E2E8F0; position: relative; }
-.gauge-target { font-size: 0.7rem; color: var(--text-light); }
-
-/* Tabs */
-.tabs { display: flex; gap: 0.25rem; border-bottom: 2px solid var(--border); margin-bottom: 1.5rem; flex-wrap: wrap; }
-.tab-btn { padding: 0.6rem 1rem; border: none; background: none; cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--text-light); border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.2s; white-space: nowrap; }
-.tab-btn:hover { color: var(--accent); }
-.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
-.tab-panel { display: none; }
-.tab-panel.active { display: block; }
-
-/* Accordion */
-.accordion-item { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden; }
-.accordion-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: #F8FAFC; font-weight: 600; font-size: 0.9rem; transition: background 0.2s; }
-.accordion-header:hover { background: #F1F5F9; }
-.accordion-arrow { transition: transform 0.3s; font-size: 0.8rem; }
-.accordion-item.open .accordion-arrow { transform: rotate(180deg); }
-.accordion-body { padding: 0 1.25rem; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
-.accordion-item.open .accordion-body { max-height: 2000px; padding: 1rem 1.25rem; }
-
-/* Heatmap */
-.heatmap-wrap { overflow-x: auto; }
-.heatmap { border-collapse: collapse; font-size: 0.7rem; white-space: nowrap; }
-.heatmap th, .heatmap td { padding: 0.4rem 0.5rem; text-align: center; border: 1px solid var(--border); }
-.heatmap th { background: #F1F5F9; font-weight: 600; font-size: 0.65rem; position: sticky; top: 0; }
-.heatmap .row-header { text-align: left; font-weight: 600; background: #F8FAFC; position: sticky; left: 0; }
-
-/* Grid */
-.grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1.25rem; }
-.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; }
-
-/* Priority cards */
-.priority-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
-.priority-card { border-radius: var(--radius); padding: 1.25rem; border-left: 5px solid; }
-.priority-card.urgent { background: #FEF2F2; border-color: var(--red); }
-.priority-card.high { background: #FFFBEB; border-color: var(--orange); }
-.priority-card.standard { background: #F0F9FF; border-color: var(--blue); }
-.priority-card.maintenance { background: #ECFDF5; border-color: var(--green); }
-.priority-title { font-size: 0.85rem; font-weight: 700; margin-bottom: 0.5rem; }
-.priority-hotels { font-size: 0.78rem; color: var(--text-light); }
-
-/* Phase timeline */
-.phase { margin-bottom: 1rem; }
-.phase-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
-.phase-num { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 800; color: white; }
-.phase-title { font-size: 0.85rem; font-weight: 700; }
-.phase-timeline { font-size: 0.7rem; color: var(--text-light); }
-.action-list { list-style: none; padding-left: 2.5rem; }
-.action-list li { font-size: 0.78rem; padding: 0.3rem 0; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; gap: 0.5rem; }
-.action-list li:last-child { border-bottom: none; }
-.action-cat { font-size: 0.65rem; color: var(--text-light); background: #F1F5F9; padding: 0.1rem 0.4rem; border-radius: 3px; white-space: nowrap; }
-
-/* Footer */
-.footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.7rem; border-top: 1px solid var(--border); margin-top: 2rem; }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .container { padding: 1rem; }
-  .nav-links { display: none; position: absolute; top: 56px; left: 0; right: 0; background: var(--navy); flex-direction: column; padding: 1rem; }
-  .nav-links.open { display: flex; }
-  .nav-toggle { display: block; margin-left: auto; }
-  .kpi-grid { grid-template-columns: repeat(2, 1fr); }
-  .grid-2, .grid-3, .priority-grid { grid-template-columns: 1fr; }
-  .h-bar-label { width: 80px; font-size: 0.65rem; }
-  .heatmap { font-size: 0.6rem; }
-}
-</style>
+<link rel="stylesheet" href="styles/common.css">
+<script src="scripts/common.js" defer></script>
+<script src="scripts/svg-gauge.js" defer></script>
 </head>
 <body>
 <nav class="main-nav">
@@ -140,7 +20,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
       <a href="revenue-impact.html" class="nav-link">品質×売上</a>
       <a href="action-plans.html" class="nav-link active">アクションプラン</a>
     </div>
-    <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+    <button class="nav-toggle">&#9776;</button>
   </div>
 </nav>
 <div class="container">
@@ -155,15 +35,15 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
   </div>
 <div class="card"><div class="card-title">&#127919; ポートフォリオ KPI目標</div>
 <div style="overflow-x:auto;"><table class="data-table"><thead><tr><th>指標</th><th>現在値</th><th>目標値</th><th>期限</th></tr></thead><tbody>
-<tr><td><strong>平均スコア</strong></td><td>8.37</td><td style="color:var(--accent);font-weight:700;">-</td><td>2026年9月</td></tr>
+<tr><td><strong>平均スコア</strong></td><td>8.38</td><td style="color:var(--accent);font-weight:700;">-</td><td>2026年9月</td></tr>
 <tr><td><strong>清掃課題率</strong></td><td>5%</td><td style="color:var(--accent);font-weight:700;">undefined%</td><td>2026年9月</td></tr>
-<tr><td><strong>高評価率</strong></td><td>78.1%</td><td style="color:var(--accent);font-weight:700;">undefined%</td><td>2026年9月</td></tr>
+<tr><td><strong>高評価率</strong></td><td>78.3%</td><td style="color:var(--accent);font-weight:700;">undefined%</td><td>2026年9月</td></tr>
 <tr><td><strong>低評価率</strong></td><td>4.5%</td><td style="color:var(--accent);font-weight:700;">undefined%</td><td>2026年9月</td></tr>
 </tbody></table></div></div>
 <h2 style="font-size:1rem;font-weight:700;color:var(--red);margin:1.5rem 0 0.75rem;">緊急対応 (4ホテル)</h2>
 <div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
-    <div><span class="badge badge-red">緊急</span> コンフォートホテル博多 <span style="font-size:0.75rem;color:var(--text-light);">(7.71 &rarr; 8.5)</span></div>
+  <div class="accordion-header">
+    <div><span class="badge badge-red">緊急</span> コンフォートホテル博多 <span style="font-size:0.75rem;color:var(--text-light);">(7.75 &rarr; 8.5)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
@@ -188,13 +68,13 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
 <li>排水トラップの点検・洗浄 <span class="action-cat">排水・詰まり</span></li>
 <li>害虫駆除業者による即時消毒実施 <span class="action-cat">害虫</span></li>
 <li>発生箇所の特定と封鎖 <span class="action-cat">害虫</span></li>
-<li>高所・棚上部・エアコン上部のほこり除去 <span class="action-cat">ほこり・塵</span></li>
-<li>テレビ裏・家具裏の清掃徹底 <span class="action-cat">ほこり・塵</span></li>
 <li>ベッドメイク後の粘着ローラー仕上げ工程追加 <span class="action-cat">毛髪・髪の毛</span></li>
 <li>排水口ヘアキャッチャーの毎回清掃・交換強化 <span class="action-cat">毛髪・髪の毛</span></li>
 <li>バスルーム清掃後の目視チェック強化 <span class="action-cat">毛髪・髪の毛</span></li>
 <li>禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></li>
-<li>喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></li></ul>
+<li>喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></li>
+<li>高所・棚上部・エアコン上部のほこり除去 <span class="action-cat">ほこり・塵</span></li>
+<li>テレビ裏・家具裏の清掃徹底 <span class="action-cat">ほこり・塵</span></li></ul>
 </div>
 <div class="phase">
   <div class="phase-header">
@@ -215,10 +95,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
 <li>排水口ストレーナーの定期交換サイクル導入 <span class="action-cat">排水・詰まり</span></li>
 <li>月次予防駆除の定期契約導入 <span class="action-cat">害虫</span></li>
 <li>侵入経路の点検と封鎖工事 <span class="action-cat">害虫</span></li>
-<li>週次の高所清掃スケジュール導入 <span class="action-cat">ほこり・塵</span></li>
 <li>清掃チェックリストに毛髪確認項目を明記 <span class="action-cat">毛髪・髪の毛</span></li>
 <li>白色・黒色素材箇所の重点チェック体制構築 <span class="action-cat">毛髪・髪の毛</span></li>
-<li>廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></li></ul>
+<li>廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></li>
+<li>週次の高所清掃スケジュール導入 <span class="action-cat">ほこり・塵</span></li></ul>
 </div>
 <div class="phase">
   <div class="phase-header">
@@ -239,8 +119,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
   </div>
 </div>
 <div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
-    <div><span class="badge badge-red">緊急</span> チサンホテル浜松町 <span style="font-size:0.75rem;color:var(--text-light);">(7.15 &rarr; 8)</span></div>
+  <div class="accordion-header">
+    <div><span class="badge badge-red">緊急</span> チサンホテル浜松町 <span style="font-size:0.75rem;color:var(--text-light);">(7 &rarr; 8)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
@@ -302,7 +182,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
   </div>
 </div>
 <div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
+  <div class="accordion-header">
     <div><span class="badge badge-red">緊急</span> アパホテル蒲田駅東 <span style="font-size:0.75rem;color:var(--text-light);">(7.34 &rarr; 8)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
@@ -352,7 +232,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
   </div>
 </div>
 <div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
+  <div class="accordion-header">
     <div><span class="badge badge-red">緊急</span> コートホテル新横浜 <span style="font-size:0.75rem;color:var(--text-light);">(7.03 &rarr; 8)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
@@ -415,7 +295,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
 </div>
 <h2 style="font-size:1rem;font-weight:700;color:var(--orange);margin:1.5rem 0 0.75rem;">要注意 (4ホテル)</h2>
 <div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
+  <div class="accordion-header">
     <div><span class="badge badge-orange">要注意</span> コンフォートホテル横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(7.94 &rarr; 8.5)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
@@ -470,8 +350,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
   </div>
 </div>
 <div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
-    <div><span class="badge badge-orange">要注意</span> 川崎日航ホテル <span style="font-size:0.75rem;color:var(--text-light);">(8.6 &rarr; 8.9)</span></div>
+  <div class="accordion-header">
+    <div><span class="badge badge-orange">要注意</span> 川崎日航ホテル <span style="font-size:0.75rem;color:var(--text-light);">(8.59 &rarr; 8.9)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
@@ -514,8 +394,56 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
   </div>
 </div>
 <div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
-    <div><span class="badge badge-orange">要注意</span> ホテルコメント横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(8.81 &rarr; 9.1)</span></div>
+  <div class="accordion-header">
+    <div><span class="badge badge-orange">要注意</span> コンフォートイン六本木 <span style="font-size:0.75rem;color:var(--text-light);">(8.13 &rarr; 9)</span></div>
+    <span class="accordion-arrow">&#9660;</span>
+  </div>
+  <div class="accordion-body">
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--red);">1</div>
+    <div class="phase-title">フェーズ1</div>
+    <div class="phase-timeline">1-2週間</div>
+  </div>
+  <ul class="action-list"><li>臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></li>
+<li>消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></li>
+<li>清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></li>
+<li>重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></li>
+<li>禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></li>
+<li>喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></li>
+<li>清掃後のゴミ残置チェック項目の追加 <span class="action-cat">ゴミ残置</span></li>
+<li>ゴミ箱周辺の清掃手順見直し <span class="action-cat">ゴミ残置</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--orange);">2</div>
+    <div class="phase-title">フェーズ2</div>
+    <div class="phase-timeline">1-3ヶ月</div>
+  </div>
+  <ul class="action-list"><li>定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></li>
+<li>エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></li>
+<li>品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></li>
+<li>QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></li>
+<li>廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></li>
+<li>清掃完了後のファイナルチェック体制の強化 <span class="action-cat">ゴミ残置</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--blue);">3</div>
+    <div class="phase-title">フェーズ3</div>
+    <div class="phase-timeline">3-6ヶ月</div>
+  </div>
+  <ul class="action-list"><li>オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></li>
+<li>空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></li>
+<li>清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></li>
+<li>デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></li>
+<li>フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></li></ul>
+</div>
+  </div>
+</div>
+<div class="accordion-item">
+  <div class="accordion-header">
+    <div><span class="badge badge-orange">要注意</span> ホテルコメント横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(8.8 &rarr; 9.1)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
@@ -562,54 +490,6 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
 <li>フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></li>
 <li>換気設備の改善提案（換気扇能力の見直し） <span class="action-cat">カビ・モールド</span></li>
 <li>除湿対策の強化（除湿機導入検討） <span class="action-cat">カビ・モールド</span></li></ul>
-</div>
-  </div>
-</div>
-<div class="accordion-item">
-  <div class="accordion-header" onclick="this.parentElement.classList.toggle('open');">
-    <div><span class="badge badge-orange">要注意</span> コンフォートイン六本木 <span style="font-size:0.75rem;color:var(--text-light);">(8.14 &rarr; 9)</span></div>
-    <span class="accordion-arrow">&#9660;</span>
-  </div>
-  <div class="accordion-body">
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--red);">1</div>
-    <div class="phase-title">フェーズ1</div>
-    <div class="phase-timeline">1-2週間</div>
-  </div>
-  <ul class="action-list"><li>臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></li>
-<li>消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></li>
-<li>禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></li>
-<li>喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></li>
-<li>清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></li>
-<li>重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></li>
-<li>清掃後のゴミ残置チェック項目の追加 <span class="action-cat">ゴミ残置</span></li>
-<li>ゴミ箱周辺の清掃手順見直し <span class="action-cat">ゴミ残置</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--orange);">2</div>
-    <div class="phase-title">フェーズ2</div>
-    <div class="phase-timeline">1-3ヶ月</div>
-  </div>
-  <ul class="action-list"><li>定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></li>
-<li>エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></li>
-<li>廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></li>
-<li>品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></li>
-<li>QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></li>
-<li>清掃完了後のファイナルチェック体制の強化 <span class="action-cat">ゴミ残置</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--blue);">3</div>
-    <div class="phase-title">フェーズ3</div>
-    <div class="phase-timeline">3-6ヶ月</div>
-  </div>
-  <ul class="action-list"><li>オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></li>
-<li>空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></li>
-<li>フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></li>
-<li>清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></li>
-<li>デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></li></ul>
 </div>
   </div>
 </div>
