@@ -145,6 +145,14 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kak
 .df-status { display: none; background: rgba(59,130,246,0.1); padding: 0.4rem 1.25rem; font-size: 0.72rem; color: var(--accent-light); align-items: center; gap: 0.5rem; }
 .df-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); animation: df-pulse 2s infinite; flex-shrink: 0; }
 @keyframes df-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+.df-snapshot-banner { display: none; background: rgba(59,130,246,0.15); padding: 0.5rem 1.25rem; font-size: 0.75rem; color: var(--accent-light); align-items: center; justify-content: space-between; gap: 0.75rem; }
+.df-snapshot-banner-text { flex: 1; }
+.df-snapshot-banner-close { padding: 0.25rem 0.75rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: var(--accent-light); font-size: 0.7rem; cursor: pointer; white-space: nowrap; transition: background 0.2s; }
+.df-snapshot-banner-close:hover { background: rgba(255,255,255,0.1); }
+.kpi-diff { display: inline-block; font-size: 0.65rem; font-weight: 600; padding: 0.1rem 0.4rem; border-radius: 4px; margin-left: 0.3rem; vertical-align: middle; }
+.kpi-diff.positive { color: #10B981; background: rgba(16,185,129,0.1); }
+.kpi-diff.negative { color: #EF4444; background: rgba(239,68,68,0.1); }
+.kpi-diff.neutral { color: #64748B; background: rgba(100,116,139,0.1); }
 
 /* Full-data banner */
 .fulldata-banner { background: #FEF3C7; border: 1px solid #F59E0B; border-radius: var(--radius); padding: 0.75rem 1.25rem; margin-bottom: 1.5rem; font-size: 0.8rem; color: #92400E; display: flex; gap: 0.5rem; align-items: flex-start; }

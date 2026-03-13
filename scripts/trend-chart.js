@@ -10,8 +10,12 @@
     lineMA: '#10B981',
     grid: '#E2E8F0',
     text: '#64748B',
-    bg: '#F8FAFC'
+    bg: '#F8FAFC',
+    snapshotMarker: '#F59E0B'
   };
+
+  // Cache snapshot dates for markers
+  var snapshotDates = {};
 
   function createTrendChart(container, dailyStats, options) {
     options = options || {};
@@ -31,6 +35,10 @@
     maxCount = Math.max(maxCount, 1);
     var maxScore = 10;
     var n = dailyStats.length;
+
+    // Build date-to-index map for snapshot markers
+    var dateToIdx = {};
+    dailyStats.forEach(function(d, idx) { dateToIdx[d.date] = idx; });
 
     // Bar width
     var barW = Math.max(2, Math.min(20, (chartW / n) * 0.7));
@@ -57,6 +65,20 @@
       var yR = padTop + (chartH / gridLines) * j;
       var scoreVal = Math.round(maxScore * (1 - j / gridLines) * 10) / 10;
       svg.push('<text x="' + (width - padRight + 8) + '" y="' + (yR + 4) + '" text-anchor="start" font-size="10" fill="' + COLORS.lineMA + '">' + scoreVal + '</text>');
+    }
+
+    // Snapshot markers (vertical lines on snapshot dates)
+    if (options.showSnapshotMarkers !== false) {
+      Object.keys(snapshotDates).forEach(function(date) {
+        var idx = dateToIdx[date];
+        if (idx === undefined) return;
+        var snap = snapshotDates[date];
+        var x = padLeft + gap * idx + gap / 2;
+        svg.push('<line x1="' + x + '" y1="' + padTop + '" x2="' + x + '" y2="' + (padTop + chartH) + '" stroke="' + COLORS.snapshotMarker + '" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>');
+        svg.push('<circle cx="' + x + '" cy="' + (padTop - 2) + '" r="4" fill="' + COLORS.snapshotMarker + '">');
+        svg.push('<title>スナップショット: ' + date + '\n口コミ数: ' + (snap.total_reviews || '?') + (snap.avg_score ? '\n平均スコア: ' + snap.avg_score : '') + '</title>');
+        svg.push('</circle>');
+      });
     }
 
     // Bars (review count)
@@ -113,6 +135,14 @@
     svg.push('<circle cx="' + (legendX + 87) + '" cy="' + (legendY + 5) + '" r="2.5" fill="' + COLORS.lineMA + '"/>');
     svg.push('<text x="' + (legendX + 99) + '" y="' + (legendY + 9) + '" font-size="9" fill="' + COLORS.text + '">7日移動平均スコア</text>');
 
+    // Snapshot marker legend (if any markers shown)
+    if (Object.keys(snapshotDates).length > 0) {
+      var snapLegendX = legendX + 200;
+      svg.push('<line x1="' + snapLegendX + '" y1="' + legendY + '" x2="' + snapLegendX + '" y2="' + (legendY + 10) + '" stroke="' + COLORS.snapshotMarker + '" stroke-width="1.5" stroke-dasharray="2,2"/>');
+      svg.push('<circle cx="' + snapLegendX + '" cy="' + legendY + '" r="3" fill="' + COLORS.snapshotMarker + '"/>');
+      svg.push('<text x="' + (snapLegendX + 6) + '" y="' + (legendY + 9) + '" font-size="9" fill="' + COLORS.text + '">スナップショット</text>');
+    }
+
     svg.push('</svg>');
 
     if (typeof container === 'string') container = document.getElementById(container);
@@ -122,6 +152,16 @@
   // Auto-init: Look for trend chart containers
   document.addEventListener('dateFilterChanged', function(e) {
     var detail = e.detail;
+
+    // Update snapshot dates cache from snapshot index
+    if (detail.snapshots) {
+      snapshotDates = {};
+      detail.snapshots.forEach(function(snap) {
+        // Use the data_range.max as the marker date (last data date in snapshot)
+        var markerDate = (snap.data_range && snap.data_range.max) || snap.date;
+        snapshotDates[markerDate] = snap;
+      });
+    }
 
     // Portfolio trend on index page
     var portfolioTrend = document.getElementById('portfolioTrend');
