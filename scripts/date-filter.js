@@ -216,6 +216,11 @@
       .then(function(data) {
         allReviews = data;
         return data;
+      })
+      .catch(function(e) {
+        console.warn('hotel-reviews-all.json の読み込みに失敗:', e);
+        allReviews = {};
+        return {};
       });
   }
 

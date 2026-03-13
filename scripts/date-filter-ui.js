@@ -1,10 +1,10 @@
 // Date Filter UI - PRIMECHANGE Portal
-// Inserts date filter bar below .page-subtitle on all pages
+// Dark compact design (案B) - inserts below .page-subtitle
 (function() {
   'use strict';
 
   var filterBar = null;
-  var statusEl = null;
+  var statusBar = null;
   var startInput = null;
   var endInput = null;
   var snapshotSelect = null;
@@ -19,41 +19,46 @@
     if (!subtitle) return;
 
     filterBar = document.createElement('div');
-    filterBar.className = 'date-filter-bar';
+    filterBar.className = 'df-bar';
     filterBar.innerHTML =
-      '<div class="date-filter-row">' +
-        '<div class="date-filter-label">期間フィルター:</div>' +
-        '<div class="date-preset-group">' +
-          '<button class="date-preset-btn active" data-preset="all">全期間</button>' +
-          '<button class="date-preset-btn" data-preset="this-month">今月</button>' +
-          '<button class="date-preset-btn" data-preset="last-month">先月</button>' +
-          '<button class="date-preset-btn" data-preset="7days">直近7日</button>' +
-          '<button class="date-preset-btn" data-preset="30days">直近30日</button>' +
+      '<div class="df-main">' +
+        '<div class="df-label">' +
+          '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>' +
+          '期間' +
         '</div>' +
-        '<div class="date-range-inputs">' +
-          '<input type="date" id="dateStart" class="date-input">' +
-          '<span class="date-range-sep">〜</span>' +
-          '<input type="date" id="dateEnd" class="date-input">' +
-          '<button class="date-apply-btn" id="dateApplyBtn">適用</button>' +
+        '<div class="df-presets">' +
+          '<button class="df-preset active" data-preset="all">全期間</button>' +
+          '<button class="df-preset" data-preset="this-month">今月</button>' +
+          '<button class="df-preset" data-preset="last-month">先月</button>' +
+          '<button class="df-preset" data-preset="7days">7日</button>' +
+          '<button class="df-preset" data-preset="30days">30日</button>' +
         '</div>' +
-        '<div class="date-filter-spacer"></div>' +
-        '<select id="snapshotSelect" class="date-snapshot-select" style="display:none;">' +
+        '<div class="df-range">' +
+          '<input type="date" id="dateStart" class="df-date">' +
+          '<span class="df-sep">&ndash;</span>' +
+          '<input type="date" id="dateEnd" class="df-date">' +
+          '<button class="df-apply" id="dateApplyBtn">適用</button>' +
+        '</div>' +
+        '<select id="snapshotSelect" class="df-snapshot" style="display:none;">' +
           '<option value="">最新データ</option>' +
         '</select>' +
       '</div>' +
-      '<div class="date-filter-status" id="dateFilterStatus"></div>';
+      '<div class="df-status" id="dateFilterStatus" style="display:none;">' +
+        '<span class="df-dot"></span>' +
+        '<span class="df-status-text" id="dfStatusText"></span>' +
+      '</div>';
 
     subtitle.parentNode.insertBefore(filterBar, subtitle.nextSibling);
 
     startInput = document.getElementById('dateStart');
     endInput = document.getElementById('dateEnd');
-    statusEl = document.getElementById('dateFilterStatus');
+    statusBar = document.getElementById('dateFilterStatus');
     snapshotSelect = document.getElementById('snapshotSelect');
 
     // Preset buttons
-    filterBar.querySelectorAll('.date-preset-btn').forEach(function(btn) {
+    filterBar.querySelectorAll('.df-preset').forEach(function(btn) {
       btn.addEventListener('click', function() {
-        filterBar.querySelectorAll('.date-preset-btn').forEach(function(b) { b.classList.remove('active'); });
+        filterBar.querySelectorAll('.df-preset').forEach(function(b) { b.classList.remove('active'); });
         btn.classList.add('active');
         applyPreset(btn.dataset.preset);
       });
@@ -61,7 +66,7 @@
 
     // Custom date apply
     document.getElementById('dateApplyBtn').addEventListener('click', function() {
-      filterBar.querySelectorAll('.date-preset-btn').forEach(function(b) { b.classList.remove('active'); });
+      filterBar.querySelectorAll('.df-preset').forEach(function(b) { b.classList.remove('active'); });
       var start = startInput.value || null;
       var end = endInput.value || null;
       if (start || end) {
@@ -73,10 +78,8 @@
     snapshotSelect.addEventListener('change', function() {
       var val = snapshotSelect.value;
       if (!val) {
-        // Reload current data
         window.location.reload();
       } else {
-        // Load snapshot data
         loadSnapshot(val);
       }
     });
@@ -121,15 +124,15 @@
   }
 
   function updateStatus(detail) {
-    if (!statusEl) return;
+    if (!statusBar) return;
 
     if (!detail.range) {
-      statusEl.textContent = '';
-      statusEl.style.display = 'none';
+      statusBar.style.display = 'none';
     } else {
       var rangeText = (detail.range.start || '開始') + ' 〜 ' + (detail.range.end || '最新');
-      statusEl.textContent = rangeText + ' (' + detail.filteredCount.toLocaleString() + '件)';
-      statusEl.style.display = 'block';
+      document.getElementById('dfStatusText').textContent =
+        'フィルター適用中: ' + rangeText + '（' + detail.filteredCount.toLocaleString() + '件）';
+      statusBar.style.display = 'flex';
     }
   }
 
@@ -145,16 +148,13 @@
   }
 
   function loadSnapshot(snapshotId) {
-    // For static site, snapshots are stored under data/snapshots/{id}/
     var basePath = 'data/snapshots/' + snapshotId + '/';
     fetch(basePath + 'hotel-reviews-all.json')
       .then(function(r) { return r.json(); })
       .then(function(data) {
-        // Replace the current data and re-apply filter
         var reviews = window.DateFilter.getReviews();
         Object.keys(data).forEach(function(k) { reviews[k] = data[k]; });
-        // Reset to all
-        filterBar.querySelectorAll('.date-preset-btn').forEach(function(b) { b.classList.remove('active'); });
+        filterBar.querySelectorAll('.df-preset').forEach(function(b) { b.classList.remove('active'); });
         filterBar.querySelector('[data-preset="all"]').classList.add('active');
         startInput.value = '';
         endInput.value = '';
@@ -165,27 +165,18 @@
       });
   }
 
-  // Set min/max on date inputs when data range is known
   function setDateBounds(range) {
     if (!range || !startInput || !endInput) return;
     dataRange = range;
-    if (range.min) {
-      startInput.min = range.min;
-      endInput.min = range.min;
-    }
-    if (range.max) {
-      startInput.max = range.max;
-      endInput.max = range.max;
-    }
+    if (range.min) { startInput.min = range.min; endInput.min = range.min; }
+    if (range.max) { startInput.max = range.max; endInput.max = range.max; }
   }
 
-  // Listen for filter engine ready
   document.addEventListener('dateFilterReady', function(e) {
     if (e.detail.dataRange) setDateBounds(e.detail.dataRange);
     if (e.detail.snapshots) populateSnapshots(e.detail.snapshots);
   });
 
-  // Listen for filter changes to update status
   document.addEventListener('dateFilterChanged', function(e) {
     updateStatus(e.detail);
   });
