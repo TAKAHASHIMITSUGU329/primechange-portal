@@ -30,6 +30,9 @@
 </style>
 <script src="scripts/common.js" defer></script>
 <script src="scripts/svg-gauge.js" defer></script>
+<script src="scripts/date-filter.js" defer></script>
+<script src="scripts/date-filter-ui.js" defer></script>
+<script src="scripts/trend-chart.js" defer></script>
 <script src="scripts/hotel-dashboard.js" defer></script>
 </head>
 <body>
@@ -51,12 +54,12 @@
   <h1 class="page-title">ホテル別口コミダッシュボード</h1>
   <p class="page-subtitle">19ホテル・1,901件の口コミを分析 &mdash; 2025年12月〜2026年3月</p>
 
-  <div class="kpi-grid">
-    <div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">管理ホテル数</div><div class="kpi-value">19</div></div>
-    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">総口コミ数</div><div class="kpi-value">1,901</div></div>
-    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">平均スコア</div><div class="kpi-value">8.38</div></div>
-    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">高評価率</div><div class="kpi-value">78.3%</div></div>
-    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">低評価率</div><div class="kpi-value">4.5%</div></div>
+  <div class="kpi-grid" id="dashKpiGrid">
+    <div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">管理ホテル数</div><div class="kpi-value" data-kpi="total_hotels">19</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">総口コミ数</div><div class="kpi-value" data-kpi="total_reviews">1,901</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">平均スコア</div><div class="kpi-value" data-kpi="avg_score">8.38</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">高評価率</div><div class="kpi-value" data-kpi="high_rate">78.3%</div></div>
+    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">低評価率</div><div class="kpi-value" data-kpi="low_rate">4.5%</div></div>
   </div>
 
   <div class="filter-bar">
@@ -458,7 +461,7 @@
 </div>
 
 <div class="modal-overlay" id="modalOverlay" onclick="if(event.target===this)closeModal();">
-  <div class="modal"><div class="modal-header"><h2 id="modalTitle" style="font-size:1.25rem;font-weight:700;"></h2><button class="modal-close" onclick="closeModal();">&#10005;</button></div><div class="modal-body" id="modalBody"></div></div>
+  <div class="modal"><div class="modal-header"><h2 id="modalTitle" style="font-size:1.25rem;font-weight:700;"></h2><button class="modal-close" onclick="closeModal();">&#10005;</button></div><div class="modal-body" id="modalBody"></div><div style="padding:0 2rem 1.5rem;"><div style="font-size:0.9rem;font-weight:700;color:var(--navy);margin-bottom:0.75rem;padding-bottom:0.5rem;border-bottom:2px solid var(--accent);">&#128200; 口コミトレンド</div><div id="modalTrend" data-hotel-key=""></div></div></div>
 </div>
 <div class="footer">&copy; 2026 PRIMECHANGE ホテル品質管理ポータル &mdash; Confidential</div>
 </body>

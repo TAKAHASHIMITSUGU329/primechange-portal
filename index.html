@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="styles/common.css">
 <script src="scripts/common.js" defer></script>
 <script src="scripts/svg-gauge.js" defer></script>
+<script src="scripts/date-filter.js" defer></script>
+<script src="scripts/date-filter-ui.js" defer></script>
+<script src="scripts/trend-chart.js" defer></script>
 </head>
 <body>
 <nav class="main-nav">
@@ -27,12 +30,12 @@
   <h1 class="page-title">ホテル品質管理ポータル</h1>
   <p class="page-subtitle">PRIMECHANGE 19ホテル・1,901件の口コミデータに基づく分析ダッシュボード &mdash; 2026年3月11日</p>
 
-  <div class="kpi-grid">
-    <div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">管理ホテル数</div><div class="kpi-value">19</div><div class="kpi-sub">ホテル</div></div>
-    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">総口コミ数</div><div class="kpi-value">1,901</div><div class="kpi-sub">件</div></div>
-    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">平均スコア</div><div class="kpi-value">8.38</div><div class="kpi-sub">/ 10 点</div></div>
-    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">高評価率</div><div class="kpi-value">78.3%</div><div class="kpi-sub">8点以上</div></div>
-    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃課題率</div><div class="kpi-value">5%</div><div class="kpi-sub">96件</div></div>
+  <div class="kpi-grid" id="indexKpiGrid">
+    <div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">管理ホテル数</div><div class="kpi-value" data-kpi="total_hotels">19</div><div class="kpi-sub">ホテル</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">総口コミ数</div><div class="kpi-value" data-kpi="total_reviews">1,901</div><div class="kpi-sub">件</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">平均スコア</div><div class="kpi-value" data-kpi="avg_score">8.38</div><div class="kpi-sub">/ 10 点</div></div>
+    <div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">高評価率</div><div class="kpi-value" data-kpi="high_rate">78.3%</div><div class="kpi-sub">8点以上</div></div>
+    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃課題率</div><div class="kpi-value" data-kpi="cleaning_issue_rate">5%</div><div class="kpi-sub" data-kpi="cleaning_issue_count">96件</div></div>
   </div>
 
   <div class="grid-cards">
@@ -96,6 +99,10 @@
         <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
       </div>
     </div>
+  </div>
+  <div class="card">
+    <div class="card-title">&#128200; 口コミトレンド（日別）</div>
+    <div id="portfolioTrend" style="width:100%;"></div>
   </div>
   <div class="card">
     <div class="card-title">&#127919; KPI目標 (2026年9月)</div>

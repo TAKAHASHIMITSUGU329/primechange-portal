@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="styles/common.css">
 <script src="scripts/common.js" defer></script>
 <script src="scripts/svg-gauge.js" defer></script>
+<script src="scripts/date-filter.js" defer></script>
+<script src="scripts/date-filter-ui.js" defer></script>
+<script src="scripts/trend-chart.js" defer></script>
 </head>
 <body>
 <nav class="main-nav">
@@ -27,11 +30,16 @@
   <h1 class="page-title">清掃戦略レポート</h1>
   <p class="page-subtitle">清掃品質の課題分析と優先度別改善戦略</p>
 
-  <div class="kpi-grid">
-    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃課題率</div><div class="kpi-value">5%</div></div>
-    <div class="kpi-card" style="border-left-color:var(--orange);"><div class="kpi-label">清掃指摘件数</div><div class="kpi-value">96</div></div>
+  <div class="kpi-grid" id="cleaningKpiGrid">
+    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃課題率</div><div class="kpi-value" data-kpi="cleaning_issue_rate">5%</div></div>
+    <div class="kpi-card" style="border-left-color:var(--orange);"><div class="kpi-label">清掃指摘件数</div><div class="kpi-value" data-kpi="cleaning_issue_count">96</div></div>
     <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">課題カテゴリ数</div><div class="kpi-value">11</div></div>
     <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">緊急対応ホテル</div><div class="kpi-value">4</div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">&#128200; 清掃課題発生トレンド</div>
+    <div id="cleaningTrend" style="width:100%;"></div>
   </div>
 
   <div class="card">

@@ -91,6 +91,39 @@
     }
   }
 
+  // Generic KPI update helper
+  function updateKPI(kpiName, value) {
+    document.querySelectorAll('[data-kpi="' + kpiName + '"]').forEach(function(el) {
+      el.textContent = value;
+    });
+  }
+
+  // Index page: update KPIs on date filter change
+  document.addEventListener('dateFilterChanged', function(e) {
+    var p = e.detail.portfolio;
+    if (!p) return;
+
+    // Index page KPIs
+    var indexGrid = document.getElementById('indexKpiGrid');
+    if (indexGrid) {
+      updateKPI('total_hotels', p.total_hotels);
+      updateKPI('total_reviews', p.total_reviews.toLocaleString());
+      updateKPI('avg_score', p.avg_score);
+      updateKPI('high_rate', p.high_rate + '%');
+      updateKPI('cleaning_issue_rate', p.cleaning_issue_rate + '%');
+      updateKPI('cleaning_issue_count', p.cleaning_issue_count + '件');
+    }
+
+    // Cleaning strategy KPIs
+    var cleanGrid = document.getElementById('cleaningKpiGrid');
+    if (cleanGrid) {
+      var cleanRate = cleanGrid.querySelector('[data-kpi="cleaning_issue_rate"]');
+      var cleanCount = cleanGrid.querySelector('[data-kpi="cleaning_issue_count"]');
+      if (cleanRate) cleanRate.textContent = p.cleaning_issue_rate + '%';
+      if (cleanCount) cleanCount.textContent = p.cleaning_issue_count;
+    }
+  });
+
   // Expose globals
   window.escHtml = escHtml;
   window.showTab = showTab;
