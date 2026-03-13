@@ -5,13 +5,21 @@
 
   var filterBar = null;
   var statusBar = null;
+  var snapshotBanner = null;
   var startInput = null;
   var endInput = null;
   var snapshotSelect = null;
   var dataRange = null;
+  var cachedSnapshots = null;
 
   function formatDate(d) {
     return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+
+  function shortDate(dateStr) {
+    // "2026-03-13" -> "3/13"
+    var parts = dateStr.split('-');
+    return parseInt(parts[1]) + '/' + parseInt(parts[2]);
   }
 
   function createFilterBar() {
@@ -43,6 +51,10 @@
           '<option value="">最新データ</option>' +
         '</select>' +
       '</div>' +
+      '<div class="df-snapshot-banner" id="snapshotBanner" style="display:none;">' +
+        '<span class="df-snapshot-banner-text" id="snapshotBannerText"></span>' +
+        '<button class="df-snapshot-banner-close" id="snapshotBannerClose">最新に戻す</button>' +
+      '</div>' +
       '<div class="df-status" id="dateFilterStatus" style="display:none;">' +
         '<span class="df-dot"></span>' +
         '<span class="df-status-text" id="dfStatusText"></span>' +
@@ -54,6 +66,7 @@
     endInput = document.getElementById('dateEnd');
     statusBar = document.getElementById('dateFilterStatus');
     snapshotSelect = document.getElementById('snapshotSelect');
+    snapshotBanner = document.getElementById('snapshotBanner');
 
     // Preset buttons
     filterBar.querySelectorAll('.df-preset').forEach(function(btn) {
@@ -74,14 +87,16 @@
       }
     });
 
-    // Snapshot select
+    // Snapshot select — use DateFilter.loadSnapshot for full replacement
     snapshotSelect.addEventListener('change', function() {
       var val = snapshotSelect.value;
-      if (!val) {
-        window.location.reload();
-      } else {
-        loadSnapshot(val);
-      }
+      window.DateFilter.loadSnapshot(val || null);
+    });
+
+    // Banner close button — restore latest
+    document.getElementById('snapshotBannerClose').addEventListener('click', function() {
+      snapshotSelect.value = '';
+      window.DateFilter.loadSnapshot(null);
     });
   }
 
@@ -126,9 +141,9 @@
   function updateStatus(detail) {
     if (!statusBar) return;
 
-    if (!detail.range) {
+    if (!detail.range && !detail.snapshotId) {
       statusBar.style.display = 'none';
-    } else {
+    } else if (detail.range) {
       var rangeText = (detail.range.start || '開始') + ' 〜 ' + (detail.range.end || '最新');
       document.getElementById('dfStatusText').textContent =
         'フィルター適用中: ' + rangeText + '（' + detail.filteredCount.toLocaleString() + '件）';
@@ -136,33 +151,66 @@
     }
   }
 
-  function populateSnapshots(snapshots) {
-    if (!snapshotSelect || !snapshots || snapshots.length === 0) return;
-    snapshotSelect.style.display = 'block';
-    snapshots.forEach(function(snap) {
-      var opt = document.createElement('option');
-      opt.value = snap.id || snap.date;
-      opt.textContent = snap.date + ' (' + snap.total_reviews + '件)';
-      snapshotSelect.appendChild(opt);
-    });
+  function updateSnapshotBanner(snapshotId) {
+    if (!snapshotBanner) return;
+    if (!snapshotId) {
+      snapshotBanner.style.display = 'none';
+      return;
+    }
+
+    var snap = findSnapshot(snapshotId);
+    var text = '\uD83D\uDCC5 ' + snapshotId + ' のデータを表示中';
+    if (snap) {
+      text += '（' + snap.total_reviews.toLocaleString() + '件';
+      if (snap.avg_score) text += ' / ' + snap.avg_score + 'pt';
+      text += '）';
+    }
+    document.getElementById('snapshotBannerText').textContent = text;
+    snapshotBanner.style.display = 'flex';
   }
 
-  function loadSnapshot(snapshotId) {
-    var basePath = 'data/snapshots/' + snapshotId + '/';
-    fetch(basePath + 'hotel-reviews-all.json')
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        var reviews = window.DateFilter.getReviews();
-        Object.keys(data).forEach(function(k) { reviews[k] = data[k]; });
-        filterBar.querySelectorAll('.df-preset').forEach(function(b) { b.classList.remove('active'); });
-        filterBar.querySelector('[data-preset="all"]').classList.add('active');
-        startInput.value = '';
-        endInput.value = '';
-        window.DateFilter.apply(null, null);
-      })
-      .catch(function() {
-        console.warn('Snapshot not found: ' + snapshotId);
-      });
+  function findSnapshot(id) {
+    if (!cachedSnapshots) return null;
+    for (var i = 0; i < cachedSnapshots.length; i++) {
+      if (cachedSnapshots[i].id === id) return cachedSnapshots[i];
+    }
+    return null;
+  }
+
+  function findLatestSnapshot() {
+    if (!cachedSnapshots || cachedSnapshots.length === 0) return null;
+    return cachedSnapshots[cachedSnapshots.length - 1];
+  }
+
+  function populateSnapshots(snapshots) {
+    if (!snapshotSelect || !snapshots || snapshots.length === 0) return;
+    cachedSnapshots = snapshots;
+
+    // Only show dropdown if there are multiple snapshots
+    if (snapshots.length <= 1) return;
+    snapshotSelect.style.display = 'block';
+
+    var latest = findLatestSnapshot();
+
+    snapshots.slice().reverse().forEach(function(snap) {
+      var opt = document.createElement('option');
+      opt.value = snap.id || snap.date;
+
+      // Format: "3/13 (1,919件 / 8.38pt)"
+      var label = shortDate(snap.date) + ' (' + snap.total_reviews.toLocaleString() + '件';
+      if (snap.avg_score) label += ' / ' + snap.avg_score + 'pt';
+      label += ')';
+
+      // Add diff badge vs latest
+      if (latest && snap.id !== latest.id) {
+        var reviewDiff = snap.total_reviews - latest.total_reviews;
+        var diffStr = reviewDiff >= 0 ? '+' + reviewDiff : '' + reviewDiff;
+        label += ' [' + diffStr + '件]';
+      }
+
+      opt.textContent = label;
+      snapshotSelect.appendChild(opt);
+    });
   }
 
   function setDateBounds(range) {
@@ -179,6 +227,17 @@
 
   document.addEventListener('dateFilterChanged', function(e) {
     updateStatus(e.detail);
+  });
+
+  document.addEventListener('snapshotChanged', function(e) {
+    updateSnapshotBanner(e.detail.snapshotId);
+    // Reset filter UI
+    if (filterBar) {
+      filterBar.querySelectorAll('.df-preset').forEach(function(b) { b.classList.remove('active'); });
+      filterBar.querySelector('[data-preset="all"]').classList.add('active');
+      if (startInput) startInput.value = '';
+      if (endInput) endInput.value = '';
+    }
   });
 
   document.addEventListener('DOMContentLoaded', createFilterBar);

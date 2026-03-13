@@ -7,6 +7,11 @@
   var buildMeta = null;
   var snapshotIndex = null;
   var currentRange = null; // {start, end} or null for all
+  var activeSnapshotId = null; // currently loaded snapshot ID, null = latest
+
+  // Cache of latest (live) data for restore without reload
+  var latestReviews = null;
+  var latestMeta = null;
 
   var CLEANING_KEYWORDS = ['清掃', '汚れ', 'ゴミ', '髪の毛', 'シミ', 'カビ', 'ほこり', '埃', '汚い', '不潔', '臭い', 'におい', '匂い', 'ホコリ', 'しみ', 'かび', 'ごみ'];
 
@@ -204,10 +209,52 @@
         hotelDaily: hotelDaily,
         filteredReviews: filtered,
         cleaningKeywords: CLEANING_KEYWORDS,
-        tierColor: TIER_COLOR
+        tierColor: TIER_COLOR,
+        snapshotId: activeSnapshotId,
+        snapshots: snapshotIndex
       }
     });
     document.dispatchEvent(event);
+  }
+
+  // Load a snapshot: fully replace reviews data (not merge)
+  function loadSnapshot(snapshotId) {
+    if (!snapshotId) {
+      // Restore latest data without reload
+      if (latestReviews) {
+        allReviews = latestReviews;
+        buildMeta = latestMeta;
+        activeSnapshotId = null;
+        applyFilter(null, null);
+        document.dispatchEvent(new CustomEvent('snapshotChanged', {
+          detail: { snapshotId: null, isLatest: true }
+        }));
+      }
+      return Promise.resolve();
+    }
+
+    var basePath = 'data/snapshots/' + snapshotId + '/';
+    return Promise.all([
+      fetch(basePath + 'hotel-reviews-all.json').then(function(r) { return r.json(); }),
+      fetch(basePath + 'build-meta.json').then(function(r) { return r.json(); }).catch(function() { return null; })
+    ]).then(function(results) {
+      var snapshotReviews = results[0];
+      var snapshotMeta = results[1];
+
+      // Full replacement (not merge)
+      allReviews = snapshotReviews;
+      if (snapshotMeta) buildMeta = snapshotMeta;
+      activeSnapshotId = snapshotId;
+
+      // Reset filter and recalculate everything
+      applyFilter(null, null);
+
+      document.dispatchEvent(new CustomEvent('snapshotChanged', {
+        detail: { snapshotId: snapshotId, isLatest: false, meta: snapshotMeta }
+      }));
+    }).catch(function(e) {
+      console.warn('Snapshot load failed: ' + snapshotId, e);
+    });
   }
 
   function loadAllReviews() {
@@ -215,11 +262,13 @@
       .then(function(r) { return r.json(); })
       .then(function(data) {
         allReviews = data;
+        latestReviews = data; // Cache for restore
         return data;
       })
       .catch(function(e) {
         console.warn('hotel-reviews-all.json の読み込みに失敗:', e);
         allReviews = {};
+        latestReviews = {};
         return {};
       });
   }
@@ -227,7 +276,11 @@
   function loadBuildMeta() {
     return fetch('data/build-meta.json')
       .then(function(r) { return r.json(); })
-      .then(function(data) { buildMeta = data; return data; })
+      .then(function(data) {
+        buildMeta = data;
+        latestMeta = data; // Cache for restore
+        return data;
+      })
       .catch(function() { return null; });
   }
 
@@ -260,10 +313,12 @@
   // Expose API
   window.DateFilter = {
     apply: applyFilter,
+    loadSnapshot: loadSnapshot,
     getReviews: function() { return allReviews; },
     getMeta: function() { return buildMeta; },
     getSnapshots: function() { return snapshotIndex; },
     getRange: function() { return currentRange; },
+    getActiveSnapshot: function() { return activeSnapshotId; },
     calcHotelKPI: calcHotelKPI,
     getDailyStats: getDailyStats,
     movingAvg: movingAvg,
