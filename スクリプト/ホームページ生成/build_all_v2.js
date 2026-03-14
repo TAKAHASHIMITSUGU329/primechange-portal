@@ -1,5 +1,5 @@
-// PRIMECHANGE V2 Dashboard - Build Orchestrator
-// Generates 7 pages in ホームページV2/
+// PRIMECHANGE V3 Dashboard - Build Orchestrator
+// Generates 10 pages in ホームページV2/
 const fs = require('fs');
 const path = require('path');
 
@@ -18,9 +18,9 @@ const { buildDeepAnalysis } = require('./lib/page-deep-analysis');
 const { buildRevenueImpact } = require('./lib/page-revenue-impact');
 const { buildActionPlans } = require('./lib/page-action-plans');
 const { buildESDashboard } = require('./lib/page-es-dashboard');
-
-// Deep analysis renderers (reused from V1)
-// Already required by page-deep-analysis.js
+const { buildExecutive } = require('./lib/page-executive');
+const { buildSimulator } = require('./lib/page-simulator');
+const { buildOTA } = require('./lib/page-ota');
 
 // Paths
 const DATA_DIR = path.join(__dirname, '..', '..', 'データ', '分析結果JSON');
@@ -246,9 +246,21 @@ if (typeof actionResult === 'object' && actionResult.html) {
   writePage('action-plans.html', actionResult);
 }
 
-// 7. ES Dashboard (new!)
+// 7. ES Dashboard
 var esHtml = buildESDashboard(data);
 writePage('es-dashboard.html', esHtml);
+
+// 8. Executive Summary (V3)
+var execHtml = buildExecutive(data, deltas, revenueOps, csResults);
+writePage('executive.html', execHtml);
+
+// 9. Revenue Simulator (V3)
+var simHtml = buildSimulator(data, revenueOps);
+writePage('simulator.html', simHtml);
+
+// 10. OTA Strategy (V3)
+var otaHtml = buildOTA(data);
+writePage('ota-strategy.html', otaHtml);
 
 // ============================================================
 // Phase 5: Snapshot management
@@ -311,8 +323,8 @@ console.log('  data/inline-data.js (updated with snapshot index)');
 console.log('');
 console.log('=== Build Complete! ===');
 console.log('Output: ' + OUTPUT_DIR);
-console.log('Pages: index.html, hotel-dashboard.html, cleaning-strategy.html,');
+console.log('Pages: executive.html, index.html, hotel-dashboard.html, cleaning-strategy.html,');
 console.log('       deep-analysis.html, revenue-impact.html, action-plans.html,');
-console.log('       es-dashboard.html');
+console.log('       es-dashboard.html, simulator.html, ota-strategy.html');
 console.log('');
 console.log('To view: open ' + path.join(OUTPUT_DIR, 'index.html'));

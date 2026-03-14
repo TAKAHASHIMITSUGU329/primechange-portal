@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ホテル別口コミダッシュボード - PRIMECHANGE V2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/common-v2.css">
 <style>
 .hotel-card-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.75rem; }
@@ -66,15 +69,18 @@
 <body>
 <nav class="main-nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand">PRIMECHANGE <span class="v2-badge">V2</span></a>
+    <a href="executive.html" class="nav-brand"><img src="https://primechange.co.jp/wp-content/themes/prime_change/assets/img/logo.png" alt="PRIME CHANGE" class="nav-logo"></a>
     <div class="nav-links">
+      <a href="executive.html" class="nav-link">EXECUTIVE</a>
       <a href="index.html" class="nav-link">ポータル</a>
-      <a href="hotel-dashboard.html" class="nav-link active">ホテル別口コミ</a>
+      <a href="hotel-dashboard.html" class="nav-link active">ホテル別</a>
       <a href="cleaning-strategy.html" class="nav-link">清掃戦略</a>
       <a href="deep-analysis.html" class="nav-link">深掘り分析</a>
-      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
-      <a href="action-plans.html" class="nav-link">アクションプラン</a>
+      <a href="simulator.html" class="nav-link">シミュレーター</a>
+      <a href="ota-strategy.html" class="nav-link">OTA戦略</a>
+      <a href="action-plans.html" class="nav-link">アクション</a>
       <a href="es-dashboard.html" class="nav-link">ES管理</a>
+      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
     </div>
     <button class="nav-toggle">&#9776;</button>
   </div>
@@ -605,6 +611,6 @@ var hotelRanked = [{"rank":1,"name":"コンフォートスイーツ東京ベイ"
 var tierColor = {"優秀":"#10B981","良好":"#3B82F6","概ね良好":"#F59E0B","要改善":"#EF4444"};
 var revenueOps = {"comfort_suites_tokyobay":{"name":"コンフォートスイーツ東京ベイ","key":"comfort_suites_tokyobay","currentScore":9.16,"targetScore":8.89,"gap":-0.27,"monthlyLoss":0,"roomCount":312,"actualRevenue":13228360,"occupancyRate":0.7214,"priority":null},"comfort_era_higashikanda":{"name":"コンフォートホテルERA東京東神田","key":"comfort_era_higashikanda","currentScore":9.16,"targetScore":8.89,"gap":-0.27,"monthlyLoss":0,"roomCount":188,"actualRevenue":4047280,"occupancyRate":0.6584,"priority":null},"keisei_kinshicho":{"name":"京成リッチモンドホテル東京錦糸町","key":"keisei_kinshicho","currentScore":9.01,"targetScore":8.89,"gap":-0.12,"monthlyLoss":0,"roomCount":0,"actualRevenue":0,"occupancyRate":0,"priority":null},"daiichi_ikebukuro":{"name":"第一イン池袋","key":"daiichi_ikebukuro","currentScore":9.01,"targetScore":8.89,"gap":-0.12,"monthlyLoss":0,"roomCount":139,"actualRevenue":4310610,"occupancyRate":0.7621,"priority":null},"keyakigate":{"name":"ホテルケヤキゲート東京府中","key":"keyakigate","currentScore":8.81,"targetScore":8.89,"gap":0.08,"monthlyLoss":85717,"roomCount":156,"actualRevenue":4425395,"occupancyRate":0.8239,"priority":null},"daiwa_osaki":{"name":"ダイワロイネットホテル東京大崎","key":"daiwa_osaki","currentScore":8.8,"targetScore":8.89,"gap":0.09,"monthlyLoss":119922,"roomCount":194,"actualRevenue":5203037,"occupancyRate":0.7029,"priority":null},"comment_yokohama":{"name":"ホテルコメント横浜関内","key":"comment_yokohama","currentScore":8.77,"targetScore":9.3,"gap":0.53,"monthlyLoss":422268,"roomCount":116,"actualRevenue":4463320,"occupancyRate":0.7916,"priority":"HIGH"},"richmond_mejiro":{"name":"リッチモンドホテル東京目白","key":"richmond_mejiro","currentScore":8.72,"targetScore":8.89,"gap":0.17,"monthlyLoss":169305,"roomCount":145,"actualRevenue":3663440,"occupancyRate":0.8175,"priority":null},"kawasaki_nikko":{"name":"川崎日航ホテル","key":"kawasaki_nikko","currentScore":8.58,"targetScore":9.1,"gap":0.52,"monthlyLoss":657166,"roomCount":184,"actualRevenue":7168120,"occupancyRate":0.7939,"priority":"HIGH"},"comfort_narita":{"name":"コンフォートホテル成田","key":"comfort_narita","currentScore":8.55,"targetScore":8.89,"gap":0.34,"monthlyLoss":331605,"roomCount":142,"actualRevenue":2655760,"occupancyRate":0.6595,"priority":null},"hearton":{"name":"ハートンホテル東品川","key":"hearton","currentScore":8.53,"targetScore":8.89,"gap":0.36,"monthlyLoss":1107732,"roomCount":448,"actualRevenue":11211550,"occupancyRate":0.7971,"priority":null},"henn_na_haneda":{"name":"変なホテル東京羽田","key":"henn_na_haneda","currentScore":8.3,"targetScore":8.89,"gap":0.59,"monthlyLoss":810468,"roomCount":200,"actualRevenue":5358150,"occupancyRate":0.7821,"priority":null},"apa_sagamihara":{"name":"アパホテル相模原橋本駅東","key":"apa_sagamihara","currentScore":8.19,"targetScore":8.89,"gap":0.7,"monthlyLoss":562520,"roomCount":117,"actualRevenue":2698420,"occupancyRate":0.6694,"priority":null},"comfort_roppongi":{"name":"コンフォートイン六本木","key":"comfort_roppongi","currentScore":8.13,"targetScore":8.6,"gap":0.47,"monthlyLoss":368008,"roomCount":114,"actualRevenue":2842630,"occupancyRate":0.7227,"priority":"HIGH"},"comfort_yokohama_kannai":{"name":"コンフォートホテル横浜関内","key":"comfort_yokohama_kannai","currentScore":7.82,"targetScore":8.3,"gap":0.48,"monthlyLoss":0,"roomCount":0,"actualRevenue":0,"occupancyRate":0,"priority":"HIGH"},"comfort_hakata":{"name":"コンフォートホテル博多","key":"comfort_hakata","currentScore":7.78,"targetScore":8.3,"gap":0.52,"monthlyLoss":864316,"roomCount":242,"actualRevenue":5764630,"occupancyRate":0.781,"priority":"URGENT"},"apa_kamata":{"name":"アパホテル蒲田駅東","key":"apa_kamata","currentScore":7.4,"targetScore":7.9,"gap":0.5,"monthlyLoss":755521,"roomCount":220,"actualRevenue":4679520,"occupancyRate":0.7453,"priority":"URGENT"},"chisan":{"name":"チサンホテル浜松町","key":"chisan","currentScore":7.05,"targetScore":7.5,"gap":0.45,"monthlyLoss":939594,"roomCount":304,"actualRevenue":5578650,"occupancyRate":0.6777,"priority":"URGENT"},"court_shinyokohama":{"name":"コートホテル新横浜","key":"court_shinyokohama","currentScore":7.03,"targetScore":7.5,"gap":0.47,"monthlyLoss":616574,"roomCount":191,"actualRevenue":3705215,"occupancyRate":0.7089,"priority":"URGENT"}};
 </script>
-<div class="footer">&copy; 2026 PRIMECHANGE ホテル品質管理ポータル V2 &mdash; Confidential</div>
+<div class="footer">&copy; 2026 PRIME CHANGE Corporation &mdash; Hotel Quality Management Portal &mdash; Confidential</div>
 </body>
 </html>

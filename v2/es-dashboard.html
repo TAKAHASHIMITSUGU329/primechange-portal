@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ES（従業員満足度）ダッシュボード - PRIMECHANGE V2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/common-v2.css">
 <style>
 .corr-card { text-align: center; }
@@ -20,15 +23,18 @@
 <body>
 <nav class="main-nav">
   <div class="nav-inner">
-    <a href="index.html" class="nav-brand">PRIMECHANGE <span class="v2-badge">V2</span></a>
+    <a href="executive.html" class="nav-brand"><img src="https://primechange.co.jp/wp-content/themes/prime_change/assets/img/logo.png" alt="PRIME CHANGE" class="nav-logo"></a>
     <div class="nav-links">
+      <a href="executive.html" class="nav-link">EXECUTIVE</a>
       <a href="index.html" class="nav-link">ポータル</a>
-      <a href="hotel-dashboard.html" class="nav-link">ホテル別口コミ</a>
+      <a href="hotel-dashboard.html" class="nav-link">ホテル別</a>
       <a href="cleaning-strategy.html" class="nav-link">清掃戦略</a>
       <a href="deep-analysis.html" class="nav-link">深掘り分析</a>
-      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
-      <a href="action-plans.html" class="nav-link">アクションプラン</a>
+      <a href="simulator.html" class="nav-link">シミュレーター</a>
+      <a href="ota-strategy.html" class="nav-link">OTA戦略</a>
+      <a href="action-plans.html" class="nav-link">アクション</a>
       <a href="es-dashboard.html" class="nav-link active">ES管理</a>
+      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
     </div>
     <button class="nav-toggle">&#9776;</button>
   </div>
@@ -120,6 +126,6 @@
 <div class="accordion-item"><div class="accordion-header" onclick="this.parentElement.classList.toggle('open')">データ入力の標準化と充実 <span class="badge badge-orange">中</span><span class="accordion-arrow">&#9660;</span></div><div class="accordion-body"><p style="font-size:0.8rem;color:var(--text-light);margin-bottom:0.5rem;">日報のメイド数・チェッカー数の入力率がホテルにより大きく異なる。正確な分析のためにデータ品質向上が必要。</p><ul style="font-size:0.8rem;padding-left:1.2rem;"><li style="margin-bottom:0.3rem;">日報必須入力項目の明確化（メイド数・チェッカー数・完了時間）</li><li style="margin-bottom:0.3rem;">翌日稼働数の数値入力フォーマット統一</li><li style="margin-bottom:0.3rem;">月次での入力率チェックと改善フィードバック</li></ul></div></div>
 </div>
 </div>
-<div class="footer">&copy; 2026 PRIMECHANGE ホテル品質管理ポータル V2 &mdash; Confidential</div>
+<div class="footer">&copy; 2026 PRIME CHANGE Corporation &mdash; Hotel Quality Management Portal &mdash; Confidential</div>
 </body>
 </html>
