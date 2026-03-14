@@ -36,8 +36,15 @@
   </div>
 </nav>
 <div class="container">
+<div class="alert-banner info">
+  <div class="alert-banner-icon">&#128172;</div>
+  <div class="alert-banner-content">
+    <div class="alert-banner-title">新規口コミ</div>
+    <div class="alert-banner-msg">+44件の新規口コミを取得</div>
+  </div>
+</div>
 <h1 class="page-title">PRIMECHANGE ポートフォリオ品質管理ポータル V2</h1>
-<p class="page-subtitle">2026年3月11日 更新 &mdash; 19ホテル・1,968件の口コミデータに基づく統合ダッシュボード</p>
+<p class="page-subtitle">2026年3月11日 更新 &mdash; 19ホテル・2,012件の口コミデータに基づく統合ダッシュボード</p>
 
 <div class="kpi-grid" id="indexKpiGrid">
 <div class="kpi-card" style="border-left-color:var(--accent);">
@@ -49,9 +56,9 @@
 </div>
 <div class="kpi-card" style="border-left-color:var(--green);">
   <div class="kpi-label">口コミ数</div>
-  <div class="kpi-value" data-kpi="total_reviews">1,968</div>
+  <div class="kpi-value" data-kpi="total_reviews">2,012</div>
   <div class="kpi-sub">件</div>
-<div class="kpi-delta down">&#9654; 0</div>
+<div class="kpi-delta up">&#9650; +44</div>
 
 </div>
 <div class="kpi-card" style="border-left-color:var(--green);">
@@ -63,17 +70,17 @@
 </div>
 <div class="kpi-card" style="border-left-color:var(--green);">
   <div class="kpi-label">高評価率</div>
-  <div class="kpi-value" data-kpi="high_rate">78.4%</div>
+  <div class="kpi-value" data-kpi="high_rate">78.3%</div>
   <div class="kpi-sub">8点以上</div>
-<div class="kpi-delta down">&#9654; 0</div>
-<div class="kpi-target">目標83.4 達成率<span class="achievement good">94%</span></div>
+<div class="kpi-delta down">&#9660; -0.1</div>
+<div class="kpi-target">目標83.4 達成率<span class="achievement good">93.9%</span></div>
 </div>
 <div class="kpi-card" style="border-left-color:var(--red);">
   <div class="kpi-label">清掃クレーム率</div>
-  <div class="kpi-value" data-kpi="cleaning_issue_rate">5%</div>
+  <div class="kpi-value" data-kpi="cleaning_issue_rate">4.9%</div>
   <div class="kpi-sub">98件</div>
-<div class="kpi-delta down">&#9654; 0</div>
-<div class="kpi-target">目標2 達成率<span class="achievement bad">40%</span></div>
+<div class="kpi-delta up">&#9660; -0.1</div>
+<div class="kpi-target">目標2 達成率<span class="achievement bad">40.8%</span></div>
 </div>
 </div>
 
@@ -83,7 +90,7 @@
   <div class="link-card-icon">&#128200;</div>
   <div class="link-card-title">ホテル別口コミ</div>
   <div class="link-card-desc">ホテルの口コミ分析をカード形式で一覧。サイト別評価・スコア分布・口コミ詳細をモーダルで閲覧。</div>
-  <div class="link-card-stat">19ホテル / 1,968件 &rarr;</div>
+  <div class="link-card-stat">19ホテル / 2,012件 &rarr;</div>
 </div></a>
 <a href="cleaning-strategy.html" class="link-card">
 <div class="card">
@@ -129,7 +136,7 @@
       <div>
         <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#1</span>
         <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">コンフォートホテル博多</span>
-        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.78 &rarr; 目標 8.3</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.83 &rarr; 目標 8.3</span>
       </div>
 
     </div>
@@ -150,8 +157,8 @@
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
       <div>
         <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#3</span>
-        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">アパホテル蒲田駅東</span>
-        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.4 &rarr; 目標 7.9</span>
+        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">コートホテル新横浜</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.03 &rarr; 目標 7.5</span>
       </div>
 
     </div>
@@ -164,20 +171,14 @@
   <div class="alert-grid">
     <div class="alert-item">
       <div class="alert-item-title">コンフォートホテル博多</div>
-      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.78</strong> / 清掃課題率: <strong>14.2%</strong></div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.83</strong> / 清掃課題率: <strong>13.6%</strong></div>
       <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, カーペット汚れ</div>
 
     </div>
     <div class="alert-item">
       <div class="alert-item-title">チサンホテル浜松町</div>
-      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.05</strong> / 清掃課題率: <strong>11.9%</strong></div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.05</strong> / 清掃課題率: <strong>11.5%</strong></div>
       <div class="alert-item-sub">主要課題: 清掃品質全般, 排水・詰まり, ほこり・塵</div>
-
-    </div>
-    <div class="alert-item">
-      <div class="alert-item-title">アパホテル蒲田駅東</div>
-      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.4</strong> / 清掃課題率: <strong>9.5%</strong></div>
-      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
 
     </div>
     <div class="alert-item">
@@ -187,26 +188,32 @@
 
     </div>
     <div class="alert-item">
+      <div class="alert-item-title">アパホテル蒲田駅東</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.39</strong> / 清掃課題率: <strong>9.1%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
+
+    </div>
+    <div class="alert-item">
       <div class="alert-item-title">コンフォートホテル横浜関内</div>
-      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.82</strong> / 清掃課題率: <strong>10%</strong></div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.8</strong> / 清掃課題率: <strong>9.8%</strong></div>
       <div class="alert-item-sub">主要課題: 清掃品質全般, シミ・汚れ跡, 臭気・異臭</div>
 
     </div>
     <div class="alert-item">
       <div class="alert-item-title">コンフォートイン六本木</div>
-      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.13</strong> / 清掃課題率: <strong>6.7%</strong></div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.13</strong> / 清掃課題率: <strong>6.5%</strong></div>
       <div class="alert-item-sub">主要課題: 臭気・異臭, 清掃品質全般, タバコ関連</div>
 
     </div>
     <div class="alert-item">
       <div class="alert-item-title">川崎日航ホテル</div>
-      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.58</strong> / 清掃課題率: <strong>6.6%</strong></div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.59</strong> / 清掃課題率: <strong>6.4%</strong></div>
       <div class="alert-item-sub">主要課題: 清掃品質全般, ゴミ残置, 臭気・異臭</div>
 
     </div>
     <div class="alert-item">
       <div class="alert-item-title">ホテルコメント横浜関内</div>
-      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.77</strong> / 清掃課題率: <strong>6.2%</strong></div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.79</strong> / 清掃課題率: <strong>6.1%</strong></div>
       <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
 
     </div>
@@ -228,18 +235,18 @@
     </div>
     <div class="gauge-item">
       <div class="gauge-label">清掃クレーム率</div>
-      <div class="svg-gauge" data-value="5" data-target="2" data-unit="%" data-label="清掃クレーム率" data-lower="true"></div>
-      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">40%</span></div>
+      <div class="svg-gauge" data-value="4.9" data-target="2" data-unit="%" data-label="清掃クレーム率" data-lower="true"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">40.8%</span></div>
     </div>
     <div class="gauge-item">
       <div class="gauge-label">高評価率</div>
-      <div class="svg-gauge" data-value="78.4" data-target="83.4" data-unit="%" data-label="高評価率" data-lower="false"></div>
-      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">94%</span></div>
+      <div class="svg-gauge" data-value="78.3" data-target="83.4" data-unit="%" data-label="高評価率" data-lower="false"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">93.9%</span></div>
     </div>
     <div class="gauge-item">
       <div class="gauge-label">低評価率</div>
-      <div class="svg-gauge" data-value="4.5" data-target="2.2" data-unit="%" data-label="低評価率" data-lower="true"></div>
-      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">48.9%</span></div>
+      <div class="svg-gauge" data-value="4.6" data-target="2.2" data-unit="%" data-label="低評価率" data-lower="true"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">47.8%</span></div>
     </div>
   </div>
 </div>
