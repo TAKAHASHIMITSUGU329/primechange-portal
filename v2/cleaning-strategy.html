@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>清掃品質改善戦略 - PRIMECHANGE V2</title>
+<link rel="stylesheet" href="styles/common-v2.css">
+<style>
+.severity-legend { margin-top:0.75rem; font-size:0.7rem; color:var(--text-light); }
+.severity-legend span { margin-right:0.75rem; }
+</style>
+<script src="data/inline-data.js"></script>
+<script src="scripts/common-v2.js" defer></script>
+<script src="scripts/svg-gauge-v2.js" defer></script>
+<script src="scripts/date-filter-v2.js" defer></script>
+<script src="scripts/date-filter-ui-v2.js" defer></script>
+<script src="scripts/page-snapshot-v2.js" defer></script>
+<script src="scripts/trend-chart-v2.js" defer></script>
+</head>
+<body>
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">PRIMECHANGE <span class="v2-badge">V2</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">ポータル</a>
+      <a href="hotel-dashboard.html" class="nav-link">ホテル別口コミ</a>
+      <a href="cleaning-strategy.html" class="nav-link active">清掃戦略</a>
+      <a href="deep-analysis.html" class="nav-link">深掘り分析</a>
+      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
+      <a href="action-plans.html" class="nav-link">アクションプラン</a>
+      <a href="es-dashboard.html" class="nav-link">ES管理</a>
+    </div>
+    <button class="nav-toggle">&#9776;</button>
+  </div>
+</nav>
+<div class="container">
+  <h1 class="page-title">清掃品質改善戦略</h1>
+  <p class="page-subtitle">カテゴリ別課題分析・収益インパクト・優先度マトリクスによる戦略的清掃改善</p>
+
+  <div class="fulldata-banner">
+    <span>&#9888;&#65039;</span>
+    <div>この分析は全期間データがベースです。日付フィルターは口コミ件数にのみ適用されます。</div>
+  </div>
+
+  <div class="kpi-grid" id="cleaningKpiGrid">
+    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃クレーム率</div><div class="kpi-value" data-kpi="cleaning_issue_rate">5%</div></div>
+    <div class="kpi-card" style="border-left-color:var(--orange);"><div class="kpi-label">清掃クレーム件数</div><div class="kpi-value" data-kpi="cleaning_issue_count">98</div></div>
+    <div class="kpi-card" style="border-left-color:var(--purple);"><div class="kpi-label">カテゴリ数</div><div class="kpi-value">11</div></div>
+    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">緊急対応ホテル</div><div class="kpi-value">4</div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">&#128200; 清掃課題発生トレンド</div>
+    <div id="cleaningTrend" style="width:100%;"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">&#128202; 課題カテゴリ別件数 &amp; 推定収益損失</div>
+<div class="h-bar"><div class="h-bar-label">清掃品質全般</div><div class="h-bar-track"><div class="h-bar-fill" style="width:100%;background:#EF4444;"><span class="h-bar-val">66件 (16ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;353万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">臭気・異臭</div><div class="h-bar-track"><div class="h-bar-fill" style="width:36%;background:#EF4444;"><span class="h-bar-val">24件 (11ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;128万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">排水・詰まり</div><div class="h-bar-track"><div class="h-bar-fill" style="width:14%;background:#F59E0B;"><span class="h-bar-val">9件 (7ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;48万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">毛髪・髪の毛</div><div class="h-bar-track"><div class="h-bar-fill" style="width:12%;background:#F59E0B;"><span class="h-bar-val">8件 (7ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;43万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">タバコ関連</div><div class="h-bar-track"><div class="h-bar-fill" style="width:12%;background:#F59E0B;"><span class="h-bar-val">8件 (8ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;43万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">カビ・モールド</div><div class="h-bar-track"><div class="h-bar-fill" style="width:11%;background:#F59E0B;"><span class="h-bar-val">7件 (5ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;37万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">カーペット汚れ</div><div class="h-bar-track"><div class="h-bar-fill" style="width:11%;background:#F59E0B;"><span class="h-bar-val">7件 (3ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;37万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">ゴミ残置</div><div class="h-bar-track"><div class="h-bar-fill" style="width:11%;background:#F59E0B;"><span class="h-bar-val">7件 (4ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;37万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">シミ・汚れ跡</div><div class="h-bar-track"><div class="h-bar-fill" style="width:6%;background:#3B82F6;"><span class="h-bar-val">4件 (2ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;21万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">害虫</div><div class="h-bar-track"><div class="h-bar-fill" style="width:6%;background:#3B82F6;"><span class="h-bar-val">4件 (2ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;21万/月</span></div>
+<div class="h-bar"><div class="h-bar-label">ほこり・塵</div><div class="h-bar-track"><div class="h-bar-fill" style="width:3%;background:#6B7280;"><span class="h-bar-val">2件 (2ホテル)</span></div></div></div><div style="margin-left:126px;margin-top:-0.2rem;margin-bottom:0.5rem;"><span class="revenue-badge loss">推定損失: &yen;11万/月</span></div>
+    <div class="severity-legend">
+      色: <span style="color:#EF4444;">&#9632; CRITICAL</span>
+      <span style="color:#F59E0B;">&#9632; HIGH</span>
+      <span style="color:#3B82F6;">&#9632; MEDIUM</span>
+      <span style="color:#6B7280;">&#9632; LOW</span>
+    </div>
+    <div style="margin-top:0.75rem;padding:0.75rem;background:#FEF2F2;border-radius:8px;font-size:0.82rem;text-align:center;"><strong>清掃課題による推定総損失:</strong> &yen;781万/月</div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">&#128293; ホテル&times;課題カテゴリ ヒートマップ</div>
+    <div class="heatmap-wrap"><table class="heatmap"><tr><th class="row-header">ホテル名</th><th>スコア</th><th>課題率</th><th>清掃品質全般</th><th>臭気・異臭</th><th>排水・詰まり</th><th>毛髪・髪の毛</th><th>タバコ関連</th><th>カビ・モールド</th><th>カーペット汚れ</th><th>ゴミ残置</th><th>シミ・汚れ跡</th><th>害虫</th><th>ほこり・塵</th><th>合計</th></tr><tr><td class="row-header">コンフォートホテル博多</td><td>7.78</td><td style="color:#EF4444;font-weight:700;">14.2%</td><td style="background:#EF4444;color:white;">14</td><td style="background:#EF4444;color:white;">6</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#F97316;color:white;">5</td><td style="background:#F97316;color:white;">4</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="font-weight:700;">17</td></tr>
+<tr><td class="row-header">チサンホテル浜松町</td><td>7.05</td><td style="color:#EF4444;font-weight:700;">11.9%</td><td style="background:#FBBF24;color:var(--text);">3</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="font-weight:700;">7</td></tr>
+<tr><td class="row-header">アパホテル蒲田駅東</td><td>7.4</td><td style="color:#EF4444;font-weight:700;">9.5%</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">4</td></tr>
+<tr><td class="row-header">コートホテル新横浜</td><td>7.03</td><td style="color:#EF4444;font-weight:700;">9.2%</td><td style="background:#EF4444;color:white;">8</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">11</td></tr>
+<tr><td class="row-header">コンフォートホテル横浜関内</td><td>7.82</td><td style="color:#F59E0B;font-weight:700;">10%</td><td style="background:#F97316;color:white;">5</td><td style="background:#FBBF24;color:var(--text);">3</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FBBF24;color:var(--text);">3</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">13</td></tr>
+<tr><td class="row-header">コンフォートイン六本木</td><td>8.13</td><td style="color:#F59E0B;font-weight:700;">6.7%</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#F97316;color:white;">4</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">6</td></tr>
+<tr><td class="row-header">川崎日航ホテル</td><td>8.58</td><td style="color:#F59E0B;font-weight:700;">6.6%</td><td style="background:#EF4444;color:white;">6</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">7</td></tr>
+<tr><td class="row-header">ホテルコメント横浜関内</td><td>8.77</td><td style="color:#F59E0B;font-weight:700;">6.2%</td><td style="background:#F97316;color:white;">4</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">6</td></tr>
+<tr><td class="row-header">ハートンホテル東品川</td><td>8.53</td><td style="color:#3B82F6;font-weight:700;">4.5%</td><td style="background:#F97316;color:white;">5</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">6</td></tr>
+<tr><td class="row-header">ダイワロイネットホテル東京大崎</td><td>8.8</td><td style="color:#3B82F6;font-weight:700;">4.3%</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">2</td></tr>
+<tr><td class="row-header">ホテルケヤキゲート東京府中</td><td>8.81</td><td style="color:#3B82F6;font-weight:700;">3.8%</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">3</td></tr>
+<tr><td class="row-header">コンフォートホテル成田</td><td>8.55</td><td style="color:#3B82F6;font-weight:700;">3.6%</td><td style="background:#FBBF24;color:var(--text);">3</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">4</td></tr>
+<tr><td class="row-header">変なホテル東京羽田</td><td>8.3</td><td style="color:#3B82F6;font-weight:700;">2.4%</td><td style="background:#EF4444;color:white;">6</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">6</td></tr>
+<tr><td class="row-header">アパホテル相模原橋本駅東</td><td>8.19</td><td style="color:#3B82F6;font-weight:700;">2.1%</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">1</td></tr>
+<tr><td class="row-header">リッチモンドホテル東京目白</td><td>8.72</td><td style="color:#3B82F6;font-weight:700;">1.9%</td><td style="background:#FBBF24;color:var(--text);">2</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">2</td></tr>
+<tr><td class="row-header">第一イン池袋</td><td>9.01</td><td style="color:#3B82F6;font-weight:700;">1.1%</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">1</td></tr>
+<tr><td class="row-header">コンフォートホテルERA東京東神田</td><td>9.16</td><td style="color:#3B82F6;font-weight:700;">0.9%</td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">1</td></tr>
+<tr><td class="row-header">コンフォートスイーツ東京ベイ</td><td>9.16</td><td style="color:#3B82F6;font-weight:700;">0.8%</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FEF3C7;color:var(--text);">1</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">1</td></tr>
+<tr><td class="row-header">京成リッチモンドホテル東京錦糸町</td><td>9.01</td><td style="color:#10B981;font-weight:700;">0%</td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="background:#FFFFFF;color:var(--text);"></td><td style="font-weight:700;">0</td></tr></table></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">&#9888; 優先度マトリクス</div>
+    <h3 style="font-size:0.85rem;color:var(--red);margin-bottom:0.75rem;">URGENT（緊急）</h3>
+    <div class="priority-grid"><div class="priority-card urgent"><div class="priority-title">コンフォートホテル博多 <span style="font-size:0.75rem;color:var(--text-light);">(7.78点)</span></div><div class="priority-hotels">課題: 17件 (14.2%) / 清掃品質全般, 臭気・異臭, カーペット汚れ</div></div>
+<div class="priority-card urgent"><div class="priority-title">チサンホテル浜松町 <span style="font-size:0.75rem;color:var(--text-light);">(7.05点)</span></div><div class="priority-hotels">課題: 7件 (11.9%) / 清掃品質全般, 排水・詰まり, ほこり・塵</div></div>
+<div class="priority-card urgent"><div class="priority-title">アパホテル蒲田駅東 <span style="font-size:0.75rem;color:var(--text-light);">(7.4点)</span></div><div class="priority-hotels">課題: 4件 (9.5%) / 清掃品質全般, 臭気・異臭, タバコ関連</div></div>
+<div class="priority-card urgent"><div class="priority-title">コートホテル新横浜 <span style="font-size:0.75rem;color:var(--text-light);">(7.03点)</span></div><div class="priority-hotels">課題: 11件 (9.2%) / 清掃品質全般, 臭気・異臭, タバコ関連</div></div></div>
+    <h3 style="font-size:0.85rem;color:var(--orange);margin:1rem 0 0.75rem;">HIGH（要注意）</h3>
+    <div class="priority-grid"><div class="priority-card high"><div class="priority-title">コンフォートホテル横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(7.82点)</span></div><div class="priority-hotels">課題: 13件 (10%) / 清掃品質全般, シミ・汚れ跡, 臭気・異臭</div></div>
+<div class="priority-card high"><div class="priority-title">コンフォートイン六本木 <span style="font-size:0.75rem;color:var(--text-light);">(8.13点)</span></div><div class="priority-hotels">課題: 6件 (6.7%) / 臭気・異臭, 清掃品質全般, タバコ関連</div></div>
+<div class="priority-card high"><div class="priority-title">川崎日航ホテル <span style="font-size:0.75rem;color:var(--text-light);">(8.58点)</span></div><div class="priority-hotels">課題: 7件 (6.6%) / 清掃品質全般, ゴミ残置, 臭気・異臭</div></div>
+<div class="priority-card high"><div class="priority-title">ホテルコメント横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(8.77点)</span></div><div class="priority-hotels">課題: 6件 (6.2%) / 清掃品質全般, 臭気・異臭, タバコ関連</div></div></div>
+    <h3 style="font-size:0.85rem;color:var(--blue);margin:1rem 0 0.75rem;">STANDARD（標準）</h3>
+    <div class="priority-grid"><div class="priority-card standard"><div class="priority-title">ハートンホテル東品川 <span style="font-size:0.75rem;color:var(--text-light);">(8.53点)</span></div><div class="priority-hotels">課題: 6件 (4.5%) / 清掃品質全般, 毛髪・髪の毛, 臭気・異臭</div></div>
+<div class="priority-card standard"><div class="priority-title">ダイワロイネットホテル東京大崎 <span style="font-size:0.75rem;color:var(--text-light);">(8.8点)</span></div><div class="priority-hotels">課題: 2件 (4.3%) / 清掃品質全般, 害虫</div></div>
+<div class="priority-card standard"><div class="priority-title">ホテルケヤキゲート東京府中 <span style="font-size:0.75rem;color:var(--text-light);">(8.81点)</span></div><div class="priority-hotels">課題: 3件 (3.8%) / 清掃品質全般, 毛髪・髪の毛, ゴミ残置</div></div>
+<div class="priority-card standard"><div class="priority-title">コンフォートホテル成田 <span style="font-size:0.75rem;color:var(--text-light);">(8.55点)</span></div><div class="priority-hotels">課題: 4件 (3.6%) / 清掃品質全般, カビ・モールド, 臭気・異臭</div></div>
+<div class="priority-card standard"><div class="priority-title">変なホテル東京羽田 <span style="font-size:0.75rem;color:var(--text-light);">(8.3点)</span></div><div class="priority-hotels">課題: 6件 (2.4%) / 清掃品質全般, 排水・詰まり</div></div>
+<div class="priority-card standard"><div class="priority-title">アパホテル相模原橋本駅東 <span style="font-size:0.75rem;color:var(--text-light);">(8.19点)</span></div><div class="priority-hotels">課題: 1件 (2.1%) / 清掃品質全般</div></div>
+<div class="priority-card standard"><div class="priority-title">リッチモンドホテル東京目白 <span style="font-size:0.75rem;color:var(--text-light);">(8.72点)</span></div><div class="priority-hotels">課題: 2件 (1.9%) / 清掃品質全般, 臭気・異臭</div></div>
+<div class="priority-card standard"><div class="priority-title">第一イン池袋 <span style="font-size:0.75rem;color:var(--text-light);">(9.01点)</span></div><div class="priority-hotels">課題: 1件 (1.1%) / 排水・詰まり</div></div>
+<div class="priority-card standard"><div class="priority-title">コンフォートホテルERA東京東神田 <span style="font-size:0.75rem;color:var(--text-light);">(9.16点)</span></div><div class="priority-hotels">課題: 1件 (0.9%) / 排水・詰まり, 清掃品質全般</div></div>
+<div class="priority-card standard"><div class="priority-title">コンフォートスイーツ東京ベイ <span style="font-size:0.75rem;color:var(--text-light);">(9.16点)</span></div><div class="priority-hotels">課題: 1件 (0.8%) / シミ・汚れ跡</div></div></div>
+    <h3 style="font-size:0.85rem;color:var(--green);margin:1rem 0 0.75rem;">MAINTENANCE（維持）</h3>
+    <div class="priority-grid"><div class="priority-card maintenance"><div class="priority-title">京成リッチモンドホテル東京錦糸町 <span style="font-size:0.75rem;color:var(--text-light);">(9.01点)</span></div><div class="priority-hotels">課題: 0件 (0%)</div></div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">&#128161; 横断的改善施策</div>
+<div class="card"><div class="card-title">施策1: 清掃チェックリスト標準化</div><p style="font-size:0.82rem;color:var(--text-light);line-height:1.7;">統一された50項目の清掃チェックリストを全ホテルに導入。客室タイプ別（シングル・ダブル・ツイン）の基準を明確化し、チェック漏れを防止する。</p></div>
+<div class="card"><div class="card-title">施策2: 品質管理（QC）体制構築</div><p style="font-size:0.82rem;color:var(--text-light);line-height:1.7;">ランダム抜き打ち検査と定期品質監査の二層体制を構築。ゲスト口コミデータとの連動により、改善効果を定量的にモニタリングする。</p></div>
+<div class="card"><div class="card-title">施策3: 予防保全プログラム</div><p style="font-size:0.82rem;color:var(--text-light);line-height:1.7;">清掃関連設備の定期メンテナンスにより、カビ・排水・臭気等の根本原因を予防する。</p></div>
+<div class="card"><div class="card-title">施策4: テクノロジー活用による清掃DX</div><p style="font-size:0.82rem;color:var(--text-light);line-height:1.7;">デジタルツールを活用した清掃品質の可視化と効率化。URGENTホテルでパイロット導入し、効果検証後に全展開する。</p></div>
+  </div>
+</div>
+<div class="footer">&copy; 2026 PRIMECHANGE ホテル品質管理ポータル V2 &mdash; Confidential</div>
+</body>
+</html>

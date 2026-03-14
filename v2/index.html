@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRIMECHANGE ポートフォリオ品質管理ポータル V2</title>
+<link rel="stylesheet" href="styles/common-v2.css">
+<script src="data/inline-data.js"></script>
+<script src="scripts/common-v2.js" defer></script>
+<script src="scripts/svg-gauge-v2.js" defer></script>
+<script src="scripts/date-filter-v2.js" defer></script>
+<script src="scripts/date-filter-ui-v2.js" defer></script>
+<script src="scripts/page-snapshot-v2.js" defer></script>
+<script src="scripts/trend-chart-v2.js" defer></script>
+</head>
+<body>
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">PRIMECHANGE <span class="v2-badge">V2</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">ポータル</a>
+      <a href="hotel-dashboard.html" class="nav-link">ホテル別口コミ</a>
+      <a href="cleaning-strategy.html" class="nav-link">清掃戦略</a>
+      <a href="deep-analysis.html" class="nav-link">深掘り分析</a>
+      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
+      <a href="action-plans.html" class="nav-link">アクションプラン</a>
+      <a href="es-dashboard.html" class="nav-link">ES管理</a>
+    </div>
+    <button class="nav-toggle">&#9776;</button>
+  </div>
+</nav>
+<div class="container">
+<h1 class="page-title">PRIMECHANGE ポートフォリオ品質管理ポータル V2</h1>
+<p class="page-subtitle">2026年3月11日 更新 &mdash; 19ホテル・1,968件の口コミデータに基づく統合ダッシュボード</p>
+
+<div class="kpi-grid" id="indexKpiGrid">
+<div class="kpi-card" style="border-left-color:var(--accent);">
+  <div class="kpi-label">ホテル数</div>
+  <div class="kpi-value" data-kpi="total_hotels">19</div>
+  <div class="kpi-sub">ホテル</div>
+
+
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">口コミ数</div>
+  <div class="kpi-value" data-kpi="total_reviews">1,968</div>
+  <div class="kpi-sub">件</div>
+<div class="kpi-delta down">&#9654; 0</div>
+
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">平均スコア</div>
+  <div class="kpi-value" data-kpi="avg_score">8.39</div>
+  <div class="kpi-sub">/ 10 点</div>
+<div class="kpi-delta down">&#9654; 0</div>
+<div class="kpi-target">目標8.89 達成率<span class="achievement good">94.4%</span></div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">高評価率</div>
+  <div class="kpi-value" data-kpi="high_rate">78.4%</div>
+  <div class="kpi-sub">8点以上</div>
+<div class="kpi-delta down">&#9654; 0</div>
+<div class="kpi-target">目標83.4 達成率<span class="achievement good">94%</span></div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--red);">
+  <div class="kpi-label">清掃クレーム率</div>
+  <div class="kpi-value" data-kpi="cleaning_issue_rate">5%</div>
+  <div class="kpi-sub">98件</div>
+<div class="kpi-delta down">&#9654; 0</div>
+<div class="kpi-target">目標2 達成率<span class="achievement bad">40%</span></div>
+</div>
+</div>
+
+<div class="grid-cards">
+<a href="hotel-dashboard.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128200;</div>
+  <div class="link-card-title">ホテル別口コミ</div>
+  <div class="link-card-desc">ホテルの口コミ分析をカード形式で一覧。サイト別評価・スコア分布・口コミ詳細をモーダルで閲覧。</div>
+  <div class="link-card-stat">19ホテル / 1,968件 &rarr;</div>
+</div></a>
+<a href="cleaning-strategy.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128167;</div>
+  <div class="link-card-title">清掃戦略</div>
+  <div class="link-card-desc">清掃品質の課題分析、カテゴリ別ヒートマップ、優先度マトリクス、横断的改善施策。</div>
+  <div class="link-card-stat">98件の清掃指摘 &rarr;</div>
+</div></a>
+<a href="deep-analysis.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128270;</div>
+  <div class="link-card-title">深掘り分析</div>
+  <div class="link-card-desc">クレーム類型・スタッフ・人員配置・完了時間・安全・品質売上・ベストプラクティスの7分析。</div>
+  <div class="link-card-stat">7つの専門分析 &rarr;</div>
+</div></a>
+<a href="revenue-impact.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128176;</div>
+  <div class="link-card-title">品質×売上</div>
+  <div class="link-card-desc">品質スコアと売上の相関分析、弾力性係数、3つのROIシナリオ比較。</div>
+  <div class="link-card-stat">月間約9,985万円 &rarr;</div>
+</div></a>
+<a href="action-plans.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#9989;</div>
+  <div class="link-card-title">アクションプラン</div>
+  <div class="link-card-desc">ホテル別の3フェーズ改善計画（即時/短期/中期）とKPI目標管理。</div>
+  <div class="link-card-stat">8ホテルの改善計画 &rarr;</div>
+</div></a>
+<a href="es-dashboard.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128101;</div>
+  <div class="link-card-title">ES管理</div>
+  <div class="link-card-desc">従業員満足度と品質スコアの相関分析、負荷管理、離職リスク予測。</div>
+  <div class="link-card-stat">ES×品質統合管理 &rarr;</div>
+</div></a>
+</div>
+
+<div class="card">
+  <div class="card-title">&#128293; 今週の優先アクション TOP3</div>
+  <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+      <div>
+        <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#1</span>
+        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">コンフォートホテル博多</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.78 &rarr; 目標 8.3</span>
+      </div>
+
+    </div>
+
+  </div>
+  <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+      <div>
+        <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#2</span>
+        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">チサンホテル浜松町</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.05 &rarr; 目標 7.5</span>
+      </div>
+
+    </div>
+
+  </div>
+  <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+      <div>
+        <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#3</span>
+        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">アパホテル蒲田駅東</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.4 &rarr; 目標 7.9</span>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="card alert-card">
+  <div class="card-title" style="color:var(--red);">&#9888; 緊急対応が必要なホテル (8件)</div>
+  <div class="alert-grid">
+    <div class="alert-item">
+      <div class="alert-item-title">コンフォートホテル博多</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.78</strong> / 清掃課題率: <strong>14.2%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, カーペット汚れ</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">チサンホテル浜松町</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.05</strong> / 清掃課題率: <strong>11.9%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 排水・詰まり, ほこり・塵</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">アパホテル蒲田駅東</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.4</strong> / 清掃課題率: <strong>9.5%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">コートホテル新横浜</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.03</strong> / 清掃課題率: <strong>9.2%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">コンフォートホテル横浜関内</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.82</strong> / 清掃課題率: <strong>10%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, シミ・汚れ跡, 臭気・異臭</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">コンフォートイン六本木</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.13</strong> / 清掃課題率: <strong>6.7%</strong></div>
+      <div class="alert-item-sub">主要課題: 臭気・異臭, 清掃品質全般, タバコ関連</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">川崎日航ホテル</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.58</strong> / 清掃課題率: <strong>6.6%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, ゴミ残置, 臭気・異臭</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">ホテルコメント横浜関内</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.77</strong> / 清掃課題率: <strong>6.2%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">&#128200; 口コミトレンド（日別）</div>
+  <div id="portfolioTrend" style="margin-top:1rem;"></div>
+</div>
+
+<div class="card">
+  <div class="card-title">&#127919; KPI目標 達成状況</div>
+  <div class="gauge-row">
+    <div class="gauge-item">
+      <div class="gauge-label">平均スコア</div>
+      <div class="svg-gauge" data-value="8.39" data-target="8.89" data-unit="" data-label="平均スコア" data-lower="false"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">94.4%</span></div>
+    </div>
+    <div class="gauge-item">
+      <div class="gauge-label">清掃クレーム率</div>
+      <div class="svg-gauge" data-value="5" data-target="2" data-unit="%" data-label="清掃クレーム率" data-lower="true"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">40%</span></div>
+    </div>
+    <div class="gauge-item">
+      <div class="gauge-label">高評価率</div>
+      <div class="svg-gauge" data-value="78.4" data-target="83.4" data-unit="%" data-label="高評価率" data-lower="false"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">94%</span></div>
+    </div>
+    <div class="gauge-item">
+      <div class="gauge-label">低評価率</div>
+      <div class="svg-gauge" data-value="4.5" data-target="2.2" data-unit="%" data-label="低評価率" data-lower="true"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">48.9%</span></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="footer">&copy; 2026 PRIMECHANGE ホテル品質管理ポータル V2 &mdash; Confidential</div>
+</body>
+</html>
