@@ -1,12 +1,12 @@
 {
-  "total_reviews": 65,
-  "overall_avg_10pt": 7.02,
-  "high_count": 37,
-  "high_rate": 56.9,
+  "total_reviews": 66,
+  "overall_avg_10pt": 7.03,
+  "high_count": 38,
+  "high_rate": 57.6,
   "mid_count": 15,
-  "mid_rate": 23.1,
+  "mid_rate": 22.7,
   "low_count": 13,
-  "low_rate": 20.0,
+  "low_rate": 19.7,
   "site_stats": [
     {
       "site": "Agoda",
@@ -37,12 +37,12 @@
     },
     {
       "site": "じゃらん",
-      "count": 7,
-      "native_avg": 3.43,
+      "count": 8,
+      "native_avg": 3.5,
       "scale": "/5",
-      "avg_10pt": 6.86,
-      "median_10pt": 6.0,
-      "judgment": "要改善"
+      "avg_10pt": 7.0,
+      "median_10pt": 7.0,
+      "judgment": "概ね良好"
     },
     {
       "site": "Google",
@@ -67,17 +67,17 @@
     {
       "score": 10,
       "count": 13,
-      "pct": "20.0%"
+      "pct": "19.7%"
     },
     {
       "score": 9,
       "count": 2,
-      "pct": "3.1%"
+      "pct": "3.0%"
     },
     {
       "score": 8,
-      "count": 22,
-      "pct": "33.8%"
+      "count": 23,
+      "pct": "34.8%"
     },
     {
       "score": 7,
@@ -87,7 +87,7 @@
     {
       "score": 6,
       "count": 13,
-      "pct": "20.0%"
+      "pct": "19.7%"
     },
     {
       "score": 5,
@@ -97,12 +97,12 @@
     {
       "score": 4,
       "count": 8,
-      "pct": "12.3%"
+      "pct": "12.1%"
     },
     {
       "score": 2,
       "count": 5,
-      "pct": "7.7%"
+      "pct": "7.6%"
     }
   ],
   "comments": [
@@ -131,6 +131,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "TOMATO101"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-16",
+      "comment": "宿は禁煙ルームにも関わらずタバコのような匂いがしたのは残念だった。  駐車場はとにかく狭い間に停めるのはいいけど端とかはほんと狭くて危うくぶつけそうになるから大きい車で来る際は注意が必要。  接客はとても良くて大浴場は広くてサウナもあるから嬉しかった。",
+      "good": "",
+      "bad": "",
+      "translated": "宿は禁煙ルームにも関わらずタバコのような匂いがしたのは残念だった。  駐車場はとにかく狭い間に停めるのはいいけど端とかはほんと狭くて危うくぶつけそうになるから大きい車で来る際は注意が必要。  接客はとても良くて大浴場は広くてサウナもあるから嬉しかった。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "れんたんさん"
     },
     {
       "site": "楽天トラベル",

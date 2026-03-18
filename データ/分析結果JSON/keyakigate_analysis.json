@@ -1,10 +1,10 @@
 {
-  "total_reviews": 83,
-  "overall_avg_10pt": 8.81,
+  "total_reviews": 84,
+  "overall_avg_10pt": 8.77,
   "high_count": 72,
-  "high_rate": 86.7,
-  "mid_count": 8,
-  "mid_rate": 9.6,
+  "high_rate": 85.7,
+  "mid_count": 9,
+  "mid_rate": 10.7,
   "low_count": 3,
   "low_rate": 3.6,
   "site_stats": [
@@ -19,12 +19,12 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 30,
-      "native_avg": 4.53,
+      "count": 31,
+      "native_avg": 4.48,
       "scale": "/5",
-      "avg_10pt": 9.07,
+      "avg_10pt": 8.97,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "Agoda",
@@ -67,7 +67,7 @@
     {
       "score": 10,
       "count": 47,
-      "pct": "56.6%"
+      "pct": "56.0%"
     },
     {
       "score": 9,
@@ -77,12 +77,12 @@
     {
       "score": 8,
       "count": 20,
-      "pct": "24.1%"
+      "pct": "23.8%"
     },
     {
       "score": 6,
-      "count": 8,
-      "pct": "9.6%"
+      "count": 9,
+      "pct": "10.7%"
     },
     {
       "score": 4,
@@ -96,6 +96,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-17",
+      "comment": "ベッドサイドの照明が壊れていた。 洗面台の水がなかなか流れなかった。 駅から近いなどアクセスが良いのは分かるが 評価が高い理由が正直分からない。",
+      "good": "",
+      "bad": "",
+      "translated": "ベッドサイドの照明が壊れていた。 洗面台の水がなかなか流れなかった。 駅から近いなどアクセスが良いのは分かるが 評価が高い理由が正直分からない。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "レッドスターは赤星"
+    },
     {
       "site": "Agoda",
       "rating": 8.0,

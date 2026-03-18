@@ -1,12 +1,12 @@
 {
-  "total_reviews": 97,
-  "overall_avg_10pt": 8.1,
-  "high_count": 76,
+  "total_reviews": 102,
+  "overall_avg_10pt": 8.11,
+  "high_count": 80,
   "high_rate": 78.4,
-  "mid_count": 12,
-  "mid_rate": 12.4,
+  "mid_count": 13,
+  "mid_rate": 12.7,
   "low_count": 9,
-  "low_rate": 9.3,
+  "low_rate": 8.8,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -28,37 +28,37 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 12,
-      "native_avg": 4.17,
+      "count": 13,
+      "native_avg": 4.23,
       "scale": "/5",
-      "avg_10pt": 8.33,
+      "avg_10pt": 8.46,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 50,
-      "native_avg": 8.16,
+      "count": 52,
+      "native_avg": 8.17,
       "scale": "/10",
-      "avg_10pt": 8.16,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Agoda",
-      "count": 2,
-      "native_avg": 8.0,
-      "scale": "/10",
-      "avg_10pt": 8.0,
+      "avg_10pt": 8.17,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 27,
-      "native_avg": 3.78,
+      "count": 28,
+      "native_avg": 3.79,
       "scale": "/5",
-      "avg_10pt": 7.56,
+      "avg_10pt": 7.57,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Agoda",
+      "count": 3,
+      "native_avg": 7.33,
+      "scale": "/10",
+      "avg_10pt": 7.33,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 32,
-      "pct": "33.0%"
+      "count": 33,
+      "pct": "32.4%"
     },
     {
       "score": 9,
-      "count": 13,
-      "pct": "13.4%"
+      "count": 14,
+      "pct": "13.7%"
     },
     {
       "score": 8,
-      "count": 31,
-      "pct": "32.0%"
+      "count": 33,
+      "pct": "32.4%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "8.2%"
+      "pct": "7.8%"
     },
     {
       "score": 6,
-      "count": 3,
-      "pct": "3.1%"
+      "count": 4,
+      "pct": "3.9%"
     },
     {
       "score": 5,
@@ -97,15 +97,67 @@
     {
       "score": 4,
       "count": 2,
-      "pct": "2.1%"
+      "pct": "2.0%"
     },
     {
       "score": 2,
       "count": 7,
-      "pct": "7.2%"
+      "pct": "6.9%"
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "I was very pleased with this hotel. I booked a room with a queen bed, which I found quite spacious for Japanese standards. The room was equipped with a humidifier, which was very convenient during my stay. The staff were friendly and attentive. The Thai breakfast was really good, I was quite surprised by it and definitely recommend it. Overall, it was a great stay!",
+      "good": "",
+      "bad": "",
+      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ風の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Nanda"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "フロントの方々の対応が丁寧でした！",
+      "good": "",
+      "bad": "",
+      "translated": "フロントの方々の対応が丁寧でした！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "mo_co39"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "Clean spacious good location",
+      "bad": "Lack of facilities but can’t ask for more! Good value",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "設備は少ないけど、それ以上は望めない！値段も手頃。",
+      "reviewer": "Tong"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "設備完善，環境乾淨，地理位置很棒，櫃檯人員十分友善且有耐心。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Chih-han"
+    },
     {
       "site": "Booking.com",
       "rating": 6.0,
@@ -118,6 +170,19 @@
       "translated_good": "",
       "translated_bad": "洗面ボール中のカビ",
       "reviewer": "Miyuki"
+    },
+    {
+      "site": "Agoda",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-16",
+      "comment": "",
+      "good": "スタッフの対応",
+      "bad": "洗面ボール中のカビ",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "洗面ボール中のカビ",
+      "reviewer": "miyuki"
     },
     {
       "site": "Booking.com",
@@ -194,7 +259,7 @@
       "bad": "The room originally allocated was very small. We requested an upgrade, which we got, but felt that the additional cost was a bit high.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "最初に割り当てられた部屋はとても狭かった。アップグレードをリクエストしたところ、対応してもらえたが、追加料金が少し高いと感じた。",
+      "translated_bad": "最初に割り当てられた部屋はとても狭かった。アップグレードをリクエストしたところ、対応してもらえたものの、追加料金が少し高いと感じた。",
       "reviewer": "Chris"
     },
     {
@@ -376,7 +441,7 @@
       "bad": "Il distributore di caffè è attivo solo dalle 7, sarebbe comodo prima per chi prende voli di ritorno al mattino presto",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していれば便利でしょう。",
+      "translated_bad": "コーヒーマシンは午前7時以降しか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから利用できると便利でしょう。",
       "reviewer": "Mariafrancesca"
     },
     {
@@ -673,7 +738,7 @@
       "comment": "優點： 1、地點離地鐵超近。 2、房間不需要打掃也會每天給新的浴巾毛巾。 3、雙床房房間在東京算很大。 4、房間乾淨。 5、有兩台電梯，不太需要等。 6、旁邊跟對面都有超商，對面還有阿夫利。",
       "good": "",
       "bad": "",
-      "translated": "利点：1. 地下鉄の駅に非常に近い。2. 部屋の清掃は不要で、バスタオルは毎日交換される。3. ツインルームは東京にしてはかなり広い。4. 部屋は清潔。5. エレベーターが2基あるので、待つことはほとんどない。6. 隣と通りの向かいにコンビニがあり、通りの向かいにはAfriコンビニもある。",
+      "translated": "利点：1. 地下鉄の駅に非常に近い。2. 部屋の清掃は不要で、バスタオルは毎日交換される。3. ツインルームは東京にしてはかなり広い。4. 部屋は清潔。5. エレベーターが2基あるので、待ち時間はほとんどない。6. 隣と通りの向かいにコンビニがあり、通りの向かいにはAfriコンビニもある。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M T"
@@ -907,7 +972,7 @@
       "comment": "-방이 몹시 좁습니다. 또한 방에서 오래된 건물 냄새와 암내가 방에서 납니다. 냄새에 예민한 편이라 힘들었습니다. 화장실 또한 오래된 냄새와 은은한 변 냄새가 올라와 몹시 곤란했습니다. -옆방 문 열리는 소리가 같이 들려서 내 방문 열리는 소리인지 긴장된 적이 몇 번 있습니다. -창밖이 밝아 잠들기 어려울 수 있습니다. -직원들은 친절했습니다. -롯폰기 역에서 도보 2분 내에 위치해 대중교통 이용에는 좋습니다.",
       "good": "",
       "bad": "",
-      "translated": "-部屋がすごく狭いです。また、部屋から古い建物の臭いや岩の中が部屋から出てきます。臭いに敏感な方だったので大変でした。トイレも古い臭いとほのかな臭いが上がり、とても困りました。 - 隣の部屋のドアが開かれる音が一緒に聞こえて、私の訪問が開かれる音か緊張した敵が何度もあります。 - 窓の外が明るく眠りにくい場合があります。 -スタッフは親切でした。 -六本木駅から徒歩2分以内に位置し、公共交通機関の利用に最適です。",
+      "translated": "-部屋がすごく狭いです。また、部屋から古い建物の臭いや岩の中が部屋から出てきます。臭いに敏感な方だったので大変でした。トイレも古い臭いとほのかな臭いが上がり、とても困りました。 - 隣の部屋のドアが開かれる音が一緒に聞こえて、私の訪問が開かれる音か緊張した敵が何度もあります。 - 窓の外が明るく、眠りにくい場合があります。 -スタッフは親切でした。 -六本木駅から徒歩2分以内に位置し、公共交通機関の利用に最適です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "바른생활"
@@ -1167,7 +1232,7 @@
       "comment": "롯본기에서 4인 가족 단위 또는 2인 여행시 \"트윈베드\" 구성의 방을 투숙하면서 가성비 좋게 묵을수 있는 곳인것 같다. 1층 조식부페가 태국식으로 나오는 좀 생뚱맞은 면이 있지만, 예약하던 안하던 조식가격은 성인기준 1500¥이니, 몇일 묵게된다면 하는것도 괜찮겠지만, 우리가족은 3박 하면서 저냑때 들어오는길에 마트나 편의점 에서 구입한 다양한 초밥 앤 라면으로 아침을 먹었음.  일본 여행에서 다니면서 간만에 만난 방이 좀 큼직한 트윈베드 구성이 정말 좋았음...",
       "good": "",
       "bad": "",
-      "translated": "六本木で4人家族単位または2人旅行の際、「ツインベッド」構成の部屋を宿泊しながら苛性良く泊まれる場所らしい。 1階の朝食ビュッフェがタイ式で出てくるちょっと生き生きとした面があるが、予約していなかった朝食価格は大人基準1500円だから、何日泊まったらやっても大丈夫だろうが、私たちの家族は3泊して寝るときに入る道にマートやコンビニで購入した様々な秒。  日本旅行で通いながら間湾に会った部屋が少し大きめのツインベッド構成が本当に良かった…",
+      "translated": "六本木で4人家族単位または2人旅行の際、「ツインベッド」構成の部屋を宿泊しながら苛性良く泊まれる場所らしい。 1階の朝食ビュッフェがタイ式で出るちょっと生き生きとした面があるが、予約していなかった朝食価格は大人基準1500円だから、数日泊まるとするのも大丈夫だろうが、私たちの家族は3泊しながらあの時入る道にマートやコンビニで購入した様々な秒。  日本旅行で通っている間に会った部屋が少し大きめのツインベッド構成が本当に良かった…",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "jong gu kim"

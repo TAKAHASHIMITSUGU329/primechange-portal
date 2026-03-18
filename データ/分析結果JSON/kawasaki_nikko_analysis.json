@@ -1,19 +1,19 @@
 {
-  "total_reviews": 120,
-  "overall_avg_10pt": 8.62,
-  "high_count": 96,
-  "high_rate": 80.0,
+  "total_reviews": 123,
+  "overall_avg_10pt": 8.65,
+  "high_count": 99,
+  "high_rate": 80.5,
   "mid_count": 23,
-  "mid_rate": 19.2,
+  "mid_rate": 18.7,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 25,
-      "native_avg": 9.64,
+      "count": 26,
+      "native_avg": 9.65,
       "scale": "/10",
-      "avg_10pt": 9.64,
+      "avg_10pt": 9.65,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -27,21 +27,21 @@
       "judgment": "良好"
     },
     {
-      "site": "Booking.com",
-      "count": 68,
-      "native_avg": 8.44,
-      "scale": "/10",
-      "avg_10pt": 8.44,
+      "site": "じゃらん",
+      "count": 6,
+      "native_avg": 4.33,
+      "scale": "/5",
+      "avg_10pt": 8.67,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
-      "site": "じゃらん",
-      "count": 5,
-      "native_avg": 4.2,
-      "scale": "/5",
-      "avg_10pt": 8.4,
-      "median_10pt": 8.0,
+      "site": "Booking.com",
+      "count": 69,
+      "native_avg": 8.46,
+      "scale": "/10",
+      "avg_10pt": 8.46,
+      "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
@@ -66,33 +66,33 @@
   "distribution": [
     {
       "score": 10,
-      "count": 46,
-      "pct": "38.3%"
+      "count": 49,
+      "pct": "39.8%"
     },
     {
       "score": 9,
       "count": 24,
-      "pct": "20.0%"
+      "pct": "19.5%"
     },
     {
       "score": 8,
       "count": 26,
-      "pct": "21.7%"
+      "pct": "21.1%"
     },
     {
       "score": 7,
       "count": 11,
-      "pct": "9.2%"
+      "pct": "8.9%"
     },
     {
       "score": 6,
       "count": 10,
-      "pct": "8.3%"
+      "pct": "8.1%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "1.7%"
+      "pct": "1.6%"
     },
     {
       "score": 3,
@@ -101,6 +101,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "乾淨方便，適合商旅出行",
+      "good": "",
+      "bad": "",
+      "translated": "清潔で便利、ビジネス旅行者に最適。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "K‍a‍r‍e‍n‍ ‍Y‍O‍L‍O"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "育美"
+    },
     {
       "site": "Google",
       "rating": 5.0,
@@ -126,6 +152,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Z‍h‍e‍n‍z‍h‍u‍z‍i‍z‍i"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-16",
+      "comment": "研修で宿泊しました。  疲れていたので、のんびりできて良かったです。  枕が変わるとなかなか寝付けないのですが、枕がとてもしっくりきてぐっすり眠れることができました。  また、研修の時は、利用させていただきます。  ありがとうございました。",
+      "good": "",
+      "bad": "",
+      "translated": "研修で宿泊しました。  疲れていたので、のんびりできて良かったです。  枕が変わるとなかなか寝付けないのですが、枕がとてもしっくりきてぐっすり眠れることができました。  また、研修の時は、利用させていただきます。  ありがとうございました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "nobbさん"
     },
     {
       "site": "Trip.com",
@@ -317,7 +356,7 @@
       "comment": "位置好，車站旁邊，出行方便，不過還是能聽到電車的聲音的。 樓層高，可以看到街景，甚至遠山。 早餐日式和西洋的都有，品種還算豐富，有冰激凌",
       "good": "",
       "bad": "",
-      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々まで見渡せます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
+      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々も眺めることができます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -631,7 +670,7 @@
       "bad": "Lighting is not sufficient as there is only one ceiling light at the entrance while the coffee machine and water boiler are placed at the end of the room.  I have to switch on my mobile torch in order to enable me to use them.  Air conditioning is centralized and you cannot adjust the temperature and the room is a bit hot to me.  Unlike other hotels stayed before in Japan, new towels, water and amenities will not be given automatically if you put Do Not Disturb sticker outside the door.  These items will only be given upon request the front desk.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "入口に天井照明が1つしかないため、照明が不十分です。コーヒーメーカーと湯沸かし器は部屋の奥に設置されているため、使うには携帯の懐中電灯をつけなければなりません。エアコンはセントラル空調で温度調節ができないため、部屋は少し暑く感じました。以前日本で宿泊した他のホテルとは異なり、ドアの外に「起こさないでください」のステッカーを貼っても、新しいタオル、水、アメニティは自動的に提供されません。これらはフロントにリクエストした場合のみ提供されます。",
+      "translated_bad": "入口に天井照明が1つしかないため、照明が不十分です。コーヒーメーカーと湯沸かし器は部屋の奥に設置されているため、使うには携帯の懐中電灯をつけなければなりません。エアコンはセントラル空調で温度調節ができず、部屋は少し暑く感じました。以前日本で宿泊した他のホテルとは異なり、ドアの外に「起こさないでください」のステッカーを貼っても、新しいタオル、水、アメニティは自動的に提供されません。これらはフロントにリクエストした場合のみ提供されます。",
       "reviewer": "Khchung"
     },
     {
@@ -798,7 +837,7 @@
       "comment": "酒店離地鐵站及JR都非常近，周邊食肆很多，購物商場也很多，非常熱鬧及方便。但房間比較暗，中央冷氣所以很熱，但有提供風扇。我們是連續住兩晚，第二天早上我們將垃圾桶及毛巾放在門口，晚上回來發現清潔員工竟然不提供替換物資給我們，要我們跟前台自行索取，這一點酒店必須培訓一下員工。",
       "good": "",
       "bad": "",
-      "translated": "ホテルは地下鉄とJR線に非常に近く、周辺には多くのレストランやショッピングモールがあり、活気があって便利な立地です。しかし、部屋はやや暗く、扇風機は備え付けられていましたが、セントラル空調のせいでかなり暑かったです。2泊連続で滞在したのですが、2日目の朝、ゴミ箱とタオルをドアの外に置いておきました。夕方に戻ってみると、清掃スタッフが補充してくれておらず、フロントに頼まなければなりませんでした。ホテルはこの点についてスタッフの研修を行う必要があると思います。",
+      "translated": "ホテルは地下鉄とJR線に非常に近く、周辺には多くのレストランやショッピングモールがあり、活気があって便利な立地です。しかし、部屋はやや暗く、扇風機は備え付けられていましたが、セントラル空調のせいでかなり暑かったです。私たちは2泊連続で滞在し、2日目の朝、ゴミ箱とタオルをドアの外に置いておきました。夕方に戻ってみると、清掃スタッフが補充品を用意してくれておらず、フロントに頼まなければなりませんでした。ホテルはこの点についてスタッフの研修を行う必要があると思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1099,7 +1138,7 @@
       "bad": "Tutto sembra molto datato ormai, ma le cose peggiori sono state: - impossibile modificare temperatura della stanza, e dentro faceva un caldo infernale (a febbraio). C’è un piccolo condizionatore ma non fa quasi nulla - dal bagno c’è un costante rumore ripetuto che purtroppo si sente dal letto, essendo attiguo - il letto col materasso a molle è scomodissimo, specialmente dopo settimane di bei materassi duri giapponesi, e le lenzuola in acrilico rendono ancora più calda l’esperienza del pernottamento - la pulizia della stanza lascia a desiderare",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）焼けつくように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
+      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）地獄のように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
       "reviewer": "Michele"
     },
     {

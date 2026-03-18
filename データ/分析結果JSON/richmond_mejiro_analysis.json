@@ -1,19 +1,19 @@
 {
-  "total_reviews": 116,
-  "overall_avg_10pt": 8.65,
-  "high_count": 99,
-  "high_rate": 85.3,
+  "total_reviews": 119,
+  "overall_avg_10pt": 8.66,
+  "high_count": 102,
+  "high_rate": 85.7,
   "mid_count": 14,
-  "mid_rate": 12.1,
+  "mid_rate": 11.8,
   "low_count": 3,
-  "low_rate": 2.6,
+  "low_rate": 2.5,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 25,
-      "native_avg": 9.24,
+      "count": 26,
+      "native_avg": 9.27,
       "scale": "/10",
-      "avg_10pt": 9.24,
+      "avg_10pt": 9.27,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -55,10 +55,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 28,
-      "native_avg": 7.64,
+      "count": 30,
+      "native_avg": 7.73,
       "scale": "/10",
-      "avg_10pt": 7.64,
+      "avg_10pt": 7.73,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -66,23 +66,23 @@
   "distribution": [
     {
       "score": 10,
-      "count": 51,
-      "pct": "44.0%"
+      "count": 53,
+      "pct": "44.5%"
     },
     {
       "score": 9,
       "count": 12,
-      "pct": "10.3%"
+      "pct": "10.1%"
     },
     {
       "score": 8,
-      "count": 36,
-      "pct": "31.0%"
+      "count": 37,
+      "pct": "31.1%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "6.0%"
+      "pct": "5.9%"
     },
     {
       "score": 6,
@@ -92,25 +92,64 @@
     {
       "score": 5,
       "count": 3,
-      "pct": "2.6%"
+      "pct": "2.5%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "0.9%"
+      "pct": "0.8%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "0.9%"
+      "pct": "0.8%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "0.9%"
+      "pct": "0.8%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "รร ดี ห้องพักดี อุปกรณ์ครบ เดินทางสะดวกด้วย JR Yamanote line",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは快適で、部屋も良く、設備も充実しています。JR山手線にも近く、立地も便利です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Katagiri"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "超多備品，沒去過備品那麼齊全的飯店，連面膜都有！窗台很大，如果扛得上去可以放單開行李，這點超滿意！最後是地理位置真的非常好，目白位於山手線上，去哪都方便。這也是我第一次住目白，整體感受是住宅區環境非常適居，人不多步調很清幽，一出車站就有非常漂亮的景色，很難想像位於池袋跟新宿兩個熱門商業區中間會有這麼舒適的環境。妹妹在池袋上課，這也是我飯店選目白的原因，每天早上出門10-15分鐘就能到池袋一起逛街，交通方便到不行。",
+      "bad": "完全沒有",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "まったくない",
+      "reviewer": "Yuyen"
+    },
     {
       "site": "楽天トラベル",
       "rating": 4.0,

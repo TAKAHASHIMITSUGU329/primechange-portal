@@ -1,37 +1,37 @@
 {
-  "total_reviews": 97,
-  "overall_avg_10pt": 9.03,
-  "high_count": 87,
-  "high_rate": 89.7,
+  "total_reviews": 101,
+  "overall_avg_10pt": 9.06,
+  "high_count": 91,
+  "high_rate": 90.1,
   "mid_count": 8,
-  "mid_rate": 8.2,
+  "mid_rate": 7.9,
   "low_count": 2,
-  "low_rate": 2.1,
+  "low_rate": 2.0,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 48,
-      "native_avg": 9.46,
+      "count": 50,
+      "native_avg": 9.48,
       "scale": "/10",
-      "avg_10pt": 9.46,
+      "avg_10pt": 9.48,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 25,
-      "native_avg": 4.6,
+      "count": 26,
+      "native_avg": 4.62,
       "scale": "/5",
-      "avg_10pt": 9.2,
+      "avg_10pt": 9.23,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 16,
-      "native_avg": 8.62,
+      "count": 17,
+      "native_avg": 8.65,
       "scale": "/10",
-      "avg_10pt": 8.62,
+      "avg_10pt": 8.65,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,33 +66,33 @@
   "distribution": [
     {
       "score": 10,
-      "count": 55,
-      "pct": "56.7%"
+      "count": 58,
+      "pct": "57.4%"
     },
     {
       "score": 9,
-      "count": 16,
-      "pct": "16.5%"
+      "count": 17,
+      "pct": "16.8%"
     },
     {
       "score": 8,
       "count": 16,
-      "pct": "16.5%"
+      "pct": "15.8%"
     },
     {
       "score": 7,
       "count": 3,
-      "pct": "3.1%"
+      "pct": "3.0%"
     },
     {
       "score": 6,
       "count": 2,
-      "pct": "2.1%"
+      "pct": "2.0%"
     },
     {
       "score": 5,
       "count": 3,
-      "pct": "3.1%"
+      "pct": "3.0%"
     },
     {
       "score": 4,
@@ -106,6 +106,58 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "ที่พักเดินทางสะดวกใกล้สถานีรถไฟ jr และ subway  แถวโรงแรมมีร้านอาหารให้เลือกมากมาย แถมอยู่ใกล้ family mart และ7-11 ด้วย",
+      "good": "",
+      "bad": "",
+      "translated": "宿泊施設はJR駅と地下鉄駅に近く、便利な立地です。ホテルの周辺には多くのレストランがあり、ファミリーマートやセブンイレブンもすぐ近くにあります。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "房間挺大的，有四張床，每張床還挺大，房間温馨且衞生，地處池袋去東京哈利波特園區可地鐵直達也很方便，樓下就是一蘭拉麪和便利店",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は広々としていて、大きなベッドが4台ありました。居心地が良く清潔で、池袋という便利な場所にあり、地下鉄で東京ハリー・ポッターエリアへも簡単にアクセスできました。階下には一蘭のラーメン店とコンビニもありました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "交通方便，附近百貨公司多，旁邊有PARCO百貨，方便逛街",
+      "bad": "房間的空間無法同時打開2個大行李箱",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "部屋が狭すぎて、大きなスーツケースを2つ同時に開けることができない。",
+      "reviewer": "Guan"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Prasanna Mahesh"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -153,7 +205,7 @@
       "comment": "地點位於JR附近  非常方便 編排行程分開1+3晚預訂同一房型，服務員能安排不需換房 空間擺放幾好。樓上有便利店及食店",
       "good": "",
       "bad": "",
-      "translated": "立地はJR駅近くでとても便利です。同じタイプの部屋を1泊と3泊別々に予約したのですが、スタッフの方が部屋を変えることなく手配してくれました。部屋はかなり広々としています。上の階にはコンビニやレストランがあります。",
+      "translated": "JR駅近くという非常に便利な立地です。1泊と3泊を別々に予約しましたが、スタッフの方が部屋を変えることなく対応してくれました。部屋はかなり広々としています。上の階にはコンビニやレストランがあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Y‍A‍M‍A‍M‍O‍T‍O‍1‍6‍8"
@@ -439,7 +491,7 @@
       "comment": "A very nice budget hotel with perfect location right in the center of Ikebukuro in just 2 minutes from Ikebukuro JR station West Exit (N). All the stores and restaurants are nearby which makes it super easy to get around. Room was quite spacious compared to business hotels, we particularly enjoyed having a wardrobe and a table to late night snacks from conbini (which is located right in the hotel’s first floor). Room was cozy and comfortable and it was cleaned everyday and 2 water bottles were provided on a daily basis for which we are very grateful! I would definitely recommend staying here for everyone who wants a comfortable place for exploring Tokyo!",
       "good": "",
       "bad": "",
-      "translated": "池袋駅西口（北口）からわずか2分という、池袋の中心部に位置する、とても素敵な格安ホテルです。周辺にはお店やレストランが全て揃っているので、移動も非常に便利です。部屋はビジネスホテルに比べてかなり広々としており、特にクローゼットとテーブルがあったので、ホテルの1階にあるコンビニで夜食を買うのに重宝しました。部屋は居心地が良く快適で、毎日清掃され、ミネラルウォーターも毎日2本提供されていたので、とてもありがたかったです。東京観光に快適な滞在先をお探しの方には、ぜひこのホテルをおすすめします！",
+      "translated": "池袋駅西口（北口）から徒歩わずか2分という、池袋の中心部に位置する、とても素敵な格安ホテルです。周辺にはお店やレストランが全て揃っているので、移動も非常に便利です。ビジネスホテルと比べると部屋はかなり広く、特にクローゼットとテーブルがあったので、ホテルの1階にあるコンビニで夜食を買うのに重宝しました。部屋は居心地が良く快適で、毎日清掃され、ミネラルウォーター2本が毎日補充されていたのも大変ありがたかったです。東京観光に快適な滞在先をお探しの方には、ぜひこのホテルをおすすめします！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍l‍m‍a‍w‍e‍n"
@@ -582,7 +634,7 @@
       "comment": "地點無敵，池袋東口北邊，樓下有超商、一蘭拉麵，走路可到麥當勞、藥妝店、扭蛋店，生活機能完整。 三人房空間足夠，自行合併三張床後，可同時打開兩個上開式行李箱、一胖胖箱整理行李，還可以走路。 免費加入官網會員，可以享有12點才退房；我們因行程關係，沒有用到這服務。 房間舊但很乾淨，連住三天，每天都會進房打掃、補礦泉水等備品。 某天房務人員留封信，說明水龍頭壞了已協助換新，其實我們都沒有發現😂😂😂 最不滿意的是枕頭，枕頭很軟、沒有支撐力，每人有兩個枕頭，一個太塌、兩個太高😅",
       "good": "",
       "bad": "",
-      "translated": "立地は最高で、池袋東口のすぐ北に位置しています。階下にはコンビニと一蘭ラーメンがあり、マクドナルド、ドラッグストア、ガチャポンショップも徒歩圏内にあるので、必要なものはすべて便利に揃います。トリプルルームは十分な広さで、3つのベッドをくっつけても、トップローディングスーツケース2つと大きなスーツケース1つを開けて荷物を詰めることができ、さらに歩き回る余裕もあります。ウェブサイトの無料会員になると、午後12時までレイトチェックアウトが可能ですが、私たちの旅程ではこのサービスは利用しませんでした。部屋は古いですが、とても清潔です。3日間滞在しましたが、毎日清掃され、ミネラルウォーターやその他のアメニティが補充されました。ある日、ハウスキーピングスタッフが蛇口が壊れていて交換したというメモを残していましたが、私たちはそれに全く気づきませんでした！😂😂😂 一番不満だったのは枕で、とても柔らかくて支えがありませんでした。一人につき枕が2つずつあった。1つは平らすぎ、もう2つは高すぎた。😅",
+      "translated": "立地は最高で、池袋東口のすぐ北に位置しています。階下にはコンビニと一蘭ラーメンがあり、マクドナルド、ドラッグストア、ガチャポンショップも徒歩圏内にあるので、必要なものはすべて便利に手に入ります。トリプルルームは十分な広さで、3つのベッドをくっつけても、トップローディングスーツケース2つと大きなスーツケース1つを開けて荷物を詰めることができ、さらに歩き回ることもできます。ウェブサイトの無料会員になると、午後12時までレイトチェックアウトが可能ですが、私たちの旅程ではこのサービスは利用しませんでした。部屋は古いですが、とても清潔です。3日間滞在しましたが、毎日清掃され、ミネラルウォーターやその他のアメニティが補充されました。ある日、ハウスキーピングスタッフが蛇口が壊れていて交換したというメモを残していましたが、私たちはそれに全く気づきませんでした！😂😂😂 一番不満だったのは枕で、とても柔らかく、支えがありませんでした。一人につき枕が2つずつあったんだけど、1つは平らすぎ、もう2つは高すぎた。😅",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Miranda Su"
@@ -634,7 +686,7 @@
       "comment": "位置很好，就在池袋駅東北口出來行幾分鐘就到，每日都會收拾房間，很乾淨，房間溫度剛剛好，沒有異味，還有加濕器。樓下有一間一蘭拉麵,familymart,由便利店行前些有間有烤串和餃子的店都很好吃，下次還會選擇入住。",
       "good": "",
       "bad": "",
-      "translated": "立地は最高で、池袋駅北東口から徒歩わずか数分です。部屋は毎日清掃され、とても清潔で、室温もちょうど良く、嫌な臭いもなく、加湿器まで備え付けられています。階下には一蘭ラーメンとファミリーマートがあり、コンビニの少し先には美味しい焼き鳥と餃子が食べられるレストランがあります。次回もぜひここに泊まりたいと思います。",
+      "translated": "立地は最高で、池袋駅北東口から徒歩わずか数分です。部屋は毎日清掃され、とても清潔で、室温もちょうど良く、嫌な臭いもなく、加湿器まで備え付けられています。階下には一蘭ラーメンとファミリーマートがあり、コンビニの少し先には美味しい焼き鳥と餃子が食べられるレストランがあります。次回も必ずここに泊まりたいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -686,7 +738,7 @@
       "comment": "This is my first time traveling in Japan, I have been to two hostels earlier before this hotel, I can say that Daiichi Inn is my favorite and definitely worth the price. Very clean, the room is perfect size, nearby Ikebukuro station which is easy to travel around. Many restaurants and shops. The staffs are really polite and can speak English. You need to tap the keycard in the elevator to go up to the floor. Safety 👍🏻 I will come back to stay here again if I visit Japan next time.",
       "good": "",
       "bad": "",
-      "translated": "日本旅行は今回が初めてで、以前に2軒のホステルに泊まったことがありますが、第一インが一番気に入りました。値段以上の価値があります。とても清潔で、部屋もちょうど良い広さで、池袋駅が近く、周辺を移動するのに便利です。レストランやお店もたくさんあります。スタッフはとても丁寧で、英語も話せます。エレベーターで階を上げるには、キーカードをかざす必要があります。安全面も安心です👍🏻 次回日本を訪れる機会があれば、またここに泊まりたいと思います。",
+      "translated": "日本旅行は今回が初めてで、以前に2軒のホステルに泊まったことがありますが、第一インが一番気に入りました。値段以上の価値があります。とても清潔で、部屋もちょうど良い広さで、池袋駅が近く、周辺を移動するのに便利です。レストランやお店もたくさんあります。スタッフはとても丁寧で、英語も話せます。エレベーターで階上に行くには、キーカードをかざす必要があります。安全面も安心です👍🏻 次回日本を訪れる機会があれば、またここに泊まりたいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -881,7 +933,7 @@
       "comment": "아주아주 좋아요 친절하고 역하고 가깝고 깨끗합니다",
       "good": "",
       "bad": "",
-      "translated": "とても良いです。",
+      "translated": "とてもとても良いです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1024,7 +1076,7 @@
       "comment": "去的時候自動扶梯在裝修，要去裏面乘電梯上二樓辦入住，地理位置優越，樓下就是一蘭拉麪，走去地鐵站JR都衹要幾分鐘，附近百貨商店，應有盡有",
       "good": "",
       "bad": "",
-      "translated": "私が行った時はエスカレーターが工事中だったので、チェックインのために2階までエレベーターで上がらなければなりませんでした。立地は最高です。すぐ下に一蘭ラーメンがあり、JR地下鉄駅まで徒歩数分です。必要なものは何でも揃うデパートも近くにあります。",
+      "translated": "私が行った時はエスカレーターが工事中だったので、チェックインのために2階までエレベーターで上がらなければなりませんでした。立地は最高です。すぐ下に一蘭ラーメンがあり、JR地下鉄駅まで徒歩数分です。近くには必要なものが何でも揃うデパートもあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1102,7 +1154,7 @@
       "comment": "整體不錯，位置靠近火車站非常方便 早餐小貴，但是有傳統日本和少量西式菜式，味道不錯 酒店附近有family Mart非常方便",
       "good": "",
       "bad": "",
-      "translated": "全体的に見て、良いホテルです。駅に近く、立地は非常に便利です。朝食は少し高めですが、伝統的な日本料理と少量の洋食が用意されており、味もなかなか美味しいです。近くにファミリーマートがあり、とても便利です。",
+      "translated": "全体的に見て、良いホテルです。立地は駅に近く、とても便利です。朝食は少し高めですが、伝統的な日本料理と洋食が数種類用意されており、味もかなり美味しいです。近くにファミリーマートがあり、とても便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "n‍i‍c‍o‍l‍e‍e‍e‍ ‍n‍g"

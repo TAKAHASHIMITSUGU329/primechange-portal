@@ -1,10 +1,10 @@
 {
-  "total_reviews": 119,
-  "overall_avg_10pt": 8.6,
-  "high_count": 96,
-  "high_rate": 80.7,
+  "total_reviews": 121,
+  "overall_avg_10pt": 8.59,
+  "high_count": 98,
+  "high_rate": 81.0,
   "mid_count": 20,
-  "mid_rate": 16.8,
+  "mid_rate": 16.5,
   "low_count": 3,
   "low_rate": 2.5,
   "site_stats": [
@@ -28,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 49,
-      "native_avg": 8.43,
+      "count": 50,
+      "native_avg": 8.42,
       "scale": "/10",
-      "avg_10pt": 8.43,
+      "avg_10pt": 8.42,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -46,7 +46,7 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 14,
+      "count": 15,
       "native_avg": 4.0,
       "scale": "/5",
       "avg_10pt": 8.0,
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 51,
-      "pct": "42.9%"
+      "pct": "42.1%"
     },
     {
       "score": 9,
       "count": 16,
-      "pct": "13.4%"
+      "pct": "13.2%"
     },
     {
       "score": 8,
-      "count": 29,
-      "pct": "24.4%"
+      "count": 31,
+      "pct": "25.6%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "5.9%"
+      "pct": "5.8%"
     },
     {
       "score": 6,
       "count": 12,
-      "pct": "10.1%"
+      "pct": "9.9%"
     },
     {
       "score": 5,
@@ -106,6 +106,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "普通のホテルですが朝食が美味しくて満足です",
+      "good": "",
+      "bad": "",
+      "translated": "普通のホテルですが朝食が美味しくて満足です",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "date5991"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "Good",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yi"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -192,7 +218,7 @@
       "comment": "I recently stayed at the Comfort Hotel Narita and had a fantastic experience. The location is incredibly convenient, making it an ideal choice for anyone traveling to or from the airport. What truly made my stay special was the wonderful staff. Every employee I encountered was exceptionally nice, polite, and went out of their way to be helpful. Their hospitality made me feel welcome from the moment I arrived. A few highlights of my stay:  Cleanliness: The room was spotless and well-maintained.  Comfort: The bed was very comfortable, ensuring a great night's sleep.  Amenities: I really appreciated the complimentary coffee and the delicious breakfast options provided.  Quiet Atmosphere: Despite being near transportation hubs, the room was very quiet.  Overall, this hotel offers excellent value for money. I highly recommend it to anyone looking for a stress-free and pleasant stay in Narita. I will definitely be back",
       "good": "",
       "bad": "",
-      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点は以下の通りです。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは大変ありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。総合的に見て、このホテルは価格以上の価値があります。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
+      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点をいくつか挙げます。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは本当にありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。全体的に見て、このホテルは価格以上の価値を提供しています。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "David Herz"
@@ -675,7 +701,7 @@
       "bad": "Healthier breakfast cereal options with far less sugar content - weetbix, muesli etc. Wholemeal/multi grain bread options preferable to white bread.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "砂糖含有量がはるかに少ない、より健康的な朝食用シリアル（ウィートビックス、ミューズリーなど）。白パンよりも全粒粉パンやマルチグレインパンが望ましい。",
+      "translated_bad": "砂糖含有量がはるかに少ない、より健康的な朝食用シリアル（ウィートビックス、ミューズリーなど）を選ぶ。パンは白パンよりも全粒粉パンやマルチグレインパンを選ぶのが望ましい。",
       "reviewer": "James"
     },
     {

@@ -1,19 +1,19 @@
 {
-  "total_reviews": 50,
-  "overall_avg_10pt": 8.88,
-  "high_count": 42,
-  "high_rate": 84.0,
+  "total_reviews": 51,
+  "overall_avg_10pt": 8.9,
+  "high_count": 43,
+  "high_rate": 84.3,
   "mid_count": 8,
-  "mid_rate": 16.0,
+  "mid_rate": 15.7,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 10,
-      "native_avg": 9.6,
+      "count": 11,
+      "native_avg": 9.64,
       "scale": "/10",
-      "avg_10pt": 9.6,
+      "avg_10pt": 9.64,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -66,31 +66,44 @@
   "distribution": [
     {
       "score": 10,
-      "count": 24,
-      "pct": "48.0%"
+      "count": 25,
+      "pct": "49.0%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "16.0%"
+      "pct": "15.7%"
     },
     {
       "score": 8,
       "count": 10,
-      "pct": "20.0%"
+      "pct": "19.6%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "8.0%"
+      "pct": "7.8%"
     },
     {
       "score": 6,
       "count": 4,
-      "pct": "8.0%"
+      "pct": "7.8%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-15",
+      "comment": "太喜歡這個酒店了，價格合理，交通方便，下次再住！",
+      "good": "",
+      "bad": "",
+      "translated": "このホテル、すごく気に入りました！値段も手頃だし、立地も便利。絶対にまた泊まりたいです！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,

@@ -1,19 +1,19 @@
 {
-  "total_reviews": 110,
-  "overall_avg_10pt": 9.0,
-  "high_count": 96,
-  "high_rate": 87.3,
+  "total_reviews": 116,
+  "overall_avg_10pt": 9.03,
+  "high_count": 102,
+  "high_rate": 87.9,
   "mid_count": 13,
-  "mid_rate": 11.8,
+  "mid_rate": 11.2,
   "low_count": 1,
   "low_rate": 0.9,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 40,
-      "native_avg": 9.5,
+      "count": 43,
+      "native_avg": 9.53,
       "scale": "/10",
-      "avg_10pt": 9.5,
+      "avg_10pt": 9.53,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -28,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 46,
-      "native_avg": 8.61,
+      "count": 49,
+      "native_avg": 8.63,
       "scale": "/10",
-      "avg_10pt": 8.61,
+      "avg_10pt": 8.63,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -48,33 +48,33 @@
   "distribution": [
     {
       "score": 10,
-      "count": 58,
-      "pct": "52.7%"
+      "count": 62,
+      "pct": "53.4%"
     },
     {
       "score": 9,
-      "count": 21,
-      "pct": "19.1%"
+      "count": 22,
+      "pct": "19.0%"
     },
     {
       "score": 8,
-      "count": 17,
+      "count": 18,
       "pct": "15.5%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "4.5%"
+      "pct": "4.3%"
     },
     {
       "score": 6,
       "count": 6,
-      "pct": "5.5%"
+      "pct": "5.2%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "1.8%"
+      "pct": "1.7%"
     },
     {
       "score": 4,
@@ -83,6 +83,84 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "Wir waren sehr zufrieden 😃 Alles 👍. Kann ich nur weiterempfehlen",
+      "good": "",
+      "bad": "",
+      "translated": "とても満足しました😃 全てが素晴らしかったです👍。強くお勧めします。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "Instalaciones cómodas , zona muy tranquila y relativamente cerca de una estación grande.",
+      "bad": "Todo bien",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "すべて順調です",
+      "reviewer": "Aylin"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "地理位置太方便了！離地鐵站和商圈都超近，出門逛街、吃飯、去景點都省了不少時間。房間也乾淨舒適，住得非常舒心。酒店大堂也提供面膜，浴鹽",
+      "good": "",
+      "bad": "",
+      "translated": "立地が最高に便利！地下鉄の駅やショッピングエリアにとても近く、買い物や食事、観光に出かける際に時間を大幅に節約できます。部屋も清潔で快適で、とても気持ちの良い滞在になりました。ホテルのロビーにはフェイスマスクやバスソルトまで用意されていました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "香‍宝‍y‍a"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "キレイなホテルでした",
+      "bad": "特にありません。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "特にありません。",
+      "reviewer": "英一"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Jhang-jie"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "飯店乾淨整潔舒適 附近也很熱鬧 有很多吃的可以選擇 各家超商附近都有 離車站也算近！機能很好",
+      "good": "",
+      "bad": "",
+      "translated": "このレストランは清潔で整頓されていて快適です。周辺は活気があり、飲食店やコンビニエンスストアも数多くあります。駅からもとても近いので、非常に便利です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Booking.com",
       "rating": 7.0,
@@ -182,7 +260,7 @@
       "comment": "房間很大，位置好又鄰近地鐵和jr線，不用擔心轉乘問題，值得推薦住的飯店",
       "good": "",
       "bad": "",
-      "translated": "部屋は広々としていて、立地も素晴らしく、地下鉄とJR線に近かったので乗り換えの心配は全くありませんでした。非常におすすめのホテルです。",
+      "translated": "部屋は広々としていて、立地も素晴らしく、地下鉄とJR線に近かったので、乗り換えの心配は全くありませんでした。非常におすすめのホテルです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -286,7 +364,7 @@
       "comment": "由錦糸町站南口行去酒店4-5分鐘. 途中經過食肆、family mart. 可以買水、補給物品. 酒店位於大馬路. 夜晚返酒店也安全. 錦糸町附近有幾個商場. 本人要行1.5人先行完他們😆酒店大堂有茶包、臉部用品等可自取. 泡澡錠也有3款味道可選擇. 最讚係有 face serum 冬天很啱用👍🏻👍🏻👍🏻",
       "good": "",
       "bad": "",
-      "translated": "錦糸町駅南口から徒歩4～5分。途中には飲食店やファミリーマートがあり、水や日用品などを購入できます。ホテルは道路沿いに位置しており、夜間の帰宅も安全です。錦糸町周辺には複数のショッピングモールがあります。",
+      "translated": "錦糸町駅南口からホテルまで徒歩4～5分",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "j‍e‍j‍e‍n‍g"
@@ -299,7 +377,7 @@
       "comment": "整體感覺很好",
       "good": "",
       "bad": "",
-      "translated": "全体的な印象は非常に良い",
+      "translated": "全体的に、とても良かった。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -327,7 +405,7 @@
       "bad": "Couldn’t get feather-free bedding despite my allergy request",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "アレルギーがあるという私の要望にもかかわらず、羽毛不使用の寝具を入手できませんでした。",
+      "translated_bad": "アレルギーがあるという私の要望にもかかわらず、羽毛不使用の寝具を用意してもらえませんでした。",
       "reviewer": "Michael"
     },
     {
@@ -806,7 +884,7 @@
       "comment": "地點方便，雙床加床也很舒適，廁浴洗手分開非常棒",
       "good": "",
       "bad": "",
-      "translated": "立地は便利で、ツインベッドとエキストラベッドはとても快適で、独立したトイレ、シャワー、手洗い場も素晴らしい。",
+      "translated": "立地は便利で、ツインベッドとエキストラベッドはとても快適、独立したトイレ、シャワー、手洗い場も素晴らしい。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "S‍u‍n‍r‍i‍s‍e‍ ‍s‍t‍a‍r"
@@ -910,7 +988,7 @@
       "comment": "酒店早餐好，附近有很多吃飯的店，去地鐵站也很方便，總之很喜歡這個酒店。下次還住着個酒店啦啦啦啦啦啦啦啊啦",
       "good": "",
       "bad": "",
-      "translated": "ホテルの朝食は美味しく、周辺にはたくさんのレストランがあり、地下鉄の駅にもとても便利でした。全体的にこのホテルはとても気に入りました。次回も必ずここに泊まります！",
+      "translated": "ホテルの朝食は美味しく、周辺にはたくさんのレストランがあり、地下鉄の駅にもとても便利でした。全体的に、このホテルは本当に気に入りました。次回も必ずここに泊まります！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1079,7 +1157,7 @@
       "comment": "整體不錯，但清潔方面加強會更好。選擇了簡單清潔(整理垃圾，更換毛巾，簡單整理床舖)。入住三天，第一天清潔完已經要自己從床上把毛巾拿回浴室，為酒店是這樣的清潔，但第二天清潔人士正常放回毛巾架。而且入住所有天數都沒有整理過床舖。",
       "good": "",
       "bad": "",
-      "translated": "全体的にはまあまあでしたが、清掃サービスは改善の余地があります。私は基本的な清掃（ゴミの回収、タオルの交換、ベッドメイキング）を選びました。3泊の滞在中、初日は清掃後にタオルを自分でバスルームに戻さなければなりませんでしたが、これは一般的なホテルの清掃方法でした。しかし、2日目は清掃スタッフがタオルをタオル掛けに戻しただけでした。さらに、滞在中ベッドメイキングは全く行われませんでした。",
+      "translated": "全体的にはまあまあでしたが、清掃サービスは改善の余地があります。私は基本的な清掃（ゴミの回収、タオルの交換、ベッドメイキング）を選びました。3泊の滞在のうち、初日は清掃後、ベッドからタオルを自分でバスルームに戻さなければなりませんでした。これはホテルの清掃ではよくあることです。しかし、2日目は清掃スタッフがタオルをタオル掛けに戻しただけでした。さらに、滞在中、ベッドメイキングは全く行われませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "C‍k‍w‍o‍n‍g"
@@ -1263,7 +1341,7 @@
       "bad": "I booked 2 rooms, one room for 3 peoples, another room for 2 peoples, the front desk mixed up and gave me wrong room card.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "私は2部屋予約しました。1部屋は3人用、もう1部屋は2人用です。しかし、フロントの担当者が間違えて、間違ったルームカードを渡されました。",
+      "translated_bad": "私は2部屋予約しました。1部屋は3人用、もう1部屋は2人用です。フロントの人が間違えて、間違ったルームカードを渡されました。",
       "reviewer": "Amy"
     },
     {
