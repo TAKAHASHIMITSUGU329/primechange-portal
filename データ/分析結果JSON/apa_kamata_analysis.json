@@ -1,12 +1,12 @@
 {
-  "total_reviews": 47,
-  "overall_avg_10pt": 7.34,
-  "high_count": 29,
-  "high_rate": 61.7,
+  "total_reviews": 48,
+  "overall_avg_10pt": 7.35,
+  "high_count": 30,
+  "high_rate": 62.5,
   "mid_count": 13,
-  "mid_rate": 27.7,
+  "mid_rate": 27.1,
   "low_count": 5,
-  "low_rate": 10.6,
+  "low_rate": 10.4,
   "site_stats": [
     {
       "site": "Google",
@@ -46,11 +46,11 @@
     },
     {
       "site": "Agoda",
-      "count": 11,
-      "native_avg": 6.82,
+      "count": 12,
+      "native_avg": 6.92,
       "scale": "/10",
-      "avg_10pt": 6.82,
-      "median_10pt": 7.0,
+      "avg_10pt": 6.92,
+      "median_10pt": 7.5,
       "judgment": "要改善"
     }
   ],
@@ -58,27 +58,27 @@
     {
       "score": 10,
       "count": 6,
-      "pct": "12.8%"
+      "pct": "12.5%"
     },
     {
       "score": 9,
       "count": 2,
-      "pct": "4.3%"
+      "pct": "4.2%"
     },
     {
       "score": 8,
-      "count": 21,
-      "pct": "44.7%"
+      "count": 22,
+      "pct": "45.8%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "8.5%"
+      "pct": "8.3%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "17.0%"
+      "pct": "16.7%"
     },
     {
       "score": 5,
@@ -88,7 +88,7 @@
     {
       "score": 4,
       "count": 4,
-      "pct": "8.5%"
+      "pct": "8.3%"
     },
     {
       "score": 2,
@@ -97,6 +97,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-18",
+      "comment": "少しだけわかりにくいけど１回覚えたら問題ない。",
+      "good": "",
+      "bad": "",
+      "translated": "少しだけわかりにくいけど１回覚えたら問題ない。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "YUKIO"
+    },
     {
       "site": "Agoda",
       "rating": 6.0,

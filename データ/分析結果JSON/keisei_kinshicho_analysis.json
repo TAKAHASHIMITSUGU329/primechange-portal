@@ -1,19 +1,19 @@
 {
-  "total_reviews": 116,
+  "total_reviews": 117,
   "overall_avg_10pt": 9.03,
-  "high_count": 102,
-  "high_rate": 87.9,
+  "high_count": 103,
+  "high_rate": 88.0,
   "mid_count": 13,
-  "mid_rate": 11.2,
+  "mid_rate": 11.1,
   "low_count": 1,
   "low_rate": 0.9,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 43,
-      "native_avg": 9.53,
+      "count": 44,
+      "native_avg": 9.52,
       "scale": "/10",
-      "avg_10pt": 9.53,
+      "avg_10pt": 9.52,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -49,17 +49,17 @@
     {
       "score": 10,
       "count": 62,
-      "pct": "53.4%"
+      "pct": "53.0%"
     },
     {
       "score": 9,
-      "count": 22,
-      "pct": "19.0%"
+      "count": 23,
+      "pct": "19.7%"
     },
     {
       "score": 8,
       "count": 18,
-      "pct": "15.5%"
+      "pct": "15.4%"
     },
     {
       "score": 7,
@@ -69,7 +69,7 @@
     {
       "score": 6,
       "count": 6,
-      "pct": "5.2%"
+      "pct": "5.1%"
     },
     {
       "score": 5,
@@ -85,13 +85,26 @@
   "comments": [
     {
       "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-18",
+      "comment": "出張の際に利用するホテルです。 立地も良く、何度も利用出来る安心なビジネスホテルです。",
+      "good": "",
+      "bad": "",
+      "translated": "出張の際に利用するホテルです。 立地も良く、何度も利用出来る安心なビジネスホテルです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "み‍ゆ‍か"
+    },
+    {
+      "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-03-17",
       "comment": "Wir waren sehr zufrieden 😃 Alles 👍. Kann ich nur weiterempfehlen",
       "good": "",
       "bad": "",
-      "translated": "とても満足しました😃 全てが素晴らしかったです👍。強くお勧めします。",
+      "translated": "とても満足しました😃 全てが素晴らしかったです👍。ぜひお勧めします。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -340,7 +353,7 @@
       "bad": "這次checking 的工作人員似乎有點不耐煩 是厭世臉的中年大叔 另外3/9早餐開放時間6:30 也晚了啦」好幾分才開放用餐 這對我們七點多就要離開的著實增加困擾",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては非常に不便でした。",
+      "translated_bad": "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては大変不便でした。",
       "reviewer": "Sulien"
     },
     {
@@ -507,7 +520,7 @@
       "comment": "非常棒的酒店，地理位置很好，錦系町站南口出來後一路筆直走就可以到，酒店服務人員也非常友好，有問題會及時解決，提出來的房間需求都滿足了，很棒！酒店工作人員每天都會換浴巾和倒垃圾，之前去日本其他城市也都住richmond，便捷，實惠，乾淨，舒適，下次來日本玩還會繼續選擇這個牌子的^ _ ^",
       "good": "",
       "bad": "",
-      "translated": "錦糸町駅南口から徒歩すぐという最高のロケーションにある素晴らしいホテルです。ホテルスタッフもとても親切で、どんな問題にも迅速に対応してくれました。部屋のリクエストにも全て応えてくれて、本当に助かりました！タオル交換やゴミ捨ても毎日行ってくれました。以前にも日本の他の都市でリッチモンドホテルに宿泊したことがありますが、便利で手頃な価格、清潔で快適です。次回日本に来る時も、間違いなくこのブランドを選びます！^_^",
+      "translated": "錦糸町駅南口から歩いてすぐの絶好のロケーションにある素晴らしいホテルです。ホテルスタッフもとても親切で、どんな問題にも迅速に対応してくれました。部屋のリクエストにも全て応えてくれて、本当に助かりました！タオル交換やゴミ捨ても毎日行ってくれました。以前、日本の他の都市でリッチモンドホテルに宿泊したことがありますが、便利で手頃な価格、清潔で快適です。次回日本に来る時も、間違いなくこのブランドを選びます！^_^",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -806,7 +819,7 @@
       "comment": "\"Excellent service and friendly staff! The rooms are larger and cheaper than city-center hotels. Breakfast is good enough for a morning meal. While it’s a short walk from the station, the value for money is unbeatable—especially with the free bath salts and face masks provided. Definitely recommended!\"",
       "good": "",
       "bad": "",
-      "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分満足できる内容です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
+      "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分な量です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1482,7 +1495,7 @@
       "comment": "飯店回覆信件親切、迅速 性價比高 值得推薦加購早餐",
       "good": "",
       "bad": "",
-      "translated": "ホテルはメールへの返信が迅速かつ丁寧でした。料金に見合った価値があり、朝食付きプランをご希望の方には特におすすめです。",
+      "translated": "ホテルはメールへの返信が迅速かつ丁寧でした。料金に見合った価値があり、朝食付きのプランをご希望の方には特におすすめです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

@@ -1,12 +1,12 @@
 {
-  "total_reviews": 56,
+  "total_reviews": 58,
   "overall_avg_10pt": 8.12,
-  "high_count": 39,
-  "high_rate": 69.6,
-  "mid_count": 16,
-  "mid_rate": 28.6,
+  "high_count": 40,
+  "high_rate": 69.0,
+  "mid_count": 17,
+  "mid_rate": 29.3,
   "low_count": 1,
-  "low_rate": 1.8,
+  "low_rate": 1.7,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 18,
-      "native_avg": 7.83,
+      "count": 19,
+      "native_avg": 7.89,
       "scale": "/10",
-      "avg_10pt": 7.83,
+      "avg_10pt": 7.89,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -55,11 +55,11 @@
     },
     {
       "site": "Agoda",
-      "count": 6,
-      "native_avg": 7.67,
+      "count": 7,
+      "native_avg": 7.57,
       "scale": "/10",
-      "avg_10pt": 7.67,
-      "median_10pt": 7.5,
+      "avg_10pt": 7.57,
+      "median_10pt": 7.0,
       "judgment": "概ね良好"
     }
   ],
@@ -67,40 +67,66 @@
     {
       "score": 10,
       "count": 18,
-      "pct": "32.1%"
+      "pct": "31.0%"
     },
     {
       "score": 9,
-      "count": 3,
-      "pct": "5.4%"
+      "count": 4,
+      "pct": "6.9%"
     },
     {
       "score": 8,
       "count": 18,
-      "pct": "32.1%"
+      "pct": "31.0%"
     },
     {
       "score": 7,
-      "count": 6,
-      "pct": "10.7%"
+      "count": 7,
+      "pct": "12.1%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "14.3%"
+      "pct": "13.8%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.6%"
+      "pct": "3.4%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.8%"
+      "pct": "1.7%"
     }
   ],
   "comments": [
+    {
+      "site": "Agoda",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-18",
+      "comment": "快適でした。 駅も近いし、部屋もひとりならじゅうぶんな広さです。",
+      "good": "",
+      "bad": "",
+      "translated": "快適でした。 駅も近いし、部屋もひとりならじゅうぶんな広さです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "yumiko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-18",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kose"
+    },
     {
       "site": "Agoda",
       "rating": 7.0,

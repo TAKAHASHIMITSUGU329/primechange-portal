@@ -1,28 +1,28 @@
 {
   "total_reviews": 138,
-  "overall_avg_10pt": 7.65,
-  "high_count": 100,
-  "high_rate": 72.5,
-  "mid_count": 22,
-  "mid_rate": 15.9,
-  "low_count": 16,
-  "low_rate": 11.6,
+  "overall_avg_10pt": 7.57,
+  "high_count": 98,
+  "high_rate": 71.0,
+  "mid_count": 23,
+  "mid_rate": 16.7,
+  "low_count": 17,
+  "low_rate": 12.3,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 22,
-      "native_avg": 8.68,
+      "count": 20,
+      "native_avg": 8.65,
       "scale": "/10",
-      "avg_10pt": 8.68,
+      "avg_10pt": 8.65,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
       "count": 39,
-      "native_avg": 3.95,
+      "native_avg": 3.92,
       "scale": "/5",
-      "avg_10pt": 7.9,
+      "avg_10pt": 7.85,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -37,21 +37,21 @@
     },
     {
       "site": "Booking.com",
-      "count": 30,
-      "native_avg": 7.43,
+      "count": 31,
+      "native_avg": 7.42,
       "scale": "/10",
-      "avg_10pt": 7.43,
+      "avg_10pt": 7.42,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
     {
       "site": "じゃらん",
-      "count": 20,
-      "native_avg": 3.6,
+      "count": 21,
+      "native_avg": 3.48,
       "scale": "/5",
-      "avg_10pt": 7.2,
+      "avg_10pt": 6.95,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
+      "judgment": "要改善"
     },
     {
       "site": "Google",
@@ -66,8 +66,8 @@
   "distribution": [
     {
       "score": 10,
-      "count": 33,
-      "pct": "23.9%"
+      "count": 31,
+      "pct": "22.5%"
     },
     {
       "score": 9,
@@ -81,8 +81,8 @@
     },
     {
       "score": 7,
-      "count": 4,
-      "pct": "2.9%"
+      "count": 5,
+      "pct": "3.6%"
     },
     {
       "score": 6,
@@ -106,11 +106,37 @@
     },
     {
       "score": 2,
-      "count": 6,
-      "pct": "4.3%"
+      "count": 7,
+      "pct": "5.1%"
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-18",
+      "comment": "最近の横浜方面出張時には良く利用。横浜市営地下鉄の駅が近く便利。個人的には特に、ライブラリー&カフェが気に入っており、好きな本を選んで読んだりゆっくり過ごす事ができます。コンフォートホテルはベットの硬さも枕の高さも私には最適で睡眠アプリで熟睡度80%くらい(自宅でも70%なのに)。ただし，今回は改装工事でカフェが利用出来ず、朝食もおにぎり弁当の一択で残念！でも，来月もまた泊まります。",
+      "good": "",
+      "bad": "",
+      "translated": "最近の横浜方面出張時には良く利用。横浜市営地下鉄の駅が近く便利。個人的には特に、ライブラリー&カフェが気に入っており、好きな本を選んで読んだりゆっくり過ごす事ができます。コンフォートホテルはベットの硬さも枕の高さも私には最適で睡眠アプリで熟睡度80%くらい(自宅でも70%なのに)。ただし，今回は改装工事でカフェが利用出来ず、朝食もおにぎり弁当の一択で残念！でも，来月もまた泊まります。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Cookie_Papa"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-18",
+      "comment": "",
+      "good": "窓から富士山が見えました。",
+      "bad": "あさのお弁当オニギリならジュースではなく、お茶が良かったかな？？",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "あさのお弁当オニギリならジュースではなく、お茶が良かったかな？？",
+      "reviewer": "澤木"
+    },
     {
       "site": "Booking.com",
       "rating": 8.0,
@@ -162,6 +188,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Kikikirin"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-03-17",
+      "comment": "改修工事で通常のサービスが提供出来ない状態での営業なら、訳あり表示などでわかりやすく表示して欲しい。コーヒー1杯飲めないホテルなんて宿泊する価値ありません。朝食弁当はまずいし、朝食がパン派の人は対応なし。あれなら提供できませんとした方がよおのでは？とも思います。コンフォートを利用した事があったので、同等サービスを期待しての利用でした。このイメージダウンでコンフォートはもう使わないと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "改修工事で通常のサービスが提供出来ない状態での営業なら、訳あり表示などでわかりやすく表示して欲しい。コーヒー1杯飲めないホテルなんて宿泊する価値ありません。朝食弁当はまずいし、朝食がパン派の人は対応なし。あれなら提供できませんとした方がよおのでは？とも思います。コンフォートを利用した事があったので、同等サービスを期待しての利用でした。このイメージダウンでコンフォートはもう使わないと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "リョウガさん"
     },
     {
       "site": "Google",
@@ -405,7 +444,7 @@
       "comment": "自助早餐都撤了，變成盒飯飯糰。在裝修，局部像工地一樣。這些訊息訂房頁面毫無提及。 優點：衞生可以，房間寬敞。 缺點：白燈光昏暗，洗護辣雞，和東橫一樣辣雞。",
       "good": "",
       "bad": "",
-      "translated": "ビュッフェスタイルの朝食は廃止され、代わりに弁当とおにぎりが提供されるようになりました。改装工事中で、一部は工事現場のようです。これらの詳細は予約ページには記載されていません。長所：清潔さは許容範囲内、部屋は広々としています。短所：照明が暗く、アメニティがひどい。東横インと同様です。",
+      "translated": "ビュッフェスタイルの朝食は廃止され、お弁当とおにぎりに置き換えられました。改装工事中で、一部は工事現場のようです。これらの詳細は予約ページには記載されていません。長所：清潔さは許容範囲内、部屋は広々としています。短所：照明が暗く、アメニティがひどく、東横インと全く同じです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -965,45 +1004,6 @@
       "good": "",
       "bad": "",
       "translated": "非常に素晴らしい",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-02",
-      "comment": "The room was spacious and fully equipped. The breakfast was also very delicious. I booked and checked in on the same day, and the price was cheap and reasonable.",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は広々としていて、設備も充実していました。朝食もとても美味しかったです。予約とチェックインを同日に行いましたが、料金も安くてリーズナブルでした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "ホテル料金がめちゃくちゃ安かったので期待してなかったんですが駅近で周辺には飲食店も多く室内も綺麗でした！何よりも朝食が凄く美味しくて大大大満足でした。ウェルカムドリンクも美味しかったですよ〜",
-      "good": "",
-      "bad": "",
-      "translated": "ホテル料金がめちゃくちゃ安かったので期待してなかったんですが駅近で周辺には飲食店も多く室内も綺麗でした！何よりも朝食が凄く美味しくて大大大満足でした。ウェルカムドリンクも美味しかったですよ〜",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "けぼりん。"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "很可以下次繼續合作",
-      "good": "",
-      "bad": "",
-      "translated": "次回もまた一緒に仕事ができるかもしれませんね。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

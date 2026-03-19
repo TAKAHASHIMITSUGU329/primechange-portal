@@ -3,7 +3,7 @@
 # 使い方: bash スクリプト/最新化/full_update_with_reports.sh
 
 set -e
-BASE_DIR="/Users/mitsugutakahashi/ホテル口コミ"
+BASE_DIR="/Users/mitsugutakahashi/HotelReview"
 JSON_DIR="$BASE_DIR/データ/分析結果JSON"
 REPORT_DIR="$BASE_DIR/スクリプト/レポート生成"
 HOTEL_OUTPUT="$BASE_DIR/納品レポート/ホテル別レポート"

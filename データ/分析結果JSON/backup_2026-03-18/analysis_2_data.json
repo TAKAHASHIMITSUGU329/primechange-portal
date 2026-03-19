@@ -1,0 +1,598 @@
+{
+  "analysis_metadata": {
+    "analysis_id": 2,
+    "title": "スタッフ個人別パフォーマンス分析",
+    "subtitle": "Individual Staff Performance Analysis",
+    "total_hotels": 19,
+    "total_staff_analyzed": 510,
+    "data_period": "R8年度（2月〜3月）"
+  },
+  "maid_claims_summary": {
+    "total_maids_with_claims": 68,
+    "top_claim_maids": [
+      {
+        "name": "インドラ",
+        "claims": 3,
+        "hotel": "川崎日航ホテル",
+        "hotel_key": "kawasaki_nikko"
+      },
+      {
+        "name": "アンビカ",
+        "claims": 2,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      },
+      {
+        "name": "グルン",
+        "claims": 2,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      },
+      {
+        "name": "ナウン",
+        "claims": 2,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      },
+      {
+        "name": "サムジャナ",
+        "claims": 2,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton"
+      },
+      {
+        "name": "サンティ",
+        "claims": 2,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton"
+      },
+      {
+        "name": "メイ",
+        "claims": 2,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
+      {
+        "name": "ラディカ",
+        "claims": 2,
+        "hotel": "第一イン池袋",
+        "hotel_key": "daiichi_ikebukuro"
+      },
+      {
+        "name": "グルング",
+        "claims": 2,
+        "hotel": "アパホテル蒲田駅東",
+        "hotel_key": "apa_kamata"
+      },
+      {
+        "name": "サラマ",
+        "claims": 2,
+        "hotel": "アパホテル蒲田駅東",
+        "hotel_key": "apa_kamata"
+      },
+      {
+        "name": "プン",
+        "claims": 2,
+        "hotel": "アパホテル蒲田駅東",
+        "hotel_key": "apa_kamata"
+      },
+      {
+        "name": "山下",
+        "claims": 2,
+        "hotel": "アパホテル蒲田駅東",
+        "hotel_key": "apa_kamata"
+      },
+      {
+        "name": "スニタ",
+        "claims": 2,
+        "hotel": "川崎日航ホテル",
+        "hotel_key": "kawasaki_nikko"
+      },
+      {
+        "name": "黒田",
+        "claims": 2,
+        "hotel": "コンフォートホテル博多",
+        "hotel_key": "comfort_hakata"
+      },
+      {
+        "name": "クマリ",
+        "claims": 1,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      }
+    ]
+  },
+  "checker_claims_summary": {
+    "total_checkers_with_claims": 58,
+    "top_claim_checkers": [
+      {
+        "name": "なし",
+        "claims": 9,
+        "hotel": "アパホテル蒲田駅東",
+        "hotel_key": "apa_kamata"
+      },
+      {
+        "name": "ピョー",
+        "claims": 4,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      },
+      {
+        "name": "結城",
+        "claims": 4,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      },
+      {
+        "name": "谷口",
+        "claims": 3,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton"
+      },
+      {
+        "name": "サラ",
+        "claims": 3,
+        "hotel": "ホテルケヤキゲート東京府中",
+        "hotel_key": "keyakigate"
+      },
+      {
+        "name": "チャン",
+        "claims": 2,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      },
+      {
+        "name": "サムジャナ",
+        "claims": 2,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton"
+      },
+      {
+        "name": "ジェ",
+        "claims": 2,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton"
+      },
+      {
+        "name": "ラディカ",
+        "claims": 2,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton"
+      },
+      {
+        "name": "シャキラ",
+        "claims": 2,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
+      {
+        "name": "メイ",
+        "claims": 2,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
+      {
+        "name": "ティン",
+        "claims": 2,
+        "hotel": "第一イン池袋",
+        "hotel_key": "daiichi_ikebukuro"
+      },
+      {
+        "name": "富田",
+        "claims": 2,
+        "hotel": "コンフォートスイーツ東京ベイ",
+        "hotel_key": "comfort_suites_tokyobay"
+      },
+      {
+        "name": "松岡",
+        "claims": 2,
+        "hotel": "コンフォートスイーツ東京ベイ",
+        "hotel_key": "comfort_suites_tokyobay"
+      },
+      {
+        "name": "ホアン",
+        "claims": 2,
+        "hotel": "コンフォートホテルERA東神田",
+        "hotel_key": "comfort_era_higashikanda"
+      }
+    ]
+  },
+  "maid_productivity": {
+    "total_maids_with_room_data": 286,
+    "avg_rooms_per_day": 10.2,
+    "median_rooms_per_day": 10.1,
+    "max_rooms_per_day": 24.3,
+    "min_rooms_per_day": 0.4,
+    "top_performers": [
+      {
+        "name": "辛",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 35,
+        "absence_days": 0,
+        "total_hours": 202.0,
+        "rooms_cleaned": 852,
+        "feb_rooms": 598,
+        "mar_rooms": 254,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 24.3
+      },
+      {
+        "name": "楊",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 36,
+        "absence_days": 0,
+        "total_hours": 206.8,
+        "rooms_cleaned": 867,
+        "feb_rooms": 619,
+        "mar_rooms": 248,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 24.1
+      },
+      {
+        "name": "スーザン",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 35,
+        "absence_days": 0,
+        "total_hours": 201.1,
+        "rooms_cleaned": 767,
+        "feb_rooms": 530,
+        "mar_rooms": 237,
+        "hotel": "リッチモンドホテル東京目白",
+        "hotel_key": "richmond_mejiro",
+        "rooms_per_day": 21.9
+      },
+      {
+        "name": "グルン",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 36,
+        "absence_days": 0,
+        "total_hours": 217.0,
+        "rooms_cleaned": 787,
+        "feb_rooms": 532,
+        "mar_rooms": 255,
+        "hotel": "リッチモンドホテル東京目白",
+        "hotel_key": "richmond_mejiro",
+        "rooms_per_day": 21.9
+      },
+      {
+        "name": "アルチャナ",
+        "position": "メイド",
+        "pay_type": "",
+        "total_days": 24,
+        "absence_days": 0,
+        "total_hours": 135,
+        "rooms_cleaned": 515,
+        "feb_rooms": 515,
+        "mar_rooms": 0,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton",
+        "rooms_per_day": 21.5
+      },
+      {
+        "name": "ビマラ（セルフ）",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 10,
+        "absence_days": 0,
+        "total_hours": 46.5,
+        "rooms_cleaned": 214,
+        "feb_rooms": 0,
+        "mar_rooms": 214,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton",
+        "rooms_per_day": 21.4
+      },
+      {
+        "name": "マヤ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 33,
+        "absence_days": 0,
+        "total_hours": 190.2,
+        "rooms_cleaned": 703,
+        "feb_rooms": 502,
+        "mar_rooms": 201,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 21.3
+      },
+      {
+        "name": "スニタ（セルフ）",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 27,
+        "absence_days": 0,
+        "total_hours": 134.1,
+        "rooms_cleaned": 570,
+        "feb_rooms": 305,
+        "mar_rooms": 265,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton",
+        "rooms_per_day": 21.1
+      },
+      {
+        "name": "ブラトキ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 34,
+        "absence_days": 0,
+        "total_hours": 185.2,
+        "rooms_cleaned": 714,
+        "feb_rooms": 501,
+        "mar_rooms": 213,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 21.0
+      },
+      {
+        "name": "ビナ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 24,
+        "absence_days": 0,
+        "total_hours": 143.4,
+        "rooms_cleaned": 503,
+        "feb_rooms": 290,
+        "mar_rooms": 213,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 21.0
+      }
+    ]
+  },
+  "attendance_analysis": {
+    "total_staff": 496,
+    "avg_days": 19.3,
+    "high_attendance": 243,
+    "low_attendance": 76
+  },
+  "hotel_summaries": [
+    {
+      "hotel_key": "comfort_suites_tokyobay",
+      "name": "コンフォートスイーツ東京ベイ",
+      "roster_size": 71,
+      "maid_count": 42,
+      "checker_count": 18,
+      "total_claims": 0,
+      "claims_per_maid": 0.0,
+      "avg_rooms_per_day": 6.5,
+      "avg_attendance_days": 19.6
+    },
+    {
+      "hotel_key": "comfort_narita",
+      "name": "コンフォートホテル成田",
+      "roster_size": 20,
+      "maid_count": 19,
+      "checker_count": 0,
+      "total_claims": 0,
+      "claims_per_maid": 0.0,
+      "avg_rooms_per_day": 2.9,
+      "avg_attendance_days": 15.6
+    },
+    {
+      "hotel_key": "comfort_yokohama",
+      "name": "コンフォートホテル横浜関内",
+      "roster_size": 22,
+      "maid_count": 20,
+      "checker_count": 1,
+      "total_claims": 0,
+      "claims_per_maid": 0.0,
+      "avg_rooms_per_day": 11.6,
+      "avg_attendance_days": 18.4
+    },
+    {
+      "hotel_key": "apa_sagamihara",
+      "name": "アパホテル相模原橋本駅東",
+      "roster_size": 20,
+      "maid_count": 18,
+      "checker_count": 0,
+      "total_claims": 0,
+      "claims_per_maid": 0.0,
+      "avg_rooms_per_day": 0.5,
+      "avg_attendance_days": 19.6
+    },
+    {
+      "hotel_key": "court_shinyokohama",
+      "name": "コートホテル新横浜",
+      "roster_size": 23,
+      "maid_count": 0,
+      "checker_count": 0,
+      "total_claims": 0,
+      "claims_per_maid": 0,
+      "avg_rooms_per_day": 0,
+      "avg_attendance_days": 18.0
+    },
+    {
+      "hotel_key": "henn_na_haneda",
+      "name": "変なホテル東京羽田",
+      "roster_size": 35,
+      "maid_count": 28,
+      "checker_count": 6,
+      "total_claims": 1,
+      "claims_per_maid": 0.04,
+      "avg_rooms_per_day": 11.5,
+      "avg_attendance_days": 19.7
+    },
+    {
+      "hotel_key": "comment_yokohama",
+      "name": "ホテルコメント横浜関内",
+      "roster_size": 30,
+      "maid_count": 20,
+      "checker_count": 3,
+      "total_claims": 1,
+      "claims_per_maid": 0.05,
+      "avg_rooms_per_day": 5.2,
+      "avg_attendance_days": 16.1
+    },
+    {
+      "hotel_key": "richmond_mejiro",
+      "name": "リッチモンドホテル東京目白",
+      "roster_size": 11,
+      "maid_count": 9,
+      "checker_count": 2,
+      "total_claims": 1,
+      "claims_per_maid": 0.11,
+      "avg_rooms_per_day": 19.5,
+      "avg_attendance_days": 29.2
+    },
+    {
+      "hotel_key": "comfort_roppongi",
+      "name": "コンフォートイン六本木",
+      "roster_size": 15,
+      "maid_count": 15,
+      "checker_count": 0,
+      "total_claims": 2,
+      "claims_per_maid": 0.13,
+      "avg_rooms_per_day": 14.7,
+      "avg_attendance_days": 15.1
+    },
+    {
+      "hotel_key": "keyakigate",
+      "name": "ホテルケヤキゲート東京府中",
+      "roster_size": 28,
+      "maid_count": 19,
+      "checker_count": 4,
+      "total_claims": 4,
+      "claims_per_maid": 0.21,
+      "avg_rooms_per_day": 8.6,
+      "avg_attendance_days": 16.8
+    },
+    {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "roster_size": 21,
+      "maid_count": 19,
+      "checker_count": 0,
+      "total_claims": 4,
+      "claims_per_maid": 0.21,
+      "avg_rooms_per_day": 10.4,
+      "avg_attendance_days": 16.3
+    },
+    {
+      "hotel_key": "comfort_hakata",
+      "name": "コンフォートホテル博多",
+      "roster_size": 41,
+      "maid_count": 36,
+      "checker_count": 5,
+      "total_claims": 10,
+      "claims_per_maid": 0.28,
+      "avg_rooms_per_day": 4.1,
+      "avg_attendance_days": 15.6
+    },
+    {
+      "hotel_key": "hearton",
+      "name": "ハートンホテル東品川",
+      "roster_size": 34,
+      "maid_count": 29,
+      "checker_count": 4,
+      "total_claims": 10,
+      "claims_per_maid": 0.34,
+      "avg_rooms_per_day": 14.5,
+      "avg_attendance_days": 21.5
+    },
+    {
+      "hotel_key": "apa_kamata",
+      "name": "アパホテル蒲田駅東",
+      "roster_size": 37,
+      "maid_count": 26,
+      "checker_count": 1,
+      "total_claims": 10,
+      "claims_per_maid": 0.38,
+      "avg_rooms_per_day": 11.5,
+      "avg_attendance_days": 20.1
+    },
+    {
+      "hotel_key": "chisan",
+      "name": "チサンホテル浜松町",
+      "roster_size": 12,
+      "maid_count": 12,
+      "checker_count": 0,
+      "total_claims": 5,
+      "claims_per_maid": 0.42,
+      "avg_rooms_per_day": 20.8,
+      "avg_attendance_days": 29.8
+    },
+    {
+      "hotel_key": "keisei_richmond",
+      "name": "京成リッチモンドホテル東京錦糸町",
+      "roster_size": 29,
+      "maid_count": 19,
+      "checker_count": 6,
+      "total_claims": 8,
+      "claims_per_maid": 0.42,
+      "avg_rooms_per_day": 10.9,
+      "avg_attendance_days": 18.3
+    },
+    {
+      "hotel_key": "daiichi_ikebukuro",
+      "name": "第一イン池袋",
+      "roster_size": 16,
+      "maid_count": 7,
+      "checker_count": 5,
+      "total_claims": 3,
+      "claims_per_maid": 0.43,
+      "avg_rooms_per_day": 11.1,
+      "avg_attendance_days": 20.9
+    },
+    {
+      "hotel_key": "daiwa_osaki",
+      "name": "ダイワロイネットホテル東京大崎",
+      "roster_size": 18,
+      "maid_count": 15,
+      "checker_count": 3,
+      "total_claims": 11,
+      "claims_per_maid": 0.73,
+      "avg_rooms_per_day": 14.3,
+      "avg_attendance_days": 27.2
+    },
+    {
+      "hotel_key": "kawasaki_nikko",
+      "name": "川崎日航ホテル",
+      "roster_size": 27,
+      "maid_count": 13,
+      "checker_count": 4,
+      "total_claims": 13,
+      "claims_per_maid": 1.0,
+      "avg_rooms_per_day": 10.2,
+      "avg_attendance_days": 20.9
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "クレーム多発スタッフへの個別研修",
+      "priority": "最優先",
+      "rationale": "全68名のメイドからクレームが報告。上位集中是正で全体品質向上が可能。",
+      "actions": [
+        "クレーム2件以上のメイドへの個別フィードバック面談",
+        "清掃手順の再確認と実技研修",
+        "改善後のフォローアップ（1ヶ月後再評価）"
+      ]
+    },
+    {
+      "title": "チェッカー品質管理力の強化",
+      "priority": "高",
+      "rationale": "チェッカー58名の指摘実績を分析。見逃し傾向のあるチェッカーの底上げが重要。",
+      "actions": [
+        "チェッカー間のクレーム発見率比較と是正",
+        "ベストチェッカーの手法共有会の開催",
+        "チェック項目の統一と漏れ防止"
+      ]
+    },
+    {
+      "title": "生産性指標の導入と目標管理",
+      "priority": "中",
+      "rationale": "メイド1日あたり清掃室数の平均10.2室。個人差が大きく標準化が課題。",
+      "actions": [
+        "日あたり清掃室数の個人別トラッキング",
+        "効率と品質のバランス指標の設定",
+        "トップパフォーマーのベストプラクティス抽出"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "date": "2026年3月11日",
     "analysis_period": "2025年12月〜2026年3月",
     "total_hotels": 19,
-    "total_reviews": 2157,
+    "total_reviews": 2194,
     "portfolio_avg": 8.38,
     "prepared_for": "株式会社PRIMECHANGE 代表取締役社長",
     "prepared_by": "経営コンサルティングチーム",
@@ -13,26 +13,26 @@
   },
   "portfolio_overview": {
     "avg_score": 8.38,
-    "median_score": 8.63,
+    "median_score": 8.66,
     "best_hotel": {
       "name": "コンフォートスイーツ東京ベイ",
-      "avg": 9.18
+      "avg": 9.17
     },
     "worst_hotel": {
-      "name": "チサンホテル浜松町",
+      "name": "コートホテル新横浜",
       "avg": 7.03
     },
-    "total_reviews": 2157,
-    "portfolio_high_rate": 78.2,
+    "total_reviews": 2194,
+    "portfolio_high_rate": 78.4,
     "portfolio_low_rate": 4.9,
     "hotels_ranked": [
       {
         "rank": 1,
         "name": "コンフォートスイーツ東京ベイ",
         "key": "comfort_suites_tokyobay",
-        "avg": 9.18,
-        "total_reviews": 135,
-        "high_rate": 92.6,
+        "avg": 9.17,
+        "total_reviews": 139,
+        "high_rate": 92.8,
         "low_rate": 0.7,
         "cleaning_issue_count": 0,
         "cleaning_issue_rate": 0.0,
@@ -43,12 +43,12 @@
         "rank": 2,
         "name": "第一イン池袋",
         "key": "daiichi_ikebukuro",
-        "avg": 9.06,
-        "total_reviews": 101,
-        "high_rate": 90.1,
-        "low_rate": 2.0,
+        "avg": 9.08,
+        "total_reviews": 107,
+        "high_rate": 90.7,
+        "low_rate": 1.9,
         "cleaning_issue_count": 1,
-        "cleaning_issue_rate": 1.0,
+        "cleaning_issue_rate": 0.9,
         "priority": "STANDARD",
         "tier": "優秀"
       },
@@ -57,8 +57,8 @@
         "name": "京成リッチモンドホテル東京錦糸町",
         "key": "keisei_kinshicho",
         "avg": 9.03,
-        "total_reviews": 116,
-        "high_rate": 87.9,
+        "total_reviews": 117,
+        "high_rate": 88.0,
         "low_rate": 0.9,
         "cleaning_issue_count": 0,
         "cleaning_issue_rate": 0.0,
@@ -69,9 +69,9 @@
         "rank": 4,
         "name": "コンフォートホテルERA東京東神田",
         "key": "comfort_era_higashikanda",
-        "avg": 8.91,
-        "total_reviews": 115,
-        "high_rate": 84.3,
+        "avg": 8.94,
+        "total_reviews": 117,
+        "high_rate": 85.5,
         "low_rate": 4.3,
         "cleaning_issue_count": 1,
         "cleaning_issue_rate": 0.9,
@@ -82,12 +82,12 @@
         "rank": 5,
         "name": "ダイワロイネットホテル東京大崎",
         "key": "daiwa_osaki",
-        "avg": 8.9,
-        "total_reviews": 51,
-        "high_rate": 84.3,
+        "avg": 8.91,
+        "total_reviews": 53,
+        "high_rate": 84.9,
         "low_rate": 0.0,
         "cleaning_issue_count": 2,
-        "cleaning_issue_rate": 3.9,
+        "cleaning_issue_rate": 3.8,
         "priority": "STANDARD",
         "tier": "良好"
       },
@@ -95,12 +95,12 @@
         "rank": 6,
         "name": "ホテルコメント横浜関内",
         "key": "comment_yokohama",
-        "avg": 8.81,
-        "total_reviews": 105,
-        "high_rate": 82.9,
-        "low_rate": 1.0,
+        "avg": 8.83,
+        "total_reviews": 108,
+        "high_rate": 83.3,
+        "low_rate": 0.9,
         "cleaning_issue_count": 6,
-        "cleaning_issue_rate": 5.7,
+        "cleaning_issue_rate": 5.6,
         "priority": "HIGH",
         "tier": "良好"
       },
@@ -119,40 +119,40 @@
       },
       {
         "rank": 8,
-        "name": "リッチモンドホテル東京目白",
-        "key": "richmond_mejiro",
-        "avg": 8.66,
-        "total_reviews": 119,
-        "high_rate": 85.7,
-        "low_rate": 2.5,
-        "cleaning_issue_count": 2,
-        "cleaning_issue_rate": 1.7,
+        "name": "川崎日航ホテル",
+        "key": "kawasaki_nikko",
+        "avg": 8.67,
+        "total_reviews": 123,
+        "high_rate": 81.3,
+        "low_rate": 0.8,
+        "cleaning_issue_count": 6,
+        "cleaning_issue_rate": 4.9,
         "priority": "STANDARD",
         "tier": "良好"
       },
       {
         "rank": 9,
-        "name": "川崎日航ホテル",
-        "key": "kawasaki_nikko",
-        "avg": 8.65,
-        "total_reviews": 123,
-        "high_rate": 80.5,
-        "low_rate": 0.8,
-        "cleaning_issue_count": 7,
-        "cleaning_issue_rate": 5.7,
-        "priority": "HIGH",
+        "name": "ハートンホテル東品川",
+        "key": "hearton",
+        "avg": 8.66,
+        "total_reviews": 139,
+        "high_rate": 84.9,
+        "low_rate": 0.7,
+        "cleaning_issue_count": 5,
+        "cleaning_issue_rate": 3.6,
+        "priority": "STANDARD",
         "tier": "良好"
       },
       {
         "rank": 10,
-        "name": "ハートンホテル東品川",
-        "key": "hearton",
-        "avg": 8.63,
-        "total_reviews": 139,
-        "high_rate": 83.5,
-        "low_rate": 0.7,
-        "cleaning_issue_count": 6,
-        "cleaning_issue_rate": 4.3,
+        "name": "リッチモンドホテル東京目白",
+        "key": "richmond_mejiro",
+        "avg": 8.66,
+        "total_reviews": 122,
+        "high_rate": 86.1,
+        "low_rate": 2.5,
+        "cleaning_issue_count": 2,
+        "cleaning_issue_rate": 1.6,
         "priority": "STANDARD",
         "tier": "良好"
       },
@@ -160,12 +160,12 @@
         "rank": 11,
         "name": "コンフォートホテル成田",
         "key": "comfort_narita",
-        "avg": 8.59,
-        "total_reviews": 121,
-        "high_rate": 81.0,
-        "low_rate": 2.5,
-        "cleaning_issue_count": 4,
-        "cleaning_issue_rate": 3.3,
+        "avg": 8.54,
+        "total_reviews": 123,
+        "high_rate": 79.7,
+        "low_rate": 3.3,
+        "cleaning_issue_count": 5,
+        "cleaning_issue_rate": 4.1,
         "priority": "STANDARD",
         "tier": "良好"
       },
@@ -174,8 +174,8 @@
         "name": "変なホテル東京羽田",
         "key": "henn_na_haneda",
         "avg": 8.27,
-        "total_reviews": 280,
-        "high_rate": 75.7,
+        "total_reviews": 285,
+        "high_rate": 75.8,
         "low_rate": 3.2,
         "cleaning_issue_count": 6,
         "cleaning_issue_rate": 2.1,
@@ -184,40 +184,40 @@
       },
       {
         "rank": 13,
-        "name": "アパホテル相模原橋本駅東",
-        "key": "apa_sagamihara",
-        "avg": 8.12,
-        "total_reviews": 56,
-        "high_rate": 69.6,
-        "low_rate": 1.8,
-        "cleaning_issue_count": 2,
-        "cleaning_issue_rate": 3.6,
-        "priority": "STANDARD",
+        "name": "コンフォートイン六本木",
+        "key": "comfort_roppongi",
+        "avg": 8.16,
+        "total_reviews": 106,
+        "high_rate": 79.2,
+        "low_rate": 8.5,
+        "cleaning_issue_count": 8,
+        "cleaning_issue_rate": 7.5,
+        "priority": "HIGH",
         "tier": "概ね良好"
       },
       {
         "rank": 14,
-        "name": "コンフォートイン六本木",
-        "key": "comfort_roppongi",
-        "avg": 8.11,
-        "total_reviews": 102,
-        "high_rate": 78.4,
-        "low_rate": 8.8,
-        "cleaning_issue_count": 8,
-        "cleaning_issue_rate": 7.8,
-        "priority": "HIGH",
+        "name": "アパホテル相模原橋本駅東",
+        "key": "apa_sagamihara",
+        "avg": 8.12,
+        "total_reviews": 58,
+        "high_rate": 69.0,
+        "low_rate": 1.7,
+        "cleaning_issue_count": 2,
+        "cleaning_issue_rate": 3.4,
+        "priority": "STANDARD",
         "tier": "概ね良好"
       },
       {
         "rank": 15,
         "name": "コンフォートホテル博多",
         "key": "comfort_hakata",
-        "avg": 7.89,
-        "total_reviews": 139,
-        "high_rate": 68.3,
-        "low_rate": 10.1,
-        "cleaning_issue_count": 17,
-        "cleaning_issue_rate": 12.2,
+        "avg": 7.86,
+        "total_reviews": 140,
+        "high_rate": 67.9,
+        "low_rate": 10.7,
+        "cleaning_issue_count": 18,
+        "cleaning_issue_rate": 12.9,
         "priority": "URGENT",
         "tier": "要改善"
       },
@@ -225,10 +225,10 @@
         "rank": 16,
         "name": "コンフォートホテル横浜関内",
         "key": "comfort_yokohama_kannai",
-        "avg": 7.65,
+        "avg": 7.57,
         "total_reviews": 138,
-        "high_rate": 72.5,
-        "low_rate": 11.6,
+        "high_rate": 71.0,
+        "low_rate": 12.3,
         "cleaning_issue_count": 13,
         "cleaning_issue_rate": 9.4,
         "priority": "HIGH",
@@ -238,12 +238,12 @@
         "rank": 17,
         "name": "アパホテル蒲田駅東",
         "key": "apa_kamata",
-        "avg": 7.34,
-        "total_reviews": 47,
-        "high_rate": 61.7,
-        "low_rate": 10.6,
+        "avg": 7.35,
+        "total_reviews": 48,
+        "high_rate": 62.5,
+        "low_rate": 10.4,
         "cleaning_issue_count": 5,
-        "cleaning_issue_rate": 10.6,
+        "cleaning_issue_rate": 10.4,
         "priority": "URGENT",
         "tier": "要改善"
       },
@@ -251,12 +251,12 @@
         "rank": 18,
         "name": "チサンホテル浜松町",
         "key": "chisan",
-        "avg": 7.03,
-        "total_reviews": 66,
-        "high_rate": 57.6,
-        "low_rate": 19.7,
+        "avg": 7.07,
+        "total_reviews": 67,
+        "high_rate": 58.2,
+        "low_rate": 19.4,
         "cleaning_issue_count": 7,
-        "cleaning_issue_rate": 10.6,
+        "cleaning_issue_rate": 10.4,
         "priority": "URGENT",
         "tier": "要改善"
       },
@@ -276,12 +276,12 @@
     ]
   },
   "cleaning_deep_dive": {
-    "portfolio_cleaning_issue_rate": 4.7,
+    "portfolio_cleaning_issue_rate": 4.6,
     "total_cleaning_mentions": 101,
     "category_summary": [
       {
         "category": "清掃品質全般",
-        "total_mentions": 67,
+        "total_mentions": 66,
         "hotels_affected": 16,
         "severity": "CRITICAL",
         "sample_comments": [
@@ -319,7 +319,7 @@
       },
       {
         "category": "臭気・異臭",
-        "total_mentions": 24,
+        "total_mentions": 25,
         "hotels_affected": 11,
         "severity": "CRITICAL",
         "sample_comments": [
@@ -546,49 +546,17 @@
         ]
       },
       {
-        "category": "ゴミ残置",
-        "total_mentions": 7,
-        "hotels_affected": 4,
-        "severity": "HIGH",
-        "sample_comments": [
-          {
-            "hotel": "ホテルケヤキゲート東京府中",
-            "rating": 4.0,
-            "text": "お風呂等設備が新しかったので綺麗だったんで良かったですが、ベッドのシーツに毛やゴミが残ってました。5本ほど.... シーツ等毎回替えないのはわかってますが、せめて クリーナー等でゴミがない状態にはして欲しかったです。 お風呂等設備が新しかったので綺麗だったんで良かったですが、ベッドのシーツに毛やゴミが残ってました。5本ほど.... シーツ等毎回替えないのはわかってますが、せめて クリーナー等でゴミ",
-            "site": "楽天トラベル"
-          },
-          {
-            "hotel": "コンフォートイン六本木",
-            "rating": 4.0,
-            "text": "清掃済みの部屋なのにゴミがありました。 スリッパがベッドの下に入り込んだので取り出したら、大量のポテチのかすとかが一緒にです。 とても不潔な感じがしました。人手が足りずに忙しいのか？　単純にサボっているとか、従業員の教育が行き届いてないのか分かりませんが。  ただポイントの還元率が高かったので、それは良かったです。 清掃済みの部屋なのにゴミがありました。 スリッパがベッドの下に入り込んだので取り出",
-            "site": "楽天トラベル"
-          },
-          {
-            "hotel": "川崎日航ホテル",
-            "rating": 7.0,
-            "text": "酒店離地鐵站及JR都非常近，周邊食肆很多，購物商場也很多，非常熱鬧及方便。但房間比較暗，中央冷氣所以很熱，但有提供風扇。我們是連續住兩晚，第二天早上我們將垃圾桶及毛巾放在門口，晚上回來發現清潔員工竟然不提供替換物資給我們，要我們跟前台自行索取，這一點酒店必須培訓一下員工。 ホテルは地下鉄とJR線に非常に近く、周辺には多くのレストランやショッピングモールがあり、活気があって便利な立地です。しかし、部",
-            "site": "Trip.com"
-          },
-          {
-            "hotel": "コンフォートホテル博多",
-            "rating": 6.0,
-            "text": "房間大小還可以，不會太小到行李箱打不開！ 每天都會幫你清理房間，清楚垃圾桶的垃圾的！還有公共空間可以微波，早上是早飯，晚上是簡易茶品可以聚會聊天到12點為止！ 部屋の広さは十分で、スーツケースを開けられないほど狭くはありません！毎日部屋の清掃とゴミ箱の空けをしてくれます！共用スペースには電子レンジがあり、朝は朝食が提供され、夜は深夜まで集まりやおしゃべりを楽しめる簡単な紅茶が用意されています！",
-            "site": "Google"
-          },
-          {
-            "hotel": "コンフォートホテル博多",
-            "rating": 6.0,
-            "text": "部屋の広さはちょうど良く、スーツケースを開けられないほど狭くはありません！  部屋の清掃とゴミ箱の清掃は毎日行われます！電子レンジ付きの共用エリアもあり、朝は朝食が提供され、夕方にはシンプルなお茶が用意されているので、深夜まで集まりや会話を楽しむことができます。 部屋の広さはちょうど良く、スーツケースを開けられないほど狭くはありません！  部屋の清掃とゴミ箱の清掃は毎日行われます！電子レンジ付きの",
-            "site": "Google"
-          }
-        ]
-      },
-      {
         "category": "シミ・汚れ跡",
-        "total_mentions": 6,
-        "hotels_affected": 1,
+        "total_mentions": 7,
+        "hotels_affected": 2,
         "severity": "HIGH",
         "sample_comments": [
+          {
+            "hotel": "ダイワロイネットホテル東京大崎",
+            "rating": 6.0,
+            "text": "Excellent location; very close to the station and other amenities. My partner had horrible allergies that only occurred when staying in the room. We don’t know if it was from pests or their cleaning c",
+            "site": "Google"
+          },
           {
             "hotel": "コンフォートホテル横浜関内",
             "rating": 5.0,
@@ -606,6 +574,44 @@
             "rating": 4.0,
             "text": "今回横浜旅行で1泊させてもらいました。  朝食がおいしいとの口コミがありましたのでこちらにしましたが、自分の見落としにより今は改装中のため、ビュッフェがないことを見落としてしまいました。。。  今はフロントで朝、軽食のお弁当が配られます。  子供がビュッフェを楽しみにしていたのでとても悲しかったです。。。  またウェルカムドリンクのコーヒーも楽しみにしていたのですが、現在はそういったサービスも無し",
             "site": "じゃらん"
+          }
+        ]
+      },
+      {
+        "category": "ゴミ残置",
+        "total_mentions": 6,
+        "hotels_affected": 3,
+        "severity": "HIGH",
+        "sample_comments": [
+          {
+            "hotel": "ホテルケヤキゲート東京府中",
+            "rating": 4.0,
+            "text": "お風呂等設備が新しかったので綺麗だったんで良かったですが、ベッドのシーツに毛やゴミが残ってました。5本ほど.... シーツ等毎回替えないのはわかってますが、せめて クリーナー等でゴミがない状態にはして欲しかったです。 お風呂等設備が新しかったので綺麗だったんで良かったですが、ベッドのシーツに毛やゴミが残ってました。5本ほど.... シーツ等毎回替えないのはわかってますが、せめて クリーナー等でゴミ",
+            "site": "楽天トラベル"
+          },
+          {
+            "hotel": "コンフォートイン六本木",
+            "rating": 4.0,
+            "text": "清掃済みの部屋なのにゴミがありました。 スリッパがベッドの下に入り込んだので取り出したら、大量のポテチのかすとかが一緒にです。 とても不潔な感じがしました。人手が足りずに忙しいのか？　単純にサボっているとか、従業員の教育が行き届いてないのか分かりませんが。  ただポイントの還元率が高かったので、それは良かったです。 清掃済みの部屋なのにゴミがありました。 スリッパがベッドの下に入り込んだので取り出",
+            "site": "楽天トラベル"
+          },
+          {
+            "hotel": "コンフォートホテル博多",
+            "rating": 6.0,
+            "text": "房間大小還可以，不會太小到行李箱打不開！ 每天都會幫你清理房間，清楚垃圾桶的垃圾的！還有公共空間可以微波，早上是早飯，晚上是簡易茶品可以聚會聊天到12點為止！ 部屋の広さは十分で、スーツケースを開けられないほど狭くはありません！毎日部屋の清掃とゴミ箱の空けをしてくれます！共用スペースには電子レンジがあり、朝は朝食が提供され、夜は深夜まで集まりやおしゃべりを楽しめる簡単な紅茶が用意されています！",
+            "site": "Google"
+          },
+          {
+            "hotel": "コンフォートホテル博多",
+            "rating": 6.0,
+            "text": "部屋の広さはちょうど良く、スーツケースを開けられないほど狭くはありません！  部屋の清掃とゴミ箱の清掃は毎日行われます！電子レンジ付きの共用エリアもあり、朝は朝食が提供され、夕方にはシンプルなお茶が用意されているので、深夜まで集まりや会話を楽しむことができます。 部屋の広さはちょうど良く、スーツケースを開けられないほど狭くはありません！  部屋の清掃とゴミ箱の清掃は毎日行われます！電子レンジ付きの",
+            "site": "Google"
+          },
+          {
+            "hotel": "コンフォートホテル博多",
+            "rating": 4.0,
+            "text": "旅行で嫌な思いをしたくないなら、他のホテルに泊まることを強くお勧めします。このホテルに泊まってから、二度と日本でコンフォートホテルに泊まることはありません。名前は全くの嘘で、全く快適ではありません。  ▍ロケーション コンフォートホテルは博多駅のすぐ隣にあります。通りを渡るか、地下道を通って「西7番出口」まで行くだけです。  ▍客室 なんてこった！部屋に入る前から、エレベーターから廊下を歩くだけで",
+            "site": "Google"
           }
         ]
       },
@@ -643,9 +649,9 @@
       },
       {
         "category": "ほこり・塵",
-        "total_mentions": 3,
+        "total_mentions": 2,
         "hotels_affected": 2,
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "sample_comments": [
           {
             "hotel": "チサンホテル浜松町",
@@ -658,12 +664,6 @@
             "rating": 4.0,
             "text": "旅行で嫌な思いをしたくないなら、他のホテルに泊まることを強くお勧めします。このホテルに泊まってから、二度と日本でコンフォートホテルに泊まることはありません。名前は全くの嘘で、全く快適ではありません。  ▍ロケーション コンフォートホテルは博多駅のすぐ隣にあります。通りを渡るか、地下道を通って「西7番出口」まで行くだけです。  ▍客室 なんてこった！部屋に入る前から、エレベーターから廊下を歩くだけで",
             "site": "Google"
-          },
-          {
-            "hotel": "コンフォートホテル博多",
-            "rating": 4.0,
-            "text": "如果你不想讓旅程有不好的回憶，強力建議換家酒店住。而住過這家之後，我以後來日本絕對不會再去住其他Comfort Hotel，這名字根本詐騙，一點都不comfort。  ▍位置 Comfort Hotel就在博多車站的旁邊，過個馬路就到了。不想吹風可以走地下連通道的「P7（福岡朝日ビル）」出口，或是走「西8」出口，都可以到酒店。  ▍房間 天啊❗️還沒今進房間，只是出電梯走在走廊上，就感覺到這家酒店",
-            "site": "Google"
           }
         ]
       }
@@ -672,36 +672,36 @@
       {
         "key": "comfort_hakata",
         "name": "コンフォートホテル博多",
-        "avg": 7.89,
-        "total_reviews": 139,
-        "high_rate": 68.3,
-        "low_rate": 10.1,
-        "cleaning_issue_count": 17,
-        "cleaning_issue_rate": 12.2,
+        "avg": 7.86,
+        "total_reviews": 140,
+        "high_rate": 67.9,
+        "low_rate": 10.7,
+        "cleaning_issue_count": 18,
+        "cleaning_issue_rate": 12.9,
         "priority": "URGENT",
         "categories": {
+          "臭気・異臭": 7,
           "毛髪・髪の毛": 1,
           "清掃品質全般": 14,
-          "臭気・異臭": 6,
           "タバコ関連": 1,
           "カビ・モールド": 2,
           "カーペット汚れ": 5,
           "排水・詰まり": 2,
           "害虫": 2,
           "ゴミ残置": 4,
-          "ほこり・塵": 2
+          "ほこり・塵": 1
         },
-        "neg_review_count": 44
+        "neg_review_count": 45
       },
       {
         "key": "chisan",
         "name": "チサンホテル浜松町",
-        "avg": 7.03,
-        "total_reviews": 66,
-        "high_rate": 57.6,
-        "low_rate": 19.7,
+        "avg": 7.07,
+        "total_reviews": 67,
+        "high_rate": 58.2,
+        "low_rate": 19.4,
         "cleaning_issue_count": 7,
-        "cleaning_issue_rate": 10.6,
+        "cleaning_issue_rate": 10.4,
         "priority": "URGENT",
         "categories": {
           "ほこり・塵": 1,
@@ -717,12 +717,12 @@
       {
         "key": "apa_kamata",
         "name": "アパホテル蒲田駅東",
-        "avg": 7.34,
-        "total_reviews": 47,
-        "high_rate": 61.7,
-        "low_rate": 10.6,
+        "avg": 7.35,
+        "total_reviews": 48,
+        "high_rate": 62.5,
+        "low_rate": 10.4,
         "cleaning_issue_count": 5,
-        "cleaning_issue_rate": 10.6,
+        "cleaning_issue_rate": 10.4,
         "priority": "URGENT",
         "categories": {
           "清掃品質全般": 3,
@@ -755,10 +755,10 @@
       {
         "key": "comfort_yokohama_kannai",
         "name": "コンフォートホテル横浜関内",
-        "avg": 7.65,
+        "avg": 7.57,
         "total_reviews": 138,
-        "high_rate": 72.5,
-        "low_rate": 11.6,
+        "high_rate": 71.0,
+        "low_rate": 12.3,
         "cleaning_issue_count": 13,
         "cleaning_issue_rate": 9.4,
         "priority": "HIGH",
@@ -768,17 +768,17 @@
           "臭気・異臭": 2,
           "毛髪・髪の毛": 1
         },
-        "neg_review_count": 38
+        "neg_review_count": 40
       },
       {
         "key": "comfort_roppongi",
         "name": "コンフォートイン六本木",
-        "avg": 8.11,
-        "total_reviews": 102,
-        "high_rate": 78.4,
-        "low_rate": 8.8,
+        "avg": 8.16,
+        "total_reviews": 106,
+        "high_rate": 79.2,
+        "low_rate": 8.5,
         "cleaning_issue_count": 8,
-        "cleaning_issue_rate": 7.8,
+        "cleaning_issue_rate": 7.5,
         "priority": "HIGH",
         "categories": {
           "カビ・モールド": 2,
@@ -790,31 +790,14 @@
         "neg_review_count": 22
       },
       {
-        "key": "kawasaki_nikko",
-        "name": "川崎日航ホテル",
-        "avg": 8.65,
-        "total_reviews": 123,
-        "high_rate": 80.5,
-        "low_rate": 0.8,
-        "cleaning_issue_count": 7,
-        "cleaning_issue_rate": 5.7,
-        "priority": "HIGH",
-        "categories": {
-          "清掃品質全般": 6,
-          "ゴミ残置": 1,
-          "臭気・異臭": 1
-        },
-        "neg_review_count": 24
-      },
-      {
         "key": "comment_yokohama",
         "name": "ホテルコメント横浜関内",
-        "avg": 8.81,
-        "total_reviews": 105,
-        "high_rate": 82.9,
-        "low_rate": 1.0,
+        "avg": 8.83,
+        "total_reviews": 108,
+        "high_rate": 83.3,
+        "low_rate": 0.9,
         "cleaning_issue_count": 6,
-        "cleaning_issue_rate": 5.7,
+        "cleaning_issue_rate": 5.6,
         "priority": "HIGH",
         "categories": {
           "臭気・異臭": 2,
@@ -825,38 +808,75 @@
         "neg_review_count": 18
       },
       {
-        "key": "hearton",
-        "name": "ハートンホテル東品川",
-        "avg": 8.63,
-        "total_reviews": 139,
-        "high_rate": 83.5,
-        "low_rate": 0.7,
+        "key": "kawasaki_nikko",
+        "name": "川崎日航ホテル",
+        "avg": 8.67,
+        "total_reviews": 123,
+        "high_rate": 81.3,
+        "low_rate": 0.8,
         "cleaning_issue_count": 6,
-        "cleaning_issue_rate": 4.3,
+        "cleaning_issue_rate": 4.9,
         "priority": "STANDARD",
         "categories": {
-          "臭気・異臭": 2,
-          "清掃品質全般": 4,
-          "タバコ関連": 1,
-          "毛髪・髪の毛": 1
+          "清掃品質全般": 5,
+          "臭気・異臭": 1
         },
         "neg_review_count": 23
       },
       {
+        "key": "comfort_narita",
+        "name": "コンフォートホテル成田",
+        "avg": 8.54,
+        "total_reviews": 123,
+        "high_rate": 79.7,
+        "low_rate": 3.3,
+        "cleaning_issue_count": 5,
+        "cleaning_issue_rate": 4.1,
+        "priority": "STANDARD",
+        "categories": {
+          "清掃品質全般": 4,
+          "タバコ関連": 1,
+          "カビ・モールド": 2,
+          "カーペット汚れ": 1,
+          "臭気・異臭": 2,
+          "毛髪・髪の毛": 1
+        },
+        "neg_review_count": 25
+      },
+      {
         "key": "daiwa_osaki",
         "name": "ダイワロイネットホテル東京大崎",
-        "avg": 8.9,
-        "total_reviews": 51,
-        "high_rate": 84.3,
+        "avg": 8.91,
+        "total_reviews": 53,
+        "high_rate": 84.9,
         "low_rate": 0.0,
         "cleaning_issue_count": 2,
-        "cleaning_issue_rate": 3.9,
+        "cleaning_issue_rate": 3.8,
         "priority": "STANDARD",
         "categories": {
           "清掃品質全般": 2,
-          "害虫": 2
+          "害虫": 2,
+          "シミ・汚れ跡": 1
         },
         "neg_review_count": 8
+      },
+      {
+        "key": "hearton",
+        "name": "ハートンホテル東品川",
+        "avg": 8.66,
+        "total_reviews": 139,
+        "high_rate": 84.9,
+        "low_rate": 0.7,
+        "cleaning_issue_count": 5,
+        "cleaning_issue_rate": 3.6,
+        "priority": "STANDARD",
+        "categories": {
+          "臭気・異臭": 2,
+          "清掃品質全般": 3,
+          "タバコ関連": 1,
+          "毛髪・髪の毛": 1
+        },
+        "neg_review_count": 21
       },
       {
         "key": "keyakigate",
@@ -879,43 +899,23 @@
         "key": "apa_sagamihara",
         "name": "アパホテル相模原橋本駅東",
         "avg": 8.12,
-        "total_reviews": 56,
-        "high_rate": 69.6,
-        "low_rate": 1.8,
+        "total_reviews": 58,
+        "high_rate": 69.0,
+        "low_rate": 1.7,
         "cleaning_issue_count": 2,
-        "cleaning_issue_rate": 3.6,
+        "cleaning_issue_rate": 3.4,
         "priority": "STANDARD",
         "categories": {
           "清掃品質全般": 2
         },
-        "neg_review_count": 17
-      },
-      {
-        "key": "comfort_narita",
-        "name": "コンフォートホテル成田",
-        "avg": 8.59,
-        "total_reviews": 121,
-        "high_rate": 81.0,
-        "low_rate": 2.5,
-        "cleaning_issue_count": 4,
-        "cleaning_issue_rate": 3.3,
-        "priority": "STANDARD",
-        "categories": {
-          "タバコ関連": 1,
-          "カビ・モールド": 2,
-          "カーペット汚れ": 1,
-          "臭気・異臭": 2,
-          "清掃品質全般": 3,
-          "毛髪・髪の毛": 1
-        },
-        "neg_review_count": 23
+        "neg_review_count": 18
       },
       {
         "key": "henn_na_haneda",
         "name": "変なホテル東京羽田",
         "avg": 8.27,
-        "total_reviews": 280,
-        "high_rate": 75.7,
+        "total_reviews": 285,
+        "high_rate": 75.8,
         "low_rate": 3.2,
         "cleaning_issue_count": 6,
         "cleaning_issue_rate": 2.1,
@@ -924,17 +924,17 @@
           "清掃品質全般": 6,
           "排水・詰まり": 1
         },
-        "neg_review_count": 68
+        "neg_review_count": 69
       },
       {
         "key": "richmond_mejiro",
         "name": "リッチモンドホテル東京目白",
         "avg": 8.66,
-        "total_reviews": 119,
-        "high_rate": 85.7,
+        "total_reviews": 122,
+        "high_rate": 86.1,
         "low_rate": 2.5,
         "cleaning_issue_count": 2,
-        "cleaning_issue_rate": 1.7,
+        "cleaning_issue_rate": 1.6,
         "priority": "STANDARD",
         "categories": {
           "清掃品質全般": 2,
@@ -945,12 +945,12 @@
       {
         "key": "daiichi_ikebukuro",
         "name": "第一イン池袋",
-        "avg": 9.06,
-        "total_reviews": 101,
-        "high_rate": 90.1,
-        "low_rate": 2.0,
+        "avg": 9.08,
+        "total_reviews": 107,
+        "high_rate": 90.7,
+        "low_rate": 1.9,
         "cleaning_issue_count": 1,
-        "cleaning_issue_rate": 1.0,
+        "cleaning_issue_rate": 0.9,
         "priority": "STANDARD",
         "categories": {
           "排水・詰まり": 1
@@ -960,9 +960,9 @@
       {
         "key": "comfort_era_higashikanda",
         "name": "コンフォートホテルERA東京東神田",
-        "avg": 8.91,
-        "total_reviews": 115,
-        "high_rate": 84.3,
+        "avg": 8.94,
+        "total_reviews": 117,
+        "high_rate": 85.5,
         "low_rate": 4.3,
         "cleaning_issue_count": 1,
         "cleaning_issue_rate": 0.9,
@@ -971,14 +971,14 @@
           "排水・詰まり": 1,
           "清掃品質全般": 1
         },
-        "neg_review_count": 18
+        "neg_review_count": 17
       },
       {
         "key": "keisei_kinshicho",
         "name": "京成リッチモンドホテル東京錦糸町",
         "avg": 9.03,
-        "total_reviews": 116,
-        "high_rate": 87.9,
+        "total_reviews": 117,
+        "high_rate": 88.0,
         "low_rate": 0.9,
         "cleaning_issue_count": 0,
         "cleaning_issue_rate": 0.0,
@@ -989,9 +989,9 @@
       {
         "key": "comfort_suites_tokyobay",
         "name": "コンフォートスイーツ東京ベイ",
-        "avg": 9.18,
-        "total_reviews": 135,
-        "high_rate": 92.6,
+        "avg": 9.17,
+        "total_reviews": 139,
+        "high_rate": 92.8,
         "low_rate": 0.7,
         "cleaning_issue_count": 0,
         "cleaning_issue_rate": 0.0,
@@ -1005,10 +1005,10 @@
     "urgent": [
       {
         "hotel": "コンフォートホテル博多",
-        "avg": 7.89,
-        "total_reviews": 139,
-        "cleaning_issues": 17,
-        "cleaning_rate": 12.2,
+        "avg": 7.86,
+        "total_reviews": 140,
+        "cleaning_issues": 18,
+        "cleaning_rate": 12.9,
         "key_problems": [
           "清掃品質全般",
           "臭気・異臭",
@@ -1017,10 +1017,10 @@
       },
       {
         "hotel": "チサンホテル浜松町",
-        "avg": 7.03,
-        "total_reviews": 66,
+        "avg": 7.07,
+        "total_reviews": 67,
         "cleaning_issues": 7,
-        "cleaning_rate": 10.6,
+        "cleaning_rate": 10.4,
         "key_problems": [
           "清掃品質全般",
           "排水・詰まり",
@@ -1029,10 +1029,10 @@
       },
       {
         "hotel": "アパホテル蒲田駅東",
-        "avg": 7.34,
-        "total_reviews": 47,
+        "avg": 7.35,
+        "total_reviews": 48,
         "cleaning_issues": 5,
-        "cleaning_rate": 10.6,
+        "cleaning_rate": 10.4,
         "key_problems": [
           "清掃品質全般",
           "臭気・異臭",
@@ -1055,7 +1055,7 @@
     "high": [
       {
         "hotel": "コンフォートホテル横浜関内",
-        "avg": 7.65,
+        "avg": 7.57,
         "total_reviews": 138,
         "cleaning_issues": 13,
         "cleaning_rate": 9.4,
@@ -1067,10 +1067,10 @@
       },
       {
         "hotel": "コンフォートイン六本木",
-        "avg": 8.11,
-        "total_reviews": 102,
+        "avg": 8.16,
+        "total_reviews": 106,
         "cleaning_issues": 8,
-        "cleaning_rate": 7.8,
+        "cleaning_rate": 7.5,
         "key_problems": [
           "臭気・異臭",
           "カビ・モールド",
@@ -1078,23 +1078,11 @@
         ]
       },
       {
-        "hotel": "川崎日航ホテル",
-        "avg": 8.65,
-        "total_reviews": 123,
-        "cleaning_issues": 7,
-        "cleaning_rate": 5.7,
-        "key_problems": [
-          "清掃品質全般",
-          "ゴミ残置",
-          "臭気・異臭"
-        ]
-      },
-      {
         "hotel": "ホテルコメント横浜関内",
-        "avg": 8.81,
-        "total_reviews": 105,
+        "avg": 8.83,
+        "total_reviews": 108,
         "cleaning_issues": 6,
-        "cleaning_rate": 5.7,
+        "cleaning_rate": 5.6,
         "key_problems": [
           "清掃品質全般",
           "臭気・異臭",
@@ -1104,26 +1092,50 @@
     ],
     "standard": [
       {
-        "hotel": "ハートンホテル東品川",
-        "avg": 8.63,
-        "total_reviews": 139,
+        "hotel": "川崎日航ホテル",
+        "avg": 8.67,
+        "total_reviews": 123,
         "cleaning_issues": 6,
-        "cleaning_rate": 4.3,
+        "cleaning_rate": 4.9,
         "key_problems": [
           "清掃品質全般",
-          "臭気・異臭",
-          "タバコ関連"
+          "臭気・異臭"
+        ]
+      },
+      {
+        "hotel": "コンフォートホテル成田",
+        "avg": 8.54,
+        "total_reviews": 123,
+        "cleaning_issues": 5,
+        "cleaning_rate": 4.1,
+        "key_problems": [
+          "清掃品質全般",
+          "カビ・モールド",
+          "臭気・異臭"
         ]
       },
       {
         "hotel": "ダイワロイネットホテル東京大崎",
-        "avg": 8.9,
-        "total_reviews": 51,
+        "avg": 8.91,
+        "total_reviews": 53,
         "cleaning_issues": 2,
-        "cleaning_rate": 3.9,
+        "cleaning_rate": 3.8,
         "key_problems": [
           "清掃品質全般",
-          "害虫"
+          "害虫",
+          "シミ・汚れ跡"
+        ]
+      },
+      {
+        "hotel": "ハートンホテル東品川",
+        "avg": 8.66,
+        "total_reviews": 139,
+        "cleaning_issues": 5,
+        "cleaning_rate": 3.6,
+        "key_problems": [
+          "清掃品質全般",
+          "臭気・異臭",
+          "タバコ関連"
         ]
       },
       {
@@ -1141,29 +1153,17 @@
       {
         "hotel": "アパホテル相模原橋本駅東",
         "avg": 8.12,
-        "total_reviews": 56,
+        "total_reviews": 58,
         "cleaning_issues": 2,
-        "cleaning_rate": 3.6,
+        "cleaning_rate": 3.4,
         "key_problems": [
           "清掃品質全般"
         ]
       },
       {
-        "hotel": "コンフォートホテル成田",
-        "avg": 8.59,
-        "total_reviews": 121,
-        "cleaning_issues": 4,
-        "cleaning_rate": 3.3,
-        "key_problems": [
-          "清掃品質全般",
-          "カビ・モールド",
-          "臭気・異臭"
-        ]
-      },
-      {
         "hotel": "変なホテル東京羽田",
         "avg": 8.27,
-        "total_reviews": 280,
+        "total_reviews": 285,
         "cleaning_issues": 6,
         "cleaning_rate": 2.1,
         "key_problems": [
@@ -1174,9 +1174,9 @@
       {
         "hotel": "リッチモンドホテル東京目白",
         "avg": 8.66,
-        "total_reviews": 119,
+        "total_reviews": 122,
         "cleaning_issues": 2,
-        "cleaning_rate": 1.7,
+        "cleaning_rate": 1.6,
         "key_problems": [
           "清掃品質全般",
           "臭気・異臭"
@@ -1184,18 +1184,18 @@
       },
       {
         "hotel": "第一イン池袋",
-        "avg": 9.06,
-        "total_reviews": 101,
+        "avg": 9.08,
+        "total_reviews": 107,
         "cleaning_issues": 1,
-        "cleaning_rate": 1.0,
+        "cleaning_rate": 0.9,
         "key_problems": [
           "排水・詰まり"
         ]
       },
       {
         "hotel": "コンフォートホテルERA東京東神田",
-        "avg": 8.91,
-        "total_reviews": 115,
+        "avg": 8.94,
+        "total_reviews": 117,
         "cleaning_issues": 1,
         "cleaning_rate": 0.9,
         "key_problems": [
@@ -1208,15 +1208,15 @@
       {
         "hotel": "京成リッチモンドホテル東京錦糸町",
         "avg": 9.03,
-        "total_reviews": 116,
+        "total_reviews": 117,
         "cleaning_issues": 0,
         "cleaning_rate": 0.0,
         "key_problems": []
       },
       {
         "hotel": "コンフォートスイーツ東京ベイ",
-        "avg": 9.18,
-        "total_reviews": 135,
+        "avg": 9.17,
+        "total_reviews": 139,
         "cleaning_issues": 0,
         "cleaning_rate": 0.0,
         "key_problems": []
@@ -1227,7 +1227,7 @@
     {
       "hotel": "コンフォートホテル博多",
       "priority_level": "URGENT",
-      "current_avg": 7.89,
+      "current_avg": 7.86,
       "target_avg": 8.5,
       "phase1_immediate": {
         "timeline": "1-2週間",
@@ -1245,12 +1245,12 @@
           {
             "action": "臭気発生源の特定と即時対処（排水トラップ、換気扇）",
             "category": "臭気・異臭",
-            "issue_count": 6
+            "issue_count": 7
           },
           {
             "action": "消臭・脱臭処理の実施",
             "category": "臭気・異臭",
-            "issue_count": 6
+            "issue_count": 7
           },
           {
             "action": "汚損箇所のスポットクリーニング即時実施",
@@ -1308,16 +1308,6 @@
             "issue_count": 2
           },
           {
-            "action": "高所・棚上部・エアコン上部のほこり除去",
-            "category": "ほこり・塵",
-            "issue_count": 2
-          },
-          {
-            "action": "テレビ裏・家具裏の清掃徹底",
-            "category": "ほこり・塵",
-            "issue_count": 2
-          },
-          {
             "action": "ベッドメイク後の粘着ローラー仕上げ工程追加",
             "category": "毛髪・髪の毛",
             "issue_count": 1
@@ -1340,6 +1330,16 @@
           {
             "action": "喫煙室との動線分離確認",
             "category": "タバコ関連",
+            "issue_count": 1
+          },
+          {
+            "action": "高所・棚上部・エアコン上部のほこり除去",
+            "category": "ほこり・塵",
+            "issue_count": 1
+          },
+          {
+            "action": "テレビ裏・家具裏の清掃徹底",
+            "category": "ほこり・塵",
             "issue_count": 1
           }
         ]
@@ -1400,10 +1400,6 @@
             "category": "害虫"
           },
           {
-            "action": "週次の高所清掃スケジュール導入",
-            "category": "ほこり・塵"
-          },
-          {
             "action": "清掃チェックリストに毛髪確認項目を明記",
             "category": "毛髪・髪の毛"
           },
@@ -1414,6 +1410,10 @@
           {
             "action": "廊下・共用部の定期脱臭処理スケジュール導入",
             "category": "タバコ関連"
+          },
+          {
+            "action": "週次の高所清掃スケジュール導入",
+            "category": "ほこり・塵"
           }
         ]
       },
@@ -1463,7 +1463,7 @@
     {
       "hotel": "チサンホテル浜松町",
       "priority_level": "URGENT",
-      "current_avg": 7.03,
+      "current_avg": 7.07,
       "target_avg": 8.0,
       "phase1_immediate": {
         "timeline": "1-2週間",
@@ -1636,7 +1636,7 @@
     {
       "hotel": "アパホテル蒲田駅東",
       "priority_level": "URGENT",
-      "current_avg": 7.34,
+      "current_avg": 7.35,
       "target_avg": 8.0,
       "phase1_immediate": {
         "timeline": "1-2週間",
@@ -1918,7 +1918,7 @@
     {
       "hotel": "コンフォートホテル横浜関内",
       "priority_level": "HIGH",
-      "current_avg": 7.65,
+      "current_avg": 7.57,
       "target_avg": 8.5,
       "phase1_immediate": {
         "timeline": "1-2週間",
@@ -2024,7 +2024,7 @@
     {
       "hotel": "コンフォートイン六本木",
       "priority_level": "HIGH",
-      "current_avg": 8.11,
+      "current_avg": 8.16,
       "target_avg": 9.0,
       "phase1_immediate": {
         "timeline": "1-2週間",
@@ -2159,97 +2159,9 @@
       "priority_rank": 6
     },
     {
-      "hotel": "川崎日航ホテル",
-      "priority_level": "HIGH",
-      "current_avg": 8.65,
-      "target_avg": 9.0,
-      "phase1_immediate": {
-        "timeline": "1-2週間",
-        "actions": [
-          {
-            "action": "清掃品質基準の明確化と全スタッフへの共有",
-            "category": "清掃品質全般",
-            "issue_count": 6
-          },
-          {
-            "action": "重点箇所（水回り・ベッド周り）の清掃手順見直し",
-            "category": "清掃品質全般",
-            "issue_count": 6
-          },
-          {
-            "action": "清掃後のゴミ残置チェック項目の追加",
-            "category": "ゴミ残置",
-            "issue_count": 1
-          },
-          {
-            "action": "ゴミ箱周辺の清掃手順見直し",
-            "category": "ゴミ残置",
-            "issue_count": 1
-          },
-          {
-            "action": "臭気発生源の特定と即時対処（排水トラップ、換気扇）",
-            "category": "臭気・異臭",
-            "issue_count": 1
-          },
-          {
-            "action": "消臭・脱臭処理の実施",
-            "category": "臭気・異臭",
-            "issue_count": 1
-          }
-        ]
-      },
-      "phase2_short_term": {
-        "timeline": "1-3ヶ月",
-        "actions": [
-          {
-            "action": "品質管理チェックリストの導入と実施",
-            "category": "清掃品質全般"
-          },
-          {
-            "action": "QCインスペクション体制の構築（ランダム抜き打ち検査）",
-            "category": "清掃品質全般"
-          },
-          {
-            "action": "清掃完了後のファイナルチェック体制の強化",
-            "category": "ゴミ残置"
-          },
-          {
-            "action": "定期的な換気・消臭ルーティンの標準化",
-            "category": "臭気・異臭"
-          },
-          {
-            "action": "エアコン・排水系の臭気源の根本対策",
-            "category": "臭気・異臭"
-          }
-        ]
-      },
-      "phase3_medium_term": {
-        "timeline": "3-6ヶ月",
-        "actions": [
-          {
-            "action": "清掃スタッフの定期研修プログラム導入",
-            "category": "清掃品質全般"
-          },
-          {
-            "action": "デジタル清掃記録システムの検討",
-            "category": "清掃品質全般"
-          },
-          {
-            "action": "オゾン脱臭機の導入検討",
-            "category": "臭気・異臭"
-          },
-          {
-            "action": "空気品質モニタリングの導入",
-            "category": "臭気・異臭"
-          }
-        ]
-      },
-      "priority_rank": 7
-    },
-    {
       "hotel": "ホテルコメント横浜関内",
       "priority_level": "HIGH",
-      "current_avg": 8.81,
+      "current_avg": 8.83,
       "target_avg": 9.1,
       "phase1_immediate": {
         "timeline": "1-2週間",
@@ -2367,7 +2279,7 @@
           }
         ]
       },
-      "priority_rank": 8
+      "priority_rank": 7
     }
   ],
   "cross_cutting_recommendations": [
@@ -2432,14 +2344,14 @@
       },
       {
         "kpi": "清掃関連クレーム率",
-        "current": "4.7%",
-        "target": "1.9%以下",
+        "current": "4.6%",
+        "target": "1.8%以下",
         "deadline": "2026年9月"
       },
       {
         "kpi": "高評価率（8-10点）",
-        "current": "78.2%",
-        "target": "83.2%以上",
+        "current": "78.4%",
+        "target": "83.4%以上",
         "deadline": "2026年9月"
       },
       {
@@ -2453,26 +2365,26 @@
       {
         "hotel": "コンフォートホテル博多",
         "priority": "URGENT",
-        "current_avg": 7.89,
+        "current_avg": 7.86,
         "target_avg": 8.4,
-        "current_cleaning_rate": 12.2,
-        "target_cleaning_rate": 3.7
+        "current_cleaning_rate": 12.9,
+        "target_cleaning_rate": 3.9
       },
       {
         "hotel": "チサンホテル浜松町",
         "priority": "URGENT",
-        "current_avg": 7.03,
-        "target_avg": 7.5,
-        "current_cleaning_rate": 10.6,
-        "target_cleaning_rate": 3.2
+        "current_avg": 7.07,
+        "target_avg": 7.6,
+        "current_cleaning_rate": 10.4,
+        "target_cleaning_rate": 3.1
       },
       {
         "hotel": "アパホテル蒲田駅東",
         "priority": "URGENT",
-        "current_avg": 7.34,
+        "current_avg": 7.35,
         "target_avg": 7.8,
-        "current_cleaning_rate": 10.6,
-        "target_cleaning_rate": 3.2
+        "current_cleaning_rate": 10.4,
+        "target_cleaning_rate": 3.1
       },
       {
         "hotel": "コートホテル新横浜",
@@ -2485,33 +2397,25 @@
       {
         "hotel": "コンフォートホテル横浜関内",
         "priority": "HIGH",
-        "current_avg": 7.65,
-        "target_avg": 8.2,
+        "current_avg": 7.57,
+        "target_avg": 8.1,
         "current_cleaning_rate": 9.4,
         "target_cleaning_rate": 2.8
       },
       {
         "hotel": "コンフォートイン六本木",
         "priority": "HIGH",
-        "current_avg": 8.11,
-        "target_avg": 8.6,
-        "current_cleaning_rate": 7.8,
-        "target_cleaning_rate": 2.3
-      },
-      {
-        "hotel": "川崎日航ホテル",
-        "priority": "HIGH",
-        "current_avg": 8.65,
-        "target_avg": 9.2,
-        "current_cleaning_rate": 5.7,
-        "target_cleaning_rate": 1.7
+        "current_avg": 8.16,
+        "target_avg": 8.7,
+        "current_cleaning_rate": 7.5,
+        "target_cleaning_rate": 2.2
       },
       {
         "hotel": "ホテルコメント横浜関内",
         "priority": "HIGH",
-        "current_avg": 8.81,
+        "current_avg": 8.83,
         "target_avg": 9.3,
-        "current_cleaning_rate": 5.7,
+        "current_cleaning_rate": 5.6,
         "target_cleaning_rate": 1.7
       }
     ]
@@ -2529,7 +2433,7 @@
       },
       {
         "scenario": "シナリオB: URGENT + HIGHホテル改善",
-        "target_hotels": 8,
+        "target_hotels": 7,
         "estimated_cost": "500-800万円",
         "expected_improvement": "+0.3-0.7pt（対象ホテル平均）",
         "revenue_impact": "RevPAR 3-7%向上見込み",

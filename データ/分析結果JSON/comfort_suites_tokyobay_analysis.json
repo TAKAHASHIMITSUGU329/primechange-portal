@@ -1,10 +1,10 @@
 {
-  "total_reviews": 135,
-  "overall_avg_10pt": 9.18,
-  "high_count": 125,
-  "high_rate": 92.6,
+  "total_reviews": 139,
+  "overall_avg_10pt": 9.17,
+  "high_count": 129,
+  "high_rate": 92.8,
   "mid_count": 9,
-  "mid_rate": 6.7,
+  "mid_rate": 6.5,
   "low_count": 1,
   "low_rate": 0.7,
   "site_stats": [
@@ -19,28 +19,28 @@
     },
     {
       "site": "Trip.com",
-      "count": 11,
-      "native_avg": 9.36,
+      "count": 12,
+      "native_avg": 9.33,
       "scale": "/10",
-      "avg_10pt": 9.36,
-      "median_10pt": 10.0,
+      "avg_10pt": 9.33,
+      "median_10pt": 9.5,
       "judgment": "優秀"
     },
     {
       "site": "じゃらん",
-      "count": 26,
-      "native_avg": 4.65,
+      "count": 27,
+      "native_avg": 4.63,
       "scale": "/5",
-      "avg_10pt": 9.31,
+      "avg_10pt": 9.26,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
-      "count": 44,
-      "native_avg": 4.64,
+      "count": 46,
+      "native_avg": 4.63,
       "scale": "/5",
-      "avg_10pt": 9.27,
+      "avg_10pt": 9.26,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 83,
-      "pct": "61.5%"
+      "count": 84,
+      "pct": "60.4%"
     },
     {
       "score": 9,
-      "count": 11,
-      "pct": "8.1%"
+      "count": 12,
+      "pct": "8.6%"
     },
     {
       "score": 8,
-      "count": 31,
-      "pct": "23.0%"
+      "count": 33,
+      "pct": "23.7%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "3.0%"
+      "pct": "2.9%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "3.7%"
+      "pct": "3.6%"
     },
     {
       "score": 4,
@@ -96,6 +96,45 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-19",
+      "comment": "Free shuttle bus to Disneyland and Disneysea. To Narita Airport need 2900 yen/person Need to walk to Hyatt Regancy for the bus (around 3 mins walk)",
+      "good": "",
+      "bad": "",
+      "translated": "ディズニーランドとディズニーシーへの無料シャトルバスがあります。成田空港行きは1人2900円です。バス乗り場はハイアットリージェンシーまで徒歩約3分です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "春休みに子供たちだけで利用しました。 とっても綺麗なホテルで、宝探し？みたいな事をやってたみたいで、部屋で隠されてるカードを探してフロントに持って行ったら、お菓子もらえた！と喜んでました。 また、ディズニーに行く時には利用したいと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "春休みに子供たちだけで利用しました。 とっても綺麗なホテルで、宝探し？みたいな事をやってたみたいで、部屋で隠されてるカードを探してフロントに持って行ったら、お菓子もらえた！と喜んでました。 また、ディズニーに行く時には利用したいと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-18",
+      "comment": "冷凍と冷蔵で分かれてる冷蔵庫が助かりました",
+      "good": "",
+      "bad": "",
+      "translated": "冷凍と冷蔵で分かれてる冷蔵庫が助かりました",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "meikobu"
+    },
     {
       "site": "Agoda",
       "rating": 10.0,
@@ -160,6 +199,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ふぃがろがすき"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "朝食の種類が豊富で、どれも丁寧に作られていて満足感が高かったです。明るい雰囲気の中でゆっくり味わえ、旅の良いスタートになりました。",
+      "good": "",
+      "bad": "",
+      "translated": "朝食の種類が豊富で、どれも丁寧に作られていて満足感が高かったです。明るい雰囲気の中でゆっくり味わえ、旅の良いスタートになりました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "なねさん"
     },
     {
       "site": "楽天トラベル",
@@ -1378,7 +1430,7 @@
       "comment": "가족들과 디즈니 방문을 위한 목적이라면 최고입니다.",
       "good": "",
       "bad": "",
-      "translated": "家族とディズニー訪問の目的であれば最高です。",
+      "translated": "家族とディズニー訪問のための目的なら最高です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

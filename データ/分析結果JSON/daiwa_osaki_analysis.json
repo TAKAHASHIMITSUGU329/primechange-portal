@@ -1,10 +1,10 @@
 {
-  "total_reviews": 51,
-  "overall_avg_10pt": 8.9,
-  "high_count": 43,
-  "high_rate": 84.3,
+  "total_reviews": 53,
+  "overall_avg_10pt": 8.91,
+  "high_count": 45,
+  "high_rate": 84.9,
   "mid_count": 8,
-  "mid_rate": 15.7,
+  "mid_rate": 15.1,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
@@ -19,21 +19,21 @@
     },
     {
       "site": "Agoda",
-      "count": 4,
-      "native_avg": 9.25,
+      "count": 5,
+      "native_avg": 9.0,
       "scale": "/10",
-      "avg_10pt": 9.25,
+      "avg_10pt": 9.0,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 20,
-      "native_avg": 8.95,
+      "count": 21,
+      "native_avg": 9.0,
       "scale": "/10",
-      "avg_10pt": 8.95,
+      "avg_10pt": 9.0,
       "median_10pt": 9.0,
-      "judgment": "良好"
+      "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
@@ -66,31 +66,57 @@
   "distribution": [
     {
       "score": 10,
-      "count": 25,
-      "pct": "49.0%"
+      "count": 26,
+      "pct": "49.1%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "15.7%"
+      "pct": "15.1%"
     },
     {
       "score": 8,
-      "count": 10,
-      "pct": "19.6%"
+      "count": 11,
+      "pct": "20.8%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "7.8%"
+      "pct": "7.5%"
     },
     {
       "score": 6,
       "count": 4,
-      "pct": "7.8%"
+      "pct": "7.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "",
+      "good": "Location, comfort, amenities",
+      "bad": "None",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "なし",
+      "reviewer": "Chae"
+    },
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "清潔感のある過ごしやすい環境を提供しているホテルでした。 大崎駅直ぐという立地やアクセスしやすいのが便利です。",
+      "good": "",
+      "bad": "",
+      "translated": "清潔感のある過ごしやすい環境を提供しているホテルでした。 大崎駅直ぐという立地やアクセスしやすいのが便利です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "MAYUMI"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -177,7 +203,7 @@
       "comment": "這次入住整體感受還算不錯。飯店位置方便，附近有不少餐廳與商店，生活機能良好。房間空間適中，整體算乾淨，但設備稍微有些老舊。服務人員態度普通，辦理入住與退房都還算順利。早餐選擇不算多，但味道尚可。整體來說是一次中規中矩的住宿體驗，如果只是短暫停留，還算可以考慮。🙂",
       "good": "",
       "bad": "",
-      "translated": "全体的に、滞在はなかなか良かったです。ホテルの立地は便利で、近くにレストランやショップがたくさんあり、滞在するには良い場所です。部屋は中くらいの広さで、概ね清潔でしたが、設備は少し古かったです。スタッフの態度は平均的で、チェックインとチェックアウトはスムーズでした。朝食の種類は多くありませんでしたが、味は許容範囲でした。全体的に、特筆すべき点はないものの、まずまずの滞在でした。短期旅行には検討する価値があると思います。🙂",
+      "translated": "全体的に、滞在はなかなか良かったです。ホテルの立地は便利で、近くにレストランやショップがたくさんあり、滞在するには良い場所です。部屋は中くらいの広さで、概ね清潔でしたが、設備は少し古かったです。スタッフの態度は平均的で、チェックインとチェックアウトはスムーズでした。朝食の種類は多くありませんでしたが、味は許容範囲でした。全体的に、特筆すべき点はないものの、まずまずの滞在でした。短い旅行であれば、検討する価値はあるでしょう。🙂",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -229,7 +255,7 @@
       "comment": "Excellent location; very close to the station and other amenities. My partner had horrible allergies that only occurred when staying in the room. We don’t know if it was from pests or their cleaning chemicals. She only suffered while in bed; never in the day when we were traveling.  Other complaint is the slow elevator service as it always stops on the 4th floor lobby, so attempting to access the laundry or microwave is very slow. Access to other floors via stairs is not possible. Leaving the building in the morning is sometimes very slow due to the amount of people trying to enter and exit during checkout and breakfast.  The coin laundry is often always occupied at night; you may have to check frequently as people are not always timely in clearing their loads. This is a common problem with every business hotel in Japan. The plus is that detergent is provided from the machine. Outside coin laundry services are rather far.  Staff sometimes speaks English, other times use a pocket translator. Both were acceptable and were able to accomodate our requests, such as extending our stay. Services were fine, but we did not have a good experience due to the elevators and severe allergic reaction.",
       "good": "",
       "bad": "",
-      "translated": "立地は最高で、駅やその他のアメニティにとても近いです。パートナーは部屋に滞在している間だけひどいアレルギー症状が出ました。害虫が原因なのか、清掃用の化学薬品が原因なのかは分かりません。彼女はベッドにいる間だけ症状が出、旅行中は日中は全く症状が出ませんでした。もう一つの不満は、エレベーターが常に4階のロビーで止まるため、洗濯室や電子レンジを利用するのに非常に時間がかかることです。階段で他の階に行くことはできません。チェックアウトや朝食の時間帯は、多くの人が出入りするため、朝の建物の出入りが非常に遅くなることがあります。コインランドリーは夜間は常に使用中で、洗濯物を片付ける人が必ずしも時間通りにいないため、頻繁に確認する必要があるかもしれません。これは日本のビジネスホテルではよくある問題です。良い点は、洗濯機に洗剤が備え付けられていることです。外のコインランドリーはかなり遠いです。スタッフは英語を話せる場合もあれば、ポケット翻訳機を使う場合もあります。どちらも問題なく、滞在延長などのリクエストに対応してくれました。サービス自体は良かったのですが、エレベーターの不具合と重度のアレルギー反応のため、良い経験とは言えませんでした。",
+      "translated": "立地は最高で、駅やその他のアメニティにとても近いです。パートナーは部屋に滞在している間だけひどいアレルギー症状が出ました。害虫が原因なのか、清掃用の化学薬品が原因なのかは分かりません。彼女はベッドにいる間だけ苦しんで、旅行中は日中は全く苦しみませんでした。もう一つの不満は、エレベーターが常に4階のロビーで止まるため、洗濯室や電子レンジを利用するのに非常に時間がかかることです。階段で他の階に行くことはできません。チェックアウトや朝食の時間帯に多くの人が出入りするため、朝の建物を出るのが非常に時間がかかることがあります。コインランドリーは夜間は常に使用中で、洗濯物を片付ける人が必ずしも時間通りにいないため、頻繁に確認する必要があるかもしれません。これは日本のビジネスホテルではよくある問題です。良い点は、洗濯機に洗剤が備え付けられていることです。外のコインランドリーはかなり遠いです。スタッフは英語を話せる場合もあれば、ポケット翻訳機を使う場合もあります。どちらも許容範囲内で、滞在延長などのリクエストに対応してくれました。サービス自体は良かったのですが、エレベーターの不具合と重度のアレルギー反応のため、良い経験とは言えませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Brian Jun"
@@ -359,7 +385,7 @@
       "comment": "位置方便，房間也算大，前台服務也好，提供洗漱用品，很喜歡",
       "good": "",
       "bad": "",
-      "translated": "立地も便利だし、部屋もかなり広いし、フロントの対応も良く、アメニティも揃っている。本当に気に入った。",
+      "translated": "立地も便利だし、部屋もかなり広いし、フロントの対応も良く、アメニティも揃っている。本当に気に入りました。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍m‍a‍n‍d‍a‍a‍a"

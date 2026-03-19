@@ -1,12 +1,12 @@
 {
-  "total_reviews": 102,
-  "overall_avg_10pt": 8.11,
-  "high_count": 80,
-  "high_rate": 78.4,
+  "total_reviews": 106,
+  "overall_avg_10pt": 8.16,
+  "high_count": 84,
+  "high_rate": 79.2,
   "mid_count": 13,
-  "mid_rate": 12.7,
+  "mid_rate": 12.3,
   "low_count": 9,
-  "low_rate": 8.8,
+  "low_rate": 8.5,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -19,10 +19,10 @@
     },
     {
       "site": "Trip.com",
-      "count": 5,
-      "native_avg": 9.6,
+      "count": 7,
+      "native_avg": 9.71,
       "scale": "/10",
-      "avg_10pt": 9.6,
+      "avg_10pt": 9.71,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -37,19 +37,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 52,
-      "native_avg": 8.17,
+      "count": 53,
+      "native_avg": 8.21,
       "scale": "/10",
-      "avg_10pt": 8.17,
+      "avg_10pt": 8.21,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 28,
+      "count": 29,
       "native_avg": 3.79,
       "scale": "/5",
-      "avg_10pt": 7.57,
+      "avg_10pt": 7.59,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -66,46 +66,85 @@
   "distribution": [
     {
       "score": 10,
-      "count": 33,
-      "pct": "32.4%"
+      "count": 36,
+      "pct": "34.0%"
     },
     {
       "score": 9,
       "count": 14,
-      "pct": "13.7%"
+      "pct": "13.2%"
     },
     {
       "score": 8,
-      "count": 33,
-      "pct": "32.4%"
+      "count": 34,
+      "pct": "32.1%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "7.8%"
+      "pct": "7.5%"
     },
     {
       "score": 6,
       "count": 4,
-      "pct": "3.9%"
+      "pct": "3.8%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "1.0%"
+      "pct": "0.9%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "2.0%"
+      "pct": "1.9%"
     },
     {
       "score": 2,
       "count": 7,
-      "pct": "6.9%"
+      "pct": "6.6%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ko"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "六本木地點方便，價格合理，推薦",
+      "good": "",
+      "bad": "",
+      "translated": "六本木は立地が良く、価格も手頃なのでおすすめです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "D‍K‍ ‍F‍e‍n‍g"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "這裏太方便了，樓下就是地鐵站，不論是自己或是朋友一起來都非常之方便，最重要的是客服人員態度10分好，10分推薦",
+      "good": "",
+      "bad": "",
+      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフがとても親切で助かります。本当におすすめです！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "M‍o‍m‍o‍4‍2‍9"
+    },
     {
       "site": "Google",
       "rating": 4.0,
@@ -157,6 +196,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Chih-han"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-17",
+      "comment": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ式の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
+      "good": "",
+      "bad": "",
+      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ式の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Nanda"
     },
     {
       "site": "Booking.com",
@@ -259,7 +311,7 @@
       "bad": "The room originally allocated was very small. We requested an upgrade, which we got, but felt that the additional cost was a bit high.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "最初に割り当てられた部屋はとても狭かった。アップグレードをリクエストしたところ、対応してもらえたものの、追加料金が少し高いと感じた。",
+      "translated_bad": "最初に割り当てられた部屋はとても狭かった。アップグレードをリクエストしたところ、対応してもらえたが、追加料金が少し高いと感じた。",
       "reviewer": "Chris"
     },
     {
@@ -582,7 +634,7 @@
       "comment": "用點數換房間，物超所值，地點好，旁邊有驚安殿堂，交通有兩條東京地鐵線。",
       "good": "",
       "bad": "",
-      "translated": "ポイントを使って部屋を予約するのは非常にお得です。立地も抜群で、天壇公園や東京地下鉄の2路線が近くにあります。",
+      "translated": "ポイントを使って部屋を予約するのは非常にお得です。立地も抜群で、近くには平和の寺があり、東京の地下鉄2路線もすぐ近くです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "黃厚平"

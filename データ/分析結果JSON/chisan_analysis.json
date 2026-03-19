@@ -1,12 +1,12 @@
 {
-  "total_reviews": 66,
-  "overall_avg_10pt": 7.03,
-  "high_count": 38,
-  "high_rate": 57.6,
+  "total_reviews": 67,
+  "overall_avg_10pt": 7.07,
+  "high_count": 39,
+  "high_rate": 58.2,
   "mid_count": 15,
-  "mid_rate": 22.7,
+  "mid_rate": 22.4,
   "low_count": 13,
-  "low_rate": 19.7,
+  "low_rate": 19.4,
   "site_stats": [
     {
       "site": "Agoda",
@@ -46,11 +46,11 @@
     },
     {
       "site": "Google",
-      "count": 16,
-      "native_avg": 3.31,
+      "count": 17,
+      "native_avg": 3.41,
       "scale": "/5",
-      "avg_10pt": 6.62,
-      "median_10pt": 7.0,
+      "avg_10pt": 6.82,
+      "median_10pt": 8.0,
       "judgment": "要改善"
     },
     {
@@ -66,8 +66,8 @@
   "distribution": [
     {
       "score": 10,
-      "count": 13,
-      "pct": "19.7%"
+      "count": 14,
+      "pct": "20.9%"
     },
     {
       "score": 9,
@@ -77,7 +77,7 @@
     {
       "score": 8,
       "count": 23,
-      "pct": "34.8%"
+      "pct": "34.3%"
     },
     {
       "score": 7,
@@ -87,7 +87,7 @@
     {
       "score": 6,
       "count": 13,
-      "pct": "19.7%"
+      "pct": "19.4%"
     },
     {
       "score": 5,
@@ -97,15 +97,28 @@
     {
       "score": 4,
       "count": 8,
-      "pct": "12.1%"
+      "pct": "11.9%"
     },
     {
       "score": 2,
       "count": 5,
-      "pct": "7.6%"
+      "pct": "7.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Bridgette Mirio"
+    },
     {
       "site": "楽天トラベル",
       "rating": 1.0,

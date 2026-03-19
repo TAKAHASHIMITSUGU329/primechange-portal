@@ -1,19 +1,19 @@
 {
-  "total_reviews": 121,
-  "overall_avg_10pt": 8.59,
+  "total_reviews": 123,
+  "overall_avg_10pt": 8.54,
   "high_count": 98,
-  "high_rate": 81.0,
-  "mid_count": 20,
-  "mid_rate": 16.5,
-  "low_count": 3,
-  "low_rate": 2.5,
+  "high_rate": 79.7,
+  "mid_count": 21,
+  "mid_rate": 17.1,
+  "low_count": 4,
+  "low_rate": 3.3,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 16,
-      "native_avg": 9.69,
+      "count": 17,
+      "native_avg": 9.53,
       "scale": "/10",
-      "avg_10pt": 9.69,
+      "avg_10pt": 9.53,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,12 +46,12 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 15,
-      "native_avg": 4.0,
+      "count": 16,
+      "native_avg": 3.88,
       "scale": "/5",
-      "avg_10pt": 8.0,
+      "avg_10pt": 7.75,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "概ね良好"
     },
     {
       "site": "Agoda",
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 51,
-      "pct": "42.1%"
+      "pct": "41.5%"
     },
     {
       "score": 9,
       "count": 16,
-      "pct": "13.2%"
+      "pct": "13.0%"
     },
     {
       "score": 8,
       "count": 31,
-      "pct": "25.6%"
+      "pct": "25.2%"
     },
     {
       "score": 7,
-      "count": 7,
-      "pct": "5.8%"
+      "count": 8,
+      "pct": "6.5%"
     },
     {
       "score": 6,
       "count": 12,
-      "pct": "9.9%"
+      "pct": "9.8%"
     },
     {
       "score": 5,
@@ -96,8 +96,8 @@
     },
     {
       "score": 4,
-      "count": 2,
-      "pct": "1.7%"
+      "count": 3,
+      "pct": "2.4%"
     },
     {
       "score": 3,
@@ -106,6 +106,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-03-18",
+      "comment": "ホテルとしては普通です。ベッドヘッドに白い汚れがたくさん付いていてすごく不快だったので改善してほしいです。",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルとしては普通です。ベッドヘッドに白い汚れがたくさん付いていてすごく不快だったので改善してほしいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "りょこうすき123"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-18",
+      "comment": "駅から近く、室内もきれいでした。",
+      "good": "",
+      "bad": "",
+      "translated": "駅から近く、室内もきれいでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "楽天トラベル",
       "rating": 4.0,
@@ -701,7 +727,7 @@
       "bad": "Healthier breakfast cereal options with far less sugar content - weetbix, muesli etc. Wholemeal/multi grain bread options preferable to white bread.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "砂糖含有量がはるかに少ない、より健康的な朝食用シリアル（ウィートビックス、ミューズリーなど）を選ぶ。パンは白パンよりも全粒粉パンやマルチグレインパンを選ぶのが望ましい。",
+      "translated_bad": "砂糖含有量がはるかに少ない、より健康的な朝食用シリアル（ウィートビックス、ミューズリーなど）。白パンよりも全粒粉パンやマルチグレインパンが望ましい。",
       "reviewer": "James"
     },
     {

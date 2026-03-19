@@ -1,12 +1,12 @@
 {
-  "total_reviews": 105,
-  "overall_avg_10pt": 8.81,
-  "high_count": 87,
-  "high_rate": 82.9,
+  "total_reviews": 108,
+  "overall_avg_10pt": 8.83,
+  "high_count": 90,
+  "high_rate": 83.3,
   "mid_count": 17,
-  "mid_rate": 16.2,
+  "mid_rate": 15.7,
   "low_count": 1,
-  "low_rate": 1.0,
+  "low_rate": 0.9,
   "site_stats": [
     {
       "site": "Google",
@@ -28,10 +28,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 11,
-      "native_avg": 4.55,
+      "count": 12,
+      "native_avg": 4.58,
       "scale": "/5",
-      "avg_10pt": 9.09,
+      "avg_10pt": 9.17,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,11 +46,11 @@
     },
     {
       "site": "Booking.com",
-      "count": 20,
-      "native_avg": 8.5,
+      "count": 22,
+      "native_avg": 8.59,
       "scale": "/10",
-      "avg_10pt": 8.5,
-      "median_10pt": 8.5,
+      "avg_10pt": 8.59,
+      "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
@@ -66,41 +66,67 @@
   "distribution": [
     {
       "score": 10,
-      "count": 50,
-      "pct": "47.6%"
+      "count": 52,
+      "pct": "48.1%"
     },
     {
       "score": 9,
-      "count": 16,
-      "pct": "15.2%"
+      "count": 17,
+      "pct": "15.7%"
     },
     {
       "score": 8,
       "count": 21,
-      "pct": "20.0%"
+      "pct": "19.4%"
     },
     {
       "score": 7,
       "count": 9,
-      "pct": "8.6%"
+      "pct": "8.3%"
     },
     {
       "score": 6,
       "count": 7,
-      "pct": "6.7%"
+      "pct": "6.5%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "1.0%"
+      "pct": "0.9%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.0%"
+      "pct": "0.9%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-18",
+      "comment": "Booking.com",
+      "good": "Front desk staff was super nice and helpful with me as I had a lot of luggage. I felt very supported and they always did everything they could do with answering my questions and helping with reservations.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Michael"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-18",
+      "comment": "Booking.com",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Tamae"
+    },
     {
       "site": "Agoda",
       "rating": 10.0,
@@ -126,6 +152,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Yasuka"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "じゃらん",
+      "good": "",
+      "bad": "",
+      "translated": "受付係は親切で笑顔で、駐車場の場所を丁寧に説明してくれました。朝食は新鮮で種類も豊富で美味しかったです。部屋は広々としていて、二段ベッドとUSBポートが備え付けられていました。友人にも100％おすすめします。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Adaさん"
     },
     {
       "site": "Trip.com",
@@ -369,7 +408,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "ここが建てられたばかりだったので、とてもきれいです！トイレが特にすっきりしているので、きれいですが、本当にきれいです。",
+      "translated": "ここが建てられたばかりだったので、とてもきれいです！トイレが特にすっきりしていて選びましたが、本当にきれいですね。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "뀨‍에‍애‍엑"
@@ -850,7 +889,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "部屋の広さはちょうど良く、独立したシャワーとトイレ、そして二段ベッドが2台あり、4人家族には最適でした。ホテルのロビーには大きな共同バスタブ、ウェルカムドリンク、ランドリールーム、ソーダファウンテン、電子レンジがありました。立地も便利で、JR駅から徒歩5～7分ほど。階下にはファミリーマート、セブンイレブン、ローソンといったコンビニエンスストアがありました。中華街までは徒歩約15分です。次回訪れる際も、間違いなくこのホテルを選びます。",
+      "translated": "部屋の広さはちょうど良く、独立したシャワーとトイレ、二段ベッドが2台あり、4人家族に最適でした。ホテルのロビーには大きな共同バスタブ、ウェルカムドリンク、ランドリールーム、ソーダファウンテン、電子レンジがありました。立地も便利で、JR駅から徒歩5～7分ほど。階下にはファミリーマート、セブンイレブン、ローソンのコンビニがありました。中華街までは徒歩約15分です。次回も必ずこのホテルを選びます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1292,7 +1331,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "ホテルは見つけやすく、近くにスーパーマーケットが3軒あるので買い物にも便利です。市内中心部の地下鉄駅から徒歩10分です。ホテルには洗濯機3台と乾燥機3台を備えたランドリールームがあり、小銭のみ受け付けています。",
+      "translated": "ホテルは見つけやすく、近くにスーパーマーケットが3軒あるので買い物にも便利です。地下鉄駅から徒歩10分です。ホテルには洗濯機3台と乾燥機3台を備えたランドリールームがあり、小銭のみ受け付けています。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "0‍h‍o‍n‍g‍l‍o‍n‍g‍k‍u‍i‍0"
