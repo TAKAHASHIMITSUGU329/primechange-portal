@@ -3,7 +3,7 @@
 # 2026-03-11 実行
 
 set -e
-BASE_DIR="/Users/mitsugutakahashi/HotelReview"
+BASE_DIR="/Users/mitsugutakahashi/ホテル口コミ"
 DATA_DIR="$BASE_DIR/データ/ホテル口コミデータ"
 JSON_DIR="$BASE_DIR/データ/分析結果JSON"
 SCRIPT_DIR="$BASE_DIR/スクリプト"

@@ -1,12 +1,12 @@
 {
-  "total_reviews": 48,
-  "overall_avg_10pt": 7.35,
-  "high_count": 30,
-  "high_rate": 62.5,
+  "total_reviews": 49,
+  "overall_avg_10pt": 7.39,
+  "high_count": 31,
+  "high_rate": 63.3,
   "mid_count": 13,
-  "mid_rate": 27.1,
+  "mid_rate": 26.5,
   "low_count": 5,
-  "low_rate": 10.4,
+  "low_rate": 10.2,
   "site_stats": [
     {
       "site": "Google",
@@ -36,6 +36,15 @@
       "judgment": "概ね良好"
     },
     {
+      "site": "Agoda",
+      "count": 13,
+      "native_avg": 7.08,
+      "scale": "/10",
+      "avg_10pt": 7.08,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
       "site": "楽天トラベル",
       "count": 4,
       "native_avg": 3.5,
@@ -43,60 +52,64 @@
       "avg_10pt": 7.0,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
-    },
-    {
-      "site": "Agoda",
-      "count": 12,
-      "native_avg": 6.92,
-      "scale": "/10",
-      "avg_10pt": 6.92,
-      "median_10pt": 7.5,
-      "judgment": "要改善"
     }
   ],
   "distribution": [
     {
       "score": 10,
       "count": 6,
-      "pct": "12.5%"
+      "pct": "12.2%"
     },
     {
       "score": 9,
-      "count": 2,
-      "pct": "4.2%"
+      "count": 3,
+      "pct": "6.1%"
     },
     {
       "score": 8,
       "count": 22,
-      "pct": "45.8%"
+      "pct": "44.9%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "8.3%"
+      "pct": "8.2%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "16.7%"
+      "pct": "16.3%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "2.1%"
+      "pct": "2.0%"
     },
     {
       "score": 4,
       "count": 4,
-      "pct": "8.3%"
+      "pct": "8.2%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "2.1%"
+      "pct": "2.0%"
     }
   ],
   "comments": [
+    {
+      "site": "Agoda",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-19",
+      "comment": "駅からすぐの場所にあり、電車移動も便利 ホテルには駐車場が3台分有りますが予約はできません。 でもすぐ近所に有るホールの地下駐車場が格安なので車で来られる方にもお勧めです。",
+      "good": "",
+      "bad": "",
+      "translated": "駅からすぐの場所にあり、電車移動も便利 ホテルには駐車場が3台分有りますが予約はできません。 でもすぐ近所に有るホールの地下駐車場が格安なので車で来られる方にもお勧めです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "toshimi"
+    },
     {
       "site": "Agoda",
       "rating": 8.0,

@@ -10,10 +10,10 @@
   "site_stats": [
     {
       "site": "Agoda",
-      "count": 21,
-      "native_avg": 9.38,
+      "count": 20,
+      "native_avg": 9.4,
       "scale": "/10",
-      "avg_10pt": 9.38,
+      "avg_10pt": 9.4,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -27,17 +27,17 @@
       "judgment": "優秀"
     },
     {
-      "site": "じゃらん",
-      "count": 27,
-      "native_avg": 4.63,
+      "site": "楽天トラベル",
+      "count": 47,
+      "native_avg": 4.64,
       "scale": "/5",
-      "avg_10pt": 9.26,
+      "avg_10pt": 9.28,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 46,
+      "site": "じゃらん",
+      "count": 27,
       "native_avg": 4.63,
       "scale": "/5",
       "avg_10pt": 9.26,
@@ -66,13 +66,13 @@
   "distribution": [
     {
       "score": 10,
-      "count": 84,
-      "pct": "60.4%"
+      "count": 85,
+      "pct": "61.2%"
     },
     {
       "score": 9,
-      "count": 12,
-      "pct": "8.6%"
+      "count": 11,
+      "pct": "7.9%"
     },
     {
       "score": 8,
@@ -108,6 +108,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-19",
+      "comment": "小学6年生まで添寝が無料なうえ、朝食ビュッフェ付きでとても良かったです。 今回連泊で利用させていただきましたが、毎日ベッドメイキングをしてくださり、とても気持ちよく利用できました。",
+      "good": "",
+      "bad": "",
+      "translated": "小学6年生まで添寝が無料なうえ、朝食ビュッフェ付きでとても良かったです。 今回連泊で利用させていただきましたが、毎日ベッドメイキングをしてくださり、とても気持ちよく利用できました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "1macham"
     },
     {
       "site": "楽天トラベル",
@@ -979,19 +992,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "hiomaro"
-    },
-    {
-      "site": "Agoda",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-03",
-      "comment": "施設も綺麗で、アメニティもしっかりしており、心地よく過ごせました！",
-      "good": "",
-      "bad": "",
-      "translated": "施設も綺麗で、アメニティもしっかりしており、心地よく過ごせました！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "里央"
     },
     {
       "site": "Agoda",

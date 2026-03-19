@@ -1,19 +1,19 @@
 {
   "total_reviews": 138,
-  "overall_avg_10pt": 7.57,
-  "high_count": 98,
-  "high_rate": 71.0,
+  "overall_avg_10pt": 7.53,
+  "high_count": 97,
+  "high_rate": 70.3,
   "mid_count": 23,
   "mid_rate": 16.7,
-  "low_count": 17,
-  "low_rate": 12.3,
+  "low_count": 18,
+  "low_rate": 13.0,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 20,
-      "native_avg": 8.65,
+      "count": 19,
+      "native_avg": 8.58,
       "scale": "/10",
-      "avg_10pt": 8.65,
+      "avg_10pt": 8.58,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 31,
-      "native_avg": 7.42,
+      "count": 32,
+      "native_avg": 7.31,
       "scale": "/10",
-      "avg_10pt": 7.42,
+      "avg_10pt": 7.31,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -66,8 +66,8 @@
   "distribution": [
     {
       "score": 10,
-      "count": 31,
-      "pct": "22.5%"
+      "count": 30,
+      "pct": "21.7%"
     },
     {
       "score": 9,
@@ -96,8 +96,8 @@
     },
     {
       "score": 4,
-      "count": 9,
-      "pct": "6.5%"
+      "count": 10,
+      "pct": "7.2%"
     },
     {
       "score": 3,
@@ -111,6 +111,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 4.0,
+      "rating_10pt": 4.0,
+      "date": "2026-03-19",
+      "comment": "",
+      "good": "",
+      "bad": "朝食は、ビュッフェ形式でなかった。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "朝食は、ビュッフェ形式でなかった。",
+      "reviewer": "Yukiharu"
+    },
     {
       "site": "楽天トラベル",
       "rating": 4.0,
@@ -994,19 +1007,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "あきおくんです"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "Very nice",
-      "good": "",
-      "bad": "",
-      "translated": "非常に素晴らしい",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
     },
     {
       "site": "Agoda",

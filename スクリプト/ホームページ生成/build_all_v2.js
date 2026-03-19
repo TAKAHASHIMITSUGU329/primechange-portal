@@ -165,7 +165,7 @@ writeJSON('tier-color.json', { '優秀': '#10B981', '良好': '#3B82F6', '概ね
 writeJSON('portfolio-summary.json', portfolioSummary);
 writeJSON('deltas.json', deltas);
 
-var buildDate = new Date().toISOString().slice(0, 10);
+var buildDate = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10); // JST
 var buildMetaData = {
   build_date: buildDate,
   data_range: { min: dateMin, max: dateMax },

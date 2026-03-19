@@ -1,6 +1,6 @@
 {
   "total_reviews": 117,
-  "overall_avg_10pt": 8.94,
+  "overall_avg_10pt": 8.96,
   "high_count": 100,
   "high_rate": 85.5,
   "mid_count": 12,
@@ -38,9 +38,9 @@
     {
       "site": "Booking.com",
       "count": 61,
-      "native_avg": 8.8,
+      "native_avg": 8.84,
       "scale": "/10",
-      "avg_10pt": 8.8,
+      "avg_10pt": 8.84,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,8 +66,8 @@
   "distribution": [
     {
       "score": 10,
-      "count": 68,
-      "pct": "58.1%"
+      "count": 69,
+      "pct": "59.0%"
     },
     {
       "score": 9,
@@ -76,8 +76,8 @@
     },
     {
       "score": 8,
-      "count": 15,
-      "pct": "12.8%"
+      "count": 14,
+      "pct": "12.0%"
     },
     {
       "score": 7,
@@ -111,6 +111,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-19",
+      "comment": "",
+      "good": "Ci ha piaciuto tutto! Ogni sera ci siamo addormentati pensando che avevamo scelto l albergo migliore di tutti 💚 super posizione, accoglienza e pulizia top, colazione stupenda!! Torneremo volentieri, un posto meraviglioso con letti super comodi! Grazie di tutto❤️",
+      "bad": "Non c’ era nulla che non ci piacesse.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "気に入らない点は何もなかった。",
+      "reviewer": "Claudia"
+    },
     {
       "site": "Google",
       "rating": 5.0,
@@ -864,19 +877,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-01",
-      "comment": "",
-      "good": "Location. About 30 min walk from Tokyo station and close to many train stations.  Good value for money. Room was compact and would have been tight for two people.",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Bolu"
     },
     {
       "site": "Booking.com",
