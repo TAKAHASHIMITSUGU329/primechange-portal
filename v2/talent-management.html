@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>タレントマネジメント - PRIMECHANGE V2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/common-v2.css">
+<style>
+.perf-highlight { background: linear-gradient(90deg, #ECFDF5 0%, transparent 100%); }
+.rank-medal { display: inline-block; width: 22px; height: 22px; border-radius: 50%; text-align: center; line-height: 22px; font-size: 0.65rem; font-weight: 800; color: white; margin-right: 0.3rem; }
+.rank-1 { background: #F59E0B; }
+.rank-2 { background: #9CA3AF; }
+.rank-3 { background: #B45309; }
+.stacked-bar { display: flex; height: 22px; border-radius: 4px; overflow: hidden; }
+.stacked-seg { display: flex; align-items: center; justify-content: center; font-size: 0.6rem; font-weight: 700; color: white; white-space: nowrap; overflow: hidden; }
+.hist-bar { display: flex; align-items: flex-end; gap: 2px; height: 80px; }
+.hist-col { flex: 1; border-radius: 3px 3px 0 0; display: flex; align-items: flex-end; justify-content: center; font-size: 0.6rem; font-weight: 600; color: white; min-width: 18px; }
+</style>
+<script src="data/inline-data.js"></script>
+<script src="scripts/common-v2.js" defer></script>
+<script src="scripts/svg-gauge-v2.js" defer></script>
+<script src="scripts/date-filter-v2.js" defer></script>
+<script src="scripts/date-filter-ui-v2.js" defer></script>
+<script src="scripts/page-snapshot-v2.js" defer></script>
+<script src="scripts/trend-chart-v2.js" defer></script>
+</head>
+<body>
+<nav class="main-nav">
+  <div class="nav-inner">
+    <a href="executive.html" class="nav-brand"><img src="https://primechange.co.jp/wp-content/themes/prime_change/assets/img/logo.png" alt="PRIME CHANGE" class="nav-logo"></a>
+    <div class="nav-links">
+      <a href="executive.html" class="nav-link">EXECUTIVE</a>
+      <a href="index.html" class="nav-link">ポータル</a>
+      <a href="hotel-dashboard.html" class="nav-link">ホテル別</a>
+      <a href="cleaning-strategy.html" class="nav-link">清掃戦略</a>
+      <a href="deep-analysis.html" class="nav-link">深掘り分析</a>
+      <a href="simulator.html" class="nav-link">シミュレーター</a>
+      <a href="ota-strategy.html" class="nav-link">OTA戦略</a>
+      <a href="action-plans.html" class="nav-link">アクション</a>
+      <a href="es-dashboard.html" class="nav-link">ES管理</a>
+      <a href="talent-management.html" class="nav-link active">タレント</a>
+      <a href="revenue-impact.html" class="nav-link">品質×売上</a>
+    </div>
+    <button class="nav-toggle">&#9776;</button>
+  </div>
+</nav>
+<div class="container">
+  <h1 class="page-title">タレントマネジメント</h1>
+  <p class="page-subtitle">19ホテル・510名のスタッフデータに基づく個人評価・配置最適化分析</p>
+
+  <div class="fulldata-banner">
+    <span>&#9432;</span>
+    <div>R8期間の🏆皆勤アワード・🔵クレーム・②シフト・③日報データを統合。ホテル単位の配置分析・相関・提言は<a href="es-dashboard.html" style="color:#92400E;font-weight:700;">ES管理ページ</a>をご覧ください。</div>
+  </div>
+<div class="section-heading"><span class="heading-en">TALENT KPI</span><span class="heading-ja">人材KPI概要</span></div>
+<div class="kpi-grid">
+<div class="kpi-card" style="border-left-color:var(--accent);">
+  <div class="kpi-label">総スタッフ数</div>
+  <div class="kpi-value">510</div>
+  <div class="kpi-sub">名</div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--blue);">
+  <div class="kpi-label">メイド数</div>
+  <div class="kpi-value">366</div>
+  <div class="kpi-sub">名</div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--purple);">
+  <div class="kpi-label">チェッカー数</div>
+  <div class="kpi-value">62</div>
+  <div class="kpi-sub">名</div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">平均出勤日数</div>
+  <div class="kpi-value">19.3</div>
+  <div class="kpi-sub">日</div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--blue);">
+  <div class="kpi-label">平均清掃室数/日</div>
+  <div class="kpi-value">10.2</div>
+  <div class="kpi-sub">室</div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">皆勤該当率</div>
+  <div class="kpi-value">100%</div>
+  <div class="kpi-sub">10/10名</div>
+</div>
+</div>
+
+<div class="section-heading"><span class="heading-en">STAFF PRODUCTIVITY</span><span class="heading-ja">スタッフ生産性ランキング</span></div>
+<div class="card">
+  <div class="card-title">&#127942; 清掃実績 Top20</div>
+  <div style="overflow-x:auto;"><table class="data-table">
+    <thead><tr><th>#</th><th>氏名</th><th>ホテル</th><th>ポジション</th><th>出勤日数</th><th>労働時間</th><th>清掃部屋数</th><th>室/日</th><th>皆勤</th></tr></thead>
+    <tbody>
+    <tr class="perf-highlight">
+      <td><span class="rank-medal rank-1">1</span>1</td>
+      <td style="font-weight:600;">辛</td>
+      <td style="font-size:0.78rem;">チサンホテル浜松町</td>
+      <td>メイド</td>
+      <td style="text-align:right;">35</td>
+      <td style="text-align:right;">202.0</td>
+      <td style="text-align:right;font-weight:700;">852</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">24.3</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr class="perf-highlight">
+      <td><span class="rank-medal rank-2">2</span>2</td>
+      <td style="font-weight:600;">楊</td>
+      <td style="font-size:0.78rem;">チサンホテル浜松町</td>
+      <td>メイド</td>
+      <td style="text-align:right;">36</td>
+      <td style="text-align:right;">206.8</td>
+      <td style="text-align:right;font-weight:700;">867</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">24.1</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr class="perf-highlight">
+      <td><span class="rank-medal rank-3">3</span>3</td>
+      <td style="font-weight:600;">スーザン</td>
+      <td style="font-size:0.78rem;">リッチモンドホテル東京目白</td>
+      <td>メイド</td>
+      <td style="text-align:right;">35</td>
+      <td style="text-align:right;">201.1</td>
+      <td style="text-align:right;font-weight:700;">767</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.9</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td style="font-weight:600;">グルン</td>
+      <td style="font-size:0.78rem;">リッチモンドホテル東京目白</td>
+      <td>メイド</td>
+      <td style="text-align:right;">36</td>
+      <td style="text-align:right;">217.0</td>
+      <td style="text-align:right;font-weight:700;">787</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.9</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td style="font-weight:600;">アルチャナ</td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td>メイド</td>
+      <td style="text-align:right;">24</td>
+      <td style="text-align:right;">135.0</td>
+      <td style="text-align:right;font-weight:700;">515</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.5</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td style="font-weight:600;">ビマラ（セルフ）</td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td>メイド</td>
+      <td style="text-align:right;">10</td>
+      <td style="text-align:right;">46.5</td>
+      <td style="text-align:right;font-weight:700;">214</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.4</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td style="font-weight:600;">マヤ</td>
+      <td style="font-size:0.78rem;">チサンホテル浜松町</td>
+      <td>メイド</td>
+      <td style="text-align:right;">33</td>
+      <td style="text-align:right;">190.2</td>
+      <td style="text-align:right;font-weight:700;">703</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.3</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td style="font-weight:600;">スニタ（セルフ）</td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td>メイド</td>
+      <td style="text-align:right;">27</td>
+      <td style="text-align:right;">134.1</td>
+      <td style="text-align:right;font-weight:700;">570</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.1</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td style="font-weight:600;">ブラトキ</td>
+      <td style="font-size:0.78rem;">チサンホテル浜松町</td>
+      <td>メイド</td>
+      <td style="text-align:right;">34</td>
+      <td style="text-align:right;">185.2</td>
+      <td style="text-align:right;font-weight:700;">714</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.0</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td style="font-weight:600;">ビナ</td>
+      <td style="font-size:0.78rem;">チサンホテル浜松町</td>
+      <td>メイド</td>
+      <td style="text-align:right;">24</td>
+      <td style="text-align:right;">143.4</td>
+      <td style="text-align:right;font-weight:700;">503</td>
+      <td style="text-align:right;font-weight:700;color:var(--accent);">21.0</td>
+      <td><span class="badge badge-green">皆勤</span></td>
+    </tr>
+    </tbody></table></div></div>
+
+<div class="section-heading"><span class="heading-en">STAFF COMPOSITION</span><span class="heading-ja">ホテル別スタッフ構成</span></div>
+<div class="card">
+  <div class="card-title">&#128101; メイド / チェッカー構成比</div>
+  <p style="font-size:0.78rem;color:var(--text-light);margin-bottom:1rem;">&#128309; メイド &#128995; チェッカー &#9898; その他</p>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">コンフォートスイーツ東京ベイ</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:59%;background:var(--blue);">42</div>
+      <div class="stacked-seg" style="width:25%;background:var(--purple);">18</div>
+      <div class="stacked-seg" style="width:16%;background:#CBD5E1;">11</div>
+    </div>
+  </div>
+  <div class="load-bar-val">71名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">コンフォートホテル博多</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:88%;background:var(--blue);">36</div>
+      <div class="stacked-seg" style="width:12%;background:var(--purple);">5</div>
+
+    </div>
+  </div>
+  <div class="load-bar-val">41名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">アパホテル蒲田駅東</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:70%;background:var(--blue);">26</div>
+      <div class="stacked-seg" style="width:3%;background:var(--purple);">1</div>
+      <div class="stacked-seg" style="width:27%;background:#CBD5E1;">10</div>
+    </div>
+  </div>
+  <div class="load-bar-val">37名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">変なホテル東京羽田</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:80%;background:var(--blue);">28</div>
+      <div class="stacked-seg" style="width:17%;background:var(--purple);">6</div>
+      <div class="stacked-seg" style="width:3%;background:#CBD5E1;">1</div>
+    </div>
+  </div>
+  <div class="load-bar-val">35名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">ハートンホテル東品川</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:85%;background:var(--blue);">29</div>
+      <div class="stacked-seg" style="width:12%;background:var(--purple);">4</div>
+      <div class="stacked-seg" style="width:3%;background:#CBD5E1;">1</div>
+    </div>
+  </div>
+  <div class="load-bar-val">34名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">ホテルコメント横浜関内</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:67%;background:var(--blue);">20</div>
+      <div class="stacked-seg" style="width:10%;background:var(--purple);">3</div>
+      <div class="stacked-seg" style="width:23%;background:#CBD5E1;">7</div>
+    </div>
+  </div>
+  <div class="load-bar-val">30名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">京成リッチモンドホテル東京錦糸町</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:66%;background:var(--blue);">19</div>
+      <div class="stacked-seg" style="width:21%;background:var(--purple);">6</div>
+      <div class="stacked-seg" style="width:13%;background:#CBD5E1;">4</div>
+    </div>
+  </div>
+  <div class="load-bar-val">29名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">ホテルケヤキゲート東京府中</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:68%;background:var(--blue);">19</div>
+      <div class="stacked-seg" style="width:14%;background:var(--purple);">4</div>
+      <div class="stacked-seg" style="width:18%;background:#CBD5E1;">5</div>
+    </div>
+  </div>
+  <div class="load-bar-val">28名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">川崎日航ホテル</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:48%;background:var(--blue);">13</div>
+      <div class="stacked-seg" style="width:15%;background:var(--purple);">4</div>
+      <div class="stacked-seg" style="width:37%;background:#CBD5E1;">10</div>
+    </div>
+  </div>
+  <div class="load-bar-val">27名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">コートホテル新横浜</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:0%;background:var(--blue);"></div>
+      <div class="stacked-seg" style="width:0%;background:var(--purple);"></div>
+      <div class="stacked-seg" style="width:100%;background:#CBD5E1;">23</div>
+    </div>
+  </div>
+  <div class="load-bar-val">23名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">コンフォートホテル横浜関内</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:91%;background:var(--blue);">20</div>
+      <div class="stacked-seg" style="width:5%;background:var(--purple);">1</div>
+      <div class="stacked-seg" style="width:4%;background:#CBD5E1;">1</div>
+    </div>
+  </div>
+  <div class="load-bar-val">22名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">コンフォートホテルERA東神田</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:90%;background:var(--blue);">19</div>
+      <div class="stacked-seg" style="width:0%;background:var(--purple);"></div>
+      <div class="stacked-seg" style="width:10%;background:#CBD5E1;">2</div>
+    </div>
+  </div>
+  <div class="load-bar-val">21名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">コンフォートホテル成田</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:95%;background:var(--blue);">19</div>
+      <div class="stacked-seg" style="width:0%;background:var(--purple);"></div>
+      <div class="stacked-seg" style="width:5%;background:#CBD5E1;">1</div>
+    </div>
+  </div>
+  <div class="load-bar-val">20名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">アパホテル相模原橋本駅東</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:90%;background:var(--blue);">18</div>
+      <div class="stacked-seg" style="width:0%;background:var(--purple);"></div>
+      <div class="stacked-seg" style="width:10%;background:#CBD5E1;">2</div>
+    </div>
+  </div>
+  <div class="load-bar-val">20名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">ダイワロイネットホテル東京大崎</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:83%;background:var(--blue);">15</div>
+      <div class="stacked-seg" style="width:17%;background:var(--purple);">3</div>
+
+    </div>
+  </div>
+  <div class="load-bar-val">18名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">第一イン池袋</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:44%;background:var(--blue);">7</div>
+      <div class="stacked-seg" style="width:31%;background:var(--purple);">5</div>
+      <div class="stacked-seg" style="width:25%;background:#CBD5E1;">4</div>
+    </div>
+  </div>
+  <div class="load-bar-val">16名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">コンフォートイン六本木</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:100%;background:var(--blue);">15</div>
+      <div class="stacked-seg" style="width:0%;background:var(--purple);"></div>
+
+    </div>
+  </div>
+  <div class="load-bar-val">15名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">チサンホテル浜松町</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:100%;background:var(--blue);">12</div>
+      <div class="stacked-seg" style="width:0%;background:var(--purple);"></div>
+
+    </div>
+  </div>
+  <div class="load-bar-val">12名</div>
+</div>
+<div class="load-bar" style="margin-bottom:0.6rem;">
+  <div class="load-bar-label">リッチモンドホテル東京目白</div>
+  <div class="load-bar-track" style="background:transparent;">
+    <div class="stacked-bar" style="width:100%;">
+      <div class="stacked-seg" style="width:82%;background:var(--blue);">9</div>
+      <div class="stacked-seg" style="width:18%;background:var(--purple);">2</div>
+
+    </div>
+  </div>
+  <div class="load-bar-val">11名</div>
+</div>
+</div>
+<div class="card">
+  <div class="card-title">&#128200; 一人あたり効率 × クレーム率 比較</div>
+  <div style="overflow-x:auto;"><table class="data-table">
+    <thead><tr><th>ホテル</th><th>総人数</th><th>メイド</th><th>チェッカー</th><th>室/人/日</th><th>クレーム/メイド</th><th>クレーム率</th><th>評価</th></tr></thead>
+    <tbody>
+    <tr>
+      <td style="font-weight:600;">チサンホテル浜松町</td>
+      <td style="text-align:right;">12</td>
+      <td style="text-align:right;">12</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;font-weight:700;">20.8</td>
+      <td style="text-align:right;">0.42</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-green">優秀</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">リッチモンドホテル東京目白</td>
+      <td style="text-align:right;">11</td>
+      <td style="text-align:right;">9</td>
+      <td style="text-align:right;">2</td>
+      <td style="text-align:right;font-weight:700;">19.5</td>
+      <td style="text-align:right;">0.11</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-green">優秀</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">コンフォートイン六本木</td>
+      <td style="text-align:right;">15</td>
+      <td style="text-align:right;">15</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;font-weight:700;">14.7</td>
+      <td style="text-align:right;">0.13</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-green">優秀</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">ハートンホテル東品川</td>
+      <td style="text-align:right;">34</td>
+      <td style="text-align:right;">29</td>
+      <td style="text-align:right;">4</td>
+      <td style="text-align:right;font-weight:700;">14.5</td>
+      <td style="text-align:right;">0.34</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-green">優秀</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:right;">18</td>
+      <td style="text-align:right;">15</td>
+      <td style="text-align:right;">3</td>
+      <td style="text-align:right;font-weight:700;">14.3</td>
+      <td style="text-align:right;">0.73</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">コンフォートホテル横浜関内</td>
+      <td style="text-align:right;">22</td>
+      <td style="text-align:right;">20</td>
+      <td style="text-align:right;">1</td>
+      <td style="text-align:right;font-weight:700;">11.6</td>
+      <td style="text-align:right;">0.00</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">変なホテル東京羽田</td>
+      <td style="text-align:right;">35</td>
+      <td style="text-align:right;">28</td>
+      <td style="text-align:right;">6</td>
+      <td style="text-align:right;font-weight:700;">11.5</td>
+      <td style="text-align:right;">0.04</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">アパホテル蒲田駅東</td>
+      <td style="text-align:right;">37</td>
+      <td style="text-align:right;">26</td>
+      <td style="text-align:right;">1</td>
+      <td style="text-align:right;font-weight:700;">11.5</td>
+      <td style="text-align:right;">0.38</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">第一イン池袋</td>
+      <td style="text-align:right;">16</td>
+      <td style="text-align:right;">7</td>
+      <td style="text-align:right;">5</td>
+      <td style="text-align:right;font-weight:700;">11.1</td>
+      <td style="text-align:right;">0.43</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">京成リッチモンドホテル東京錦糸町</td>
+      <td style="text-align:right;">29</td>
+      <td style="text-align:right;">19</td>
+      <td style="text-align:right;">6</td>
+      <td style="text-align:right;font-weight:700;">10.9</td>
+      <td style="text-align:right;">0.42</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">コンフォートホテルERA東神田</td>
+      <td style="text-align:right;">21</td>
+      <td style="text-align:right;">19</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;font-weight:700;">10.4</td>
+      <td style="text-align:right;">0.21</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">川崎日航ホテル</td>
+      <td style="text-align:right;">27</td>
+      <td style="text-align:right;">13</td>
+      <td style="text-align:right;">4</td>
+      <td style="text-align:right;font-weight:700;">10.2</td>
+      <td style="text-align:right;">1.00</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">ホテルケヤキゲート東京府中</td>
+      <td style="text-align:right;">28</td>
+      <td style="text-align:right;">19</td>
+      <td style="text-align:right;">4</td>
+      <td style="text-align:right;font-weight:700;">8.6</td>
+      <td style="text-align:right;">0.21</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-blue">良好</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">コンフォートスイーツ東京ベイ</td>
+      <td style="text-align:right;">71</td>
+      <td style="text-align:right;">42</td>
+      <td style="text-align:right;">18</td>
+      <td style="text-align:right;font-weight:700;">6.5</td>
+      <td style="text-align:right;">0.00</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-orange">標準</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">ホテルコメント横浜関内</td>
+      <td style="text-align:right;">30</td>
+      <td style="text-align:right;">20</td>
+      <td style="text-align:right;">3</td>
+      <td style="text-align:right;font-weight:700;">5.2</td>
+      <td style="text-align:right;">0.05</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-orange">標準</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">コンフォートホテル博多</td>
+      <td style="text-align:right;">41</td>
+      <td style="text-align:right;">36</td>
+      <td style="text-align:right;">5</td>
+      <td style="text-align:right;font-weight:700;">4.1</td>
+      <td style="text-align:right;">0.28</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-orange">標準</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">コンフォートホテル成田</td>
+      <td style="text-align:right;">20</td>
+      <td style="text-align:right;">19</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;font-weight:700;">2.9</td>
+      <td style="text-align:right;">0.00</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-orange">標準</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">アパホテル相模原橋本駅東</td>
+      <td style="text-align:right;">20</td>
+      <td style="text-align:right;">18</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;font-weight:700;">0.5</td>
+      <td style="text-align:right;">0.00</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-orange">標準</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">コートホテル新横浜</td>
+      <td style="text-align:right;">23</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;">-</td>
+      <td style="text-align:right;font-weight:700;">0.0</td>
+      <td style="text-align:right;">0.00</td>
+      <td style="text-align:right;">0.0%</td>
+      <td><span class="badge badge-orange">標準</span></td>
+    </tr>
+    </tbody></table></div></div>
+
+<div class="section-heading"><span class="heading-en">INDIVIDUAL PERFORMANCE</span><span class="heading-ja">個人パフォーマンス分析</span></div>
+<div class="card">
+  <div class="card-title">&#128203; 全スタッフ実績一覧</div>
+  <p style="font-size:0.78rem;color:var(--text-light);margin-bottom:1rem;">清掃部屋数データのあるスタッフ 10名</p>
+  <div style="overflow-x:auto;"><table class="data-table">
+    <thead><tr><th>#</th><th>氏名</th><th>ホテル</th><th>ポジション</th><th>給与形態</th><th>出勤</th><th>欠勤</th><th>労働h</th><th>清掃室数</th><th>室/日</th><th>皆勤</th></tr></thead>
+    <tbody>
+    <tr>
+      <td>1</td>
+      <td style="font-weight:600;">辛</td>
+      <td style="font-size:0.75rem;">チサンホテル浜松町</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">35</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">202.0</td>
+      <td style="text-align:right;font-weight:700;">852</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">24.3</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td style="font-weight:600;">楊</td>
+      <td style="font-size:0.75rem;">チサンホテル浜松町</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">36</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">206.8</td>
+      <td style="text-align:right;font-weight:700;">867</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">24.1</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td style="font-weight:600;">スーザン</td>
+      <td style="font-size:0.75rem;">リッチモンドホテル東京目白</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">35</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">201.1</td>
+      <td style="text-align:right;font-weight:700;">767</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.9</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td style="font-weight:600;">グルン</td>
+      <td style="font-size:0.75rem;">リッチモンドホテル東京目白</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">36</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">217.0</td>
+      <td style="text-align:right;font-weight:700;">787</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.9</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td style="font-weight:600;">アルチャナ</td>
+      <td style="font-size:0.75rem;">ハートンホテル東品川</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">-</td>
+      <td style="text-align:right;">24</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">135.0</td>
+      <td style="text-align:right;font-weight:700;">515</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.5</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td style="font-weight:600;">ビマラ（セルフ）</td>
+      <td style="font-size:0.75rem;">ハートンホテル東品川</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">10</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">46.5</td>
+      <td style="text-align:right;font-weight:700;">214</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.4</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td style="font-weight:600;">マヤ</td>
+      <td style="font-size:0.75rem;">チサンホテル浜松町</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">33</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">190.2</td>
+      <td style="text-align:right;font-weight:700;">703</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.3</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td style="font-weight:600;">スニタ（セルフ）</td>
+      <td style="font-size:0.75rem;">ハートンホテル東品川</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">27</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">134.1</td>
+      <td style="text-align:right;font-weight:700;">570</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.1</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td style="font-weight:600;">ブラトキ</td>
+      <td style="font-size:0.75rem;">チサンホテル浜松町</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">34</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">185.2</td>
+      <td style="text-align:right;font-weight:700;">714</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.0</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td style="font-weight:600;">ビナ</td>
+      <td style="font-size:0.75rem;">チサンホテル浜松町</td>
+      <td style="font-size:0.75rem;">メイド</td>
+      <td style="font-size:0.75rem;">歩合</td>
+      <td style="text-align:right;">24</td>
+      <td style="text-align:right;">0</td>
+      <td style="text-align:right;">143.4</td>
+      <td style="text-align:right;font-weight:700;">503</td>
+      <td style="text-align:right;font-weight:700;color:var(--green);">21.0</td>
+      <td><span class="badge badge-green">&#10003;</span></td>
+    </tr>
+    </tbody></table></div></div>
+<div class="card">
+  <div class="card-title">&#128680; クレーム発生スタッフ（メイド＋チェッカー統合）</div>
+  <div style="overflow-x:auto;"><table class="data-table">
+    <thead><tr><th>#</th><th>氏名</th><th>ポジション</th><th>所属ホテル</th><th>クレーム件数</th><th>リスク</th></tr></thead>
+    <tbody>
+    <tr style="background:#FEF2F2;">
+      <td>1</td>
+      <td style="font-weight:600;">なし</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">アパホテル蒲田駅東</td>
+      <td style="text-align:center;font-weight:700;">9</td>
+      <td><span class="badge badge-red">高</span></td>
+    </tr>
+    <tr style="background:#FEF2F2;">
+      <td>2</td>
+      <td style="font-weight:600;">ピョー</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:center;font-weight:700;">4</td>
+      <td><span class="badge badge-red">高</span></td>
+    </tr>
+    <tr style="background:#FEF2F2;">
+      <td>3</td>
+      <td style="font-weight:600;">結城</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:center;font-weight:700;">4</td>
+      <td><span class="badge badge-red">高</span></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td style="font-weight:600;">インドラ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">川崎日航ホテル</td>
+      <td style="text-align:center;font-weight:700;">3</td>
+      <td><span class="badge badge-red">高</span></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td style="font-weight:600;">谷口</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td style="text-align:center;font-weight:700;">3</td>
+      <td><span class="badge badge-red">高</span></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td style="font-weight:600;">サラ</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ホテルケヤキゲート東京府中</td>
+      <td style="text-align:center;font-weight:700;">3</td>
+      <td><span class="badge badge-red">高</span></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td style="font-weight:600;">アンビカ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td style="font-weight:600;">グルン</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td style="font-weight:600;">ナウン</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td style="font-weight:600;">サムジャナ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td style="font-weight:600;">サンティ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td style="font-weight:600;">メイ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">京成リッチモンドホテル東京錦糸町</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td style="font-weight:600;">ラディカ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">第一イン池袋</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td style="font-weight:600;">グルング</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">アパホテル蒲田駅東</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td style="font-weight:600;">サラマ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">アパホテル蒲田駅東</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td style="font-weight:600;">プン</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">アパホテル蒲田駅東</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td style="font-weight:600;">山下</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">アパホテル蒲田駅東</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td style="font-weight:600;">スニタ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">川崎日航ホテル</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td style="font-weight:600;">黒田</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">コンフォートホテル博多</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td style="font-weight:600;">チャン</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td style="font-weight:600;">サムジャナ</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td style="font-weight:600;">ジェ</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td style="font-weight:600;">ラディカ</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">ハートンホテル東品川</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td style="font-weight:600;">シャキラ</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">京成リッチモンドホテル東京錦糸町</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td style="font-weight:600;">メイ</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">京成リッチモンドホテル東京錦糸町</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td style="font-weight:600;">ティン</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">第一イン池袋</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td style="font-weight:600;">富田</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">コンフォートスイーツ東京ベイ</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td style="font-weight:600;">松岡</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">コンフォートスイーツ東京ベイ</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td style="font-weight:600;">ホアン</td>
+      <td><span class="badge badge-purple">チェッカー</span></td>
+      <td style="font-size:0.78rem;">コンフォートホテルERA東神田</td>
+      <td style="text-align:center;font-weight:700;">2</td>
+      <td><span class="badge badge-orange">中</span></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td style="font-weight:600;">クマリ</td>
+      <td><span class="badge badge-blue">メイド</span></td>
+      <td style="font-size:0.78rem;">ダイワロイネットホテル東京大崎</td>
+      <td style="text-align:center;font-weight:700;">1</td>
+      <td><span class="badge badge-blue">低</span></td>
+    </tr>
+    </tbody></table></div></div>
+
+<div class="section-heading"><span class="heading-en">ATTENDANCE SUMMARY</span><span class="heading-ja">皆勤・勤怠サマリー</span></div>
+<div class="card">
+  <div class="card-title">&#127942; ホテル別 皆勤該当率</div>
+  <div style="overflow-x:auto;"><table class="data-table">
+    <thead><tr><th>ホテル</th><th>スタッフ数</th><th>皆勤者</th><th>皆勤率</th><th>平均出勤日数</th><th>達成状況</th></tr></thead>
+    <tbody>
+    <tr>
+      <td style="font-weight:600;">チサンホテル浜松町</td>
+      <td style="text-align:right;">5</td>
+      <td style="text-align:right;font-weight:700;">5</td>
+      <td style="text-align:right;font-weight:700;">100%</td>
+      <td style="text-align:right;">32.4</td>
+      <td><span class="badge badge-green">優秀</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">リッチモンドホテル東京目白</td>
+      <td style="text-align:right;">2</td>
+      <td style="text-align:right;font-weight:700;">2</td>
+      <td style="text-align:right;font-weight:700;">100%</td>
+      <td style="text-align:right;">35.5</td>
+      <td><span class="badge badge-green">優秀</span></td>
+    </tr>
+    <tr>
+      <td style="font-weight:600;">ハートンホテル東品川</td>
+      <td style="text-align:right;">3</td>
+      <td style="text-align:right;font-weight:700;">3</td>
+      <td style="text-align:right;font-weight:700;">100%</td>
+      <td style="text-align:right;">20.3</td>
+      <td><span class="badge badge-green">優秀</span></td>
+    </tr>
+    </tbody></table></div></div>
+<div class="card">
+  <div class="card-title">&#128202; 出勤日数分布</div>
+  <p style="font-size:0.78rem;color:var(--text-light);margin-bottom:1rem;">全 10名の出勤日数ヒストグラム</p>
+  <div class="hist-bar">
+    <div style="flex:1;text-align:center;">
+      <div style="font-size:0.7rem;font-weight:600;margin-bottom:0.2rem;">0</div>
+      <div style="height:0px;background:var(--red);border-radius:4px 4px 0 0;margin:0 2px;"></div>
+      <div style="font-size:0.6rem;color:var(--text-light);margin-top:0.3rem;border-top:1px solid var(--border);padding-top:0.2rem;">~9日</div>
+    </div>
+    <div style="flex:1;text-align:center;">
+      <div style="font-size:0.7rem;font-weight:600;margin-bottom:0.2rem;">1</div>
+      <div style="height:17px;background:var(--orange);border-radius:4px 4px 0 0;margin:0 2px;"></div>
+      <div style="font-size:0.6rem;color:var(--text-light);margin-top:0.3rem;border-top:1px solid var(--border);padding-top:0.2rem;">10-14日</div>
+    </div>
+    <div style="flex:1;text-align:center;">
+      <div style="font-size:0.7rem;font-weight:600;margin-bottom:0.2rem;">0</div>
+      <div style="height:0px;background:var(--orange);border-radius:4px 4px 0 0;margin:0 2px;"></div>
+      <div style="font-size:0.6rem;color:var(--text-light);margin-top:0.3rem;border-top:1px solid var(--border);padding-top:0.2rem;">15-19日</div>
+    </div>
+    <div style="flex:1;text-align:center;">
+      <div style="font-size:0.7rem;font-weight:600;margin-bottom:0.2rem;">2</div>
+      <div style="height:33px;background:var(--blue);border-radius:4px 4px 0 0;margin:0 2px;"></div>
+      <div style="font-size:0.6rem;color:var(--text-light);margin-top:0.3rem;border-top:1px solid var(--border);padding-top:0.2rem;">20-24日</div>
+    </div>
+    <div style="flex:1;text-align:center;">
+      <div style="font-size:0.7rem;font-weight:600;margin-bottom:0.2rem;">1</div>
+      <div style="height:17px;background:var(--green);border-radius:4px 4px 0 0;margin:0 2px;"></div>
+      <div style="font-size:0.6rem;color:var(--text-light);margin-top:0.3rem;border-top:1px solid var(--border);padding-top:0.2rem;">25-29日</div>
+    </div>
+    <div style="flex:1;text-align:center;">
+      <div style="font-size:0.7rem;font-weight:600;margin-bottom:0.2rem;">6</div>
+      <div style="height:100px;background:var(--green);border-radius:4px 4px 0 0;margin:0 2px;"></div>
+      <div style="font-size:0.6rem;color:var(--text-light);margin-top:0.3rem;border-top:1px solid var(--border);padding-top:0.2rem;">30+日</div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="footer">&copy; 2026 PRIME CHANGE Corporation &mdash; Hotel Quality Management Portal &mdash; Confidential</div>
+</body>
+</html>
