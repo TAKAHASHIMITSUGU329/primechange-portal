@@ -126,7 +126,8 @@ function buildIndex(data, deltas, revenueOps) {
     { icon: '&#128270;', title: '深掘り分析', desc: 'クレーム類型・スタッフ・人員配置・完了時間・安全・品質売上・ベストプラクティスの7分析。', link: 'deep-analysis.html', stat: '7つの専門分析' },
     { icon: '&#128176;', title: '品質×売上', desc: '品質スコアと売上の相関分析、弾力性係数、3つのROIシナリオ比較。', link: 'revenue-impact.html', stat: '月間約' + monthlyRev + '万円' },
     { icon: '&#9989;', title: 'アクションプラン', desc: 'ホテル別の3フェーズ改善計画（即時/短期/中期）とKPI目標管理。', link: 'action-plans.html', stat: (data.actionPlans ? data.actionPlans.length + 'ホテルの改善計画' : '') },
-    { icon: '&#128101;', title: 'ES管理', desc: '従業員満足度と品質スコアの相関分析、負荷管理、離職リスク予測。', link: 'es-dashboard.html', stat: 'ES×品質統合管理' }
+    { icon: '&#128101;', title: 'ES管理', desc: '従業員満足度と品質スコアの相関分析、負荷管理、離職リスク予測。', link: 'es-dashboard.html', stat: 'ES×品質統合管理' },
+    { icon: '&#128188;', title: 'タレントマネジメント', desc: 'スタッフ生産性ランキング・ホテル別人員配置・クレーム集中リスク分析。', link: 'talent-management.html', stat: '人材配置×品質分析' }
   ];
 
   html.push('<div class="grid-cards">');

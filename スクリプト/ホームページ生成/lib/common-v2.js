@@ -17,6 +17,7 @@ function nav(activePage) {
     { id: 'ota', label: 'OTA戦略', file: 'ota-strategy.html' },
     { id: 'action-plans', label: 'アクション', file: 'action-plans.html' },
     { id: 'es-dashboard', label: 'ES管理', file: 'es-dashboard.html' },
+    { id: 'talent-management', label: 'タレント', file: 'talent-management.html' },
     { id: 'revenue-impact', label: '品質×売上', file: 'revenue-impact.html' },
   ];
   var items = pages.map(function(p) {

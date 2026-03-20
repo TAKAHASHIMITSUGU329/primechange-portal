@@ -21,6 +21,7 @@ const { buildESDashboard } = require('./lib/page-es-dashboard');
 const { buildExecutive } = require('./lib/page-executive');
 const { buildSimulator } = require('./lib/page-simulator');
 const { buildOTA } = require('./lib/page-ota');
+const { buildTalentManagement } = require('./lib/page-talent-management');
 
 // Paths
 const DATA_DIR = path.join(__dirname, '..', '..', 'データ', '分析結果JSON');
@@ -262,6 +263,10 @@ writePage('simulator.html', simHtml);
 var otaHtml = buildOTA(data);
 writePage('ota-strategy.html', otaHtml);
 
+// 11. Talent Management
+var talentHtml = buildTalentManagement(data);
+writePage('talent-management.html', talentHtml);
+
 // ============================================================
 // Phase 5: Snapshot management
 // ============================================================
@@ -325,6 +330,6 @@ console.log('=== Build Complete! ===');
 console.log('Output: ' + OUTPUT_DIR);
 console.log('Pages: executive.html, index.html, hotel-dashboard.html, cleaning-strategy.html,');
 console.log('       deep-analysis.html, revenue-impact.html, action-plans.html,');
-console.log('       es-dashboard.html, simulator.html, ota-strategy.html');
+console.log('       es-dashboard.html, simulator.html, ota-strategy.html, talent-management.html');
 console.log('');
 console.log('To view: open ' + path.join(OUTPUT_DIR, 'index.html'));
