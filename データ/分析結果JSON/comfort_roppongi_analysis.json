@@ -1,12 +1,12 @@
 {
-  "total_reviews": 106,
-  "overall_avg_10pt": 8.16,
-  "high_count": 84,
-  "high_rate": 79.2,
-  "mid_count": 13,
-  "mid_rate": 12.3,
+  "total_reviews": 108,
+  "overall_avg_10pt": 8.15,
+  "high_count": 85,
+  "high_rate": 78.7,
+  "mid_count": 14,
+  "mid_rate": 13.0,
   "low_count": 9,
-  "low_rate": 8.5,
+  "low_rate": 8.3,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 53,
-      "native_avg": 8.21,
+      "count": 55,
+      "native_avg": 8.18,
       "scale": "/10",
-      "avg_10pt": 8.21,
+      "avg_10pt": 8.18,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 36,
-      "pct": "34.0%"
+      "pct": "33.3%"
     },
     {
       "score": 9,
-      "count": 14,
-      "pct": "13.2%"
+      "count": 15,
+      "pct": "13.9%"
     },
     {
       "score": 8,
       "count": 34,
-      "pct": "32.1%"
+      "pct": "31.5%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "7.5%"
+      "pct": "7.4%"
     },
     {
       "score": 6,
-      "count": 4,
-      "pct": "3.8%"
+      "count": 5,
+      "pct": "4.6%"
     },
     {
       "score": 5,
@@ -102,10 +102,36 @@
     {
       "score": 2,
       "count": 7,
-      "pct": "6.6%"
+      "pct": "6.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "Good location and nice reception staff",
+      "bad": "Coffee machine broken most of the stay",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "滞在中ほとんどの時間、コーヒーマシンが故障していた。",
+      "reviewer": "Kourtney"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yusuf"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -140,7 +166,7 @@
       "comment": "這裏太方便了，樓下就是地鐵站，不論是自己或是朋友一起來都非常之方便，最重要的是客服人員態度10分好，10分推薦",
       "good": "",
       "bad": "",
-      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフがとても親切で助かります。本当におすすめです！",
+      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフの方々がとても親切で助かります。本当におすすめです！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍o‍m‍o‍4‍2‍9"
@@ -153,7 +179,7 @@
       "comment": "I was very pleased with this hotel. I booked a room with a queen bed, which I found quite spacious for Japanese standards. The room was equipped with a humidifier, which was very convenient during my stay. The staff were friendly and attentive. The Thai breakfast was really good, I was quite surprised by it and definitely recommend it. Overall, it was a great stay!",
       "good": "",
       "bad": "",
-      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ式の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
+      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ風の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Nanda"
@@ -790,7 +816,7 @@
       "comment": "優點： 1、地點離地鐵超近。 2、房間不需要打掃也會每天給新的浴巾毛巾。 3、雙床房房間在東京算很大。 4、房間乾淨。 5、有兩台電梯，不太需要等。 6、旁邊跟對面都有超商，對面還有阿夫利。",
       "good": "",
       "bad": "",
-      "translated": "利点：1. 地下鉄の駅に非常に近い。2. 部屋の清掃は不要で、バスタオルは毎日交換される。3. ツインルームは東京にしてはかなり広い。4. 部屋は清潔。5. エレベーターが2基あるので、待つことはほとんどない。6. 隣と通りの向かいにコンビニがあり、通りの向かいにはAfriコンビニもある。",
+      "translated": "利点：1. 地下鉄の駅に非常に近い。2. 部屋の清掃は不要で、バスタオルは毎日交換される。3. ツインルームは東京にしてはかなり広い。4. 部屋は清潔。5. エレベーターが2基あるので、待ち時間はほとんどない。6. 隣と通りの向かいにコンビニがあり、通りの向かいにはAfriコンビニもある。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M T"
@@ -985,7 +1011,7 @@
       "comment": "위치는 롯폰기 역에서 도보 3분도 안 걸릴 정도로 가깝고 좋아요. 카운터 직원분도 계속 웃어주시면서 친절하게 안내해주셨어요. 하지만 주변이 도로여서 숙소로 소음과 진동이 계속 들어오고 좁아요. 가격 생각하면 그럴 수 있습니다. 문제는 화장실에서 계속 구린 냄새가 났었고, 직원이 청소를 해주었는데 서양인 특유의 암내가 방안에 가득 퍼져있더군요. 이틀만에 알콜 스프레이를 다 비울 정도로 방과 화장실에 냄새가  심했습니다.",
       "good": "",
       "bad": "",
-      "translated": "場所は六本木駅から徒歩3分もかからないほど近く、良いです。カウンタースタッフの方もずっと笑ってくれて親切にご案内いただきました。しかし、周辺が道路なので、宿舎に騒音と振動が入り続けて狭いです。価格を考えるとそうかもしれません。問題はトイレで焼き続けた匂いがし、スタッフが掃除をしてくれたのに西洋ならではの岩が部屋の中にいっぱいに広がっていましたね。二日ぶりにアルコールスプレーを全部空けるほど、部屋やトイレに臭いがひどかったです。",
+      "translated": "場所は六本木駅から徒歩3分もかからないほど近いです。カウンタースタッフの方もずっと笑ってくれて親切にご案内いただきました。しかし、周辺が道路なので、宿舎に騒音や振動が入り続けて狭いです。価格を考えるとそうかもしれません。問題はトイレで焼き続けた匂いがし、スタッフが掃除をしてくれたのに西洋ならではの岩が部屋の中にいっぱいに広がっていましたね。二日ぶりにアルコールスプレーをすべて空にするほど、部屋やトイレに臭いがひどかった。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

@@ -1,19 +1,19 @@
 {
-  "total_reviews": 49,
-  "overall_avg_10pt": 7.39,
-  "high_count": 31,
-  "high_rate": 63.3,
+  "total_reviews": 51,
+  "overall_avg_10pt": 7.45,
+  "high_count": 33,
+  "high_rate": 64.7,
   "mid_count": 13,
-  "mid_rate": 26.5,
+  "mid_rate": 25.5,
   "low_count": 5,
-  "low_rate": 10.2,
+  "low_rate": 9.8,
   "site_stats": [
     {
       "site": "Google",
-      "count": 15,
-      "native_avg": 3.93,
+      "count": 16,
+      "native_avg": 3.94,
       "scale": "/5",
-      "avg_10pt": 7.87,
+      "avg_10pt": 7.88,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -28,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 13,
-      "native_avg": 7.23,
+      "count": 14,
+      "native_avg": 7.43,
       "scale": "/10",
-      "avg_10pt": 7.23,
+      "avg_10pt": 7.43,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -57,28 +57,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 6,
-      "pct": "12.2%"
+      "count": 7,
+      "pct": "13.7%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "6.1%"
+      "pct": "5.9%"
     },
     {
       "score": 8,
-      "count": 22,
-      "pct": "44.9%"
+      "count": 23,
+      "pct": "45.1%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "8.2%"
+      "pct": "7.8%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "16.3%"
+      "pct": "15.7%"
     },
     {
       "score": 5,
@@ -88,7 +88,7 @@
     {
       "score": 4,
       "count": 4,
-      "pct": "8.2%"
+      "pct": "7.8%"
     },
     {
       "score": 2,
@@ -97,6 +97,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "GON O.S"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "清潔",
+      "bad": "なし",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "なし",
+      "reviewer": "Koji"
+    },
     {
       "site": "Agoda",
       "rating": 9.0,

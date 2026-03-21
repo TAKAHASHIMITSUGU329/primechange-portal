@@ -1,10 +1,10 @@
 {
-  "total_reviews": 87,
-  "overall_avg_10pt": 8.79,
-  "high_count": 75,
-  "high_rate": 86.2,
+  "total_reviews": 88,
+  "overall_avg_10pt": 8.78,
+  "high_count": 76,
+  "high_rate": 86.4,
   "mid_count": 9,
-  "mid_rate": 10.3,
+  "mid_rate": 10.2,
   "low_count": 3,
   "low_rate": 3.4,
   "site_stats": [
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 12,
-      "native_avg": 8.67,
+      "count": 13,
+      "native_avg": 8.62,
       "scale": "/10",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.62,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -67,7 +67,7 @@
     {
       "score": 10,
       "count": 49,
-      "pct": "56.3%"
+      "pct": "55.7%"
     },
     {
       "score": 9,
@@ -76,13 +76,13 @@
     },
     {
       "score": 8,
-      "count": 21,
-      "pct": "24.1%"
+      "count": 22,
+      "pct": "25.0%"
     },
     {
       "score": 6,
       "count": 9,
-      "pct": "10.3%"
+      "pct": "10.2%"
     },
     {
       "score": 4,
@@ -96,6 +96,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "駅からホテルへ行きやすく、お部屋の浴槽もゆったりしていて入浴剤も選べて入れられるのでくつろいで入れました。 朝食も選べて美味しかったです。",
+      "bad": "洗濯機＆乾燥機がもう1台あるとスムーズに洗濯ができたと思います。 朝食の飲み物に野菜ジュースがあると良かったです。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "洗濯機＆乾燥機がもう1台あるとスムーズに洗濯ができたと思います。 朝食の飲み物に野菜ジュースがあると良かったです。",
+      "reviewer": "Satomi"
+    },
     {
       "site": "Google",
       "rating": 5.0,

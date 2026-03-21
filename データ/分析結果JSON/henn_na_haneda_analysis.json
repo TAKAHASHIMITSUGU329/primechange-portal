@@ -1,12 +1,12 @@
 {
-  "total_reviews": 292,
-  "overall_avg_10pt": 8.28,
-  "high_count": 223,
-  "high_rate": 76.4,
-  "mid_count": 60,
-  "mid_rate": 20.5,
+  "total_reviews": 298,
+  "overall_avg_10pt": 8.27,
+  "high_count": 226,
+  "high_rate": 75.8,
+  "mid_count": 63,
+  "mid_rate": 21.1,
   "low_count": 9,
-  "low_rate": 3.1,
+  "low_rate": 3.0,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -19,10 +19,10 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 37,
-      "native_avg": 4.3,
+      "count": 38,
+      "native_avg": 4.32,
       "scale": "/5",
-      "avg_10pt": 8.59,
+      "avg_10pt": 8.63,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -46,10 +46,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 122,
-      "native_avg": 8.11,
+      "count": 127,
+      "native_avg": 8.09,
       "scale": "/10",
-      "avg_10pt": 8.11,
+      "avg_10pt": 8.09,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,33 +66,33 @@
   "distribution": [
     {
       "score": 10,
-      "count": 97,
+      "count": 99,
       "pct": "33.2%"
     },
     {
       "score": 9,
-      "count": 36,
-      "pct": "12.3%"
+      "count": 37,
+      "pct": "12.4%"
     },
     {
       "score": 8,
       "count": 90,
-      "pct": "30.8%"
+      "pct": "30.2%"
     },
     {
       "score": 7,
-      "count": 27,
-      "pct": "9.2%"
+      "count": 28,
+      "pct": "9.4%"
     },
     {
       "score": 6,
-      "count": 26,
-      "pct": "8.9%"
+      "count": 27,
+      "pct": "9.1%"
     },
     {
       "score": 5,
-      "count": 7,
-      "pct": "2.4%"
+      "count": 8,
+      "pct": "2.7%"
     },
     {
       "score": 4,
@@ -111,6 +111,84 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "Le côté pratique  a côté de l aeroport avec 1 arrivée  le soir  et la navette gratuite",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Camou"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Wai"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "空港迄のバスがある事",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kumi"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-20",
+      "comment": "2人で一泊14620円と安かったので予約しましたが、部屋がとても綺麗なのとチェックアウトが11時までなのがとてもありがたかったです。この価格なのがびっくりです。 もし、欲を言うなら、お金がかかってもいいのでアーリーチェックインができるようになると嬉しいなぐらいです。",
+      "good": "",
+      "bad": "",
+      "translated": "2人で一泊14620円と安かったので予約しましたが、部屋がとても綺麗なのとチェックアウトが11時までなのがとてもありがたかったです。この価格なのがびっくりです。 もし、欲を言うなら、お金がかかってもいいのでアーリーチェックインができるようになると嬉しいなぐらいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "すきやのぎうどん"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "The hotel shuttle, which departed at 4:45 am, was very convenient in helping us make it to Haneda for our early morning flight. We didn't have a chance to eat at the hotel but my daughter really enjoyed reading several of the manga that we were able to borrow for free from the lobby.",
+      "bad": "The shuttle could only take 20 people to the airport and we didn't know that people were lining up so early. Out of the 20 that could ride, my daughter and I were number 18 and 19 and we felt very fortunate that we made it. If we would have needed to wait one hour for the next shuttle, we would have missed our flight.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "シャトルバスは空港まで20人しか乗せられず、こんなに早くから人が並んでいるとは知りませんでした。乗車できる20人のうち、娘と私は18番目と19番目で、なんとか間に合って本当に幸運でした。もし次のシャトルバスを1時間待たなければならなかったら、飛行機に乗り遅れていたでしょう。",
+      "reviewer": "Jamie"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Glen"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -964,7 +1042,7 @@
       "comment": "地理位置方便，距離地鐵站，去羽田機場方便。自己辦理入住，衹要按照步驟操作，很方便。房間雖然小，短期出行完全足夠。 有免費巴士，不過我們沒有入住  酒店附近有烤肉店，建議不吃自助餐，點餐更好。",
       "good": "",
       "bad": "",
-      "translated": "立地は便利で、地下鉄の駅に近く、羽田空港へのアクセスも容易です。チェックインも手順通りに進めるだけでとても簡単でした。部屋は狭いですが、短期滞在には十分です。無料のシャトルバスがありますが、利用しませんでした。ホテルの近くには焼肉店がいくつかあるので、ビュッフェではなくアラカルトで注文することをおすすめします。",
+      "translated": "立地は便利で、地下鉄の駅に近く、羽田空港へのアクセスも容易です。チェックインはセルフサービスで、手順に従うだけでとても簡単でした。部屋は小さいですが、短期滞在には十分です。無料のシャトルバスがありますが、利用しませんでした。ホテルの近くには焼肉店がいくつかあるので、ビュッフェではなくアラカルトで注文することをお勧めします。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1343,7 +1421,7 @@
       "bad": "Der Shuttlebus zum Flughafen Haneda fährt leider nur 1x pro Stunde und zu Stoßzeiten kann es leicht vorkommen, dass man keinen Platz mehr bekommt.  Außerdem fährt er nur morgens und abends. Wer außerhalb der Zeiten ankommt, muss die Bahn nehmen (Keikyu Line, vier Stationen bis Bahnhof Otorii für 313yen).",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保しやすいものの、運行時間は朝と夕方のみです。それ以外の時間帯に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
+      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保するのも容易です。また、運行時間は朝と夕方のみです。これらの時間帯以外に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
       "reviewer": "Thomas"
     },
     {
@@ -1395,7 +1473,7 @@
       "bad": "I searched for Hen na hotel and got another one close to the other airport so I had to take train 1 hour each way. That is not Your foult but mine. I should have understood that it was a chain, but with a such odd name I did not believe it.   Robot checking in is not so nice. You have good locking girls in Japan.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女の子がたくさんいますね。",
+      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女性がたくさんいますね。",
       "reviewer": "Sundberg"
     },
     {
@@ -3228,7 +3306,7 @@
       "bad": "The shuttle service from the airport was a joke. It doesn’t show the shuttle doesn’t run until after 7.30pm at night anywhere that I could see on the website. I was forced to put my global roaming on my phone and get a Japanese stranger to ring the hotel for me to be told the shuttle wasn’t running upon my arrival at terminal 3 at Haneda Airport. I was then forced to seek out English speaking people at the train station and get advice on which train to get and where to get off to access your hotel. The shuttle the next morning at 4.45am was over full and I was lucky to get the last seat back to the airport. Very unsatisfactory. I also tried contacting room service for a wake up call with no result.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるのかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満員で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
+      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満席で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
       "reviewer": "Chris"
     },
     {

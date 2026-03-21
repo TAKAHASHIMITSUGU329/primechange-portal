@@ -1,12 +1,12 @@
 {
-  "total_reviews": 117,
-  "overall_avg_10pt": 8.96,
-  "high_count": 100,
-  "high_rate": 85.5,
-  "mid_count": 12,
-  "mid_rate": 10.3,
-  "low_count": 5,
-  "low_rate": 4.3,
+  "total_reviews": 119,
+  "overall_avg_10pt": 8.94,
+  "high_count": 102,
+  "high_rate": 85.7,
+  "mid_count": 11,
+  "mid_rate": 9.2,
+  "low_count": 6,
+  "low_rate": 5.0,
   "site_stats": [
     {
       "site": "Agoda",
@@ -28,29 +28,20 @@
     },
     {
       "site": "Trip.com",
-      "count": 27,
-      "native_avg": 9.81,
+      "count": 28,
+      "native_avg": 9.89,
       "scale": "/10",
-      "avg_10pt": 9.81,
+      "avg_10pt": 9.89,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 61,
-      "native_avg": 8.84,
+      "count": 62,
+      "native_avg": 8.89,
       "scale": "/10",
-      "avg_10pt": 8.84,
+      "avg_10pt": 8.89,
       "median_10pt": 9.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 25,
-      "native_avg": 4.12,
-      "scale": "/5",
-      "avg_10pt": 8.24,
-      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
@@ -61,38 +52,47 @@
       "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "良好"
+    },
+    {
+      "site": "Google",
+      "count": 25,
+      "native_avg": 3.96,
+      "scale": "/5",
+      "avg_10pt": 7.92,
+      "median_10pt": 10.0,
+      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 69,
-      "pct": "59.0%"
+      "count": 71,
+      "pct": "59.7%"
     },
     {
       "score": 9,
       "count": 17,
-      "pct": "14.5%"
+      "pct": "14.3%"
     },
     {
       "score": 8,
       "count": 14,
-      "pct": "12.0%"
+      "pct": "11.8%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "6.0%"
+      "pct": "5.9%"
     },
     {
       "score": 6,
-      "count": 4,
-      "pct": "3.4%"
+      "count": 3,
+      "pct": "2.5%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "0.9%"
+      "pct": "0.8%"
     },
     {
       "score": 4,
@@ -102,15 +102,93 @@
     {
       "score": 3,
       "count": 1,
-      "pct": "0.9%"
+      "pct": "0.8%"
     },
     {
       "score": 2,
-      "count": 2,
-      "pct": "1.7%"
+      "count": 3,
+      "pct": "2.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Sasha"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-20",
+      "comment": "Room was clear, with a wide bed and near to the subway. Hotel employees were kind and polite.",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は清潔で、ベッドも広く、地下鉄の駅にも近かった。ホテルの従業員は親切で礼儀正しかった。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Birte"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Chantel"
+    },
+    {
+      "site": "Google",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-03-20",
+      "comment": "「朝から気分を台無しにされた。サービスは最悪」  数日間滞在しましたが、残念ながら非常に不快な印象を受けました。立地の良さも台無しです。  一番の問題は、スタッフの全くの無関心です。誕生日に合わせて旅行したので、せめて少しでも気遣い（チェックイン時の挨拶、ポストカード、ちょっとした気遣いなど、普通のホテルならよくあることです）を期待してこのホテルを選びました。ところが、受付スタッフはまるで耳が聞こえないかのように、全く反応を示しませんでした。何の気遣いも、笑顔も、「お誕生日おめでとう」という言葉もありませんでした。チェックインの際、彼らは私の生年月日が記載されたパスポートを手に持っていたにもかかわらずです。",
+      "good": "",
+      "bad": "",
+      "translated": "「朝から気分を台無しにされた。サービスは最悪」  数日間滞在しましたが、残念ながら非常に不快な印象を受けました。立地の良さも台無しです。  一番の問題は、スタッフの全くの無関心です。誕生日に合わせて旅行したので、せめて少しでも気遣い（チェックイン時の挨拶、ポストカード、ちょっとした気遣いなど、普通のホテルならよくあることです）を期待してこのホテルを選びました。ところが、受付スタッフはまるで耳が聞こえないかのように、全く反応を示しませんでした。何の気遣いも、笑顔も、「お誕生日おめでとう」という言葉もありませんでした。チェックインの際、彼らは私の生年月日が記載されたパスポートを手に持っていたにもかかわらずです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ирина Лазарева"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-20",
+      "comment": "Everything was perfect from check-in to checkout. We felt very welcome and cared and didn't miss a thing.",
+      "good": "",
+      "bad": "",
+      "translated": "チェックインからチェックアウトまで、すべてが完璧でした。温かく迎えられ、細やかな気配りを感じ、何一つ不自由を感じませんでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -327,7 +405,7 @@
       "comment": "Самый лучший отель за все время пребывания в Японии! Довольно просторный номер, где есть все самое необходимое (холодильник, сейф, фен, обогреватель, чайник, вайфай и тд). Ремонт свежий, очень чисто как в номере, так и во всем отеле. На первом этаже большая зона для отдыха с библиотекой и бесплатными напитками. Работники замечательные, отзывчивые люди, которые добродушно помогут с любой возникшей проблемой. Спасибо Вам за это большое! Расположение удобное — в самом центре, в пешей доступности разные станции метро, большое количество комбини и очень бюджетная круглосуточная прачечная!",
       "good": "",
       "bad": "",
-      "translated": "日本で泊まったホテルの中で最高でした！部屋はとても広々としていて、必要なものはすべて揃っています（冷蔵庫、金庫、ヘアドライヤー、ヒーター、電気ケトル、Wi-Fiなど）。改装されたばかりで、部屋もホテル全体もとても清潔です。1階には、ライブラリーと無料のドリンクが楽しめる広いラウンジエリアがあります。スタッフは素晴らしく、親切で、どんな問題にも快く対応してくれます。本当にありがとうございました！立地も便利で、中心部に位置し、様々な地下鉄駅、数多くのコンビニエンスストア、そして非常にリーズナブルな24時間営業のランドリーサービスまで徒歩圏内です！",
+      "translated": "日本で泊まったホテルの中で最高でした！部屋はとても広々としていて、必要なものはすべて揃っています（冷蔵庫、金庫、ヘアドライヤー、ヒーター、電気ケトル、Wi-Fiなど）。改装されたばかりで、部屋もホテル全体もとても清潔です。1階には、ライブラリーと無料のドリンクが楽しめる広いラウンジエリアがあります。スタッフは素晴らしく親切で、どんな問題にも快く対応してくれます。本当にありがとうございました！立地も便利で、中心部に位置し、様々な地下鉄駅、数多くのコンビニエンスストア、そして非常にリーズナブルな24時間営業のランドリーサービスまで徒歩圏内です！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -665,7 +743,7 @@
       "comment": "地理位置非常好，附近車站多，去哪都方便. 室內不大但是設施齊全，該有的東西都有 工作人員服務態度特別好，前台也備有翻譯器 也可以嘗試一下自助早餐，東西不多但勝在好吃",
       "good": "",
       "bad": "",
-      "translated": "立地は抜群で、近くにバス停がたくさんあるので移動に便利です。室内は広くはありませんが、必要なものはすべて揃っています。スタッフは非常にフレンドリーで、フロントには通訳もいます。ビュッフェスタイルの朝食もおすすめです。種類は多くはありませんが、とても美味しいです。",
+      "translated": "立地は抜群で、近くに駅が多数あるため、移動に非常に便利です。室内は広くはありませんが、必要なものはすべて揃っています。スタッフは非常に親切で、フロントには通訳もいます。ビュッフェスタイルの朝食もおすすめです。種類は多くはありませんが、とても美味しいです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -678,7 +756,7 @@
       "comment": "도쿄 JR 아키아바라 역과 약 15분 거리라서 조금 먼 느낌이 있지만 주택가에 있어서 매우 조용합니다. 숙소 공간은 일본 치고는 상당히 넓은 편이고 깨끗합니다. 조용한 숙소 원하시면 강추입니다",
       "good": "",
       "bad": "",
-      "translated": "東京JR秋葉原駅から約15分の距離なので少し遠い感じがありますが、住宅街にとってとても静かです。宿泊スペースは日本の打撃はかなり広く、清潔です。静かな宿泊施設が欲しいならば、",
+      "translated": "東京JR秋葉原駅から約15分の距離なので少し遠い感じがありますが、住宅街にとってとても静かです。宿泊スペースは日本の打撃はかなり広く、清潔です。静かな宿泊施設が欲しいなら",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "용‍돌‍님"
@@ -782,7 +860,7 @@
       "comment": "Stayed 2 weeks at this hotel. Amazing room! Politefull and helpfull personel. Really good and diverse breakfast. The breakfastroom is jused till 0000 for drinks and snacks so a nice place to remeber your day and getting to kniw other travelers! If you stay in tokyo i would recommend this hotel to everyone! 3 metrostations 5 a 10 minute walk and you can to everywhere from there!!  Thankyou staff of comfort hotel for making our stay so perfect!",
       "good": "",
       "bad": "",
-      "translated": "このホテルに2週間滞在しました。素晴らしいお部屋でした！スタッフは礼儀正しく親切でした。朝食は本当に美味しくて種類も豊富でした。朝食ルームは0時までドリンクや軽食を提供する専用スペースなので、一日を振り返り、他の旅行者と知り合うのに最適な場所です！東京に滞在するなら、このホテルを皆さんにおすすめします！地下鉄3駅まで徒歩10分で、どこへでも行けます！快適なホテルのスタッフの皆様、滞在を完璧にしていただきありがとうございました！",
+      "translated": "このホテルに2週間滞在しました。素晴らしいお部屋でした！スタッフは礼儀正しく親切でした。朝食は本当に美味しく、種類も豊富でした。朝食ルームは0時までドリンクや軽食を提供する専用スペースなので、一日を振り返り、他の旅行者と知り合うのに最適な場所です！東京に滞在するなら、このホテルをぜひお勧めします！地下鉄3駅まで徒歩10分で、どこへでも行けます！快適なホテルのスタッフの皆様、滞在を完璧にしていただきありがとうございました！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Christian Coolen"
@@ -825,58 +903,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "佐藤風雅"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "KOUJI MINO"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Zhenwang"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-01",
-      "comment": "",
-      "good": "Very clean, close to metro station.",
-      "bad": "The location was a little strange, as we have to walk for more than 7 minutes to any nearby restaurants or convenience stores. Very quite suburb though.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "立地は少し変わっていて、近くのレストランやコンビニエンスストアに行くには7分以上歩かなければなりませんでした。とはいえ、とても静かな郊外でした。",
-      "reviewer": "Chunlin"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-01",
-      "comment": "房間大小適中，一樓的咖啡不錯",
-      "good": "",
-      "bad": "",
-      "translated": "部屋はちょうど良い広さで、1階のコーヒーショップのコーヒーも美味しかった。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
     },
     {
       "site": "Booking.com",
@@ -1109,7 +1135,7 @@
       "bad": "Toda inquietud que tuvimos fue mal recibida. Nadie habla bien inglés, por lo que, en caso de algún problema, no entienden. Demasiada gente y valijas siempre en el lobby. El desayuno muy incompleto.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "私たちが抱えるあらゆる懸念は、ことごとく否定的に受け止められました。英語を流暢に話せる人は誰もいないため、何か問題があっても理解してもらえません。ロビーは常に人でごった返し、荷物も山積みです。朝食の種類も非常に限られています。",
+      "translated_bad": "私たちが抱える懸念はすべて否定的に受け止められました。英語を流暢に話せる人は誰もいないので、何か問題があっても理解してもらえません。ロビーはいつも人でごった返していて、荷物も山積みです。朝食の種類も非常に限られています。",
       "reviewer": "Cecilia"
     },
     {
@@ -1432,7 +1458,7 @@
       "comment": "房間很舒適，細節很到位，空間也還比較的大，出行比較方便，我覺得下次來東京，我可能還會考慮這些酒店服務也很温暖",
       "good": "",
       "bad": "",
-      "translated": "部屋はとても快適で、細部まで行き届いた配慮が感じられ、広さも十分でした。移動にも大変便利でした。次回東京に来る際も、ぜひこのホテルに泊まりたいと思います。サービスもとても温かく、気持ちの良いものでした。",
+      "translated": "部屋はとても快適で、細部まで行き届いた配慮が感じられ、広さも十分でした。移動にも大変便利でした。次回東京に来る際も、ぜひこのホテルに泊まりたいと思います。ホテルのサービスもとても温かく、気持ちの良いものでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "F‍e‍n‍g‍z‍h‍o‍n‍g‍x‍i‍a‍o‍s‍a‍n‍s‍h‍a‍o"
