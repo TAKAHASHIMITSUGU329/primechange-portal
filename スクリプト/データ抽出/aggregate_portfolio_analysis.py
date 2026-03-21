@@ -8,6 +8,7 @@ import os
 import re
 import sys
 from collections import defaultdict
+from datetime import date
 
 # ===== Configuration =====
 
@@ -634,7 +635,7 @@ def main():
         'report_metadata': {
             'title': 'PRIMECHANGE ホテル清掃戦略レポート',
             'subtitle': 'ゲスト口コミデータに基づく清掃品質改善提案書',
-            'date': '2026年3月11日',
+            'date': date.today().strftime('%Y年%-m月%-d日'),
             'analysis_period': '2025年12月〜2026年3月',
             'total_hotels': len(hotels),
             'total_reviews': total_reviews,
