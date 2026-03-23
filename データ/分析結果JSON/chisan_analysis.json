@@ -1,29 +1,29 @@
 {
-  "total_reviews": 70,
-  "overall_avg_10pt": 7.11,
-  "high_count": 41,
-  "high_rate": 58.6,
-  "mid_count": 16,
-  "mid_rate": 22.9,
-  "low_count": 13,
-  "low_rate": 18.6,
+  "total_reviews": 75,
+  "overall_avg_10pt": 7.08,
+  "high_count": 43,
+  "high_rate": 57.3,
+  "mid_count": 18,
+  "mid_rate": 24.0,
+  "low_count": 14,
+  "low_rate": 18.7,
   "site_stats": [
     {
       "site": "Agoda",
-      "count": 11,
-      "native_avg": 8.73,
+      "count": 12,
+      "native_avg": 8.67,
       "scale": "/10",
-      "avg_10pt": 8.73,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.67,
+      "median_10pt": 8.5,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 3,
+      "count": 4,
       "native_avg": 7.0,
       "scale": "/10",
       "avg_10pt": 7.0,
-      "median_10pt": 8.0,
+      "median_10pt": 7.5,
       "judgment": "概ね良好"
     },
     {
@@ -37,19 +37,19 @@
     },
     {
       "site": "じゃらん",
-      "count": 8,
-      "native_avg": 3.5,
+      "count": 9,
+      "native_avg": 3.44,
       "scale": "/5",
-      "avg_10pt": 7.0,
-      "median_10pt": 7.0,
-      "judgment": "概ね良好"
+      "avg_10pt": 6.89,
+      "median_10pt": 6.0,
+      "judgment": "要改善"
     },
     {
       "site": "Google",
-      "count": 17,
-      "native_avg": 3.41,
+      "count": 19,
+      "native_avg": 3.37,
       "scale": "/5",
-      "avg_10pt": 6.82,
+      "avg_10pt": 6.74,
       "median_10pt": 8.0,
       "judgment": "要改善"
     },
@@ -67,45 +67,110 @@
     {
       "score": 10,
       "count": 15,
-      "pct": "21.4%"
+      "pct": "20.0%"
     },
     {
       "score": 9,
       "count": 2,
-      "pct": "2.9%"
+      "pct": "2.7%"
     },
     {
       "score": 8,
-      "count": 24,
-      "pct": "34.3%"
+      "count": 26,
+      "pct": "34.7%"
     },
     {
       "score": 7,
-      "count": 1,
-      "pct": "1.4%"
+      "count": 2,
+      "pct": "2.7%"
     },
     {
       "score": 6,
-      "count": 14,
+      "count": 15,
       "pct": "20.0%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "1.4%"
+      "pct": "1.3%"
     },
     {
       "score": 4,
-      "count": 8,
-      "pct": "11.4%"
+      "count": 9,
+      "pct": "12.0%"
     },
     {
       "score": 2,
       "count": 5,
-      "pct": "7.1%"
+      "pct": "6.7%"
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-03-22",
+      "comment": "近くにイオンのスーパーがあり便利",
+      "good": "",
+      "bad": "",
+      "translated": "近くにイオンのスーパーがあり便利",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hiroyuki T (hirot)"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-22",
+      "comment": "立地がとてもよくあらゆる方面に移動がものすごい楽！歩いてもよしJRでもよし。近くの中華もリーズナブルで美味しかった。",
+      "good": "",
+      "bad": "",
+      "translated": "立地がとてもよくあらゆる方面に移動がものすごい楽！歩いてもよしJRでもよし。近くの中華もリーズナブルで美味しかった。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "アロマさん"
+    },
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-22",
+      "comment": "父（78）私（48）息子（21）の3世代でおそらく最初で最後の家族旅行をしました｡ 駅からも近く立地よく、サービスも充実しておりました｡ 選んでよかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "父（78）私（48）息子（21）の3世代でおそらく最初で最後の家族旅行をしました｡ 駅からも近く立地よく、サービスも充実しておりました｡ 選んでよかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "miho"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "スタッフの対応が良かったです。 朝ごはんは美味しかったですが、メインのタンパク質が少ない気がした。 もっとハンバーグとか欲しかったです。",
+      "bad": "電車の音が気になり、眠れませんでした。 トイレの換気扇が効いてない感じでした。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "電車の音が気になり、眠れませんでした。 トイレの換気扇が効いてない感じでした。",
+      "reviewer": "Yoshitake"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-21",
+      "comment": "ホテルや客室内は綺麗に保たれています。 線路沿線なので、騒音が苦手な方は耳栓が必要かもしれませんが、窓にふすまが付いており、ふすまを閉めれば、私は気にならなくなりました。 最上階でしたが、特に素敵な夜景が望めるわけではありませんでした。 近くの三田駅まで徒歩8分程度、近くのコンビニも深夜帯は閉まっているので徒歩7分程度かかるので、ホテルにチェックインする前や手先から戻る前にコンビニに寄っていた方が無難です。 各階にドリンクの自販機があり便利でした。 朝食は、期待しない方が良いですね😅 食べられるだけ有難いと思ってください。",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルや客室内は綺麗に保たれています。 線路沿線なので、騒音が苦手な方は耳栓が必要かもしれませんが、窓にふすまが付いており、ふすまを閉めれば、私は気にならなくなりました。 最上階でしたが、特に素敵な夜景が望めるわけではありませんでした。 近くの三田駅まで徒歩8分程度、近くのコンビニも深夜帯は閉まっているので徒歩7分程度かかるので、ホテルにチェックインする前や手先から戻る前にコンビニに寄っていた方が無難です。 各階にドリンクの自販機があり便利でした。 朝食は、期待しない方が良いですね😅 食べられるだけ有難いと思ってください。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "YUTAKA SEIMORI (Say-chance)"
+    },
     {
       "site": "楽天トラベル",
       "rating": 3.0,

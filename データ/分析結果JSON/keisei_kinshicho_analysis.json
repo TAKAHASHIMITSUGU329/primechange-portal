@@ -1,37 +1,37 @@
 {
-  "total_reviews": 122,
-  "overall_avg_10pt": 9.05,
-  "high_count": 108,
-  "high_rate": 88.5,
+  "total_reviews": 127,
+  "overall_avg_10pt": 9.06,
+  "high_count": 113,
+  "high_rate": 89.0,
   "mid_count": 13,
-  "mid_rate": 10.7,
+  "mid_rate": 10.2,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 47,
-      "native_avg": 9.55,
+      "count": 52,
+      "native_avg": 9.52,
       "scale": "/10",
-      "avg_10pt": 9.55,
+      "avg_10pt": 9.52,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 22,
-      "native_avg": 4.5,
+      "count": 21,
+      "native_avg": 4.48,
       "scale": "/5",
-      "avg_10pt": 9.0,
+      "avg_10pt": 8.95,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 50,
-      "native_avg": 8.66,
+      "count": 51,
+      "native_avg": 8.69,
       "scale": "/10",
-      "avg_10pt": 8.66,
+      "avg_10pt": 8.69,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -48,28 +48,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 66,
-      "pct": "54.1%"
+      "count": 68,
+      "pct": "53.5%"
     },
     {
       "score": 9,
-      "count": 23,
-      "pct": "18.9%"
+      "count": 25,
+      "pct": "19.7%"
     },
     {
       "score": 8,
-      "count": 19,
-      "pct": "15.6%"
+      "count": 20,
+      "pct": "15.7%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "4.1%"
+      "pct": "3.9%"
     },
     {
       "score": 6,
       "count": 6,
-      "pct": "4.9%"
+      "pct": "4.7%"
     },
     {
       "score": 5,
@@ -83,6 +83,84 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-22",
+      "comment": "This area is less crowded, with a couple of malls nearby like Parco and Termina, so food and basic amenities are easily accessible. I really like that the room and bathroom are more spacious than usual. I could fully open my two large suitcases and still have space to move around. There’s also a humidifier in the room, which helps a lot with the dry air. We book a 2 single bed room and it fits perfectly for us and 1 kid. The 2 bed were combined with much space for all.",
+      "good": "",
+      "bad": "",
+      "translated": "このエリアは比較的混雑しておらず、近くにはパルコやテルミナなどのショッピングモールがいくつかあるので、食事や基本的なアメニティは簡単に手に入ります。部屋とバスルームが通常よりも広々としているのがとても気に入りました。大きなスーツケースを2つ完全に開いても、まだ動き回るスペースがありました。部屋には加湿器もあり、乾燥した空気を和らげるのにとても役立ちました。シングルベッド2台の部屋を予約しましたが、私たちと子供1人にはちょうど良い広さでした。2つのベッドはくっついていて、全員がゆったりと過ごせる十分なスペースがありました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "O‍w‍s‍ ‍O‍w‍l‍s"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "The staff here was amazing. Very accommodating and helpful. As foreigners, it was very scary to come and try to communicate but they were very friendly amd answered every question. I highly recommend this place.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Celia"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "駅やショッピングエリアからはまだ少し距離があります。",
+      "good": "",
+      "bad": "",
+      "translated": "駅やショッピングエリアからはまだ少し距離があります。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Aj KouNaMi"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-22",
+      "comment": "位置方便，酒店距離車站8-10分鐘路程，附近有商場，以及GU、Uniqlo、無印，可以在附近購物，而且不需要走很遠路就可以回酒店，亦有24小時超市",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは駅から徒歩8～10分と便利な場所に位置しています。GU、ユニクロ、無印良品などのショッピングモールが近くにあり、ホテルまで遠くまで歩かなくても気軽に買い物を楽しめます。24時間営業のスーパーマーケットも利用可能です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "A‍n‍n‍(‍*‍¯‍︶‍¯‍*‍)"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-21",
+      "comment": "酒店地理位置優越，附近很多美食，例如鳥貴族。便利店和商場也在5分鐘步行範圍內。5-7分鐘可行到JR站",
+      "good": "",
+      "bad": "",
+      "translated": "このホテルは絶好のロケーションを誇り、近隣にはバードネストをはじめとする数多くのレストランがあります。コンビニエンスストアやショッピングモールも徒歩5分圏内です。JR駅までは徒歩5～7分です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "附近有小鋼珠店跟燒肉店，百貨公司，超方便的！只是晚一點路上吃完燒肉喝醉的人比較多，但整體來說非常好！",
+      "good": "",
+      "bad": "",
+      "translated": "近くにはパチンコ店や焼肉店、デパートなどがあり、とても便利です！ただ、夕方になると路上で焼肉を食べている酔っ払いが結構多いのが難点ですが、全体的には素晴らしい場所です！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -150,6 +228,19 @@
     },
     {
       "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-19",
+      "comment": "離地鐵站非常近，樓下化粧品自助，面膜自助非常棒，周邊吃，買都很方便",
+      "good": "",
+      "bad": "",
+      "translated": "地下鉄の駅からとても近く、階下には便利なセルフサービスの化粧品とフェイスマスクのコーナーがあります。食事や買い物にも便利な場所が近くにあります。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-03-18",
@@ -169,7 +260,7 @@
       "comment": "Wir waren sehr zufrieden 😃 Alles 👍. Kann ich nur weiterempfehlen",
       "good": "",
       "bad": "",
-      "translated": "とても満足しました😃 全てが素晴らしかったです👍。ぜひお勧めします。",
+      "translated": "とても満足しました😃 全てが素晴らしかったです👍。強くお勧めします。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -338,7 +429,7 @@
       "comment": "房間很大，位置好又鄰近地鐵和jr線，不用擔心轉乘問題，值得推薦住的飯店",
       "good": "",
       "bad": "",
-      "translated": "部屋は広々としていて、立地も素晴らしく、地下鉄とJR線に近かったので、乗り換えの心配は全くありませんでした。非常におすすめのホテルです。",
+      "translated": "部屋は広々としていて、立地も素晴らしく、地下鉄とJR線に近かったので乗り換えの心配は全くありませんでした。非常におすすめのホテルです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -418,7 +509,7 @@
       "bad": "這次checking 的工作人員似乎有點不耐煩 是厭世臉的中年大叔 另外3/9早餐開放時間6:30 也晚了啦」好幾分才開放用餐 這對我們七點多就要離開的著實增加困擾",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては大変不便でした。",
+      "translated_bad": "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては非常に不便でした。",
       "reviewer": "Sulien"
     },
     {
@@ -773,32 +864,6 @@
       "reviewer": "Chingyun"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-01",
-      "comment": "この料金でこの宿は完璧です。夜勤の男性マネージャーを除いてスタッフはフレンドリーで、部屋も清潔で、立地も最高です（駅から6分）。 ただ、テレビ画面は埃が溜まるので、週に一度は拭いていただくようお願いしたいです。また、夜勤の男性マネージャーは、日本人の私とオーストラリア人の同伴者の両方に失礼な対応をしました。本当に残念です。 とても親切である必要はありませんが、失礼な対応は避けるべきです。 上記以外は、強くお勧めします。また泊まりたいです！",
-      "good": "",
-      "bad": "",
-      "translated": "この料金でこの宿は完璧です。夜勤の男性マネージャーを除いてスタッフはフレンドリーで、部屋も清潔で、立地も最高です（駅から6分）。 ただ、テレビ画面は埃が溜まるので、週に一度は拭いていただくようお願いしたいです。また、夜勤の男性マネージャーは、日本人の私とオーストラリア人の同伴者の両方に失礼な対応をしました。本当に残念です。 とても親切である必要はありませんが、失礼な対応は避けるべきです。 上記以外は、強くお勧めします。また泊まりたいです！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "YUICHI TAMURA"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-01",
-      "comment": "Everything's ok for that room rate, friendly staff except night male manager, clean room and the location (6 min from station). I just would like to suggest the hotel to wipe the TV screen once a week as it gets dusty. Also, the male night manager was rude to me Japanese and my travel partner Australian both, that's pity. It doesn't have to be extremely nice but cannot be rude. Other than the above, I strongly recommend and will repeat to stay!!",
-      "good": "",
-      "bad": "",
-      "translated": "宿泊料金に見合った、すべてにおいて満足です。夜間の男性マネージャー以外はスタッフもフレンドリーで、部屋も清潔で、立地も（駅から6分）良いです。ただ、テレビ画面が埃っぽくなるので、週に一度は拭いてほしいと思います。また、夜間の男性マネージャーは、日本人の私とオーストラリア人の旅行仲間両方に対して失礼な態度でした。これは残念です。特別親切である必要はありませんが、失礼な態度は許されません。上記以外は、このホテルを強くお勧めしますし、また泊まりたいと思います！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "YUICHI TAMURA"
-    },
-    {
       "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
@@ -884,7 +949,7 @@
       "comment": "\"Excellent service and friendly staff! The rooms are larger and cheaper than city-center hotels. Breakfast is good enough for a morning meal. While it’s a short walk from the station, the value for money is unbeatable—especially with the free bath salts and face masks provided. Definitely recommended!\"",
       "good": "",
       "bad": "",
-      "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分な量です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
+      "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分満足できる内容です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1419,7 +1484,7 @@
       "bad": "I booked 2 rooms, one room for 3 peoples, another room for 2 peoples, the front desk mixed up and gave me wrong room card.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "私は2部屋予約しました。1部屋は3人用、もう1部屋は2人用です。フロントの人が間違えて、間違ったルームカードを渡されました。",
+      "translated_bad": "私は2部屋予約しました。1部屋は3人用、もう1部屋は2人用です。しかし、フロントの担当者が間違えて、間違ったルームカードを渡されました。",
       "reviewer": "Amy"
     },
     {
@@ -1443,7 +1508,7 @@
       "comment": "酒店好方便，附近好多不同種類餐廳，而且很多商場逛逛，去東京站/淺草站/秋葉原都是10分鐘，晴空塔夜景好靚！",
       "good": "",
       "bad": "",
-      "translated": "ホテルは周辺に様々なレストランやショッピングモールが数多くあり、大変便利な立地です。東京駅、浅草駅、秋葉原へは徒歩わずか10分。東京スカイツリーの夜景は息を呑むほど美しいです！",
+      "translated": "ホテルは周辺に様々なレストランやショッピングモールが数多くあり、大変便利な立地です。東京駅、浅草駅、秋葉原へは徒歩わずか10分。東京スカイツリーからは美しい夜景が楽しめます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1560,7 +1625,7 @@
       "comment": "飯店回覆信件親切、迅速 性價比高 值得推薦加購早餐",
       "good": "",
       "bad": "",
-      "translated": "ホテルはメールへの返信が迅速かつ丁寧でした。料金に見合った価値があり、朝食付きプランをご希望の方には特におすすめです。",
+      "translated": "ホテルはメールへの返信が迅速かつ丁寧でした。料金に見合った価値があり、朝食付きのプランをご希望の方には特におすすめです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

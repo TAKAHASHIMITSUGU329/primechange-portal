@@ -1,12 +1,12 @@
 {
-  "total_reviews": 127,
-  "overall_avg_10pt": 8.55,
-  "high_count": 102,
-  "high_rate": 80.3,
-  "mid_count": 21,
-  "mid_rate": 16.5,
+  "total_reviews": 134,
+  "overall_avg_10pt": 8.53,
+  "high_count": 107,
+  "high_rate": 79.9,
+  "mid_count": 23,
+  "mid_rate": 17.2,
   "low_count": 4,
-  "low_rate": 3.1,
+  "low_rate": 3.0,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -20,19 +20,28 @@
     {
       "site": "Google",
       "count": 22,
-      "native_avg": 4.68,
+      "native_avg": 4.59,
       "scale": "/5",
-      "avg_10pt": 9.36,
+      "avg_10pt": 9.18,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 51,
+      "count": 53,
       "native_avg": 8.45,
       "scale": "/10",
       "avg_10pt": 8.45,
       "median_10pt": 9.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 21,
+      "native_avg": 4.1,
+      "scale": "/5",
+      "avg_10pt": 8.19,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
@@ -45,67 +54,162 @@
       "judgment": "良好"
     },
     {
-      "site": "楽天トラベル",
-      "count": 17,
-      "native_avg": 3.94,
-      "scale": "/5",
-      "avg_10pt": 7.88,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "Agoda",
-      "count": 8,
-      "native_avg": 6.88,
+      "count": 9,
+      "native_avg": 6.78,
       "scale": "/10",
-      "avg_10pt": 6.88,
-      "median_10pt": 6.5,
+      "avg_10pt": 6.78,
+      "median_10pt": 6.0,
       "judgment": "要改善"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 53,
-      "pct": "41.7%"
+      "count": 55,
+      "pct": "41.0%"
     },
     {
       "score": 9,
-      "count": 16,
-      "pct": "12.6%"
+      "count": 17,
+      "pct": "12.7%"
     },
     {
       "score": 8,
-      "count": 33,
-      "pct": "26.0%"
+      "count": 35,
+      "pct": "26.1%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "6.3%"
+      "pct": "6.0%"
     },
     {
       "score": 6,
-      "count": 12,
-      "pct": "9.4%"
+      "count": 14,
+      "pct": "10.4%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "0.8%"
+      "pct": "0.7%"
     },
     {
       "score": 4,
       "count": 3,
-      "pct": "2.4%"
+      "pct": "2.2%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "0.8%"
+      "pct": "0.7%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "Location",
+      "bad": "None",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "なし",
+      "reviewer": "Yifang"
+    },
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ひろもと"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "It is very conveniently located near the Keisei train station and is very clean and comfortable. The breakfast was very good with excellent coffee.   The staff were very friendly",
+      "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房のオプションはなかった。",
+      "reviewer": "Suzanne"
+    },
+    {
+      "site": "Agoda",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-21",
+      "comment": "エアコンが暖房しかなくて　つらかった 両方あれば　幸いでした(^_^;)",
+      "good": "",
+      "bad": "",
+      "translated": "エアコンが暖房しかなくて　つらかった 両方あれば　幸いでした(^_^;)",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "寿美子"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "受付時、とても親切なご案内でした。ありがとうございます。",
+      "good": "",
+      "bad": "",
+      "translated": "受付時、とても親切なご案内でした。ありがとうございます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "fisher1091"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "フロントの方の親切な対応。 朝食の豊富な種類。 朝食担当の従業員さんの子供に対する心使いに感動しました。 初めてコンフォートホテルを利用しましたが、リピート確定です！",
+      "good": "",
+      "bad": "",
+      "translated": "フロントの方の親切な対応。 朝食の豊富な種類。 朝食担当の従業員さんの子供に対する心使いに感動しました。 初めてコンフォートホテルを利用しましたが、リピート確定です！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "はるるにゃん"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "スタッフの皆さんが、明るく、丁寧にもてなしてくださり、朝食も素晴らしく、安心して滞在できました。ありがとうございました。",
+      "good": "",
+      "bad": "",
+      "translated": "スタッフの皆さんが、明るく、丁寧にもてなしてくださり、朝食も素晴らしく、安心して滞在できました。ありがとうございました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-21",
+      "comment": "機械でのチェックインでしたが、スタッフの方が丁寧な説明をしてくださいました。朝食も種類が豊富で満足しました。",
+      "good": "",
+      "bad": "",
+      "translated": "機械でのチェックインでしたが、スタッフの方が丁寧な説明をしてくださいました。朝食も種類が豊富で満足しました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "かず26661041"
+    },
     {
       "site": "楽天トラベル",
       "rating": 5.0,
@@ -296,7 +400,7 @@
       "comment": "I recently stayed at the Comfort Hotel Narita and had a fantastic experience. The location is incredibly convenient, making it an ideal choice for anyone traveling to or from the airport. What truly made my stay special was the wonderful staff. Every employee I encountered was exceptionally nice, polite, and went out of their way to be helpful. Their hospitality made me feel welcome from the moment I arrived. A few highlights of my stay:  Cleanliness: The room was spotless and well-maintained.  Comfort: The bed was very comfortable, ensuring a great night's sleep.  Amenities: I really appreciated the complimentary coffee and the delicious breakfast options provided.  Quiet Atmosphere: Despite being near transportation hubs, the room was very quiet.  Overall, this hotel offers excellent value for money. I highly recommend it to anyone looking for a stress-free and pleasant stay in Narita. I will definitely be back",
       "good": "",
       "bad": "",
-      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点は以下の通りです。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは大変ありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。総合的に見て、このホテルは価格以上の価値があります。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
+      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点をいくつか挙げます。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは本当にありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。全体的に見て、このホテルは価格以上の価値を提供しています。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "David Herz"
@@ -861,19 +965,6 @@
       "reviewer": "広ばぁばさん"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-01",
-      "comment": "2月16日のチェックアウト時に部屋の鍵が見当たりませんでした。その時フロントスタッフの方々のご対応に心より感謝申し上げます。",
-      "good": "",
-      "bad": "",
-      "translated": "2月16日のチェックアウト時に部屋の鍵が見当たりませんでした。その時フロントスタッフの方々のご対応に心より感謝申し上げます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Hsu T.C."
-    },
-    {
       "site": "じゃらん",
       "rating": 4.0,
       "rating_10pt": 8.0,
@@ -1219,7 +1310,7 @@
       "comment": "房間普通有點舊， 但位置算方便， 京成成由站旁邊！ 下車上天橋過對面站再落地下電梯便到， 酒店对面有2 间Lawson! 早餐惊喜新鲜菜汁其他一般正常早餐",
       "good": "",
       "bad": "",
-      "translated": "部屋は簡素で少し古かったけれど、京成西友駅のすぐ隣という便利な立地でした！電車を降りて陸橋を渡って駅の反対側へ行き、着いたらエスカレーターで降りるだけ。通りの向かいにはローソンホテルが2軒もあります！朝食は新鮮な野菜ジュースが出て嬉しい驚きでしたが、それ以外はごく普通でした。",
+      "translated": "部屋は簡素で少し古かったけれど、京成西友駅のすぐ隣という便利な立地でした！電車を降りて陸橋を渡り駅の反対側へ行き、降りてエスカレーターに乗るだけ。通りの向かいにはローソンホテルが2軒もあります！朝食は新鮮な野菜ジュースが出て嬉しい驚きでしたが、それ以外はごく普通でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -1479,7 +1570,7 @@
       "comment": "不錯的飯店！環境乾淨，服務人員親切",
       "good": "",
       "bad": "",
-      "translated": "素敵なレストランでした！清潔な環境で、スタッフも親切でした。",
+      "translated": "素敵なレストランです！店内は清潔で、スタッフも親切です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

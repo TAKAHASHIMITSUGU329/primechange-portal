@@ -1,19 +1,28 @@
 {
-  "total_reviews": 51,
-  "overall_avg_10pt": 7.45,
-  "high_count": 33,
-  "high_rate": 64.7,
+  "total_reviews": 54,
+  "overall_avg_10pt": 7.43,
+  "high_count": 35,
+  "high_rate": 64.8,
   "mid_count": 13,
-  "mid_rate": 25.5,
-  "low_count": 5,
-  "low_rate": 9.8,
+  "mid_rate": 24.1,
+  "low_count": 6,
+  "low_rate": 11.1,
   "site_stats": [
     {
       "site": "Google",
-      "count": 16,
+      "count": 17,
       "native_avg": 3.94,
       "scale": "/5",
       "avg_10pt": 7.88,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 15,
+      "native_avg": 7.6,
+      "scale": "/10",
+      "avg_10pt": 7.6,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -27,24 +36,6 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "Booking.com",
-      "count": 14,
-      "native_avg": 7.43,
-      "scale": "/10",
-      "avg_10pt": 7.43,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
-      "site": "Agoda",
-      "count": 13,
-      "native_avg": 7.08,
-      "scale": "/10",
-      "avg_10pt": 7.08,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "楽天トラベル",
       "count": 4,
       "native_avg": 3.5,
@@ -52,51 +43,104 @@
       "avg_10pt": 7.0,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
+    },
+    {
+      "site": "Agoda",
+      "count": 14,
+      "native_avg": 6.79,
+      "scale": "/10",
+      "avg_10pt": 6.79,
+      "median_10pt": 7.5,
+      "judgment": "要改善"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 7,
-      "pct": "13.7%"
+      "count": 8,
+      "pct": "14.8%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "5.9%"
+      "pct": "5.6%"
     },
     {
       "score": 8,
-      "count": 23,
-      "pct": "45.1%"
+      "count": 24,
+      "pct": "44.4%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "7.8%"
+      "pct": "7.4%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "15.7%"
+      "pct": "14.8%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "2.0%"
+      "pct": "1.9%"
     },
     {
       "score": 4,
       "count": 4,
-      "pct": "7.8%"
+      "pct": "7.4%"
+    },
+    {
+      "score": 3,
+      "count": 1,
+      "pct": "1.9%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "2.0%"
+      "pct": "1.9%"
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "酒得"
+    },
+    {
+      "site": "Agoda",
+      "rating": 3.0,
+      "rating_10pt": 3.0,
+      "date": "2026-03-21",
+      "comment": "このホテルには化粧水も乳液もアフターシェーブローションもありません。 急な宿泊だったので、自分のは持って行けなかったのですが、今までのホテルは大概あったので、油断しました。",
+      "good": "",
+      "bad": "",
+      "translated": "このホテルには化粧水も乳液もアフターシェーブローションもありません。 急な宿泊だったので、自分のは持って行けなかったのですが、今までのホテルは大概あったので、油断しました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ATSUSHI"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Flavien"
+    },
     {
       "site": "Google",
       "rating": 4.0,

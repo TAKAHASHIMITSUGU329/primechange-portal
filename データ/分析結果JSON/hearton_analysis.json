@@ -1,46 +1,46 @@
 {
   "total_reviews": 139,
-  "overall_avg_10pt": 8.65,
-  "high_count": 119,
-  "high_rate": 85.6,
-  "mid_count": 19,
-  "mid_rate": 13.7,
+  "overall_avg_10pt": 8.69,
+  "high_count": 118,
+  "high_rate": 84.9,
+  "mid_count": 20,
+  "mid_rate": 14.4,
   "low_count": 1,
   "low_rate": 0.7,
   "site_stats": [
     {
       "site": "Trip.com",
       "count": 24,
-      "native_avg": 9.33,
+      "native_avg": 9.38,
       "scale": "/10",
-      "avg_10pt": 9.33,
+      "avg_10pt": 9.38,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
-      "count": 30,
-      "native_avg": 4.4,
+      "count": 33,
+      "native_avg": 4.39,
       "scale": "/5",
-      "avg_10pt": 8.8,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.79,
+      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 23,
-      "native_avg": 8.61,
+      "count": 21,
+      "native_avg": 8.67,
       "scale": "/10",
-      "avg_10pt": 8.61,
+      "avg_10pt": 8.67,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "じゃらん",
-      "count": 39,
-      "native_avg": 4.21,
+      "count": 38,
+      "native_avg": 4.24,
       "scale": "/5",
-      "avg_10pt": 8.41,
+      "avg_10pt": 8.47,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,18 +66,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 60,
-      "pct": "43.2%"
+      "count": 65,
+      "pct": "46.8%"
     },
     {
       "score": 9,
-      "count": 10,
-      "pct": "7.2%"
+      "count": 7,
+      "pct": "5.0%"
     },
     {
       "score": 8,
-      "count": 49,
-      "pct": "35.3%"
+      "count": 46,
+      "pct": "33.1%"
     },
     {
       "score": 7,
@@ -86,8 +86,8 @@
     },
     {
       "score": 6,
-      "count": 12,
-      "pct": "8.6%"
+      "count": 13,
+      "pct": "9.4%"
     },
     {
       "score": 5,
@@ -101,6 +101,149 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-22",
+      "comment": "割り箸をフロントでいただいて大変助かりました",
+      "good": "",
+      "bad": "",
+      "translated": "割り箸をフロントでいただいて大変助かりました",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "yamato391106"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "有明アリーナでのライブ後に利用しました。 乗り換えは面倒なのでりんかい線最寄駅の東雲駅まで徒歩（２０分位?）で向かい、品川シーサイド駅まで乗車。A出口からすぐホテルがあるのでとても助かりました。目の前にはイオンがあるので買い物も出来て、そのすぐ隣にあるオーバルガーデンにはコンビニが集結しているので夜遅くなっても安心して買い物が出来てとても利便性がいいなと思いました。ライブ前に荷物を預けに行くと感じの良いスタッフさんが対応してくれて、ついでにチェックインも済ませることが出来て全てがスムーズに済みました。そして部屋は１７階で窓からは綺麗な景色が堪能出来ました。個人的に洗面所にウォッシュタオルが置いてあったのが地味に嬉しかったです。機会があればまた是非利用したいです！",
+      "good": "",
+      "bad": "",
+      "translated": "有明アリーナでのライブ後に利用しました。 乗り換えは面倒なのでりんかい線最寄駅の東雲駅まで徒歩（２０分位?）で向かい、品川シーサイド駅まで乗車。A出口からすぐホテルがあるのでとても助かりました。目の前にはイオンがあるので買い物も出来て、そのすぐ隣にあるオーバルガーデンにはコンビニが集結しているので夜遅くなっても安心して買い物が出来てとても利便性がいいなと思いました。ライブ前に荷物を預けに行くと感じの良いスタッフさんが対応してくれて、ついでにチェックインも済ませることが出来て全てがスムーズに済みました。そして部屋は１７階で窓からは綺麗な景色が堪能出来ました。個人的に洗面所にウォッシュタオルが置いてあったのが地味に嬉しかったです。機会があればまた是非利用したいです！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ジョナジョナ"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Khin"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "駅近で、翌日羽田空港まで電車で行こうと思っていましたが、ダイヤが乱れていて、急遽シャトルバスに変更しました。バス停もすぐそばで楽でした。交通に選択肢があることは安心材料です。部屋も快適でした。",
+      "good": "",
+      "bad": "",
+      "translated": "駅近で、翌日羽田空港まで電車で行こうと思っていましたが、ダイヤが乱れていて、急遽シャトルバスに変更しました。バス停もすぐそばで楽でした。交通に選択肢があることは安心材料です。部屋も快適でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "あーどん8225"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "Affordable hotel stayed 6 nights room was small but worked well for 2 people staff speak English and very helpful laundry service in the basement . Drink vending machine , ice cream vending machine , currency exchange, smoke room .  train station across the street 2 min walk Aeon mall across the street as well lots of restaurant , family mart 7 eleven , fishing store . Great area to stay . Will definitely be back",
+      "good": "",
+      "bad": "",
+      "translated": "手頃な価格のホテルで6泊しました。部屋は小さかったですが、2人には十分でした。スタッフは英語を話し、とても親切でした。地下にはランドリーサービスがあります。飲み物の自動販売機、アイスクリームの自動販売機、両替所、喫煙室があります。通りの向かいには駅があり、徒歩2分です。イオンモールも通りの向かいにあり、レストラン、ファミリーマート、セブンイレブン、釣り具店などがたくさんあります。滞在するには最高のエリアです。必ずまた泊まりに来ます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-21",
+      "comment": "",
+      "good": "Very close to the train station and the mall across the road for convenience. We stayed the one night when we’d arrived in Japan and it was great. Can’t fault it. The facilities were as needed. No complaints",
+      "bad": "I wouldn’t stay more than a few nights as the room was quite small. It’s a great pit stop for when arriving into or exiting the country but I know I wouldn’t be comfortable for more than a night.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "部屋がかなり狭かったので、数泊以上は滞在しないでしょう。入国時や出国時の休憩には最適ですが、一泊以上は快適に過ごせないと思います。",
+      "reviewer": "Daisylyn"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "スタッフさんの接客がとても丁寧でした！近くに駅とイオンがあるので、利便性も良いかと思います！",
+      "good": "",
+      "bad": "",
+      "translated": "スタッフさんの接客がとても丁寧でした！近くに駅とイオンがあるので、利便性も良いかと思います！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "じゃこ天丼"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "Just right infront aeon",
+      "good": "",
+      "bad": "",
+      "translated": "イオンのすぐ目の前",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Agoda",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "りんかい線の駅を出たら目の前。 ただ近くにイオン以外ご飯を食べるとこがないから遅い時間はどこかで食べて帰ってきたほうがいいです。",
+      "good": "",
+      "bad": "",
+      "translated": "りんかい線の駅を出たら目の前。 ただ近くにイオン以外ご飯を食べるとこがないから遅い時間はどこかで食べて帰ってきたほうがいいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hiroko"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-21",
+      "comment": "直食がとても美味しかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "直食がとても美味しかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "きゅうらい"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-21",
+      "comment": "お部屋はきれいで、ベッドの寝心地が最高でした。朝食もビュッフェ式で和洋楽しめました。  ただ、バスルームの臭いが生乾きのような臭い（たぶんシャワーカーテンからです）がしたのと、お湯の調整が難しかったのが残念でした。  接客やお部屋、朝食はよかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "お部屋はきれいで、ベッドの寝心地が最高でした。朝食もビュッフェ式で和洋楽しめました。  ただ、バスルームの臭いが生乾きのような臭い（たぶんシャワーカーテンからです）がしたのと、お湯の調整が難しかったのが残念でした。  接客やお部屋、朝食はよかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "はやぶささん"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -152,6 +295,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "けんちゃん0830"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-20",
+      "comment": "友達とイベントに参加するのに宿泊しましたが、チェックイン前の荷物の預かりやチェックインする際などスタッフさんの対応がとても良かった。室内も清潔感があって快適に泊まれました。それからイベント参加する度に友達と何度もこちらを利用させてもらっています。駅の目の前だしイオンもすぐそばにあるので利便性も良いです。また利用させて頂きます！",
+      "good": "",
+      "bad": "",
+      "translated": "友達とイベントに参加するのに宿泊しましたが、チェックイン前の荷物の預かりやチェックインする際などスタッフさんの対応がとても良かった。室内も清潔感があって快適に泊まれました。それからイベント参加する度に友達と何度もこちらを利用させてもらっています。駅の目の前だしイオンもすぐそばにあるので利便性も良いです。また利用させて頂きます！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "黒にゃんこさん"
     },
     {
       "site": "楽天トラベル",
@@ -423,7 +579,7 @@
       "bad": "Not many amenities. The room had a humidity smell and was pretty worn out",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "アメニティはあまり多くありませんでした。部屋は湿気臭く、かなり老朽化していました。",
+      "translated_bad": "アメニティはあまり多くありませんでした。部屋は湿気臭がして、かなり老朽化していました。",
       "reviewer": "Tatiana"
     },
     {
@@ -694,7 +850,7 @@
       "comment": "방은 작지만 전시회 출장으로 위치가 적절하고 이온몰 뒤라 편함 비데 나이스",
       "good": "",
       "bad": "",
-      "translated": "部屋は小さいが展示会出張で位置が適切で、イオンモールの後ろに楽なビデナイス",
+      "translated": "部屋は小さいですが、展示会出張で位置が適切で、イオンモールの後ろで快適なビデナイス",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -857,162 +1013,6 @@
     },
     {
       "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-11",
-      "comment": "",
-      "good": "Posizione vicino a linea limousine bus per andare all'aeroporto di Haneda.",
-      "bad": "Posizione un po' distante dal centro.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "中心部から少し離れた場所にある。",
-      "reviewer": "Gae1988"
-    },
-    {
-      "site": "Agoda",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-11",
-      "comment": "チェックアウトが12時でゆっくりできるし、都心も近いので最高でした",
-      "good": "",
-      "bad": "",
-      "translated": "チェックアウトが12時でゆっくりできるし、都心も近いので最高でした",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kousuke"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-11",
-      "comment": "工作人員服務態度非常好，給了我一個頂樓的房間，衹是入住的那幾天天氣一般，風很大，即便關閉了窗還是會聽到大風的呼嘯聲，除此之外非常方便，附近有個永旺超市，購物交通都不錯",
-      "good": "",
-      "bad": "",
-      "translated": "スタッフはとても親切で、最上階の部屋を用意してくれました。ただ、滞在中の天気はあまり良くなく、風がとても強く、窓を閉めていても風の音が聞こえました。それ以外はとても便利で、近くにイオンのスーパーマーケットがあるので、買い物や交通の便も良かったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "M‍a‍i‍k‍e‍a‍d‍u"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-10",
-      "comment": "近くにイオンモールやコンビニなどあり、とても便利でした！",
-      "good": "",
-      "bad": "",
-      "translated": "近くにイオンモールやコンビニなどあり、とても便利でした！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "レイちゃん1976"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-10",
-      "comment": "",
-      "good": "きれい",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "川合"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-09",
-      "comment": "位於海鷗臨空線出口旁，如果要走到京急線大約15分鐘，房間就是一般的日本商務旅館，該有的都有，吃飯也方便，旁邊有個大AEON。 適合趕羽田的一早航班，或是出差活動範圍都在台場一帶的人。",
-      "good": "",
-      "bad": "",
-      "translated": "京急線加代川駅出口のすぐそばに位置し、京急線までは徒歩約15分です。客室は日本のビジネスホテルによくあるタイプで、必要なアメニティはすべて揃っています。食事の選択肢も豊富で、近くには大型のイオンもあります。羽田空港行きの早朝便を利用する方や、お台場エリアを中心に活動する出張に最適です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "d‍o‍o‍w‍o‍p"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-09",
-      "comment": "翌日　ディスニーランドの予定で、近くて良かったです",
-      "good": "",
-      "bad": "",
-      "translated": "翌日　ディスニーランドの予定で、近くて良かったです",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "八朗"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-09",
-      "comment": "",
-      "good": "フロントスタッフの方の対応の良さ。 施設内の清潔さ。",
-      "bad": "ありません。",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "ありません。",
-      "reviewer": "Nishi"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-09",
-      "comment": "ビックサイトのイベント参加の為、トリプルルームに2泊しました。駅近でとても良かったです。綺麗なビジネスホテルと言う感じでした。機会があればまた是非利用したいです。",
-      "good": "",
-      "bad": "",
-      "translated": "ビックサイトのイベント参加の為、トリプルルームに2泊しました。駅近でとても良かったです。綺麗なビジネスホテルと言う感じでした。機会があればまた是非利用したいです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "しぃさん"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-08",
-      "comment": "",
-      "good": "Вигляд з вікна був чудовий, є де прогулятись, станція метро зовсім поряд.",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Inna"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-08",
-      "comment": "こちらのホテルを初めて利用させて頂きました。部屋もキレイで良かったです。  朝食も種類豊富で沢山食べてしまいました。  また、機会があればお世話になりたいと思います。",
-      "good": "",
-      "bad": "",
-      "translated": "こちらのホテルを初めて利用させて頂きました。部屋もキレイで良かったです。  朝食も種類豊富で沢山食べてしまいました。  また、機会があればお世話になりたいと思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "花屋さんさん"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-08",
-      "comment": "ひとりで予約しましたが部屋も広くキャリーケースを広げるのも問題無しでした。  アメニティも充実していました",
-      "good": "",
-      "bad": "",
-      "translated": "ひとりで予約しましたが部屋も広くキャリーケースを広げるのも問題無しでした。  アメニティも充実していました",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "さちゃんさん"
-    },
-    {
-      "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-28",
@@ -1110,7 +1110,7 @@
       "comment": "酒店乾淨整潔，房內設施齊全配套，房間每日清潔服務規範周到。附近生活相當便利，很喜歡周邊的吃喝采購。地鐵就在樓外對面，交通便利。",
       "good": "",
       "bad": "",
-      "translated": "ホテルは清潔で整頓されており、客室には必要な設備がすべて揃っており、プロフェッショナルで丁寧な毎日のハウスキーピングサービスも提供されています。周辺環境も非常に便利で、近隣には飲食店やショッピングスポットがたくさんあり、とても楽しめました。地下鉄の駅が通りの向かい側にあるので、交通の便も抜群です。",
+      "translated": "ホテルは清潔で整頓されており、客室には必要な設備がすべて揃っており、毎日プロの清掃サービスが受けられます。周辺環境も非常に便利で、近隣には飲食店やショッピングスポットがたくさんあり、とても楽しめました。地下鉄の駅が通りの向かい側にあるので、交通の便も抜群です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1591,7 +1591,7 @@
       "comment": "Love everything in this hotel, this is view from my hotel direct to the river. The hotel location really near from train station just walk 2 minutes",
       "good": "",
       "bad": "",
-      "translated": "このホテルは全てが気に入りました。これは私のホテルから川が見える景色です。ホテルは駅からとても近く、徒歩わずか2分です。",
+      "translated": "このホテルの全てが気に入りました。これは私のホテルから川が見える景色です。ホテルは駅からとても近く、徒歩わずか2分です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"

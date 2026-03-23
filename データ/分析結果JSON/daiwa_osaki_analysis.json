@@ -1,10 +1,10 @@
 {
-  "total_reviews": 54,
-  "overall_avg_10pt": 8.87,
-  "high_count": 45,
-  "high_rate": 83.3,
-  "mid_count": 9,
-  "mid_rate": 16.7,
+  "total_reviews": 56,
+  "overall_avg_10pt": 8.84,
+  "high_count": 46,
+  "high_rate": 82.1,
+  "mid_count": 10,
+  "mid_rate": 17.9,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
@@ -28,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 22,
-      "native_avg": 8.91,
+      "count": 23,
+      "native_avg": 8.96,
       "scale": "/10",
-      "avg_10pt": 8.91,
+      "avg_10pt": 8.96,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -45,17 +45,17 @@
       "judgment": "良好"
     },
     {
-      "site": "じゃらん",
-      "count": 7,
-      "native_avg": 4.14,
+      "site": "Google",
+      "count": 6,
+      "native_avg": 4.0,
       "scale": "/5",
-      "avg_10pt": 8.29,
+      "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
-      "site": "Google",
-      "count": 6,
+      "site": "じゃらん",
+      "count": 8,
       "native_avg": 4.0,
       "scale": "/5",
       "avg_10pt": 8.0,
@@ -66,31 +66,57 @@
   "distribution": [
     {
       "score": 10,
-      "count": 26,
-      "pct": "48.1%"
+      "count": 27,
+      "pct": "48.2%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "14.8%"
+      "pct": "14.3%"
     },
     {
       "score": 8,
       "count": 11,
-      "pct": "20.4%"
+      "pct": "19.6%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "9.3%"
+      "pct": "8.9%"
     },
     {
       "score": 6,
-      "count": 4,
-      "pct": "7.4%"
+      "count": 5,
+      "pct": "8.9%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Sepiuta"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-19",
+      "comment": "部屋は広々としていますが、基本的な設備が不足しています。部屋にセーフティボックスがないため、旅行が不便でした。結局、貴重品は毎日フロントに預けなければなりませんでした。コットンボールなどの基本的なアメニティが用意されていないのは驚きです。それ以外は、部屋の広さと清潔さは気に入っています。フットマッサージ機が備え付けられているのは良かったです。夏に予定されている改装工事後のより良い部屋を楽しみにしています。",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は広々としていますが、基本的な設備が不足しています。部屋にセーフティボックスがないため、旅行が不便でした。結局、貴重品は毎日フロントに預けなければなりませんでした。コットンボールなどの基本的なアメニティが用意されていないのは驚きです。それ以外は、部屋の広さと清潔さは気に入っています。フットマッサージ機が備え付けられているのは良かったです。夏に予定されている改装工事後のより良い部屋を楽しみにしています。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kittyさん"
+    },
     {
       "site": "Booking.com",
       "rating": 7.0,
