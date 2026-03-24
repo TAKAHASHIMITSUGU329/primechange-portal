@@ -1,12 +1,12 @@
 {
-  "total_reviews": 121,
-  "overall_avg_10pt": 8.95,
-  "high_count": 104,
-  "high_rate": 86.0,
+  "total_reviews": 123,
+  "overall_avg_10pt": 8.92,
+  "high_count": 106,
+  "high_rate": 86.2,
   "mid_count": 11,
-  "mid_rate": 9.1,
+  "mid_rate": 8.9,
   "low_count": 6,
-  "low_rate": 5.0,
+  "low_rate": 4.9,
   "site_stats": [
     {
       "site": "Agoda",
@@ -37,7 +37,7 @@
     },
     {
       "site": "Booking.com",
-      "count": 63,
+      "count": 65,
       "native_avg": 8.92,
       "scale": "/10",
       "avg_10pt": 8.92,
@@ -46,7 +46,7 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 2,
+      "count": 3,
       "native_avg": 4.0,
       "scale": "/5",
       "avg_10pt": 8.0,
@@ -55,39 +55,39 @@
     },
     {
       "site": "Google",
-      "count": 25,
-      "native_avg": 3.96,
+      "count": 24,
+      "native_avg": 3.88,
       "scale": "/5",
-      "avg_10pt": 7.92,
-      "median_10pt": 10.0,
+      "avg_10pt": 7.75,
+      "median_10pt": 9.0,
       "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 73,
-      "pct": "60.3%"
+      "count": 72,
+      "pct": "58.5%"
     },
     {
       "score": 9,
       "count": 16,
-      "pct": "13.2%"
+      "pct": "13.0%"
     },
     {
       "score": 8,
-      "count": 15,
-      "pct": "12.4%"
+      "count": 18,
+      "pct": "14.6%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "5.8%"
+      "pct": "5.7%"
     },
     {
       "score": 6,
       "count": 3,
-      "pct": "2.5%"
+      "pct": "2.4%"
     },
     {
       "score": 5,
@@ -97,7 +97,7 @@
     {
       "score": 4,
       "count": 2,
-      "pct": "1.7%"
+      "pct": "1.6%"
     },
     {
       "score": 3,
@@ -107,10 +107,62 @@
     {
       "score": 2,
       "count": 3,
-      "pct": "2.5%"
+      "pct": "2.4%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "Tutto perfetto. Alla reception tutti i ragazzi gentili e disponibili. Grazie mille",
+      "bad": "-",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "-",
+      "reviewer": "Giosue"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "駅からのアクセスがよかったです。着いてすぐお菓子をいただいてコーヒー等を楽しめるところも良かったです。ツインの部屋でしたが、ちょうど良い広さでした。清掃も行き届いており、快適に過ごせました。",
+      "good": "",
+      "bad": "",
+      "translated": "駅からのアクセスがよかったです。着いてすぐお菓子をいただいてコーヒー等を楽しめるところも良かったです。ツインの部屋でしたが、ちょうど良い広さでした。清掃も行き届いており、快適に過ごせました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "こむぎ次郎"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "La cercanía a estaciones de tren, a sitios para comer, convis y otros.",
+      "bad": "La cama no es tan cómoda. Si eres occidental y estás acostumbrado a los hoteles como en Estados Unidos, esto puede ser particularmente difícil para ti. Los espacios son muy reducidos, mi pareja mide 1,85 y los pies se le salían de la cama.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ベッドはあまり快適ではありません。欧米人で、アメリカのホテルのような快適さに慣れている方にとっては、特に窮屈に感じるかもしれません。部屋は非常に狭く、私のパートナーは身長185cmですが、ベッドの端から足がはみ出していました。",
+      "reviewer": "Katerin"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "グリーンズの株主優待が利用できます。 秋葉原も近いです。 14時から17時までにチェックインすると人形焼が無料でもらえます🆓 ラウンジは広くウェルカムドリンクが飲み放題です🥤コンセントも充実しています🔌 ユニットバスは広いです。 モーニングも充実しています。パンケーキ自動製作機は面白いし美味しいです🥞",
+      "good": "",
+      "bad": "",
+      "translated": "グリーンズの株主優待が利用できます。 秋葉原も近いです。 14時から17時までにチェックインすると人形焼が無料でもらえます🆓 ラウンジは広くウェルカムドリンクが飲み放題です🥤コンセントも充実しています🔌 ユニットバスは広いです。 モーニングも充実しています。パンケーキ自動製作機は面白いし美味しいです🥞",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "優待太郎"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -431,7 +483,7 @@
       "comment": "This was my second visit to this hotel. And despite the constant flow of tourists, the staff manages to keep the service level at its best. Everything is just as good as the first time. Great job, guys!",
       "good": "",
       "bad": "",
-      "translated": "このホテルに宿泊するのは今回で2回目です。観光客がひっきりなしに訪れるにもかかわらず、スタッフの皆さんは最高のサービスレベルを維持してくれています。すべてが前回と変わらず素晴らしかったです。皆さん、素晴らしい仕事ぶりでした！",
+      "translated": "このホテルに宿泊するのは今回で2回目です。観光客がひっきりなしに訪れるにもかかわらず、スタッフの皆さんは最高のサービスレベルを維持してくれています。すべてが前回と変わらず素晴らしかったです。皆さん、素晴らしい仕事ぶりです！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -905,32 +957,6 @@
       "reviewer": "Xiawei"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-03",
-      "comment": "Stayed 2 weeks at this hotel. Amazing room! Politefull and helpfull personel. Really good and diverse breakfast. The breakfastroom is jused till 0000 for drinks and snacks so a nice place to remeber your day and getting to kniw other travelers! If you stay in tokyo i would recommend this hotel to everyone! 3 metrostations 5 a 10 minute walk and you can to everywhere from there!!  Thankyou staff of comfort hotel for making our stay so perfect!",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルに2週間滞在しました。素晴らしいお部屋でした！スタッフは礼儀正しく親切でした。朝食は本当に美味しくて種類も豊富でした。朝食ルームは0時までドリンクや軽食を提供する専用スペースなので、一日を振り返り、他の旅行者と知り合うのに最適な場所です！東京に滞在するなら、このホテルを皆さんにおすすめします！地下鉄3駅まで徒歩10分で、どこへでも行けます！快適なホテルのスタッフの皆様、滞在を完璧にしていただきありがとうございました！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Christian Coolen"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-03",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "陳宇涵"
-    },
-    {
       "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
@@ -990,7 +1016,7 @@
       "comment": "2人房可以加床變3人房的好選擇",
       "good": "",
       "bad": "",
-      "translated": "エキストラベッドを追加すれば3人部屋にもなるので、2人部屋として最適な選択肢です。",
+      "translated": "エキストラベッドを追加することで、2人部屋を3人部屋に変えるのに最適な選択肢です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "林政雄"
@@ -1161,7 +1187,7 @@
       "bad": "Toda inquietud que tuvimos fue mal recibida. Nadie habla bien inglés, por lo que, en caso de algún problema, no entienden. Demasiada gente y valijas siempre en el lobby. El desayuno muy incompleto.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "私たちが抱える懸念はすべて否定的に受け止められました。英語を流暢に話せる人は誰もいないので、何か問題があっても理解してもらえません。ロビーはいつも人でごった返していて、荷物も山積みです。朝食の種類も非常に限られています。",
+      "translated_bad": "私たちが抱えるあらゆる懸念は、ことごとく否定的に受け止められました。英語を流暢に話せる人は誰もいないため、何か問題があっても理解してもらえません。ロビーは常に人でごった返し、荷物も山積みです。朝食の種類も非常に限られています。",
       "reviewer": "Cecilia"
     },
     {
@@ -1237,7 +1263,7 @@
       "comment": "設施：設施齊全，化粧鏡，全身穿衣鏡都有，吹風機特別好用！！  環境：酒店一樓就是餐廳，餐廳環境也很舒適  服務：可以提前寄存行李，特別方便。",
       "good": "",
       "bad": "",
-      "translated": "設備：化粧鏡や全身鏡など設備が充実しており、ヘアドライヤーは特に便利です。環境：レストランはホテルの1階にあり、レストランの環境も非常に快適です。サービス：荷物を事前に預かってもらえるので、とても便利です。",
+      "translated": "設備：化粧鏡や全身鏡など、設備が充実しています。ヘアドライヤーは特に便利です！ 環境：レストランはホテルの1階にあり、レストランの環境も非常に快適です。 サービス：荷物を事前に預かってもらえるので、とても便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

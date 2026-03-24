@@ -1,12 +1,12 @@
 {
-  "total_reviews": 75,
-  "overall_avg_10pt": 7.08,
-  "high_count": 43,
-  "high_rate": 57.3,
+  "total_reviews": 77,
+  "overall_avg_10pt": 7.1,
+  "high_count": 45,
+  "high_rate": 58.4,
   "mid_count": 18,
-  "mid_rate": 24.0,
+  "mid_rate": 23.4,
   "low_count": 14,
-  "low_rate": 18.7,
+  "low_rate": 18.2,
   "site_stats": [
     {
       "site": "Agoda",
@@ -45,20 +45,20 @@
       "judgment": "要改善"
     },
     {
+      "site": "楽天トラベル",
+      "count": 32,
+      "native_avg": 3.41,
+      "scale": "/5",
+      "avg_10pt": 6.81,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
+    {
       "site": "Google",
       "count": 19,
       "native_avg": 3.37,
       "scale": "/5",
       "avg_10pt": 6.74,
-      "median_10pt": 8.0,
-      "judgment": "要改善"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 30,
-      "native_avg": 3.37,
-      "scale": "/5",
-      "avg_10pt": 6.73,
       "median_10pt": 8.0,
       "judgment": "要改善"
     }
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 15,
-      "pct": "20.0%"
+      "pct": "19.5%"
     },
     {
       "score": 9,
       "count": 2,
-      "pct": "2.7%"
+      "pct": "2.6%"
     },
     {
       "score": 8,
-      "count": 26,
-      "pct": "34.7%"
+      "count": 28,
+      "pct": "36.4%"
     },
     {
       "score": 7,
       "count": 2,
-      "pct": "2.7%"
+      "pct": "2.6%"
     },
     {
       "score": 6,
       "count": 15,
-      "pct": "20.0%"
+      "pct": "19.5%"
     },
     {
       "score": 5,
@@ -97,15 +97,41 @@
     {
       "score": 4,
       "count": 9,
-      "pct": "12.0%"
+      "pct": "11.7%"
     },
     {
       "score": 2,
       "count": 5,
-      "pct": "6.7%"
+      "pct": "6.5%"
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "本文なし",
+      "good": "",
+      "bad": "",
+      "translated": "本文なし",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "くらいふたーん"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "ビジネス街なので、静かでゆっくりできました。 部屋も広めで良かったです。",
+      "good": "",
+      "bad": "",
+      "translated": "ビジネス街なので、静かでゆっくりできました。 部屋も広めで良かったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "旅するつっちー"
+    },
     {
       "site": "Google",
       "rating": 2.0,

@@ -1,10 +1,10 @@
 {
   "total_reviews": 134,
-  "overall_avg_10pt": 8.53,
-  "high_count": 107,
-  "high_rate": 79.9,
-  "mid_count": 23,
-  "mid_rate": 17.2,
+  "overall_avg_10pt": 8.5,
+  "high_count": 106,
+  "high_rate": 79.1,
+  "mid_count": 24,
+  "mid_rate": 17.9,
   "low_count": 4,
   "low_rate": 3.0,
   "site_stats": [
@@ -20,18 +20,18 @@
     {
       "site": "Google",
       "count": 22,
-      "native_avg": 4.59,
+      "native_avg": 4.5,
       "scale": "/5",
-      "avg_10pt": 9.18,
+      "avg_10pt": 9.0,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 53,
-      "native_avg": 8.45,
+      "count": 54,
+      "native_avg": 8.44,
       "scale": "/10",
-      "avg_10pt": 8.45,
+      "avg_10pt": 8.44,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -46,10 +46,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 12,
-      "native_avg": 4.08,
+      "count": 11,
+      "native_avg": 4.09,
       "scale": "/5",
-      "avg_10pt": 8.17,
+      "avg_10pt": 8.18,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,8 +66,8 @@
   "distribution": [
     {
       "score": 10,
-      "count": 55,
-      "pct": "41.0%"
+      "count": 54,
+      "pct": "40.3%"
     },
     {
       "score": 9,
@@ -86,8 +86,8 @@
     },
     {
       "score": 6,
-      "count": 14,
-      "pct": "10.4%"
+      "count": 15,
+      "pct": "11.2%"
     },
     {
       "score": 5,
@@ -106,6 +106,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Dodang"
+    },
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-23",
+      "comment": "空調電源を切ってるのに 奥でずっと音がしていて寝れない 朝ごはんは美味しい 駅の近くで立地は良いです",
+      "good": "",
+      "bad": "",
+      "translated": "空調電源を切ってるのに 奥でずっと音がしていて寝れない 朝ごはんは美味しい 駅の近くで立地は良いです",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "A M"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -142,8 +168,21 @@
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房のオプションはなかった。",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房モードには切り替えられていなかった。",
       "reviewer": "Suzanne"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "あろうことか、大事なものを忘れてしまったのですが、即連絡をいただきました。この神対応にはかなり感謝です。本当助かりました。またフロントに然り、朝食会場に然り、ホテルマンの方々が、本当に働いているなというくらい、挨拶と動きが良いです。感動しました。このサービス精神、私も見習おうと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "あろうことか、大事なものを忘れてしまったのですが、即連絡をいただきました。この神対応にはかなり感謝です。本当助かりました。またフロントに然り、朝食会場に然り、ホテルマンの方々が、本当に働いているなというくらい、挨拶と動きが良いです。感動しました。このサービス精神、私も見習おうと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "まっつんさん"
     },
     {
       "site": "Agoda",
@@ -400,7 +439,7 @@
       "comment": "I recently stayed at the Comfort Hotel Narita and had a fantastic experience. The location is incredibly convenient, making it an ideal choice for anyone traveling to or from the airport. What truly made my stay special was the wonderful staff. Every employee I encountered was exceptionally nice, polite, and went out of their way to be helpful. Their hospitality made me feel welcome from the moment I arrived. A few highlights of my stay:  Cleanliness: The room was spotless and well-maintained.  Comfort: The bed was very comfortable, ensuring a great night's sleep.  Amenities: I really appreciated the complimentary coffee and the delicious breakfast options provided.  Quiet Atmosphere: Despite being near transportation hubs, the room was very quiet.  Overall, this hotel offers excellent value for money. I highly recommend it to anyone looking for a stress-free and pleasant stay in Narita. I will definitely be back",
       "good": "",
       "bad": "",
-      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点をいくつか挙げます。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは本当にありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。全体的に見て、このホテルは価格以上の価値を提供しています。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
+      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点は以下の通りです。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは大変ありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。総合的に見て、このホテルは価格以上の価値があります。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "David Herz"
@@ -924,45 +963,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Hsu T.C."
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-01",
-      "comment": "I couldn’t find my room key when I checked out on February 16. I sincerely appreciate the assistance provided by the front desk staff at that time.",
-      "good": "",
-      "bad": "",
-      "translated": "2月16日にチェックアウトした際、部屋の鍵が見つからず困っていました。その際、フロントのスタッフの方々が親切に対応してくださったことに心から感謝いたします。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Hsu T.C."
-    },
-    {
-      "site": "じゃらん",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-01",
-      "comment": "成田空港発の旅行の集合時間が早く、前泊しました。その日は、久しぶりの「大雪」、予約して本当に良かったと感じました。  駅から近く、ホテルの名前が大きく建物に掲示されていて、直ぐに場所が分かり助かりました。スマフォで地図の読めない高齢者には、心強いサービスです。  お部屋は小さいながら、一人には快適でした。一つだけ、ショルダーバッグを吊るせる「フック」があったら、もっと快適だったと思います。  私は利用しませんでしたが、朝食をお部屋に持って行く事もできます。お子さん連れや落ち着いて食事をしたい方には、嬉しいサービスと感じました。  次回、成田空港からの旅の際、また利用したいと思います。",
-      "good": "",
-      "bad": "",
-      "translated": "成田空港発の旅行の集合時間が早く、前泊しました。その日は、久しぶりの「大雪」、予約して本当に良かったと感じました。  駅から近く、ホテルの名前が大きく建物に掲示されていて、直ぐに場所が分かり助かりました。スマフォで地図の読めない高齢者には、心強いサービスです。  お部屋は小さいながら、一人には快適でした。一つだけ、ショルダーバッグを吊るせる「フック」があったら、もっと快適だったと思います。  私は利用しませんでしたが、朝食をお部屋に持って行く事もできます。お子さん連れや落ち着いて食事をしたい方には、嬉しいサービスと感じました。  次回、成田空港からの旅の際、また利用したいと思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "広ばぁばさん"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-01",
-      "comment": "成田空港発の旅行の集合時間が早く、前泊しました。その日は、久しぶりの「大雪」、予約して本当に良かったと感じました。  駅から近く、ホテルの名前が大きく建物に掲示されていて、直ぐに場所が分かり助かりました。スマフォで地図の読めない高齢者には、心強いサービスです。  お部屋は小さいながら、一人には快適でした。一つだけ、ショルダーバッグを吊るせる「フック」があったら、もっと快適だったと思います。  私は利用しませんでしたが、朝食をお部屋に持って行く事もできます。お子さん連れや落ち着いて食事をしたい方には、嬉しいサービスと感じました。  次回、成田空港からの旅の際、また利用したいと思います。",
-      "good": "",
-      "bad": "",
-      "translated": "成田空港発の旅行の集合時間が早く、前泊しました。その日は、久しぶりの「大雪」、予約して本当に良かったと感じました。  駅から近く、ホテルの名前が大きく建物に掲示されていて、直ぐに場所が分かり助かりました。スマフォで地図の読めない高齢者には、心強いサービスです。  お部屋は小さいながら、一人には快適でした。一つだけ、ショルダーバッグを吊るせる「フック」があったら、もっと快適だったと思います。  私は利用しませんでしたが、朝食をお部屋に持って行く事もできます。お子さん連れや落ち着いて食事をしたい方には、嬉しいサービスと感じました。  次回、成田空港からの旅の際、また利用したいと思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "広ばぁばさん"
     },
     {
       "site": "じゃらん",
@@ -1570,7 +1570,7 @@
       "comment": "不錯的飯店！環境乾淨，服務人員親切",
       "good": "",
       "bad": "",
-      "translated": "素敵なレストランです！店内は清潔で、スタッフも親切です。",
+      "translated": "素敵なレストランでした！清潔な環境で、スタッフも親切でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

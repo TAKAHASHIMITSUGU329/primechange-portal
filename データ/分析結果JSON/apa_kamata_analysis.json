@@ -1,12 +1,12 @@
 {
-  "total_reviews": 54,
-  "overall_avg_10pt": 7.43,
+  "total_reviews": 56,
+  "overall_avg_10pt": 7.38,
   "high_count": 35,
-  "high_rate": 64.8,
-  "mid_count": 13,
-  "mid_rate": 24.1,
+  "high_rate": 62.5,
+  "mid_count": 15,
+  "mid_rate": 26.8,
   "low_count": 6,
-  "low_rate": 11.1,
+  "low_rate": 10.7,
   "site_stats": [
     {
       "site": "Google",
@@ -18,20 +18,20 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "Booking.com",
-      "count": 15,
-      "native_avg": 7.6,
-      "scale": "/10",
-      "avg_10pt": 7.6,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "じゃらん",
       "count": 4,
       "native_avg": 3.75,
       "scale": "/5",
       "avg_10pt": 7.5,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 16,
+      "native_avg": 7.44,
+      "scale": "/10",
+      "avg_10pt": 7.44,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -46,11 +46,11 @@
     },
     {
       "site": "Agoda",
-      "count": 14,
-      "native_avg": 6.79,
+      "count": 15,
+      "native_avg": 6.8,
       "scale": "/10",
-      "avg_10pt": 6.79,
-      "median_10pt": 7.5,
+      "avg_10pt": 6.8,
+      "median_10pt": 7.0,
       "judgment": "要改善"
     }
   ],
@@ -58,50 +58,76 @@
     {
       "score": 10,
       "count": 8,
-      "pct": "14.8%"
+      "pct": "14.3%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "5.6%"
+      "pct": "5.4%"
     },
     {
       "score": 8,
       "count": 24,
-      "pct": "44.4%"
+      "pct": "42.9%"
     },
     {
       "score": 7,
-      "count": 4,
-      "pct": "7.4%"
+      "count": 5,
+      "pct": "8.9%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "14.8%"
+      "pct": "14.3%"
     },
     {
       "score": 5,
-      "count": 1,
-      "pct": "1.9%"
+      "count": 2,
+      "pct": "3.6%"
     },
     {
       "score": 4,
       "count": 4,
-      "pct": "7.4%"
+      "pct": "7.1%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.9%"
+      "pct": "1.8%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "1.9%"
+      "pct": "1.8%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "Nærme togstasjonen.",
+      "bad": "Var skitten og støvete, det låg også igjen ting frå tidligare besøk.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "そこは汚くて埃っぽく、以前の訪問時の残骸も散乱していた。",
+      "reviewer": "Martine"
+    },
+    {
+      "site": "Agoda",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-23",
+      "comment": "都心から少し離れていますが、羽田空港からの交通の便が良く、かつ京急とJRの両方からアクセスできる点がお勧めです。 設備は必要なものはすべてそろっていて、必要十分です。清潔感もありお勧めできます。",
+      "good": "",
+      "bad": "",
+      "translated": "都心から少し離れていますが、羽田空港からの交通の便が良く、かつ京急とJRの両方からアクセスできる点がお勧めです。 設備は必要なものはすべてそろっていて、必要十分です。清潔感もありお勧めできます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Asha"
+    },
     {
       "site": "Google",
       "rating": 4.0,

@@ -1,10 +1,10 @@
 {
-  "total_reviews": 56,
-  "overall_avg_10pt": 8.84,
-  "high_count": 46,
-  "high_rate": 82.1,
+  "total_reviews": 57,
+  "overall_avg_10pt": 8.86,
+  "high_count": 47,
+  "high_rate": 82.5,
   "mid_count": 10,
-  "mid_rate": 17.9,
+  "mid_rate": 17.5,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
@@ -28,12 +28,12 @@
     },
     {
       "site": "Booking.com",
-      "count": 23,
-      "native_avg": 8.96,
+      "count": 24,
+      "native_avg": 9.0,
       "scale": "/10",
-      "avg_10pt": 8.96,
+      "avg_10pt": 9.0,
       "median_10pt": 9.0,
-      "judgment": "良好"
+      "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
@@ -66,31 +66,44 @@
   "distribution": [
     {
       "score": 10,
-      "count": 27,
-      "pct": "48.2%"
+      "count": 28,
+      "pct": "49.1%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "14.3%"
+      "pct": "14.0%"
     },
     {
       "score": 8,
       "count": 11,
-      "pct": "19.6%"
+      "pct": "19.3%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "8.9%"
+      "pct": "8.8%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "8.9%"
+      "pct": "8.8%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "駅が近くて駐車場も隣にあり良かった",
+      "bad": "ございません",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ございません",
+      "reviewer": "Takashi"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,

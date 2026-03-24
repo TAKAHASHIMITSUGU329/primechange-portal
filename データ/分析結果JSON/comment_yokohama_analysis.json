@@ -1,19 +1,19 @@
 {
-  "total_reviews": 118,
-  "overall_avg_10pt": 8.88,
-  "high_count": 100,
-  "high_rate": 84.7,
+  "total_reviews": 122,
+  "overall_avg_10pt": 8.9,
+  "high_count": 104,
+  "high_rate": 85.2,
   "mid_count": 17,
-  "mid_rate": 14.4,
+  "mid_rate": 13.9,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
     {
       "site": "Google",
-      "count": 11,
-      "native_avg": 4.91,
+      "count": 12,
+      "native_avg": 4.92,
       "scale": "/5",
-      "avg_10pt": 9.82,
+      "avg_10pt": 9.83,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -28,19 +28,19 @@
     },
     {
       "site": "じゃらん",
-      "count": 12,
-      "native_avg": 4.58,
+      "count": 13,
+      "native_avg": 4.62,
       "scale": "/5",
-      "avg_10pt": 9.17,
+      "avg_10pt": 9.23,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Trip.com",
-      "count": 23,
-      "native_avg": 9.09,
+      "count": 24,
+      "native_avg": 9.12,
       "scale": "/10",
-      "avg_10pt": 9.09,
+      "avg_10pt": 9.12,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -55,10 +55,10 @@
     },
     {
       "site": "Agoda",
-      "count": 31,
-      "native_avg": 8.29,
+      "count": 32,
+      "native_avg": 8.28,
       "scale": "/10",
-      "avg_10pt": 8.29,
+      "avg_10pt": 8.28,
       "median_10pt": 8.0,
       "judgment": "良好"
     }
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 58,
-      "pct": "49.2%"
+      "count": 61,
+      "pct": "50.0%"
     },
     {
       "score": 9,
       "count": 19,
-      "pct": "16.1%"
+      "pct": "15.6%"
     },
     {
       "score": 8,
-      "count": 23,
-      "pct": "19.5%"
+      "count": 24,
+      "pct": "19.7%"
     },
     {
       "score": 7,
       "count": 9,
-      "pct": "7.6%"
+      "pct": "7.4%"
     },
     {
       "score": 6,
       "count": 7,
-      "pct": "5.9%"
+      "pct": "5.7%"
     },
     {
       "score": 5,
@@ -101,6 +101,58 @@
     }
   ],
   "comments": [
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "じゃらん",
+      "good": "",
+      "bad": "",
+      "translated": "新しいホテルでおしゃれで綺麗。セキュリティがしっかりして部屋も防音性が高い。  大浴場の洗い場も女性側のが多く、女性客に特化したかのような造りです。湯上がりに適したデトックスウォーターとビネガードリンクがあります。  朝食は豆カレーやこんにゃく大福がありヘルシーなメニュー。ヨーグルトはカップよりプレーンならよかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "よしこ1414さん"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "Trip.com",
+      "good": "",
+      "bad": "",
+      "translated": "横浜武道館のすぐ隣という最高のロケーションで、地下鉄金内駅から徒歩わずか2～3分です。ホテルにはサウナ、温泉、大浴場があり、快適な滞在をお約束します。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "Google",
+      "good": "",
+      "bad": "",
+      "translated": "築年数が浅くおしゃれできれいです。防音面やセキュリティもしっかりしています。 大浴場の洗い場は女性側のが多いようです。シャンプー類は良いものを置いてあります。 朝食は種類豊富ではないですが、ヘルシーな品揃えです。 特に女性におすすめのホテルです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yoshi-ko・ Yoshi"
+    },
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "Agoda",
+      "good": "",
+      "bad": "",
+      "translated": "とても清潔感があってコンパクトにまとまった感じで2泊でしたがとてもゆっくり快適に宿泊する事が出来ました！ スタッフの方々もとても優しく丁寧な対応して頂き緊張もほぐれ最高でした！ ありがとうございました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "WAKANA"
+    },
     {
       "site": "Agoda",
       "rating": 9.0,
@@ -876,7 +928,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "サービスは平均的で、部屋は狭かった。",
+      "translated": "サービスは平均的で、部屋は狭い。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

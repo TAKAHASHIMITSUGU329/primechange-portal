@@ -1,6 +1,6 @@
 {
   "total_reviews": 129,
-  "overall_avg_10pt": 8.71,
+  "overall_avg_10pt": 8.68,
   "high_count": 105,
   "high_rate": 81.4,
   "mid_count": 22,
@@ -10,10 +10,10 @@
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 29,
-      "native_avg": 9.76,
+      "count": 30,
+      "native_avg": 9.67,
       "scale": "/10",
-      "avg_10pt": 9.76,
+      "avg_10pt": 9.67,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -28,28 +28,28 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 6,
-      "native_avg": 4.5,
+      "count": 5,
+      "native_avg": 4.4,
       "scale": "/5",
-      "avg_10pt": 9.0,
+      "avg_10pt": 8.8,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 68,
-      "native_avg": 8.53,
+      "count": 67,
+      "native_avg": 8.61,
       "scale": "/10",
-      "avg_10pt": 8.53,
+      "avg_10pt": 8.61,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 17,
-      "native_avg": 3.76,
+      "count": 18,
+      "native_avg": 3.61,
       "scale": "/5",
-      "avg_10pt": 7.53,
+      "avg_10pt": 7.22,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -66,18 +66,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 58,
-      "pct": "45.0%"
+      "count": 56,
+      "pct": "43.4%"
     },
     {
       "score": 9,
-      "count": 23,
-      "pct": "17.8%"
+      "count": 24,
+      "pct": "18.6%"
     },
     {
       "score": 8,
-      "count": 24,
-      "pct": "18.6%"
+      "count": 25,
+      "pct": "19.4%"
     },
     {
       "score": 7,
@@ -95,17 +95,38 @@
       "pct": "1.6%"
     },
     {
-      "score": 3,
-      "count": 1,
-      "pct": "0.8%"
-    },
-    {
       "score": 2,
-      "count": 1,
-      "pct": "0.8%"
+      "count": 2,
+      "pct": "1.6%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "位置方便，乘JR或京急都可以，酒店早餐ok,如果能夠提供自助洗衣服務就更好",
+      "good": "",
+      "bad": "",
+      "translated": "立地は便利で、JR線や京急線が利用できます。ホテルの朝食はまあまあですが、セルフサービスのランドリー設備があればさらに良いでしょう。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "M‍o‍k‍ ‍S‍a‍u‍h‍a‍n‍g"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-23",
+      "comment": "酒店服務一流，職員禮貌周周還多數會說點英文。位置在JR 站旁邊，到東京站只是20分鐘就到，到羽田機場就30分鐘電車，也有巴士「空51」大約40分鐘到Terminal 3 . 巴士是早上機的最佳選擇因為 有位坐。巴士站就在洒店前方 輕鬆拉喼過馬路一分鍾。 酒店附近食店多，特色本地小店用心做服務好。房間15-30 平方米都有，大多有城市景，廣濶怡人。",
+      "good": "",
+      "bad": "",
+      "translated": "このホテルは一流のサービスを提供しており、スタッフは礼儀正しく、ほとんどのスタッフが英語を話します。JR駅のすぐそばに位置し、東京駅まで徒歩わずか20分、羽田空港までは電車で30分です。「エア51」バスを利用すれば、第3ターミナルまで約40分です。早朝便の場合は、座席が確保しやすいのでバスの利用が最適です。バス停はホテルの目の前にあり、道路を渡って徒歩1分です。周辺には、行き届いたサービスを提供する魅力的な地元の飲食店をはじめ、多くのレストランがあります。客室は15～30平方メートルで、ほとんどの部屋から市街の景色を眺めることができ、広々とした快適な空間となっています。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "C‍h‍i‍f‍f‍e‍e"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -159,6 +180,19 @@
       "reviewer": "HANK YEN"
     },
     {
+      "site": "Google",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-03-22",
+      "comment": "This hotel is very stingy , I am very unhappy with the service I received, An utterly disappointing experience and poor service！",
+      "good": "",
+      "bad": "",
+      "translated": "このホテルは非常にケチで、受けたサービスにとても不満です。本当にがっかりする経験で、サービスもひどいものでした！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "HANK YEN"
+    },
+    {
       "site": "じゃらん",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -192,7 +226,7 @@
       "comment": "房間內提供瓶裝水，早餐還算豐富，也有師傅煎蛋，衹是幾天的餐食沒啥變化，不舒適的是房間窗無法開啟不能換氣，3月季節房間悶熱，空調不起作用，前台忽悠説用電風扇，結果氣温持續上升...感覺酒店設施及服務不上檔次，房間也比較小，價格卻比大阪京都的更大面積的房間貴不少",
       "good": "",
       "bad": "",
-      "translated": "部屋にはボトル入りの水が用意されており、朝食はシェフが目玉焼きを作ってくれるなど、かなりボリュームがありました。しかし、食事は数日間同じでした。不快だったのは、換気のために部屋の窓を開けることができず、3月なのに部屋が蒸し暑かったことです。エアコンは作動せず、フロントの係員は扇風機を使うように勧めてきましたが、気温は上がり続けました…。ホテルの設備やサービスは水準以下で、部屋もかなり狭かったにもかかわらず、大阪や京都の広い部屋と比べて料金はかなり高額でした。",
+      "translated": "部屋にはボトル入りの水が用意されており、朝食はシェフが目玉焼きを作ってくれるなど、かなりボリュームがありました。しかし、食事は数日間同じでした。不快だったのは、換気のために部屋の窓を開けることができず、3月なのに部屋が蒸し暑かったことです。エアコンは作動せず、フロントの係員は扇風機を使うように勧めてきましたが、気温は上がり続けました…。ホテルの設備やサービスは標準以下で、部屋もかなり狭かったにもかかわらず、大阪や京都の広い部屋と比べて料金はかなり高額でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "S‍o‍m‍e‍l‍i‍u‍b‍o‍d‍y"
@@ -881,7 +915,7 @@
       "comment": "호텔이 위치가 좋고 편안해서 자주이용해요  엄마가 일본에 친척들 만나러 오실때 자주 이용하는데 조용하고 직윈들도 친절해요",
       "good": "",
       "bad": "",
-      "translated": "ホテルが居心地が良く快適で、よく利用しています。",
+      "translated": "ホテルが居心地が良く、快適でよく利用しています。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -898,45 +932,6 @@
       "translated_good": "",
       "translated_bad": "入口に天井照明が1つしかないため、照明が不十分です。コーヒーメーカーと湯沸かし器は部屋の奥に設置されているため、使うには携帯の懐中電灯をつけなければなりません。エアコンはセントラル空調で温度調節ができず、部屋は少し暑く感じました。以前日本で宿泊した他のホテルとは異なり、ドアの外に「起こさないでください」のステッカーを貼っても、新しいタオル、水、アメニティは自動的に提供されません。これらはフロントにリクエストした場合のみ提供されます。",
       "reviewer": "Khchung"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 3.0,
-      "rating_10pt": 3.0,
-      "date": "2026-03-06",
-      "comment": "",
-      "good": "",
-      "bad": "Overall the hotel is good, but sleeping was difficult because the room was too warm.  In winter the central aircon only blows hot air, and the windows cannot be opened (sealed glass panels), so there’s no way to cool the room. The bedding is also the thick winter type, so even without the blanket it still felt hot. A fan was provided but it only circulated warm air.    I didn’t notice this issue when checking reviews before booking. After my stay, I saw several reviews from Dec 2025 and Jan 2026 mentioning the same problem, so it seems to be an ongoing winter issue.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "ホテル自体は概ね良かったのですが、部屋が暑すぎて寝つきが悪かったです。冬場はセントラルエアコンから温風しか出ず、窓も（密閉式のガラスパネルのため）開けられないので、部屋を冷やす方法がありませんでした。寝具も厚手の冬用タイプだったので、毛布なしでも暑く感じました。扇風機はありましたが、温風を循環させるだけでした。予約前に口コミを確認した際には、この問題に気づきませんでした。滞在後、2025年12月と2026年1月のレビューで同じ問題がいくつか指摘されているのを見かけたので、冬場の慢性的な問題のようです。",
-      "reviewer": "Tan"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-06",
-      "comment": "今回も、快眠できました！",
-      "good": "",
-      "bad": "",
-      "translated": "今回も、快眠できました！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-05",
-      "comment": "京急川崎からは少し歩きますが、羽田空港から乗換なしで行けて便利でした。近くにコンビニやスーパー、カフェ、JRの駅ビルがある点も良かったです。 フロントの方の丁寧な対応、お部屋の清潔さなど大変満足です。機会があればまた利用します。",
-      "good": "",
-      "bad": "",
-      "translated": "京急川崎からは少し歩きますが、羽田空港から乗換なしで行けて便利でした。近くにコンビニやスーパー、カフェ、JRの駅ビルがある点も良かったです。 フロントの方の丁寧な対応、お部屋の清潔さなど大変満足です。機会があればまた利用します。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "AK1_79"
     },
     {
       "site": "Booking.com",
@@ -1752,7 +1747,7 @@
       "comment": "鄰近川崎駅，地理位置方便，交通方便 就算夜歸，附近都有很餐廳及超市 不愁衣食 附近有大型商場，方便shopping 價錢合理",
       "good": "",
       "bad": "",
-      "translated": "川崎駅近くという便利な立地で、交通アクセスも抜群です。帰りが遅くなっても、周辺には飲食店やスーパーマーケットがたくさんあるので、食事や衣類の心配は無用です。また、大型ショッピングモールも近くにあり、リーズナブルな価格で買い物を楽しめます。",
+      "translated": "川崎駅近くという便利な立地で、交通アクセスも抜群です。帰りが遅くなっても、周辺には飲食店やスーパーマーケットがたくさんあるので、食事や衣類の心配は無用です。大型ショッピングモールも近くにあるので、買い物も便利でリーズナブルな価格で楽しめます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "E‍x‍i‍t‍f‍a‍i‍f‍a‍i"

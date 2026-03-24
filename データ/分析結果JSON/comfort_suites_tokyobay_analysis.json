@@ -1,7 +1,7 @@
 {
-  "total_reviews": 142,
-  "overall_avg_10pt": 9.24,
-  "high_count": 136,
+  "total_reviews": 143,
+  "overall_avg_10pt": 9.22,
+  "high_count": 137,
   "high_rate": 95.8,
   "mid_count": 5,
   "mid_rate": 3.5,
@@ -28,19 +28,19 @@
     },
     {
       "site": "じゃらん",
-      "count": 29,
-      "native_avg": 4.66,
+      "count": 30,
+      "native_avg": 4.63,
       "scale": "/5",
-      "avg_10pt": 9.31,
+      "avg_10pt": 9.27,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
       "count": 45,
-      "native_avg": 4.64,
+      "native_avg": 4.62,
       "scale": "/5",
-      "avg_10pt": 9.29,
+      "avg_10pt": 9.24,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -66,18 +66,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 87,
-      "pct": "61.3%"
+      "count": 86,
+      "pct": "60.1%"
     },
     {
       "score": 9,
       "count": 13,
-      "pct": "9.2%"
+      "pct": "9.1%"
     },
     {
       "score": 8,
-      "count": 36,
-      "pct": "25.4%"
+      "count": 38,
+      "pct": "26.6%"
     },
     {
       "score": 7,
@@ -96,6 +96,45 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "お部屋にかわいい仕掛けがあり、子供を喜ばせてくれました。モーニングも子供を楽しませてくれる内容でよかったです。隣接しているローソンも大変助かりました。",
+      "good": "",
+      "bad": "",
+      "translated": "お部屋にかわいい仕掛けがあり、子供を喜ばせてくれました。モーニングも子供を楽しませてくれる内容でよかったです。隣接しているローソンも大変助かりました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ふるさとのおぜえ"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "ディズニーへの旅行で1泊しました。 立地もディズニーから車ですぐで良かったです。 駐車場は駐車可能台数多いですが、結構埋まっていました。 部屋は電子レンジがついており、子供の哺乳瓶の消毒やご飯の温めに有効活用させていただきました。 朝食のバイキングは子供も食べられるものがおおくてありがたかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "ディズニーへの旅行で1泊しました。 立地もディズニーから車ですぐで良かったです。 駐車場は駐車可能台数多いですが、結構埋まっていました。 部屋は電子レンジがついており、子供の哺乳瓶の消毒やご飯の温めに有効活用させていただきました。 朝食のバイキングは子供も食べられるものがおおくてありがたかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "こはひなふー"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "本日、無事にチェックアウトし自宅へ帰宅いたしました。 この2日間、本当に良い思い出を夫婦で創ることができました。その拠点としてコンフォートスイーツ東京ベイを選べて良かったと実感しています。 ウェルカムドリンクや朝食のブュッフェ、それに部屋も過ごしやく1日楽しんで疲れた体を休めることができました。 宿泊前から諸々の詳細情報を教えて頂きありがとうございました。（もちろんAI対応でもありがたいです。） 本来はこの場でのメッセージは場違いだと思いますが、妻は初めてのディズニーリゾートでその記念にこのホテルを選べて大満足で気持ちを伝えたく連絡いたしました。 ありがとうございました。",
+      "bad": "特になし。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "特になし。",
+      "reviewer": "大智"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -147,6 +186,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "平田"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-22",
+      "comment": "二泊三日で泊まらせて頂きました。小学生までなら添い寝無料で、小6・小3と添い寝しましたが大きめのベッドだったので4人でも余裕でした!コンビニもあって便利だし、フロントスタッフの対応よくて満足でした。次も利用したいです!",
+      "good": "",
+      "bad": "",
+      "translated": "二泊三日で泊まらせて頂きました。小学生までなら添い寝無料で、小6・小3と添い寝しましたが大きめのベッドだったので4人でも余裕でした!コンビニもあって便利だし、フロントスタッフの対応よくて満足でした。次も利用したいです!",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "佐藤さん"
     },
     {
       "site": "Agoda",
@@ -992,45 +1044,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "yuzu"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-05",
-      "comment": "部屋も綺麗で、朝食のワッフルとクロッフルがとてもおいしかったです！！",
-      "good": "",
-      "bad": "",
-      "translated": "部屋も綺麗で、朝食のワッフルとクロッフルがとてもおいしかったです！！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "mya10"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-05",
-      "comment": "ディズニーの帰りに利用させていただきました。 ベットも広くて綺麗だし、ホテル内にコンビニやジム、コインランドリーなどがあり便利。 ディズニーの後はまた利用したいです^ ^ ありがとうございました！",
-      "good": "",
-      "bad": "",
-      "translated": "ディズニーの帰りに利用させていただきました。 ベットも広くて綺麗だし、ホテル内にコンビニやジム、コインランドリーなどがあり便利。 ディズニーの後はまた利用したいです^ ^ ありがとうございました！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "サラmom"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-05",
-      "comment": "",
-      "good": "Convience, staff very helpful, everything seemed very organized",
-      "bad": "Breakfast options in the buffet were not the same quality as my last stay in this location",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "ビュッフェ形式の朝食は、前回宿泊した時ほど質が高くなかった。",
-      "reviewer": "Paul"
     },
     {
       "site": "Agoda",

@@ -1,10 +1,10 @@
 {
-  "total_reviews": 61,
+  "total_reviews": 62,
   "overall_avg_10pt": 8.13,
-  "high_count": 42,
-  "high_rate": 68.9,
+  "high_count": 43,
+  "high_rate": 69.4,
   "mid_count": 18,
-  "mid_rate": 29.5,
+  "mid_rate": 29.0,
   "low_count": 1,
   "low_rate": 1.6,
   "site_stats": [
@@ -19,10 +19,10 @@
     },
     {
       "site": "Google",
-      "count": 5,
-      "native_avg": 4.4,
+      "count": 6,
+      "native_avg": 4.33,
       "scale": "/5",
-      "avg_10pt": 8.8,
+      "avg_10pt": 8.67,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -67,32 +67,32 @@
     {
       "score": 10,
       "count": 19,
-      "pct": "31.1%"
+      "pct": "30.6%"
     },
     {
       "score": 9,
       "count": 4,
-      "pct": "6.6%"
+      "pct": "6.5%"
     },
     {
       "score": 8,
-      "count": 19,
-      "pct": "31.1%"
+      "count": 20,
+      "pct": "32.3%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "13.1%"
+      "pct": "12.9%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "13.1%"
+      "pct": "12.9%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.3%"
+      "pct": "3.2%"
     },
     {
       "score": 4,
@@ -101,6 +101,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "ちょうど東横インの向かい側にあり、こちらは大浴場あり。他の浴場付の施設と違いお風呂は集めでしたかね？",
+      "good": "",
+      "bad": "",
+      "translated": "ちょうど東横インの向かい側にあり、こちらは大浴場あり。他の浴場付の施設と違いお風呂は集めでしたかね？",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yasuhiro Kinshi"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,

@@ -1,12 +1,12 @@
 {
-  "total_reviews": 91,
+  "total_reviews": 93,
   "overall_avg_10pt": 8.74,
-  "high_count": 78,
-  "high_rate": 85.7,
+  "high_count": 80,
+  "high_rate": 86.0,
   "mid_count": 9,
-  "mid_rate": 9.9,
+  "mid_rate": 9.7,
   "low_count": 4,
-  "low_rate": 4.4,
+  "low_rate": 4.3,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -19,20 +19,20 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 33,
-      "native_avg": 4.52,
+      "count": 34,
+      "native_avg": 4.5,
       "scale": "/5",
-      "avg_10pt": 9.03,
+      "avg_10pt": 9.0,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Agoda",
-      "count": 13,
-      "native_avg": 8.77,
+      "count": 14,
+      "native_avg": 8.86,
       "scale": "/10",
-      "avg_10pt": 8.77,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.86,
+      "median_10pt": 9.5,
       "judgment": "良好"
     },
     {
@@ -66,23 +66,23 @@
   "distribution": [
     {
       "score": 10,
-      "count": 51,
-      "pct": "56.0%"
+      "count": 52,
+      "pct": "55.9%"
     },
     {
       "score": 9,
       "count": 5,
-      "pct": "5.5%"
+      "pct": "5.4%"
     },
     {
       "score": 8,
-      "count": 22,
-      "pct": "24.2%"
+      "count": 23,
+      "pct": "24.7%"
     },
     {
       "score": 6,
       "count": 9,
-      "pct": "9.9%"
+      "pct": "9.7%"
     },
     {
       "score": 4,
@@ -92,10 +92,36 @@
     {
       "score": 2,
       "count": 3,
-      "pct": "3.3%"
+      "pct": "3.2%"
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "府中駅前にあるこのホテル、特筆する部分はないですが、駅前だという事が優れた点だと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "府中駅前にあるこのホテル、特筆する部分はないですが、駅前だという事が優れた点だと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "digijapan"
+    },
+    {
+      "site": "Agoda",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "フロントの女性の方が対応いただきましたが非常に心地よく丁寧でした、部屋も綺麗でゆっくりできました。",
+      "good": "",
+      "bad": "",
+      "translated": "フロントの女性の方が対応いただきましたが非常に心地よく丁寧でした、部屋も綺麗でゆっくりできました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "TOSHINARI"
+    },
     {
       "site": "Google",
       "rating": 1.0,
