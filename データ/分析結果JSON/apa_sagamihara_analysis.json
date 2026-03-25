@@ -1,10 +1,10 @@
 {
-  "total_reviews": 63,
-  "overall_avg_10pt": 8.16,
-  "high_count": 44,
-  "high_rate": 69.8,
+  "total_reviews": 64,
+  "overall_avg_10pt": 8.17,
+  "high_count": 45,
+  "high_rate": 70.3,
   "mid_count": 18,
-  "mid_rate": 28.6,
+  "mid_rate": 28.1,
   "low_count": 1,
   "low_rate": 1.6,
   "site_stats": [
@@ -37,12 +37,12 @@
     },
     {
       "site": "Booking.com",
-      "count": 21,
-      "native_avg": 7.95,
+      "count": 22,
+      "native_avg": 8.0,
       "scale": "/10",
-      "avg_10pt": 7.95,
+      "avg_10pt": 8.0,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
+      "judgment": "良好"
     },
     {
       "site": "Agoda",
@@ -67,32 +67,32 @@
     {
       "score": 10,
       "count": 20,
-      "pct": "31.7%"
+      "pct": "31.2%"
     },
     {
       "score": 9,
-      "count": 4,
-      "pct": "6.3%"
+      "count": 5,
+      "pct": "7.8%"
     },
     {
       "score": 8,
       "count": 20,
-      "pct": "31.7%"
+      "pct": "31.2%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "12.7%"
+      "pct": "12.5%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "12.7%"
+      "pct": "12.5%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.2%"
+      "pct": "3.1%"
     },
     {
       "score": 4,
@@ -113,6 +113,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "YAEKO"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-25",
+      "comment": "",
+      "good": "フロントの方々の対応がとても丁寧でした。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Konno"
     },
     {
       "site": "Google",

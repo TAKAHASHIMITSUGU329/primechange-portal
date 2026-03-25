@@ -1,10 +1,10 @@
 {
   "total_reviews": 139,
-  "overall_avg_10pt": 8.71,
-  "high_count": 120,
-  "high_rate": 86.3,
-  "mid_count": 16,
-  "mid_rate": 11.5,
+  "overall_avg_10pt": 8.72,
+  "high_count": 121,
+  "high_rate": 87.1,
+  "mid_count": 15,
+  "mid_rate": 10.8,
   "low_count": 3,
   "low_rate": 2.2,
   "site_stats": [
@@ -46,19 +46,19 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 24,
-      "native_avg": 4.21,
+      "count": 25,
+      "native_avg": 4.2,
       "scale": "/5",
-      "avg_10pt": 8.42,
+      "avg_10pt": 8.4,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 34,
-      "native_avg": 7.88,
+      "count": 33,
+      "native_avg": 7.91,
       "scale": "/10",
-      "avg_10pt": 7.88,
+      "avg_10pt": 7.91,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -76,13 +76,13 @@
     },
     {
       "score": 8,
-      "count": 41,
-      "pct": "29.5%"
+      "count": 42,
+      "pct": "30.2%"
     },
     {
       "score": 7,
-      "count": 7,
-      "pct": "5.0%"
+      "count": 6,
+      "pct": "4.3%"
     },
     {
       "score": 6,
@@ -138,6 +138,19 @@
       "reviewer": "徹"
     },
     {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-25",
+      "comment": "2回目の利用。  前回よりも広い部屋だったので、更にのんびり過ごせてよかった。 また機会があれば利用したいと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "2回目の利用。  前回よりも広い部屋だったので、更にのんびり過ごせてよかった。 また機会があれば利用したいと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "tomoki_000"
+    },
+    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -171,7 +184,7 @@
       "comment": "設施：應有具有，每層的樓梯口都有飲水機可以喝到温水 衞生：非常好 環境：很棒，附近有松本清，cocona,紅色羅森。還有cafe 快餐店，和果子寬永堂，咖啡伴茶夢，法甜，自釀威士忌等等的。目白站出來走3分鐘就到了，非常方便",
       "good": "",
       "bad": "",
-      "translated": "設備：必要なアメニティはすべて揃っており、各階段の下には温水が出る給水器が設置されています。衛生状態：良好。環境：素晴らしい。近隣には松本清、ココナ、赤いローソンコンビニエンスストアがあります。その他にもカフェ、ファストフード店、和菓子店、コーヒーショップ、フランス菓子店、自家製ウイスキー店などがあります。目白駅から徒歩わずか3分と大変便利です。",
+      "translated": "設備：必要なアメニティはすべて揃っており、各階段の下には温水が出る給水器も設置されています。衛生状態：良好。環境：素晴らしい。近隣には松本清、ココナ、赤いローソンコンビニエンスストアがあります。その他にもカフェ、ファストフード店、和菓子店、コーヒーショップ、フランス菓子店、自家製ウイスキー店などがあります。目白駅から徒歩わずか3分と大変便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -535,7 +548,7 @@
       "comment": "Staffs were very friendly and supportive. Amenities like toiletries and room supplies will be provided at the lobby which guests can pick based on their need. The hotel is located near 7Eleven and Family Mart so super convenient!!! It is also close to Mejiro station which is very accessible to downtown and central area (~15-20 minutes by subway). Price is much affordable compared to the downtown area! Highly recommended 💯",
       "good": "",
       "bad": "",
-      "translated": "スタッフはとてもフレンドリーで親切でした。アメニティ（洗面用具や客室備品など）はロビーに用意されており、必要に応じて自由に選ぶことができます。ホテルはセブンイレブンとファミリーマートの近くにあり、とても便利です！目白駅にも近く、都心部や中心部へのアクセスも抜群です（地下鉄で約15～20分）。都心部と比べて料金もかなりお手頃です！強くお勧めします💯",
+      "translated": "スタッフはとてもフレンドリーで親切でした。アメニティ（洗面用具やルーム用品など）はロビーに用意されており、必要に応じて自由に選ぶことができます。ホテルはセブンイレブンとファミリーマートの近くにあり、とても便利です！目白駅にも近く、都心部や中心部へのアクセスも抜群です（地下鉄で約15～20分）。都心部と比べて料金もかなりお手頃です！強くお勧めします💯",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -955,19 +968,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "N‍e‍v‍e‍n‍t"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-03-01",
-      "comment": "",
-      "good": "地理位置",
-      "bad": "空間太小",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "スペースが狭すぎる",
-      "reviewer": "Chih"
     },
     {
       "site": "Agoda",
@@ -1575,7 +1575,7 @@
       "comment": "飯店位子距離地鐵站很近，附近也有便利商店，交通跟機能都很好。房間雖然不大，但是打掃得很乾淨，盥洗用品在大廳自行領取。",
       "good": "",
       "bad": "",
-      "translated": "ホテルは地下鉄駅に非常に近く、周辺にはコンビニエンスストアもあるため、交通機関やその他の生活必需品へのアクセスに便利です。客室は狭いものの、非常に清潔で、ロビーにはセルフサービスのバスアメニティが用意されています。",
+      "translated": "ホテルは地下鉄駅に非常に近く、周辺にはコンビニエンスストアもあるため、交通の便が良く、その他の生活必需品も揃っています。客室は広くはありませんが、非常に清潔で、ロビーではアメニティも利用できます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "B‍e‍l‍l‍e‍e‍e"

@@ -1,10 +1,10 @@
 {
-  "total_reviews": 324,
-  "overall_avg_10pt": 8.28,
-  "high_count": 246,
-  "high_rate": 75.9,
+  "total_reviews": 325,
+  "overall_avg_10pt": 8.29,
+  "high_count": 247,
+  "high_rate": 76.0,
   "mid_count": 69,
-  "mid_rate": 21.3,
+  "mid_rate": 21.2,
   "low_count": 9,
   "low_rate": 2.8,
   "site_stats": [
@@ -45,6 +45,15 @@
       "judgment": "良好"
     },
     {
+      "site": "Google",
+      "count": 57,
+      "native_avg": 4.07,
+      "scale": "/5",
+      "avg_10pt": 8.14,
+      "median_10pt": 10.0,
+      "judgment": "良好"
+    },
+    {
       "site": "Booking.com",
       "count": 141,
       "native_avg": 8.11,
@@ -52,42 +61,33 @@
       "avg_10pt": 8.11,
       "median_10pt": 8.0,
       "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 56,
-      "native_avg": 4.05,
-      "scale": "/5",
-      "avg_10pt": 8.11,
-      "median_10pt": 9.0,
-      "judgment": "良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 107,
-      "pct": "33.0%"
+      "count": 108,
+      "pct": "33.2%"
     },
     {
       "score": 9,
       "count": 42,
-      "pct": "13.0%"
+      "pct": "12.9%"
     },
     {
       "score": 8,
       "count": 97,
-      "pct": "29.9%"
+      "pct": "29.8%"
     },
     {
       "score": 7,
       "count": 31,
-      "pct": "9.6%"
+      "pct": "9.5%"
     },
     {
       "score": 6,
       "count": 29,
-      "pct": "9.0%"
+      "pct": "8.9%"
     },
     {
       "score": 5,
@@ -123,6 +123,19 @@
       "translated_good": "",
       "translated_bad": "RAS",
       "reviewer": "Damien"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-25",
+      "comment": "とても清潔で快適で、スタッフも親切でした。セルフチェックインとチェックアウトもスムーズでした。特に気に入ったのは、空港までのシャトルバスです☺️",
+      "good": "",
+      "bad": "",
+      "translated": "とても清潔で快適で、スタッフも親切でした。セルフチェックインとチェックアウトもスムーズでした。特に気に入ったのは、空港までのシャトルバスです☺️",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Shelyka Mela"
     },
     {
       "site": "Trip.com",
@@ -366,7 +379,7 @@
       "comment": "Perfect place to stay before or after your flight! The check in experience is so unique with the robots. Real staff is available to help (signs tell you this).  The room itself is mostly clean (we did find some hairs on the toilet and floor), comfortable, and a good value for the price paid. There are basic amenities provided.  Overall I would recommend and would stay here again.",
       "good": "",
       "bad": "",
-      "translated": "フライトの前後に滞在するのに最適な場所です！ロボットによるチェックインはとてもユニークです。もちろん、スタッフも常駐しており（案内表示にも記載されています）、必要な時に対応してくれます。部屋自体は概ね清潔で（トイレと床に髪の毛が少し落ちていましたが）、快適で、料金に見合った価値があります。基本的なアメニティも揃っています。全体的に見て、おすすめできるホテルで、また利用したいと思います。",
+      "translated": "フライトの前後に滞在するのに最適な場所です！ロボットによるチェックインはとてもユニークです。もちろん、スタッフも常駐しており（案内表示にも記載されています）、必要な時に対応してくれます。部屋自体は概ね清潔で（トイレと床に髪の毛が少し落ちていましたが）、快適で、料金に見合った価値があります。基本的なアメニティも揃っています。全体的に見ておすすめできるホテルで、また利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "DM Mendoza"
@@ -704,7 +717,7 @@
       "comment": "Я выбрала отель из-за расположения, но прилетев в 12 ночи оказалось что трансфера нет. Я час прождала на отставке, идти ночью 47 минут по навигатору, когда -2 градуса на улице не представлялось возможным. Пришлось брать такси. Убер наличкой оплатить нельзя, мою карту он тоже отклонил, пришлось искать такси по таксометру за наличку. На все это у меня ушло 2 часа ночью. Что испортило впечатление о сервисе отеля. Я смотрела как автобусы из других отелей по третьему кругу приезжают, а от этого отеля ничего",
       "good": "",
       "bad": "",
-      "translated": "立地の良さでこのホテルを選んだのですが、真夜中に到着してみるとシャトルバスがないことが分かりました。空港で1時間待たされましたが、夜間にGPSを使っても気温マイナス2度の中47分歩くのは不可能でした。仕方なくタクシーに乗ることにしました。Uberは現金を受け付けておらず、私のカードも使えなかったので、メーター制のタクシーを探して現金で支払うしかありませんでした。結局、夜中に2時間もかかってしまいました。このせいでホテルのサービスに対する印象は最悪でした。他のホテルからのバスが3度も到着するのを見ましたが、このホテルは何の対応もしてくれませんでした。",
+      "translated": "立地の良さでこのホテルを選んだのですが、真夜中に到着してみるとシャトルバスがないことが分かりました。空港で1時間待たされましたが、GPSによると夜間に47分かかるはずの道のりを、気温マイナス2度の中で歩くのは不可能でした。仕方なくタクシーに乗ることにしました。Uberは現金を受け付けておらず、私のカードも使えなかったので、メーター制のタクシーを探して現金で支払うしかありませんでした。結局、夜中に2時間もかかってしまいました。このせいでホテルのサービスに対する印象は最悪でした。他のホテルからのバスが3度も到着するのを見ましたが、このホテルは何の対応もしてくれませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍i‍r‍m‍a"
@@ -1811,7 +1824,7 @@
       "bad": "I searched for Hen na hotel and got another one close to the other airport so I had to take train 1 hour each way. That is not Your foult but mine. I should have understood that it was a chain, but with a such odd name I did not believe it.   Robot checking in is not so nice. You have good locking girls in Japan.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女性がたくさんいますね。",
+      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女の子がたくさんいますね。",
       "reviewer": "Sundberg"
     },
     {
@@ -2173,7 +2186,7 @@
       "comment": "헨나 호텔이라 해서 왜 핸나인가 했는데. 예약이 자동화이고 접수는 공룡 두마리랑 여자 로봇이 안내하고 받는다. 물론 직원들이 와서 돕기도 하는데 이 과정 자체가 웃음벨. 카카오택시를 불러 공항 3터널까지 가니 3만원 정도 요금 나온다. 캐리어가 무겁다면 지하철이나 버스타러 가는데 좀 30분 정도 걸아야 하므로 택시를 추천. 무엇보다 호텔 숙박 가격이 착하다. 새벽 비행기라 반일 정도 묵었는데 쾌적했고. 외국인도 많이 묵더라. 사이좋은  젊은 커플이라면 이 곳 추천 한다. 40대 50대라면 많이 걸어야 하므로 택시이동 추천한다. 나는 아이와 여행이었는데 아이가 지하철에서 내린 뒤 조금 20분 정도 많이 걸어서 힘들어했다. 참고하시고 :) 예약하세요.  저는 또 갈 의향 있어요. 카펫도 깨끗했고 담배냄새 안났고 화장실에 욕조도 있었고 좋았습니다.",
       "good": "",
       "bad": "",
-      "translated": "ヘンナホテルだからなぜハンナなのか。予約が自動化され、受付は恐竜二匹と女子ロボットが案内してもらう。もちろんスタッフが来て助けたりもするのにこの過程自体が笑ベル。カカオタクシーを呼んで空港3トンネルまで行くと3万ウォンほど料金出てくる。キャリアが重い場合は地下鉄やバスターに行くのに少し30分ほど歩かなければならないのでタクシーをおすすめ。何よりもホテルの宿泊価格が良い。夜明けの飛行機だから反日くらい泊まったのに快適だったし。外国人もたくさん泊まった。仲良しの若いカップルならここがオススメです。 40台50台ならたくさん歩かなければならないのでタクシー移動おすすめ。私は子供と旅行でしたが、子供が地下鉄で降りた後、少し20分ほど歩いて大変でした。注意してください：）予約してください。  私はまた行く意向があります。カーペットも綺麗でタバコの臭いがなく、トイレに浴槽もあってよかったです。",
+      "translated": "ヘンナホテルだからなぜハンナなのか。予約が自動化され、受付は恐竜二匹と女子ロボットが案内してもらう。もちろんスタッフが来て助けたりもするのにこの過程自体が笑ベル。カカオタクシーを呼んで空港3トンネルまで行くと3万ウォンほど料金出てくる。キャリアが重い場合は地下鉄やバスターに行くのに少し30分ほど歩かなければならないのでタクシーをおすすめ。何よりもホテルの宿泊価格が良い。夜明けの飛行機だから反日くらい泊まったのに快適だったし。外国人もたくさん泊まった。仲良しの若いカップルならここがオススメです。 40台50台ならたくさん歩かなければならないのでタクシー移動おすすめ。私は子供と旅行でしたが、子供が地下鉄から降りた後、少し20分ほど歩いて大変でした。注意してください：）予約してください。  私はまた行く意向があります。カーペットも綺麗でタバコの臭いがなく、トイレに浴槽もあってよかったです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "리‍아‍7‍9"
@@ -2329,7 +2342,7 @@
       "comment": "用uber叫計程車等了10分鐘司機不知道在幹嘛都沒動，櫃檯幫忙叫車服務很好",
       "good": "",
       "bad": "",
-      "translated": "Uberを呼んで10分待ったのですが、運転手は動こうともせず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、スムーズに配車を手配してくれました。",
+      "translated": "Uberを呼んで10分待ったのですが、運転手は一向に動かず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、スムーズに配車を手配してくれました。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "高欣義"
@@ -2643,7 +2656,7 @@
       "bad": "酒店面积比其他日本酒店小",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "このホテルは他の日本のホテルに比べて規模が小さい。",
+      "translated_bad": "このホテルは、他の日本のホテルに比べて規模が小さい。",
       "reviewer": "Dawson"
     },
     {
@@ -3486,7 +3499,7 @@
       "comment": "為了免費班車才訂的酒店，飛機晚點沒有趕上班車，早上出發人太多也沒擠上班車。好在酒店離機場衹有幾公里，來回打車花費200元。作為中轉站落腳點還是很好的。",
       "good": "",
       "bad": "",
-      "translated": "無料シャトルバス目当てでこのホテルを予約したのですが、フライトが遅延して乗り遅れてしまいました。朝のバスも人が多すぎて乗れませんでした。幸い、ホテルは空港から数キロしか離れておらず、タクシーで往復200元だったので、乗り継ぎの拠点としては良いホテルだと思います。",
+      "translated": "無料シャトルバス目当てでこのホテルを予約したのですが、フライトが遅延して乗り遅れてしまいました。朝のバスも人が多すぎて乗れませんでした。幸い、ホテルは空港から数キロしか離れていないので、タクシーで往復200元で済みました。乗り継ぎの拠点としては良いホテルだと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -3644,7 +3657,7 @@
       "bad": "The shuttle service from the airport was a joke. It doesn’t show the shuttle doesn’t run until after 7.30pm at night anywhere that I could see on the website. I was forced to put my global roaming on my phone and get a Japanese stranger to ring the hotel for me to be told the shuttle wasn’t running upon my arrival at terminal 3 at Haneda Airport. I was then forced to seek out English speaking people at the train station and get advice on which train to get and where to get off to access your hotel. The shuttle the next morning at 4.45am was over full and I was lucky to get the last seat back to the airport. Very unsatisfactory. I also tried contacting room service for a wake up call with no result.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満席で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
+      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるのかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満員で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
       "reviewer": "Chris"
     },
     {
@@ -3850,7 +3863,7 @@
       "comment": "羽田機場零晨機首選 有埋酒店車在機場接送 房間清潔,仲有部LG護衣機可以免費用 附近有便利店/sukiya等等,很方便",
       "good": "",
       "bad": "",
-      "translated": "羽田空港午前便第一希望。空港にはホテルの送迎車があり、客室清掃サービス、LG製洗濯機も無料で利用できます。近くにはコンビニエンスストアやすき家屋もあり、とても便利です。",
+      "translated": "羽田空港の朝便が第一希望です。空港にはホテルの送迎車があり、客室清掃サービス、LG製洗濯機も無料で利用できます。近くにはコンビニエンスストアやすき家屋もあり、とても便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -4162,7 +4175,7 @@
       "comment": "Has everything you'd need except temperature control in the bedroom. Rooms are designed to feel spacious, I've stayed in more expensive hotels that are poorly designed and feel more cramped. The best part for me was that the have blackout curtains (pic attached), those things are amazing and allowed me to get good sleep. Rooms also have a dry clean closet which was my first, just didn't have a suit with me this trip. The down stairs has food and the automated  system works. A big plus is that if you want others like gf or kids to see what Universal Studios was like in the 90s, you've come to the right place.  I didn't know there was a shuttle I was checking out around 8AM and the shuttle guy was taking ppl to the Haneda airport. I cracked a joke with him about taking me to Narita he laughed and said he's sorry he couldn't, but the Otorii station runs an express to Narita by the our. So I'd you're like me landing at HND and flying out from NRT this was very convenient.",
       "good": "",
       "bad": "",
-      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があることです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港に人を送っていました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
+      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があったことです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港まで人を運んでいました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Walter Avalos"
