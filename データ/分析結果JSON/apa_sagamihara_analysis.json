@@ -1,10 +1,10 @@
 {
-  "total_reviews": 62,
-  "overall_avg_10pt": 8.13,
-  "high_count": 43,
-  "high_rate": 69.4,
+  "total_reviews": 63,
+  "overall_avg_10pt": 8.16,
+  "high_count": 44,
+  "high_rate": 69.8,
   "mid_count": 18,
-  "mid_rate": 29.0,
+  "mid_rate": 28.6,
   "low_count": 1,
   "low_rate": 1.6,
   "site_stats": [
@@ -45,6 +45,15 @@
       "judgment": "概ね良好"
     },
     {
+      "site": "Agoda",
+      "count": 8,
+      "native_avg": 7.88,
+      "scale": "/10",
+      "avg_10pt": 7.88,
+      "median_10pt": 7.5,
+      "judgment": "概ね良好"
+    },
+    {
       "site": "楽天トラベル",
       "count": 14,
       "native_avg": 3.86,
@@ -52,42 +61,33 @@
       "avg_10pt": 7.71,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
-    },
-    {
-      "site": "Agoda",
-      "count": 7,
-      "native_avg": 7.57,
-      "scale": "/10",
-      "avg_10pt": 7.57,
-      "median_10pt": 7.0,
-      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 19,
-      "pct": "30.6%"
+      "count": 20,
+      "pct": "31.7%"
     },
     {
       "score": 9,
       "count": 4,
-      "pct": "6.5%"
+      "pct": "6.3%"
     },
     {
       "score": 8,
       "count": 20,
-      "pct": "32.3%"
+      "pct": "31.7%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "12.9%"
+      "pct": "12.7%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "12.9%"
+      "pct": "12.7%"
     },
     {
       "score": 5,
@@ -101,6 +101,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Agoda",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-25",
+      "comment": "清潔感があり、スタッフの対応が良く立地も便利です。大浴場は快適でシャワーの水圧も十分です。安心して過ごせる環境が整っていて満足のいく滞在でした。",
+      "good": "",
+      "bad": "",
+      "translated": "清潔感があり、スタッフの対応が良く立地も便利です。大浴場は快適でシャワーの水圧も十分です。安心して過ごせる環境が整っていて満足のいく滞在でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "YAEKO"
+    },
     {
       "site": "Google",
       "rating": 4.0,

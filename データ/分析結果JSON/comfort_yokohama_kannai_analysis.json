@@ -1,12 +1,12 @@
 {
-  "total_reviews": 142,
+  "total_reviews": 143,
   "overall_avg_10pt": 7.43,
   "high_count": 96,
-  "high_rate": 67.6,
-  "mid_count": 26,
-  "mid_rate": 18.3,
+  "high_rate": 67.1,
+  "mid_count": 27,
+  "mid_rate": 18.9,
   "low_count": 20,
-  "low_rate": 14.1,
+  "low_rate": 14.0,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -28,19 +28,28 @@
     },
     {
       "site": "Google",
-      "count": 21,
-      "native_avg": 3.71,
+      "count": 20,
+      "native_avg": 3.7,
       "scale": "/5",
-      "avg_10pt": 7.43,
+      "avg_10pt": 7.4,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
     {
       "site": "楽天トラベル",
-      "count": 42,
-      "native_avg": 3.69,
+      "count": 43,
+      "native_avg": 3.67,
       "scale": "/5",
-      "avg_10pt": 7.38,
+      "avg_10pt": 7.35,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "じゃらん",
+      "count": 21,
+      "native_avg": 3.57,
+      "scale": "/5",
+      "avg_10pt": 7.14,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -52,22 +61,13 @@
       "avg_10pt": 7.07,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
-    },
-    {
-      "site": "じゃらん",
-      "count": 20,
-      "native_avg": 3.5,
-      "scale": "/5",
-      "avg_10pt": 7.0,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 32,
-      "pct": "22.5%"
+      "count": 33,
+      "pct": "23.1%"
     },
     {
       "score": 9,
@@ -76,8 +76,8 @@
     },
     {
       "score": 8,
-      "count": 58,
-      "pct": "40.8%"
+      "count": 57,
+      "pct": "39.9%"
     },
     {
       "score": 7,
@@ -86,8 +86,8 @@
     },
     {
       "score": 6,
-      "count": 16,
-      "pct": "11.3%"
+      "count": 17,
+      "pct": "11.9%"
     },
     {
       "score": 5,
@@ -111,6 +111,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-24",
+      "comment": "連泊プランでお得に 泊まりました。 設備は必要最低限ですが特に不満は無いです。 朝食無料です。会場が少し狭く、渋滞ができ料理を取るのに時間がかかりますが満足な内容だと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "連泊プランでお得に 泊まりました。 設備は必要最低限ですが特に不満は無いです。 朝食無料です。会場が少し狭く、渋滞ができ料理を取るのに時間がかかりますが満足な内容だと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "kojiro-yasuke"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "駅からも近いし、横浜観光のアクセスにはもってこいの場所だと思います。ファミリーでの利用者も多かったので利用しやすいと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "駅からも近いし、横浜観光のアクセスにはもってこいの場所だと思います。ファミリーでの利用者も多かったので利用しやすいと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "としさん"
+    },
     {
       "site": "楽天トラベル",
       "rating": 5.0,
@@ -1046,19 +1072,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "み。さん"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-08",
-      "comment": "セルフコインロッカーに気軽に荷物を預けられます。",
-      "good": "",
-      "bad": "",
-      "translated": "セルフコインロッカーに気軽に荷物を預けられます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "あかすと"
     },
     {
       "site": "Agoda",

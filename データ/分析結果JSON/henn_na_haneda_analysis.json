@@ -1,10 +1,10 @@
 {
-  "total_reviews": 317,
-  "overall_avg_10pt": 8.3,
-  "high_count": 242,
-  "high_rate": 76.3,
-  "mid_count": 66,
-  "mid_rate": 20.8,
+  "total_reviews": 324,
+  "overall_avg_10pt": 8.28,
+  "high_count": 246,
+  "high_rate": 75.9,
+  "mid_count": 69,
+  "mid_rate": 21.3,
   "low_count": 9,
   "low_rate": 2.8,
   "site_stats": [
@@ -36,17 +36,8 @@
       "judgment": "良好"
     },
     {
-      "site": "Google",
-      "count": 55,
-      "native_avg": 4.07,
-      "scale": "/5",
-      "avg_10pt": 8.15,
-      "median_10pt": 10.0,
-      "judgment": "良好"
-    },
-    {
       "site": "Agoda",
-      "count": 36,
+      "count": 37,
       "native_avg": 8.14,
       "scale": "/10",
       "avg_10pt": 8.14,
@@ -55,44 +46,53 @@
     },
     {
       "site": "Booking.com",
-      "count": 136,
-      "native_avg": 8.12,
+      "count": 141,
+      "native_avg": 8.11,
       "scale": "/10",
-      "avg_10pt": 8.12,
+      "avg_10pt": 8.11,
       "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Google",
+      "count": 56,
+      "native_avg": 4.05,
+      "scale": "/5",
+      "avg_10pt": 8.11,
+      "median_10pt": 9.0,
       "judgment": "良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 106,
-      "pct": "33.4%"
+      "count": 107,
+      "pct": "33.0%"
     },
     {
       "score": 9,
-      "count": 41,
-      "pct": "12.9%"
+      "count": 42,
+      "pct": "13.0%"
     },
     {
       "score": 8,
-      "count": 95,
-      "pct": "30.0%"
+      "count": 97,
+      "pct": "29.9%"
     },
     {
       "score": 7,
-      "count": 30,
-      "pct": "9.5%"
+      "count": 31,
+      "pct": "9.6%"
     },
     {
       "score": 6,
-      "count": 28,
-      "pct": "8.8%"
+      "count": 29,
+      "pct": "9.0%"
     },
     {
       "score": 5,
-      "count": 8,
-      "pct": "2.5%"
+      "count": 9,
+      "pct": "2.8%"
     },
     {
       "score": 4,
@@ -107,10 +107,23 @@
     {
       "score": 2,
       "count": 5,
-      "pct": "1.6%"
+      "pct": "1.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-25",
+      "comment": "",
+      "good": "Le Check in avec l’accueil par des robots dinosaures et la qualité de la chambre",
+      "bad": "RAS",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "RAS",
+      "reviewer": "Damien"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -123,6 +136,84 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍n‍g‍e‍l‍a‍_‍B‍Y‍Y"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "最近の漫画が充実してた。立地がよい。スタッフが親切。",
+      "bad": "特になし。コンプリメンタリーウォーターがないが、その分安いからよい。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "特になし。コンプリメンタリーウォーターがないが、その分安いからよい。",
+      "reviewer": "Yuko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Abdul"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "As the Japanese like to say, high cospa. Great amenities (laundry, free toothbrushes, etc), nice room, and conbini nearby if needed.",
+      "bad": "If you have long name like I do (3 first names and 1 long last name), the automated check-in process straight up doesn't work and you need staff assistance to check in.     From a location POV, don't stay here as a main hub to stay in Tokyo, as the train in to the city goes like once per 30 minutes. Only recommend if you need a short hop before going to the airport or similar.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "私のように名前が長い場合（名字が3つと長い姓が1つ）、自動チェックイン機能は全く機能せず、スタッフの手伝いが必要になります。立地に関しては、東京中心部への電車が30分に1本しかないため、東京滞在の拠点として利用するのはお勧めしません。空港などへ行く前にちょっと立ち寄る程度であれば問題ありませんが、それ以外の用途には適しています。",
+      "reviewer": "Brian"
+    },
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "フロントが3D映像による非対面対応するところが面白くて良かった。",
+      "good": "",
+      "bad": "",
+      "translated": "フロントが3D映像による非対面対応するところが面白くて良かった。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "masakazu"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ヤマグチ"
+    },
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-24",
+      "comment": "フライトが早朝のため利用させていただきました。2人だったので少し部屋が狭いかな？って思いましたが、素泊まりだけだったので大丈夫でした！部屋もプロジェクター付きでとても綺麗でした。場所も大鳥居駅から近く、周りにもコンビニやテイクアウトできるレストランがあったので便利でした。しかし、チェックインがセルフなので、私の場合はスタッフの人に予約確認と本人確認のためパスポートを見せないといけなくて、そこにいたスタッフも1人で、お客さんもほとんどが外国人だったためチェックインに少し時間がかかりました。また、羽田空港へのシャトルバスがあるのが一番いいと思って予約したのに、次の日の朝にチェックアウトしてたらシャトルバスがないと言われて、結局その場にいた2人組の親子と4人で一緒にタクシーで空港に向かって合計で約4,000円ちょっとでした。どうして朝のシャトルバスがなくなったのか分かりませんが、結構残念でした。国内線でチェックインはオンラインで済ませていたので、保安検査だけ通るだけでしたが、もしこれが国際線で荷物を預ける予定ってなって、シャトルバスが急に無くなったって朝に聞かされてから結構焦ると思います。改善お願いします。  We used this hotel because our flight was early in the morning. There were only two of us, so the room seemed a little small, but since we only booked a room without meals, it was fine! The room was very nice and even had a projector. The location was convenient, close to Otorii Station, and there were convenience stores and restaurants offering takeout nearby. However, check-in is self-service, so in my case, I had to show my passport to a staff member for reservation confirmation and identity verification. There was only one staff member there, and most of the guests were foreigners, so check-in took a little while. Also, I booked this hotel because I thought the shuttle bus to Haneda Airport would be the best option, but when I checked out the next morning, I was told there was no shuttle bus. In the end, I ended up taking a taxi to the airport with a parent and child who were also there, and it cost a little over 4,000 yen in total. I don't know why the morning shuttle bus was discontinued, but it was quite disappointing. Since it was a domestic flight, I had already checked in online, so I only had to go through security. However, if this had been an international flight and I had planned to check in luggage, I think I would have been quite flustered if I had been told in the morning that the shuttle bus had suddenly been discontinued. Please improve this.",
+      "good": "",
+      "bad": "",
+      "translated": "フライトが早朝のため利用させていただきました。2人だったので少し部屋が狭いかな？って思いましたが、素泊まりだけだったので大丈夫でした！部屋もプロジェクター付きでとても綺麗でした。場所も大鳥居駅から近く、周りにもコンビニやテイクアウトできるレストランがあったので便利でした。しかし、チェックインがセルフなので、私の場合はスタッフの人に予約確認と本人確認のためパスポートを見せないといけなくて、そこにいたスタッフも1人で、お客さんもほとんどが外国人だったためチェックインに少し時間がかかりました。また、羽田空港へのシャトルバスがあるのが一番いいと思って予約したのに、次の日の朝にチェックアウトしてたらシャトルバスがないと言われて、結局その場にいた2人組の親子と4人で一緒にタクシーで空港に向かって合計で約4,000円ちょっとでした。どうして朝のシャトルバスがなくなったのか分かりませんが、結構残念でした。国内線でチェックインはオンラインで済ませていたので、保安検査だけ通るだけでしたが、もしこれが国際線で荷物を預ける予定ってなって、シャトルバスが急に無くなったって朝に聞かされてから結構焦ると思います。改善お願いします。  We used this hotel because our flight was early in the morning. There were only two of us, so the room seemed a little small, but since we only booked a room without meals, it was fine! The room was very nice and even had a projector. The location was convenient, close to Otorii Station, and there were convenience stores and restaurants offering takeout nearby. However, check-in is self-service, so in my case, I had to show my passport to a staff member for reservation confirmation and identity verification. There was only one staff member there, and most of the guests were foreigners, so check-in took a little while. Also, I booked this hotel because I thought the shuttle bus to Haneda Airport would be the best option, but when I checked out the next morning, I was told there was no shuttle bus. In the end, I ended up taking a taxi to the airport with a parent and child who were also there, and it cost a little over 4,000 yen in total. I don't know why the morning shuttle bus was discontinued, but it was quite disappointing. Since it was a domestic flight, I had already checked in online, so I only had to go through security. However, if this had been an international flight and I had planned to check in luggage, I think I would have been quite flustered if I had been told in the morning that the shuttle bus had suddenly been discontinued. Please improve this.",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "尾崎えりか"
     },
     {
       "site": "Booking.com",
@@ -275,7 +366,7 @@
       "comment": "Perfect place to stay before or after your flight! The check in experience is so unique with the robots. Real staff is available to help (signs tell you this).  The room itself is mostly clean (we did find some hairs on the toilet and floor), comfortable, and a good value for the price paid. There are basic amenities provided.  Overall I would recommend and would stay here again.",
       "good": "",
       "bad": "",
-      "translated": "フライトの前後に滞在するのに最適な場所です！ロボットによるチェックインはとてもユニークです。もちろん、スタッフも常駐しており（案内表示にも記載されています）、必要な時に対応してくれます。部屋自体は概ね清潔で（トイレと床に髪の毛が少し落ちていましたが）、快適で、料金に見合った価値があります。基本的なアメニティも揃っています。全体的に見ておすすめできるホテルで、また利用したいと思います。",
+      "translated": "フライトの前後に滞在するのに最適な場所です！ロボットによるチェックインはとてもユニークです。もちろん、スタッフも常駐しており（案内表示にも記載されています）、必要な時に対応してくれます。部屋自体は概ね清潔で（トイレと床に髪の毛が少し落ちていましたが）、快適で、料金に見合った価値があります。基本的なアメニティも揃っています。全体的に見て、おすすめできるホテルで、また利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "DM Mendoza"
@@ -613,7 +704,7 @@
       "comment": "Я выбрала отель из-за расположения, но прилетев в 12 ночи оказалось что трансфера нет. Я час прождала на отставке, идти ночью 47 минут по навигатору, когда -2 градуса на улице не представлялось возможным. Пришлось брать такси. Убер наличкой оплатить нельзя, мою карту он тоже отклонил, пришлось искать такси по таксометру за наличку. На все это у меня ушло 2 часа ночью. Что испортило впечатление о сервисе отеля. Я смотрела как автобусы из других отелей по третьему кругу приезжают, а от этого отеля ничего",
       "good": "",
       "bad": "",
-      "translated": "立地の良さでこのホテルを選んだのですが、真夜中に到着してみるとシャトルバスがないことが分かりました。空港で1時間待たされましたが、GPSによると夜間に47分かかるはずの道のりを、気温マイナス2度の中で歩くのは不可能でした。仕方なくタクシーに乗ることにしました。Uberは現金を受け付けておらず、私のカードも使えなかったので、メーター制のタクシーを探して現金で支払うしかありませんでした。結局、夜中に2時間もかかってしまいました。このせいでホテルのサービスに対する印象は最悪でした。他のホテルからのバスが3度も到着するのを見ましたが、このホテルは何の対応もしてくれませんでした。",
+      "translated": "立地の良さでこのホテルを選んだのですが、真夜中に到着してみるとシャトルバスがないことが分かりました。空港で1時間待たされましたが、夜間にGPSを使っても気温マイナス2度の中47分歩くのは不可能でした。仕方なくタクシーに乗ることにしました。Uberは現金を受け付けておらず、私のカードも使えなかったので、メーター制のタクシーを探して現金で支払うしかありませんでした。結局、夜中に2時間もかかってしまいました。このせいでホテルのサービスに対する印象は最悪でした。他のホテルからのバスが3度も到着するのを見ましたが、このホテルは何の対応もしてくれませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍i‍r‍m‍a"
@@ -1668,7 +1759,7 @@
       "bad": "Der Shuttlebus zum Flughafen Haneda fährt leider nur 1x pro Stunde und zu Stoßzeiten kann es leicht vorkommen, dass man keinen Platz mehr bekommt.  Außerdem fährt er nur morgens und abends. Wer außerhalb der Zeiten ankommt, muss die Bahn nehmen (Keikyu Line, vier Stationen bis Bahnhof Otorii für 313yen).",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保しやすいものの、運行時間は朝と夕方のみです。それ以外の時間帯に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
+      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保するのも容易です。また、運行時間は朝と夕方のみです。これらの時間帯以外に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
       "reviewer": "Thomas"
     },
     {
@@ -1720,7 +1811,7 @@
       "bad": "I searched for Hen na hotel and got another one close to the other airport so I had to take train 1 hour each way. That is not Your foult but mine. I should have understood that it was a chain, but with a such odd name I did not believe it.   Robot checking in is not so nice. You have good locking girls in Japan.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女の子がたくさんいますね。",
+      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女性がたくさんいますね。",
       "reviewer": "Sundberg"
     },
     {
@@ -2238,7 +2329,7 @@
       "comment": "用uber叫計程車等了10分鐘司機不知道在幹嘛都沒動，櫃檯幫忙叫車服務很好",
       "good": "",
       "bad": "",
-      "translated": "Uberを呼んで10分待ったのですが、運転手は動こうともせず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、車を呼ぶのを手伝ってくれました。とても助かりました。",
+      "translated": "Uberを呼んで10分待ったのですが、運転手は動こうともせず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、スムーズに配車を手配してくれました。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "高欣義"
@@ -2552,7 +2643,7 @@
       "bad": "酒店面积比其他日本酒店小",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "このホテルは、他の日本のホテルに比べて規模が小さい。",
+      "translated_bad": "このホテルは他の日本のホテルに比べて規模が小さい。",
       "reviewer": "Dawson"
     },
     {
@@ -3486,7 +3577,7 @@
       "comment": "Rooms and service just fine for the price. Recommend early reservation here for a quick layover in Tokyo near the airport Highly popular with foreigners and the chain with it's crazy brand tie-ins and robot staff are worth seeing, just don't expect anything too grand (this is not a place to have a long stay, in terms of the quality or the area). Although the hotel boasts being automated, rest assured that staff (who are naturally decent at English) are close at hand to help, another positive. The shuttle bus to Haneda is probably not reliable in a pinch. I took the earliest bus (4:45 AM) on a winter weekday and it was full. Expect to have to go to Otorii station as a backup (5 minute walk so no big deal). Given the philosophy of the hotel, it would be nice if they could team up with Uber or another Taxi service to catch overflow (but the hotel should cover the cost).",
       "good": "",
       "bad": "",
-      "translated": "価格に見合った部屋とサービス。空港近くの東京での短い乗り継ぎには早めの予約をお勧めします。外国人に非常に人気があり、奇抜なブランド提携やロボットスタッフなど、このチェーンは一見の価値がありますが、あまり豪華さを期待しないでください（品質やエリアの点で、長期滞在には向いていません）。ホテルは自動化を謳っていますが、英語が堪能なスタッフがすぐそばにいて助けてくれるので安心してください。これもプラスポイントです。羽田空港行きのシャトルバスは、いざという時には頼りにならないかもしれません。冬の平日の早朝バス（午前4時45分）に乗りましたが、満員でした。予備として大鳥居駅に行く必要があるでしょう（徒歩5分なので大したことではありません）。ホテルの理念を考えると、満員になった場合に備えてUberや他のタクシーサービスと提携できれば良いのですが（ただし、費用はホテルが負担すべきです）。",
+      "translated": "価格に見合った部屋とサービス。空港近くの東京で短時間の乗り継ぎをする場合は、早めの予約をお勧めします。外国人に非常に人気があり、奇抜なブランド提携やロボットスタッフなど、このチェーンは一見の価値がありますが、あまり豪華さを期待しないでください（品質やエリアの点で、長期滞在に適した場所ではありません）。ホテルは自動化を謳っていますが、英語が堪能なスタッフがすぐそばにいて助けてくれるので安心してください。これもプラスポイントです。羽田空港行きのシャトルバスは、いざという時には頼りにならないかもしれません。冬の平日の早朝バス（午前4時45分）に乗りましたが、満員でした。予備として大鳥居駅に行く必要があるでしょう（徒歩5分なので大したことではありません）。ホテルの理念を考えると、満員になった場合に備えてUberや他のタクシーサービスと提携できれば良いのですが（ただし、費用はホテルが負担すべきです）。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Todd Hargrave"
@@ -3553,7 +3644,7 @@
       "bad": "The shuttle service from the airport was a joke. It doesn’t show the shuttle doesn’t run until after 7.30pm at night anywhere that I could see on the website. I was forced to put my global roaming on my phone and get a Japanese stranger to ring the hotel for me to be told the shuttle wasn’t running upon my arrival at terminal 3 at Haneda Airport. I was then forced to seek out English speaking people at the train station and get advice on which train to get and where to get off to access your hotel. The shuttle the next morning at 4.45am was over full and I was lucky to get the last seat back to the airport. Very unsatisfactory. I also tried contacting room service for a wake up call with no result.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるのかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満員で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
+      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満席で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
       "reviewer": "Chris"
     },
     {
@@ -3759,7 +3850,7 @@
       "comment": "羽田機場零晨機首選 有埋酒店車在機場接送 房間清潔,仲有部LG護衣機可以免費用 附近有便利店/sukiya等等,很方便",
       "good": "",
       "bad": "",
-      "translated": "羽田空港午前便第一希望。空港にはホテルの送迎車があり、客室清掃サービス、LG製洗濯機も無料で利用できます。近くにはコンビニエンスストアやすき家屋などがあり、とても便利です。",
+      "translated": "羽田空港午前便第一希望。空港にはホテルの送迎車があり、客室清掃サービス、LG製洗濯機も無料で利用できます。近くにはコンビニエンスストアやすき家屋もあり、とても便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -4071,7 +4162,7 @@
       "comment": "Has everything you'd need except temperature control in the bedroom. Rooms are designed to feel spacious, I've stayed in more expensive hotels that are poorly designed and feel more cramped. The best part for me was that the have blackout curtains (pic attached), those things are amazing and allowed me to get good sleep. Rooms also have a dry clean closet which was my first, just didn't have a suit with me this trip. The down stairs has food and the automated  system works. A big plus is that if you want others like gf or kids to see what Universal Studios was like in the 90s, you've come to the right place.  I didn't know there was a shuttle I was checking out around 8AM and the shuttle guy was taking ppl to the Haneda airport. I cracked a joke with him about taking me to Narita he laughed and said he's sorry he couldn't, but the Otorii station runs an express to Narita by the our. So I'd you're like me landing at HND and flying out from NRT this was very convenient.",
       "good": "",
       "bad": "",
-      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があったことです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港まで人を運んでいました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
+      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があることです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港に人を送っていました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Walter Avalos"

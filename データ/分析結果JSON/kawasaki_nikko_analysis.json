@@ -1,19 +1,19 @@
 {
-  "total_reviews": 129,
-  "overall_avg_10pt": 8.68,
-  "high_count": 105,
-  "high_rate": 81.4,
-  "mid_count": 22,
-  "mid_rate": 17.1,
+  "total_reviews": 130,
+  "overall_avg_10pt": 8.72,
+  "high_count": 107,
+  "high_rate": 82.3,
+  "mid_count": 21,
+  "mid_rate": 16.2,
   "low_count": 2,
-  "low_rate": 1.6,
+  "low_rate": 1.5,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 30,
-      "native_avg": 9.67,
+      "count": 31,
+      "native_avg": 9.65,
       "scale": "/10",
-      "avg_10pt": 9.67,
+      "avg_10pt": 9.65,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -38,9 +38,9 @@
     {
       "site": "Booking.com",
       "count": 67,
-      "native_avg": 8.61,
+      "native_avg": 8.67,
       "scale": "/10",
-      "avg_10pt": 8.61,
+      "avg_10pt": 8.67,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,41 +66,93 @@
   "distribution": [
     {
       "score": 10,
-      "count": 56,
-      "pct": "43.4%"
+      "count": 57,
+      "pct": "43.8%"
     },
     {
       "score": 9,
       "count": 24,
-      "pct": "18.6%"
+      "pct": "18.5%"
     },
     {
       "score": 8,
-      "count": 25,
-      "pct": "19.4%"
+      "count": 26,
+      "pct": "20.0%"
     },
     {
       "score": 7,
       "count": 10,
-      "pct": "7.8%"
+      "pct": "7.7%"
     },
     {
       "score": 6,
       "count": 10,
-      "pct": "7.8%"
+      "pct": "7.7%"
     },
     {
       "score": 5,
-      "count": 2,
-      "pct": "1.6%"
+      "count": 1,
+      "pct": "0.8%"
     },
     {
       "score": 2,
       "count": 2,
-      "pct": "1.6%"
+      "pct": "1.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-25",
+      "comment": "Location and convenience . Supermarket open till 10pm is added advantage",
+      "good": "",
+      "bad": "",
+      "translated": "立地と利便性。スーパーマーケットが夜10時まで営業しているのも大きな利点です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "綾子"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Fang"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "フライトの遅延でホテルに少し遅れて到着しましたが、駅に近く便利な立地で、羽田空港から京急線で簡単にアクセスできました。ただ、初日は1階の改装工事に少し驚きました。バスルームの設備も少し古く、排水もあまり良くありませんでした。しかし、スタッフはとても親切で、チェックする人を手配してくれました。2泊目からは快適でしたが、部屋は2人にはちょっと狭かったです。高層階からは電車の眺めが素晴らしく、とても良かったのですが、騒音に敏感な方には少し不快かもしれません。折り紙などの部屋の飾りには驚いて、カプセルコーヒーマシンは紅茶まで淹れることができます！朝食を1日追加で購入したのですが、フロントでその旨を伝えたら割引クーポンをもらえました。アイスクリームなど、種類も豊富でした！全体的にとても良い滞在でした。",
+      "good": "",
+      "bad": "",
+      "translated": "フライトの遅延でホテルに少し遅れて到着しましたが、駅に近く便利な立地で、羽田空港から京急線で簡単にアクセスできました。ただ、初日は1階の改装工事に少し驚きました。バスルームの設備も少し古く、排水もあまり良くありませんでした。しかし、スタッフはとても親切で、チェックする人を手配してくれました。2泊目からは快適でしたが、部屋は2人にはちょっと狭かったです。高層階からは電車の眺めが素晴らしく、とても良かったのですが、騒音に敏感な方には少し不快かもしれません。折り紙などの部屋の飾りには驚いて、カプセルコーヒーマシンは紅茶まで淹れることができます！朝食を1日追加で購入したのですが、フロントでその旨を伝えたら割引クーポンをもらえました。アイスクリームなど、種類も豊富でした！全体的にとても良い滞在でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Trip.com",
       "rating": 8.0,
@@ -226,7 +278,7 @@
       "comment": "房間內提供瓶裝水，早餐還算豐富，也有師傅煎蛋，衹是幾天的餐食沒啥變化，不舒適的是房間窗無法開啟不能換氣，3月季節房間悶熱，空調不起作用，前台忽悠説用電風扇，結果氣温持續上升...感覺酒店設施及服務不上檔次，房間也比較小，價格卻比大阪京都的更大面積的房間貴不少",
       "good": "",
       "bad": "",
-      "translated": "部屋にはボトル入りの水が用意されており、朝食はシェフが目玉焼きを作ってくれるなど、かなりボリュームがありました。しかし、食事は数日間同じでした。不快だったのは、換気のために部屋の窓を開けることができず、3月なのに部屋が蒸し暑かったことです。エアコンは作動せず、フロントの係員は扇風機を使うように勧めてきましたが、気温は上がり続けました…。ホテルの設備やサービスは標準以下で、部屋もかなり狭かったにもかかわらず、大阪や京都の広い部屋と比べて料金はかなり高額でした。",
+      "translated": "部屋にはボトル入りの水が用意されており、朝食は目玉焼きを作ってくれるシェフがいるなど、かなりボリュームがありました。しかし、食事は数日間同じでした。不快だったのは、換気のために部屋の窓を開けることができず、3月なのに部屋が蒸し暑かったことです。エアコンは作動せず、フロントデスクは扇風機を使うように勧めてきましたが、気温は上がり続けました…。ホテルの設備とサービスは標準以下で、部屋もかなり狭かったのに、大阪や京都の広い部屋と比べて料金はかなり高かったです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "S‍o‍m‍e‍l‍i‍u‍b‍o‍d‍y"
@@ -616,7 +668,7 @@
       "comment": "位置好，車站旁邊，出行方便，不過還是能聽到電車的聲音的。 樓層高，可以看到街景，甚至遠山。 早餐日式和西洋的都有，品種還算豐富，有冰激凌",
       "good": "",
       "bad": "",
-      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々まで見渡せます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
+      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々も眺めることができます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -896,45 +948,6 @@
     },
     {
       "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-06",
-      "comment": "",
-      "good": "早餐很棒、事先請飯店預約計程車、搭早班機凌晨三點到羽田機場兩個人兩咖皮箱6400日圓。",
-      "bad": "沒有",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "いいえ",
-      "reviewer": "Chiung"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-06",
-      "comment": "호텔이 위치가 좋고 편안해서 자주이용해요  엄마가 일본에 친척들 만나러 오실때 자주 이용하는데 조용하고 직윈들도 친절해요",
-      "good": "",
-      "bad": "",
-      "translated": "ホテルが居心地が良く、快適でよく利用しています。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 5.0,
-      "rating_10pt": 5.0,
-      "date": "2026-03-06",
-      "comment": "",
-      "good": "Good location close to JR",
-      "bad": "Lighting is not sufficient as there is only one ceiling light at the entrance while the coffee machine and water boiler are placed at the end of the room.  I have to switch on my mobile torch in order to enable me to use them.  Air conditioning is centralized and you cannot adjust the temperature and the room is a bit hot to me.  Unlike other hotels stayed before in Japan, new towels, water and amenities will not be given automatically if you put Do Not Disturb sticker outside the door.  These items will only be given upon request the front desk.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "入口に天井照明が1つしかないため、照明が不十分です。コーヒーメーカーと湯沸かし器は部屋の奥に設置されているため、使うには携帯の懐中電灯をつけなければなりません。エアコンはセントラル空調で温度調節ができず、部屋は少し暑く感じました。以前日本で宿泊した他のホテルとは異なり、ドアの外に「起こさないでください」のステッカーを貼っても、新しいタオル、水、アメニティは自動的に提供されません。これらはフロントにリクエストした場合のみ提供されます。",
-      "reviewer": "Khchung"
-    },
-    {
-      "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-28",
@@ -1071,7 +1084,7 @@
       "comment": "一如既往給好評，酒店位置好，房間偏小，前台服務熱情，周邊配套吃飯方便",
       "good": "",
       "bad": "",
-      "translated": "いつものように、良い評価をつけます。ホテルの立地は良く、部屋は少し狭いですが、フロントのスタッフはとても親切で、近くにはたくさんのレストランがあります。",
+      "translated": "いつものように、良い評価をつけます。ホテルの立地は良く、部屋は少し狭いですが、フロントの対応は親切で、近くには便利なレストランがたくさんあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

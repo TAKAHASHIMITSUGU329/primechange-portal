@@ -1,12 +1,12 @@
 {
-  "total_reviews": 93,
-  "overall_avg_10pt": 8.74,
-  "high_count": 80,
-  "high_rate": 86.0,
-  "mid_count": 9,
-  "mid_rate": 9.7,
+  "total_reviews": 98,
+  "overall_avg_10pt": 8.71,
+  "high_count": 84,
+  "high_rate": 85.7,
+  "mid_count": 10,
+  "mid_rate": 10.2,
   "low_count": 4,
-  "low_rate": 4.3,
+  "low_rate": 4.1,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -19,12 +19,12 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 34,
-      "native_avg": 4.5,
+      "count": 37,
+      "native_avg": 4.46,
       "scale": "/5",
-      "avg_10pt": 9.0,
+      "avg_10pt": 8.92,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "Agoda",
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 13,
-      "native_avg": 8.62,
+      "count": 15,
+      "native_avg": 8.6,
       "scale": "/10",
-      "avg_10pt": 8.62,
+      "avg_10pt": 8.6,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,36 +66,106 @@
   "distribution": [
     {
       "score": 10,
-      "count": 52,
-      "pct": "55.9%"
+      "count": 53,
+      "pct": "54.1%"
     },
     {
       "score": 9,
       "count": 5,
-      "pct": "5.4%"
+      "pct": "5.1%"
     },
     {
       "score": 8,
-      "count": 23,
-      "pct": "24.7%"
+      "count": 26,
+      "pct": "26.5%"
+    },
+    {
+      "score": 7,
+      "count": 1,
+      "pct": "1.0%"
     },
     {
       "score": 6,
       "count": 9,
-      "pct": "9.7%"
+      "pct": "9.2%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.1%"
+      "pct": "1.0%"
     },
     {
       "score": 2,
       "count": 3,
-      "pct": "3.2%"
+      "pct": "3.1%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-25",
+      "comment": "",
+      "good": "クッションやベッドでの寝心地よかった。部屋は綺麗で、日本にしてはスペースがあった。スタッフはフレンドーでとても心地よかった。忘れ物もしっかり取り置きしてくれていたので助かりました。",
+      "bad": "ちょっと狭かった。ベッドが小さい。駐車場がない。受付のところにWelcome drinkと書いてあるにも関わらず、ティーパックしか置いておらず、フロントで飲むことができなかった。お湯かコーヒーメーカーがあるとさらに嬉しかった。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ちょっと狭かった。ベッドが小さい。駐車場がない。受付のところにWelcome drinkと書いてあるにも関わらず、ティーパックしか置いておらず、フロントで飲むことができなかった。お湯かコーヒーメーカーがあるとさらに嬉しかった。",
+      "reviewer": "Shirai"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "駅と直結している。 スタッフ良かった",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Tetsuo"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "府中駅すぐの便利なホテルでしたし、部屋もきれいです。 ただ、Wi-Fiは改善してください。 遅すぎます。",
+      "good": "",
+      "bad": "",
+      "translated": "府中駅すぐの便利なホテルでしたし、部屋もきれいです。 ただ、Wi-Fiは改善してください。 遅すぎます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "まさ5689"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "府中駅すぐの便利なホテルで部屋もきれいです。 ただ、Wi-Fiは改善してください。 遅すぎます。",
+      "good": "",
+      "bad": "",
+      "translated": "府中駅すぐの便利なホテルで部屋もきれいです。 ただ、Wi-Fiは改善してください。 遅すぎます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "まさ5689"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "府中駅すぐの便利なホテルでした。 部屋もきれいです。 ただ、Wi-Fiは改善してください。 遅すぎます。",
+      "good": "",
+      "bad": "",
+      "translated": "府中駅すぐの便利なホテルでした。 部屋もきれいです。 ただ、Wi-Fiは改善してください。 遅すぎます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "まさ5689"
+    },
     {
       "site": "楽天トラベル",
       "rating": 4.0,

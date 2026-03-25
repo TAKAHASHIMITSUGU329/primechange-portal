@@ -1,12 +1,12 @@
 {
-  "total_reviews": 120,
-  "overall_avg_10pt": 8.22,
-  "high_count": 96,
-  "high_rate": 80.0,
+  "total_reviews": 122,
+  "overall_avg_10pt": 8.23,
+  "high_count": 98,
+  "high_rate": 80.3,
   "mid_count": 15,
-  "mid_rate": 12.5,
+  "mid_rate": 12.3,
   "low_count": 9,
-  "low_rate": 7.5,
+  "low_rate": 7.4,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 58,
-      "native_avg": 8.22,
+      "count": 60,
+      "native_avg": 8.25,
       "scale": "/10",
-      "avg_10pt": 8.22,
+      "avg_10pt": 8.25,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,46 +66,72 @@
   "distribution": [
     {
       "score": 10,
-      "count": 42,
-      "pct": "35.0%"
+      "count": 43,
+      "pct": "35.2%"
     },
     {
       "score": 9,
       "count": 16,
-      "pct": "13.3%"
+      "pct": "13.1%"
     },
     {
       "score": 8,
-      "count": 38,
-      "pct": "31.7%"
+      "count": 39,
+      "pct": "32.0%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "6.7%"
+      "pct": "6.6%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "4.2%"
+      "pct": "4.1%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "1.7%"
+      "pct": "1.6%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "1.7%"
+      "pct": "1.6%"
     },
     {
       "score": 2,
       "count": 7,
-      "pct": "5.8%"
+      "pct": "5.7%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ella"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "The Thai breakfast was a pleasant surprise. While not the best Thai food I have aver tasted in Tokyo, it was still good and a nice change from standard hotel breakfast fare. The room was very comfortable, with a very large bathroom by Japanese business hotel standards.",
+      "bad": "Nothing I can think of.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "思い当たる節はない。",
+      "reviewer": "Keren"
+    },
     {
       "site": "Google",
       "rating": 4.0,
@@ -335,7 +361,7 @@
       "comment": "I was very pleased with this hotel. I booked a room with a queen bed, which I found quite spacious for Japanese standards. The room was equipped with a humidifier, which was very convenient during my stay. The staff were friendly and attentive. The Thai breakfast was really good, I was quite surprised by it and definitely recommend it. Overall, it was a great stay!",
       "good": "",
       "bad": "",
-      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ式の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
+      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ風の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Nanda"
@@ -493,7 +519,7 @@
       "bad": "The room originally allocated was very small. We requested an upgrade, which we got, but felt that the additional cost was a bit high.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "最初に割り当てられた部屋はとても狭かった。アップグレードをリクエストしたところ、対応してもらえたものの、追加料金が少し高いと感じた。",
+      "translated_bad": "最初に割り当てられた部屋はとても狭かった。アップグレードをリクエストしたところ、対応してもらえたが、追加料金が少し高いと感じた。",
       "reviewer": "Chris"
     },
     {
@@ -675,7 +701,7 @@
       "bad": "Il distributore di caffè è attivo solo dalle 7, sarebbe comodo prima per chi prende voli di ritorno al mattino presto",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していれば便利でしょう。",
+      "translated_bad": "コーヒーマシンは午前7時以降しか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから利用できると便利でしょう。",
       "reviewer": "Mariafrancesca"
     },
     {
@@ -816,7 +842,7 @@
       "comment": "用點數換房間，物超所值，地點好，旁邊有驚安殿堂，交通有兩條東京地鐵線。",
       "good": "",
       "bad": "",
-      "translated": "ポイントを使って部屋を予約するのは非常にお得です。立地も抜群で、近くには平和の寺があり、東京の地下鉄2路線もすぐ近くです。",
+      "translated": "ポイントを使って部屋を予約するのは非常にお得です。立地も抜群で、天壇公園や東京地下鉄の2路線が近くにあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "黃厚平"
@@ -1466,7 +1492,7 @@
       "comment": "롯본기에서 4인 가족 단위 또는 2인 여행시 \"트윈베드\" 구성의 방을 투숙하면서 가성비 좋게 묵을수 있는 곳인것 같다. 1층 조식부페가 태국식으로 나오는 좀 생뚱맞은 면이 있지만, 예약하던 안하던 조식가격은 성인기준 1500¥이니, 몇일 묵게된다면 하는것도 괜찮겠지만, 우리가족은 3박 하면서 저냑때 들어오는길에 마트나 편의점 에서 구입한 다양한 초밥 앤 라면으로 아침을 먹었음.  일본 여행에서 다니면서 간만에 만난 방이 좀 큼직한 트윈베드 구성이 정말 좋았음...",
       "good": "",
       "bad": "",
-      "translated": "六本木で4人家族単位または2人旅行の際、「ツインベッド」構成の部屋を宿泊しながら苛性良く泊まれる場所らしい。 1階の朝食ビュッフェがタイ式で出るちょっと生き生きとした面があるが、予約していなかった朝食価格は大人基準1500円だから、数日泊まるとするのも大丈夫だろうが、私たちの家族は3泊しながらあの時入る道にマートやコンビニで購入した様々な秒。  日本旅行で通いながら間湾に会った部屋が少し大きめのツインベッド構成が本当に良かった…",
+      "translated": "六本木で4人家族単位または2人旅行の際、「ツインベッド」構成の部屋を宿泊しながら苛性良く泊まれる場所らしい。 1階の朝食ビュッフェがタイ式で出るちょっと生き生きとした面があるが、予約していなかった朝食価格は大人基準1500円だから、数日泊まるとするのも大丈夫だろうが、私たちの家族は3泊しながらあの時入る道にマートやコンビニで購入した様々な秒。  日本旅行で通っている間に会った部屋が少し大きめのツインベッド構成が本当に良かった…",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "jong gu kim"

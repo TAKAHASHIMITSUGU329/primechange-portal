@@ -1,10 +1,10 @@
 {
-  "total_reviews": 57,
-  "overall_avg_10pt": 8.86,
+  "total_reviews": 58,
+  "overall_avg_10pt": 8.83,
   "high_count": 47,
-  "high_rate": 82.5,
-  "mid_count": 10,
-  "mid_rate": 17.5,
+  "high_rate": 81.0,
+  "mid_count": 11,
+  "mid_rate": 19.0,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
@@ -28,12 +28,12 @@
     },
     {
       "site": "Booking.com",
-      "count": 24,
-      "native_avg": 9.0,
+      "count": 25,
+      "native_avg": 8.92,
       "scale": "/10",
-      "avg_10pt": 9.0,
+      "avg_10pt": 8.92,
       "median_10pt": 9.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
@@ -67,30 +67,43 @@
     {
       "score": 10,
       "count": 28,
-      "pct": "49.1%"
+      "pct": "48.3%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "14.0%"
+      "pct": "13.8%"
     },
     {
       "score": 8,
       "count": 11,
-      "pct": "19.3%"
+      "pct": "19.0%"
     },
     {
       "score": 7,
-      "count": 5,
-      "pct": "8.8%"
+      "count": 6,
+      "pct": "10.3%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "8.8%"
+      "pct": "8.6%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "Good location with the train station is just 3 minutes of walk from level 2 of the hotel. 5 minutes walk to convenient store Family mart.",
+      "bad": "Unfortunately, the mattress in my room was sinking and not comfortable at all. As a result, I experienced significant back soreness throughout my stay for the 6 nights. Given the length of my visit, this greatly affected my overall comfort and rest.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "残念ながら、私の部屋のマットレスは沈み込んでいて、全く快適ではありませんでした。そのため、6泊の滞在中ずっとひどい腰痛に悩まされました。滞在期間が長かったこともあり、これは私の快適さと休息に大きな影響を与えました。",
+      "reviewer": "Seow"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,

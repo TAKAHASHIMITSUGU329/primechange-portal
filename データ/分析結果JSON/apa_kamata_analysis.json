@@ -1,12 +1,12 @@
 {
-  "total_reviews": 56,
-  "overall_avg_10pt": 7.38,
-  "high_count": 35,
-  "high_rate": 62.5,
+  "total_reviews": 57,
+  "overall_avg_10pt": 7.39,
+  "high_count": 36,
+  "high_rate": 63.2,
   "mid_count": 15,
-  "mid_rate": 26.8,
+  "mid_rate": 26.3,
   "low_count": 6,
-  "low_rate": 10.7,
+  "low_rate": 10.5,
   "site_stats": [
     {
       "site": "Google",
@@ -28,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 16,
-      "native_avg": 7.44,
+      "count": 17,
+      "native_avg": 7.47,
       "scale": "/10",
-      "avg_10pt": 7.44,
+      "avg_10pt": 7.47,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -58,37 +58,37 @@
     {
       "score": 10,
       "count": 8,
-      "pct": "14.3%"
+      "pct": "14.0%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "5.4%"
+      "pct": "5.3%"
     },
     {
       "score": 8,
-      "count": 24,
-      "pct": "42.9%"
+      "count": 25,
+      "pct": "43.9%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "8.9%"
+      "pct": "8.8%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "14.3%"
+      "pct": "14.0%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.6%"
+      "pct": "3.5%"
     },
     {
       "score": 4,
       "count": 4,
-      "pct": "7.1%"
+      "pct": "7.0%"
     },
     {
       "score": 3,
@@ -102,6 +102,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-25",
+      "comment": "",
+      "good": "The location was great, located right halfway between JR Kamata and Keikyu-Kamata Stations. Coming from Keikyu-Kamata there was a shoutengai giving partial cover for half the distance as well, and escalators to faciliate heavy luggage. The room itself was decent -- small, but standard for APA hotels, small bathrooms that nonetheless had every amenity I needed. Fridge was provided, microwave was not, but there's a shared microwave down in the lobby. The staff was friendly and could speak enough English that communication was not a problem. They also held my luggage for me, with number tag to ensure no one else could \"mistakenly\" take them, on both my checkin and checkout days. And even if they do not clean your room on a certain day, they will provide a new set of towels and toiletries for you.",
+      "bad": "The bed is decent but the pillows were thin and terrible. I didn't try the buffet breakfast as $12-$16 CAD extra per day pushed it into Not Worth It territory, considering there are supermarkets and convenience stores nearby. The front lobby is exceptionally cramped, though that's not really something you can fix.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ベッドはまあまあでしたが、枕は薄くてひどかったです。ビュッフェ式の朝食は1日あたり12～16カナダドルも追加料金がかかるので、近くにスーパーやコンビニがあることを考えると割に合わないと思い、利用しませんでした。フロントロビーは非常に狭かったですが、これはどうしようもない点です。",
+      "reviewer": "Jessica"
+    },
     {
       "site": "Booking.com",
       "rating": 5.0,

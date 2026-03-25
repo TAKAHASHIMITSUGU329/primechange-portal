@@ -1,19 +1,19 @@
 {
-  "total_reviews": 122,
-  "overall_avg_10pt": 8.9,
-  "high_count": 104,
-  "high_rate": 85.2,
-  "mid_count": 17,
-  "mid_rate": 13.9,
+  "total_reviews": 127,
+  "overall_avg_10pt": 8.87,
+  "high_count": 107,
+  "high_rate": 84.3,
+  "mid_count": 19,
+  "mid_rate": 15.0,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
     {
       "site": "Google",
-      "count": 12,
+      "count": 13,
       "native_avg": 4.92,
       "scale": "/5",
-      "avg_10pt": 9.83,
+      "avg_10pt": 9.85,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,19 +46,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 24,
-      "native_avg": 8.58,
+      "count": 25,
+      "native_avg": 8.56,
       "scale": "/10",
-      "avg_10pt": 8.58,
+      "avg_10pt": 8.56,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 32,
-      "native_avg": 8.28,
+      "count": 35,
+      "native_avg": 8.23,
       "scale": "/10",
-      "avg_10pt": 8.28,
+      "avg_10pt": 8.23,
       "median_10pt": 8.0,
       "judgment": "良好"
     }
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 61,
-      "pct": "50.0%"
+      "count": 62,
+      "pct": "48.8%"
     },
     {
       "score": 9,
-      "count": 19,
-      "pct": "15.6%"
+      "count": 20,
+      "pct": "15.7%"
     },
     {
       "score": 8,
-      "count": 24,
+      "count": 25,
       "pct": "19.7%"
     },
     {
       "score": 7,
-      "count": 9,
-      "pct": "7.4%"
+      "count": 11,
+      "pct": "8.7%"
     },
     {
       "score": 6,
       "count": 7,
-      "pct": "5.7%"
+      "pct": "5.5%"
     },
     {
       "score": 5,
@@ -101,6 +101,71 @@
     }
   ],
   "comments": [
+    {
+      "site": "Agoda",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-25",
+      "comment": "Agoda",
+      "good": "",
+      "bad": "",
+      "translated": "ぴあアリーナMMでのLIVE参加の為利用させて頂きました 立地は会場迄徒歩圏内で関内駅も近いが、喧騒エリアから少し距離があり静かでした ハマスタも徒歩圏内なのでリピート利用したいです 駐車場は車高制限があり車種は限定されますが範囲内なら利用価値あります 1番はスタッフの方の対応が気持ち良くて嬉しくなりました、ありがとうございました",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ryuichi"
+    },
+    {
+      "site": "Agoda",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-25",
+      "comment": "Agoda",
+      "good": "",
+      "bad": "",
+      "translated": "便利で、部屋も小さいながら清潔。 みなとみらい界隈で遊ぶのであれば、コストパフォーマンスが良い。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "SHIGERU"
+    },
+    {
+      "site": "Agoda",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-24",
+      "comment": "Agoda",
+      "good": "",
+      "bad": "",
+      "translated": "駅近、場所を考えると素泊まりでリーズナブルに泊まれる。部屋も清掃が行き届いておりよかったです。また利用します！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "yuki"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "Booking.com",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kaori"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "Google",
+      "good": "",
+      "bad": "",
+      "translated": "ずっと気になってたこちらに行ってきました。シングルで予約してましたがツインに変更していただきました。気持ちのよい接客、綺麗でオシャレな施設、便利な立地。最高でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "t"
+    },
     {
       "site": "じゃらん",
       "rating": 5.0,
@@ -590,7 +655,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "ここが建てられたばかりだったので、とてもきれいです！トイレが特にすっきりしていて選びましたが、本当にきれいですね。",
+      "translated": "ここが建てられたばかりだったので、とてもきれいです！トイレが特にすっきりしているので、きれいですが、本当にきれいです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "뀨‍에‍애‍엑"
@@ -1071,7 +1136,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "部屋の広さはちょうど良く、独立したシャワーとトイレ、そして二段ベッドが2台あり、4人家族には最適でした。ホテルのロビーには大きな共同バスタブ、ウェルカムドリンク、ランドリールーム、ソーダファウンテン、電子レンジがありました。立地も便利で、JR駅から徒歩5～7分ほど。階下にはファミリーマート、セブンイレブン、ローソンといったコンビニエンスストアがありました。中華街までは徒歩約15分です。次回訪れる際も、間違いなくこのホテルを選びます。",
+      "translated": "部屋の広さはちょうど良く、独立したシャワーとトイレ、二段ベッドが2台あり、4人家族に最適でした。ホテルのロビーには大きな共同バスタブ、ウェルカムドリンク、ランドリールーム、ソーダファウンテン、電子レンジがありました。立地も便利で、JR駅から徒歩5～7分ほど。階下にはファミリーマート、セブンイレブン、ローソンのコンビニがありました。中華街までは徒歩約15分です。次回も必ずこのホテルを選びます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1513,7 +1578,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "ホテルは見つけやすく、近くにスーパーマーケットが3軒あるので買い物にも便利です。市内中心部の地下鉄駅からは徒歩10分です。ホテルには洗濯機3台と乾燥機3台を備えたランドリールームがあり、小銭のみ受け付けています。",
+      "translated": "ホテルは見つけやすく、近くにスーパーマーケットが3軒あるので買い物にも便利です。地下鉄駅から徒歩10分です。ホテルには洗濯機3台と乾燥機3台を備えたランドリールームがあり、小銭のみ受け付けています。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "0‍h‍o‍n‍g‍l‍o‍n‍g‍k‍u‍i‍0"

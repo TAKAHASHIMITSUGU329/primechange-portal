@@ -1,20 +1,20 @@
 {
-  "total_reviews": 77,
-  "overall_avg_10pt": 7.1,
+  "total_reviews": 79,
+  "overall_avg_10pt": 7.09,
   "high_count": 45,
-  "high_rate": 58.4,
-  "mid_count": 18,
-  "mid_rate": 23.4,
+  "high_rate": 57.0,
+  "mid_count": 20,
+  "mid_rate": 25.3,
   "low_count": 14,
-  "low_rate": 18.2,
+  "low_rate": 17.7,
   "site_stats": [
     {
       "site": "Agoda",
-      "count": 12,
-      "native_avg": 8.67,
+      "count": 13,
+      "native_avg": 8.46,
       "scale": "/10",
-      "avg_10pt": 8.67,
-      "median_10pt": 8.5,
+      "avg_10pt": 8.46,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "site": "Trip.com",
-      "count": 1,
+      "count": 2,
       "native_avg": 7.0,
       "scale": "/10",
       "avg_10pt": 7.0,
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 15,
-      "pct": "19.5%"
+      "pct": "19.0%"
     },
     {
       "score": 9,
       "count": 2,
-      "pct": "2.6%"
+      "pct": "2.5%"
     },
     {
       "score": 8,
       "count": 28,
-      "pct": "36.4%"
+      "pct": "35.4%"
     },
     {
       "score": 7,
-      "count": 2,
-      "pct": "2.6%"
+      "count": 3,
+      "pct": "3.8%"
     },
     {
       "score": 6,
-      "count": 15,
-      "pct": "19.5%"
+      "count": 16,
+      "pct": "20.3%"
     },
     {
       "score": 5,
@@ -97,15 +97,41 @@
     {
       "score": 4,
       "count": 9,
-      "pct": "11.7%"
+      "pct": "11.4%"
     },
     {
       "score": 2,
       "count": 5,
-      "pct": "6.5%"
+      "pct": "6.3%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-24",
+      "comment": "施設は普通。今回留まった部屋だけかもしれないが、ベットのスプリングが壊れているのかわからないが、寝返りする度にキーキーと音を立てて、寝ることことができなかった。また腰辺りが予想以上に沈みら朝起きると腰痛が酷**の日１日ふかいであった。寝れないし痛みを感じたことが最大の問題かと。",
+      "good": "",
+      "bad": "",
+      "translated": "施設は普通。今回留まった部屋だけかもしれないが、ベットのスプリングが壊れているのかわからないが、寝返りする度にキーキーと音を立てて、寝ることことができなかった。また腰辺りが予想以上に沈みら朝起きると腰痛が酷**の日１日ふかいであった。寝れないし痛みを感じたことが最大の問題かと。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "D‍r‍.‍F‍i‍s‍h"
+    },
+    {
+      "site": "Agoda",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-24",
+      "comment": "口コミを見ていて覚悟はしていたが、設備としては古めのホテルでした。 他が空いてなければ使いますが好んでは使わないかなぁ。",
+      "good": "",
+      "bad": "",
+      "translated": "口コミを見ていて覚悟はしていたが、設備としては古めのホテルでした。 他が空いてなければ使いますが好んでは使わないかなぁ。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yoshikazu"
+    },
     {
       "site": "楽天トラベル",
       "rating": 4.0,

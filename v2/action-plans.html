@@ -55,7 +55,7 @@
   <div class="progress-summary"><span>アクション進捗</span><span class="progress-pct" id="progressPct">0%</span></div>
   <div class="progress-bar-wrap"><div class="progress-bar-fill" id="progressBar" style="width:0%;"></div></div>
   <div style="font-size:0.8rem;color:var(--text-light);margin-top:0.3rem;">
-    完了: <span id="completedCount">0</span> / 全 <span id="totalCount">216</span> アクション
+    完了: <span id="completedCount">0</span> / 全 <span id="totalCount">206</span> アクション
   </div>
 </div>
 <div class="action-filter-bar">
@@ -67,7 +67,7 @@
   </select>
   <select id="filterHotel">
     <option value="all">全ホテル</option>
-<option value="コンフォートホテル博多">コンフォートホテル博多</option><option value="チサンホテル浜松町">チサンホテル浜松町</option><option value="アパホテル蒲田駅東">アパホテル蒲田駅東</option><option value="コンフォートホテル横浜関内">コンフォートホテル横浜関内</option><option value="コートホテル新横浜">コートホテル新横浜</option><option value="コンフォートイン六本木">コンフォートイン六本木</option><option value="ダイワロイネットホテル東京大崎">ダイワロイネットホテル東京大崎</option><option value="ホテルコメント横浜関内">ホテルコメント横浜関内</option>
+<option value="アパホテル蒲田駅東">アパホテル蒲田駅東</option><option value="コンフォートホテル博多">コンフォートホテル博多</option><option value="コンフォートホテル横浜関内">コンフォートホテル横浜関内</option><option value="チサンホテル浜松町">チサンホテル浜松町</option><option value="コートホテル新横浜">コートホテル新横浜</option><option value="コンフォートイン六本木">コンフォートイン六本木</option><option value="ホテルコメント横浜関内">ホテルコメント横浜関内</option><option value="ダイワロイネットホテル東京大崎">ダイワロイネットホテル東京大崎</option>
   </select>
   <select id="filterPhase">
     <option value="all">全フェーズ</option>
@@ -89,24 +89,77 @@
   <div style="overflow-x:auto;">
     <table class="data-table">
       <thead><tr><th>KPI</th><th>現状</th><th>目標</th><th>期限</th></tr></thead>
-      <tbody><tr><td><strong>ポートフォリオ平均スコア</strong></td><td>8.39</td><td style="color:var(--accent);font-weight:700;">8.89</td><td>2026年9月</td></tr>
+      <tbody><tr><td><strong>ポートフォリオ平均スコア</strong></td><td>8.41</td><td style="color:var(--accent);font-weight:700;">8.91</td><td>2026年9月</td></tr>
 <tr><td><strong>清掃関連クレーム率</strong></td><td>4.4%</td><td style="color:var(--accent);font-weight:700;">1.8%以下</td><td>2026年9月</td></tr>
-<tr><td><strong>高評価率（8-10点）</strong></td><td>78.5%</td><td style="color:var(--accent);font-weight:700;">83.5%以上</td><td>2026年9月</td></tr>
-<tr><td><strong>低評価率（1-4点）</strong></td><td>5.1%</td><td style="color:var(--accent);font-weight:700;">2.5%以下</td><td>2026年9月</td></tr></tbody>
+<tr><td><strong>高評価率（8-10点）</strong></td><td>78.7%</td><td style="color:var(--accent);font-weight:700;">83.7%以上</td><td>2026年9月</td></tr>
+<tr><td><strong>低評価率（1-4点）</strong></td><td>4.8%</td><td style="color:var(--accent);font-weight:700;">2.4%以下</td><td>2026年9月</td></tr></tbody>
     </table>
   </div>
 </div>
 <h2 style="font-size:1rem;font-weight:700;color:var(--red);margin:1.5rem 0 0.75rem;">緊急対応 (5ホテル)</h2>
-<div class="accordion-item" data-hotel="コンフォートホテル博多" data-priority="URGENT">
+<div class="accordion-item" data-hotel="アパホテル蒲田駅東" data-priority="URGENT">
   <div class="accordion-header">
-    <div><span class="badge badge-red">URGENT</span> コンフォートホテル博多 <span style="font-size:0.75rem;color:var(--text-light);">(7.72 &rarr; 8.5)</span> <span class="revenue-badge loss">損失: &yen;85万/月</span></div>
+    <div><span class="badge badge-red">URGENT</span> アパホテル蒲田駅東 <span style="font-size:0.75rem;color:var(--text-light);">(7.39 &rarr; 8)</span> <span class="revenue-badge loss">損失: &yen;82万/月</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
 <div class="phase">
   <div class="phase-header">
     <div class="phase-num" style="background:var(--red);">1</div>
-    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;43万/月</span></div>
+    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;41万/月</span></div>
+    <div class="phase-timeline">1-2週間</div>
+  </div>
+  <ul class="action-list"><li data-action-id="apa_kamata_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a0">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a1"><span class="action-text">重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a1">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a2"><span class="action-text">高所・棚上部・エアコン上部のほこり除去 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a2">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a3"><span class="action-text">テレビ裏・家具裏の清掃徹底 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a3">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a4"><span class="action-text">臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a4">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a5"><span class="action-text">消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a5">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a6"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a6">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a7"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a7">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a8"><span class="action-text">排水口の徹底清掃と詰まり除去 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a8">未着手</span></li>
+<li data-action-id="apa_kamata_p1_a9"><span class="action-text">排水トラップの点検・洗浄 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a9">未着手</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--orange);">2</div>
+    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;25万/月</span></div>
+    <div class="phase-timeline">1-3ヶ月</div>
+  </div>
+  <ul class="action-list"><li data-action-id="apa_kamata_p2_a0"><span class="action-text">品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a0">未着手</span></li>
+<li data-action-id="apa_kamata_p2_a1"><span class="action-text">QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a1">未着手</span></li>
+<li data-action-id="apa_kamata_p2_a2"><span class="action-text">週次の高所清掃スケジュール導入 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a2">未着手</span></li>
+<li data-action-id="apa_kamata_p2_a3"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a3">未着手</span></li>
+<li data-action-id="apa_kamata_p2_a4"><span class="action-text">エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a4">未着手</span></li>
+<li data-action-id="apa_kamata_p2_a5"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a5">未着手</span></li>
+<li data-action-id="apa_kamata_p2_a6"><span class="action-text">月次排水管高圧洗浄の定期実施 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a6">未着手</span></li>
+<li data-action-id="apa_kamata_p2_a7"><span class="action-text">排水口ストレーナーの定期交換サイクル導入 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a7">未着手</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--blue);">3</div>
+    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;16万/月</span></div>
+    <div class="phase-timeline">3-6ヶ月</div>
+  </div>
+  <ul class="action-list"><li data-action-id="apa_kamata_p3_a0"><span class="action-text">清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a0">未着手</span></li>
+<li data-action-id="apa_kamata_p3_a1"><span class="action-text">デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a1">未着手</span></li>
+<li data-action-id="apa_kamata_p3_a2"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a2">未着手</span></li>
+<li data-action-id="apa_kamata_p3_a3"><span class="action-text">空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a3">未着手</span></li>
+<li data-action-id="apa_kamata_p3_a4"><span class="action-text">フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a4">未着手</span></li>
+<li data-action-id="apa_kamata_p3_a5"><span class="action-text">排水管の老朽化調査と更新計画の策定 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a5">未着手</span></li></ul>
+</div>
+  </div>
+</div>
+<div class="accordion-item" data-hotel="コンフォートホテル博多" data-priority="URGENT">
+  <div class="accordion-header">
+    <div><span class="badge badge-red">URGENT</span> コンフォートホテル博多 <span style="font-size:0.75rem;color:var(--text-light);">(7.83 &rarr; 8.5)</span> <span class="revenue-badge loss">損失: &yen;83万/月</span></div>
+    <span class="accordion-arrow">&#9660;</span>
+  </div>
+  <div class="accordion-body">
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--red);">1</div>
+    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;42万/月</span></div>
     <div class="phase-timeline">1-2週間</div>
   </div>
   <ul class="action-list"><li data-action-id="comfort_hakata_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a0">未着手</span></li>
@@ -127,16 +180,13 @@
 <li data-action-id="comfort_hakata_p1_a15"><span class="action-text">害虫駆除業者による即時消毒実施 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a15">未着手</span></li>
 <li data-action-id="comfort_hakata_p1_a16"><span class="action-text">発生箇所の特定と封鎖 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a16">未着手</span></li>
 <li data-action-id="comfort_hakata_p1_a17"><span class="action-text">シミ箇所の特定と専用クリーナーによる除去 <span class="action-cat">シミ・汚れ跡</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a17">未着手</span></li>
-<li data-action-id="comfort_hakata_p1_a18"><span class="action-text">ベッドメイク後の粘着ローラー仕上げ工程追加 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a18">未着手</span></li>
-<li data-action-id="comfort_hakata_p1_a19"><span class="action-text">排水口ヘアキャッチャーの毎回清掃・交換強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a19">未着手</span></li>
-<li data-action-id="comfort_hakata_p1_a20"><span class="action-text">バスルーム清掃後の目視チェック強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a20">未着手</span></li>
-<li data-action-id="comfort_hakata_p1_a21"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a21">未着手</span></li>
-<li data-action-id="comfort_hakata_p1_a22"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a22">未着手</span></li></ul>
+<li data-action-id="comfort_hakata_p1_a18"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a18">未着手</span></li>
+<li data-action-id="comfort_hakata_p1_a19"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p1_a19">未着手</span></li></ul>
 </div>
 <div class="phase">
   <div class="phase-header">
     <div class="phase-num" style="background:var(--orange);">2</div>
-    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;26万/月</span></div>
+    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;25万/月</span></div>
     <div class="phase-timeline">1-3ヶ月</div>
   </div>
   <ul class="action-list"><li data-action-id="comfort_hakata_p2_a0"><span class="action-text">品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a0">未着手</span></li>
@@ -154,9 +204,7 @@
 <li data-action-id="comfort_hakata_p2_a12"><span class="action-text">月次予防駆除の定期契約導入 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a12">未着手</span></li>
 <li data-action-id="comfort_hakata_p2_a13"><span class="action-text">侵入経路の点検と封鎖工事 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a13">未着手</span></li>
 <li data-action-id="comfort_hakata_p2_a14"><span class="action-text">シミ発見時の即時報告・対処フロー構築 <span class="action-cat">シミ・汚れ跡</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a14">未着手</span></li>
-<li data-action-id="comfort_hakata_p2_a15"><span class="action-text">清掃チェックリストに毛髪確認項目を明記 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a15">未着手</span></li>
-<li data-action-id="comfort_hakata_p2_a16"><span class="action-text">白色・黒色素材箇所の重点チェック体制構築 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a16">未着手</span></li>
-<li data-action-id="comfort_hakata_p2_a17"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a17">未着手</span></li></ul>
+<li data-action-id="comfort_hakata_p2_a15"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_hakata_p2_a15">未着手</span></li></ul>
 </div>
 <div class="phase">
   <div class="phase-header">
@@ -176,122 +224,9 @@
 </div>
   </div>
 </div>
-<div class="accordion-item" data-hotel="チサンホテル浜松町" data-priority="URGENT">
-  <div class="accordion-header">
-    <div><span class="badge badge-red">URGENT</span> チサンホテル浜松町 <span style="font-size:0.75rem;color:var(--text-light);">(7.08 &rarr; 8)</span> <span class="revenue-badge loss">損失: &yen;116万/月</span></div>
-    <span class="accordion-arrow">&#9660;</span>
-  </div>
-  <div class="accordion-body">
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--red);">1</div>
-    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;58万/月</span></div>
-    <div class="phase-timeline">1-2週間</div>
-  </div>
-  <ul class="action-list"><li data-action-id="chisan_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a0">未着手</span></li>
-<li data-action-id="chisan_p1_a1"><span class="action-text">重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a1">未着手</span></li>
-<li data-action-id="chisan_p1_a2"><span class="action-text">排水口の徹底清掃と詰まり除去 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a2">未着手</span></li>
-<li data-action-id="chisan_p1_a3"><span class="action-text">排水トラップの点検・洗浄 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a3">未着手</span></li>
-<li data-action-id="chisan_p1_a4"><span class="action-text">高所・棚上部・エアコン上部のほこり除去 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a4">未着手</span></li>
-<li data-action-id="chisan_p1_a5"><span class="action-text">テレビ裏・家具裏の清掃徹底 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a5">未着手</span></li>
-<li data-action-id="chisan_p1_a6"><span class="action-text">汚損箇所のスポットクリーニング即時実施 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a6">未着手</span></li>
-<li data-action-id="chisan_p1_a7"><span class="action-text">掃除機がけの重点エリア指定と徹底 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a7">未着手</span></li>
-<li data-action-id="chisan_p1_a8"><span class="action-text">ベッドメイク後の粘着ローラー仕上げ工程追加 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a8">未着手</span></li>
-<li data-action-id="chisan_p1_a9"><span class="action-text">排水口ヘアキャッチャーの毎回清掃・交換強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a9">未着手</span></li>
-<li data-action-id="chisan_p1_a10"><span class="action-text">バスルーム清掃後の目視チェック強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a10">未着手</span></li>
-<li data-action-id="chisan_p1_a11"><span class="action-text">臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a11">未着手</span></li>
-<li data-action-id="chisan_p1_a12"><span class="action-text">消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a12">未着手</span></li>
-<li data-action-id="chisan_p1_a13"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a13">未着手</span></li>
-<li data-action-id="chisan_p1_a14"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a14">未着手</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--orange);">2</div>
-    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;35万/月</span></div>
-    <div class="phase-timeline">1-3ヶ月</div>
-  </div>
-  <ul class="action-list"><li data-action-id="chisan_p2_a0"><span class="action-text">品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a0">未着手</span></li>
-<li data-action-id="chisan_p2_a1"><span class="action-text">QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a1">未着手</span></li>
-<li data-action-id="chisan_p2_a2"><span class="action-text">月次排水管高圧洗浄の定期実施 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a2">未着手</span></li>
-<li data-action-id="chisan_p2_a3"><span class="action-text">排水口ストレーナーの定期交換サイクル導入 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a3">未着手</span></li>
-<li data-action-id="chisan_p2_a4"><span class="action-text">週次の高所清掃スケジュール導入 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a4">未着手</span></li>
-<li data-action-id="chisan_p2_a5"><span class="action-text">四半期ごとのカーペットディープクリーニング導入 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a5">未着手</span></li>
-<li data-action-id="chisan_p2_a6"><span class="action-text">カーペットの劣化度調査と交換計画策定 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a6">未着手</span></li>
-<li data-action-id="chisan_p2_a7"><span class="action-text">清掃チェックリストに毛髪確認項目を明記 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a7">未着手</span></li>
-<li data-action-id="chisan_p2_a8"><span class="action-text">白色・黒色素材箇所の重点チェック体制構築 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a8">未着手</span></li>
-<li data-action-id="chisan_p2_a9"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a9">未着手</span></li>
-<li data-action-id="chisan_p2_a10"><span class="action-text">エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a10">未着手</span></li>
-<li data-action-id="chisan_p2_a11"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a11">未着手</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--blue);">3</div>
-    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;23万/月</span></div>
-    <div class="phase-timeline">3-6ヶ月</div>
-  </div>
-  <ul class="action-list"><li data-action-id="chisan_p3_a0"><span class="action-text">清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a0">未着手</span></li>
-<li data-action-id="chisan_p3_a1"><span class="action-text">デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a1">未着手</span></li>
-<li data-action-id="chisan_p3_a2"><span class="action-text">排水管の老朽化調査と更新計画の策定 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a2">未着手</span></li>
-<li data-action-id="chisan_p3_a3"><span class="action-text">高耐久・防汚カーペットへの段階的張替え提案 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a3">未着手</span></li>
-<li data-action-id="chisan_p3_a4"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a4">未着手</span></li>
-<li data-action-id="chisan_p3_a5"><span class="action-text">空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a5">未着手</span></li>
-<li data-action-id="chisan_p3_a6"><span class="action-text">フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a6">未着手</span></li></ul>
-</div>
-  </div>
-</div>
-<div class="accordion-item" data-hotel="アパホテル蒲田駅東" data-priority="URGENT">
-  <div class="accordion-header">
-    <div><span class="badge badge-red">URGENT</span> アパホテル蒲田駅東 <span style="font-size:0.75rem;color:var(--text-light);">(7.43 &rarr; 8)</span> <span class="revenue-badge loss">損失: &yen;76万/月</span></div>
-    <span class="accordion-arrow">&#9660;</span>
-  </div>
-  <div class="accordion-body">
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--red);">1</div>
-    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;38万/月</span></div>
-    <div class="phase-timeline">1-2週間</div>
-  </div>
-  <ul class="action-list"><li data-action-id="apa_kamata_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a0">未着手</span></li>
-<li data-action-id="apa_kamata_p1_a1"><span class="action-text">重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a1">未着手</span></li>
-<li data-action-id="apa_kamata_p1_a2"><span class="action-text">臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a2">未着手</span></li>
-<li data-action-id="apa_kamata_p1_a3"><span class="action-text">消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a3">未着手</span></li>
-<li data-action-id="apa_kamata_p1_a4"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a4">未着手</span></li>
-<li data-action-id="apa_kamata_p1_a5"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a5">未着手</span></li>
-<li data-action-id="apa_kamata_p1_a6"><span class="action-text">排水口の徹底清掃と詰まり除去 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a6">未着手</span></li>
-<li data-action-id="apa_kamata_p1_a7"><span class="action-text">排水トラップの点検・洗浄 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p1_a7">未着手</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--orange);">2</div>
-    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;23万/月</span></div>
-    <div class="phase-timeline">1-3ヶ月</div>
-  </div>
-  <ul class="action-list"><li data-action-id="apa_kamata_p2_a0"><span class="action-text">品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a0">未着手</span></li>
-<li data-action-id="apa_kamata_p2_a1"><span class="action-text">QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a1">未着手</span></li>
-<li data-action-id="apa_kamata_p2_a2"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a2">未着手</span></li>
-<li data-action-id="apa_kamata_p2_a3"><span class="action-text">エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a3">未着手</span></li>
-<li data-action-id="apa_kamata_p2_a4"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a4">未着手</span></li>
-<li data-action-id="apa_kamata_p2_a5"><span class="action-text">月次排水管高圧洗浄の定期実施 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a5">未着手</span></li>
-<li data-action-id="apa_kamata_p2_a6"><span class="action-text">排水口ストレーナーの定期交換サイクル導入 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p2_a6">未着手</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--blue);">3</div>
-    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;15万/月</span></div>
-    <div class="phase-timeline">3-6ヶ月</div>
-  </div>
-  <ul class="action-list"><li data-action-id="apa_kamata_p3_a0"><span class="action-text">清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a0">未着手</span></li>
-<li data-action-id="apa_kamata_p3_a1"><span class="action-text">デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a1">未着手</span></li>
-<li data-action-id="apa_kamata_p3_a2"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a2">未着手</span></li>
-<li data-action-id="apa_kamata_p3_a3"><span class="action-text">空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a3">未着手</span></li>
-<li data-action-id="apa_kamata_p3_a4"><span class="action-text">フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a4">未着手</span></li>
-<li data-action-id="apa_kamata_p3_a5"><span class="action-text">排水管の老朽化調査と更新計画の策定 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="apa_kamata_p3_a5">未着手</span></li></ul>
-</div>
-  </div>
-</div>
 <div class="accordion-item" data-hotel="コンフォートホテル横浜関内" data-priority="URGENT">
   <div class="accordion-header">
-    <div><span class="badge badge-red">URGENT</span> コンフォートホテル横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(7.41 &rarr; 8)</span></div>
+    <div><span class="badge badge-red">URGENT</span> コンフォートホテル横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(7.43 &rarr; 8)</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
@@ -335,16 +270,79 @@
 </div>
   </div>
 </div>
-<div class="accordion-item" data-hotel="コートホテル新横浜" data-priority="URGENT">
+<div class="accordion-item" data-hotel="チサンホテル浜松町" data-priority="URGENT">
   <div class="accordion-header">
-    <div><span class="badge badge-red">URGENT</span> コートホテル新横浜 <span style="font-size:0.75rem;color:var(--text-light);">(7.03 &rarr; 8)</span> <span class="revenue-badge loss">損失: &yen;66万/月</span></div>
+    <div><span class="badge badge-red">URGENT</span> チサンホテル浜松町 <span style="font-size:0.75rem;color:var(--text-light);">(7.09 &rarr; 8)</span> <span class="revenue-badge loss">損失: &yen;114万/月</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
 <div class="phase">
   <div class="phase-header">
     <div class="phase-num" style="background:var(--red);">1</div>
-    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;33万/月</span></div>
+    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;57万/月</span></div>
+    <div class="phase-timeline">1-2週間</div>
+  </div>
+  <ul class="action-list"><li data-action-id="chisan_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a0">未着手</span></li>
+<li data-action-id="chisan_p1_a1"><span class="action-text">重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a1">未着手</span></li>
+<li data-action-id="chisan_p1_a2"><span class="action-text">排水口の徹底清掃と詰まり除去 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a2">未着手</span></li>
+<li data-action-id="chisan_p1_a3"><span class="action-text">排水トラップの点検・洗浄 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a3">未着手</span></li>
+<li data-action-id="chisan_p1_a4"><span class="action-text">高所・棚上部・エアコン上部のほこり除去 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a4">未着手</span></li>
+<li data-action-id="chisan_p1_a5"><span class="action-text">テレビ裏・家具裏の清掃徹底 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a5">未着手</span></li>
+<li data-action-id="chisan_p1_a6"><span class="action-text">汚損箇所のスポットクリーニング即時実施 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a6">未着手</span></li>
+<li data-action-id="chisan_p1_a7"><span class="action-text">掃除機がけの重点エリア指定と徹底 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a7">未着手</span></li>
+<li data-action-id="chisan_p1_a8"><span class="action-text">ベッドメイク後の粘着ローラー仕上げ工程追加 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a8">未着手</span></li>
+<li data-action-id="chisan_p1_a9"><span class="action-text">排水口ヘアキャッチャーの毎回清掃・交換強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a9">未着手</span></li>
+<li data-action-id="chisan_p1_a10"><span class="action-text">バスルーム清掃後の目視チェック強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a10">未着手</span></li>
+<li data-action-id="chisan_p1_a11"><span class="action-text">臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a11">未着手</span></li>
+<li data-action-id="chisan_p1_a12"><span class="action-text">消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a12">未着手</span></li>
+<li data-action-id="chisan_p1_a13"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a13">未着手</span></li>
+<li data-action-id="chisan_p1_a14"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p1_a14">未着手</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--orange);">2</div>
+    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;34万/月</span></div>
+    <div class="phase-timeline">1-3ヶ月</div>
+  </div>
+  <ul class="action-list"><li data-action-id="chisan_p2_a0"><span class="action-text">品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a0">未着手</span></li>
+<li data-action-id="chisan_p2_a1"><span class="action-text">QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a1">未着手</span></li>
+<li data-action-id="chisan_p2_a2"><span class="action-text">月次排水管高圧洗浄の定期実施 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a2">未着手</span></li>
+<li data-action-id="chisan_p2_a3"><span class="action-text">排水口ストレーナーの定期交換サイクル導入 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a3">未着手</span></li>
+<li data-action-id="chisan_p2_a4"><span class="action-text">週次の高所清掃スケジュール導入 <span class="action-cat">ほこり・塵</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a4">未着手</span></li>
+<li data-action-id="chisan_p2_a5"><span class="action-text">四半期ごとのカーペットディープクリーニング導入 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a5">未着手</span></li>
+<li data-action-id="chisan_p2_a6"><span class="action-text">カーペットの劣化度調査と交換計画策定 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a6">未着手</span></li>
+<li data-action-id="chisan_p2_a7"><span class="action-text">清掃チェックリストに毛髪確認項目を明記 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a7">未着手</span></li>
+<li data-action-id="chisan_p2_a8"><span class="action-text">白色・黒色素材箇所の重点チェック体制構築 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a8">未着手</span></li>
+<li data-action-id="chisan_p2_a9"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a9">未着手</span></li>
+<li data-action-id="chisan_p2_a10"><span class="action-text">エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a10">未着手</span></li>
+<li data-action-id="chisan_p2_a11"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p2_a11">未着手</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--blue);">3</div>
+    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;23万/月</span></div>
+    <div class="phase-timeline">3-6ヶ月</div>
+  </div>
+  <ul class="action-list"><li data-action-id="chisan_p3_a0"><span class="action-text">清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a0">未着手</span></li>
+<li data-action-id="chisan_p3_a1"><span class="action-text">デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a1">未着手</span></li>
+<li data-action-id="chisan_p3_a2"><span class="action-text">排水管の老朽化調査と更新計画の策定 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a2">未着手</span></li>
+<li data-action-id="chisan_p3_a3"><span class="action-text">高耐久・防汚カーペットへの段階的張替え提案 <span class="action-cat">カーペット汚れ</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a3">未着手</span></li>
+<li data-action-id="chisan_p3_a4"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a4">未着手</span></li>
+<li data-action-id="chisan_p3_a5"><span class="action-text">空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a5">未着手</span></li>
+<li data-action-id="chisan_p3_a6"><span class="action-text">フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="chisan_p3_a6">未着手</span></li></ul>
+</div>
+  </div>
+</div>
+<div class="accordion-item" data-hotel="コートホテル新横浜" data-priority="URGENT">
+  <div class="accordion-header">
+    <div><span class="badge badge-red">URGENT</span> コートホテル新横浜 <span style="font-size:0.75rem;color:var(--text-light);">(7.12 &rarr; 8)</span> <span class="revenue-badge loss">損失: &yen;67万/月</span></div>
+    <span class="accordion-arrow">&#9660;</span>
+  </div>
+  <div class="accordion-body">
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--red);">1</div>
+    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;34万/月</span></div>
     <div class="phase-timeline">1-2週間</div>
   </div>
   <ul class="action-list"><li data-action-id="court_shinyokohama_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a0">未着手</span></li>
@@ -353,14 +351,10 @@
 <li data-action-id="court_shinyokohama_p1_a3"><span class="action-text">消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a3">未着手</span></li>
 <li data-action-id="court_shinyokohama_p1_a4"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a4">未着手</span></li>
 <li data-action-id="court_shinyokohama_p1_a5"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a5">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a6"><span class="action-text">ベッドメイク後の粘着ローラー仕上げ工程追加 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a6">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a7"><span class="action-text">排水口ヘアキャッチャーの毎回清掃・交換強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a7">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a8"><span class="action-text">バスルーム清掃後の目視チェック強化 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a8">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a9"><span class="action-text">エアコンフィルター・内部のカビ除去と消毒 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a9">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a10"><span class="action-text">加湿器の分解洗浄・カビ除去 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a10">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a11"><span class="action-text">浴室天井・壁・目地のカビ取り処理 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a11">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a12"><span class="action-text">排水口の徹底清掃と詰まり除去 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a12">未着手</span></li>
-<li data-action-id="court_shinyokohama_p1_a13"><span class="action-text">排水トラップの点検・洗浄 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a13">未着手</span></li></ul>
+<li data-action-id="court_shinyokohama_p1_a6"><span class="action-text">害虫駆除業者による即時消毒実施 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a6">未着手</span></li>
+<li data-action-id="court_shinyokohama_p1_a7"><span class="action-text">発生箇所の特定と封鎖 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a7">未着手</span></li>
+<li data-action-id="court_shinyokohama_p1_a8"><span class="action-text">排水口の徹底清掃と詰まり除去 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a8">未着手</span></li>
+<li data-action-id="court_shinyokohama_p1_a9"><span class="action-text">排水トラップの点検・洗浄 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p1_a9">未着手</span></li></ul>
 </div>
 <div class="phase">
   <div class="phase-header">
@@ -373,12 +367,10 @@
 <li data-action-id="court_shinyokohama_p2_a2"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a2">未着手</span></li>
 <li data-action-id="court_shinyokohama_p2_a3"><span class="action-text">エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a3">未着手</span></li>
 <li data-action-id="court_shinyokohama_p2_a4"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a4">未着手</span></li>
-<li data-action-id="court_shinyokohama_p2_a5"><span class="action-text">清掃チェックリストに毛髪確認項目を明記 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a5">未着手</span></li>
-<li data-action-id="court_shinyokohama_p2_a6"><span class="action-text">白色・黒色素材箇所の重点チェック体制構築 <span class="action-cat">毛髪・髪の毛</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a6">未着手</span></li>
-<li data-action-id="court_shinyokohama_p2_a7"><span class="action-text">防カビコーティング施工（浴室・エアコン周り） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a7">未着手</span></li>
-<li data-action-id="court_shinyokohama_p2_a8"><span class="action-text">エアコン月次メンテナンスサイクル導入 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a8">未着手</span></li>
-<li data-action-id="court_shinyokohama_p2_a9"><span class="action-text">月次排水管高圧洗浄の定期実施 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a9">未着手</span></li>
-<li data-action-id="court_shinyokohama_p2_a10"><span class="action-text">排水口ストレーナーの定期交換サイクル導入 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a10">未着手</span></li></ul>
+<li data-action-id="court_shinyokohama_p2_a5"><span class="action-text">月次予防駆除の定期契約導入 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a5">未着手</span></li>
+<li data-action-id="court_shinyokohama_p2_a6"><span class="action-text">侵入経路の点検と封鎖工事 <span class="action-cat">害虫</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a6">未着手</span></li>
+<li data-action-id="court_shinyokohama_p2_a7"><span class="action-text">月次排水管高圧洗浄の定期実施 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a7">未着手</span></li>
+<li data-action-id="court_shinyokohama_p2_a8"><span class="action-text">排水口ストレーナーの定期交換サイクル導入 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p2_a8">未着手</span></li></ul>
 </div>
 <div class="phase">
   <div class="phase-header">
@@ -391,23 +383,21 @@
 <li data-action-id="court_shinyokohama_p3_a2"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p3_a2">未着手</span></li>
 <li data-action-id="court_shinyokohama_p3_a3"><span class="action-text">空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p3_a3">未着手</span></li>
 <li data-action-id="court_shinyokohama_p3_a4"><span class="action-text">フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p3_a4">未着手</span></li>
-<li data-action-id="court_shinyokohama_p3_a5"><span class="action-text">換気設備の改善提案（換気扇能力の見直し） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p3_a5">未着手</span></li>
-<li data-action-id="court_shinyokohama_p3_a6"><span class="action-text">除湿対策の強化（除湿機導入検討） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p3_a6">未着手</span></li>
-<li data-action-id="court_shinyokohama_p3_a7"><span class="action-text">排水管の老朽化調査と更新計画の策定 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p3_a7">未着手</span></li></ul>
+<li data-action-id="court_shinyokohama_p3_a5"><span class="action-text">排水管の老朽化調査と更新計画の策定 <span class="action-cat">排水・詰まり</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="court_shinyokohama_p3_a5">未着手</span></li></ul>
 </div>
   </div>
 </div>
 <h2 style="font-size:1rem;font-weight:700;color:var(--orange);margin:1.5rem 0 0.75rem;">要注意 (3ホテル)</h2>
 <div class="accordion-item" data-hotel="コンフォートイン六本木" data-priority="HIGH">
   <div class="accordion-header">
-    <div><span class="badge badge-orange">HIGH</span> コンフォートイン六本木 <span style="font-size:0.75rem;color:var(--text-light);">(8.16 &rarr; 9)</span> <span class="revenue-badge loss">損失: &yen;45万/月</span></div>
+    <div><span class="badge badge-orange">HIGH</span> コンフォートイン六本木 <span style="font-size:0.75rem;color:var(--text-light);">(8.23 &rarr; 9)</span> <span class="revenue-badge loss">損失: &yen;39万/月</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
 <div class="phase">
   <div class="phase-header">
     <div class="phase-num" style="background:var(--red);">1</div>
-    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;23万/月</span></div>
+    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;20万/月</span></div>
     <div class="phase-timeline">1-2週間</div>
   </div>
   <ul class="action-list"><li data-action-id="comfort_roppongi_p1_a0"><span class="action-text">臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_roppongi_p1_a0">未着手</span></li>
@@ -425,7 +415,7 @@
 <div class="phase">
   <div class="phase-header">
     <div class="phase-num" style="background:var(--orange);">2</div>
-    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;14万/月</span></div>
+    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;12万/月</span></div>
     <div class="phase-timeline">1-3ヶ月</div>
   </div>
   <ul class="action-list"><li data-action-id="comfort_roppongi_p2_a0"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_roppongi_p2_a0">未着手</span></li>
@@ -440,7 +430,7 @@
 <div class="phase">
   <div class="phase-header">
     <div class="phase-num" style="background:var(--blue);">3</div>
-    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;9万/月</span></div>
+    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;8万/月</span></div>
     <div class="phase-timeline">3-6ヶ月</div>
   </div>
   <ul class="action-list"><li data-action-id="comfort_roppongi_p3_a0"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comfort_roppongi_p3_a0">未着手</span></li>
@@ -453,9 +443,61 @@
 </div>
   </div>
 </div>
+<div class="accordion-item" data-hotel="ホテルコメント横浜関内" data-priority="HIGH">
+  <div class="accordion-header">
+    <div><span class="badge badge-orange">HIGH</span> ホテルコメント横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(8.87 &rarr; 9.2)</span> <span class="revenue-badge loss">損失: &yen;45万/月</span></div>
+    <span class="accordion-arrow">&#9660;</span>
+  </div>
+  <div class="accordion-body">
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--red);">1</div>
+    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;23万/月</span></div>
+    <div class="phase-timeline">1-2週間</div>
+  </div>
+  <ul class="action-list"><li data-action-id="comment_yokohama_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a0">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a1"><span class="action-text">重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a1">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a2"><span class="action-text">臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a2">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a3"><span class="action-text">消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a3">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a4"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a4">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a5"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a5">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a6"><span class="action-text">エアコンフィルター・内部のカビ除去と消毒 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a6">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a7"><span class="action-text">加湿器の分解洗浄・カビ除去 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a7">未着手</span></li>
+<li data-action-id="comment_yokohama_p1_a8"><span class="action-text">浴室天井・壁・目地のカビ取り処理 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a8">未着手</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--orange);">2</div>
+    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;14万/月</span></div>
+    <div class="phase-timeline">1-3ヶ月</div>
+  </div>
+  <ul class="action-list"><li data-action-id="comment_yokohama_p2_a0"><span class="action-text">品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a0">未着手</span></li>
+<li data-action-id="comment_yokohama_p2_a1"><span class="action-text">QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a1">未着手</span></li>
+<li data-action-id="comment_yokohama_p2_a2"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a2">未着手</span></li>
+<li data-action-id="comment_yokohama_p2_a3"><span class="action-text">エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a3">未着手</span></li>
+<li data-action-id="comment_yokohama_p2_a4"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a4">未着手</span></li>
+<li data-action-id="comment_yokohama_p2_a5"><span class="action-text">防カビコーティング施工（浴室・エアコン周り） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a5">未着手</span></li>
+<li data-action-id="comment_yokohama_p2_a6"><span class="action-text">エアコン月次メンテナンスサイクル導入 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a6">未着手</span></li></ul>
+</div>
+<div class="phase">
+  <div class="phase-header">
+    <div class="phase-num" style="background:var(--blue);">3</div>
+    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;9万/月</span></div>
+    <div class="phase-timeline">3-6ヶ月</div>
+  </div>
+  <ul class="action-list"><li data-action-id="comment_yokohama_p3_a0"><span class="action-text">清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a0">未着手</span></li>
+<li data-action-id="comment_yokohama_p3_a1"><span class="action-text">デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a1">未着手</span></li>
+<li data-action-id="comment_yokohama_p3_a2"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a2">未着手</span></li>
+<li data-action-id="comment_yokohama_p3_a3"><span class="action-text">空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a3">未着手</span></li>
+<li data-action-id="comment_yokohama_p3_a4"><span class="action-text">フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a4">未着手</span></li>
+<li data-action-id="comment_yokohama_p3_a5"><span class="action-text">換気設備の改善提案（換気扇能力の見直し） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a5">未着手</span></li>
+<li data-action-id="comment_yokohama_p3_a6"><span class="action-text">除湿対策の強化（除湿機導入検討） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a6">未着手</span></li></ul>
+</div>
+  </div>
+</div>
 <div class="accordion-item" data-hotel="ダイワロイネットホテル東京大崎" data-priority="HIGH">
   <div class="accordion-header">
-    <div><span class="badge badge-orange">HIGH</span> ダイワロイネットホテル東京大崎 <span style="font-size:0.75rem;color:var(--text-light);">(8.84 &rarr; 9.1)</span> <span class="revenue-badge loss">損失: &yen;65万/月</span></div>
+    <div><span class="badge badge-orange">HIGH</span> ダイワロイネットホテル東京大崎 <span style="font-size:0.75rem;color:var(--text-light);">(8.83 &rarr; 9.1)</span> <span class="revenue-badge loss">損失: &yen;67万/月</span></div>
     <span class="accordion-arrow">&#9660;</span>
   </div>
   <div class="accordion-body">
@@ -491,58 +533,6 @@
   </div>
   <ul class="action-list"><li data-action-id="daiwa_osaki_p3_a0"><span class="action-text">清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="daiwa_osaki_p3_a0">未着手</span></li>
 <li data-action-id="daiwa_osaki_p3_a1"><span class="action-text">デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="daiwa_osaki_p3_a1">未着手</span></li></ul>
-</div>
-  </div>
-</div>
-<div class="accordion-item" data-hotel="ホテルコメント横浜関内" data-priority="HIGH">
-  <div class="accordion-header">
-    <div><span class="badge badge-orange">HIGH</span> ホテルコメント横浜関内 <span style="font-size:0.75rem;color:var(--text-light);">(8.88 &rarr; 9.2)</span> <span class="revenue-badge loss">損失: &yen;44万/月</span></div>
-    <span class="accordion-arrow">&#9660;</span>
-  </div>
-  <div class="accordion-body">
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--red);">1</div>
-    <div class="phase-title">フェーズ1 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;22万/月</span></div>
-    <div class="phase-timeline">1-2週間</div>
-  </div>
-  <ul class="action-list"><li data-action-id="comment_yokohama_p1_a0"><span class="action-text">清掃品質基準の明確化と全スタッフへの共有 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a0">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a1"><span class="action-text">重点箇所（水回り・ベッド周り）の清掃手順見直し <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a1">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a2"><span class="action-text">臭気発生源の特定と即時対処（排水トラップ、換気扇） <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a2">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a3"><span class="action-text">消臭・脱臭処理の実施 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a3">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a4"><span class="action-text">禁煙室の残留臭調査と脱臭処理 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a4">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a5"><span class="action-text">喫煙室との動線分離確認 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a5">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a6"><span class="action-text">エアコンフィルター・内部のカビ除去と消毒 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a6">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a7"><span class="action-text">加湿器の分解洗浄・カビ除去 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a7">未着手</span></li>
-<li data-action-id="comment_yokohama_p1_a8"><span class="action-text">浴室天井・壁・目地のカビ取り処理 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p1_a8">未着手</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--orange);">2</div>
-    <div class="phase-title">フェーズ2 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;13万/月</span></div>
-    <div class="phase-timeline">1-3ヶ月</div>
-  </div>
-  <ul class="action-list"><li data-action-id="comment_yokohama_p2_a0"><span class="action-text">品質管理チェックリストの導入と実施 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a0">未着手</span></li>
-<li data-action-id="comment_yokohama_p2_a1"><span class="action-text">QCインスペクション体制の構築（ランダム抜き打ち検査） <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a1">未着手</span></li>
-<li data-action-id="comment_yokohama_p2_a2"><span class="action-text">定期的な換気・消臭ルーティンの標準化 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a2">未着手</span></li>
-<li data-action-id="comment_yokohama_p2_a3"><span class="action-text">エアコン・排水系の臭気源の根本対策 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a3">未着手</span></li>
-<li data-action-id="comment_yokohama_p2_a4"><span class="action-text">廊下・共用部の定期脱臭処理スケジュール導入 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a4">未着手</span></li>
-<li data-action-id="comment_yokohama_p2_a5"><span class="action-text">防カビコーティング施工（浴室・エアコン周り） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a5">未着手</span></li>
-<li data-action-id="comment_yokohama_p2_a6"><span class="action-text">エアコン月次メンテナンスサイクル導入 <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p2_a6">未着手</span></li></ul>
-</div>
-<div class="phase">
-  <div class="phase-header">
-    <div class="phase-num" style="background:var(--blue);">3</div>
-    <div class="phase-title">フェーズ3 <span class="revenue-badge" style="margin-left:0.5rem;">期待ROI: &yen;9万/月</span></div>
-    <div class="phase-timeline">3-6ヶ月</div>
-  </div>
-  <ul class="action-list"><li data-action-id="comment_yokohama_p3_a0"><span class="action-text">清掃スタッフの定期研修プログラム導入 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a0">未着手</span></li>
-<li data-action-id="comment_yokohama_p3_a1"><span class="action-text">デジタル清掃記録システムの検討 <span class="action-cat">清掃品質全般</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a1">未着手</span></li>
-<li data-action-id="comment_yokohama_p3_a2"><span class="action-text">オゾン脱臭機の導入検討 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a2">未着手</span></li>
-<li data-action-id="comment_yokohama_p3_a3"><span class="action-text">空気品質モニタリングの導入 <span class="action-cat">臭気・異臭</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a3">未着手</span></li>
-<li data-action-id="comment_yokohama_p3_a4"><span class="action-text">フロア単位での完全禁煙化提案 <span class="action-cat">タバコ関連</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a4">未着手</span></li>
-<li data-action-id="comment_yokohama_p3_a5"><span class="action-text">換気設備の改善提案（換気扇能力の見直し） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a5">未着手</span></li>
-<li data-action-id="comment_yokohama_p3_a6"><span class="action-text">除湿対策の強化（除湿機導入検討） <span class="action-cat">カビ・モールド</span></span><span class="status-badge not-started" data-status="not-started" data-action-id="comment_yokohama_p3_a6">未着手</span></li></ul>
 </div>
   </div>
 </div>
