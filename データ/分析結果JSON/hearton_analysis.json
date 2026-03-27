@@ -1,10 +1,10 @@
 {
-  "total_reviews": 139,
+  "total_reviews": 140,
   "overall_avg_10pt": 8.59,
-  "high_count": 115,
-  "high_rate": 82.7,
+  "high_count": 116,
+  "high_rate": 82.9,
   "mid_count": 22,
-  "mid_rate": 15.8,
+  "mid_rate": 15.7,
   "low_count": 2,
   "low_rate": 1.4,
   "site_stats": [
@@ -18,26 +18,26 @@
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 32,
-      "native_avg": 4.38,
+      "site": "じゃらん",
+      "count": 41,
+      "native_avg": 4.32,
       "scale": "/5",
-      "avg_10pt": 8.75,
-      "median_10pt": 10.0,
+      "avg_10pt": 8.63,
+      "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 31,
+      "native_avg": 4.29,
+      "scale": "/5",
+      "avg_10pt": 8.58,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 12,
-      "native_avg": 8.58,
-      "scale": "/10",
-      "avg_10pt": 8.58,
-      "median_10pt": 8.5,
-      "judgment": "良好"
-    },
-    {
-      "site": "Booking.com",
-      "count": 22,
+      "count": 11,
       "native_avg": 8.55,
       "scale": "/10",
       "avg_10pt": 8.55,
@@ -45,11 +45,11 @@
       "judgment": "良好"
     },
     {
-      "site": "じゃらん",
-      "count": 40,
-      "native_avg": 4.22,
-      "scale": "/5",
-      "avg_10pt": 8.45,
+      "site": "Booking.com",
+      "count": 24,
+      "native_avg": 8.5,
+      "scale": "/10",
+      "avg_10pt": 8.5,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,18 +66,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 62,
-      "pct": "44.6%"
+      "count": 63,
+      "pct": "45.0%"
     },
     {
       "score": 9,
-      "count": 8,
-      "pct": "5.8%"
+      "count": 7,
+      "pct": "5.0%"
     },
     {
       "score": 8,
-      "count": 45,
-      "pct": "32.4%"
+      "count": 46,
+      "pct": "32.9%"
     },
     {
       "score": 7,
@@ -87,7 +87,7 @@
     {
       "score": 6,
       "count": 16,
-      "pct": "11.5%"
+      "pct": "11.4%"
     },
     {
       "score": 2,
@@ -96,6 +96,84 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Toyoharu"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ken"
+    },
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "DSファイター"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-27",
+      "comment": "領収書の課題は再訪の際には解決しており、レセプションスタッフにも引き継がれていた。ハード面は引き続き問題なし",
+      "good": "",
+      "bad": "",
+      "translated": "領収書の課題は再訪の際には解決しており、レセプションスタッフにも引き継がれていた。ハード面は引き続き問題なし",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "はげともさん"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "Sehr freundliches und hilfsbereites Personal, das uns bei einer Suchaktion in der Kommunikation mit den anderen Unterkünften sehr gut geholfen hat.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mo"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Clarissa"
+    },
     {
       "site": "Google",
       "rating": 3.0,
@@ -147,6 +225,45 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-26",
+      "comment": "孫の誕生で休みの日に合わせて急遽の宿泊でした。イオンも近く便利な立地の割に安く泊まれて助かりました。 部屋は低層階なので、わずかに海が見える程度。朝は学生らしき人達のカッター訓練や行き交う船をぼ〜と見て疲れを取りました。 シングルルームをツインにした狭さでしたが、長旅で身体を横にするだけで良かったので十分でした。部屋も清潔にされていました。",
+      "good": "",
+      "bad": "",
+      "translated": "孫の誕生で休みの日に合わせて急遽の宿泊でした。イオンも近く便利な立地の割に安く泊まれて助かりました。 部屋は低層階なので、わずかに海が見える程度。朝は学生らしき人達のカッター訓練や行き交う船をぼ〜と見て疲れを取りました。 シングルルームをツインにした狭さでしたが、長旅で身体を横にするだけで良かったので十分でした。部屋も清潔にされていました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ＡＲＵＲＵ9316"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "代々木体育館でのイベントの為利用しました。  駅から近いし、向かえには大きなイオンがありお部屋も予約時と違う大きなお部屋を用意してもらい大満足のホテルでした。",
+      "good": "",
+      "bad": "",
+      "translated": "代々木体育館でのイベントの為利用しました。  駅から近いし、向かえには大きなイオンがありお部屋も予約時と違う大きなお部屋を用意してもらい大満足のホテルでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゆうさん"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "駅の近くで雨が雨が降って来たけど大丈夫な距離でした。  スタッフの方達は、対応がとても良かったです。  アメニティもいろいろありました。  自販機もありました。",
+      "good": "",
+      "bad": "",
+      "translated": "駅の近くで雨が雨が降って来たけど大丈夫な距離でした。  スタッフの方達は、対応がとても良かったです。  アメニティもいろいろありました。  自販機もありました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ま〜ちゃんさん"
     },
     {
       "site": "Google",
@@ -903,110 +1020,6 @@
       "reviewer": "蘭さん"
     },
     {
-      "site": "じゃらん",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-17",
-      "comment": "有明に用があり、数回利用しています。  品川シーサイド駅目の前で、スーパー・レストランも近くとても便利です♪",
-      "good": "",
-      "bad": "",
-      "translated": "有明に用があり、数回利用しています。  品川シーサイド駅目の前で、スーパー・レストランも近くとても便利です♪",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "不明"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-03-16",
-      "comment": "",
-      "good": "Good location, train station across the road and few shops. Spacious room compared to the standard sizes in Japan",
-      "bad": "Not many amenities. The room had a humidity smell and was pretty worn out",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "アメニティはあまり多くありませんでした。部屋は湿気臭がして、かなり老朽化していました。",
-      "reviewer": "Tatiana"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-16",
-      "comment": "部屋が4人部屋になってビックリしましたが、フロントからお部屋から全部綺麗で大満足です！ありがとうございました!",
-      "good": "",
-      "bad": "",
-      "translated": "部屋が4人部屋になってビックリしましたが、フロントからお部屋から全部綺麗で大満足です！ありがとうございました!",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "色んな所行きたい人間"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-16",
-      "comment": "品川シーサイド駅から近くて驚きました。 朝は青物横丁まで歩きましたがそんなに遠くなく便利でした！",
-      "good": "",
-      "bad": "",
-      "translated": "品川シーサイド駅から近くて驚きました。 朝は青物横丁まで歩きましたがそんなに遠くなく便利でした！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ＭＡＲＩ!!"
-    },
-    {
-      "site": "Agoda",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-16",
-      "comment": "大満足なのですが…駐車場ありのホテルで調べて来たのですがホテルのサイトにしか条件が載ってなく予約してから車が停められないことがわかりました。アゴダの方でも条件まで載せてもらえばファミリーカーの人には嬉しいです。結局ホテルのフロントさんが親切に料金まで教えてくれてコインパーキングに停めることがでいたので夜景もキレイで文句ないです",
-      "good": "",
-      "bad": "",
-      "translated": "大満足なのですが…駐車場ありのホテルで調べて来たのですがホテルのサイトにしか条件が載ってなく予約してから車が停められないことがわかりました。アゴダの方でも条件まで載せてもらえばファミリーカーの人には嬉しいです。結局ホテルのフロントさんが親切に料金まで教えてくれてコインパーキングに停めることがでいたので夜景もキレイで文句ないです",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "sanae"
-    },
-    {
-      "site": "Google",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-16",
-      "comment": "翌日の海外旅行集合が朝早かったため利用しました。最寄りの駅から乗り継いで羽田空港第3ターミナルに直接行けるため助かりました。 一人5千円程度でコスパも良しです。",
-      "good": "",
-      "bad": "",
-      "translated": "翌日の海外旅行集合が朝早かったため利用しました。最寄りの駅から乗り継いで羽田空港第3ターミナルに直接行けるため助かりました。 一人5千円程度でコスパも良しです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "肝臓は水で洗うんよ"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-16",
-      "comment": "東京観光目的て初めての利用です。  一泊寝泊まりするには充分いいホテルと感じました。  ただ、朝食バイキングについては、品数がそれほど多くないうえ、パン用のオープントースターがないなど、物足りなく感じました。  ありがとうございました。",
-      "good": "",
-      "bad": "",
-      "translated": "東京観光目的て初めての利用です。  一泊寝泊まりするには充分いいホテルと感じました。  ただ、朝食バイキングについては、品数がそれほど多くないうえ、パン用のオープントースターがないなど、物足りなく感じました。  ありがとうございました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "スイマーさん"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-15",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Chatchapon"
-    },
-    {
       "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1287,7 +1300,7 @@
       "comment": "參加展會住的這家酒店，周邊比較偏，吃飯的地方都比較少，晚上到酒店出門走了半天也沒看到一家餐廳，風大又冷，衹能去便利店買飯吃……旅遊的話，不推薦這裏",
       "good": "",
       "bad": "",
-      "translated": "展覧会のために宿泊したホテルは、かなり辺鄙な場所にあり、食事の選択肢が限られていました。夜にホテルに到着してからずっと歩き回りましたが、レストランは一つも見つかりませんでした。風が強く寒かったので、コンビニで食べ物を買うしかありませんでした…。観光目的でこのホテルをお勧めしません。",
+      "translated": "展覧会のために宿泊したホテルは、かなり辺鄙な場所にあり、食事の選択肢が限られていました。夜にホテルに到着してからずっと歩き回りましたが、レストランは一つも見つかりませんでした。風が強く寒かったので、コンビニで食べ物を買うしかありませんでした…。観光客にはこのホテルはお勧めしません。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "T‍o‍n‍g‍d‍a‍m‍a‍o"

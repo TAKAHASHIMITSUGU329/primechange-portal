@@ -1,19 +1,19 @@
 {
   "total_reviews": 130,
-  "overall_avg_10pt": 8.72,
-  "high_count": 107,
-  "high_rate": 82.3,
-  "mid_count": 21,
-  "mid_rate": 16.2,
+  "overall_avg_10pt": 8.68,
+  "high_count": 106,
+  "high_rate": 81.5,
+  "mid_count": 22,
+  "mid_rate": 16.9,
   "low_count": 2,
   "low_rate": 1.5,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 31,
-      "native_avg": 9.65,
+      "count": 30,
+      "native_avg": 9.63,
       "scale": "/10",
-      "avg_10pt": 9.65,
+      "avg_10pt": 9.63,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -38,18 +38,18 @@
     {
       "site": "Booking.com",
       "count": 66,
-      "native_avg": 8.67,
+      "native_avg": 8.65,
       "scale": "/10",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.65,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 18,
-      "native_avg": 3.61,
+      "count": 19,
+      "native_avg": 3.58,
       "scale": "/5",
-      "avg_10pt": 7.22,
+      "avg_10pt": 7.16,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -66,13 +66,13 @@
   "distribution": [
     {
       "score": 10,
-      "count": 58,
-      "pct": "44.6%"
+      "count": 56,
+      "pct": "43.1%"
     },
     {
       "score": 9,
-      "count": 23,
-      "pct": "17.7%"
+      "count": 24,
+      "pct": "18.5%"
     },
     {
       "score": 8,
@@ -86,8 +86,8 @@
     },
     {
       "score": 6,
-      "count": 10,
-      "pct": "7.7%"
+      "count": 11,
+      "pct": "8.5%"
     },
     {
       "score": 5,
@@ -101,6 +101,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-27",
+      "comment": "駅前でアクセスは良いのだが、地下駐車場から向かうと、階段の上り下りをせざるを得ないところが多く、車で来る人には面倒かも。電車・タクシーなら問題なし。 新しくはないが十分綺麗です。エレベーターの表示がかすれてるのは年期の証拠。",
+      "good": "",
+      "bad": "",
+      "translated": "駅前でアクセスは良いのだが、地下駐車場から向かうと、階段の上り下りをせざるを得ないところが多く、車で来る人には面倒かも。電車・タクシーなら問題なし。 新しくはないが十分綺麗です。エレベーターの表示がかすれてるのは年期の証拠。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mitsuo Watanabe"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "・駅近で周囲に飲食店も多数ある利便性 ・羽田空港も京急でアクセス便利",
+      "bad": "・個人情報の管理が危うい点 ・全体的に設備が古い点(そんなに気にはならない)",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "・個人情報の管理が危うい点 ・全体的に設備が古い点(そんなに気にはならない)",
+      "reviewer": "Ogawa"
+    },
     {
       "site": "Trip.com",
       "rating": 9.0,
@@ -919,32 +945,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Ayumi"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-08",
-      "comment": "多次入住，距離JR車站非常近，周邊繁華便利。",
-      "good": "",
-      "bad": "",
-      "translated": "私はここに何度も宿泊しています。JR駅からとても近く、周辺地域も賑やかで便利です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Attia"
     },
     {
       "site": "Booking.com",

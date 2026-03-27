@@ -28,7 +28,7 @@
     },
     {
       "site": "Trip.com",
-      "count": 29,
+      "count": 28,
       "native_avg": 9.79,
       "scale": "/10",
       "avg_10pt": 9.79,
@@ -37,11 +37,11 @@
     },
     {
       "site": "Booking.com",
-      "count": 65,
-      "native_avg": 8.94,
+      "count": 66,
+      "native_avg": 8.95,
       "scale": "/10",
-      "avg_10pt": 8.94,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.95,
+      "median_10pt": 9.5,
       "judgment": "良好"
     },
     {
@@ -111,6 +111,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "很優的旅店，乾淨、安靜、舒服 離地鐵站約6～8分鐘，也很方便😊👍",
+      "good": "",
+      "bad": "",
+      "translated": "素晴らしいホテルです。清潔で静かで快適でした。地下鉄の駅から徒歩6～8分ほどで、とても便利です。😊👍",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "C‍H‍I‍U‍ ‍h‍u‍n‍g‍ ‍S‍H‍U"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Eugen"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -931,32 +957,6 @@
       "reviewer": "ゲ‍ス‍ト"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-06",
-      "comment": "地理位置非常好，附近車站多，去哪都方便. 室內不大但是設施齊全，該有的東西都有 工作人員服務態度特別好，前台也備有翻譯器 也可以嘗試一下自助早餐，東西不多但勝在好吃",
-      "good": "",
-      "bad": "",
-      "translated": "立地は抜群で、近くに駅が多数あるため、移動に非常に便利です。室内は広くはありませんが、必要なものはすべて揃っています。スタッフは非常に親切で、フロントには通訳もいます。ビュッフェスタイルの朝食もおすすめです。種類は多くはありませんが、とても美味しいです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-06",
-      "comment": "도쿄 JR 아키아바라 역과 약 15분 거리라서 조금 먼 느낌이 있지만 주택가에 있어서 매우 조용합니다. 숙소 공간은 일본 치고는 상당히 넓은 편이고 깨끗합니다. 조용한 숙소 원하시면 강추입니다",
-      "good": "",
-      "bad": "",
-      "translated": "東京JR秋葉原駅から約15分の距離なので少し遠い感じがありますが、住宅街にとってとても静かです。宿泊スペースは日本の打撃はかなり広く、清潔です。静かな宿泊施設が欲しいなら",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "용‍돌‍님"
-    },
-    {
       "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
@@ -1016,7 +1016,7 @@
       "comment": "2人房可以加床變3人房的好選擇",
       "good": "",
       "bad": "",
-      "translated": "エキストラベッドを追加することで、2人部屋を3人部屋に変えるのに最適な方法です。",
+      "translated": "エキストラベッドを追加することで、2人部屋を3人部屋に変えるのに最適な選択肢です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "林政雄"

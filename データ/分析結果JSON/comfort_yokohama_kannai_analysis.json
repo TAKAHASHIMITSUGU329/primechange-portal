@@ -1,12 +1,12 @@
 {
   "total_reviews": 143,
-  "overall_avg_10pt": 7.46,
-  "high_count": 95,
-  "high_rate": 66.4,
+  "overall_avg_10pt": 7.52,
+  "high_count": 96,
+  "high_rate": 67.1,
   "mid_count": 29,
   "mid_rate": 20.3,
-  "low_count": 19,
-  "low_rate": 13.3,
+  "low_count": 18,
+  "low_rate": 12.6,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -19,12 +19,21 @@
     },
     {
       "site": "Agoda",
-      "count": 12,
+      "count": 11,
       "native_avg": 8.0,
       "scale": "/10",
       "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "良好"
+    },
+    {
+      "site": "Google",
+      "count": 24,
+      "native_avg": 3.79,
+      "scale": "/5",
+      "avg_10pt": 7.58,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
     },
     {
       "site": "楽天トラベル",
@@ -36,48 +45,39 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "Google",
-      "count": 22,
-      "native_avg": 3.68,
-      "scale": "/5",
-      "avg_10pt": 7.36,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "じゃらん",
-      "count": 20,
-      "native_avg": 3.55,
+      "count": 19,
+      "native_avg": 3.63,
       "scale": "/5",
-      "avg_10pt": 7.1,
+      "avg_10pt": 7.26,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
     {
       "site": "Booking.com",
       "count": 28,
-      "native_avg": 6.96,
+      "native_avg": 7.0,
       "scale": "/10",
-      "avg_10pt": 6.96,
+      "avg_10pt": 7.0,
       "median_10pt": 8.0,
-      "judgment": "要改善"
+      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 32,
-      "pct": "22.4%"
+      "count": 34,
+      "pct": "23.8%"
     },
     {
       "score": 9,
-      "count": 7,
-      "pct": "4.9%"
+      "count": 8,
+      "pct": "5.6%"
     },
     {
       "score": 8,
-      "count": 56,
-      "pct": "39.2%"
+      "count": 54,
+      "pct": "37.8%"
     },
     {
       "score": 7,
@@ -96,8 +96,8 @@
     },
     {
       "score": 4,
-      "count": 11,
-      "pct": "7.7%"
+      "count": 10,
+      "pct": "7.0%"
     },
     {
       "score": 3,
@@ -111,6 +111,45 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "ロケーション ウェルカムドリンク",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "池田"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "最高のロケーションです。最寄りの駅まではわずか5分。ホテルの向かいにはコンビニエンスストアがあります。周辺のレストランも素晴らしいです。",
+      "good": "",
+      "bad": "",
+      "translated": "最高のロケーションです。最寄りの駅まではわずか5分。ホテルの向かいにはコンビニエンスストアがあります。周辺のレストランも素晴らしいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yeong Uen Yea"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "Great location. Nearest train station is just 5mins away. convenience store just opposite the hotel. Restaurants nearby are great.",
+      "good": "",
+      "bad": "",
+      "translated": "最高のロケーションです。最寄りの駅まではわずか5分。ホテルの向かいにはコンビニエンスストアがあります。周辺のレストランも素晴らしいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yeong Uen Yea"
+    },
     {
       "site": "Google",
       "rating": 3.0,
@@ -860,7 +899,7 @@
       "comment": "自助早餐都撤了，變成盒飯飯糰。在裝修，局部像工地一樣。這些訊息訂房頁面毫無提及。 優點：衞生可以，房間寬敞。 缺點：白燈光昏暗，洗護辣雞，和東橫一樣辣雞。",
       "good": "",
       "bad": "",
-      "translated": "ビュッフェスタイルの朝食は廃止され、お弁当とおにぎりに置き換えられました。改装工事中で、一部は工事現場のようです。これらの詳細は予約ページには記載されていません。長所：清潔さは許容範囲内、部屋は広々としています。短所：照明が暗く、アメニティがひどく、東横インと全く同じです。",
+      "translated": "ビュッフェスタイルの朝食は廃止され、代わりに弁当とおにぎりが提供されるようになりました。改装工事中で、一部は工事現場のようです。この情報は予約ページには記載されていません。良い点：清潔さは許容範囲内、部屋は広々としています。悪い点：照明が暗く、アメニティがひどい。東横インと全く同じです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -1033,45 +1072,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "くにお"
-    },
-    {
-      "site": "Agoda",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-10",
-      "comment": "部屋は清潔だし、コンパクトで使いやすい。朝食付きだが、場所が狭いのでかなり混みます。",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は清潔だし、コンパクトで使いやすい。朝食付きだが、場所が狭いのでかなり混みます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "h"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 2.0,
-      "rating_10pt": 4.0,
-      "date": "2026-03-10",
-      "comment": "気づいていなかった自分自身の落ち度ではありますが、ちょうど、朝食会場改装に当たってしまい、楽しみにしていた朝食が、ごく簡素なお弁当になって、残念な思いをしました(無料朝食なので文句も言えません)。あわせて、朝にコーヒーすらホテルでいただけず、コンビニに行かなければならなかったことが良い思い出になりませんでした。スタッフの皆さんはけっして感じ悪くなかったです。周りに飲食店も多く、地下鉄駅からも近く、便利な立地ではあると思います。アメニティはごくシンプルで、ブラシはなくクシだったのが珍しかったです。",
-      "good": "",
-      "bad": "",
-      "translated": "気づいていなかった自分自身の落ち度ではありますが、ちょうど、朝食会場改装に当たってしまい、楽しみにしていた朝食が、ごく簡素なお弁当になって、残念な思いをしました(無料朝食なので文句も言えません)。あわせて、朝にコーヒーすらホテルでいただけず、コンビニに行かなければならなかったことが良い思い出になりませんでした。スタッフの皆さんはけっして感じ悪くなかったです。周りに飲食店も多く、地下鉄駅からも近く、便利な立地ではあると思います。アメニティはごくシンプルで、ブラシはなくクシだったのが珍しかったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "そらさん"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-10",
-      "comment": "",
-      "good": "清潔感ありました",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Takayasu"
     },
     {
       "site": "Agoda",

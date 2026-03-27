@@ -1,19 +1,19 @@
 {
-  "total_reviews": 140,
-  "overall_avg_10pt": 8.72,
-  "high_count": 121,
-  "high_rate": 86.4,
-  "mid_count": 16,
-  "mid_rate": 11.4,
+  "total_reviews": 145,
+  "overall_avg_10pt": 8.73,
+  "high_count": 125,
+  "high_rate": 86.2,
+  "mid_count": 17,
+  "mid_rate": 11.7,
   "low_count": 3,
   "low_rate": 2.1,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 34,
-      "native_avg": 9.44,
+      "count": 36,
+      "native_avg": 9.47,
       "scale": "/10",
-      "avg_10pt": 9.44,
+      "avg_10pt": 9.47,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -29,36 +29,36 @@
     {
       "site": "じゃらん",
       "count": 26,
-      "native_avg": 4.54,
+      "native_avg": 4.5,
       "scale": "/5",
-      "avg_10pt": 9.08,
+      "avg_10pt": 9.0,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 15,
-      "native_avg": 4.33,
+      "count": 17,
+      "native_avg": 4.41,
       "scale": "/5",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.82,
       "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
-      "count": 25,
-      "native_avg": 4.2,
+      "count": 26,
+      "native_avg": 4.19,
       "scale": "/5",
-      "avg_10pt": 8.4,
+      "avg_10pt": 8.38,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
       "count": 34,
-      "native_avg": 7.88,
+      "native_avg": 7.85,
       "scale": "/10",
-      "avg_10pt": 7.88,
+      "avg_10pt": 7.85,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 64,
-      "pct": "45.7%"
+      "count": 68,
+      "pct": "46.9%"
     },
     {
       "score": 9,
-      "count": 16,
-      "pct": "11.4%"
+      "count": 15,
+      "pct": "10.3%"
     },
     {
       "score": 8,
-      "count": 41,
-      "pct": "29.3%"
+      "count": 42,
+      "pct": "29.0%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "5.0%"
+      "pct": "4.8%"
     },
     {
       "score": 6,
-      "count": 6,
-      "pct": "4.3%"
+      "count": 7,
+      "pct": "4.8%"
     },
     {
       "score": 5,
@@ -113,6 +113,19 @@
   "comments": [
     {
       "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-28",
+      "comment": "離目白車站近，出站左轉走約三、五分鐘，比較好找。房間雖小，基本設施齊全，性價比可以，去池袋十分方便。有洗漱用品、小袋化粧水、洗面奶等，咖啡放抽屜裏，需要的話問服務員要。",
+      "good": "",
+      "bad": "",
+      "translated": "目白駅からすぐ近く、駅を出て左へ徒歩3～5分なので、簡単に見つけることができます。部屋は小さいですが、基本的なアメニティはすべて揃っているので、コストパフォーマンスに優れています。池袋へのアクセスも非常に便利です。洗面用具、化粧水、洗顔料の小袋が備え付けられています。コーヒーは引き出しに入っているので、必要な場合はスタッフにお申し付けください。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-03-27",
@@ -123,6 +136,97 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "素敵でお手頃価格",
+      "good": "",
+      "bad": "",
+      "translated": "素敵でお手頃価格",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Daniel Cardenas"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-27",
+      "comment": "這次住6天5夜 本以為離車站很遠 但實際走2、3分鐘就到了 是ㄧ間cp值很高的飯店 安靜、離車站近、環境舒服 早餐豐富  下次會考慮再住",
+      "good": "",
+      "bad": "",
+      "translated": "今回は6日間5泊しました。駅から遠いと思っていましたが、実際は徒歩2～3分ほどでした。静かで駅にも近く、快適な環境で、朝食も充実していて、とてもコストパフォーマンスの良いホテルです。次回もまた利用したいと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "房間很不錯 酒店負一層有投幣的洗衣機 500日圓就可以把衣服洗凈烘乾 非常方便 前台服務職員非常溫馨 服務態度很好",
+      "good": "",
+      "bad": "",
+      "translated": "部屋はとても快適でした。地下にはコインランドリーがあり、洗濯乾燥がたったの500円で済んだので大変便利でした。フロントのスタッフもとても親切で、素晴らしいサービスを提供してくれました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-27",
+      "comment": "駅から非常に近く、雨が降ってきたときは特に助かりました。また、ホテルの周りの商店街には大変魅力的なお店が多く、夕食をどこでとるか非常に悩むくらいでした。部屋はやや年季が入っていますが、きれいに掃除されておりました。理由はわかりませんが、廊下とバスルームの室温が高く、ときに暑く感じるほどでした。朝食は非常に混む時間帯がありますが、それをうまく避けられれば、落ち着いて食べることができます。近くに用事のある時は、また利用したいと思わせる場所でした。ありがとうございました。",
+      "good": "",
+      "bad": "",
+      "translated": "駅から非常に近く、雨が降ってきたときは特に助かりました。また、ホテルの周りの商店街には大変魅力的なお店が多く、夕食をどこでとるか非常に悩むくらいでした。部屋はやや年季が入っていますが、きれいに掃除されておりました。理由はわかりませんが、廊下とバスルームの室温が高く、ときに暑く感じるほどでした。朝食は非常に混む時間帯がありますが、それをうまく避けられれば、落ち着いて食べることができます。近くに用事のある時は、また利用したいと思わせる場所でした。ありがとうございました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "離地鐵站很近 交通方便",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hsin"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "素敵で経済的",
+      "good": "",
+      "bad": "",
+      "translated": "素敵で経済的",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Daniel Cardenas"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "飯店在JR山手線目白站出來左手邊走路2分鐘的地方，途中還有一間LAWSON且離池袋一站、新宿三站非常方便，接近櫻花季的時間好險有提早訂，價格還是蠻划算的。 房間比APA大，有空間可以把2個29吋行李箱打開來整理，打掃的也很乾淨，電視還可以airplay，沒得挑剔👍",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルはJR山手線目白駅から徒歩2分、左手にあります。途中にローソンがあり、池袋から1駅、新宿から3駅と非常に便利な立地です。桜の季節に近い時期に早めに予約しておいて正解でした。料金もかなりリーズナブルでした。部屋はAPAよりも広く、29インチのスーツケース2個を広げるのに十分なスペースがありました。とても清潔で、テレビにはAirPlay機能も付いていました。まさに完璧！👍",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "M‍i‍c‍h‍a‍e‍l‍7‍2‍3"
     },
     {
       "site": "Trip.com",
@@ -149,6 +253,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Moritz"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-26",
+      "comment": "親子三世代で利用しました  トルプル部屋の為少し狭く感じましたが使いやすくて良かったです。  フロントの対応も感じ良かったです。  朝食付き(二階のガスト)も良かったです",
+      "good": "",
+      "bad": "",
+      "translated": "親子三世代で利用しました  トルプル部屋の為少し狭く感じましたが使いやすくて良かったです。  フロントの対応も感じ良かったです。  朝食付き(二階のガスト)も良かったです",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ちっちゃんさん"
     },
     {
       "site": "Trip.com",
@@ -223,7 +340,7 @@
       "comment": "設施：應有具有，每層的樓梯口都有飲水機可以喝到温水 衞生：非常好 環境：很棒，附近有松本清，cocona,紅色羅森。還有cafe 快餐店，和果子寬永堂，咖啡伴茶夢，法甜，自釀威士忌等等的。目白站出來走3分鐘就到了，非常方便",
       "good": "",
       "bad": "",
-      "translated": "設備：必要なアメニティはすべて揃っており、各階段の下には温水が出る給水器が設置されています。衛生状態：良好。環境：素晴らしい。近隣には松本清、ココナ、赤いローソンコンビニエンスストアがあります。その他にもカフェ、ファストフード店、和菓子店、コーヒーショップ、フランス菓子店、自家製ウイスキー店などがあります。目白駅から徒歩わずか3分と大変便利です。",
+      "translated": "設備：必要なアメニティはすべて揃っており、各階段の下には温水が出る給水器も設置されています。衛生状態：良好。環境：素晴らしい。近隣には松本清、ココナ、赤いローソンコンビニエンスストアがあります。その他にもカフェ、ファストフード店、和菓子店、コーヒーショップ、フランス菓子店、自家製ウイスキー店などがあります。目白駅から徒歩わずか3分と大変便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -925,62 +1042,10 @@
       "comment": "Very good in every things! The front desk is very helpful. Amenities are good and have every things you may needed, including chopstick, spoon and folks. We stay in the twin beds room. The beds can connect together without space so my child can sleep in between. The room is so spacious. Toilet is so nice. It has the large window so you can see out. Also, the air con can be adjusted in the room. We used the laundry machine as well. It is very convenience, works as expected  with reasonable price.",
       "good": "",
       "bad": "",
-      "translated": "全てにおいて非常に良かったです！フロントデスクの対応もとても親切でした。アメニティも充実していて、箸、スプーン、フォークなど必要なものは全て揃っていました。ツインベッドルームに宿泊しましたが、ベッドは隙間なくくっつけることができたので、子供も間に寝ることができました。部屋はとても広々としていました。トイレもとても綺麗でした。大きな窓から外の景色が見渡せました。また、エアコンは部屋の中で調節できました。洗濯機も利用しましたが、とても便利で、期待通りに機能し、料金もリーズナブルでした。",
+      "translated": "全てにおいて非常に良かったです！フロントデスクの対応もとても親切でした。アメニティも充実していて、箸、スプーン、フォークなど必要なものは全て揃っていました。ツインベッドルームに宿泊しましたが、ベッドは隙間なくくっつけることができたので、子供も間に寝ることができました。部屋はとても広々としていました。トイレもとても綺麗でした。大きな窓からは外の景色が見えます。また、エアコンは部屋の中で調節できました。洗濯機も利用しましたが、とても便利で、期待通りに機能し、料金もリーズナブルでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "DaddyRabbit"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-03",
-      "comment": "房間還可以吧枱面上有個大窗户的窗户和窗户的門窗是我最愛用最喜歡🥰？我是Ada Peter just checking on my schedule for tomorrow morning at work",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は素敵です。バーカウンターには大きな窓があり、その窓とドアが私のお気に入りです🥰。私はエイダ・ピーターです。明日の朝の仕事のスケジュールを確認しているところです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-03",
-      "comment": "また泊まりたいです",
-      "good": "",
-      "bad": "",
-      "translated": "また泊まりたいです",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-03",
-      "comment": "",
-      "good": "Emplacement parfait, à 5mn du métro (1 seule sortie) la rue est calme avec tout ce qu'il faut. L'hôtel est rétro, avec une très grande chambre et grande salle de bain ( rare à Tokyo) .Le personnel de l'hôtel est charmant et ils nous ont facilité le transfert de nos bagages pour Kyoto.",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Philippe"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-03",
-      "comment": "初めてリッチモンドホテル目白を利用しました  駅からも近くて接客サービスも良かったですし  アメニティや珈琲、お茶、紅茶も沢山の種類がありました  各階にウォーターサーバーがあり、とても有難いです  ベッドも広かったのでぐっすり眠れて寝心地もGOOD  出窓があるので色々な物を置けて便利でした  今まではSPAに宿泊していましたが  また次回東京に来る時はリッチモンドホテル目白を利用したいと思い早速予約しました（笑）",
-      "good": "",
-      "bad": "",
-      "translated": "初めてリッチモンドホテル目白を利用しました  駅からも近くて接客サービスも良かったですし  アメニティや珈琲、お茶、紅茶も沢山の種類がありました  各階にウォーターサーバーがあり、とても有難いです  ベッドも広かったのでぐっすり眠れて寝心地もGOOD  出窓があるので色々な物を置けて便利でした  今まではSPAに宿泊していましたが  また次回東京に来る時はリッチモンドホテル目白を利用したいと思い早速予約しました（笑）",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ローズマリーさん"
     },
     {
       "site": "Agoda",

@@ -1,12 +1,12 @@
 {
-  "total_reviews": 57,
-  "overall_avg_10pt": 7.39,
+  "total_reviews": 58,
+  "overall_avg_10pt": 7.34,
   "high_count": 36,
-  "high_rate": 63.2,
-  "mid_count": 15,
-  "mid_rate": 26.3,
+  "high_rate": 62.1,
+  "mid_count": 16,
+  "mid_rate": 27.6,
   "low_count": 6,
-  "low_rate": 10.5,
+  "low_rate": 10.3,
   "site_stats": [
     {
       "site": "Google",
@@ -46,10 +46,10 @@
     },
     {
       "site": "Agoda",
-      "count": 15,
-      "native_avg": 6.8,
+      "count": 16,
+      "native_avg": 6.69,
       "scale": "/10",
-      "avg_10pt": 6.8,
+      "avg_10pt": 6.69,
       "median_10pt": 7.0,
       "judgment": "要改善"
     }
@@ -58,50 +58,63 @@
     {
       "score": 10,
       "count": 8,
-      "pct": "14.0%"
+      "pct": "13.8%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "5.3%"
+      "pct": "5.2%"
     },
     {
       "score": 8,
       "count": 25,
-      "pct": "43.9%"
+      "pct": "43.1%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "8.8%"
+      "pct": "8.6%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "14.0%"
+      "pct": "13.8%"
     },
     {
       "score": 5,
-      "count": 2,
-      "pct": "3.5%"
+      "count": 3,
+      "pct": "5.2%"
     },
     {
       "score": 4,
       "count": 4,
-      "pct": "7.0%"
+      "pct": "6.9%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.8%"
+      "pct": "1.7%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "1.8%"
+      "pct": "1.7%"
     }
   ],
   "comments": [
+    {
+      "site": "Agoda",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-27",
+      "comment": "他のアバよりも狭い 駅からは遠いが、その分比較的安い 羽田空港の乗り継ぎに利用するなら十分か",
+      "good": "",
+      "bad": "",
+      "translated": "他のアバよりも狭い 駅からは遠いが、その分比較的安い 羽田空港の乗り継ぎに利用するなら十分か",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "KOJI"
+    },
     {
       "site": "Booking.com",
       "rating": 8.0,

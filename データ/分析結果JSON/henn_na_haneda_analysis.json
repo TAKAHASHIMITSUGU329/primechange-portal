@@ -1,10 +1,10 @@
 {
-  "total_reviews": 334,
-  "overall_avg_10pt": 8.28,
-  "high_count": 254,
-  "high_rate": 76.0,
+  "total_reviews": 338,
+  "overall_avg_10pt": 8.3,
+  "high_count": 258,
+  "high_rate": 76.3,
   "mid_count": 69,
-  "mid_rate": 20.7,
+  "mid_rate": 20.4,
   "low_count": 11,
   "low_rate": 3.3,
   "site_stats": [
@@ -46,19 +46,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 143,
-      "native_avg": 8.13,
+      "count": 145,
+      "native_avg": 8.14,
       "scale": "/10",
-      "avg_10pt": 8.13,
+      "avg_10pt": 8.14,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 63,
-      "native_avg": 4.03,
+      "count": 65,
+      "native_avg": 4.06,
       "scale": "/5",
-      "avg_10pt": 8.06,
+      "avg_10pt": 8.12,
       "median_10pt": 10.0,
       "judgment": "良好"
     }
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 114,
-      "pct": "34.1%"
+      "count": 117,
+      "pct": "34.6%"
     },
     {
       "score": 9,
       "count": 43,
-      "pct": "12.9%"
+      "pct": "12.7%"
     },
     {
       "score": 8,
-      "count": 97,
+      "count": 98,
       "pct": "29.0%"
     },
     {
       "score": 7,
       "count": 31,
-      "pct": "9.3%"
+      "pct": "9.2%"
     },
     {
       "score": 6,
       "count": 29,
-      "pct": "8.7%"
+      "pct": "8.6%"
     },
     {
       "score": 5,
@@ -111,6 +111,58 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Saori"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "恐竜がチェックインの手続きをしてくれます。部屋は小さいですが、必要なものはすべて揃っています。快適なベッド、ベッドサイドの照明、十分な広さのバスルーム、室温調節機能などが備わっています。",
+      "good": "",
+      "bad": "",
+      "translated": "恐竜がチェックインの手続きをしてくれます。部屋は小さいですが、必要なものはすべて揃っています。快適なベッド、ベッドサイドの照明、十分な広さのバスルーム、室温調節機能などが備わっています。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Janina Crush"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Gupta"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "A DINOSAUR CHECKS YOU IN. The rooms are small but have everything you need. Comfortable beds, access to the lights bedside, good sized bathroom and control of temperature in the room.",
+      "good": "",
+      "bad": "",
+      "translated": "恐竜がチェックインの手続きをしてくれます。部屋は小さいですが、必要なものはすべて揃っています。快適なベッド、ベッドサイドの照明、十分な広さのバスルーム、室温調節機能などが備わっています。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Janina Crush"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -290,7 +342,7 @@
       "bad": "If you have long name like I do (3 first names and 1 long last name), the automated check-in process straight up doesn't work and you need staff assistance to check in.     From a location POV, don't stay here as a main hub to stay in Tokyo, as the train in to the city goes like once per 30 minutes. Only recommend if you need a short hop before going to the airport or similar.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "私のように名前が長い場合（名字が3つと長い姓が1つ）、自動チェックイン機能は全く機能せず、スタッフの手伝いが必要になります。立地に関しては、東京中心部への電車が30分に1本しかないため、東京滞在の拠点としてはお勧めできません。空港などへ行く前にちょっと立ち寄る程度であれば良いでしょう。",
+      "translated_bad": "私のように名前が長い場合（名字が3つと長い姓が1つ）、自動チェックイン機能は全く機能せず、スタッフの手伝いが必要になります。立地に関しては、東京中心部への電車が30分に1本しかないため、東京滞在の拠点として利用するのはお勧めしません。空港などへ行く前にちょっと立ち寄る程度であれば問題ありませんが、それ以外の用途には適しています。",
       "reviewer": "Brian"
     },
     {
@@ -1421,7 +1473,7 @@
       "bad": "Too expensive and too noisy at 2am  Shuttle service was too limited",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "午前2時は高すぎるし騒がしすぎる。シャトルバスの便数も少なすぎる。",
+      "translated_bad": "午前2時は高すぎるし騒がしすぎる。シャトルバスの運行本数も少なすぎる。",
       "reviewer": "Sonomi"
     },
     {
@@ -1510,7 +1562,7 @@
       "comment": "地理位置方便，距離地鐵站，去羽田機場方便。自己辦理入住，衹要按照步驟操作，很方便。房間雖然小，短期出行完全足夠。 有免費巴士，不過我們沒有入住  酒店附近有烤肉店，建議不吃自助餐，點餐更好。",
       "good": "",
       "bad": "",
-      "translated": "立地は便利で、地下鉄の駅に近く、羽田空港へのアクセスも容易です。チェックインはセルフサービスで、手順に従うだけでとても簡単でした。部屋は小さいですが、短期滞在には十分です。無料のシャトルバスがありますが、私たちは利用しませんでした。ホテルの近くには焼肉店がいくつかあるので、ビュッフェではなくアラカルトで注文することをお勧めします。",
+      "translated": "立地は便利で、地下鉄の駅に近く、羽田空港へのアクセスも容易です。チェックインも手順通りに進めるだけでとても簡単でした。部屋は狭いですが、短期滞在には十分です。無料のシャトルバスがありますが、利用しませんでした。ホテルの近くには焼肉店がいくつかあるので、ビュッフェではなくアラカルトで注文することをおすすめします。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1941,7 +1993,7 @@
       "bad": "I searched for Hen na hotel and got another one close to the other airport so I had to take train 1 hour each way. That is not Your foult but mine. I should have understood that it was a chain, but with a such odd name I did not believe it.   Robot checking in is not so nice. You have good locking girls in Japan.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女性がたくさんいますね。",
+      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女の子がたくさんいますね。",
       "reviewer": "Sundberg"
     },
     {
@@ -2459,7 +2511,7 @@
       "comment": "用uber叫計程車等了10分鐘司機不知道在幹嘛都沒動，櫃檯幫忙叫車服務很好",
       "good": "",
       "bad": "",
-      "translated": "Uberを呼んで10分待ったのですが、運転手は一向に動かず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、スムーズに配車を手配してくれました。",
+      "translated": "Uberを呼んで10分待ったのですが、運転手は動こうともせず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、スムーズに配車を手配してくれました。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "高欣義"
@@ -3980,7 +4032,7 @@
       "comment": "羽田機場零晨機首選 有埋酒店車在機場接送 房間清潔,仲有部LG護衣機可以免費用 附近有便利店/sukiya等等,很方便",
       "good": "",
       "bad": "",
-      "translated": "羽田空港午前便第一希望。空港にはホテルの送迎車があり、客室清掃サービス、LG製洗濯機も無料で利用できます。近くにはコンビニエンスストアやすき家屋などがあり、とても便利です。",
+      "translated": "羽田空港午前便第一希望。空港にはホテルの送迎車があり、客室清掃サービス、LG製洗濯機も無料で利用できます。近くにはコンビニエンスストアやすき家屋もあり、とても便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -4292,7 +4344,7 @@
       "comment": "Has everything you'd need except temperature control in the bedroom. Rooms are designed to feel spacious, I've stayed in more expensive hotels that are poorly designed and feel more cramped. The best part for me was that the have blackout curtains (pic attached), those things are amazing and allowed me to get good sleep. Rooms also have a dry clean closet which was my first, just didn't have a suit with me this trip. The down stairs has food and the automated  system works. A big plus is that if you want others like gf or kids to see what Universal Studios was like in the 90s, you've come to the right place.  I didn't know there was a shuttle I was checking out around 8AM and the shuttle guy was taking ppl to the Haneda airport. I cracked a joke with him about taking me to Narita he laughed and said he's sorry he couldn't, but the Otorii station runs an express to Narita by the our. So I'd you're like me landing at HND and flying out from NRT this was very convenient.",
       "good": "",
       "bad": "",
-      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があることです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港に人を送っていました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
+      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があったことです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港まで人を運んでいました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Walter Avalos"

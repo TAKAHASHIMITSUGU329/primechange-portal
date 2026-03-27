@@ -1,19 +1,19 @@
 {
-  "total_reviews": 136,
+  "total_reviews": 137,
   "overall_avg_10pt": 8.5,
-  "high_count": 108,
-  "high_rate": 79.4,
+  "high_count": 109,
+  "high_rate": 79.6,
   "mid_count": 24,
-  "mid_rate": 17.6,
+  "mid_rate": 17.5,
   "low_count": 4,
   "low_rate": 2.9,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 18,
-      "native_avg": 9.56,
+      "count": 19,
+      "native_avg": 9.53,
       "scale": "/10",
-      "avg_10pt": 9.56,
+      "avg_10pt": 9.53,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -29,9 +29,9 @@
     {
       "site": "Booking.com",
       "count": 55,
-      "native_avg": 8.38,
+      "native_avg": 8.36,
       "scale": "/10",
-      "avg_10pt": 8.38,
+      "avg_10pt": 8.36,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 55,
-      "pct": "40.4%"
+      "count": 54,
+      "pct": "39.4%"
     },
     {
       "score": 9,
-      "count": 16,
-      "pct": "11.8%"
+      "count": 18,
+      "pct": "13.1%"
     },
     {
       "score": 8,
       "count": 37,
-      "pct": "27.2%"
+      "pct": "27.0%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "5.9%"
+      "pct": "5.8%"
     },
     {
       "score": 6,
       "count": 15,
-      "pct": "11.0%"
+      "pct": "10.9%"
     },
     {
       "score": 5,
@@ -106,6 +106,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Lene"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-27",
+      "comment": "Good location. Breakfast just nice.",
+      "good": "",
+      "bad": "",
+      "translated": "立地が良い。朝食もまあまあ。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Booking.com",
       "rating": 6.0,
@@ -976,19 +1002,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Kimi Kover"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-03",
-      "comment": "",
-      "good": "Spotless room. Excellent breakfast. Great location near the train station.",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yvonne"
     },
     {
       "site": "じゃらん",
