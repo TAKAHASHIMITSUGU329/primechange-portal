@@ -1,12 +1,12 @@
 {
-  "total_reviews": 98,
-  "overall_avg_10pt": 8.71,
-  "high_count": 84,
-  "high_rate": 85.7,
+  "total_reviews": 100,
+  "overall_avg_10pt": 8.74,
+  "high_count": 86,
+  "high_rate": 86.0,
   "mid_count": 10,
-  "mid_rate": 10.2,
+  "mid_rate": 10.0,
   "low_count": 4,
-  "low_rate": 4.1,
+  "low_rate": 4.0,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -37,19 +37,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 15,
-      "native_avg": 8.6,
+      "count": 16,
+      "native_avg": 8.69,
       "scale": "/10",
-      "avg_10pt": 8.6,
+      "avg_10pt": 8.69,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "じゃらん",
-      "count": 20,
-      "native_avg": 4.3,
+      "count": 21,
+      "native_avg": 4.33,
       "scale": "/5",
-      "avg_10pt": 8.6,
+      "avg_10pt": 8.67,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,18 +66,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 53,
-      "pct": "54.1%"
+      "count": 55,
+      "pct": "55.0%"
     },
     {
       "score": 9,
       "count": 5,
-      "pct": "5.1%"
+      "pct": "5.0%"
     },
     {
       "score": 8,
       "count": 26,
-      "pct": "26.5%"
+      "pct": "26.0%"
     },
     {
       "score": 7,
@@ -87,7 +87,7 @@
     {
       "score": 6,
       "count": 9,
-      "pct": "9.2%"
+      "pct": "9.0%"
     },
     {
       "score": 4,
@@ -97,10 +97,23 @@
     {
       "score": 2,
       "count": 3,
-      "pct": "3.1%"
+      "pct": "3.0%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Angela"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -113,6 +126,19 @@
       "translated_good": "",
       "translated_bad": "ちょっと狭かった。ベッドが小さい。駐車場がない。受付のところにWelcome drinkと書いてあるにも関わらず、ティーパックしか置いておらず、フロントで飲むことができなかった。お湯かコーヒーメーカーがあるとさらに嬉しかった。",
       "reviewer": "Shirai"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-25",
+      "comment": "アメニティにリプトンの紅茶があり嬉しかったです！他にもコーヒーやお茶も充実しており部屋でまったりする時間のお供に最高でした！また駅から近く便利です！下のカフェも利用しましたがルームキー提示で商品OFFサービスはなかなか他にはない点だと思いました！部屋のお風呂も広々しておりとても良かったです！また是非利用したいと思います♪",
+      "good": "",
+      "bad": "",
+      "translated": "アメニティにリプトンの紅茶があり嬉しかったです！他にもコーヒーやお茶も充実しており部屋でまったりする時間のお供に最高でした！また駅から近く便利です！下のカフェも利用しましたがルームキー提示で商品OFFサービスはなかなか他にはない点だと思いました！部屋のお風呂も広々しておりとても良かったです！また是非利用したいと思います♪",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "y.さん"
     },
     {
       "site": "Booking.com",

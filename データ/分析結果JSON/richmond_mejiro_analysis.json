@@ -1,19 +1,19 @@
 {
-  "total_reviews": 139,
+  "total_reviews": 140,
   "overall_avg_10pt": 8.72,
   "high_count": 121,
-  "high_rate": 87.1,
-  "mid_count": 15,
-  "mid_rate": 10.8,
+  "high_rate": 86.4,
+  "mid_count": 16,
+  "mid_rate": 11.4,
   "low_count": 3,
-  "low_rate": 2.2,
+  "low_rate": 2.1,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 33,
-      "native_avg": 9.36,
+      "count": 34,
+      "native_avg": 9.44,
       "scale": "/10",
-      "avg_10pt": 9.36,
+      "avg_10pt": 9.44,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -28,10 +28,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 27,
-      "native_avg": 4.56,
+      "count": 26,
+      "native_avg": 4.54,
       "scale": "/5",
-      "avg_10pt": 9.11,
+      "avg_10pt": 9.08,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -55,10 +55,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 33,
-      "native_avg": 7.91,
+      "count": 34,
+      "native_avg": 7.88,
       "scale": "/10",
-      "avg_10pt": 7.91,
+      "avg_10pt": 7.88,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -66,23 +66,23 @@
   "distribution": [
     {
       "score": 10,
-      "count": 63,
-      "pct": "45.3%"
+      "count": 64,
+      "pct": "45.7%"
     },
     {
       "score": 9,
       "count": 16,
-      "pct": "11.5%"
+      "pct": "11.4%"
     },
     {
       "score": 8,
-      "count": 42,
-      "pct": "30.2%"
+      "count": 41,
+      "pct": "29.3%"
     },
     {
       "score": 7,
-      "count": 6,
-      "pct": "4.3%"
+      "count": 7,
+      "pct": "5.0%"
     },
     {
       "score": 6,
@@ -92,7 +92,7 @@
     {
       "score": 5,
       "count": 3,
-      "pct": "2.2%"
+      "pct": "2.1%"
     },
     {
       "score": 4,
@@ -111,6 +111,45 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "Hotel be ubicato. Servizio molto buono, camere pulite . Tornerò sicuramente! Unica pecca forse camere un po piccole.",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは立地が良く、サービスも素晴らしく、部屋も清潔です。必ずまた利用します！唯一の難点は、部屋が少し狭いことです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "I would highly recommend this hotel for anyone visiting Tokyo for a short term stay. The room is nice with amenities such as comfortable beds, AC, a clean bathroom, and a large TV. The staff are also very nice and helpful. You also get free breakfast for each day you stay. The breakfast is really good with many options to choose from. There is also a laundry room in case you need to do laundry. Finally, the location is really nice since it is close to Meijiro Station.",
+      "good": "",
+      "bad": "",
+      "translated": "東京に短期滞在される方には、このホテルを強くお勧めします。快適なベッド、エアコン、清潔なバスルーム、大型テレビなど、設備が整った素敵なお部屋です。スタッフの方々もとても親切で親身になって対応してくれます。滞在中は毎日無料の朝食が付いてきます。朝食は種類も豊富でとても美味しいです。洗濯が必要な場合は、ランドリールームも利用できます。そして何より、明治路駅に近いという立地の良さが魅力です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-26",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Moritz"
+    },
     {
       "site": "Trip.com",
       "rating": 9.0,
@@ -184,7 +223,7 @@
       "comment": "設施：應有具有，每層的樓梯口都有飲水機可以喝到温水 衞生：非常好 環境：很棒，附近有松本清，cocona,紅色羅森。還有cafe 快餐店，和果子寬永堂，咖啡伴茶夢，法甜，自釀威士忌等等的。目白站出來走3分鐘就到了，非常方便",
       "good": "",
       "bad": "",
-      "translated": "設備：必要なアメニティはすべて揃っており、各階段の下には温水が出る給水器も設置されています。衛生状態：良好。環境：素晴らしい。近隣には松本清、ココナ、赤いローソンコンビニエンスストアがあります。その他にもカフェ、ファストフード店、和菓子店、コーヒーショップ、フランス菓子店、自家製ウイスキー店などがあります。目白駅から徒歩わずか3分と大変便利です。",
+      "translated": "設備：必要なアメニティはすべて揃っており、各階段の下には温水が出る給水器が設置されています。衛生状態：良好。環境：素晴らしい。近隣には松本清、ココナ、赤いローソンコンビニエンスストアがあります。その他にもカフェ、ファストフード店、和菓子店、コーヒーショップ、フランス菓子店、自家製ウイスキー店などがあります。目白駅から徒歩わずか3分と大変便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -548,7 +587,7 @@
       "comment": "Staffs were very friendly and supportive. Amenities like toiletries and room supplies will be provided at the lobby which guests can pick based on their need. The hotel is located near 7Eleven and Family Mart so super convenient!!! It is also close to Mejiro station which is very accessible to downtown and central area (~15-20 minutes by subway). Price is much affordable compared to the downtown area! Highly recommended 💯",
       "good": "",
       "bad": "",
-      "translated": "スタッフはとてもフレンドリーで親切でした。アメニティ（洗面用具やルーム用品など）はロビーに用意されており、必要に応じて自由に選ぶことができます。ホテルはセブンイレブンとファミリーマートの近くにあり、とても便利です！目白駅にも近く、都心部や中心部へのアクセスも抜群です（地下鉄で約15～20分）。都心部と比べて料金もかなりお手頃です！強くお勧めします💯",
+      "translated": "スタッフはとてもフレンドリーで親切でした。アメニティ（洗面用具や客室備品など）はロビーに用意されており、必要に応じて自由に選ぶことができます。ホテルはセブンイレブンとファミリーマートの近くにあり、とても便利です！目白駅にも近く、都心部や中心部へのアクセスも抜群です（地下鉄で約15～20分）。都心部と比べて料金もかなりお手頃です！強くお勧めします💯",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -942,32 +981,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ローズマリーさん"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "部屋の広さ、空間も心地よく、アメニティも揃っていてとてもゆったりできました！  また行きたいです！！",
-      "good": "",
-      "bad": "",
-      "translated": "部屋の広さ、空間も心地よく、アメニティも揃っていてとてもゆったりできました！  また行きたいです！！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "なおみさん"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-01",
-      "comment": "服務不錯。但設施比較老舊了。",
-      "good": "",
-      "bad": "",
-      "translated": "サービスは良かったが、設備はかなり古かった。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "N‍e‍v‍e‍n‍t"
     },
     {
       "site": "Agoda",
@@ -1562,7 +1575,7 @@
       "comment": "​⭐⭐⭐⭐ 目白站高質感住宿，早鳥預訂是關鍵！ ​這次再次入住 Richmond Hotel Tokyo Mejiro，位置依然優越，從 JR 目白站走一小段路就到，沿途有便利商店與藥妝店，機能滿分。 ​【入住心得】 ​新房型大推： 這次住到整修過的房間，空間寬敞舒適，大行李箱攤開也沒問題，質感明顯提升。 ​餐飲合作： 早餐與 Gusto 合作，價格實惠且美味，但人潮不少，尖峰時段建議多留點時間排隊入店。 ​【省錢攻略】 唯一有感的是房價節節攀升，與一年前相比漲幅明顯。強烈建議有計畫的人提前半年預訂，才能搶到比較合理的價格！ ​對於想避開新宿、池袋喧囂，又想兼顧空間與便利性的旅人來說，這裡依然是首選。",
       "good": "",
       "bad": "",
-      "translated": "⭐⭐⭐⭐ 目白駅近くの高品質宿泊施設 – 早めの予約が鍵！ リッチモンドホテル東京目白に再び宿泊しましたが、立地は相変わらず最高です。JR目白駅から徒歩すぐで、途中にはコンビニやドラッグストアがあり、日常のニーズに最適です。 【宿泊体験】 新しい客室タイプを強くお勧めします: 今回は改装された客室に宿泊しましたが、広々として快適で、大きなスーツケースでも問題なく開けることができました。品質が明らかに向上しています。 食事提携: 朝食はGustoと提携しており、手頃な価格でおいしいですが、かなり混雑します。ピーク時は、行列に並ぶ時間に余裕を持ってください。 【節約のヒント】 唯一目立つ変化は、宿泊料金が1年前よりも大幅に値上がりしていることです。より良い価格を確保するには、少なくとも6ヶ月前に予約することを強くお勧めします! 新宿や池袋の喧騒を避けつつ、広々とした空間と利便性を楽しみたい旅行者にとって、ここは依然として最高の選択肢です。",
+      "translated": "⭐⭐⭐⭐ 目白駅近くの高品質宿泊施設 – 早めの予約が鍵！ リッチモンドホテル東京目白に再び宿泊しましたが、立地は相変わらず最高です。JR目白駅から徒歩すぐで、途中にはコンビニやドラッグストアがあり、日常のニーズに最適です。 【宿泊体験】 新しい客室タイプを強くお勧めします: 今回は改装された客室に宿泊しましたが、広々として快適で、大きなスーツケースでも問題なく開けることができました。品質が明らかに向上しています。 食事提携: 朝食はGustoと提携しており、手頃な価格でおいしいですが、かなり混雑します。ピーク時は、行列に並ぶ時間に余裕を持ってください。 【節約のヒント】 唯一目立つ変化は、宿泊料金が1年前よりも大幅に値上がりしていることです。お得な料金で宿泊するには、6ヶ月前に予約することを強くお勧めします! 新宿や池袋の喧騒を避けつつ、広々とした空間と利便性を楽しみたい旅行者にとって、ここは依然として最高の選択肢です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "SINGOW HSU"
@@ -1575,7 +1588,7 @@
       "comment": "飯店位子距離地鐵站很近，附近也有便利商店，交通跟機能都很好。房間雖然不大，但是打掃得很乾淨，盥洗用品在大廳自行領取。",
       "good": "",
       "bad": "",
-      "translated": "ホテルは地下鉄駅に非常に近く、周辺にはコンビニエンスストアもあるため、交通の便が良く、その他の生活必需品も揃っています。客室は広くはありませんが、非常に清潔で、ロビーではアメニティも利用できます。",
+      "translated": "ホテルは地下鉄駅に非常に近く、周辺にはコンビニエンスストアもあるため、交通機関やその他の生活必需品へのアクセスに便利です。客室は狭いものの、非常に清潔で、ロビーにはセルフサービスのバスアメニティが用意されています。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "B‍e‍l‍l‍e‍e‍e"

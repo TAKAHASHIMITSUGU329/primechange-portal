@@ -1,34 +1,34 @@
 {
-  "total_reviews": 129,
-  "overall_avg_10pt": 9.13,
-  "high_count": 116,
-  "high_rate": 89.9,
+  "total_reviews": 131,
+  "overall_avg_10pt": 9.15,
+  "high_count": 118,
+  "high_rate": 90.1,
   "mid_count": 12,
-  "mid_rate": 9.3,
+  "mid_rate": 9.2,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 52,
-      "native_avg": 9.48,
+      "count": 56,
+      "native_avg": 9.5,
       "scale": "/10",
-      "avg_10pt": 9.48,
+      "avg_10pt": 9.5,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 23,
-      "native_avg": 4.61,
+      "count": 22,
+      "native_avg": 4.59,
       "scale": "/5",
-      "avg_10pt": 9.22,
+      "avg_10pt": 9.18,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 51,
+      "count": 50,
       "native_avg": 8.8,
       "scale": "/10",
       "avg_10pt": 8.8,
@@ -48,28 +48,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 72,
-      "pct": "55.8%"
+      "count": 74,
+      "pct": "56.5%"
     },
     {
       "score": 9,
       "count": 25,
-      "pct": "19.4%"
+      "pct": "19.1%"
     },
     {
       "score": 8,
       "count": 19,
-      "pct": "14.7%"
+      "pct": "14.5%"
     },
     {
       "score": 7,
       "count": 6,
-      "pct": "4.7%"
+      "pct": "4.6%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "3.9%"
+      "pct": "3.8%"
     },
     {
       "score": 5,
@@ -83,6 +83,84 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "服務很棒！房間內的紅酒、啤酒、餅乾、果汁全都免費，而且每天都補新的！！房間乾淨、整潔、有氛圍！體驗感超好👍👍👍",
+      "good": "",
+      "bad": "",
+      "translated": "サービスは最高でした！部屋に用意されていたワイン、ビール、クッキー、ジュースはすべて無料で、毎日補充されていました！部屋は清潔で整頓されていて、雰囲気も素晴らしかったです！本当に素晴らしい体験でした！👍👍👍",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "每次去日本都喜歡住這一家連鎖飯店，主要的原因就是飯店內床鋪寬度有150公分，不是一般的經濟雙人房那種140公分的床，就算兩個人睡也不會太擠，但缺點就是因為床鋪為正常尺寸，相對房間的空間就會較小。  本次住進錦糸町這家，優點是：1.入口處有迎賓飲料2離JR錦糸町車站不遠，附近很熱鬧，有吃的有逛的，還有24小時的超市 缺點是：訂非吸菸房，但靠近廁所位置有菸味",
+      "good": "",
+      "bad": "",
+      "translated": "日本に行くときはいつもこのチェーンホテルに泊まるのが好きです。主な理由は、エコノミーダブルルームの一般的な140cm幅のベッドではなく、150cm幅のベッドがあるからです。2人でも窮屈さを感じずに快適に眠れます。ただし、欠点はベッドが標準サイズなので、部屋のスペースが比較的狭いことです。今回は錦糸町支店に泊まりました。利点は、1. 入口でウェルカムドリンクがあったこと、2. JR錦糸町駅から遠くなく、周辺には飲食店やショッピング施設、24時間営業のスーパーマーケットなどがあり賑やかであることでした。欠点は、禁煙室を予約したのに、トイレ付近でタバコの臭いがしたことです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "Good location, 5 minutes walk from Kinshicho Station.  No transfer needed from Narita Airport by train. Shopping centers, shops and restaurants are near by. Friendly staff.  Definitely will stay again.",
+      "good": "",
+      "bad": "",
+      "translated": "錦糸町駅から徒歩5分という好立地。成田空港から電車で乗り換える必要もありません。ショッピングセンター、お店、レストランも近くにあります。スタッフも親切でした。間違いなくまた利用します。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "Had a fantastic stay! The hotel is very nice, clean, and comfortable. The absolute best part is the location—it's right in the heart of everything and made exploring so easy. Highly recommend if you want to be close to the action!",
+      "good": "",
+      "bad": "",
+      "translated": "素晴らしい滞在でした！ホテルはとても素敵で、清潔で快適でした。何より最高だったのは立地です。街の中心部に位置しているので、観光がとても楽でした。賑やかな場所に近いホテルをお探しの方には、ぜひおすすめします！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Liyu"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-26",
+      "comment": "出張の際はこちらに毎回泊まります。 こないだも今回も、時期的にすごく高かったのですが アップグレードして頂き快適な宿泊となりました。",
+      "good": "",
+      "bad": "",
+      "translated": "出張の際はこちらに毎回泊まります。 こないだも今回も、時期的にすごく高かったのですが アップグレードして頂き快適な宿泊となりました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "み‍ゆ‍か"
+    },
     {
       "site": "Google",
       "rating": 5.0,
@@ -338,7 +416,7 @@
       "comment": "在東京市區可以有那麼大的房間，實在是不容易。 裝潢很新，交通算是很方便，離地鐵站要走一小段可以接受的距離。",
       "good": "",
       "bad": "",
-      "translated": "東京の都心でこれほど広い部屋を見つけるのは本当に珍しいです。内装は新しく、交通の便も良く、地下鉄駅から歩いてすぐの距離です。",
+      "translated": "東京の都心でこれほど広い部屋を見つけるのは本当に珍しいです。内装は新しく、交通の便も良く、地下鉄駅から歩いてすぐですが、それほど遠くはありません。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "吳‍思‍宏"
@@ -364,7 +442,7 @@
       "comment": "離地鐵站非常近，樓下化粧品自助，面膜自助非常棒，周邊吃，買都很方便",
       "good": "",
       "bad": "",
-      "translated": "地下鉄の駅からとても近く、階下には便利なセルフサービスの化粧品とフェイスマスクのコーナーがあります。食事や買い物にも便利な場所が近くにあります。",
+      "translated": "地下鉄の駅からとても近く、階下にはセルフサービスの化粧品やフェイスマスクコーナーがあります。食事や買い物にも便利な場所が近くにあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -836,58 +914,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "P‍e‍n‍g‍ ‍p‍e‍n‍g‍5"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-03",
-      "comment": "",
-      "good": "いつもお世話になり思うのですが、スタッフ様の応対がとても良いです。",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kohei"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-03",
-      "comment": "数日前に急遽このエリアに宿泊することとなりホテルを予約しました。こちらの錦糸町は4回目ですが系列店を合わせると累計10回程は宿泊しています。 そして、他の方の口コミにもありますが顧客満足度の高いホテルで立地やお部屋・食事も良いですがフロント接客レベルが高いです。 また、外国人旅行者が多いエリアにも関わらず日本人旅行者・ビジネスマンにもしっかりとサービスが行き届いたホテルです。 1階エレベーター前に外貨両替機の設置あり。  やはり、運営会社は別名ですがリッチモンドホテルの親会社は、ファミリーレストラン「ロイヤルホスト」などを展開するロイヤルホールディングスで高速道路サービスエリア、空港レストラン（特に九州）で長年培ったホスピタリティ精神がホテル運営でも見事に発揮されているという感想です。錦糸町南口でホテルを探すならこちらのホテル「リッチモンドホテル東京錦糸町」がお薦めです。",
-      "good": "",
-      "bad": "",
-      "translated": "数日前に急遽このエリアに宿泊することとなりホテルを予約しました。こちらの錦糸町は4回目ですが系列店を合わせると累計10回程は宿泊しています。 そして、他の方の口コミにもありますが顧客満足度の高いホテルで立地やお部屋・食事も良いですがフロント接客レベルが高いです。 また、外国人旅行者が多いエリアにも関わらず日本人旅行者・ビジネスマンにもしっかりとサービスが行き届いたホテルです。 1階エレベーター前に外貨両替機の設置あり。  やはり、運営会社は別名ですがリッチモンドホテルの親会社は、ファミリーレストラン「ロイヤルホスト」などを展開するロイヤルホールディングスで高速道路サービスエリア、空港レストラン（特に九州）で長年培ったホスピタリティ精神がホテル運営でも見事に発揮されているという感想です。錦糸町南口でホテルを探すならこちらのホテル「リッチモンドホテル東京錦糸町」がお薦めです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "DRY “ザ・ブラック” ZERO"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-03",
-      "comment": "房間乾淨舒服，可以開4顆行李箱，交通很方便，早餐也好吃，是我很喜歡的日本旅館，如果插座可以在更多，就更好了，",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は清潔で快適で、スーツケース4個を置くことができました。立地も非常に便利で、朝食も美味しかったです。私のお気に入りの日本の旅館の一つになりました。コンセントがもっと多ければ、さらに良かったでしょう。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-03",
-      "comment": "",
-      "good": "乾淨！ 地點也很不錯～ 服務人員都很親切 下雨天還可以跟櫃檯借傘",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yuching"
     },
     {
       "site": "Booking.com",

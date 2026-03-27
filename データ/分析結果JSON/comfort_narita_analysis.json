@@ -1,12 +1,12 @@
 {
-  "total_reviews": 134,
-  "overall_avg_10pt": 8.53,
-  "high_count": 107,
-  "high_rate": 79.9,
-  "mid_count": 23,
-  "mid_rate": 17.2,
+  "total_reviews": 136,
+  "overall_avg_10pt": 8.5,
+  "high_count": 108,
+  "high_rate": 79.4,
+  "mid_count": 24,
+  "mid_rate": 17.6,
   "low_count": 4,
-  "low_rate": 3.0,
+  "low_rate": 2.9,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -19,37 +19,37 @@
     },
     {
       "site": "Google",
-      "count": 20,
-      "native_avg": 4.55,
+      "count": 21,
+      "native_avg": 4.52,
       "scale": "/5",
-      "avg_10pt": 9.1,
+      "avg_10pt": 9.05,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 54,
-      "native_avg": 8.44,
+      "count": 55,
+      "native_avg": 8.38,
       "scale": "/10",
-      "avg_10pt": 8.44,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.38,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
-      "count": 22,
-      "native_avg": 4.14,
+      "count": 23,
+      "native_avg": 4.17,
       "scale": "/5",
-      "avg_10pt": 8.27,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.35,
+      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
       "site": "じゃらん",
-      "count": 11,
-      "native_avg": 4.09,
+      "count": 10,
+      "native_avg": 4.0,
       "scale": "/5",
-      "avg_10pt": 8.18,
+      "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 55,
-      "pct": "41.0%"
+      "pct": "40.4%"
     },
     {
       "score": 9,
-      "count": 17,
-      "pct": "12.7%"
+      "count": 16,
+      "pct": "11.8%"
     },
     {
       "score": 8,
-      "count": 35,
-      "pct": "26.1%"
+      "count": 37,
+      "pct": "27.2%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "6.0%"
+      "pct": "5.9%"
     },
     {
       "score": 6,
-      "count": 14,
-      "pct": "10.4%"
+      "count": 15,
+      "pct": "11.0%"
     },
     {
       "score": 5,
@@ -106,6 +106,71 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-26",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Alessandra"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "服務親切，協助辦理入住，設施完備，唯房間稍小，大行李沒空間！整體算不錯！",
+      "good": "",
+      "bad": "",
+      "translated": "スタッフは親切で、チェックインも手伝ってくれました。設備は充実していましたが、部屋が少し狭く、大きな荷物を置くスペースがありませんでした。全体的には、とても良かったです！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-26",
+      "comment": "",
+      "good": "房間蠻大的，行李箱完全攤開都沒問題！ 整體也都是整潔舒適的沒話說，早餐種類不多但卻出乎預料的美味！",
+      "bad": "設施比較老舊但很整潔舒適！ 唯一不習慣的是廁所太小了，使用上比較不方便.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "設備は少し古いですが、とても清潔で快適です！ただ、トイレが狭すぎて少し使いづらいのが難点です。",
+      "reviewer": "Szujen"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "受付のお姉さんがとても親切に接してくださり、旅の疲れがとれました。優しさ笑顔にに感激。ありがとうございました☺️✨",
+      "good": "",
+      "bad": "",
+      "translated": "受付のお姉さんがとても親切に接してくださり、旅の疲れがとれました。優しさ笑顔にに感激。ありがとうございました☺️✨",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "さっぽろ南区"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-26",
+      "comment": "コンフォートホテル成田に宿泊しました。京成成田駅から徒歩2分ほど、JR成田駅からも徒歩圏内とアクセスが非常に良く、成田空港への移動にも便利な立地です。 ￼  客室はコンパクトながら清潔感があり、全室禁煙で快適に過ごせました。ベッドは寝心地が良く、枕や寝具にもこだわりが感じられ、しっかり休める印象です。 ￼  無料の朝食サービスもあり、種類はシンプルながら満足度は高く、コストパフォーマンスの良さを感じました。駅近でありながら比較的静かに過ごせる点も好印象です。 ￼  全体的に「立地・価格・快適さ」のバランスが良く、成田空港利用の前泊やビジネス利用に非常に使いやすいホテルだと感じました。",
+      "good": "",
+      "bad": "",
+      "translated": "コンフォートホテル成田に宿泊しました。京成成田駅から徒歩2分ほど、JR成田駅からも徒歩圏内とアクセスが非常に良く、成田空港への移動にも便利な立地です。 ￼  客室はコンパクトながら清潔感があり、全室禁煙で快適に過ごせました。ベッドは寝心地が良く、枕や寝具にもこだわりが感じられ、しっかり休める印象です。 ￼  無料の朝食サービスもあり、種類はシンプルながら満足度は高く、コストパフォーマンスの良さを感じました。駅近でありながら比較的静かに過ごせる点も好印象です。 ￼  全体的に「立地・価格・快適さ」のバランスが良く、成田空港利用の前泊やビジネス利用に非常に使いやすいホテルだと感じました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "i d"
+    },
     {
       "site": "Booking.com",
       "rating": 8.0,
@@ -207,7 +272,7 @@
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房モードには切り替えられていなかった。",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっていて、部屋を冷やすオプションはなかったのだ。",
       "reviewer": "Suzanne"
     },
     {
@@ -927,45 +992,6 @@
     },
     {
       "site": "じゃらん",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-03",
-      "comment": "駅前でお酒を飲む機会があり、子供を連れて1泊しました。駐車場が提携していて、有難かったです。部屋は綺麗で、小学生の子供は添い寝無料、朝食も美味しくて、コスパ最高でした。特に朝食のスムージーはおかわりするほど美味しかったです。また是非利用したいホテルです！",
-      "good": "",
-      "bad": "",
-      "translated": "駅前でお酒を飲む機会があり、子供を連れて1泊しました。駐車場が提携していて、有難かったです。部屋は綺麗で、小学生の子供は添い寝無料、朝食も美味しくて、コスパ最高でした。特に朝食のスムージーはおかわりするほど美味しかったです。また是非利用したいホテルです！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "まいちゃんさん"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "位置好，早餐好",
-      "good": "",
-      "bad": "",
-      "translated": "立地も良く、朝食も美味しい。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-02",
-      "comment": "",
-      "good": "Staff were superb to deal with.Very helpful.",
-      "bad": "Healthier breakfast cereal options with far less sugar content - weetbix, muesli etc. Wholemeal/multi grain bread options preferable to white bread.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "砂糖含有量がはるかに少ない、より健康的な朝食用シリアル（ウィートビックス、ミューズリーなど）。白パンよりも全粒粉パンやマルチグレインパンが望ましい。",
-      "reviewer": "James"
-    },
-    {
-      "site": "じゃらん",
       "rating": 4.0,
       "rating_10pt": 8.0,
       "date": "2026-02-28",
@@ -1310,7 +1336,7 @@
       "comment": "房間普通有點舊， 但位置算方便， 京成成由站旁邊！ 下車上天橋過對面站再落地下電梯便到， 酒店对面有2 间Lawson! 早餐惊喜新鲜菜汁其他一般正常早餐",
       "good": "",
       "bad": "",
-      "translated": "部屋は簡素で少し古かったけれど、京成西友駅のすぐ隣という便利な立地でした！電車を降りて、陸橋を渡って駅の反対側へ行き、着いたらエスカレーターで降りるだけ。通りの向かいにはローソンホテルが2軒もあります！朝食は新鮮な野菜ジュースが出て嬉しい驚きでしたが、それ以外はごく普通でした。",
+      "translated": "部屋は簡素で少し古かったけれど、京成西友駅のすぐ隣という便利な立地でした！電車を降りて陸橋を渡り駅の反対側へ行き、降りてエスカレーターに乗るだけ。通りの向かいにはローソンホテルが2軒もあります！朝食は新鮮な野菜ジュースが出て嬉しい驚きでしたが、それ以外はごく普通でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -1570,7 +1596,7 @@
       "comment": "不錯的飯店！環境乾淨，服務人員親切",
       "good": "",
       "bad": "",
-      "translated": "素敵なレストランでした！清潔な環境で、スタッフも親切でした。",
+      "translated": "素敵なレストランです！店内は清潔で、スタッフも親切です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

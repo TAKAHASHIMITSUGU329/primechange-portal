@@ -1,12 +1,12 @@
 {
-  "total_reviews": 80,
-  "overall_avg_10pt": 7.12,
-  "high_count": 46,
-  "high_rate": 57.5,
+  "total_reviews": 83,
+  "overall_avg_10pt": 7.04,
+  "high_count": 47,
+  "high_rate": 56.6,
   "mid_count": 20,
-  "mid_rate": 25.0,
-  "low_count": 14,
-  "low_rate": 17.5,
+  "mid_rate": 24.1,
+  "low_count": 16,
+  "low_rate": 19.3,
   "site_stats": [
     {
       "site": "Agoda",
@@ -27,31 +27,13 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "Trip.com",
-      "count": 2,
-      "native_avg": 7.0,
-      "scale": "/10",
+      "site": "じゃらん",
+      "count": 10,
+      "native_avg": 3.5,
+      "scale": "/5",
       "avg_10pt": 7.0,
       "median_10pt": 7.0,
       "judgment": "概ね良好"
-    },
-    {
-      "site": "じゃらん",
-      "count": 9,
-      "native_avg": 3.44,
-      "scale": "/5",
-      "avg_10pt": 6.89,
-      "median_10pt": 6.0,
-      "judgment": "要改善"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 32,
-      "native_avg": 3.41,
-      "scale": "/5",
-      "avg_10pt": 6.81,
-      "median_10pt": 8.0,
-      "judgment": "要改善"
     },
     {
       "site": "Google",
@@ -61,33 +43,51 @@
       "avg_10pt": 6.74,
       "median_10pt": 8.0,
       "judgment": "要改善"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 33,
+      "native_avg": 3.33,
+      "scale": "/5",
+      "avg_10pt": 6.67,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "Trip.com",
+      "count": 3,
+      "native_avg": 6.0,
+      "scale": "/10",
+      "avg_10pt": 6.0,
+      "median_10pt": 7.0,
+      "judgment": "要改善"
     }
   ],
   "distribution": [
     {
       "score": 10,
       "count": 16,
-      "pct": "20.0%"
+      "pct": "19.3%"
     },
     {
       "score": 9,
       "count": 2,
-      "pct": "2.5%"
+      "pct": "2.4%"
     },
     {
       "score": 8,
-      "count": 28,
-      "pct": "35.0%"
+      "count": 29,
+      "pct": "34.9%"
     },
     {
       "score": 7,
       "count": 3,
-      "pct": "3.8%"
+      "pct": "3.6%"
     },
     {
       "score": 6,
       "count": 16,
-      "pct": "20.0%"
+      "pct": "19.3%"
     },
     {
       "score": 5,
@@ -96,16 +96,55 @@
     },
     {
       "score": 4,
-      "count": 9,
-      "pct": "11.2%"
+      "count": 10,
+      "pct": "12.0%"
     },
     {
       "score": 2,
-      "count": 5,
-      "pct": "6.2%"
+      "count": 6,
+      "pct": "7.2%"
     }
   ],
   "comments": [
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-26",
+      "comment": "古さは感じますが、綺麗に清掃がなされ、立地的に静かで良かったです。  お客のマナーの問題ですが、静かさゆえ廊下での話し声が、ちょっと気になりました。",
+      "good": "",
+      "bad": "",
+      "translated": "古さは感じますが、綺麗に清掃がなされ、立地的に静かで良かったです。  お客のマナーの問題ですが、静かさゆえ廊下での話し声が、ちょっと気になりました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "あにやんさん"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-03-26",
+      "comment": "汚くて震えました",
+      "good": "",
+      "bad": "",
+      "translated": "汚くて震えました",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "普通の感性"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 4.0,
+      "rating_10pt": 4.0,
+      "date": "2026-03-26",
+      "comment": "壁は凄く薄くて隣の人の物音などがハッキリと聞こえる。 ドアも他の人が出入りするのが自分の部屋かのような音。 お風呂やトイレの老朽化も凄く… もう泊まらないと思います…。",
+      "good": "",
+      "bad": "",
+      "translated": "壁は凄く薄くて隣の人の物音などがハッキリと聞こえる。 ドアも他の人が出入りするのが自分の部屋かのような音。 お風呂やトイレの老朽化も凄く… もう泊まらないと思います…。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,

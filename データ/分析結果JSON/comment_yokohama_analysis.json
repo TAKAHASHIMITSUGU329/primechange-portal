@@ -1,10 +1,10 @@
 {
-  "total_reviews": 129,
+  "total_reviews": 128,
   "overall_avg_10pt": 8.88,
-  "high_count": 109,
-  "high_rate": 84.5,
+  "high_count": 108,
+  "high_rate": 84.4,
   "mid_count": 19,
-  "mid_rate": 14.7,
+  "mid_rate": 14.8,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
@@ -19,10 +19,10 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 18,
-      "native_avg": 4.67,
+      "count": 16,
+      "native_avg": 4.69,
       "scale": "/5",
-      "avg_10pt": 9.33,
+      "avg_10pt": 9.38,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,11 +46,11 @@
     },
     {
       "site": "Booking.com",
-      "count": 26,
-      "native_avg": 8.54,
+      "count": 27,
+      "native_avg": 8.56,
       "scale": "/10",
-      "avg_10pt": 8.54,
-      "median_10pt": 8.5,
+      "avg_10pt": 8.56,
+      "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 63,
-      "pct": "48.8%"
+      "count": 62,
+      "pct": "48.4%"
     },
     {
       "score": 9,
-      "count": 20,
-      "pct": "15.5%"
+      "count": 21,
+      "pct": "16.4%"
     },
     {
       "score": 8,
-      "count": 26,
-      "pct": "20.2%"
+      "count": 25,
+      "pct": "19.5%"
     },
     {
       "score": 7,
       "count": 11,
-      "pct": "8.5%"
+      "pct": "8.6%"
     },
     {
       "score": 6,
       "count": 7,
-      "pct": "5.4%"
+      "pct": "5.5%"
     },
     {
       "score": 5,
@@ -101,6 +101,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-26",
+      "comment": "Booking.com",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "志明"
+    },
     {
       "site": "Agoda",
       "rating": 9.0,
@@ -880,32 +893,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Ayano"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-01",
-      "comment": "楽天トラベル",
-      "good": "",
-      "bad": "",
-      "translated": "アクセスも良く周辺にコンビニをはじめとしたお店も多いです。 チェックイン時の応対や部屋の清潔さなども申し分なかったです。大浴場にサウナがあり水風呂があったのは嬉しかったです。  一点残念だったのは浴場内の壁面に小さなコバエのような虫がたくさんいたことです。 季節的な要素もあるかもしれませんがせっかくの綺麗な浴室なのでその点が少し残念でした。  ただ、それ以外は大満足でしたので、また利用したいと思います！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "おかあ1226"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-01",
-      "comment": "楽天トラベル",
-      "good": "",
-      "bad": "",
-      "translated": "BUNTAIでのイベントに参加するため宿泊しました。真横なのでとても便利でした。 スタッフの方は笑顔でご対応くださり温かみを感じました。 部屋は清潔でベッドも広く申し分ありません。唯一　机が小さいので　PC作業などには少し不便を感じました。 隣の部屋の方が廊下で大声で話されると　話の内容まで聞こえてきます。 サウナ付き浴場もあるので　部屋はシャワーブースのみ。 浴場は快適でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "エルウェイ"
     },
     {
       "site": "Trip.com",
