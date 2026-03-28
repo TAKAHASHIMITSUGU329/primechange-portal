@@ -1,32 +1,23 @@
 {
   "hotel_name": "第一イン池袋",
   "hotel_key": "daiichi_ikebukuro",
-  "total_reviews": 131,
-  "overall_avg_10pt": 9.18,
-  "high_count": 120,
-  "high_rate": 91.6,
-  "mid_count": 8,
-  "mid_rate": 6.1,
-  "low_count": 3,
-  "low_rate": 2.3,
+  "total_reviews": 111,
+  "overall_avg_10pt": 9.07,
+  "high_count": 100,
+  "high_rate": 90.1,
+  "mid_count": 5,
+  "mid_rate": 4.5,
+  "low_count": 6,
+  "low_rate": 5.4,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 66,
-      "native_avg": 9.56,
+      "count": 59,
+      "native_avg": 9.51,
       "scale": "/10",
-      "avg_10pt": 9.56,
+      "avg_10pt": 9.51,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
-    },
-    {
-      "site": "Google",
-      "count": 34,
-      "native_avg": 4.62,
-      "scale": "/5",
-      "avg_10pt": 9.24,
-      "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Booking.com",
@@ -35,7 +26,16 @@
       "scale": "/10",
       "avg_10pt": 8.82,
       "median_10pt": 9.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
+    },
+    {
+      "site": "Google",
+      "count": 21,
+      "native_avg": 4.48,
+      "scale": "/5",
+      "avg_10pt": 8.95,
+      "median_10pt": 10.0,
+      "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
@@ -44,7 +44,7 @@
       "scale": "/5",
       "avg_10pt": 8.5,
       "median_10pt": 8.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Agoda",
@@ -53,7 +53,7 @@
       "scale": "/10",
       "avg_10pt": 5.5,
       "median_10pt": 5.0,
-      "judgment": "要緊急対応"
+      "judgment": "要注意"
     },
     {
       "site": "じゃらん",
@@ -68,43 +68,43 @@
   "distribution": [
     {
       "score": 10,
-      "count": 83,
-      "pct": "63.4%"
+      "count": 65,
+      "pct": "58.6%"
     },
     {
       "score": 9,
       "count": 19,
-      "pct": "14.5%"
+      "pct": "17.1%"
     },
     {
       "score": 8,
-      "count": 18,
-      "pct": "13.7%"
+      "count": 16,
+      "pct": "14.4%"
     },
     {
       "score": 7,
       "count": 3,
-      "pct": "2.3%"
+      "pct": "2.7%"
     },
     {
       "score": 6,
       "count": 2,
-      "pct": "1.5%"
+      "pct": "1.8%"
     },
     {
       "score": 5,
       "count": 3,
-      "pct": "2.3%"
+      "pct": "2.7%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "1.5%"
+      "pct": "1.8%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "0.8%"
+      "pct": "0.9%"
     }
   ],
   "comments": [
@@ -177,19 +177,6 @@
       "site": "Google",
       "rating": 5.0,
       "rating_10pt": 10.0,
-      "date": "2026-03-25",
-      "comment": "Small room but acceptable Old building but clean Staff are friendly Can late check out with a fee  Location is very convenient",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は小さいが許容範囲。古い建物だが清潔。スタッフはフレンドリー。追加料金でレイトチェックアウト可能。立地は非常に便利。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "L L"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
       "date": "2026-03-24",
       "comment": "このホテルは間違いなく2つ星ではなく、少なくとも3つ星の評価に値します。客室の質、立地、サービス、すべてが一流です。  客室は清潔で快適でした。設備はやや古さを感じましたが、全体的な滞在体験を損なうものではありませんでした。部屋は広々としており、スーツケース2個を楽に置くことができました。地下鉄の駅は階下にありますが、防音対策がしっかりしているので、全く邪魔されることなく快適に過ごせました。  さらに、ホテルが用意してくれたセルフサービスのバスアメニティは非常に質が高く、使用後は肌が滑らかで乾燥せず、嬉しい驚きでした。  清掃は細やかで徹底しており、とても快適な滞在となりました。立地も申し分なく、PARCOのすぐ隣にあるため、ショッピングや交通機関へのアクセスが非常に便利です。  このホテルは間違いなく3つ星、あるいはそれ以上の評価に値します。2つ星ホテルとしては明らかに過小評価されています。客室の質から立地、そしてサービス全般に至るまで、すべてが一流です。  客室は清潔で快適です。家具はやや古さを感じますが、滞在全体の快適さには全く影響しません。広々としていて、スーツケース2個を置いても窮屈さを感じません。地下鉄駅の真上という立地にもかかわらず、防音性は抜群で、騒音は全く気になりません。  セルフサービスのバスアメニティも驚くほど高品質です。誇張ではなく、使用後は肌が滑らかになり、乾燥も全く感じませんでした。  ハウスキーピングは丁寧で細部にまで気を配っており、快適な滞在をさらに充実させてくれます。PARCOのすぐ隣という最高のロケーションで、ショッピングにも交通機関にも非常に便利です。  間違いなくまたこのホテルを利用します。",
       "good": "",
@@ -213,19 +200,6 @@
       "reviewer": "K‍a‍n‍o‍J‍e‍l‍e‍e"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-24",
-      "comment": "這家飯店的整體水準絕對應該評為至少三星以上，而不只是兩星。無論是房間品質、地理位置還是服務，都稱得上是頂級表現。  房間乾淨又舒適，雖然設施略帶些年代感，但完全不影響整體住宿體驗。空間寬敞，即使同時打開兩個行李箱也沒有問題。樓下就是地鐵站，但隔音效果非常好，完全不會受到干擾。  另外，飯店提供的自取式洗護用品品質也相當不錯，使用後皮膚依然感覺滑順、不乾燥，這點真的令人驚喜。  清潔打掃非常細緻講究，讓人住得很安心。地理位置更是無可挑剔，就在 PARCO 旁邊，無論購物還是交通都非常方便。  This hotel truly deserves at least a 3-star rating, if not higher—it is definitely underrated as a 2-star property. From the room quality to the location and overall service, everything feels top-tier.  The room is clean and comfortable. While the furnishings are slightly dated, it does not affect the overall experience at all. The space is generous, you can easily open two suitcases without feeling cramped. Despite being located right above a subway station, the soundproofing is excellent, and noise is not an issue.  The self-serve toiletries are also surprisingly high quality. I’m not exaggerating, after using them, my skin felt smooth and not dry at all.  Housekeeping is thorough and detail-oriented, which really adds to the comfort of the stay. The location is unbeatable, right next to PARCO, making it extremely convenient for both shopping and transportation.  Will definitely book this hotel again.",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルは間違いなく2つ星ではなく、少なくとも3つ星の評価に値します。部屋の質、立地、サービスはすべて一流です。部屋は清潔で快適で、設備は少し古いですが、全体的な体験を損なうことはありません。部屋は広々としており、スーツケース2個を同時に快適に置くことができます。地下鉄の駅は階下にありますが、防音性が非常に優れているため、完全に邪魔されずに滞在できます。さらに、ホテルが提供するセルフサービスのバスアメニティは非常に高品質で、使用後は肌が滑らかで潤っているように感じられ、嬉しい驚きでした。清掃は細心の注意を払って徹底しており、安心できました。立地は申し分なく、PARCOのすぐ隣にあるため、ショッピングや交通機関が非常に便利です。このホテルは、少なくとも3つ星、あるいはそれ以上の評価に値します。2つ星ホテルとしては明らかに過小評価されています。部屋の質から立地、全体的なサービスまで、すべてが一流です。部屋は清潔で快適です。家具はやや古さを感じますが、滞在全体の満足度には全く影響しません。セルフサービスのバスアメニティも驚くほど高品質です。誇張ではなく、使用後は肌が滑らかになり、乾燥も全く感じませんでした。ハウスキーピングは丁寧で細部にまで気を配っており、快適な滞在をさらに充実させてくれます。ロケーションも抜群で、PARCOのすぐ隣にあるため、ショッピングにも交通機関の利用にも非常に便利です。間違いなくまたこのホテルを予約します。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Heidi C."
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -247,32 +221,6 @@
       "good": "",
       "bad": "",
       "translated": "日本滞在中に泊まるのに良い場所です。池袋駅に近いです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-22",
-      "comment": "這間酒店少有提供三床睡房，房間整體非常企理乾淨，空間寬敞舒適，床鋪柔軟睡得舒服。地點相當方便，步行幾分鐘就到鐵路站，交通方便，周邊餐廳和小食店非常多，選擇豐富多樣。",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルはトリプルルームを提供している点で珍しいです。部屋はとても清潔で、広々として快適で、ベッドは柔らかくて心地よかったです。立地も非常に便利で、駅から徒歩わずか数分なので、交通の便も抜群です。周辺にはレストランや軽食店も数多くあり、様々な選択肢があります。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-22",
-      "comment": "ใกล้รถไฟ ร้านอาหารเยอะ สะดวกมากๆ",
-      "good": "",
-      "bad": "",
-      "translated": "駅に近く、レストランもたくさんあって、とても便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -312,19 +260,6 @@
       "good": "",
       "bad": "",
       "translated": "素敵なホテルで立地も良い！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-21",
-      "comment": "혼자 있기 딱 좋았어요 특히 짐 보관해주는 곳이 너무 좋았어요 쇼핑하고 중간에 짐 놓고 돌아다닐 수 있어서 좋았습닏",
-      "good": "",
-      "bad": "",
-      "translated": "一人でいるのにぴったりでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -465,19 +400,6 @@
       "rating_10pt": 10.0,
       "date": "2026-03-18",
       "comment": "周辺の観光スポットにとても近く、警備員の方々も非常に規律正しく、常に清掃や備品の補充を欠かしません。唯一の難点は、部屋が少し狭いことです。",
-      "good": "",
-      "bad": "",
-      "translated": "周辺の観光スポットにとても近く、警備員の方々も非常に規律正しく、常に清掃や備品の補充を欠かしません。唯一の難点は、部屋が少し狭いことです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "椎名望"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-18",
-      "comment": "離周邊景點都很近，防務人員都很規矩打掃都會把東西補齊，唯一缺點就是房間小了點。",
       "good": "",
       "bad": "",
       "translated": "周辺の観光スポットにとても近く、警備員の方々も非常に規律正しく、常に清掃や備品の補充を欠かしません。唯一の難点は、部屋が少し狭いことです。",
@@ -850,19 +772,6 @@
       "reviewer": "謝長熾"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-08",
-      "comment": "小地方離車站很近 算CP值高 有吸菸室 附近很多吃的下面就有全家",
-      "good": "",
-      "bad": "",
-      "translated": "この小さな町は駅からとても近いので、料金も手頃です。喫煙室もあり、近くには多くのレストランがあり、階下にはファミリーマートもあります。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "謝長熾"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1006,19 +915,6 @@
       "reviewer": "mitsuo"
     },
     {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-01",
-      "comment": "地點無敵，池袋東口北邊，樓下有超商、一蘭拉麵，走路可到麥當勞、藥妝店、扭蛋店，生活機能完整。 三人房空間足夠，自行合併三張床後，可同時打開兩個上開式行李箱、一胖胖箱整理行李，還可以走路。 免費加入官網會員，可以享有12點才退房；我們因行程關係，沒有用到這服務。 房間舊但很乾淨，連住三天，每天都會進房打掃、補礦泉水等備品。 某天房務人員留封信，說明水龍頭壞了已協助換新，其實我們都沒有發現😂😂😂 最不滿意的是枕頭，枕頭很軟、沒有支撐力，每人有兩個枕頭，一個太塌、兩個太高😅",
-      "good": "",
-      "bad": "",
-      "translated": "立地は最高で、池袋東口のすぐ北に位置しています。階下にはコンビニと一蘭ラーメンがあり、マクドナルド、ドラッグストア、ガチャポンショップも徒歩圏内にあるので、必要なものはすべて便利に揃います。トリプルルームは十分な広さで、3つのベッドをくっつけても、トップローディングスーツケース2つと大きなスーツケース1つを開けて荷物を詰めることができ、さらに歩き回る余裕もあります。ウェブサイトの無料会員になると、午後12時までレイトチェックアウトが可能ですが、私たちの旅程ではこのサービスは利用しませんでした。部屋は古いですが、とても清潔です。3日間滞在しましたが、毎日清掃され、ミネラルウォーターやその他のアメニティが補充されました。ある日、ハウスキーピングスタッフが蛇口が壊れていて交換したというメモを残していましたが、私たちはそれに全く気づきませんでした！😂😂😂 一番不満だったのは枕で、とても柔らかくて支えがありませんでした。一人につき枕が2つずつあった。1つは平らすぎ、もう2つは高すぎた。😅",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Miranda Su"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1071,19 +967,6 @@
       "reviewer": "ゲ‍ス‍ト"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-26",
-      "comment": "good location and not far from the station, family mart just a few steps, and nice staffs",
-      "good": "",
-      "bad": "",
-      "translated": "立地が良く、駅からも遠くなく、ファミリーマートもすぐそばで、スタッフも親切です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
       "site": "楽天トラベル",
       "rating": 4.0,
       "rating_10pt": 8.0,
@@ -1105,19 +988,6 @@
       "good": "",
       "bad": "",
       "translated": "2026年2月の正月2泊3日に利用し、池袋駅のすぐ隣に位置し、場所はとても優秀でした。夜はそんなに騒々しいとは思いませんでしたが、電車の音が小さく聞こえることは残念でした。しかし、良好な部屋の状態とサービス、優れた場所がこれを取り戻します。おすすめです",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-25",
-      "comment": "This is my first time traveling in Japan, I have been to two hostels earlier before this hotel, I can say that Daiichi Inn is my favorite and definitely worth the price. Very clean, the room is perfect size, nearby Ikebukuro station which is easy to travel around. Many restaurants and shops. The staffs are really polite and can speak English. You need to tap the keycard in the elevator to go up to the floor. Safety 👍🏻 I will come back to stay here again if I visit Japan next time.",
-      "good": "",
-      "bad": "",
-      "translated": "日本旅行は今回が初めてで、以前に2軒のホステルに泊まったことがありますが、第一インが一番気に入りました。値段以上の価値があります。とても清潔で、部屋もちょうど良い広さで、池袋駅が近く、周辺を移動するのに便利です。レストランやお店もたくさんあります。スタッフはとても丁寧で、英語も話せます。エレベーターで階を上げるには、キーカードをかざす必要があります。安全面も安心です👍🏻 次回日本を訪れる機会があれば、またここに泊まりたいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1149,45 +1019,6 @@
       "reviewer": "현님"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-25",
-      "comment": "離地鐵站近，附近有很多商店可以逛，可以自助寄放行李",
-      "good": "",
-      "bad": "",
-      "translated": "地下鉄の駅に近く、周辺にはたくさんのお店があり、荷物は自分で預けることもできます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-25",
-      "comment": "우선 가격도 괜찮았고 이케부쿠로 역에서 걸어서 5분이고 워낙 번화가라 밤에 위험하지 않다는것도 좋았어요. 그리고 바로 밑에 패밀리마트 편의점있고 이치란 있어요~ 숙소는 뭐 일본숙소니 좁긴했지만 평균이였습니다. 조금 오래된 호텔 느낌이 있지만 굉장히 깨끗했어요 방을 비우면 매일 청소를 해주시는데 그것도 너무 좋았습니다~ 가성비에 무난한 호텔을 찾는다면 완전 추천입니다. 근데 방음은 조금 안 되는거 같더라구요. 다음에 이케부쿠로를 다시 간다면 이 숙소로 올거같네요",
-      "good": "",
-      "bad": "",
-      "translated": "まず価格も大丈夫で池袋駅から歩いて5分であまりにも繁華街なので夜に危険ではないというのもよかったです。そしてすぐ下にファミリーマートコンビニがありイチっていますよ～ちょっと古いホテル感がありますが、すごく綺麗でした部屋を空にすると毎日掃除をしてくれるのにそれもとても良かったです〜コスパに無難なホテルを探すなら完全おすすめです。ところが防音は少しダメだと思いました。次回池袋に戻ったら、この宿に来ると思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "현님"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-25",
-      "comment": "まず価格も大丈夫で池袋駅から歩いて5分であまりにも繁華街なので夜に危険ではないというのもよかったです。 そしてすぐ下にファミリーマートコンビニがあり、イチっていますよ～ 宿はまぁ日本宿ソニ狭めましたが平均でした。 少し古いホテル感がありますが、とても綺麗でした。 部屋を空にすると毎日掃除をしていただくのにそれもとても良かったです～ コスパに無難なホテルを探すなら完全おすすめです。ところが防音は少しダメだと思いました。次回池袋に戻ったら、この宿に来ると思います。",
-      "good": "",
-      "bad": "",
-      "translated": "まず価格も大丈夫で池袋駅から歩いて5分であまりにも繁華街なので夜に危険ではないというのもよかったです。 そしてすぐ下にファミリーマートコンビニがあり、イチっていますよ～ 宿はまぁ日本宿ソニ狭めましたが平均でした。 少し古いホテル感がありますが、とても綺麗でした。 部屋を空にすると毎日掃除をしていただくのにそれもとても良かったです～ コスパに無難なホテルを探すなら完全おすすめです。ところが防音は少しダメだと思いました。次回池袋に戻ったら、この宿に来ると思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "현님"
-    },
-    {
       "site": "Google",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -1205,36 +1036,10 @@
       "rating": 5.0,
       "rating_10pt": 10.0,
       "date": "2026-02-24",
-      "comment": "Nice hotel,very near to all like mrt station,restaurant,mall and many more. Recomended this hotel",
-      "good": "",
-      "bad": "",
-      "translated": "素敵なホテルで、MRT駅、レストラン、ショッピングモールなど、あらゆる場所にとても近いです。このホテルをおすすめします。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "C.R. Mary"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-24",
       "comment": "池袋駅近くの広い部屋。東京で泊まった中で一番良い宿の一つです。階下に24時間営業の一蘭とファミリーマートもあります！",
       "good": "",
       "bad": "",
       "translated": "池袋駅近くの広い部屋。東京で泊まった中で一番良い宿の一つです。階下に24時間営業の一蘭とファミリーマートもあります！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Luke Goh"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-24",
-      "comment": "Large rooms near ikebukro station. One of my better stays in Tokyo so far. There is also a 24 hour ichiran ramen store below and also a family mart!",
-      "good": "",
-      "bad": "",
-      "translated": "池袋駅近くの広い部屋。これまでの東京滞在の中でも特に良い宿の一つでした。階下には24時間営業の一蘭ラーメンとファミリーマートもあります！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Luke Goh"
@@ -1339,19 +1144,6 @@
       "good": "",
       "bad": "",
       "translated": "場所は池袋駅の近くです",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-19",
-      "comment": "息子の入試に使わせていただきました。快適に過ごすことができました。",
-      "good": "",
-      "bad": "",
-      "translated": "息子の入試に使わせていただきました。快適に過ごすことができました。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1513,19 +1305,6 @@
       "reviewer": "Vania Ghassani Putri"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-12",
-      "comment": "Conveniently located from ikebukuro station, just a few mins walk. Close to many stores and restaurants. I’m very satisfied with the hotel, especially the price i got was very nice.",
-      "good": "",
-      "bad": "",
-      "translated": "池袋駅から徒歩数分と便利な立地です。周辺には多くのお店やレストランがあります。ホテルには大変満足しています。特に料金がとてもお得でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Vania Ghassani Putri"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1557,19 +1336,6 @@
       "rating_10pt": 10.0,
       "date": "2026-02-09",
       "comment": "이케부쿠로 역, 애니메이트, 음식점 어딜 가든 접근성 좋은 곳에 위치한 호텔. 로비 아래로 내려가면 에스컬레이터 옆 흡연실과 작은 패밀리마트도 있습니다. 옆방에서 큰 소리를 낸다면 작게나마 들릴 정도의 방음 수준. 좋네요.",
-      "good": "",
-      "bad": "",
-      "translated": "池袋駅、アニメイト、飲食店 どこのガーデンへもアクセスしやすいホテル。ロビーの下に降りると、エスカレーターの隣の喫煙ルームと小さなファミリーマートもあります。隣の部屋で大きな音を出すなら、小さくても聞こえるほどの防音レベル。いいですね。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "yeonsoo Choi (cys)"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-09",
-      "comment": "池袋駅、アニメイト、飲食店 どこのガーデンへもアクセスしやすいホテル。ロビーの下に降りると、エスカレーターの隣の喫煙ルームと小さなファミリーマートもあります。隣の部屋で大きな音を出すなら、小さくても聞こえるほどの防音レベル。いいですね。",
       "good": "",
       "bad": "",
       "translated": "池袋駅、アニメイト、飲食店 どこのガーデンへもアクセスしやすいホテル。ロビーの下に降りると、エスカレーターの隣の喫煙ルームと小さなファミリーマートもあります。隣の部屋で大きな音を出すなら、小さくても聞こえるほどの防音レベル。いいですね。",
@@ -1708,19 +1474,6 @@
       "reviewer": "あっちゅうブタ子"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-04",
-      "comment": "Ideales Hotel für Touristen da Nähe zur Ikebukuro Station und auch einige kleine Geschäfte für Lebensmittel vorhanden. Personal sehr freundlich und hilfsbereit und man kann sich mit Englisch super verständigen. Würde dieses Hotel bei meinem nächsten Aufenthalt in Japan wieder buchen.",
-      "good": "",
-      "bad": "",
-      "translated": "池袋駅に近く、周辺に小さな食料品店がいくつかあるため、観光客にとって理想的なホテルです。スタッフはとても親切で協力的で、英語でのコミュニケーションもスムーズです。次回日本を訪れる際も、必ずこのホテルを予約します。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "【CAPTAIN YUTO】"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1797,19 +1550,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Janet Wai"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-02-01",
-      "comment": "地點方便 由池袋JR 行去酒店只需5分鐘路程 下次都會住返呢間酒店👍🏽",
-      "good": "",
-      "bad": "",
-      "translated": "JR池袋駅から徒歩わずか5分の便利な立地。次回も必ずこのホテルに泊まります！👍🏽",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Janet Wai"
     }
   ],
   "positives": [
@@ -1817,13 +1557,23 @@
     "部屋は狭いですが、許容範囲です。 建物は古いですが、清潔です。 スタッフは親切です。 追加料金でレイトチェックアウトが可能です。  立地は非常に便利です。",
     "ウォーターサーバーがなかった！清掃員のゴミ箱の周りのゴミさえ片付けていなかった！エスカレーターは1基しかなく、午前中は下り、午後は上りだった。部屋も狭かった。",
     "ホテルは幹線道路のすぐ裏手にあり、すぐ外に公園があるという非常に便利な場所に位置しています。",
-    "部屋は小さいが許容範囲。古い建物だが清潔。スタッフはフレンドリー。追加料金でレイトチェックアウト可能。立地は非常に便利。"
+    "このホテルは間違いなく2つ星ではなく、少なくとも3つ星の評価に値します。客室の質、立地、サービス、すべてが一流です。  客室は清潔で快適でした。設備はやや古さを感じましたが、全体的な滞在体験を損なうものではありませんでした。部屋は広々としており、スーツケース2個を楽に置くことができました。地下鉄の駅は階下にありますが、防音対策がしっかりしているので、全く邪魔されることなく快適に過ごせました。  さらに、ホテルが用意してくれたセルフサービスのバスアメニティは非常に質が高く、使用後は肌が滑らかで乾燥せず、嬉しい驚きでした。  清掃は細やかで徹底しており、とても快適な滞在となりました。立地も申し分なく、PARCOのすぐ隣にあるため、ショッピングや交通機関へのアクセスが非常に便利です。  このホテルは間違いなく3つ星、あるいはそれ以上の評価に値します。2つ星ホテルとしては明らかに過小評価されています。客室の質から立地、そしてサービス全般に至るまで、すべてが一流です。  客室は清潔で快適です。家具はやや古さを感じますが、滞在全体の快適さには全く影響しません。広々としていて、スーツケース2個を置いても窮屈さを感じません。地下鉄駅の真上という立地にもかかわらず、防音性は抜群で、騒音は全く気になりません。  セルフサービスのバスアメニティも驚くほど高品質です。誇張ではなく、使用後は肌が滑らかになり、乾燥も全く感じませんでした。  ハウスキーピングは丁寧で細部にまで気を配っており、快適な滞在をさらに充実させてくれます。PARCOのすぐ隣という最高のロケーションで、ショッピングにも交通機関にも非常に便利です。  間違いなくまたこのホテルを利用します。",
+    "池袋駅東口から徒歩わずか数分という抜群の立地の良さから、池袋第一ホテルに宿泊するのは今回が初めてではありません。パルコ、西武、東武といった大型デパートも近くにあり、ショッピングにも大変便利です。今回はシングルルームに宿泊しました。日本のビジネスホテルとしては標準的な広さですが、28インチのスーツケースも余裕で収まります。チェックアウト日は、パスワード式のセルフサービスシステムで、中国語と英語の両方に対応しているので操作も非常に簡単です。荷物計量器も以前より大型のものにアップグレードされていました（以前は小さくて使いにくかった）。全体的に見て、このホテルはコストパフォーマンスに優れています。サンシャインシティや水族館、アニメグッズ巡りがお好きな方には、池袋駅東口近くのこのホテルは最適です。超おすすめです！👍👍👍",
+    "朝食がとても美味しかった",
+    "日本滞在中に泊まるのに良い場所です。池袋駅に近いです。",
+    "ベッドは十分な大きさで、独立したエアコンがあり、窓も開きます。JR池袋駅からも近く、便利な立地です。",
+    "素敵なホテルで立地も良い！"
   ],
   "negatives": [
+    "特になし",
     "窓からの音がうるさかった。",
+    "部屋が狭すぎて、大きなスーツケースを2つ同時に開けることができない。",
+    "-",
+    "充電にはプラグが不十分です",
     "旅行で利用しました。立地は問題ないのですが、水まわりがイマイチでした。シャワーを浴びると排水が追いつかず、水がドンドン溜まり、くるぶしまで排水に浸かりながらは気分良くなかったです。トイレも小さく、洗面スペース狭く、便座と便器がサイズ違いで使いにくかったです。身体が大きい方にはおすすめできません。",
+    "低層階は（近くにレストランがたくさんあるため）調理の匂いがするかもしれません。フロントに連絡したところ、高層階の部屋に泊まれるように手配してもらえたので、とても助かりました！",
+    "冷蔵庫の温度が十分に下がらない",
     "アメニティはロビーに取りに行かないといけない物があったり、シャワー出すとビー！とめちゃくちゃうるさい音が出ます。エアコンも冬なのになぜか冷房になってました。 駅近でファミマと繋がっている。という部分は良いです。",
-    "全体的に見て、良いホテルです。立地は駅に近く、とても便利です。朝食は少し高めですが、伝統的な日本料理と洋食が数種類用意されており、味もかなり美味しいです。近くにファミリーマートがあり、とても便利です。",
-    "立地条件"
+    "バスルームは少し寒かったです。浴槽で洗う仕組みなのに水がしっかり案内しよう。"
   ]
 }

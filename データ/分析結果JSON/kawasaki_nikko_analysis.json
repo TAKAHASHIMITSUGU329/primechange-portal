@@ -1,50 +1,50 @@
 {
   "hotel_name": "川崎日航ホテル",
   "hotel_key": "kawasaki_nikko",
-  "total_reviews": 148,
-  "overall_avg_10pt": 8.77,
-  "high_count": 123,
-  "high_rate": 83.1,
-  "mid_count": 23,
-  "mid_rate": 15.5,
+  "total_reviews": 139,
+  "overall_avg_10pt": 8.82,
+  "high_count": 117,
+  "high_rate": 84.2,
+  "mid_count": 20,
+  "mid_rate": 14.4,
   "low_count": 2,
   "low_rate": 1.4,
   "site_stats": [
     {
       "site": "Booking.com",
-      "count": 84,
-      "native_avg": 8.81,
+      "count": 83,
+      "native_avg": 8.8,
       "scale": "/10",
-      "avg_10pt": 8.81,
+      "avg_10pt": 8.8,
       "median_10pt": 9.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Trip.com",
-      "count": 30,
-      "native_avg": 9.63,
+      "count": 28,
+      "native_avg": 9.61,
       "scale": "/10",
-      "avg_10pt": 9.63,
+      "avg_10pt": 9.61,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 19,
-      "native_avg": 3.58,
+      "count": 14,
+      "native_avg": 3.71,
       "scale": "/5",
-      "avg_10pt": 7.16,
+      "avg_10pt": 7.43,
       "median_10pt": 8.0,
       "judgment": "要改善"
     },
     {
       "site": "じゃらん",
-      "count": 8,
-      "native_avg": 4.5,
+      "count": 7,
+      "native_avg": 4.43,
       "scale": "/5",
-      "avg_10pt": 9.0,
+      "avg_10pt": 8.86,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
@@ -53,7 +53,7 @@
       "scale": "/5",
       "avg_10pt": 9.0,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Agoda",
@@ -68,28 +68,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 65,
-      "pct": "43.9%"
+      "count": 60,
+      "pct": "43.2%"
     },
     {
       "score": 9,
       "count": 32,
-      "pct": "21.6%"
+      "pct": "23.0%"
     },
     {
       "score": 8,
-      "count": 26,
-      "pct": "17.6%"
+      "count": 25,
+      "pct": "18.0%"
     },
     {
       "score": 7,
       "count": 11,
-      "pct": "7.4%"
+      "pct": "7.9%"
     },
     {
       "score": 6,
-      "count": 11,
-      "pct": "7.4%"
+      "count": 9,
+      "pct": "6.5%"
     },
     {
       "score": 5,
@@ -98,8 +98,8 @@
     },
     {
       "score": 2,
-      "count": 2,
-      "pct": "1.4%"
+      "count": 1,
+      "pct": "0.7%"
     }
   ],
   "comments": [
@@ -273,19 +273,6 @@
       "reviewer": "HANK YEN"
     },
     {
-      "site": "Google",
-      "rating": 1.0,
-      "rating_10pt": 2.0,
-      "date": "2026-03-22",
-      "comment": "This hotel is very stingy , I am very unhappy with the service I received, An utterly disappointing experience and poor service！",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルは非常にケチで、受けたサービスにとても不満です。本当にがっかりする経験で、サービスもひどいものでした！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "HANK YEN"
-    },
-    {
       "site": "じゃらん",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -294,19 +281,6 @@
       "good": "",
       "bad": "",
       "translated": "朝ごはんが非常に美味しく、フレンチトーストやオムレツ、特製カレーなど多くの種類の中から選ぶことができます。  特に目の前で調理いただけるオムレツは最高です。  また利用させていただきます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "リックさん"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-20",
-      "comment": "川崎駅に近く、コンビニやスーパーなども近隣にある為、非常に便利です。館内も落ち着いた雰囲気で、快適でした。",
-      "good": "",
-      "bad": "",
-      "translated": "川崎駅に近く、コンビニやスーパーなども近隣にある為、非常に便利です。館内も落ち着いた雰囲気で、快適でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "リックさん"
@@ -676,19 +650,6 @@
       "reviewer": "T‍a‍n‍g‍t‍a‍n‍g"
     },
     {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-14",
-      "comment": "位於JR川崎站旁邊走路一下子，就算是從京成川崎站過來也大約十至十五分鐘，飯店櫃檯在一樓，其他樓層有其他設施。  房間大小還OK，不算太小，各項該有的東西都有，還有折紙鶴在桌上迎賓，現在加入Onw Harmony會員還有送小禮物，網路WiFi密碼在電視上面，不過從Check-In到住進房間貌似都沒有人提到。  各樓層都有飲料機跟冰塊機，部分樓層有販售酒精飲料。  早餐在10樓一間餐廳，整體還不錯，日式西式都有，雖然熟食種類以星級飯店覺得不算多，就是一般會有的都有，沒有特別多出來的，飲料種類倒是蠻多的，甚至還有霜淇淋。  一些小缺點是沒有洗衣房，這問題可大可小，然後飯店櫃檯人員英語能力似乎不太好，雖然還是很熱情的協助辦理入住，但畢竟是品牌飯店櫃檯，基本的外語能力應該還是要具備，而不是拿手機按Google Translate，另外一個不解的是房間窗戶有貼膜沒辦法看清楚外面，不明白。",
-      "good": "",
-      "bad": "",
-      "translated": "JR川崎駅から徒歩すぐ、または京成川崎駅から10～15分ほどの場所に位置するホテルです。フロントは1階にあり、その他の施設は他の階にあります。客室は狭すぎず、必要なアメニティはすべて揃っており、テーブルにはウェルカム用の折り鶴が置かれています。Onw Harmony Nowにご入会いただくと、ちょっとしたプレゼントがあります。Wi-Fiのパスワードはテレビに表示されていますが、チェックイン時や入室時に誰も教えてくれなかったようです。各階に飲料と製氷機があり、一部の階ではアルコール飲料も販売しています。朝食は10階のレストランで提供され、和食と洋食の両方があり、概ね満足できる内容です。星付きホテルとしては調理済み食品の種類はそれほど多くありませんが、一般的なメニューは揃っており、特に豪華なものはありません。しかし、ソフトクリームなど、飲み物の種類は豊富です。小さな欠点としては、ランドリールームがないことが挙げられますが、これは些細な問題にも大きな問題にもなり得ます。また、フロントのスタッフの英語力は限られているようでした。チェックインの際のサポートは非​​常に親切だったものの、有名ホテルである以上、スマホのGoogle翻訳を使うだけでなく、基本的な外国語能力を備えているべきだった。また、部屋の窓が着色ガラスだったため、外が見えにくかったのも困った点だった。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "吳漢堡"
-    },
-    {
       "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
@@ -1015,19 +976,6 @@
     },
     {
       "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-08",
-      "comment": "",
-      "good": "Hôtel très propre et confortable   Très bon emplacement situé a proximité immédiate de la gare de Kawasaki qui permet de relier facilement certains endroits stratégiques de Tokyo (environ 20/25 minutes en train de l'aéroport d'Haneda et de la gare de Tokyo)  Le buffet du petit déjeuner est varié et savoureux  En résumé, bon rapport qualité/prix",
-      "bad": "Un seul espace fumeur dans tout l'immeuble",
-      "translated": "",
-      "translated_good": "ホテルはとても清潔で快適でした。川崎駅のすぐ隣という絶好のロケーションで、東京の主要スポットへのアクセスも抜群です（羽田空港と東京駅から電車で約20～25分）。朝食ビュッフェは種類豊富で美味しかったです。要するに、コストパフォーマンスに優れたホテルでした。",
-      "translated_bad": "建物全体で喫煙エリアは1箇所のみです。",
-      "reviewer": "Antoine"
-    },
-    {
-      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-03-08",
@@ -1222,19 +1170,6 @@
       "reviewer": "ゲ‍ス‍ト"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-25",
-      "comment": "チェックアウトが12時と、とてもゆっくり出来ました。",
-      "good": "",
-      "bad": "",
-      "translated": "チェックアウトが12時と、とてもゆっくり出来ました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
       "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1326,19 +1261,6 @@
       "reviewer": "Alan"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-24",
-      "comment": "作為一家四星級酒店是合格的，房間每天都打掃，在過道上遇到員工也會禮貌打招呼，酒店位置也很醒目方便，蠻好的。",
-      "good": "",
-      "bad": "",
-      "translated": "4つ星ホテルとしては満足できるレベルです。部屋は毎日清掃され、廊下でスタッフとすれ違うと丁寧に挨拶してくれます。ホテルの立地も非常に良く、便利です。とても良いホテルです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
       "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1404,19 +1326,6 @@
       "reviewer": "Weilin Zeng"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-23",
-      "comment": "川崎站旁，交通地點便利是最大優點。",
-      "good": "",
-      "bad": "",
-      "translated": "最大の利点は、川崎駅に隣接しているという便利な立地です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Weilin Zeng"
-    },
-    {
       "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
@@ -1470,19 +1379,6 @@
     },
     {
       "site": "Google",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-02-22",
-      "comment": "Questo hotel ha molti problemi. Come pregi, la posizione, il personale e la grandezza della stanza. I difetti: - stanza rumorosa (costante rumore proveniente dal bagno, a cui il letto purtroppo è attaccato) e completamente non insonorizzata - caldo allucinante a Febbraio, con impossibilità di regolare la temperatura in stanza se non usando un condizionatorino che però non faceva niente. Ovviamente impossibile aprire le finestre - manca la Coin laundry, quindi bisogna farsela a piedi - letto a molle scomodissimo e con lenzuola di acrilico - pulizia stanza discutibile Mi spiace perché dalle foto e descrizione sembrava un buon hotel quindi ci sono rimasto male. Il prezzo tuttavia è buono",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルには多くの問題があります。良い点は、立地、スタッフ、部屋の広さです。悪い点は次のとおりです。 - 部屋がうるさい（ベッドのすぐ隣にあるバスルームから絶えず騒音が聞こえる）し、防音対策が全くされていない - 2月なのに信じられないほど暑く、エアコンを使う以外に部屋の温度を調節する方法がなく、エアコンも全く効果がなかった。当然、窓を開けることはできない - コインランドリーがないので、歩いて行かなければならない - アクリルシートの付いた非常に寝心地の悪いボックススプリングベッド - 部屋の清潔さに疑問がある。写真と説明から良いホテルに見えたので、がっかりしました。ただし、価格は良いです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Michele Da Ros"
-    },
-    {
-      "site": "Google",
       "rating": 4.0,
       "rating_10pt": 8.0,
       "date": "2026-02-22",
@@ -1493,19 +1389,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "カキヌマヒロユキ"
-    },
-    {
-      "site": "Google",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-02-22",
-      "comment": "このホテルには多くの問題点があります。 良い点としては、立地、スタッフ、部屋の広さなどが挙げられます。 悪い点： - 部屋がうるさい（残念ながらベッドの隣にあるバスルームから常に音が聞こえてきます）。防音対策も全くされていません。 - 2月なのに猛暑で、エアコンを使う以外に室温を調節する方法がありませんでした。エアコンも全く効きませんでした。当然、窓を開けることもできません。 - コインランドリーがないので、歩いて行かなければなりません。 - アクリル板のボックススプリングベッドは非常に寝心地が悪かったです。 - 部屋の清潔さに疑問を感じます。 写真や説明では良いホテルに見えたので残念でしたが、残念でした。しかし、価格は妥当です。",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルには多くの問題点があります。 良い点としては、立地、スタッフ、部屋の広さなどが挙げられます。 悪い点： - 部屋がうるさい（残念ながらベッドの隣にあるバスルームから常に音が聞こえてきます）。防音対策も全くされていません。 - 2月なのに猛暑で、エアコンを使う以外に室温を調節する方法がありませんでした。エアコンも全く効きませんでした。当然、窓を開けることもできません。 - コインランドリーがないので、歩いて行かなければなりません。 - アクリル板のボックススプリングベッドは非常に寝心地が悪かったです。 - 部屋の清潔さに疑問を感じます。 写真や説明では良いホテルに見えたので残念でしたが、残念でした。しかし、価格は妥当です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Michele Da Ros"
     },
     {
       "site": "Booking.com",
@@ -2033,11 +1916,23 @@
     "立地と利便性。スーパーマーケットが夜10時まで営業しているのも大きな利点です。",
     "素泊まりの滞在でしたが、 部屋もとても清潔で、気持ちよく過ごせました。 山口県からきましたが、 駅から激近は、分かりやすくありがたいです。 19階は窓からは夜景がとても綺麗でした。 また利用させてください、有り難うございました。",
     "フライトの遅延でホテルに少し遅れて到着しましたが、駅に近く便利な立地で、羽田空港から京急線で簡単にアクセスできました。ただ、初日は1階の改装工事に少し驚きました。バスルームの設備も少し古く、排水もあまり良くありませんでした。しかし、スタッフはとても親切で、チェックする人を手配してくれました。2泊目からは快適でしたが、部屋は2人にはちょっと狭かったです。高層階からは電車の眺めが素晴らしく、とても良かったのですが、騒音に敏感な方には少し不快かもしれません。折り紙などの部屋の飾りには驚いて、カプセルコーヒーマシンは紅茶まで淹れることができます！朝食を1日追加で購入したのですが、フロントでその旨を伝えたら割引クーポンをもらえました。アイスクリームなど、種類も豊富でした！全体的にとても良い滞在でした。",
-    "立地は便利で、JR線や京急線が利用できます。ホテルの朝食はまあまあですが、セルフサービスのランドリー設備があればさらに良いでしょう。"
+    "立地は便利で、JR線や京急線が利用できます。ホテルの朝食はまあまあですが、セルフサービスのランドリー設備があればさらに良いでしょう。",
+    "このホテルは一流のサービスを提供しており、スタッフは礼儀正しく、ほとんどのスタッフが英語を話します。JR駅のすぐそばに位置し、東京駅まで徒歩わずか20分、羽田空港までは電車で30分です。「エア51」バスを利用すれば、第3ターミナルまで約40分です。早朝便の場合は、座席が確保しやすいのでバスの利用が最適です。バス停はホテルの目の前にあり、道路を渡って徒歩1分です。周辺には、行き届いたサービスを提供する魅力的な地元の飲食店をはじめ、多くのレストランがあります。客室は15～30平方メートルで、ほとんどの部屋から市街の景色を眺めることができ、広々とした快適な空間となっています。",
+    "部屋は清潔で整頓されており、スタッフは親切で英語も話せたので、旅行者にとって素晴らしい選択肢だった。",
+    "立地は便利で、川崎駅のすぐそばにあるので見つけやすいです。部屋も他のホテルと比べて比較的広く、コストパフォーマンスに優れています。",
+    "立地は便利で、羽田空港からもそう遠くありません。宿泊料金は都心部よりもずっと安いです。川崎は東京の中心部からそれほど遠くなく、宿泊費を大幅に節約できるので、非常にコストパフォーマンスに優れています。アメニティも非常に便利です。",
+    "朝ごはんが非常に美味しく、フレンチトーストやオムレツ、特製カレーなど多くの種類の中から選ぶことができます。  特に目の前で調理いただけるオムレツは最高です。  また利用させていただきます。"
   ],
   "negatives": [
+    "・個人情報の管理が危うい点 ・全体的に設備が古い点(そんなに気にはならない)",
     "このホテルは非常にケチで、受けたサービスにとても不満です。本当にがっかりする経験で、サービスもひどいものでした！",
-    "このホテルは非常にケチで、受けたサービスにとても不満です。本当にがっかりする経験で、サービスもひどいものでした！",
-    "駅に近いのが最高でスタッフの対応が外国人も含め良かった。コーヒーが部屋にもラウンジでも飲めて美味しかった。  バスタブも大きめで洗面所も使い安かった。朝食ブッフェは種類は多くないが美味しかった。"
+    "わからない",
+    "特に無し",
+    "部屋が狭い、ロケーションが悪い、入り口がわかりにくい",
+    "エレベーターがなかなか来ないことがあった",
+    "天気が良かったのもあって部屋が暑い。エアコンは個別じゃないのか、冷風も出ず窓も開かず苦しい思いをしました",
+    "空調設備があまり良くなかった",
+    "なし",
+    "夜食のルームサービスは、少し残念かなと。"
   ]
 }

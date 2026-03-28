@@ -1,27 +1,18 @@
 {
   "hotel_name": "リッチモンドホテル東京目白",
   "hotel_key": "richmond_mejiro",
-  "total_reviews": 148,
-  "overall_avg_10pt": 8.72,
-  "high_count": 128,
-  "high_rate": 86.5,
-  "mid_count": 17,
-  "mid_rate": 11.5,
-  "low_count": 3,
-  "low_rate": 2.0,
+  "total_reviews": 137,
+  "overall_avg_10pt": 8.69,
+  "high_count": 118,
+  "high_rate": 86.1,
+  "mid_count": 13,
+  "mid_rate": 9.5,
+  "low_count": 6,
+  "low_rate": 4.4,
   "site_stats": [
     {
-      "site": "Trip.com",
-      "count": 36,
-      "native_avg": 9.47,
-      "scale": "/10",
-      "avg_10pt": 9.47,
-      "median_10pt": 10.0,
-      "judgment": "非常に良好"
-    },
-    {
       "site": "Booking.com",
-      "count": 36,
+      "count": 35,
       "native_avg": 7.89,
       "scale": "/10",
       "avg_10pt": 7.89,
@@ -29,11 +20,20 @@
       "judgment": "概ね良好"
     },
     {
+      "site": "Trip.com",
+      "count": 32,
+      "native_avg": 9.41,
+      "scale": "/10",
+      "avg_10pt": 9.41,
+      "median_10pt": 10.0,
+      "judgment": "優秀"
+    },
+    {
       "site": "楽天トラベル",
-      "count": 27,
-      "native_avg": 4.18,
+      "count": 26,
+      "native_avg": 4.19,
       "scale": "/5",
-      "avg_10pt": 8.37,
+      "avg_10pt": 8.38,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -44,16 +44,16 @@
       "scale": "/5",
       "avg_10pt": 9.0,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 17,
-      "native_avg": 4.41,
+      "count": 12,
+      "native_avg": 4.42,
       "scale": "/5",
-      "avg_10pt": 8.82,
+      "avg_10pt": 8.83,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Agoda",
@@ -62,39 +62,39 @@
       "scale": "/10",
       "avg_10pt": 9.33,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 68,
-      "pct": "45.9%"
+      "count": 61,
+      "pct": "44.5%"
     },
     {
       "score": 9,
       "count": 16,
-      "pct": "10.8%"
+      "pct": "11.7%"
     },
     {
       "score": 8,
-      "count": 44,
-      "pct": "29.7%"
+      "count": 41,
+      "pct": "29.9%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "4.7%"
+      "pct": "5.1%"
     },
     {
       "score": 6,
-      "count": 7,
-      "pct": "4.7%"
+      "count": 6,
+      "pct": "4.4%"
     },
     {
       "score": 5,
       "count": 3,
-      "pct": "2.0%"
+      "pct": "2.2%"
     },
     {
       "score": 4,
@@ -205,19 +205,6 @@
       "reviewer": "Hsin"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-27",
-      "comment": "素敵で経済的",
-      "good": "",
-      "bad": "",
-      "translated": "素敵で経済的",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Daniel Cardenas"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -309,19 +296,6 @@
       "reviewer": "tomoki_000"
     },
     {
-      "site": "楽天トラベル",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-25",
-      "comment": "2回目の利用。  前回よりも広い部屋だったので、更にのんびり過ごせてよかった。 また機会があれば利用したいと思います。  今回、ウェルカムドリンクの券をもらえなかったのは、素泊まりだったからでしょうか？",
-      "good": "",
-      "bad": "",
-      "translated": "2回目の利用。  前回よりも広い部屋だったので、更にのんびり過ごせてよかった。 また機会があれば利用したいと思います。  今回、ウェルカムドリンクの券をもらえなかったのは、素泊まりだったからでしょうか？",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "tomoki_000"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -356,19 +330,6 @@
       "good": "",
       "bad": "",
       "translated": "設備：必要なアメニティはすべて揃っており、各階段の下には温水が出る給水器も設置されています。衛生状態：良好。環境：素晴らしい。近隣には松本清、ココナ、赤いローソンコンビニエンスストアがあります。その他にもカフェ、ファストフード店、和菓子店、コーヒーショップ、フランス菓子店、自家製ウイスキー店などがあります。目白駅から徒歩わずか3分と大変便利です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-23",
-      "comment": "綺麗なのとアニメティが充実していて、スタッフの対応ロケーションも最高でした！後値段もお手頃でした！ 窓がない部屋だったので寝泊まりだけでは充分ですがホテル滞在メインだと部屋有りのとこがいいかもです！",
-      "good": "",
-      "bad": "",
-      "translated": "綺麗なのとアニメティが充実していて、スタッフの対応ロケーションも最高でした！後値段もお手頃でした！ 窓がない部屋だったので寝泊まりだけでは充分ですがホテル滞在メインだと部屋有りのとこがいいかもです！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -764,32 +725,6 @@
       "reviewer": "ゲ‍ス‍ト"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-12",
-      "comment": "親子で海外から帰ってきて泊まりました。 湯船に久しぶりにつかれてその夜は、ぐっすり眠れました。 アメニティもたくさんあり、リファのドライヤーで、カーラーも貸出あって、娘は、大変喜んでました。",
-      "good": "",
-      "bad": "",
-      "translated": "親子で海外から帰ってきて泊まりました。 湯船に久しぶりにつかれてその夜は、ぐっすり眠れました。 アメニティもたくさんあり、リファのドライヤーで、カーラーも貸出あって、娘は、大変喜んでました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-12",
-      "comment": "山手線駅に近く、立地抜群です。  料金もお手頃です。  コンビニエンスストアもすぐ近くにあります。  ホテルのすぐ隣に薬局があります。  大変おすすめです。",
-      "good": "",
-      "bad": "",
-      "translated": "山手線駅に近く、立地抜群です。  料金もお手頃です。  コンビニエンスストアもすぐ近くにあります。  ホテルのすぐ隣に薬局があります。  大変おすすめです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kittiphop Chaiyaphan"
-    },
-    {
       "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
@@ -933,19 +868,6 @@
       "reviewer": "given sur"
     },
     {
-      "site": "Google",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-06",
-      "comment": "这个女的到处瞎拍",
-      "good": "",
-      "bad": "",
-      "translated": "この女性は行く先々で写真を撮っていた。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "given sur"
-    },
-    {
       "site": "じゃらん",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -983,19 +905,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍n‍i‍t‍a‍ ‍O"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-05",
-      "comment": "",
-      "good": "Mejiro is a really quiet part of Tokyo and I enjoyed having somewhere to retreat after the hustle and bustle of sightseeing each day. The staff at the counter were extremely helpful and even the ones that spoke limited English we were able to use the Google translator and communicate. The buffet breakfast had a good number of choices and was great value for ¥1500. Breakfast times were from 6:30 am to 10 am which allowed for us to head off early on the days that we needed to and have a more luxurious start to the day when we weren’t going anywhere too far. There was a number of amenities available in the lobby that you could help yourself to at any time. It was also only a couple of minutes walk away from Mejiro station. Bear in mind however that if you purchased the three day Tokyo Metro ticket, it is not valid for use at this smaller station and you need to either go to Shinjuku or Ikebukuro.",
-      "bad": "The cleaning schedule was a little bit confusing. We had several days of a five day stay where the bed wasn’t made even though that was meant to be part of the basic cleaning for the day. Not too sure why and it didn’t bother us enough to discuss it with reception. It did however mean that the cups weren’t cleaned as well and so we ended up having to wash them in the bathroom sink. We did have to miss one of our scheduled breakfast which was included with the room right and had been advised that we could use it at the restaurant but when we decided to go out for dinner and utilise it, we headed down to reception to find out the address of the restaurant and we got told that we could only use it for filtered coffee bags or sweets.",
-      "translated": "",
-      "translated_good": "目白は東京の中でも本当に静かなエリアで、毎日の観光の喧騒から離れてゆっくりできる場所があって良かったです。カウンターのスタッフはとても親切で、英語があまり話せないスタッフにもGoogle翻訳を使ってコミュニケーションを取ることができました。ビュッフェスタイルの朝食は種類も豊富で、1500円という値段も大変お得でした。朝食時間は午前6時30分から午前10時までだったので、必要な日は早めに出発でき、あまり遠くへ行かない日はゆったりと朝食を楽しむことができました。ロビーにはいつでも自由に使えるアメニティがいくつか用意されていました。また、目白駅から徒歩わずか数分という好立地でした。ただし、東京メトロの3日間乗車券を購入した場合、この小さな駅では利用できないので、新宿駅か池袋駅まで行く必要がある点にご注意ください。",
-      "translated_bad": "清掃スケジュールが少し分かりにくかったです。5日間の滞在のうち、数日間はベッドメイキングがされていませんでした。これはその日の基本清掃に含まれているはずなのに。理由はよく分かりませんが、フロントに問い合わせるほど気になりませんでした。ただ、カップも洗われていなかったので、結局バスルームの洗面台で洗わなければなりませんでした。宿泊料金に含まれている予定の朝食を1回食べ損ねてしまい、レストランで利用できると聞いていたのですが、夕食に出かけて利用しようと思い、レストランの住所をフロントに尋ねたところ、フィルターコーヒーのバッグかお菓子しか利用できないと言われました。",
-      "reviewer": "Barb"
     },
     {
       "site": "Google",
@@ -1061,19 +970,6 @@
       "translated_good": "恐らく予約をしていたお部屋よりグレードがアップされていました。  お部屋も広く清潔で凄く快適でした。",
       "translated_bad": "",
       "reviewer": "Miyuki"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-04",
-      "comment": "Very good in every things! The front desk is very helpful. Amenities are good and have every things you may needed, including chopstick, spoon and folks. We stay in the twin beds room. The beds can connect together without space so my child can sleep in between. The room is so spacious. Toilet is so nice. It has the large window so you can see out. Also, the air con can be adjusted in the room. We used the laundry machine as well. It is very convenience, works as expected  with reasonable price.",
-      "good": "",
-      "bad": "",
-      "translated": "全てにおいて非常に良かったです！フロントデスクの対応もとても親切でした。アメニティも充実していて、箸、スプーン、フォークなど必要なものは全て揃っていました。ツインベッドルームに宿泊しましたが、ベッドは隙間なくくっつけることができたので、子供も間に寝ることができました。部屋はとても広々としていました。トイレもとても綺麗でした。大きな窓からは外の景色が見えます。また、エアコンは部屋の中で調節できました。洗濯機も利用しましたが、とても便利で、期待通りに機能し、料金もリーズナブルでした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "DaddyRabbit"
     },
     {
       "site": "Agoda",
@@ -1175,19 +1071,6 @@
       "good": "",
       "bad": "",
       "translated": "目白駅から近く、スタッフの方もとても親切で良かったです。 朝のバイキングも時間帯が良かったのか混んでいなく、静かな雰囲気の中で食べる事が出来ました。メニューも種類が多くて大満足でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-24",
-      "comment": "駅から近く、スタッフの対応も丁寧で、ガストドリンクチケなんかも貰えて、最高でした。また利用します",
-      "good": "",
-      "bad": "",
-      "translated": "駅から近く、スタッフの対応も丁寧で、ガストドリンクチケなんかも貰えて、最高でした。また利用します",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1700,19 +1583,6 @@
       "reviewer": "B‍e‍l‍l‍e‍e‍e"
     },
     {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-02-13",
-      "comment": "⭐⭐⭐⭐ 目白駅近くの高品質な宿泊施設 - 早めの予約が鍵！  リッチモンドホテル東京目白に再び宿泊しましたが、立地は相変わらず最高です。JR目白駅からも徒歩圏内で、コンビニやドラッグストアも近くにあり、日々の生活に便利です。  【宿泊体験】  新しい客室タイプを強くお勧めします：今回は改装された客室に宿泊しました。広々とした快適な空間で、大きなスーツケースも楽に広げられました。全体的なクオリティが格段に向上しました。  提携レストラン：朝食はガストと提携しており、手頃な価格で美味しい料理を提供していますが、かなり混雑します。ピーク時は行列に並ぶ時間も考慮することをお勧めします。  【節約術】唯一の目立った変化は、客室料金が着実に上昇していることです。1年前と比べて大幅に値上がりしています。より良い料金を確保するには、少なくとも6ヶ月前までに予約することを強くお勧めします！  新宿や池袋の喧騒を避けながら、広々とした空間と利便性を楽しみたい旅行者にとって、ここは依然として最良の選択肢です。",
-      "good": "",
-      "bad": "",
-      "translated": "⭐⭐⭐⭐ 目白駅近くの高品質な宿泊施設 - 早めの予約が鍵！  リッチモンドホテル東京目白に再び宿泊しましたが、立地は相変わらず最高です。JR目白駅からも徒歩圏内で、コンビニやドラッグストアも近くにあり、日々の生活に便利です。  【宿泊体験】  新しい客室タイプを強くお勧めします：今回は改装された客室に宿泊しました。広々とした快適な空間で、大きなスーツケースも楽に広げられました。全体的なクオリティが格段に向上しました。  提携レストラン：朝食はガストと提携しており、手頃な価格で美味しい料理を提供していますが、かなり混雑します。ピーク時は行列に並ぶ時間も考慮することをお勧めします。  【節約術】唯一の目立った変化は、客室料金が着実に上昇していることです。1年前と比べて大幅に値上がりしています。より良い料金を確保するには、少なくとも6ヶ月前までに予約することを強くお勧めします！  新宿や池袋の喧騒を避けながら、広々とした空間と利便性を楽しみたい旅行者にとって、ここは依然として最良の選択肢です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "SINGOW HSU"
-    },
-    {
       "site": "Agoda",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1895,19 +1765,6 @@
       "reviewer": "KKK8210"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-08",
-      "comment": "まず駅近！迷わない！便利！安定のリッチモンドホテルさまのアメニティ！お部屋のバスルームは古さ感が否めない感じはありますがシャワーの水圧が良くて◎お手数だったらまた利用したいです。",
-      "good": "",
-      "bad": "",
-      "translated": "まず駅近！迷わない！便利！安定のリッチモンドホテルさまのアメニティ！お部屋のバスルームは古さ感が否めない感じはありますがシャワーの水圧が良くて◎お手数だったらまた利用したいです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
       "site": "楽天トラベル",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -2043,10 +1900,23 @@
     "ホテルは立地が良く、サービスも素晴らしく、部屋も清潔です。必ずまた利用します！唯一の難点は、部屋が少し狭いことです。",
     "素敵でお手頃価格",
     "今回は6日間5泊しました。駅から遠いと思っていましたが、実際は徒歩2～3分ほどでした。静かで駅にも近く、快適な環境で、朝食も充実していて、とてもコストパフォーマンスの良いホテルです。次回もまた利用したいと思います。",
-    "部屋はとても快適でした。地下にはコインランドリーがあり、洗濯乾燥がたったの500円で済んだので大変便利でした。フロントのスタッフもとても親切で、素晴らしいサービスを提供してくれました。"
+    "部屋はとても快適でした。地下にはコインランドリーがあり、洗濯乾燥がたったの500円で済んだので大変便利でした。フロントのスタッフもとても親切で、素晴らしいサービスを提供してくれました。",
+    "駅から非常に近く、雨が降ってきたときは特に助かりました。また、ホテルの周りの商店街には大変魅力的なお店が多く、夕食をどこでとるか非常に悩むくらいでした。部屋はやや年季が入っていますが、きれいに掃除されておりました。理由はわかりませんが、廊下とバスルームの室温が高く、ときに暑く感じるほどでした。朝食は非常に混む時間帯がありますが、それをうまく避けられれば、落ち着いて食べることができます。近くに用事のある時は、また利用したいと思わせる場所でした。ありがとうございました。",
+    "地下鉄の駅にとても近く、交通の便が良いです。",
+    "ホテルはJR山手線目白駅から徒歩2分、左手にあります。途中にローソンがあり、池袋から1駅、新宿から3駅と非常に便利な立地です。桜の季節に近い時期に早めに予約しておいて正解でした。料金もかなりリーズナブルでした。部屋はAPAよりも広く、29インチのスーツケース2個を広げるのに十分なスペースがありました。とても清潔で、テレビにはAirPlay機能も付いていました。まさに完璧！👍",
+    "東京に短期滞在される方には、このホテルを強くお勧めします。快適なベッド、エアコン、清潔なバスルーム、大型テレビなど、設備が整った素敵なお部屋です。スタッフの方々もとても親切で親身になって対応してくれます。滞在中は毎日無料の朝食が付いてきます。朝食は種類も豊富でとても美味しいです。洗濯が必要な場合は、ランドリールームも利用できます。そして何より、明治路駅に近いという立地の良さが魅力です。",
+    "利用した部屋は清潔で満足できました。何か書き残す事を絞り出すとすれば、宿泊代金は先に決済を済ませていたので、身一つで伺えば済むと思っていたところ、チェックイン時に宿泊税とやらを徴収された事。領収書は出ますが、先に決算した宿泊料の領収書と当日払った宿泊税の領収書が分かれる事が無く、先に纏めて徴収する事はできないものでしょうか？"
   ],
   "negatives": [
+    "エレベーターは少し気まぐれで、ベッドは少し硬かった。",
+    "まったくない",
+    "古さのためか清掃にも限界があるように感じた。 価格との折り合いがつきづらい。",
+    "清掃スケジュールが少し分かりにくかったです。5日間の滞在のうち、数日間はベッドメイキングがされていませんでした。これはその日の基本清掃に含まれているはずなのに。理由はよく分かりませんが、フロントに問い合わせるほど気になりませんでした。ただ、カップも洗われていなかったので、結局バスルームの洗面台で洗わなければなりませんでした。宿泊料金に含まれている予定の朝食を1回食べ損ねてしまい、レストランで利用できると聞いていたのですが、夕食に出かけて利用しようと思い、レストランの住所をフロントに尋ねたところ、フィルターコーヒーのバッグかお菓子しか利用できないと言われました。",
     "エキストラベッド不要と備考欄に書いたのに、エキストラベッドが入っていた。  何だか要望を読んでないのか、忘れていたのか、あえて無視したのか分かりませんが、とても残念な気持ちになりました。",
-    "朝食"
+    "朝ごはんに期待してリッチモンドにしたのに、ガストなのは残念すぎました。",
+    "特になし",
+    "かなり古い建物",
+    "朝食は含まれていません",
+    "部屋の風呂の栓が壊れていたので、お湯をためておくことができなっかた。"
   ]
 }

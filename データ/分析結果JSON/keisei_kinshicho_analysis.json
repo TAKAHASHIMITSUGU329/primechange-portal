@@ -1,41 +1,41 @@
 {
   "hotel_name": "京成リッチモンドホテル東京錦糸町",
   "hotel_key": "keisei_kinshicho",
-  "total_reviews": 148,
-  "overall_avg_10pt": 9.15,
-  "high_count": 133,
-  "high_rate": 89.9,
-  "mid_count": 13,
-  "mid_rate": 8.8,
-  "low_count": 2,
-  "low_rate": 1.4,
+  "total_reviews": 134,
+  "overall_avg_10pt": 9.13,
+  "high_count": 121,
+  "high_rate": 90.3,
+  "mid_count": 10,
+  "mid_rate": 7.5,
+  "low_count": 3,
+  "low_rate": 2.2,
   "site_stats": [
     {
       "site": "Booking.com",
-      "count": 67,
-      "native_avg": 8.96,
+      "count": 65,
+      "native_avg": 8.97,
       "scale": "/10",
-      "avg_10pt": 8.96,
+      "avg_10pt": 8.97,
       "median_10pt": 9.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Trip.com",
-      "count": 56,
-      "native_avg": 9.43,
+      "count": 53,
+      "native_avg": 9.4,
       "scale": "/10",
-      "avg_10pt": 9.43,
+      "avg_10pt": 9.4,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 22,
-      "native_avg": 4.59,
+      "count": 13,
+      "native_avg": 4.54,
       "scale": "/5",
-      "avg_10pt": 9.18,
+      "avg_10pt": 9.08,
       "median_10pt": 10.0,
-      "judgment": "非常に良好"
+      "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
@@ -50,28 +50,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 85,
-      "pct": "57.4%"
+      "count": 74,
+      "pct": "55.2%"
     },
     {
       "score": 9,
       "count": 28,
-      "pct": "18.9%"
+      "pct": "20.9%"
     },
     {
       "score": 8,
-      "count": 20,
-      "pct": "13.5%"
+      "count": 19,
+      "pct": "14.2%"
     },
     {
       "score": 7,
-      "count": 7,
-      "pct": "4.7%"
+      "count": 6,
+      "pct": "4.5%"
     },
     {
       "score": 6,
-      "count": 5,
-      "pct": "3.4%"
+      "count": 4,
+      "pct": "3.0%"
     },
     {
       "score": 5,
@@ -81,7 +81,7 @@
     {
       "score": 4,
       "count": 2,
-      "pct": "1.4%"
+      "pct": "1.5%"
     }
   ],
   "comments": [
@@ -159,19 +159,6 @@
       "good": "",
       "bad": "",
       "translated": "日本に行くときはいつもこのチェーンホテルに泊まるのが好きです。主な理由は、エコノミーダブルルームの一般的な140cm幅のベッドではなく、150cm幅のベッドがあるからです。2人でも窮屈さを感じずに快適に眠れます。ただし、欠点はベッドが標準サイズなので、部屋のスペースが比較的狭いことです。今回は錦糸町支店に泊まりました。利点は、1. 入口でウェルカムドリンクがあったこと、2. JR錦糸町駅から遠くなく、周辺には飲食店やショッピング施設、24時間営業のスーパーマーケットなどがあり賑やかであることでした。欠点は、禁煙室を予約したのに、トイレ付近でタバコの臭いがしたことです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-26",
-      "comment": "Good location, 5 minutes walk from Kinshicho Station.  No transfer needed from Narita Airport by train. Shopping centers, shops and restaurants are near by. Friendly staff.  Definitely will stay again.",
-      "good": "",
-      "bad": "",
-      "translated": "錦糸町駅から徒歩5分という好立地。成田空港から電車で乗り換える必要もありません。ショッピングセンター、ショップ、レストランも近くにあります。スタッフも親切でした。間違いなくまた利用します。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -266,19 +253,6 @@
       "translated_good": "駅に近いこと、朝食、スタッフの温かい歓迎と親切さ",
       "translated_bad": "",
       "reviewer": "Thomas"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-25",
-      "comment": "ที่พักสะอาดมาก สะดวกสบาย มี Bathroom amentiries ให้หยิบได้เองที่หน้า Front ด้านล่าง ห้องมีพื้นที่ให้วางกระเป๋าเดินทางได้พอสมควร ใกล้สถานนีรถไฟกับรถบัสมาก เดิน5-7นาที มีแม่บ้านทำความสะอาดทุกวัน ไม่มีกลิ่นบุหรี่ในห้องด้วย แนะนำเลยค่ะ ดีงามมาก ราคาไม่แรงด้วย",
-      "good": "",
-      "bad": "",
-      "translated": "宿泊施設はとても清潔で快適でした。バスルームのアメニティは、階下のフロントデスクでセルフサービスで利用できました。部屋には荷物を置くのに十分なスペースがありました。電車とバスの駅にも非常に近く（徒歩5～7分）、毎日清掃が行われ、部屋にタバコの臭いもありませんでした。非常におすすめです！コストパフォーマンスも抜群です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Muay Arandyarak"
     },
     {
       "site": "Booking.com",
@@ -409,19 +383,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍n‍n‍(‍*‍¯‍︶‍¯‍*‍)"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-22",
-      "comment": "距離車站還有逛街地點還是有點距離",
-      "good": "",
-      "bad": "",
-      "translated": "駅やショッピングエリアからはまだ少し距離があります。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Aj KouNaMi"
     },
     {
       "site": "Trip.com",
@@ -604,19 +565,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Jhang-jie"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-17",
-      "comment": "飯店乾淨整潔舒適 附近也很熱鬧 有很多吃的可以選擇 各家超商附近都有 離車站也算近！機能很好",
-      "good": "",
-      "bad": "",
-      "translated": "このレストランは清潔で整頓されていて快適です。周辺は活気があり、飲食店やコンビニエンスストアも数多くあります。駅からもとても近いので、非常に便利です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
     },
     {
       "site": "Booking.com",
@@ -814,19 +762,6 @@
       "reviewer": "Sulien"
     },
     {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-03-10",
-      "comment": "",
-      "good": "交通地點很好 房間很舒適 早餐雖然簡單但都很好吃",
-      "bad": "沒有",
-      "translated": "",
-      "translated_good": "立地は最高で、部屋は快適、朝食はシンプルながらも美味しい。",
-      "translated_bad": "いいえ",
-      "reviewer": "Sulien"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -931,19 +866,6 @@
       "reviewer": "Michael J Fourie"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-07",
-      "comment": "I really enjoyed my stay at the Keisei Richmond Hotel Tokyo Kinshicho. The room was very clean, the bathroom was nice, and the view and ventilation were excellent. The staff were amazing and helpful, and the hotel offered convenient coin laundry facilities. It’s also very close to shops and the train station, which made getting around easy. The only downside for me was that they couldn’t provide feather-free bedding for my allergy, but overall it was a very comfortable and convenient stay.",
-      "good": "",
-      "bad": "",
-      "translated": "京成リッチモンドホテル東京錦糸町での滞在は本当に快適でした。部屋はとても清潔で、バスルームも素敵で、眺めも風通しも抜群でした。スタッフの方々は素晴らしく親切で、ホテルには便利なコインランドリー設備もありました。お店や駅にも近く、移動も楽でした。唯一の難点は、アレルギーのために羽毛不使用の寝具を用意してもらえなかったことですが、全体的にはとても快適で便利な滞在でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Michael J Fourie"
-    },
-    {
       "site": "楽天トラベル",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -1036,19 +958,6 @@
     },
     {
       "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-04",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "怡綾"
-    },
-    {
-      "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
       "date": "2026-02-28",
@@ -1130,7 +1039,7 @@
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-26",
-      "comment": "Excellent service and friendly staff! The rooms are larger and cheaper than city-center hotels. Breakfast is good enough for a morning meal. While it’s a short walk from the station, the value for money is unbeatable—especially with the free bath salts and face masks provided. Definitely recommended!",
+      "comment": "\"Excellent service and friendly staff! The rooms are larger and cheaper than city-center hotels. Breakfast is good enough for a morning meal. While it’s a short walk from the station, the value for money is unbeatable—especially with the free bath salts and face masks provided. Definitely recommended!\"",
       "good": "",
       "bad": "",
       "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分満足できる内容です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
@@ -1238,19 +1147,6 @@
       "good": "",
       "bad": "",
       "translated": "長い間探した末、ついにこのホテルを選びました。駅からとても近く、まっすぐ歩いて行ける距離です。周辺も非常に便利で、必要なものはすべて揃っています。ホテルにはアメニティが充実しているので、基本的に何も持っていく必要はありません。バスタブは深く、お湯もたっぷり出ます。トリプルルームは広々としていて、全員がスーツケースを開けるのに十分なスペースがあります。軽食用の小さなテーブルもあります。入浴剤とフェイスマスクは本当に素晴らしいです。次回東京に来ることがあれば、間違いなくこのホテルを選びます。近くには24時間営業のスーパーマーケットもあり、押上駅はショッピングにも最適です。非常におすすめです！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yinggg"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-25",
-      "comment": "長い間探していましたが、ようやくここに決めました。駅からも歩いてすぐで、とても近くて便利です。周辺も便利な場所で、必要なものはすべて揃っています。ホテルのアメニティも充実しているので、基本的に何も持参する必要はありません。バスタブは深く、お湯もたっぷりで熱々です。トリプルルームは全員がスーツケースを開けるのに十分な広さで、軽食を置ける小さなテーブルもあります。入浴剤とフェイスマスクは本当に良かったです。次回東京に来る際も、ぜひまた利用したいと思います。近くには24時間営業のスーパーマーケットもあり、地下鉄の押上駅も買い物に便利です。本当におすすめです！",
-      "good": "",
-      "bad": "",
-      "translated": "長い間探していましたが、ようやくここに決めました。駅からも歩いてすぐで、とても近くて便利です。周辺も便利な場所で、必要なものはすべて揃っています。ホテルのアメニティも充実しているので、基本的に何も持参する必要はありません。バスタブは深く、お湯もたっぷりで熱々です。トリプルルームは全員がスーツケースを開けるのに十分な広さで、軽食を置ける小さなテーブルもあります。入浴剤とフェイスマスクは本当に良かったです。次回東京に来る際も、ぜひまた利用したいと思います。近くには24時間営業のスーパーマーケットもあり、地下鉄の押上駅も買い物に便利です。本当におすすめです！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Yinggg"
@@ -1386,19 +1282,6 @@
       "reviewer": "張世杰"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-22",
-      "comment": "いつも通りのサービスです。  スタッフのサービス。備品も豊富です。  以前と比べて、ロビーに簡易水が用意されるようになりました。  雨天時のために、ロビーにタオルも用意されています。  唯一の欠点は、料金がどんどん高くなっていることです。  もっと安い料金が見つかるなら…  このエリアは最高の選択肢です。",
-      "good": "",
-      "bad": "",
-      "translated": "いつも通りのサービスです。  スタッフのサービス。備品も豊富です。  以前と比べて、ロビーに簡易水が用意されるようになりました。  雨天時のために、ロビーにタオルも用意されています。  唯一の欠点は、料金がどんどん高くなっていることです。  もっと安い料金が見つかるなら…  このエリアは最高の選択肢です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "張世杰"
-    },
-    {
       "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1449,19 +1332,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Luis"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-20",
-      "comment": "Friendly staff, clean, has good closet space, water pressure 10/10 ✨🚿",
-      "good": "",
-      "bad": "",
-      "translated": "スタッフは親切で、清潔で、クローゼットのスペースも十分、水圧も10/10です✨🚿",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Pamela パメラ"
     },
     {
       "site": "Booking.com",
@@ -1592,19 +1462,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-02-16",
-      "comment": "3泊しました。錦糸町駅から歩いてすぐなので、立地はとても便利です。近くにスーパーマーケットが3軒あるので、お得な食材を買いたい方には最適です。  ホテル自体は少し古い感じがしますが、とても丁寧に管理されています（仙台で宿泊した同じグループのホテルと似ていて、それぞれ良いところがあります）。  ホテルの地下は日本の典型的な歓楽街のような雰囲気ですが、観光客であれば気にしなくても問題ないと思います。  個人的にはここをおすすめします。市内中心部からは少し離れていますが、価格も比較的手頃です。",
-      "good": "",
-      "bad": "",
-      "translated": "3泊しました。錦糸町駅から歩いてすぐなので、立地はとても便利です。近くにスーパーマーケットが3軒あるので、お得な食材を買いたい方には最適です。  ホテル自体は少し古い感じがしますが、とても丁寧に管理されています（仙台で宿泊した同じグループのホテルと似ていて、それぞれ良いところがあります）。  ホテルの地下は日本の典型的な歓楽街のような雰囲気ですが、観光客であれば気にしなくても問題ないと思います。  個人的にはここをおすすめします。市内中心部からは少し離れていますが、価格も比較的手頃です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "JD WU"
     },
     {
       "site": "Booking.com",
@@ -1758,19 +1615,6 @@
       "good": "",
       "bad": "",
       "translated": "駅から近いです！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "劉明鈞"
-    },
-    {
-      "site": "Google",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-02-13",
-      "comment": "駅から近い！",
-      "good": "",
-      "bad": "",
-      "translated": "駅から近い！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "劉明鈞"
@@ -1932,19 +1776,6 @@
       "reviewer": "ゲ‍ス‍ト"
     },
     {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-06",
-      "comment": "최고입니다 깔끔하고 좋았어요 객실 시설도 쾌적하고 조식도 맛있었습니다. 나리타 공항까지 가는 루트도 편리하고  모든게 만족스럽습니다. 다음번에 부모님 모시고 또 숙박 할게요",
-      "good": "",
-      "bad": "",
-      "translated": "最高ですすっきりと良かった部屋設備も快適で朝食も美味しかったです。成田空港までのルートも便利で、すべてが満足です。次回は両親を迎えてまた泊まります。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
       "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
@@ -1984,19 +1815,6 @@
       "reviewer": "Max Abramovich"
     },
     {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-04",
-      "comment": "My stay at Keisei Richmond Hotel Tokyo Kinshicho was highlighted by the truly exceptional service, as the staff were incredibly welcoming and went out of their way to ensure a smooth check-in. The location is another major plus, being just a short walk from the station with plenty of great dining and shopping options right at the doorstep. While the rooms were undeniably small and a bit of a tight squeeze for my luggage, the modern amenities and overall cleanliness made it a very comfortable base for exploring Tokyo.",
-      "good": "",
-      "bad": "",
-      "translated": "京成リッチモンドホテル東京錦糸町での滞在は、スタッフの皆さんの温かいおもてなしとスムーズなチェックインへの配慮が特に印象的でした。立地も大きな魅力で、駅から徒歩圏内にあり、すぐそばには数多くのレストランやショップが軒を連ねています。客室は確かに狭く、荷物を入れるには少し窮屈でしたが、モダンな設備と清潔さのおかげで、東京観光の拠点として非常に快適な滞在となりました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Max Abramovich"
-    },
-    {
       "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
@@ -2014,11 +1832,24 @@
     "サービスは最高でした！部屋に用意されていたワイン、ビール、クッキー、ジュースはすべて無料で、毎日補充されていました！部屋は清潔で整頓されていて、雰囲気も素晴らしかったです！本当に素晴らしい体験でした！👍👍👍",
     "立地が非常に良く、街の眺めも素晴らしい。",
     "日本に行くときはいつもこのチェーンホテルに泊まるのが好きです。主な理由は、エコノミーダブルルームの一般的な140cm幅のベッドではなく、150cm幅のベッドがあるからです。2人でも窮屈さを感じずに快適に眠れます。ただし、欠点はベッドが標準サイズなので、部屋のスペースが比較的狭いことです。今回は錦糸町支店に泊まりました。利点は、1. 入口でウェルカムドリンクがあったこと、2. JR錦糸町駅から遠くなく、周辺には飲食店やショッピング施設、24時間営業のスーパーマーケットなどがあり賑やかであることでした。欠点は、禁煙室を予約したのに、トイレ付近でタバコの臭いがしたことです。",
-    "錦糸町駅から徒歩5分という好立地。成田空港から電車で乗り換える必要もありません。ショッピングセンター、ショップ、レストランも近くにあります。スタッフも親切でした。間違いなくまた利用します。",
-    "素晴らしい滞在でした！ホテルはとても素敵で、清潔で快適でした。何より最高だったのは立地です。街の中心部に位置しているので、観光がとても楽でした。賑やかな場所に近いホテルをお探しの方には、ぜひおすすめします！"
+    "素晴らしい滞在でした！ホテルはとても素敵で、清潔で快適でした。何より最高だったのは立地です。街の中心部に位置しているので、観光がとても楽でした。賑やかな場所に近いホテルをお探しの方には、ぜひおすすめします！",
+    "出張の際はこちらに毎回泊まります。 こないだも今回も、時期的にすごく高かったのですが アップグレードして頂き快適な宿泊となりました。",
+    "宿泊施設はとても清潔で快適でした。バスルームのアメニティは、階下のフロントデスクでセルフサービスで利用できました。部屋には荷物を置くのに十分なスペースがありました。電車とバスの駅にも非常に近く（徒歩5～7分）、毎日清掃が行われ、部屋にタバコの臭いもありませんでした。非常におすすめです！コストパフォーマンスも抜群です。",
+    "ここは本当に素晴らしいホテルです！❤️ 5日間滞在しました。立地は最高で、錦糸町駅から徒歩圏内、JR線と半蔵門線にもアクセスでき、交通の便が非常に良いです。周辺にはレストラン、コンビニ、24時間営業のスーパーマーケットもたくさんあり、日常生活や食事にとても便利です。部屋自体もとても清潔で快適で居心地が良かったです。東京の宿泊施設としてはかなり広い部屋で、バスタブまでありました。ベッドの横には景色が見える窓があり、テレビは携帯電話に接続できました。アメニティも素晴らしく、蛇口の水圧が非常に強く、シャワーがとても快適でした。お湯はすぐに出て、量もたっぷりでした（瞬時に加熱！）。シャワーとバスタブを同時に使うこともできました。完璧です！😍 消臭・除菌の洗濯用スプレーと除湿機も用意されていて、とても気が利いていました！🫶🏻（とても気に入りました！）フロントのスタッフもとてもフレンドリーで親切でした。チェックアウトは簡単でした！機械でボタンを押すだけでチェックアウトできたんです！👍 全体的に本当に素晴らしい体験でした！💕 次回東京に来るときも、またここに泊まることに決めました！☺️ 東京旅行で宿泊先を探している方には、ぜひおすすめします！^_^",
+    "駅に近いこと、朝食、スタッフの温かい歓迎と親切さ",
+    "部屋は快適で清潔です。バスルームも広く、大型スーツケース2個を置くのに十分なスペースがあります。朝食の種類も豊富です。",
+    "ホテルのスタッフは親切で協力的で、部屋も清潔で整頓されていました。全体的に良いホテルです。"
   ],
   "negatives": [
     "少し汚れていて、防音性も低い。",
-    "駅まで近いので、ゆっくり移動できる。 宿泊前日で予約がとれ助かりました。 また利用するようにします"
+    "無し",
+    "特になし",
+    "すべて順調です",
+    "特にありません。",
+    "いつも使うので、特別な価格サービスをお願いできればありがたいです。",
+    "彼らは英語をほとんど話しません。朝食の種類は限られています。",
+    "部屋にある枕の中には、平らすぎたり硬すぎたりするものがあって、私はそういう枕で寝ることに慣れていないんです。",
+    "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては非常に不便でした。",
+    "朝食の種類は豊富ではなかったが、それ以外は素晴らしかった。"
   ]
 }
