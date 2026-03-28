@@ -1,6 +1,7 @@
 node_modules/
 .DS_Store
 .claude/
+!.claude/skills/
 hotel-review-report-workspace/
 hotel-review-report/
 ホームページ/

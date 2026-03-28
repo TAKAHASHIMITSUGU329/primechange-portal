@@ -1,0 +1,17 @@
+{
+  "skill_name": "hotel-review-report",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "ハートンホテル東品川の口コミ分析レポートを作成してください。口コミデータのCSVファイルは /Users/mitsugutakahashi/ホテル口コミ/hearton_data.csv にあります。分析対象期間は2026年2月〜3月です。DOCXの改善レポートとPPTXのプレゼンテーション両方を生成してください。作業ディレクトリは /Users/mitsugutakahashi/ホテル口コミ/ で、docx と pptxgenjs のnpmパッケージはインストール済みです。",
+      "expected_output": "ハートンホテル東品川のDOCX（7章構成）とPPTX（10スライド）が生成される。10pt換算でサイト別統計、評価分布、強み・弱み分析、改善施策が含まれる。",
+      "files": ["/Users/mitsugutakahashi/ホテル口コミ/hearton_data.csv"]
+    },
+    {
+      "id": 2,
+      "prompt": "ホテルケヤキゲート東京府中の口コミレビューデータを分析して、改善レポート（Word）とプレゼン資料（PowerPoint）を作ってほしい。CSVデータは /Users/mitsugutakahashi/ホテル口コミ/keyakigate_data.csv にある。期間は2026年2月から3月まで。海外OTAは10点満点、国内サイトは5点満点なので、10点換算で統一して比較してね。作業ディレクトリは /Users/mitsugutakahashi/ホテル口コミ/ です。npmは設定済み。",
+      "expected_output": "ケヤキゲート東京府中のDOCX（7章構成）とPPTX（10スライド）が生成される。海外OTA(10pt)と国内サイト(5pt×2)の統一換算が正しく適用される。",
+      "files": ["/Users/mitsugutakahashi/ホテル口コミ/keyakigate_data.csv"]
+    }
+  ]
+}
