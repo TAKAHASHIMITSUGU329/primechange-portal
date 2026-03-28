@@ -1,13 +1,42 @@
 {
-  "total_reviews": 137,
-  "overall_avg_10pt": 8.5,
-  "high_count": 109,
-  "high_rate": 79.6,
-  "mid_count": 24,
-  "mid_rate": 17.5,
+  "hotel_name": "コンフォートホテル成田",
+  "hotel_key": "comfort_narita",
+  "total_reviews": 148,
+  "overall_avg_10pt": 8.48,
+  "high_count": 117,
+  "high_rate": 79.1,
+  "mid_count": 27,
+  "mid_rate": 18.2,
   "low_count": 4,
-  "low_rate": 2.9,
+  "low_rate": 2.7,
   "site_stats": [
+    {
+      "site": "Booking.com",
+      "count": 63,
+      "native_avg": 8.4,
+      "scale": "/10",
+      "avg_10pt": 8.4,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 24,
+      "native_avg": 4.12,
+      "scale": "/5",
+      "avg_10pt": 8.25,
+      "median_10pt": 9.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Google",
+      "count": 22,
+      "native_avg": 4.54,
+      "scale": "/5",
+      "avg_10pt": 9.09,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
+    },
     {
       "site": "Trip.com",
       "count": 19,
@@ -15,34 +44,7 @@
       "scale": "/10",
       "avg_10pt": 9.53,
       "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Google",
-      "count": 21,
-      "native_avg": 4.52,
-      "scale": "/5",
-      "avg_10pt": 9.05,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Booking.com",
-      "count": 55,
-      "native_avg": 8.36,
-      "scale": "/10",
-      "avg_10pt": 8.36,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 23,
-      "native_avg": 4.17,
-      "scale": "/5",
-      "avg_10pt": 8.35,
-      "median_10pt": 10.0,
-      "judgment": "良好"
+      "judgment": "非常に良好"
     },
     {
       "site": "じゃらん",
@@ -51,14 +53,14 @@
       "scale": "/5",
       "avg_10pt": 8.0,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "概ね良好"
     },
     {
       "site": "Agoda",
-      "count": 9,
-      "native_avg": 6.78,
+      "count": 10,
+      "native_avg": 6.7,
       "scale": "/10",
-      "avg_10pt": 6.78,
+      "avg_10pt": 6.7,
       "median_10pt": 6.0,
       "judgment": "要改善"
     }
@@ -66,28 +68,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 54,
-      "pct": "39.4%"
+      "count": 57,
+      "pct": "38.5%"
     },
     {
       "score": 9,
-      "count": 18,
-      "pct": "13.1%"
+      "count": 20,
+      "pct": "13.5%"
     },
     {
       "score": 8,
-      "count": 37,
+      "count": 40,
       "pct": "27.0%"
     },
     {
       "score": 7,
-      "count": 8,
-      "pct": "5.8%"
+      "count": 9,
+      "pct": "6.1%"
     },
     {
       "score": 6,
-      "count": 15,
-      "pct": "10.9%"
+      "count": 17,
+      "pct": "11.5%"
     },
     {
       "score": 5,
@@ -97,7 +99,7 @@
     {
       "score": 4,
       "count": 3,
-      "pct": "2.2%"
+      "pct": "2.0%"
     },
     {
       "score": 3,
@@ -167,7 +169,7 @@
       "good": "房間蠻大的，行李箱完全攤開都沒問題！ 整體也都是整潔舒適的沒話說，早餐種類不多但卻出乎預料的美味！",
       "bad": "設施比較老舊但很整潔舒適！ 唯一不習慣的是廁所太小了，使用上比較不方便.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋はかなり広々としていて、スーツケースを全開にするのにも全く問題ありませんでした！全体的に清潔で快適な環境でした。朝食の種類は多くはありませんでしたが、驚くほど美味しかったです！",
       "translated_bad": "設備は少し古いですが、とても清潔で快適です！ただ、トイレが狭すぎて少し使いづらいのが難点です。",
       "reviewer": "Szujen"
     },
@@ -206,7 +208,7 @@
       "good": "早餐好吃 房間夠寬 24小時的免費飲料吧很棒",
       "bad": "沒有洗烘衣設備",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食は美味しく、部屋は広々としていて、24時間無料のドリンクバーは素晴らしかった。",
       "translated_bad": "洗濯乾燥機はありません",
       "reviewer": "Yilan"
     },
@@ -271,7 +273,7 @@
       "good": "Location",
       "bad": "None",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "位置",
       "translated_bad": "なし",
       "reviewer": "Yifang"
     },
@@ -297,7 +299,7 @@
       "good": "It is very conveniently located near the Keisei train station and is very clean and comfortable. The breakfast was very good with excellent coffee.   The staff were very friendly",
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "京成駅のすぐ近くという便利な立地で、清潔で快適でした。朝食はコーヒーも美味しく、とても満足しました。スタッフの方々もとても親切でした。",
       "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっていて、部屋を冷やすオプションはなかったのだ。",
       "reviewer": "Suzanne"
     },
@@ -479,7 +481,7 @@
       "good": "Good",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "良い",
       "translated_bad": "",
       "reviewer": "Yi"
     },
@@ -518,7 +520,7 @@
       "good": "Complimentary parking ticket for parking at nearby carpark as the hotel does not provide parking on property.",
       "bad": "The bed and pillow were uncomfortable to sleep in.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ホテル敷地内に駐車場がないため、近隣の駐車場をご利用いただける無料駐車券をご提供いたします。",
       "translated_bad": "ベッドと枕が寝心地が悪かった。",
       "reviewer": "Choon"
     },
@@ -583,7 +585,7 @@
       "good": "The staff is super nice and willing to help even at late night",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフはとても親切で、深夜でも快く手伝ってくれます。",
       "translated_bad": "",
       "reviewer": "Teen"
     },
@@ -609,7 +611,7 @@
       "good": "Very good location,  nice staff,",
       "bad": "Too small, bathroom entrance too high",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が非常に良く、スタッフも親切です。",
       "translated_bad": "狭すぎる、浴室の入り口が高すぎる",
       "reviewer": "Yumiko"
     },
@@ -622,7 +624,7 @@
       "good": "Breakfast was good, service staff was courteous and helpful.",
       "bad": "The kerb at the bathroom door is a bit too high and could be dangerous when getting in and out of the bathroom.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食は美味しく、サービススタッフは礼儀正しく親切だった。",
       "translated_bad": "浴室のドアの縁石が少し高すぎるため、浴室への出入り時に危険な場合があります。",
       "reviewer": "Thomas"
     },
@@ -648,7 +650,7 @@
       "good": "Very good amount of space. The shower was great and easy to use. A good distance away from the busy city but still nearby to walk straight to Tokyo Tower. Clean and tidy, tv has Netflix which is a huge plus for me.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "広さも十分でした。シャワーも素晴らしく、使いやすかったです。賑やかな街の中心部からは適度な距離がありながら、東京タワーまで歩いてすぐの距離です。清潔で整頓されていて、テレビでNetflixが見られるのも大きなプラスポイントでした。",
       "translated_bad": "",
       "reviewer": "Alexander"
     },
@@ -687,7 +689,7 @@
       "good": "部屋が明るくきれいだった。",
       "bad": "風呂が少し古い感じだった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が明るくきれいだった。",
       "translated_bad": "風呂が少し古い感じだった。",
       "reviewer": "Takeo"
     },
@@ -843,8 +845,21 @@
       "good": "Chose twin beds so as to get a slightly larger room. Cost more than the room from my previous stay but it was significantly larger and therefore more comfortably. Breakfast included. Convenient location to train station and tourist walking street.",
       "bad": "Nothing",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "少し広めの部屋が欲しかったので、ツインベッドの部屋を選びました。以前泊まった部屋より料金は高かったのですが、かなり広くて快適でした。朝食付き。駅や観光客向けのウォーキングストリートにも近く、便利な立地です。",
       "translated_bad": "何もない",
+      "reviewer": "Robert"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-09",
+      "comment": "",
+      "good": "Close to the train station and tourist walking street. Breakfast included. Instead of one queen bed you get more room having twin beds.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "駅と観光客向けのウォーキングストリートに近い。朝食付き。クイーンサイズベッド1台ではなく、ツインベッドなのでよりゆったりとお過ごしいただけます。",
+      "translated_bad": "",
       "reviewer": "Robert"
     },
     {
@@ -856,7 +871,7 @@
       "good": "とにかくお安く泊まれました。その上、無料で朝食が付いていて文句なし。",
       "bad": "ありません。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "とにかくお安く泊まれました。その上、無料で朝食が付いていて文句なし。",
       "translated_bad": "ありません。",
       "reviewer": "Yasuhiro"
     },
@@ -882,7 +897,7 @@
       "good": "La atención del personal y su buena ubicación",
       "bad": "La cama era algo dura",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの対応と立地の良さ",
       "translated_bad": "ベッドはやや硬かった。",
       "reviewer": "Paulina"
     },
@@ -908,7 +923,7 @@
       "good": "L emplacement le confort du lit",
       "bad": "Chambre un peu petite",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ベッドの位置と快適さ",
       "translated_bad": "部屋は少し狭かった。",
       "reviewer": "Caroline"
     },
@@ -924,6 +939,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "fabian110"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-05",
+      "comment": "京成成田駅東口を出て、地下道方面へお進みください。階下にはエスカレーターとエレベーターがございます。ホテルフロントは2階にあり、夜間は入退室管理のため、ルームキーが必要となります。",
+      "good": "",
+      "bad": "",
+      "translated": "京成成田駅東口を出て、地下道方面へお進みください。階下にはエスカレーターとエレベーターがございます。ホテルフロントは2階にあり、夜間は入退室管理のため、ルームキーが必要となります。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kimi Kover"
     },
     {
       "site": "Google",
@@ -1004,6 +1032,45 @@
       "reviewer": "Kimi Kover"
     },
     {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Jianfeng"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-04",
+      "comment": "ジェットスター早朝便に乗るために小学生2人宿泊しました。チェックイン22時すぎチェックアウト6時と滞在時間が短めなので、駅近というだけで選択しましたが、添い寝、朝食無料サービスが嬉しかったです。 シャワーは温度調節が難しかったですが、おおむね満足です！ 早朝便利用の際はまた利用したいです。",
+      "good": "",
+      "bad": "",
+      "translated": "ジェットスター早朝便に乗るために小学生2人宿泊しました。チェックイン22時すぎチェックアウト6時と滞在時間が短めなので、駅近というだけで選択しましたが、添い寝、朝食無料サービスが嬉しかったです。 シャワーは温度調節が難しかったですが、おおむね満足です！ 早朝便利用の際はまた利用したいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "nagggg"
+    },
+    {
+      "site": "Agoda",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-04",
+      "comment": "朝食が今ひとつになった。アジアンぽいと言うか…。",
+      "good": "",
+      "bad": "",
+      "translated": "朝食が今ひとつになった。アジアンぽいと言うか…。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "rikky"
+    },
+    {
       "site": "じゃらん",
       "rating": 4.0,
       "rating_10pt": 8.0,
@@ -1028,6 +1095,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Nick"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-28",
+      "comment": "",
+      "good": "Location is close to convenience stores and the station, and laundry",
+      "bad": "Overall quality was average",
+      "translated": "",
+      "translated_good": "コンビニエンスストアや駅、コインランドリーが近くにあります。",
+      "translated_bad": "全体的な品質は平均的でした。",
+      "reviewer": "Cung"
     },
     {
       "site": "Agoda",
@@ -1064,9 +1144,22 @@
       "good": "Man konnte die Koffer schon vor Check-in dort abgeben. Konnten auch von da aus die Koffer zu unserem nächsten Hotel schicken lassen. Somit mussten wir nicht mit den riesengroßen Koffern durch ganz Japan reisen. Frühstück war auch gut, die Auswahl ist hier aber nicht so besonders, trotzdem nett.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "チェックイン前に荷物を預けることができたので助かりました。そこから次のホテルまで荷物を送ってもらうこともできたので、巨大なスーツケースを持って日本中を移動する必要がなくなりました。朝食は種類はそれほど多くはありませんでしたが、美味しかったです。",
       "translated_bad": "",
       "reviewer": "Lana"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-27",
+      "comment": "",
+      "good": "Super close to train station and great they offer breakfast. Comfy beds.",
+      "bad": "A bit difficult to communicate with staff re booking an extra night for my injured wife. However, even though it took a while, it was managed well in the end.",
+      "translated": "",
+      "translated_good": "駅からとても近くて、朝食付きなのも嬉しい。ベッドも快適でした。",
+      "translated_bad": "怪我をした妻のために追加の宿泊を予約する件で、スタッフとの連絡が少し難航しました。しかし、時間はかかりましたが、最終的にはうまく対応してもらえました。",
+      "reviewer": "Wallace"
     },
     {
       "site": "Booking.com",
@@ -1095,6 +1188,32 @@
       "reviewer": "Evgeny"
     },
     {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Shenghsu"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-27",
+      "comment": "",
+      "good": "Good",
+      "bad": "No complaints",
+      "translated": "",
+      "translated_good": "良い",
+      "translated_bad": "苦情はありません",
+      "reviewer": "Francesco"
+    },
+    {
       "site": "じゃらん",
       "rating": 3.0,
       "rating_10pt": 6.0,
@@ -1116,7 +1235,7 @@
       "good": "Comfortable beds, good quality linens, love the tub,getting in and out is easy, staff is great, its quiet, A/C and heat easy to regulate, opening windows, safe and secure, lots of hot water, twin room is spacious",
       "bad": "Breakfast is mediocre, (sliced apples and frozen mango is hardly ‘fruit;, scrambled eggs undercooked) , the rate per hour for early check in (when the room is sitting empty) after we had been 30 hrs in transit was disappointing to say the least. The price was double what we had paid 6 weeks earlier, and there were no festivals, holidays, special blossom times etc to warrant and increase in visitors.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "快適なベッド、上質なリネン、バスタブが気に入りました。出入りが簡単で、スタッフも素晴らしく、静かで、エアコンと暖房の調節も簡単で、窓も開閉でき、安全で安心、お湯もたっぷり、ツインルームは広々としています。",
       "translated_bad": "朝食は平凡で（スライスしたリンゴと冷凍マンゴーは「果物」とは言い難く、スクランブルエッグは半熟）、30時間も移動した後で、部屋が空いているにもかかわらず早めのチェックインをした際の時間当たりの料金は、控えめに言っても期待外れでした。料金は6週間前に支払った料金の2倍で、観光客が増えるような祭りや祝日、特別な開花時期などもありませんでした。",
       "reviewer": "Susan"
     },
@@ -1207,7 +1326,7 @@
       "good": "スタッフさんの接客がいいです 朝食付きで、このお値段はコスパがいいです 駐車場は2分ほど歩きましたが、無料チケット付きでよかったです",
       "bad": "パジャマのズボンもあればよかったなぁ",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフさんの接客がいいです 朝食付きで、このお値段はコスパがいいです 駐車場は2分ほど歩きましたが、無料チケット付きでよかったです",
       "translated_bad": "パジャマのズボンもあればよかったなぁ",
       "reviewer": "Masako"
     },
@@ -1233,7 +1352,7 @@
       "good": "スタッフさんの接客がいいです 朝食付きで、このお値段はコスパがいいです 駐車場は2分ほど歩きましたが、無料チケット付きでよかったです",
       "bad": "パジャマのズボンもあればよかったなぁ",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフさんの接客がいいです 朝食付きで、このお値段はコスパがいいです 駐車場は2分ほど歩きましたが、無料チケット付きでよかったです",
       "translated_bad": "パジャマのズボンもあればよかったなぁ",
       "reviewer": "MASAKO"
     },
@@ -1285,7 +1404,7 @@
       "good": "Free breakfast was ok.",
       "bad": "Switching the menu back and forth will offer more variety.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "無料の朝食はまあまあだった。",
       "translated_bad": "メニューを切り替えながら食べることで、より多様な選択肢が楽しめるでしょう。",
       "reviewer": "Enrique"
     },
@@ -1311,7 +1430,7 @@
       "good": "部屋が綺麗なのは良かったですが、何より予約時以降のスタッフのご対応が素晴らしかったです。 また利用させていただきたいです！",
       "bad": "仕方ない事ですが、駐車場が空いていないと大変かもです。 行くタイミング気を付けます。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が綺麗なのは良かったですが、何より予約時以降のスタッフのご対応が素晴らしかったです。 また利用させていただきたいです！",
       "translated_bad": "仕方ない事ですが、駐車場が空いていないと大変かもです。 行くタイミング気を付けます。",
       "reviewer": "Okuma"
     },
@@ -1324,7 +1443,7 @@
       "good": "地點佳 服務好 早餐棒",
       "bad": "行李無法展開 廁所門和房間地板落差太大",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "最高のロケーション、素晴らしいサービス、最高の朝食",
       "translated_bad": "スーツケースを広げることができません。トイレのドアと部屋の床の高さの差が大きすぎるためです。",
       "reviewer": "Yurui"
     },
@@ -1402,7 +1521,7 @@
       "good": "Location",
       "bad": "Staff",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "位置",
       "translated_bad": "スタッフ",
       "reviewer": "Kanokporn"
     },
@@ -1415,7 +1534,7 @@
       "good": "員工態度親切",
       "bad": "一進房間有股臭味（發霉味），地毯稍嫌不乾淨",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフは親切だった。",
       "translated_bad": "部屋に入るとカビ臭い匂いがして、カーペットも少し汚れていた。",
       "reviewer": "姿綺"
     },
@@ -1447,6 +1566,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-18",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hunglin"
+    },
+    {
+      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-02-18",
@@ -1454,7 +1586,7 @@
       "good": "Very pleasant experience, just like all of Japan!  Excellent staff.  Very good breakfast.  Room size.",
       "bad": "Bed and pillows are a bit firmer than we are used to, but ok!",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "とても快適な体験でした。日本全体がそうであるように！素晴らしいスタッフ。とても美味しい朝食。部屋の広さ。",
       "translated_bad": "ベッドと枕は普段使っているものより少し硬めですが、問題ありません！",
       "reviewer": "Peter"
     },
@@ -1558,7 +1690,7 @@
       "good": "Breakfast was excellent—I always enjoy the special juice blends that Comfort Inn prepares for guests each morning.",
       "bad": "I am vegetarian, so I would wish for a vegetarian main dish option at this hotel like other Comfort Inn hotels in Japan.  For the two breakfasts I attended this time, there were three cooked food options, but all contained either beef, chicken, pork or fish.  I have had cooked potatoes with other vegetables at Hiroshima Comfort Inn.  I think there are many guests who would enjoy a cooked main dish for breakfast that had tofu, mushrooms, beans or other protein with vegetables!",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食は素晴らしかった。コンフォートインが毎朝宿泊客のために用意してくれる特製ジュースブレンドはいつも楽しみだ。",
       "translated_bad": "私はベジタリアンなので、日本の他のコンフォートインホテルのように、このホテルにもベジタリアン向けのメインディッシュがあればいいなと思います。今回利用した2回の朝食では、温かい料理が3種類ありましたが、どれも牛肉、鶏肉、豚肉、魚のいずれかでした。広島コンフォートインでは、野菜と一緒に調理したジャガイモ料理を食べたことがあります。豆腐、きのこ、豆類、その他のタンパク質と野菜を使った温かいメインディッシュを朝食に食べたいというお客様はたくさんいらっしゃると思います。",
       "reviewer": "Merrill"
     },
@@ -1714,7 +1846,7 @@
       "good": "房間很大，而且離機場很近，旅行的最後一晚很適合住這裡",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋は広々としていて空港にも非常に近かったので、旅行最終日の宿泊先としては最適だった。",
       "translated_bad": "",
       "reviewer": "Yi"
     },
@@ -1730,6 +1862,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "FIMI"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-10",
+      "comment": "",
+      "good": "alles die nähe zum bahnhof",
+      "bad": "",
+      "translated": "",
+      "translated_good": "最大の利点は、駅に近いことです。",
+      "translated_bad": "",
+      "reviewer": "René"
     },
     {
       "site": "Agoda",
@@ -1779,7 +1924,7 @@
       "good": "スタッフの対応",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの対応",
       "translated_bad": "特になし",
       "reviewer": "Koichi"
     },
@@ -1792,7 +1937,7 @@
       "good": "Location.Price. Great breakfast",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地、価格、素晴らしい朝食",
       "translated_bad": "",
       "reviewer": "Michelle"
     },
@@ -1831,7 +1976,7 @@
       "good": "なし",
       "bad": "スタッフの態度が最悪",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "なし",
       "translated_bad": "スタッフの態度が最悪",
       "reviewer": "Akiyo"
     },
@@ -1870,7 +2015,7 @@
       "good": "ใกล้สนามบิน ราคาไม่แพง มีอาหารเช้า",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港に近く、手頃な価格で、朝食付きです。",
       "translated_bad": "",
       "reviewer": "Kunnapat"
     },
@@ -1887,5 +2032,18 @@
       "translated_bad": "",
       "reviewer": "James"
     }
+  ],
+  "positives": [
+    "立地が良い。朝食もまあまあ。",
+    "スタッフは親切で、チェックインも手伝ってくれました。設備は充実していましたが、部屋が少し狭く、大きな荷物を置くスペースがありませんでした。全体的には、とても良かったです！",
+    "部屋はかなり広々としていて、スーツケースを全開にするのにも全く問題ありませんでした！全体的に清潔で快適な環境でした。朝食の種類は多くはありませんでしたが、驚くほど美味しかったです！",
+    "受付のお姉さんがとても親切に接してくださり、旅の疲れがとれました。優しさ笑顔にに感激。ありがとうございました☺️✨",
+    "コンフォートホテル成田に宿泊しました。京成成田駅から徒歩2分ほど、JR成田駅からも徒歩圏内とアクセスが非常に良く、成田空港への移動にも便利な立地です。 ￼  客室はコンパクトながら清潔感があり、全室禁煙で快適に過ごせました。ベッドは寝心地が良く、枕や寝具にもこだわりが感じられ、しっかり休める印象です。 ￼  無料の朝食サービスもあり、種類はシンプルながら満足度は高く、コストパフォーマンスの良さを感じました。駅近でありながら比較的静かに過ごせる点も好印象です。 ￼  全体的に「立地・価格・快適さ」のバランスが良く、成田空港利用の前泊やビジネス利用に非常に使いやすいホテルだと感じました。"
+  ],
+  "negatives": [
+    "ホテルとしては普通です。ベッドヘッドに白い汚れがたくさん付いていてすごく不快だったので改善してほしいです。",
+    "京成成田駅の東通路から行くと近い。成田空港への前泊するためだけのホテルという印象。 部屋も狭く、朝食もあるだけという感じ。料金は安いので、割り切っての宿泊ならお勧め。",
+    "風呂やベッドに髪の毛が残っていたり、エアコンのカビがひどいです。 基本的なことですが、きちんと掃除をしていただきたいです。",
+    "なし"
   ]
 }

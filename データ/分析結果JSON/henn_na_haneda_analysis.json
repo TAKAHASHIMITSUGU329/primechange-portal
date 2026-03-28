@@ -1,13 +1,60 @@
 {
-  "total_reviews": 338,
-  "overall_avg_10pt": 8.3,
-  "high_count": 258,
+  "hotel_name": "変なホテル東京羽田",
+  "hotel_key": "henn_na_haneda",
+  "total_reviews": 422,
+  "overall_avg_10pt": 8.34,
+  "high_count": 322,
   "high_rate": 76.3,
-  "mid_count": 69,
-  "mid_rate": 20.4,
-  "low_count": 11,
-  "low_rate": 3.3,
+  "mid_count": 88,
+  "mid_rate": 20.9,
+  "low_count": 12,
+  "low_rate": 2.8,
   "site_stats": [
+    {
+      "site": "Booking.com",
+      "count": 225,
+      "native_avg": 8.3,
+      "scale": "/10",
+      "avg_10pt": 8.3,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Google",
+      "count": 66,
+      "native_avg": 4.08,
+      "scale": "/5",
+      "avg_10pt": 8.15,
+      "median_10pt": 10.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 43,
+      "native_avg": 4.28,
+      "scale": "/5",
+      "avg_10pt": 8.56,
+      "median_10pt": 8.0,
+      "judgment": "非常に良好"
+    },
+    {
+      "site": "Agoda",
+      "count": 38,
+      "native_avg": 8.0,
+      "scale": "/10",
+      "avg_10pt": 8.0,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "じゃらん",
+      "count": 27,
+      "native_avg": 4.18,
+      "scale": "/5",
+      "avg_10pt": 8.37,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
     {
       "site": "Trip.com",
       "count": 23,
@@ -15,99 +62,54 @@
       "scale": "/10",
       "avg_10pt": 9.43,
       "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 42,
-      "native_avg": 4.29,
-      "scale": "/5",
-      "avg_10pt": 8.57,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "じゃらん",
-      "count": 26,
-      "native_avg": 4.19,
-      "scale": "/5",
-      "avg_10pt": 8.38,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Agoda",
-      "count": 37,
-      "native_avg": 8.14,
-      "scale": "/10",
-      "avg_10pt": 8.14,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Booking.com",
-      "count": 145,
-      "native_avg": 8.14,
-      "scale": "/10",
-      "avg_10pt": 8.14,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 65,
-      "native_avg": 4.06,
-      "scale": "/5",
-      "avg_10pt": 8.12,
-      "median_10pt": 10.0,
-      "judgment": "良好"
+      "judgment": "非常に良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 117,
-      "pct": "34.6%"
+      "count": 148,
+      "pct": "35.1%"
     },
     {
       "score": 9,
-      "count": 43,
-      "pct": "12.7%"
+      "count": 58,
+      "pct": "13.7%"
     },
     {
       "score": 8,
-      "count": 98,
-      "pct": "29.0%"
+      "count": 116,
+      "pct": "27.5%"
     },
     {
       "score": 7,
-      "count": 31,
-      "pct": "9.2%"
+      "count": 44,
+      "pct": "10.4%"
     },
     {
       "score": 6,
-      "count": 29,
-      "pct": "8.6%"
+      "count": 31,
+      "pct": "7.3%"
     },
     {
       "score": 5,
-      "count": 9,
-      "pct": "2.7%"
+      "count": 13,
+      "pct": "3.1%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "0.6%"
+      "pct": "0.5%"
     },
     {
       "score": 3,
-      "count": 2,
-      "pct": "0.6%"
+      "count": 3,
+      "pct": "0.7%"
     },
     {
       "score": 2,
       "count": 7,
-      "pct": "2.1%"
+      "pct": "1.7%"
     }
   ],
   "comments": [
@@ -136,6 +138,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Janina Crush"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "The location was great, and the transportation from the airport to the hotel was a great plus!",
+      "bad": "It was hard to check in at first, but they had staff to help out !",
+      "translated": "",
+      "translated_good": "立地は最高でしたし、空港からホテルまでの送迎サービスも大変便利でした！",
+      "translated_bad": "最初はチェックインが難しかったけど、スタッフが手伝ってくれたよ！",
+      "reviewer": "Stephanie"
     },
     {
       "site": "Booking.com",
@@ -172,7 +187,7 @@
       "good": "綺麗広かった。朝食がバラエティーで美味しかった。",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "綺麗広かった。朝食がバラエティーで美味しかった。",
       "translated_bad": "特になし",
       "reviewer": "Tomoko"
     },
@@ -204,6 +219,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Beatrice"
+    },
+    {
+      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-03-26",
@@ -211,9 +239,22 @@
       "good": "Had an early flight, and hotel staff were very helpful in allowing us to take a breakfast box with us to the airport.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "早朝便だったのですが、ホテルのスタッフの方がとても親切で、朝食ボックスを空港まで持ち込むことを許可してくれました。",
       "translated_bad": "",
       "reviewer": "David"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-26",
+      "comment": "",
+      "good": "Near to tokyo disneyland and free shuttle from train station is a plus after long day in disneyland",
+      "bad": "",
+      "translated": "",
+      "translated_good": "東京ディズニーランドに近く、駅から無料シャトルバスが出ているのは、ディズニーランドで一日中遊んだ後には大きなメリットです。",
+      "translated_bad": "",
+      "reviewer": "Foo"
     },
     {
       "site": "Google",
@@ -263,7 +304,7 @@
       "good": "Le Check in avec l’accueil par des robots dinosaures et la qualité de la chambre",
       "bad": "RAS",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "恐竜ロボットによる歓迎からのチェックインと部屋の質",
       "translated_bad": "RAS",
       "reviewer": "Damien"
     },
@@ -279,6 +320,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Shelyka Mela"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-25",
+      "comment": "",
+      "good": "A localização é muito boa. Ambiente aconchegante e organizado.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "立地はとても良いです。居心地が良く、整然とした環境です。",
+      "translated_bad": "",
+      "reviewer": "Juliane"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-25",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Eriko"
     },
     {
       "site": "Google",
@@ -315,7 +382,7 @@
       "good": "最近の漫画が充実してた。立地がよい。スタッフが親切。",
       "bad": "特になし。コンプリメンタリーウォーターがないが、その分安いからよい。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "最近の漫画が充実してた。立地がよい。スタッフが親切。",
       "translated_bad": "特になし。コンプリメンタリーウォーターがないが、その分安いからよい。",
       "reviewer": "Yuko"
     },
@@ -341,7 +408,7 @@
       "good": "As the Japanese like to say, high cospa. Great amenities (laundry, free toothbrushes, etc), nice room, and conbini nearby if needed.",
       "bad": "If you have long name like I do (3 first names and 1 long last name), the automated check-in process straight up doesn't work and you need staff assistance to check in.     From a location POV, don't stay here as a main hub to stay in Tokyo, as the train in to the city goes like once per 30 minutes. Only recommend if you need a short hop before going to the airport or similar.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "日本人がよく言うように、コストパフォーマンス抜群。設備も充実していて（ランドリー、無料の歯ブラシなど）、部屋も快適。必要なら近くにコンビニもある。",
       "translated_bad": "私のように名前が長い場合（名字が3つと長い姓が1つ）、自動チェックイン機能は全く機能せず、スタッフの手伝いが必要になります。立地に関しては、東京中心部への電車が30分に1本しかないため、東京滞在の拠点として利用するのはお勧めしません。空港などへ行く前にちょっと立ち寄る程度であれば問題ありませんが、それ以外の用途には適しています。",
       "reviewer": "Brian"
     },
@@ -370,6 +437,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ヤマグチ"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "Staff. Location. Breakfast",
+      "bad": "Room is quite small",
+      "translated": "",
+      "translated_good": "スタッフ。立地。朝食",
+      "translated_bad": "部屋はかなり狭い",
+      "reviewer": "Arjen"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hannah"
     },
     {
       "site": "Google",
@@ -406,7 +499,7 @@
       "good": "We didn’t have breakfast there.  A little bit far from everything.",
       "bad": "N/A",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "そこで朝食は食べませんでした。どこへ行くにも少し遠かったんです。",
       "translated_bad": "該当なし",
       "reviewer": "Masami"
     },
@@ -419,7 +512,7 @@
       "good": "空港からそんなに離れていない。無料バスが出ている。LGスタイラーというものが部屋にありました。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港からそんなに離れていない。無料バスが出ている。LGスタイラーというものが部屋にありました。",
       "translated_bad": "",
       "reviewer": "Namiko"
     },
@@ -432,9 +525,35 @@
       "good": "The free shuttle to the airport. We only stayed one night and we wanted someplace close to the airport",
       "bad": "I can't say I disliked anything but it's kind odd. They have 2 robotic dinosaurs and a mannequin behind the desk when checking in on the computer sign machine.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港までの無料シャトルバス。私たちは一泊しか滞在しなかったのですが、空港に近い場所を探していました。",
       "translated_bad": "特に嫌な点はなかったのですが、ちょっと変わった感じでした。チェックイン用のコンピューター式サインマシンのカウンターの後ろに、ロボット恐竜が2体とマネキンが1体置いてあったんです。",
       "reviewer": "Frederick"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "Nice",
+      "bad": "The dinosaur concierge was very helpful but i think i still prefer real humans",
+      "translated": "",
+      "translated_good": "ニース",
+      "translated_bad": "恐竜コンシェルジュはとても親切だったけど、やっぱり私は本物の人間の方が好き。",
+      "reviewer": "Marcel"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Niklas"
     },
     {
       "site": "Booking.com",
@@ -445,9 +564,35 @@
       "good": "空港からの送迎バスがあり、本当に助かりました！ スタッフさんの対応もよかったです！ グレードアップでコラボルームにしていただき、楽しく過ごせました！ありがとうございます！",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港からの送迎バスがあり、本当に助かりました！ スタッフさんの対応もよかったです！ グレードアップでコラボルームにしていただき、楽しく過ごせました！ありがとうございます！",
       "translated_bad": "",
       "reviewer": "麻美"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "Me encantó la ubicación, cerca de transportes (metro, bus...etc). La habitación me pareció súper acogedora para estar en familia y compartir todos los momentos.",
+      "bad": "Me gustó absolutamente todo.",
+      "translated": "",
+      "translated_good": "立地がとても気に入りました。地下鉄やバスなどの公共交通機関が近くて便利でした。部屋もとても居心地が良く、家族と過ごしたり、大切な思い出を共有したりするのに最適でした。",
+      "translated_bad": "全てが本当に素晴らしかったです。",
+      "reviewer": "Raquel"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Fukuoka"
     },
     {
       "site": "楽天トラベル",
@@ -497,7 +642,7 @@
       "good": "La proximité de l'aéroport  Le décors",
       "bad": "Accueil de l'hôtel sans personnel. On se demande à qui s'adresser en cas de problème",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港に近いこと。景色が良いこと。",
       "translated_bad": "ホテルのフロントは無人です。何か問題が発生した場合、誰に連絡すればよいのか分かりません。",
       "reviewer": "Christine"
     },
@@ -536,7 +681,7 @@
       "good": "Henn na Hotel was conveniently located near Haneda airport. They provided a shuttle to pick us up from the airport to the hotel free of charge, and back to airport should you need it but we didn't use it to return to Haneda.. It was amusing to check in with the dinosaur animatronics. Check in was smooth and easy, and they walk you through the steps very clearly. The room was decently sized for Japan standards, very clean. I appreciated the LG steam washer that was in our room for steam cleaning our clothes after being at the airport.",
       "bad": "Understandably small like any other hotel in Tokyo. We were unable to fully open our luggages as the space was minimal.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ヘンナホテルは羽田空港のすぐ近くにあり、とても便利でした。空港からホテルまでの無料シャトルサービスがあり、必要に応じて空港への送迎も利用できますが、私たちは羽田空港に戻る際に利用しませんでした。恐竜のアニマトロニクスと一緒にチェックインするのは面白かったです。チェックインはスムーズで簡単で、手順も非常に分かりやすく説明してくれました。部屋は日本の基準からすると十分な広さで、とても清潔でした。空港で過ごした後に服をスチームクリーニングするために、部屋にLGのスチーム洗濯機があったのはありがたかったです。",
       "translated_bad": "東京の他のホテルと同様、当然ながら部屋は狭かった。スペースが限られていたため、スーツケースを完全に開けることができなかった。",
       "reviewer": "Maria"
     },
@@ -562,9 +707,22 @@
       "good": "ベッドが別々でツインだったから 朝空港迄の送迎バスに乗れて助かった バッグの荷物が重すぎるので コロコロじゃなかったので",
       "bad": "朝時間が無くてごはんを食べれなかった",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ベッドが別々でツインだったから 朝空港迄の送迎バスに乗れて助かった バッグの荷物が重すぎるので コロコロじゃなかったので",
       "translated_bad": "朝時間が無くてごはんを食べれなかった",
       "reviewer": "Tsuyoshi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "",
+      "good": "チェックインが遅くなる連絡をした際に、すぐ返信をいただき、スタッフの方々の優しさを感じた。 フロントはすごいですね👍 圧倒されました。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "チェックインが遅くなる連絡をした際に、すぐ返信をいただき、スタッフの方々の優しさを感じた。 フロントはすごいですね👍 圧倒されました。",
+      "translated_bad": "",
+      "reviewer": "Satoko"
     },
     {
       "site": "Trip.com",
@@ -607,6 +765,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "",
+      "good": "Čisto,uredno,osoblje uvijek na usluzi.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "清潔で整頓されており、スタッフはいつでもお客様のご要望にお応えいたします。",
+      "translated_bad": "",
+      "reviewer": "Petek"
+    },
+    {
+      "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
       "date": "2026-03-21",
@@ -614,9 +785,22 @@
       "good": "Zajterk.",
       "bad": "/",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "防音室。",
       "translated_bad": "/",
       "reviewer": "Isa"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-21",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mallaury"
     },
     {
       "site": "Booking.com",
@@ -633,6 +817,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-21",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ooi"
+    },
+    {
+      "site": "Booking.com",
       "rating": 6.0,
       "rating_10pt": 6.0,
       "date": "2026-03-20",
@@ -640,7 +837,7 @@
       "good": "Le côté pratique  a côté de l aeroport avec 1 arrivée  le soir  et la navette gratuite",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港に隣接した便利な立地で、夜間到着便も利用でき、無料シャトルバスも運行しています。",
       "translated_bad": "",
       "reviewer": "Camou"
     },
@@ -666,7 +863,7 @@
       "good": "空港迄のバスがある事",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港迄のバスがある事",
       "translated_bad": "",
       "reviewer": "Kumi"
     },
@@ -685,6 +882,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "お手頃価格",
+      "bad": "着いてガウンが全くなかった",
+      "translated": "",
+      "translated_good": "お手頃価格",
+      "translated_bad": "着いてガウンが全くなかった",
+      "reviewer": "Fumiko"
+    },
+    {
+      "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
       "date": "2026-03-20",
@@ -692,7 +902,7 @@
       "good": "The hotel shuttle, which departed at 4:45 am, was very convenient in helping us make it to Haneda for our early morning flight. We didn't have a chance to eat at the hotel but my daughter really enjoyed reading several of the manga that we were able to borrow for free from the lobby.",
       "bad": "The shuttle could only take 20 people to the airport and we didn't know that people were lining up so early. Out of the 20 that could ride, my daughter and I were number 18 and 19 and we felt very fortunate that we made it. If we would have needed to wait one hour for the next shuttle, we would have missed our flight.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "午前4時45分発のホテルシャトルバスは、早朝便で羽田空港に到着するのにとても便利でした。ホテルで食事をする機会はありませんでしたが、娘はロビーで無料で借りられた漫画を何冊か読んでとても楽しんでいました。",
       "translated_bad": "シャトルバスは空港まで20人しか乗せられず、こんなに早くから人が並んでいるとは知りませんでした。乗車できる20人のうち、娘と私は18番目と19番目で、なんとか間に合って本当に幸運でした。もし次のシャトルバスを1時間待たなければならなかったら、飛行機に乗り遅れていたでしょう。",
       "reviewer": "Jamie"
     },
@@ -711,6 +921,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "Příjemný hotel blízko letiště. A doprava na letiště zdarma",
+      "bad": "",
+      "translated": "",
+      "translated_good": "空港近くの素敵なホテル。無料の空港シャトルサービス付き。",
+      "translated_bad": "",
+      "reviewer": "Lukáš"
+    },
+    {
+      "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-03-19",
@@ -721,6 +944,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Elodie"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-19",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yuki"
     },
     {
       "site": "Trip.com",
@@ -744,7 +980,7 @@
       "good": "Great location. Easy to check in and check out.",
       "bad": "Needs another pillow on each bed. Be aware, if taking the train back to the hotel, it will be packed due to the train going to the airport.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が最高。チェックインとチェックアウトも簡単。",
       "translated_bad": "各ベッドに枕がもう一つ必要です。ホテルへ電車で戻る場合は、空港行きの電車なので満員になることをご了承ください。",
       "reviewer": "Ngan"
     },
@@ -760,6 +996,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Nelson"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-19",
+      "comment": "",
+      "good": "Location is great next to the airport. Check in was fun and super quick.",
+      "bad": "Shuttle bus got full really early. If you plan to use it you have to queue well in advance.",
+      "translated": "",
+      "translated_good": "空港のすぐそばという最高のロケーション。チェックインも楽しくて、とてもスムーズでした。",
+      "translated_bad": "シャトルバスはあっという間に満員になりました。利用予定の方は、かなり前から列に並ぶ必要があります。",
+      "reviewer": "Jessica"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-19",
+      "comment": "",
+      "good": "Close and very easy for English speakers! Staff were super helpful!",
+      "bad": "",
+      "translated": "",
+      "translated_good": "英語を話す人にとって、近くてとても便利な場所です！スタッフの方々もとても親切でした！",
+      "translated_bad": "",
+      "reviewer": "Liana"
     },
     {
       "site": "Agoda",
@@ -874,7 +1136,7 @@
       "good": "Proximité des moyens de transport pour accéder à L aéroport Haneda...",
       "bad": "Pas d acceuil physique...",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "羽田空港へのアクセスに便利な交通機関へのアクセスが良い。",
       "translated_bad": "物理的な受信はできません...",
       "reviewer": "Fathia"
     },
@@ -926,9 +1188,22 @@
       "good": "羽田空港から近くアクセスが良かったです。朝食も美味しくまた利用したいです。",
       "bad": "チェックイン時に機械がフリーズして時間がかかりました。それ以外は特にありません。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "羽田空港から近くアクセスが良かったです。朝食も美味しくまた利用したいです。",
       "translated_bad": "チェックイン時に機械がフリーズして時間がかかりました。それ以外は特にありません。",
       "reviewer": "Takahashi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-17",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Stankoski"
     },
     {
       "site": "Booking.com",
@@ -978,7 +1253,7 @@
       "good": "羽田空港から近くアクセスが良かったです。朝食も美味しくまた利用したいです。",
       "bad": "チェックイン時に機械がフリーズして時間がかかりました。それ以外は特にありません。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "羽田空港から近くアクセスが良かったです。朝食も美味しくまた利用したいです。",
       "translated_bad": "チェックイン時に機械がフリーズして時間がかかりました。それ以外は特にありません。",
       "reviewer": "TAKAHASHI"
     },
@@ -1056,7 +1331,7 @@
       "good": "Prima hotel als je dichtbij het vliegveld wil/moet overnachten. Rustig. Inchecken doe jezelf bij een Dinosaurus. Naar het vliegveld met of de Shuttle bus van het hotel, een uber of taxi of via de Metro die op 500 meter afstand ligt. Binnen 7 minuten op het vliegveld. Leuke buurt ook wel.",
       "bad": "Niks.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港近くに滞在したい、または滞在する必要がある場合に最適なホテルです。静かで落ち着いた雰囲気です。チェックインは恐竜のオブジェでセルフチェックインです。空港へはホテルのシャトルバス、Uber、タクシー、または500メートル先にある地下鉄を利用できます。地下鉄を利用すれば7分以内に到着します。周辺環境も良好です。",
       "translated_bad": "何もない。",
       "reviewer": "Maurice"
     },
@@ -1147,7 +1422,7 @@
       "good": "Their late evening shuttle service from Haneda made me choose this hotel, and the proximity to the train station is also good. Shuttle was on time and a breeze to use when traveling with a toddler. Staff were helpful when i requested for extra pillow.",
       "bad": "the room i chose was a little small for our luggages, and the photos made me think the room was a little wider than it was.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "羽田空港からの深夜シャトルサービスが決め手となり、このホテルを選びました。駅からも近いのも良かったです。シャトルは時間通りに運行しており、幼児連れでもとても便利でした。追加の枕をお願いした際も、スタッフの方が親切に対応してくれました。",
       "translated_bad": "私が選んだ部屋は荷物に対して少し狭く、写真で見たよりも実際は狭かった。",
       "reviewer": "Arinnna"
     },
@@ -1160,7 +1435,7 @@
       "good": "空港までの送迎バスがあるので、朝早くても問題なかった。部屋は静かで快適だった。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港までの送迎バスがあるので、朝早くても問題なかった。部屋は静かで快適だった。",
       "translated_bad": "",
       "reviewer": "キリ"
     },
@@ -1173,7 +1448,7 @@
       "good": "Emplacement à côté de l’aéroport",
       "bad": "Pas d’accueil.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港に隣接する場所",
       "translated_bad": "電波が入りません。",
       "reviewer": "Chloé"
     },
@@ -1202,6 +1477,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Søren"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-14",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mihashi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-14",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Matsunaga"
     },
     {
       "site": "楽天トラベル",
@@ -1251,7 +1552,7 @@
       "good": "no idea that a dinosaur was going to check me in. That was great",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "恐竜がチェックインしてくれるなんて、全く予想外だった。最高だったよ。",
       "translated_bad": "",
       "reviewer": "James"
     },
@@ -1264,7 +1565,7 @@
       "good": "The robot check in was so unique! I also enjoyed the room, it was quiet and comfortable. The value for the room was good. We would stay here again.",
       "bad": "I found a few hairs from previous guests, on the toilet and on the floor. It did make me feel that more cleaning was necessary",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ロボットによるチェックインはとてもユニークでした！部屋も静かで快適で、とても気に入りました。料金も手頃でした。また利用したいと思います。",
       "translated_bad": "トイレと床に前の宿泊客の髪の毛が数本落ちていました。もっと掃除が必要だと感じました。",
       "reviewer": "Deborah"
     },
@@ -1308,6 +1609,32 @@
       "reviewer": "Johanna"
     },
     {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-13",
+      "comment": "",
+      "good": "羽田空港から近くて、送迎バスがあり良かったです",
+      "bad": "冷蔵庫が小さかった",
+      "translated": "",
+      "translated_good": "羽田空港から近くて、送迎バスがあり良かったです",
+      "translated_bad": "冷蔵庫が小さかった",
+      "reviewer": "Yoshiko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-13",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Scott"
+    },
+    {
       "site": "Google",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -1342,7 +1669,7 @@
       "good": "Le calme. La propreté. La navette. Le personnel fiable",
       "bad": "L accueil en libre service. Pas évident pour nous car ils n avaient pas enregistré nos noms mais nos prénoms.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "静かで落ち着いた環境。清潔さ。シャトルサービス。信頼できるスタッフ。",
       "translated_bad": "セルフチェックイン方式だったのですが、名前（姓ではなく名）が記録されていたため、私たちにとっては簡単ではありませんでした。",
       "reviewer": "Claire"
     },
@@ -1400,6 +1727,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-11",
+      "comment": "",
+      "good": "Först o främst läget",
+      "bad": "",
+      "translated": "",
+      "translated_good": "何よりもまず場所",
+      "translated_bad": "",
+      "reviewer": "Ragna"
+    },
+    {
+      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-03-11",
@@ -1407,7 +1747,7 @@
       "good": "Clean, comfy, good design, shuttle bus",
       "bad": "None",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で快適、デザインも良く、シャトルバスも運行中",
       "translated_bad": "なし",
       "reviewer": "Hock"
     },
@@ -1420,7 +1760,7 @@
       "good": "The location, everything was near by and it was easy for me to take the train that was very close by and be able to go into the city and back. Breakfast was also very amazing, accommodating to everyone's ideal taste while keeping the traditional breakfast locals might have.",
       "bad": "N/A",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地も良く、すべてが近くにあり、すぐ近くの電車で市内へ行き来するのも簡単でした。朝食も素晴らしく、地元の人々が食べる伝統的な朝食の味を楽しみつつ、あらゆる人の好みに合うように工夫されていました。",
       "translated_bad": "該当なし",
       "reviewer": "Branden"
     },
@@ -1433,7 +1773,7 @@
       "good": "Sauber, praktisch",
       "bad": "Automatisierter Check-In",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で実用的",
       "translated_bad": "自動チェックイン",
       "reviewer": "Peter"
     },
@@ -1465,6 +1805,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-10",
+      "comment": "",
+      "good": "Location, shampoo & conditioner, dinosaur check in",
+      "bad": "Fridge did not work",
+      "translated": "",
+      "translated_good": "場所、シャンプー＆コンディショナー、恐竜チェックイン",
+      "translated_bad": "冷蔵庫が動かなかった",
+      "reviewer": "Crush"
+    },
+    {
+      "site": "Booking.com",
       "rating": 6.0,
       "rating_10pt": 6.0,
       "date": "2026-03-10",
@@ -1472,7 +1825,7 @@
       "good": "Small but clean room",
       "bad": "Too expensive and too noisy at 2am  Shuttle service was too limited",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "小さいけれど清潔な部屋",
       "translated_bad": "午前2時は高すぎるし騒がしすぎる。シャトルバスの運行本数も少なすぎる。",
       "reviewer": "Sonomi"
     },
@@ -1485,9 +1838,22 @@
       "good": "清潔で快適だったと思います。 このスコアで スタッフについてのリアクション求められましたがすべてセルフなので会わずに滞在完了となりました",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で快適だったと思います。 このスコアで スタッフについてのリアクション求められましたがすべてセルフなので会わずに滞在完了となりました",
       "translated_bad": "",
       "reviewer": "Toshiko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-09",
+      "comment": "",
+      "good": "Nice modern place. Good breakfast choices. The room was small but beautifully designed to maximise space.",
+      "bad": "Information about parking was hard to find.",
+      "translated": "",
+      "translated_good": "素敵なモダンなホテルです。朝食の種類も豊富でした。部屋は小さかったものの、空間を最大限に活用できるよう美しくデザインされていました。",
+      "translated_bad": "駐車場の情報を見つけるのは困難だった。",
+      "reviewer": "John"
     },
     {
       "site": "じゃらん",
@@ -1511,7 +1877,7 @@
       "good": "Établissement près de l'aéroport avec une navette gratuite. Les chambres sont grandes et bien insonorisées  Un service de bagagerie est pratique  L'accueil est fait par des robots dinausores Il y a un distributeur de nourriture, carte sim boisson à l'accueil",
       "bad": "Le petit déjeuner est cher au regard du choix proposé  Il n'y a pas de spa ou bain public  Seul un bagage par personne dans la navette  Obligé d'attendre la charge complète de la navette pour le départ",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港近くのホテルで、無料シャトルバスが利用できます。客室は広く、防音対策も万全です。荷物預かりサービスも便利です。チェックインは恐竜型ロボットが行います。フロントには、飲食物やSIMカードの自動販売機があります。",
       "translated_bad": "朝食は種類が限られている割に値段が高い。スパや公衆浴場はない。シャトルバスには一人につき荷物1個しか持ち込めない。出発前にシャトルバスが満員になるまで待たなければならない。",
       "reviewer": "Karine"
     },
@@ -1524,7 +1890,7 @@
       "good": "地點不錯 cp值高",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が良く、コストパフォーマンスも高い。",
       "translated_bad": "",
       "reviewer": "書瑋"
     },
@@ -1594,6 +1960,45 @@
       "reviewer": "Tobias"
     },
     {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-08",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Veeti"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-08",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ren-ting"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-08",
+      "comment": "",
+      "good": "房間挺小的但隔音跟隔光都很好  早餐很好吃",
+      "bad": "",
+      "translated": "",
+      "translated_good": "部屋はかなり狭かったが、防音性と遮光性は抜群だった。朝食も美味しかった。",
+      "translated_bad": "",
+      "reviewer": "Ren-ting"
+    },
+    {
       "site": "Google",
       "rating": 3.0,
       "rating_10pt": 6.0,
@@ -1628,7 +2033,7 @@
       "good": "L'emplacement et la navette pour l'aéroport, idéal ! Le service de consigne des bagages est aussi appréciable.",
       "bad": "Le fonctionnement n'est pas si simple que cela, nous avons dû faire appel à des humains ce qui est bien dommage pour une expérience avec humanoïdes... Cela gâche vraiment le principe. D'autre part, la clim ou l'air conditionné faisaient un bruit important...  C'est dommage et finalement très cher pour ce que c'est.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地も空港シャトルも最高です！荷物預かりサービスもありがたいです。",
       "translated_bad": "システムは見た目ほど単純ではなく、人間のオペレーターを使わざるを得ませんでした。ヒューマノイドを使った実験としては、これは本当に残念なことです。コンセプトが台無しになってしまいます。さらに、エアコンの音がかなりうるさかったです。期待外れで、結局のところ、価格に見合わないほど高価でした。",
       "reviewer": "Marie"
     },
@@ -1657,6 +2062,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Lena"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-07",
+      "comment": "",
+      "good": "Très bon emplacement pour l aéroport Haneda, super sympa les robots dinosaures",
+      "bad": "Tarif un peu haut, salle de bain petite",
+      "translated": "",
+      "translated_good": "羽田空港へのアクセスが抜群で、恐竜ロボットもすごくかっこいいです。",
+      "translated_bad": "値段が少し高い、バスルームが狭い",
+      "reviewer": "Mylene"
     },
     {
       "site": "Agoda",
@@ -1724,6 +2142,19 @@
       "reviewer": "Choo"
     },
     {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-06",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hinano"
+    },
+    {
       "site": "楽天トラベル",
       "rating": 4.0,
       "rating_10pt": 8.0,
@@ -1745,7 +2176,7 @@
       "good": "La verdad que estaba muy bien, porque aunque los que te atienden son robots también está el humano, era bastante grande, lo que pasa que en el sitio que está ubicado no hay mucho para ver, pero está cerca del aeropuerto.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ロボットが接客してくれる一方で、人間もいるのが本当に良かったです。かなり広かったのですが、空港に近いとはいえ、周辺にはあまり見どころがありませんでした。",
       "translated_bad": "",
       "reviewer": "Isabel"
     },
@@ -1758,7 +2189,7 @@
       "good": "L'accueil atypique",
       "bad": "Le manque d'information pour la navette",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "異例の歓迎",
       "translated_bad": "シャトルに関する情報不足",
       "reviewer": "R"
     },
@@ -1829,6 +2260,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "Hôtel parfait pour une arrivée à Tokyo.  Situé pas très loin de l aéroport d' Haneda. Le taxi pour venir nous à coûté 2700 Yens. De quoi se restaurer pas loin, ouvert jusque très tard. L accueil par des robots est sympa.  Il y a pas mal de commodités : un  service de lingeries, de quoi manger , garder nos bagages. Des serviettes..... tout se fait en autonomie, c est simple.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "東京到着に最適なホテルです。羽田空港からほど近い場所に位置しています。タクシー料金は2700円でした。周辺には深夜まで営業している飲食店がたくさんあります。ロボットによるチェックインサービスも親切です。ランドリーサービス、食事、荷物預かり、タオルなど、アメニティも充実しており、すべてセルフサービスでシンプルです。",
+      "translated_bad": "",
+      "reviewer": "Hiely"
+    },
+    {
+      "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
       "date": "2026-03-04",
@@ -1836,7 +2280,7 @@
       "good": "3人一緒に泊まれたから。",
       "bad": "荷物を置くところが狭かった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "3人一緒に泊まれたから。",
       "translated_bad": "荷物を置くところが狭かった。",
       "reviewer": "糸井"
     },
@@ -1849,7 +2293,72 @@
       "good": "スクリーンがあってYouTube等が見れた",
       "bad": "スクリーンの長さが足りてないのか動画を見た時に下が少し切れてしまっていた",
       "translated": "",
+      "translated_good": "スクリーンがあってYouTube等が見れた",
+      "translated_bad": "スクリーンの長さが足りてないのか動画を見た時に下が少し切れてしまっていた",
+      "reviewer": "Yuna"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-04",
+      "comment": "始めて利用しました。 恐竜がお迎えしてくれるユニークさもありリアル過ぎて怖い感じもあり。 受付におられるスタッフさんも丁寧で助かりました。",
+      "good": "",
+      "bad": "",
+      "translated": "始めて利用しました。 恐竜がお迎えしてくれるユニークさもありリアル過ぎて怖い感じもあり。 受付におられるスタッフさんも丁寧で助かりました。",
       "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "いっちゃん8088"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "いっちゃん"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "Hôtel parfait pour une arrivée à Tokyo.  Situé pas très loin de l aéroport d' Haneda. Le taxi pour venir nous à coûté 2700 Yens. De quoi se restaurer pas loin, ouvert jusque très tard. L accueil par des robots est sympa.  Il y a pas mal de commodités : un  service de lingeries, de quoi manger , garder nos bagages. Des serviettes..... tout se fait en autonomie, c est simple.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "東京到着に最適なホテルです。羽田空港からほど近い場所に位置しています。タクシー料金は2700円でした。周辺には深夜まで営業している飲食店がたくさんあります。ロボットによるチェックインサービスも親切です。ランドリーサービス、食事、荷物預かり、タオルなど、アメニティも充実しており、すべてセルフサービスでシンプルです。",
+      "translated_bad": "",
+      "reviewer": "Hiely"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "3人一緒に泊まれたから。",
+      "bad": "荷物を置くところが狭かった。",
+      "translated": "",
+      "translated_good": "3人一緒に泊まれたから。",
+      "translated_bad": "荷物を置くところが狭かった。",
+      "reviewer": "糸井"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "スクリーンがあってYouTube等が見れた",
+      "bad": "スクリーンの長さが足りてないのか動画を見た時に下が少し切れてしまっていた",
+      "translated": "",
+      "translated_good": "スクリーンがあってYouTube等が見れた",
       "translated_bad": "スクリーンの長さが足りてないのか動画を見た時に下が少し切れてしまっていた",
       "reviewer": "Yuna"
     },
@@ -1940,7 +2449,98 @@
       "good": "Hervorragende Lage zwischen dem Flughafen Haneda und Yokohama, wo sich viele relevante Ziele für Geschäftsreisende befinden. Beispielsweise Messe, Kongresszentrum und die Firmenzentralen diverser Konzerne.  Die Zimmer sind klein, aber sehr sauber und funktional.  Sehr gute Schalldämmung nach draußen, besonders hervorzugeben sind die Jalousien, die vollständig und ohne Lichtspalt verdunkeln.  Das Frühstücksbuffet ist gleichzeitg ein Late-Night-Imbiss und so gibt es dort alles von Cornflakes über ein Salatbuffet bis Chicken Curry. Geöffnet von 0-10 Uhr, lässt es keine Wünsche offen, auch für Reisende, die sich nicht der Zeitzone anpassen wollen, oder gern deftig frühstücken.  Außerhalb der Zeiten stehen Automaten für Snacks, Mikrowellengerichte, Getränke und Eiscreme bereit. In fußläufiger Umgebung befinden sich mehrere Restaurants und Konbinis.  Da die Rezeption automatisiert ist, beschränkt sich die Interaktion mit Mitarbeitern auf ein Minimum beim Frühstück und Shuttlebus. Jeder Kontakt ist geprägt von Freundlichkeit und Servicebereitschaft. Die Mitarbeiter sprechen auch etwas Englisch.",
       "bad": "Der Shuttlebus zum Flughafen Haneda fährt leider nur 1x pro Stunde und zu Stoßzeiten kann es leicht vorkommen, dass man keinen Platz mehr bekommt.  Außerdem fährt er nur morgens und abends. Wer außerhalb der Zeiten ankommt, muss die Bahn nehmen (Keikyu Line, vier Stationen bis Bahnhof Otorii für 313yen).",
       "translated": "",
+      "translated_good": "羽田空港と横浜の中間という絶好のロケーション。横浜には、見本市会場、コンベンションセンター、様々な企業の本社など、ビジネス旅行者にとって重要な目的地が数多くあります。客室は小ぶりながらも清潔で機能的です。防音性は抜群で、光漏れのない完全な暗闇を提供する遮光ブラインドは特に注目に値します。朝食ビュッフェは深夜の軽食としても利用でき、コーンフレークやサラダバーからチキンカレーまで、あらゆるものが揃っています。深夜0時から午前10時まで営業しており、時差調整をしたくない旅行者や、しっかりとした朝食を好む旅行者など、あらゆるニーズに対応しています。営業時間外は、自動販売機でスナック、電子レンジ食品、飲み物、アイスクリームなどを購入できます。徒歩圏内には複数のレストランやコンビニエンスストアがあります。受付は自動化されているため、スタッフとのやり取りは、主に朝食時とシャトルバス利用時のみ最小限です。しかし、どのやり取りもフレンドリーで親切な対応が特徴です。スタッフは英語も話せます。",
+      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保しやすいものの、運行時間は朝と夕方のみです。それ以外の時間帯に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
+      "reviewer": "Thomas"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
       "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kosuke"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-03",
+      "comment": "夜遅く、朝早くの利用だったので、セルフチェックイン、チェックアウトは便利でした。フロントで恐竜が動いたりしゃべったりするのは子供受けが良く大人も楽しめましたが、それ以外突出するものがないので、お部屋にも変な仕掛けや変なものがあるともっと良かったです。また、駐車場が事前予約できるのはありがたいのですが、タイムズへの登録や、あまり利用しないサービスの登録が好きではないため宿泊先に電話したり予約時の備考に記載したり等で駐車場が確保できるところに比べると煩わしく感じました。",
+      "good": "",
+      "bad": "",
+      "translated": "夜遅く、朝早くの利用だったので、セルフチェックイン、チェックアウトは便利でした。フロントで恐竜が動いたりしゃべったりするのは子供受けが良く大人も楽しめましたが、それ以外突出するものがないので、お部屋にも変な仕掛けや変なものがあるともっと良かったです。また、駐車場が事前予約できるのはありがたいのですが、タイムズへの登録や、あまり利用しないサービスの登録が好きではないため宿泊先に電話したり予約時の備考に記載したり等で駐車場が確保できるところに比べると煩わしく感じました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ももくりさん"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Haruki"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Erica"
+    },
+    {
+      "site": "Agoda",
+      "rating": 3.0,
+      "rating_10pt": 3.0,
+      "date": "2026-03-03",
+      "comment": "部屋はとても狭いです。荷物を広げる場所もありませんが設備は狭いながらも必要な物は揃っています。フライトの合間に過ごすのみなら問題無いと思いますが拠点にして観光するには狭すぎです。また空港シャトルも午後から夕方7時迄は運行していないので空港送迎有りに騙されないで下さい。",
+      "good": "",
+      "bad": "",
+      "translated": "部屋はとても狭いです。荷物を広げる場所もありませんが設備は狭いながらも必要な物は揃っています。フライトの合間に過ごすのみなら問題無いと思いますが拠点にして観光するには狭すぎです。また空港シャトルも午後から夕方7時迄は運行していないので空港送迎有りに騙されないで下さい。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "MIHOKO"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-03",
+      "comment": "早朝発の便だったので，空港まで送迎があり大変助かりました。部屋が狭いのは，格安なので仕方ないですね。",
+      "good": "",
+      "bad": "",
+      "translated": "早朝発の便だったので，空港まで送迎があり大変助かりました。部屋が狭いのは，格安なので仕方ないですね。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ＶＯＬＶＯ５９６３"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-03",
+      "comment": "",
+      "good": "Hervorragende Lage zwischen dem Flughafen Haneda und Yokohama, wo sich viele relevante Ziele für Geschäftsreisende befinden. Beispielsweise Messe, Kongresszentrum und die Firmenzentralen diverser Konzerne.  Die Zimmer sind klein, aber sehr sauber und funktional.  Sehr gute Schalldämmung nach draußen, besonders hervorzugeben sind die Jalousien, die vollständig und ohne Lichtspalt verdunkeln.  Das Frühstücksbuffet ist gleichzeitg ein Late-Night-Imbiss und so gibt es dort alles von Cornflakes über ein Salatbuffet bis Chicken Curry. Geöffnet von 0-10 Uhr, lässt es keine Wünsche offen, auch für Reisende, die sich nicht der Zeitzone anpassen wollen, oder gern deftig frühstücken.  Außerhalb der Zeiten stehen Automaten für Snacks, Mikrowellengerichte, Getränke und Eiscreme bereit. In fußläufiger Umgebung befinden sich mehrere Restaurants und Konbinis.  Da die Rezeption automatisiert ist, beschränkt sich die Interaktion mit Mitarbeitern auf ein Minimum beim Frühstück und Shuttlebus. Jeder Kontakt ist geprägt von Freundlichkeit und Servicebereitschaft. Die Mitarbeiter sprechen auch etwas Englisch.",
+      "bad": "Der Shuttlebus zum Flughafen Haneda fährt leider nur 1x pro Stunde und zu Stoßzeiten kann es leicht vorkommen, dass man keinen Platz mehr bekommt.  Außerdem fährt er nur morgens und abends. Wer außerhalb der Zeiten ankommt, muss die Bahn nehmen (Keikyu Line, vier Stationen bis Bahnhof Otorii für 313yen).",
+      "translated": "",
+      "translated_good": "羽田空港と横浜の中間という絶好のロケーション。横浜には、見本市会場、コンベンションセンター、様々な企業の本社など、ビジネス旅行者にとって重要な目的地が数多くあります。客室は小ぶりながらも清潔で機能的です。防音性は抜群で、光漏れのない完全な暗闇を提供する遮光ブラインドは特に注目に値します。朝食ビュッフェは深夜の軽食としても利用でき、コーンフレークやサラダバーからチキンカレーまで、あらゆるものが揃っています。深夜0時から午前10時まで営業しており、時差調整をしたくない旅行者や、しっかりとした朝食を好む旅行者など、あらゆるニーズに対応しています。営業時間外は、自動販売機でスナック、電子レンジ食品、飲み物、アイスクリームなどを購入できます。徒歩圏内には複数のレストランやコンビニエンスストアがあります。受付は自動化されているため、スタッフとのやり取りは、主に朝食時とシャトルバス利用時のみ最小限です。しかし、どのやり取りもフレンドリーで親切な対応が特徴です。スタッフは英語も話せます。",
       "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保しやすいものの、運行時間は朝と夕方のみです。それ以外の時間帯に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
       "reviewer": "Thomas"
     },
@@ -2057,7 +2657,7 @@
       "good": "立地。羽田空港までのシャトルバスは助かりました",
       "bad": "化粧水等あればよかった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地。羽田空港までのシャトルバスは助かりました",
       "translated_bad": "化粧水等あればよかった。",
       "reviewer": "Mami"
     },
@@ -2070,7 +2670,7 @@
       "good": "El personal fue muy amable:)",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの方々はとても親切でした :)",
       "translated_bad": "",
       "reviewer": "Danae"
     },
@@ -2096,7 +2696,7 @@
       "good": "アーリーチェックインにスムーズに対応していただけた。",
       "bad": "コンセプトルーム以外の普通の部屋にも、もっと露骨に変な要素があっても良いかと思った。（想像していたよりは普通だった。）",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "アーリーチェックインにスムーズに対応していただけた。",
       "translated_bad": "コンセプトルーム以外の普通の部屋にも、もっと露骨に変な要素があっても良いかと思った。（想像していたよりは普通だった。）",
       "reviewer": "Susumu"
     },
@@ -2109,9 +2709,22 @@
       "good": "We enjoyed the unit features at the hotel and inside the room. It is small but very well appointed and everything you need, super clean and comfortable sleeping and was quiet. Great location close to airport, restaurants, train station and small markets. I would definitely recommend. Shuttle service was free but first come first serve.",
       "bad": "When you first arrive it's a little confusing on how you get your key and the person that was working wasn't too friendly.   Better pillows or two needed per bed.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ホテルの設備と部屋の内装がとても気に入りました。部屋は小さいですが、必要なものはすべて揃っていて、とても清潔で快適に眠れました。静かでした。空港、レストラン、駅、小さな市場にも近く、立地も最高です。ぜひおすすめします。シャトルサービスは無料ですが、先着順です。",
       "translated_bad": "到着した当初は鍵の受け取り方が少し分かりにくく、対応してくれたスタッフもあまり親切ではありませんでした。枕はベッド1台につき2つ、もしくはもっと良いものが必要だと思います。",
       "reviewer": "Michelle"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-28",
+      "comment": "",
+      "good": "お部屋が過ごしやすかったです",
+      "bad": "",
+      "translated": "",
+      "translated_good": "お部屋が過ごしやすかったです",
+      "translated_bad": "",
+      "reviewer": "日高"
     },
     {
       "site": "Google",
@@ -2151,6 +2764,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "グリーンライム"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-28",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Martina"
     },
     {
       "site": "Google",
@@ -2232,6 +2858,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mike"
+    },
+    {
+      "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-27",
@@ -2310,6 +2949,32 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-26",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Baptiste"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-26",
+      "comment": "",
+      "good": "Clean, close to the station good WiFi. Plus all the little free extras the umbrellas, mini hand clothes, etc the luggage storage was excellent plus lockers for your hand luggage",
+      "bad": "No reception person, felt like we had walked into Jurassic World with constant dinosaurs roaring and everything was automated. If you needed help you had to shout for someone from the kitchen to help. Which they did.",
+      "translated": "",
+      "translated_good": "清潔で駅にも近く、Wi-Fiも良好でした。傘やミニハンドバッグなどのちょっとした無料サービスも充実していて、荷物預かり所も素晴らしく、手荷物用のロッカーもありました。",
+      "translated_bad": "受付係はおらず、まるで恐竜の咆哮が絶えず響き渡るジュラシック・ワールドに迷い込んだような気分だった。すべてが自動化されていた。何か困ったことがあれば、厨房の誰かを大声で呼ばなければならなかった。幸い、彼らは助けてくれた。",
+      "reviewer": "June"
+    },
+    {
+      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-02-26",
@@ -2317,7 +2982,7 @@
       "good": "Good room size, clean",
       "bad": "Not sure about the reception robots .. needed help to check in.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋の広さも良く、清潔だった。",
       "translated_bad": "受付のロボットについてはよく分かりません。チェックインするのに助けが必要でした。",
       "reviewer": "David"
     },
@@ -2447,7 +3112,7 @@
       "good": "北海道から行った私達でも、最寄駅から割とすぐ見つけられて、良かったです。 連泊でしたが、終日快適に過ごせました。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "北海道から行った私達でも、最寄駅から割とすぐ見つけられて、良かったです。 連泊でしたが、終日快適に過ごせました。",
       "translated_bad": "",
       "reviewer": "Kaori"
     },
@@ -2479,6 +3144,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-24",
+      "comment": "",
+      "good": "La qualità della stanza",
+      "bad": "Che il giorno della partenza non c'era  la navetta",
+      "translated": "",
+      "translated_good": "部屋の品質",
+      "translated_bad": "出発当日にシャトルバスがなかった",
+      "reviewer": "Alessandro"
+    },
+    {
+      "site": "Booking.com",
       "rating": 6.0,
       "rating_10pt": 6.0,
       "date": "2026-02-24",
@@ -2486,7 +3164,7 @@
       "good": "空港までの無料シャトルバス",
       "bad": "お部屋にコーヒーが欲しかった☕︎",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港までの無料シャトルバス",
       "translated_bad": "お部屋にコーヒーが欲しかった☕︎",
       "reviewer": "ゆかり"
     },
@@ -2499,7 +3177,7 @@
       "good": "空港までシャトルバスが出てること、 羽田のカプセルホテルに泊まるより安く泊まれたこと",
       "bad": "WI-HIが朝はクルクルして繋がらなくなった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港までシャトルバスが出てること、 羽田のカプセルホテルに泊まるより安く泊まれたこと",
       "translated_bad": "WI-HIが朝はクルクルして繋がらなくなった。",
       "reviewer": "ゆかり"
     },
@@ -2538,7 +3216,7 @@
       "good": "空港までシャトルバスが出てること、 羽田のカプセルホテルに泊まるより安く泊まれたこと",
       "bad": "WI-HIが朝はクルクルして繋がらなくなった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港までシャトルバスが出てること、 羽田のカプセルホテルに泊まるより安く泊まれたこと",
       "translated_bad": "WI-HIが朝はクルクルして繋がらなくなった。",
       "reviewer": "ゆかり"
     },
@@ -2551,7 +3229,7 @@
       "good": "空港までの無料シャトルバス",
       "bad": "お部屋にコーヒーが欲しかった☕︎",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港までの無料シャトルバス",
       "translated_bad": "お部屋にコーヒーが欲しかった☕︎",
       "reviewer": "ゆかり"
     },
@@ -2564,7 +3242,7 @@
       "good": "羽田空港近くで、無料のシャトルバスあり",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "羽田空港近くで、無料のシャトルバスあり",
       "translated_bad": "特になし",
       "reviewer": "じっちゃん"
     },
@@ -2577,9 +3255,48 @@
       "good": "朝食がおいしかった。",
       "bad": "大浴場あると良かった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食がおいしかった。",
       "translated_bad": "大浴場あると良かった。",
       "reviewer": "Takashi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "L'originalité, la praticité et le calme de l'hôtel.",
+      "bad": "Le manque de personne réelle si nous avions des questions ou besoin de recommandation.",
+      "translated": "",
+      "translated_good": "ホテルの独創性、実用性、そして静けさ。",
+      "translated_bad": "質問があったり、アドバイスが必要になったりした際に、実際に担当者と話せる人がいなかったこと。",
+      "reviewer": "Laura"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "The location was great. The breakfast was excellent.. many local foods.  The room was fine. We used the shuttle to and from the airport, which was great, though it can fill up fast at peak hours...plan ahead.",
+      "bad": "The check in was a little odd... no humans( though someone did come out to help us). It's a self check in by a machine which was confusing if you don't speak Japanese.",
+      "translated": "",
+      "translated_good": "立地は最高でした。朝食も素晴らしく、地元の料理がたくさんありました。部屋も快適でした。空港との往復にシャトルバスを利用しましたが、とても便利でした。ただし、ピーク時はすぐに満席になるので、事前に計画を立てておくことをお勧めします。",
+      "translated_bad": "チェックインは少し変わっていました…係員はいませんでした（ただし、誰かが手伝いに来てくれました）。機械によるセルフチェックインだったので、日本語が話せないと分かりにくかったです。",
+      "reviewer": "Martha"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "Close to airport and has large supermarket next door. Shuttle bus allows ski / snowboard bags.",
+      "bad": "Front desk not staffed. It has self serve terminals with stupid dinasours behind counter. You can get a person to assist by using phone at desk.",
+      "translated": "",
+      "translated_good": "空港に近く、隣には大型スーパーマーケットがあります。シャトルバスはスキー／スノーボードバッグの持ち込みが可能です。",
+      "translated_bad": "フロントデスクは無人です。カウンターの後ろには、間抜けな恐竜の置物があるセルフサービス端末が設置されています。デスクにある電話を使えば、係員に助けを求めることができます。",
+      "reviewer": "Paul"
     },
     {
       "site": "Google",
@@ -2655,7 +3372,7 @@
       "good": "朝食がおいしかった。",
       "bad": "大浴場あると良かった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食がおいしかった。",
       "translated_bad": "大浴場あると良かった。",
       "reviewer": "Takashi"
     },
@@ -2668,7 +3385,7 @@
       "good": "北海道から行った私達でも、最寄駅から割とすぐ見つけられて、良かったです。 連泊でしたが、終日快適に過ごせました。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "北海道から行った私達でも、最寄駅から割とすぐ見つけられて、良かったです。 連泊でしたが、終日快適に過ごせました。",
       "translated_bad": "",
       "reviewer": "KAORI"
     },
@@ -2824,7 +3541,7 @@
       "good": "酒店整体不错，自助办理入住时出错了，服务员细心和耐心的为我办理入住程序",
       "bad": "酒店面积比其他日本酒店小",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ホテルは概ね良かったです。セルフチェックインの際にミスをしてしまいましたが、スタッフの方々は親切で根気強くチェックイン手続きを手伝ってくれました。",
       "translated_bad": "このホテルは、他の日本のホテルに比べて規模が小さい。",
       "reviewer": "Dawson"
     },
@@ -2876,7 +3593,7 @@
       "good": "The room was clean, & well lit.",
       "bad": "The bed & pillows were extremely uncomfortable which made it very difficult to sleep. The bathroom was quite claustrophobic. Check-in was a little bit confusing, & there weren't any staff nearby.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋は清潔で、明るかった。",
       "translated_bad": "ベッドと枕が非常に寝心地が悪く、なかなか眠れませんでした。バスルームはかなり狭苦しく感じました。チェックインの手続きも少し分かりにくく、近くにスタッフもいませんでした。",
       "reviewer": "Liam"
     },
@@ -2931,6 +3648,19 @@
       "translated_good": "",
       "translated_bad": "AIの認識が十分ではなく、予約したのに、 予約が入っていないと言われました。 後に、入ってると言われましたが、 ちょっと不快でした。 改善をお願いしたいです。",
       "reviewer": "佐々木"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Marcel"
     },
     {
       "site": "Booking.com",
@@ -3006,7 +3736,7 @@
       "good": "La cercanía con el aeropuerto y el transfer gratuito",
       "bad": "Pedimos una almohada adicional y no nos la dieron porque según ellos no tenían más",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港に近く、無料シャトルバスあり",
       "translated_bad": "追加の枕を頼んだのですが、在庫がないという理由で断られました。",
       "reviewer": "Cristina"
     },
@@ -3022,6 +3752,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Yukina"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-19",
+      "comment": "",
+      "good": "This property is conveniently located near a grocery store, drug store and there are many restaurants nearby.",
+      "bad": "Self check in process was a little confusing",
+      "translated": "",
+      "translated_good": "この物件は、食料品店やドラッグストアが近くにあり、周辺には多くのレストランもある便利な場所に位置しています。",
+      "translated_bad": "セルフチェックインの手順が少し分かりにくかった",
+      "reviewer": "Kara"
     },
     {
       "site": "Booking.com",
@@ -3045,9 +3788,22 @@
       "good": "Très confortable.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "とても快適です。",
       "translated_bad": "",
       "reviewer": "Flavien"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-19",
+      "comment": "",
+      "good": "Great place. Clean, fun, great breakfast. Really close to the airport",
+      "bad": "",
+      "translated": "",
+      "translated_good": "素晴らしい場所です。清潔で楽しく、朝食も最高です。空港からもとても近いです。",
+      "translated_bad": "",
+      "reviewer": "Adriana"
     },
     {
       "site": "Booking.com",
@@ -3061,6 +3817,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Tazawa"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-19",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Agustin"
     },
     {
       "site": "楽天トラベル",
@@ -3123,7 +3892,7 @@
       "good": "フロントのユニークさは子供大喜び",
       "bad": "子ども入れて3名で頼んだがセミダブル？で結構狭かった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "フロントのユニークさは子供大喜び",
       "translated_bad": "子ども入れて3名で頼んだがセミダブル？で結構狭かった。",
       "reviewer": "Tatsuya"
     },
@@ -3139,6 +3908,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Yuko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-02-18",
+      "comment": "",
+      "good": "Airport shuttle. Close to supermarket",
+      "bad": "Worst thing pillows ever.",
+      "translated": "",
+      "translated_good": "空港シャトルバスあり。スーパーマーケットに近い。",
+      "translated_bad": "今までで最悪の枕。",
+      "reviewer": "Josie"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-18",
+      "comment": "",
+      "good": "La camera è abbastanza spaziosa rispetto alla media, il servizio navetta per l'aeroporto di Haneda è perfetto anche se accetta solo 20 persone (è un pulmino) e parte ogni ora; la temperatura della camera è stata facilmente regolabile.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "部屋は平均的な部屋と比べてかなり広々としています。羽田空港へのシャトルバスは、定員20名（ミニバン）で1時間おきに出発するにもかかわらず、非常に便利です。室温も簡単に調節できました。",
+      "translated_bad": "",
+      "reviewer": "Filippo"
     },
     {
       "site": "楽天トラベル",
@@ -3162,9 +3957,22 @@
       "good": "チェックイン前に　荷物預かりでいきましたが 荷物のロッカーがいっぱいで 空いてたロッカーが鍵がいかなくて 職員の方がすぐに対応してくださり たすかりました",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "チェックイン前に　荷物預かりでいきましたが 荷物のロッカーがいっぱいで 空いてたロッカーが鍵がいかなくて 職員の方がすぐに対応してくださり たすかりました",
       "translated_bad": "",
       "reviewer": "Yumiko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-18",
+      "comment": "",
+      "good": "Juste pour l’expérience en arrivant à Tokyo Accueil très immersif avec les dinosaures",
+      "bad": "",
+      "translated": "",
+      "translated_good": "東京到着時の体験だけでも、恐竜たちとの非常に没入感のある歓迎は格別です。",
+      "translated_bad": "",
+      "reviewer": "Victoria"
     },
     {
       "site": "Booking.com",
@@ -3175,7 +3983,7 @@
       "good": "got checked in by a robot dinosaur. simple and comfortable room. great access to airport, station and convenience store.",
       "bad": "carpet is looking past its used by date.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ロボット恐竜にチェックインしてもらいました。シンプルで快適な部屋でした。空港、駅、コンビニエンスストアへのアクセスも抜群です。",
       "translated_bad": "カーペットは使用期限を過ぎているようだ。",
       "reviewer": "Joshua"
     },
@@ -3240,7 +4048,7 @@
       "good": "部屋が思ったより広かったこと。スーパーマーケットやお店に近かったこと。空港までの送迎サービスがあるところ。チェックインチェックアウトがかんたんなところ",
       "bad": "別にないです",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が思ったより広かったこと。スーパーマーケットやお店に近かったこと。空港までの送迎サービスがあるところ。チェックインチェックアウトがかんたんなところ",
       "translated_bad": "別にないです",
       "reviewer": "ミーくん"
     },
@@ -3318,7 +4126,7 @@
       "good": "清潔なお部屋でした",
       "bad": "チェックインカウンターに居るのは、動く人形のお姉さんと恐竜でした。気持ち悪かったです。こういうの面白がる人もいるのでしょうけれど、私は無理です。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔なお部屋でした",
       "translated_bad": "チェックインカウンターに居るのは、動く人形のお姉さんと恐竜でした。気持ち悪かったです。こういうの面白がる人もいるのでしょうけれど、私は無理です。",
       "reviewer": "Yuumi"
     },
@@ -3370,9 +4178,35 @@
       "good": "It has its own character and although the main attraction are the animatronics, I was relieved to have the assistance of on duty staff for support.",
       "bad": "Nothing",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "そこには独自の個性があり、主な見どころはアニマトロニクスだが、常駐スタッフのサポートを受けられたのはありがたかった。",
       "translated_bad": "何もない",
       "reviewer": "Lim"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-15",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Tarakona"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-15",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ezequiel"
     },
     {
       "site": "Google",
@@ -3409,7 +4243,7 @@
       "good": "El desayuno fue variado, muy cercano al transporte al aeropuerto, habitaciones limpias , tienen servicio gratuito a haneda airport desde el hotel. Entregan pijamas y accesorios de utilidad en los baños.",
       "bad": "Falta mas personal en conserjería literalmente te atienden unos robot dinosaurios, que con tecnología te van guiando, sin embargo no es lo mejor si te gusta que te atiendan y te guíen en todo el proceso.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食の種類が豊富で、ホテルは空港交通機関に非常に近く、部屋は清潔で、羽田空港への無料シャトルサービスを提供しています。バスルームにはパジャマとアメニティが用意されています。",
       "translated_bad": "コンシェルジュデスクのスタッフは不足しており、文字通りテクノロジーを駆使した恐竜型ロボットが対応してくれるのですが、最初から最後まで丁寧に案内してもらいたい人には最適とは言えません。",
       "reviewer": "Ricardo"
     },
@@ -3487,7 +4321,7 @@
       "good": "接駁車的司機很準時而且很有禮貌，已經是紅眼班機了依然可以搭到深夜的接駁車到飯店很棒。  雖然是無人櫃台，但是有問題還是可以找到值班人員。  備品都在櫃檯旁邊很棒，離機場很近，適合晚上休息一晚的好地方。  未來有需求還會優先的選擇它。",
       "bad": "房間太乾燥了，希望冬季可以提供一台加濕器，這樣可以降低房間內靜電的產生。  其餘沒有什麼缺點，都很棒。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "シャトルバスの運転手は時間厳守でとても丁寧でした。深夜便だったにもかかわらず、ホテルまでシャトルバスを利用できたのは本当に助かりました。カウンターは無人でしたが、何か問題があればスタッフにすぐに連絡できました。アメニティはカウンターのすぐ隣にあり、とても便利でした。空港からも非常に近いので、一泊するには最適な場所です。また宿泊が必要になったら、間違いなくこのホテルを選びます。",
       "translated_bad": "部屋が乾燥しすぎているので、冬場の静電気対策として加湿器を用意していただけると嬉しいです。それ以外は申し分なく、素晴らしい部屋です。",
       "reviewer": "Shang"
     },
@@ -3539,7 +4373,7 @@
       "good": "Very handly, you can secure your laguage before the checking. Next to the airport, with a shuttle bus (I advise you to wake up earlier than the others to be sure to have a sit). Clean and efficient !",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "とても便利で、チェックイン前に荷物を預けることができます。空港のすぐそばで、シャトルバスも出ています（席を確保するには、他の人より早く起きることをお勧めします）。清潔で効率的です！",
       "translated_bad": "",
       "reviewer": "Ewen"
     },
@@ -3610,6 +4444,32 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-12",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ryan"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-12",
+      "comment": "",
+      "good": "安い。 ロケーションの良さ。",
+      "bad": "？",
+      "translated": "",
+      "translated_good": "安い。 ロケーションの良さ。",
+      "translated_bad": "？",
+      "reviewer": "イチノセ"
+    },
+    {
+      "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
       "date": "2026-02-12",
@@ -3617,7 +4477,7 @@
       "good": "Proximité des commerce et les shuttle bus",
       "bad": "Plus de choix de langue sur la borne mais le personnel ma beaucoup aidé",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "商店街やシャトルバス乗り場に近い",
       "translated_bad": "キオスク端末にはもっと多くの言語オプションがありましたが、スタッフの方々はとても親切でした。",
       "reviewer": "Hugo"
     },
@@ -3630,7 +4490,7 @@
       "good": "自販機でホットアイマスクや足の疲れをとることができる商品などが揃っていて良かったです。",
       "bad": "ないです",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "自販機でホットアイマスクや足の疲れをとることができる商品などが揃っていて良かったです。",
       "translated_bad": "ないです",
       "reviewer": "Koyama"
     },
@@ -3695,7 +4555,7 @@
       "good": "静かでした",
       "bad": "空港へのバスが満杯で乗れなかった",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "静かでした",
       "translated_bad": "空港へのバスが満杯で乗れなかった",
       "reviewer": "Sakikawa"
     },
@@ -3747,7 +4607,7 @@
       "good": "立地もよく、食事も美味しかったです。",
       "bad": "掃除が行き届いてませんでした。 表面上は綺麗なんですが、シャンプーやトリートメント、ボディーソープの出口が詰まっていて出にくかったです。 シャワーヘッドも、目詰まりしてました。 歯ブラシで擦って使えるようになりましたし、お湯かけてすぐに、ソープ類の出口の詰まりは解消できました。  ですが逆に言えばそういうすぐに出来ることがちゃんとされていないということですよね。  お値段もそこそこのホテルなのに、残念です。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地もよく、食事も美味しかったです。",
       "translated_bad": "掃除が行き届いてませんでした。 表面上は綺麗なんですが、シャンプーやトリートメント、ボディーソープの出口が詰まっていて出にくかったです。 シャワーヘッドも、目詰まりしてました。 歯ブラシで擦って使えるようになりましたし、お湯かけてすぐに、ソープ類の出口の詰まりは解消できました。  ですが逆に言えばそういうすぐに出来ることがちゃんとされていないということですよね。  お値段もそこそこのホテルなのに、残念です。",
       "reviewer": "Shoko"
     },
@@ -3825,7 +4685,7 @@
       "good": "Location fine. Pretty close and handy to the airport and met all my needs",
       "bad": "The shuttle service from the airport was a joke. It doesn’t show the shuttle doesn’t run until after 7.30pm at night anywhere that I could see on the website. I was forced to put my global roaming on my phone and get a Japanese stranger to ring the hotel for me to be told the shuttle wasn’t running upon my arrival at terminal 3 at Haneda Airport. I was then forced to seek out English speaking people at the train station and get advice on which train to get and where to get off to access your hotel. The shuttle the next morning at 4.45am was over full and I was lucky to get the last seat back to the airport. Very unsatisfactory. I also tried contacting room service for a wake up call with no result.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地は申し分ない。空港にも近くて便利で、私のニーズをすべて満たしてくれた。",
       "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるのかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満員で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
       "reviewer": "Chris"
     },
@@ -3838,9 +4698,35 @@
       "good": "Todo",
       "bad": "que no incluye desayuno",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "すべて",
       "translated_bad": "朝食は含まれていません",
       "reviewer": "Leticia"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-02-10",
+      "comment": "",
+      "good": "La proximité de l aéroport",
+      "bad": "Pourquoi ne pas avoir une personne à l accueil autre que le robot  La navette n'est pas visible de l aéroport c'est très difficile de la prendre alors que c'est bien marqué sur le site faites un affichage plus lisible au terminal",
+      "translated": "",
+      "translated_good": "空港に近い",
+      "translated_bad": "受付にロボット以外の人を配置してみてはどうでしょうか？シャトルバスは空港から見えないため、ウェブサイトには明記されているにもかかわらず、乗り込むのが非常に困難です。ターミナル内の案内表示をもっと分かりやすくしてください。",
+      "reviewer": "Blandine"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-10",
+      "comment": "",
+      "good": "恐竜のフロントスタッフは流石に変なホテルだけあって🤭あっぱれ✨無人なのに楽しい😆 部屋も綺麗で快適でした。それから天気がステイ中雪だったのですがレンタル傘が本当に感謝でした。私は利用しませんでしたがロビーに有料でしたが、衣類等の荷物の圧縮機があって荷物の多くなった方には朝有難いと思います。空港までのシャトルバスも助かりますね〜✨",
+      "bad": "",
+      "translated": "",
+      "translated_good": "恐竜のフロントスタッフは流石に変なホテルだけあって🤭あっぱれ✨無人なのに楽しい😆 部屋も綺麗で快適でした。それから天気がステイ中雪だったのですがレンタル傘が本当に感謝でした。私は利用しませんでしたがロビーに有料でしたが、衣類等の荷物の圧縮機があって荷物の多くなった方には朝有難いと思います。空港までのシャトルバスも助かりますね〜✨",
+      "translated_bad": "",
+      "reviewer": "Kurara"
     },
     {
       "site": "Agoda",
@@ -3854,6 +4740,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Rio"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-02-10",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Nya"
     },
     {
       "site": "Booking.com",
@@ -3896,6 +4795,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-02-09",
+      "comment": "",
+      "good": "dinosaurs were cool, shuttle staff arranged a taxi",
+      "bad": "the airport shuttle was our main reason for booking but immediately upon checking in we were told we couldn’t use it because of our ski bags. we ended up taking the train that afternoon to drop off our bags in order to use the shuttle. we arrived around 10-15 minutes prior to the first shuttle’s departure as there is no reservation system. the shuttle was already full. they did promptly call us a taxi which left before the shuttle but was ¥2400.",
+      "translated": "",
+      "translated_good": "恐竜はかっこよかった。シャトルバスのスタッフがタクシーを手配してくれた。",
+      "translated_bad": "空港シャトルが予約の主な目的だったのですが、チェックイン直後にスキーバッグがあるため利用できないと言われました。結局、シャトルを利用するために、その日の午後に電車で荷物を預けに行きました。予約システムがないため、最初のシャトルの出発時刻の10～15分前に到着しましたが、シャトルはすでに満員でした。すぐにタクシーを呼んでくれましたが、シャトルより先に出発してしまい、料金は2400円でした。",
+      "reviewer": "Alexzandria"
+    },
+    {
+      "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
       "date": "2026-02-09",
@@ -3903,7 +4815,7 @@
       "good": "Loved the bag lock up area in foyer.",
       "bad": "Room was a bit small for two persons with travel luggage. The pillows were aweful, lucky we bought our own.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "玄関ホールの荷物預かり所がとても気に入りました。",
       "translated_bad": "部屋は旅行用荷物を持った2人には少し狭かった。枕はひどかったので、自分たちで持参しておいてよかった。",
       "reviewer": "Mick"
     },
@@ -3929,7 +4841,7 @@
       "good": "スマート感",
       "bad": "ないです",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スマート感",
       "translated_bad": "ないです",
       "reviewer": "Junko"
     },
@@ -3945,6 +4857,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Tung"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-08",
+      "comment": "",
+      "good": "Robots in the lobby. Very close to the train station and the airport. Free shuttle from and to the airport. Secure luggage storage after checkout.",
+      "bad": "The fridge. I was surprised by how shallow the fridge was. Never seen one that could basically hold  just drinks. If you don't store food in the room but dine outside, that's not an issue, but if you do, have that in mind.",
+      "translated": "",
+      "translated_good": "ロビーにロボットがいます。駅と空港に非常に近い場所にあります。空港との無料シャトルバスをご利用いただけます。チェックアウト後も安全な荷物預かりサービスをご利用いただけます。",
+      "translated_bad": "冷蔵庫。冷蔵庫の奥行きの浅さに驚きました。飲み物しか入らないような冷蔵庫は初めて見ました。部屋に食べ物を保管せず、外で食事をするなら問題ありませんが、そうする場合は注意が必要です。",
+      "reviewer": "Piotr"
     },
     {
       "site": "Google",
@@ -3974,6 +4899,32 @@
     },
     {
       "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-07",
+      "comment": "",
+      "good": "Nice spacious enough room. It felt a bit outdated, but completely okay for the price. Location super close to Haneda Airport, about 5 minutes walk + 7 minutes with the Keikyu Line.",
+      "bad": "Nothing really.",
+      "translated": "",
+      "translated_good": "広さも十分で快適な部屋でした。少し古さを感じましたが、値段を考えれば全く問題ありません。羽田空港に非常に近く、徒歩約5分、京急線で約7分です。",
+      "translated_bad": "特に何もないよ。",
+      "reviewer": "Benedikt"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-07",
+      "comment": "",
+      "good": "遊び感満載 とても楽しかった お料理も良かったです。",
+      "bad": "特に無し",
+      "translated": "",
+      "translated_good": "遊び感満載 とても楽しかった お料理も良かったです。",
+      "translated_bad": "特に無し",
+      "reviewer": "Kyoko"
+    },
+    {
+      "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-07",
@@ -3981,9 +4932,22 @@
       "good": "Localização, café da manhã",
       "bad": "Nada em especial",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地、朝食",
       "translated_bad": "特に何もない。",
       "reviewer": "Katia"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-07",
+      "comment": "",
+      "good": "Very clean, very good location",
+      "bad": "The bed is too hard and the pillow is too small",
+      "translated": "",
+      "translated_good": "とても清潔で、立地も非常に良いです。",
+      "translated_bad": "ベッドが硬すぎるし、枕が小さすぎる",
+      "reviewer": "Kah"
     },
     {
       "site": "Booking.com",
@@ -3994,9 +4958,22 @@
       "good": "お風呂とトイレが別",
       "bad": "台の後ろの隙間に物が落ちてしまい取ろうとしたが台が動かせなかった。台を固定するなら隙間を無くして欲しい。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "お風呂とトイレが別",
       "translated_bad": "台の後ろの隙間に物が落ちてしまい取ろうとしたが台が動かせなかった。台を固定するなら隙間を無くして欲しい。",
       "reviewer": "Shinji"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-07",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Lim"
     },
     {
       "site": "Google",
@@ -4020,7 +4997,7 @@
       "good": "部屋が綺麗で全体に良かった。 加湿器の要望にも直ぐ対応してくれた。",
       "bad": "受付のにリアルな恐竜はそれぞれの好みによる。流行りだから受け狙いかと。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が綺麗で全体に良かった。 加湿器の要望にも直ぐ対応してくれた。",
       "translated_bad": "受付のにリアルな恐竜はそれぞれの好みによる。流行りだから受け狙いかと。",
       "reviewer": "SASAKI"
     },
@@ -4085,7 +5062,7 @@
       "good": "部屋が綺麗で全体に良かった。 加湿器の要望にも直ぐ対応してくれた。",
       "bad": "受付のにリアルな恐竜はそれぞれの好みによる。流行りだから受け狙いかと。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が綺麗で全体に良かった。 加湿器の要望にも直ぐ対応してくれた。",
       "translated_bad": "受付のにリアルな恐竜はそれぞれの好みによる。流行りだから受け狙いかと。",
       "reviewer": "Sasaki"
     },
@@ -4137,7 +5114,7 @@
       "good": "Personale super cortese e disponibile  struttura ottima per trascorrere i giorni a tokyo, vicino la fermata del treno e a molti negozietti supermercato e ristoranti. Al suo interno anche se piccolo l'appartamento disponeva di tutto il necessario ler lanpermanenze lavatrice inclusa",
       "bad": "Il basso voktaggio della corrente, che rendeva inutilizzabili le nostre piastra e phono",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフは非常に親切で協力的でした。この宿泊施設は東京での数日間の滞在に最適で、駅や多くのショップ、スーパーマーケット、レストランにも近かったです。アパートは小さめでしたが、洗濯機を含め、快適な滞在に必要なものはすべて揃っていました。",
       "translated_bad": "電流定格が低かったため、録音機や蓄音機は使用できませんでした。",
       "reviewer": "Chiariello"
     },
@@ -4192,6 +5169,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Adeel"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-04",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "玉萱"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-04",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Fredrik"
     },
     {
       "site": "Trip.com",
@@ -4319,9 +5322,22 @@
       "good": "Close to airport, free shuttle to airport Great Supermarket around corner",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港に近く、空港への無料シャトルバスあり。すぐ近くに大型スーパーマーケットあり。",
       "translated_bad": "",
       "reviewer": "Belinda"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hitoshi"
     },
     {
       "site": "じゃらん",
@@ -4410,7 +5426,7 @@
       "good": "kids love the dinosours.",
       "bad": "small room space",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "子供たちは恐竜が大好きです。",
       "translated_bad": "狭い部屋スペース",
       "reviewer": "Emmalyn"
     },
@@ -4429,6 +5445,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-02",
+      "comment": "",
+      "good": "Hotel-Flughafen Bus Shuttle Service hat sehr gut funktioniert.",
+      "bad": "Es gibt nur wenige Check-In Geräte. Da viele Leute sind mit dem Shuttle-Bus auf einmal angekommen sind, mussten einige Gäste lange warten, bis sie eincheken konnten.",
+      "translated": "",
+      "translated_good": "ホテルと空港を結ぶシャトルバスサービスは非常に便利だった。",
+      "translated_bad": "チェックイン機は数台しかありませんでした。シャトルバスで一度に多くの人が到着したため、チェックインするまでに長時間待たなければならない宿泊客もいました。",
+      "reviewer": "Mai"
+    },
+    {
+      "site": "Booking.com",
       "rating": 6.0,
       "rating_10pt": 6.0,
       "date": "2026-02-02",
@@ -4439,6 +5468,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Mayuu"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-02",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Selin"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-02",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kae"
     },
     {
       "site": "Agoda",
@@ -4501,9 +5556,62 @@
       "good": "Het inchecken verliep zonder personeel. Had persoonlijker gekund. Prima overnachting op kwartier van vliegveld. Geen gebruik gemaakt van hoteltaxi.. Uber naar hotel was 12 euro.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "チェックインは無人だった。もう少し丁寧な対応があれば良かった。空港から徒歩15分で、快適な一泊滞在だった。ホテルのタクシーは利用しなかった。ホテルまでのUber料金は12ユーロだった。",
       "translated_bad": "",
       "reviewer": "Dianca"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-01",
+      "comment": "",
+      "good": "Le tarif raisonnable,  l équipement Dew chambres",
+      "bad": "Un accueil sans personnel est un peu  déroutant ( une machine vous donne les clefs de votre chambre ) et la présence de dinosaures et mannequin edt vraiment spéciale.",
+      "translated": "",
+      "translated_good": "リーズナブルな価格、露室設備",
+      "translated_bad": "無人受付は少し戸惑うかもしれない（部屋の鍵は機械から渡される）が、恐竜やマネキンが飾られているのは本当にユニークだ。",
+      "reviewer": "Beatrice"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-01",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "悦久"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-01",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Wellington"
     }
+  ],
+  "positives": [
+    "恐竜がチェックインの手続きをしてくれます。部屋は小さいですが、必要なものはすべて揃っています。快適なベッド、ベッドサイドの照明、十分な広さのバスルーム、室温調節機能などが備わっています。",
+    "立地は最高でしたし、空港からホテルまでの送迎サービスも大変便利でした！",
+    "恐竜がチェックインの手続きをしてくれます。部屋は小さいですが、必要なものはすべて揃っています。快適なベッド、ベッドサイドの照明、十分な広さのバスルーム、室温調節機能などが備わっています。",
+    "綺麗広かった。朝食がバラエティーで美味しかった。",
+    "羽田空港との無料シャトルバスを提供 清潔で静か"
+  ],
+  "negatives": [
+    "設備が素晴らしく、サービスも最高で、空港にもとても近い。",
+    "設備が素晴らしく、サービスも最高で、空港にもとても近い。",
+    "お手頃価格",
+    "空港に隣接する場所",
+    "2026/3/2宿泊 朝7時、1時間に1本のシャトルバスの出発時間数分前に行ったら既に満車。 子供2人がおり、小雨が降っていたため駅まで7分歩く気にもなれず、タクシーを選択したら、3,000円もかかってしまった。千円くらいで行けると思いきや、京急線なら数分の駅だが、車だと空港まで大回りするのも知らなかった、、、。  わざわざシャトルバス目当てに羽田空港近くに宿泊したのに、思わぬ出費で行きからがかっかりしました。朝は増便した方が顧客の満足度が上がるかと。以前のように京急EXにしておけばよかった。"
   ]
 }

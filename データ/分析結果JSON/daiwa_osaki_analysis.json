@@ -1,31 +1,15 @@
 {
-  "total_reviews": 60,
-  "overall_avg_10pt": 8.87,
-  "high_count": 49,
-  "high_rate": 81.7,
-  "mid_count": 11,
-  "mid_rate": 18.3,
+  "hotel_name": "ダイワロイネットホテル東京大崎",
+  "hotel_key": "daiwa_osaki",
+  "total_reviews": 64,
+  "overall_avg_10pt": 8.78,
+  "high_count": 51,
+  "high_rate": 79.7,
+  "mid_count": 13,
+  "mid_rate": 20.3,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
-    {
-      "site": "Trip.com",
-      "count": 12,
-      "native_avg": 9.67,
-      "scale": "/10",
-      "avg_10pt": 9.67,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Agoda",
-      "count": 5,
-      "native_avg": 9.0,
-      "scale": "/10",
-      "avg_10pt": 9.0,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
     {
       "site": "Booking.com",
       "count": 26,
@@ -33,16 +17,34 @@
       "scale": "/10",
       "avg_10pt": 8.96,
       "median_10pt": 9.0,
-      "judgment": "良好"
+      "judgment": "非常に良好"
     },
     {
-      "site": "楽天トラベル",
-      "count": 3,
-      "native_avg": 4.33,
+      "site": "Trip.com",
+      "count": 12,
+      "native_avg": 9.67,
+      "scale": "/10",
+      "avg_10pt": 9.67,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
+    },
+    {
+      "site": "じゃらん",
+      "count": 10,
+      "native_avg": 3.8,
       "scale": "/5",
-      "avg_10pt": 8.67,
-      "median_10pt": 8.0,
-      "judgment": "良好"
+      "avg_10pt": 7.6,
+      "median_10pt": 7.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Agoda",
+      "count": 6,
+      "native_avg": 9.17,
+      "scale": "/10",
+      "avg_10pt": 9.17,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
     },
     {
       "site": "Google",
@@ -51,43 +53,43 @@
       "scale": "/5",
       "avg_10pt": 8.0,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "概ね良好"
     },
     {
-      "site": "じゃらん",
-      "count": 8,
-      "native_avg": 4.0,
+      "site": "楽天トラベル",
+      "count": 4,
+      "native_avg": 4.25,
       "scale": "/5",
-      "avg_10pt": 8.0,
+      "avg_10pt": 8.5,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "非常に良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 30,
-      "pct": "50.0%"
+      "count": 31,
+      "pct": "48.4%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "13.3%"
+      "pct": "12.5%"
     },
     {
       "score": 8,
-      "count": 11,
-      "pct": "18.3%"
+      "count": 12,
+      "pct": "18.8%"
     },
     {
       "score": 7,
       "count": 6,
-      "pct": "10.0%"
+      "pct": "9.4%"
     },
     {
       "score": 6,
-      "count": 5,
-      "pct": "8.3%"
+      "count": 7,
+      "pct": "10.9%"
     }
   ],
   "comments": [
@@ -126,7 +128,7 @@
       "good": "Good location with the train station is just 3 minutes of walk from level 2 of the hotel. 5 minutes walk to convenient store Family mart.",
       "bad": "Unfortunately, the mattress in my room was sinking and not comfortable at all. As a result, I experienced significant back soreness throughout my stay for the 6 nights. Given the length of my visit, this greatly affected my overall comfort and rest.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ホテル2階から駅まで徒歩わずか3分という好立地。コンビニエンスストアのファミリーマートまでは徒歩5分です。",
       "translated_bad": "残念ながら、私の部屋のマットレスは沈み込んでいて、全く快適ではありませんでした。そのため、6泊の滞在中ずっとひどい腰痛に悩まされました。滞在期間が長かったこともあり、これは私の快適さと休息に大きな影響を与えました。",
       "reviewer": "Seow"
     },
@@ -139,7 +141,7 @@
       "good": "駅が近くて駐車場も隣にあり良かった",
       "bad": "ございません",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅が近くて駐車場も隣にあり良かった",
       "translated_bad": "ございません",
       "reviewer": "Takashi"
     },
@@ -191,7 +193,7 @@
       "good": "Location, comfort, amenities",
       "bad": "None",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地、快適さ、設備",
       "translated_bad": "なし",
       "reviewer": "Chae"
     },
@@ -230,7 +232,7 @@
       "good": "清潔でした。",
       "bad": "特にないです。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔でした。",
       "translated_bad": "特にないです。",
       "reviewer": "Narukawa"
     },
@@ -386,7 +388,7 @@
       "good": "備品的種類很多，從面膜、蒸氣眼罩到消除疲勞的貼布都有，衛浴本身已有附沐浴劑以外，在大廳還可以挑選自己喜歡的。房間有腳底按摩機與電捲棒，設備很齊全。大崎JR出站後可以直接走2F聯絡橋到4F接待大廳，位置很方便。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "アメニティは豊富で、フェイスマスクやスチームアイマスクから疲労回復パッチまで揃っています。バスルームにはシャワージェルが備え付けられているほか、ロビーでお好みのバスアメニティを選ぶこともできます。客室にはフットマッサージャーやヘアアイロンも完備。立地も便利で、JR大崎駅を出て2階の連絡橋から4階の受付ホールまで歩いてすぐです。",
       "translated_bad": "",
       "reviewer": "Yo3"
     },
@@ -402,6 +404,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "生恵1223"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-05",
+      "comment": "大崎から雨に濡れずに着けるのでとても便利でした。部屋も綺麗に掃除されていました。",
+      "good": "",
+      "bad": "",
+      "translated": "大崎から雨に濡れずに着けるのでとても便利でした。部屋も綺麗に掃除されていました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "生恵1223"
+    },
+    {
+      "site": "Agoda",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-03",
+      "comment": "系列のホテルはどこも綺麗でどこのホテルも安心して使える。",
+      "good": "",
+      "bad": "",
+      "translated": "系列のホテルはどこも綺麗でどこのホテルも安心して使える。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Miyu"
     },
     {
       "site": "Agoda",
@@ -438,7 +466,7 @@
       "good": "Amazing value for money!",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "驚くほどお得です！",
       "translated_bad": "",
       "reviewer": "Renata"
     },
@@ -451,7 +479,7 @@
       "good": "東京での行動が今までよりもスムーズにとれた。",
       "bad": "ホテルの入口が分かりづらかった",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "東京での行動が今までよりもスムーズにとれた。",
       "translated_bad": "ホテルの入口が分かりづらかった",
       "reviewer": "Eiichi"
     },
@@ -467,6 +495,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "薇斗さん"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-02",
+      "comment": "部屋も問題なく利用できました  できるなら朝食でコーヒーテイクアウトしたかったです  また初めての方は迷うかなって立地でした",
+      "good": "",
+      "bad": "",
+      "translated": "部屋も問題なく利用できました  できるなら朝食でコーヒーテイクアウトしたかったです  また初めての方は迷うかなって立地でした",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
     },
     {
       "site": "Trip.com",
@@ -516,7 +557,7 @@
       "good": "Location, helpful staff and clean property",
       "bad": "Na",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地、親切なスタッフ、清潔な施設",
       "translated_bad": "それ",
       "reviewer": "Charmion"
     },
@@ -607,7 +648,7 @@
       "good": "近车站，早餐不错",
       "bad": "房间有点小。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅の近くで、朝食も美味しい。",
       "translated_bad": "部屋は少し狭い。",
       "reviewer": "Kang"
     },
@@ -698,7 +739,7 @@
       "good": "Clean and great location!",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で立地も最高！",
       "translated_bad": "",
       "reviewer": "Shawn"
     },
@@ -714,6 +755,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "薇斗さん"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-02-12",
+      "comment": "まずアクセスが分かりにくい  あと広いベットで寝たかったのにアップグレードしてくださり部屋は広くなったがベットは狭くなった  その時の気分もあるし スタッフが悪いわけじゃないけど  少しがっかりしました",
+      "good": "",
+      "bad": "",
+      "translated": "まずアクセスが分かりにくい  あと広いベットで寝たかったのにアップグレードしてくださり部屋は広くなったがベットは狭くなった  その時の気分もあるし スタッフが悪いわけじゃないけど  少しがっかりしました",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
     },
     {
       "site": "楽天トラベル",
@@ -802,7 +856,7 @@
       "good": "アクセスは良好。近くにコンビニやレストランも多い。",
       "bad": "部屋が少し狭かった。大きいスーツケースを広げると足の踏み場がない感じ。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "アクセスは良好。近くにコンビニやレストランも多い。",
       "translated_bad": "部屋が少し狭かった。大きいスーツケースを広げると足の踏み場がない感じ。",
       "reviewer": "Hiroshi"
     },
@@ -815,7 +869,7 @@
       "good": "The room was very clean and the location quite close to the nearest station. The staff were very friendly and helpful.",
       "bad": "No fault of the hotel itself but the location is quite \"residential\". Not a lot of options for restaurants and shops nearby.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋はとても清潔で、最寄りの駅からもかなり近かった。スタッフの方々もとても親切で助かりました。",
       "translated_bad": "ホテル自体に問題があるわけではないのですが、立地がかなり住宅街です。近くにレストランやお店はあまりありません。",
       "reviewer": "Ian"
     },
@@ -828,7 +882,7 @@
       "good": "アクセスは良好。近くにコンビニやレストランも多い。",
       "bad": "部屋が少し狭かった。大きいスーツケースを広げると足の踏み場がない感じ。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "アクセスは良好。近くにコンビニやレストランも多い。",
       "translated_bad": "部屋が少し狭かった。大きいスーツケースを広げると足の踏み場がない感じ。",
       "reviewer": "Hiroshi"
     },
@@ -867,9 +921,17 @@
       "good": "綺麗。ロケーションサイコー",
       "bad": "電話で大浴場があると聞いたので、予約したのですが、日本人でないスタッフでしたので、チェックインしたら、となりのスポーツセンターの大浴場みたいで、結局入れず、そこは憤りました",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "綺麗。ロケーションサイコー",
       "translated_bad": "電話で大浴場があると聞いたので、予約したのですが、日本人でないスタッフでしたので、チェックインしたら、となりのスポーツセンターの大浴場みたいで、結局入れず、そこは憤りました",
       "reviewer": "Fukuda"
     }
-  ]
+  ],
+  "positives": [
+    "とても清潔",
+    "駅が近くて駐車場も隣にあり良かった",
+    "立地、快適さ、設備",
+    "清潔感のある過ごしやすい環境を提供しているホテルでした。 大崎駅直ぐという立地やアクセスしやすいのが便利です。",
+    "このホテル、すごく気に入りました！値段も手頃だし、立地も便利。絶対にまた泊まりたいです！"
+  ],
+  "negatives": []
 }

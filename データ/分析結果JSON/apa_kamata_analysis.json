@@ -1,21 +1,41 @@
 {
-  "total_reviews": 58,
-  "overall_avg_10pt": 7.34,
+  "hotel_name": "アパホテル蒲田駅東",
+  "hotel_key": "apa_kamata",
+  "total_reviews": 59,
+  "overall_avg_10pt": 7.32,
   "high_count": 36,
-  "high_rate": 62.1,
-  "mid_count": 16,
-  "mid_rate": 27.6,
+  "high_rate": 61.0,
+  "mid_count": 17,
+  "mid_rate": 28.8,
   "low_count": 6,
-  "low_rate": 10.3,
+  "low_rate": 10.2,
   "site_stats": [
     {
       "site": "Google",
-      "count": 17,
-      "native_avg": 3.94,
+      "count": 18,
+      "native_avg": 3.89,
       "scale": "/5",
-      "avg_10pt": 7.88,
+      "avg_10pt": 7.78,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 17,
+      "native_avg": 7.47,
+      "scale": "/10",
+      "avg_10pt": 7.47,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "Agoda",
+      "count": 16,
+      "native_avg": 6.69,
+      "scale": "/10",
+      "avg_10pt": 6.69,
+      "median_10pt": 7.0,
+      "judgment": "要改善"
     },
     {
       "site": "じゃらん",
@@ -27,30 +47,12 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "Booking.com",
-      "count": 17,
-      "native_avg": 7.47,
-      "scale": "/10",
-      "avg_10pt": 7.47,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "楽天トラベル",
       "count": 4,
       "native_avg": 3.5,
       "scale": "/5",
       "avg_10pt": 7.0,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
-      "site": "Agoda",
-      "count": 16,
-      "native_avg": 6.69,
-      "scale": "/10",
-      "avg_10pt": 6.69,
-      "median_10pt": 7.0,
       "judgment": "要改善"
     }
   ],
@@ -58,37 +60,37 @@
     {
       "score": 10,
       "count": 8,
-      "pct": "13.8%"
+      "pct": "13.6%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "5.2%"
+      "pct": "5.1%"
     },
     {
       "score": 8,
       "count": 25,
-      "pct": "43.1%"
+      "pct": "42.4%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "8.6%"
+      "pct": "8.5%"
     },
     {
       "score": 6,
-      "count": 8,
-      "pct": "13.8%"
+      "count": 9,
+      "pct": "15.3%"
     },
     {
       "score": 5,
       "count": 3,
-      "pct": "5.2%"
+      "pct": "5.1%"
     },
     {
       "score": 4,
       "count": 4,
-      "pct": "6.9%"
+      "pct": "6.8%"
     },
     {
       "score": 3,
@@ -124,7 +126,7 @@
       "good": "The location was great, located right halfway between JR Kamata and Keikyu-Kamata Stations. Coming from Keikyu-Kamata there was a shoutengai giving partial cover for half the distance as well, and escalators to faciliate heavy luggage. The room itself was decent -- small, but standard for APA hotels, small bathrooms that nonetheless had every amenity I needed. Fridge was provided, microwave was not, but there's a shared microwave down in the lobby. The staff was friendly and could speak enough English that communication was not a problem. They also held my luggage for me, with number tag to ensure no one else could \"mistakenly\" take them, on both my checkin and checkout days. And even if they do not clean your room on a certain day, they will provide a new set of towels and toiletries for you.",
       "bad": "The bed is decent but the pillows were thin and terrible. I didn't try the buffet breakfast as $12-$16 CAD extra per day pushed it into Not Worth It territory, considering there are supermarkets and convenience stores nearby. The front lobby is exceptionally cramped, though that's not really something you can fix.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地は最高で、JR蒲田駅と京急蒲田駅のちょうど中間地点に位置していました。京急蒲田駅からは、途中まで屋根付きの商店街があり、大きな荷物を運ぶのに便利なエスカレーターもありました。部屋自体はまあまあで、狭いながらもAPAホテルとしては標準的で、バスルームも小さかったものの必要なアメニティはすべて揃っていました。冷蔵庫はありましたが、電子レンジはありませんでした。ただし、ロビーに共用の電子レンジがあります。スタッフはフレンドリーで、英語も十分に話せたので、コミュニケーションに問題はありませんでした。チェックインとチェックアウトの両日、荷物を番号タグ付きで預かってくれ、他の人が「間違って」持ち去ってしまうのを防いでくれました。また、特定の日に部屋の清掃が行われなかった場合でも、新しいタオルとアメニティを用意してくれました。",
       "translated_bad": "ベッドはまあまあでしたが、枕は薄くてひどかったです。ビュッフェ式の朝食は1日あたり12～16カナダドルも追加料金がかかるので、近くにスーパーやコンビニがあることを考えると割に合わないと思い、利用しませんでした。フロントロビーは非常に狭かったですが、これはどうしようもない点です。",
       "reviewer": "Jessica"
     },
@@ -137,7 +139,7 @@
       "good": "Nærme togstasjonen.",
       "bad": "Var skitten og støvete, det låg også igjen ting frå tidligare besøk.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅に近い。",
       "translated_bad": "そこは汚くて埃っぽく、以前の訪問時の残骸も散乱していた。",
       "reviewer": "Martine"
     },
@@ -215,7 +217,7 @@
       "good": "清潔",
       "bad": "なし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "クリーン",
       "translated_bad": "なし",
       "reviewer": "Koji"
     },
@@ -267,7 +269,7 @@
       "good": "駅近で周りにスーパー、コンビニがあるところ。 道路沿いだったけど防音がしっかりされていて外の音は聞こえない。 ホテル自体は綺麗であった。",
       "bad": "フロントの愛想がない。ビジネスホテルだからしょうがないのか。。。 冷蔵庫にグラスがあり、使ったような水跡があったためフロントに持って行って冷蔵庫に入っていたと伝えたら。 「は？何言ってるの？」みたいな顔をされ、未使用だからお使い頂けますと。。。 初めてです。未使用のグラスが冷蔵庫に入っていて使えと言われたホテルは。  壁が薄いので隣の声やいびきが良く聞こえる。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅近で周りにスーパー、コンビニがあるところ。 道路沿いだったけど防音がしっかりされていて外の音は聞こえない。 ホテル自体は綺麗であった。",
       "translated_bad": "フロントの愛想がない。ビジネスホテルだからしょうがないのか。。。 冷蔵庫にグラスがあり、使ったような水跡があったためフロントに持って行って冷蔵庫に入っていたと伝えたら。 「は？何言ってるの？」みたいな顔をされ、未使用だからお使い頂けますと。。。 初めてです。未使用のグラスが冷蔵庫に入っていて使えと言われたホテルは。  壁が薄いので隣の声やいびきが良く聞こえる。",
       "reviewer": "Chikako"
     },
@@ -389,6 +391,19 @@
       "reviewer": "出口加奈子"
     },
     {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "出口加奈子"
+    },
+    {
       "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -397,7 +412,7 @@
       "good": "Well maintained and very supportive stafff",
       "bad": "There is nothing to dislike",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "手入れが行き届いており、スタッフもとても親切です。",
       "translated_bad": "嫌いなところは何もない",
       "reviewer": "Shail"
     },
@@ -488,7 +503,7 @@
       "good": "The location last minute from the airport",
       "bad": "No parking",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港から直前の場所",
       "translated_bad": "駐車禁止",
       "reviewer": "Kevin"
     },
@@ -540,7 +555,7 @@
       "good": "全体的なサービスは良かったです。",
       "bad": "禁煙の部屋を予約しましたが、かなり強いタバコの匂いがしました。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "全体的なサービスは良かったです。",
       "translated_bad": "禁煙の部屋を予約しましたが、かなり強いタバコの匂いがしました。",
       "reviewer": "Naoto"
     },
@@ -856,5 +871,19 @@
       "translated_bad": "",
       "reviewer": "三村義子"
     }
+  ],
+  "positives": [
+    "立地は最高で、JR蒲田駅と京急蒲田駅のちょうど中間地点に位置していました。京急蒲田駅からは、途中まで屋根付きの商店街があり、大きな荷物を運ぶのに便利なエスカレーターもありました。部屋自体はまあまあで、狭いながらもAPAホテルとしては標準的で、バスルームも小さかったものの必要なアメニティはすべて揃っていました。冷蔵庫はありましたが、電子レンジはありませんでした。ただし、ロビーに共用の電子レンジがあります。スタッフはフレンドリーで、英語も十分に話せたので、コミュニケーションに問題はありませんでした。チェックインとチェックアウトの両日、荷物を番号タグ付きで預かってくれ、他の人が「間違って」持ち去ってしまうのを防いでくれました。また、特定の日に部屋の清掃が行われなかった場合でも、新しいタオルとアメニティを用意してくれました。",
+    "クリーン",
+    "駅からすぐの場所にあり、電車移動も便利 ホテルには駐車場が3台分有りますが予約はできません。 でもすぐ近所に有るホールの地下駐車場が格安なので車で来られる方にもお勧めです。",
+    "少しだけわかりにくいけど１回覚えたら問題ない。",
+    "ビジネスホテルとして完成されてるのが解ります。"
+  ],
+  "negatives": [
+    "他のアバよりも狭い 駅からは遠いが、その分比較的安い 羽田空港の乗り継ぎに利用するなら十分か",
+    "駅に近い。",
+    "このホテルには化粧水も乳液もアフターシェーブローションもありません。 急な宿泊だったので、自分のは持って行けなかったのですが、今までのホテルは大概あったので、油断しました。",
+    "駅近で周りにスーパー、コンビニがあるところ。 道路沿いだったけど防音がしっかりされていて外の音は聞こえない。 ホテル自体は綺麗であった。",
+    "全体的なサービスは良かったです。"
   ]
 }

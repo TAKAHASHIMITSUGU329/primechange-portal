@@ -1,48 +1,41 @@
 {
-  "total_reviews": 64,
-  "overall_avg_10pt": 8.17,
-  "high_count": 45,
-  "high_rate": 70.3,
-  "mid_count": 18,
-  "mid_rate": 28.1,
+  "hotel_name": "アパホテル相模原橋本駅東",
+  "hotel_key": "apa_sagamihara",
+  "total_reviews": 69,
+  "overall_avg_10pt": 8.13,
+  "high_count": 48,
+  "high_rate": 69.6,
+  "mid_count": 20,
+  "mid_rate": 29.0,
   "low_count": 1,
-  "low_rate": 1.6,
+  "low_rate": 1.4,
   "site_stats": [
     {
-      "site": "じゃらん",
-      "count": 11,
-      "native_avg": 4.45,
-      "scale": "/5",
-      "avg_10pt": 8.91,
-      "median_10pt": 10.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 6,
-      "native_avg": 4.33,
-      "scale": "/5",
-      "avg_10pt": 8.67,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Trip.com",
-      "count": 3,
-      "native_avg": 8.67,
-      "scale": "/10",
-      "avg_10pt": 8.67,
-      "median_10pt": 10.0,
-      "judgment": "良好"
-    },
-    {
       "site": "Booking.com",
-      "count": 22,
+      "count": 25,
       "native_avg": 8.0,
       "scale": "/10",
       "avg_10pt": 8.0,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 15,
+      "native_avg": 3.8,
+      "scale": "/5",
+      "avg_10pt": 7.6,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "じゃらん",
+      "count": 11,
+      "native_avg": 4.46,
+      "scale": "/5",
+      "avg_10pt": 8.91,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
     },
     {
       "site": "Agoda",
@@ -54,50 +47,59 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "楽天トラベル",
-      "count": 14,
-      "native_avg": 3.86,
+      "site": "Google",
+      "count": 7,
+      "native_avg": 4.29,
       "scale": "/5",
-      "avg_10pt": 7.71,
+      "avg_10pt": 8.57,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
+      "judgment": "非常に良好"
+    },
+    {
+      "site": "Trip.com",
+      "count": 3,
+      "native_avg": 8.67,
+      "scale": "/10",
+      "avg_10pt": 8.67,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 20,
-      "pct": "31.2%"
+      "count": 21,
+      "pct": "30.4%"
     },
     {
       "score": 9,
       "count": 5,
-      "pct": "7.8%"
+      "pct": "7.2%"
     },
     {
       "score": 8,
-      "count": 20,
-      "pct": "31.2%"
+      "count": 22,
+      "pct": "31.9%"
     },
     {
       "score": 7,
       "count": 8,
-      "pct": "12.5%"
+      "pct": "11.6%"
     },
     {
       "score": 6,
-      "count": 8,
-      "pct": "12.5%"
+      "count": 10,
+      "pct": "14.5%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.1%"
+      "pct": "2.9%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.6%"
+      "pct": "1.4%"
     }
   ],
   "comments": [
@@ -123,7 +125,7 @@
       "good": "フロントの方々の対応がとても丁寧でした。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "フロントの方々の対応がとても丁寧でした。",
       "translated_bad": "",
       "reviewer": "Konno"
     },
@@ -227,9 +229,22 @@
       "good": "친절",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "優しい",
       "translated_bad": "",
       "reviewer": "김"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-16",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Midori"
     },
     {
       "site": "楽天トラベル",
@@ -279,7 +294,7 @@
       "good": "従業員の方々がよかった。",
       "bad": "お風呂の入れ替えは、じかんがよていつかなかったので、はいらなかったものがいた、よかった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "従業員の方々がよかった。",
       "translated_bad": "お風呂の入れ替えは、じかんがよていつかなかったので、はいらなかったものがいた、よかった。",
       "reviewer": "Fumiko"
     },
@@ -427,6 +442,32 @@
       "reviewer": "こはるーむ"
     },
     {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-04",
+      "comment": "エレベーターが一つしかないのが不便だった",
+      "good": "",
+      "bad": "",
+      "translated": "エレベーターが一つしかないのが不便だった",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "yykk0051188"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-04",
+      "comment": "最寄りの橋本駅から歩いて5分強と、駅チカで利用しやすかったです。  リブランドオープンし、客室はキレイで清潔感がありました。  テレビはWi-Fiの設定やチェックアウトの時間など、利用するに当たって必要な情報がまとめてられ、使いやすかったです。 特にキャスト機能が使いやすく、スマホでYouTubeなどの画面をテレビに映すことができました。  Wi-Fi速度は上り下りともに120Mbps前後でした。客室ごとに分けてあったので、安心です。  楽天モバイルの電波は弱かったですが、客室内ではWi-Fiが使えたので、問題なかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "最寄りの橋本駅から歩いて5分強と、駅チカで利用しやすかったです。  リブランドオープンし、客室はキレイで清潔感がありました。  テレビはWi-Fiの設定やチェックアウトの時間など、利用するに当たって必要な情報がまとめてられ、使いやすかったです。 特にキャスト機能が使いやすく、スマホでYouTubeなどの画面をテレビに映すことができました。  Wi-Fi速度は上り下りともに120Mbps前後でした。客室ごとに分けてあったので、安心です。  楽天モバイルの電波は弱かったですが、客室内ではWi-Fiが使えたので、問題なかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "こはるーむ"
+    },
+    {
       "site": "Booking.com",
       "rating": 6.0,
       "rating_10pt": 6.0,
@@ -487,7 +528,7 @@
       "good": "I stay there a lot and the service is always good and consistent",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "私はよくそこに泊まりますが、サービスはいつも良くて安定しています。",
       "translated_bad": "",
       "reviewer": "Thomas"
     },
@@ -542,6 +583,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Harunobu"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "アメニティーが充実していて、お水のサービスはよかったです。",
+      "bad": "大浴場がいっぱいで入れず、予約してからだったので 入りたい時に入れなかったのが残念でした。 エレベーターが1つしかないので来るのが遅い。",
+      "translated": "",
+      "translated_good": "アメニティーが充実していて、お水のサービスはよかったです。",
+      "translated_bad": "大浴場がいっぱいで入れず、予約してからだったので 入りたい時に入れなかったのが残念でした。 エレベーターが1つしかないので来るのが遅い。",
+      "reviewer": "Kayoko"
     },
     {
       "site": "楽天トラベル",
@@ -630,7 +684,7 @@
       "good": "お部屋の備品が整い、大浴場があることでゆっくりできました。",
       "bad": "特にありません。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "お部屋の備品が整い、大浴場があることでゆっくりできました。",
       "translated_bad": "特にありません。",
       "reviewer": "Hiroshi"
     },
@@ -656,7 +710,7 @@
       "good": "大浴場を利用させてもらった。ゆっくりできてよかった。",
       "bad": "線路近くだったので、朝４：３０の貨物列車の音で目が覚めた（やむを得ないなと思う程度）",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "大浴場を利用させてもらった。ゆっくりできてよかった。",
       "translated_bad": "線路近くだったので、朝４：３０の貨物列車の音で目が覚めた（やむを得ないなと思う程度）",
       "reviewer": "雅彦"
     },
@@ -864,7 +918,7 @@
       "good": "清潔感",
       "bad": "お風呂の時間が夜の9時〜だったので、すぐに行ったけど満員ではいれず、眠かったので、部屋のシャワーで我慢しました。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔さ",
       "translated_bad": "お風呂の時間が夜の9時〜だったので、すぐに行ったけど満員ではいれず、眠かったので、部屋のシャワーで我慢しました。",
       "reviewer": "Aki"
     },
@@ -916,7 +970,7 @@
       "good": "APA仕様で使い勝手が良い",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "APA仕様で使い勝手が良い",
       "translated_bad": "特になし",
       "reviewer": "Yoshihito"
     },
@@ -932,6 +986,30 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Tiến"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-01",
+      "comment": "",
+      "good": "部屋も落ち着ける雰囲気であり、大浴場もあったのでゆっくりと体を休めることができました。",
+      "bad": "特にありません。",
+      "translated": "",
+      "translated_good": "部屋も落ち着ける雰囲気であり、大浴場もあったのでゆっくりと体を休めることができました。",
+      "translated_bad": "特にありません。",
+      "reviewer": "Hiroshi"
     }
+  ],
+  "positives": [
+    "清潔感があり、スタッフの対応が良く立地も便利です。大浴場は快適でシャワーの水圧も十分です。安心して過ごせる環境が整っていて満足のいく滞在でした。",
+    "フロントの方々の対応がとても丁寧でした。",
+    "ちょうど東横インの向かい側にあり、こちらは大浴場あり。他の浴場付の施設と違いお風呂は集めでしたかね？",
+    "出張で泊まりました。  駅近で、近くに飲食店がいろいろあり立地は申し分ないです。  また、意外とスーパーやショッピングセンターもあり長期出張にはもってこいです。  意外と新しいホテルで凄く綺麗で良かったです(*^^*)  大浴場もあり良いのですが…風呂が熱すぎる。  時間で男女入れ替え制なので気を付けないといけません。  あと、朝にタクシーの配車をお願いしてたのですが…忘れていたようで…慌てました。  意外とスタッフはおっちょこちょいな感じがします。  ただ、この立地とクオリティ的には比較的リーズナブルな感じがしました(^^)",
+    "優しい"
+  ],
+  "negatives": [
+    "朝食がパンが１種類しかなく、洋風の料理（スクランブルエッグやソーセージ等）もないのが残念。コーヒーも部屋で飲めるようにプラカップがあればいいと思う。カレーはおいしかった。 大浴場が男女入れ替え制で使いづらかった。アメニティは無駄にならないように部屋ではなくフロント等おいて自由に使えるようにしたほうがいいと思う。 アメニティの種類もクレンジング、洗顔料、化粧水、乳液などもあったほうがいい。割り箸や、プラスプーンなども。ダブルベッドはせまい。椅子もダブルの部屋は１脚ではなく２脚ほしい。ハンガーは６つあったが、ハンガー掛けがせまくて服をかけづらかった。部屋着が帯の必要な形状で使いづらかった。",
+    "清潔さ"
   ]
 }

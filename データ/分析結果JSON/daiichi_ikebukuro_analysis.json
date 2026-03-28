@@ -1,10 +1,12 @@
 {
-  "total_reviews": 130,
+  "hotel_name": "第一イン池袋",
+  "hotel_key": "daiichi_ikebukuro",
+  "total_reviews": 131,
   "overall_avg_10pt": 9.18,
-  "high_count": 119,
-  "high_rate": 91.5,
+  "high_count": 120,
+  "high_rate": 91.6,
   "mid_count": 8,
-  "mid_rate": 6.2,
+  "mid_rate": 6.1,
   "low_count": 3,
   "low_rate": 2.3,
   "site_stats": [
@@ -15,16 +17,16 @@
       "scale": "/10",
       "avg_10pt": 9.56,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "非常に良好"
     },
     {
       "site": "Google",
-      "count": 33,
-      "native_avg": 4.61,
+      "count": 34,
+      "native_avg": 4.62,
       "scale": "/5",
-      "avg_10pt": 9.21,
+      "avg_10pt": 9.24,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "非常に良好"
     },
     {
       "site": "Booking.com",
@@ -33,7 +35,7 @@
       "scale": "/10",
       "avg_10pt": 8.82,
       "median_10pt": 9.0,
-      "judgment": "良好"
+      "judgment": "非常に良好"
     },
     {
       "site": "楽天トラベル",
@@ -42,16 +44,7 @@
       "scale": "/5",
       "avg_10pt": 8.5,
       "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "じゃらん",
-      "count": 1,
-      "native_avg": 4.0,
-      "scale": "/5",
-      "avg_10pt": 8.0,
-      "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "非常に良好"
     },
     {
       "site": "Agoda",
@@ -60,24 +53,33 @@
       "scale": "/10",
       "avg_10pt": 5.5,
       "median_10pt": 5.0,
-      "judgment": "要改善"
+      "judgment": "要緊急対応"
+    },
+    {
+      "site": "じゃらん",
+      "count": 1,
+      "native_avg": 4.0,
+      "scale": "/5",
+      "avg_10pt": 8.0,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 82,
-      "pct": "63.1%"
+      "count": 83,
+      "pct": "63.4%"
     },
     {
       "score": 9,
       "count": 19,
-      "pct": "14.6%"
+      "pct": "14.5%"
     },
     {
       "score": 8,
       "count": 18,
-      "pct": "13.8%"
+      "pct": "13.7%"
     },
     {
       "score": 7,
@@ -362,7 +364,7 @@
       "good": "清潔で部屋が広く使いやすかった。 場所も便利な所にある。",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で部屋が広く使いやすかった。 場所も便利な所にある。",
       "translated_bad": "特になし",
       "reviewer": "Hatsumi"
     },
@@ -414,7 +416,7 @@
       "good": "proximité du metro, konbini au pied de l'hotel, proximité de très bons restaurants. l'hotel est dans un coin plutot calme (ce qui est appreciable) mais si on veut de l'animation il y a juste à traverser la rue!",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "地下鉄駅に近く、ホテルのすぐ外にはコンビニがあり、周辺には美味しいレストランもいくつかあります。ホテルは比較的静かなエリアにありますが（それは良い点です）、賑やかな場所に行きたい場合は、道を渡るだけで済みます。",
       "translated_bad": "",
       "reviewer": "Cecile"
     },
@@ -518,7 +520,7 @@
       "good": "交通方便，附近百貨公司多，旁邊有PARCO百貨，方便逛街",
       "bad": "房間的空間無法同時打開2個大行李箱",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "交通の便が良く、PARCO百貨店をはじめとする多くのデパートが近くにあるため、買い物がしやすい。",
       "translated_bad": "部屋が狭すぎて、大きなスーツケースを2つ同時に開けることができない。",
       "reviewer": "Guan"
     },
@@ -570,7 +572,7 @@
       "good": "Situation à côté de la gare d'Ikebukuro. Simplement fantastique !",
       "bad": "-",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "池袋駅のすぐそば。本当に素晴らしい！",
       "translated_bad": "-",
       "reviewer": "Daniel"
     },
@@ -648,7 +650,7 @@
       "good": "Convenient location. Excellent temporary luggage room. Staffs which always guard at reception Lobby.",
       "bad": "Plug not enough for charging",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "便利な立地。優れた一時荷物預かり所。受付ロビーには常にスタッフが常駐している。",
       "translated_bad": "充電にはプラグが不十分です",
       "reviewer": "Siew"
     },
@@ -947,7 +949,7 @@
       "good": "地點超好，接待人員非常親切，有求必應",
       "bad": "低樓層可能有油煙味（因為附近餐廳很多） 後來跟櫃檯反應有成功幫忙安排到高樓層房間，很讚！",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地は最高で、スタッフもとても親切で対応も迅速です。",
       "translated_bad": "低層階は（近くにレストランがたくさんあるため）調理の匂いがするかもしれません。フロントに連絡したところ、高層階の部屋に泊まれるように手配してもらえたので、とても助かりました！",
       "reviewer": "Chiaohsuan"
     },
@@ -1051,7 +1053,7 @@
       "good": "i like that they have triple and quadro room for family, location is super nice, nearby is station, and variety of shops and restaurants that open until late night",
       "bad": "fridge not cold enough",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "家族向けのトリプルルームとクワッドルームがあるのが気に入りました。立地も最高で、近くには駅があり、深夜まで営業しているお店やレストランもたくさんあります。",
       "translated_bad": "冷蔵庫の温度が十分に下がらない",
       "reviewer": "C"
     },
@@ -1168,6 +1170,19 @@
       "good": "",
       "bad": "",
       "translated": "まず価格も大丈夫で池袋駅から歩いて5分であまりにも繁華街なので夜に危険ではないというのもよかったです。そしてすぐ下にファミリーマートコンビニがありイチっていますよ～ちょっと古いホテル感がありますが、すごく綺麗でした部屋を空にすると毎日掃除をしてくれるのにそれもとても良かったです〜コスパに無難なホテルを探すなら完全おすすめです。ところが防音は少しダメだと思いました。次回池袋に戻ったら、この宿に来ると思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "현님"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-25",
+      "comment": "まず価格も大丈夫で池袋駅から歩いて5分であまりにも繁華街なので夜に危険ではないというのもよかったです。 そしてすぐ下にファミリーマートコンビニがあり、イチっていますよ～ 宿はまぁ日本宿ソニ狭めましたが平均でした。 少し古いホテル感がありますが、とても綺麗でした。 部屋を空にすると毎日掃除をしていただくのにそれもとても良かったです～ コスパに無難なホテルを探すなら完全おすすめです。ところが防音は少しダメだと思いました。次回池袋に戻ったら、この宿に来ると思います。",
+      "good": "",
+      "bad": "",
+      "translated": "まず価格も大丈夫で池袋駅から歩いて5分であまりにも繁華街なので夜に危険ではないというのもよかったです。 そしてすぐ下にファミリーマートコンビニがあり、イチっていますよ～ 宿はまぁ日本宿ソニ狭めましたが平均でした。 少し古いホテル感がありますが、とても綺麗でした。 部屋を空にすると毎日掃除をしていただくのにそれもとても良かったです～ コスパに無難なホテルを探すなら完全おすすめです。ところが防音は少しダメだと思いました。次回池袋に戻ったら、この宿に来ると思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "현님"
@@ -1350,7 +1365,7 @@
       "good": "이케부쿠로역에서 진짜 가까운 거리. 큰 캐리어 끌고 이동거리가 문제인데 최고의 위치. 체크인, 제크아웃 전 캐리어 보관하는곳(자물쇠있음)이 따로 있어서 편하게 맡길수 있음. 난방틀고 가습기도 트니 편하게 잤어요.",
       "bad": "욕실이 좀 추웠어요. 욕조에서 씻는 구조인데 물이 잘 안내려감.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "池袋駅から本当に近い通り。大きなキャリアを引いて移動距離が問題なのに最高の位置。チェックイン、ゼックアウト前にキャリア保管する所（ロックあり）が別にあり、楽に預けることができる。暖かくて加湿器もあるので楽に寝ました。",
       "translated_bad": "バスルームは少し寒かったです。浴槽で洗う仕組みなのに水がしっかり案内しよう。",
       "reviewer": "박"
     },
@@ -1636,7 +1651,7 @@
       "good": "離池袋車站很近，逛街休息都很方便～",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "池袋駅から非常に近いので、買い物やリラックスするのに便利です。",
       "translated_bad": "",
       "reviewer": "Xyz"
     },
@@ -1649,7 +1664,7 @@
       "good": "立地条件",
       "bad": "モーニング",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地条件",
       "translated_bad": "モーニング",
       "reviewer": "Noriko"
     },
@@ -1662,7 +1677,7 @@
       "good": "立地条件",
       "bad": "モーニング",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地条件",
       "translated_bad": "モーニング",
       "reviewer": "NORIKO"
     },
@@ -1796,5 +1811,19 @@
       "translated_bad": "",
       "reviewer": "Janet Wai"
     }
+  ],
+  "positives": [
+    "駅近で周りにお店も多く、とても過ごしやすかったです！",
+    "部屋は狭いですが、許容範囲です。 建物は古いですが、清潔です。 スタッフは親切です。 追加料金でレイトチェックアウトが可能です。  立地は非常に便利です。",
+    "ウォーターサーバーがなかった！清掃員のゴミ箱の周りのゴミさえ片付けていなかった！エスカレーターは1基しかなく、午前中は下り、午後は上りだった。部屋も狭かった。",
+    "ホテルは幹線道路のすぐ裏手にあり、すぐ外に公園があるという非常に便利な場所に位置しています。",
+    "部屋は小さいが許容範囲。古い建物だが清潔。スタッフはフレンドリー。追加料金でレイトチェックアウト可能。立地は非常に便利。"
+  ],
+  "negatives": [
+    "窓からの音がうるさかった。",
+    "旅行で利用しました。立地は問題ないのですが、水まわりがイマイチでした。シャワーを浴びると排水が追いつかず、水がドンドン溜まり、くるぶしまで排水に浸かりながらは気分良くなかったです。トイレも小さく、洗面スペース狭く、便座と便器がサイズ違いで使いにくかったです。身体が大きい方にはおすすめできません。",
+    "アメニティはロビーに取りに行かないといけない物があったり、シャワー出すとビー！とめちゃくちゃうるさい音が出ます。エアコンも冬なのになぜか冷房になってました。 駅近でファミマと繋がっている。という部分は良いです。",
+    "全体的に見て、良いホテルです。立地は駅に近く、とても便利です。朝食は少し高めですが、伝統的な日本料理と洋食が数種類用意されており、味もかなり美味しいです。近くにファミリーマートがあり、とても便利です。",
+    "立地条件"
   ]
 }

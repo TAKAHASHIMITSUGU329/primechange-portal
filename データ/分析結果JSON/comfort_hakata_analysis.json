@@ -1,11 +1,13 @@
 {
-  "total_reviews": 139,
-  "overall_avg_10pt": 7.88,
-  "high_count": 95,
-  "high_rate": 68.3,
-  "mid_count": 30,
+  "hotel_name": "コンフォートホテル博多",
+  "hotel_key": "comfort_hakata",
+  "total_reviews": 148,
+  "overall_avg_10pt": 7.89,
+  "high_count": 101,
+  "high_rate": 68.2,
+  "mid_count": 32,
   "mid_rate": 21.6,
-  "low_count": 14,
+  "low_count": 15,
   "low_rate": 10.1,
   "site_stats": [
     {
@@ -15,23 +17,23 @@
       "scale": "/10",
       "avg_10pt": 9.04,
       "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Google",
-      "count": 31,
-      "native_avg": 3.74,
-      "scale": "/5",
-      "avg_10pt": 7.48,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
+      "judgment": "非常に良好"
     },
     {
       "site": "Booking.com",
-      "count": 38,
-      "native_avg": 7.08,
+      "count": 43,
+      "native_avg": 7.21,
       "scale": "/10",
-      "avg_10pt": 7.08,
+      "avg_10pt": 7.21,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "Google",
+      "count": 34,
+      "native_avg": 3.77,
+      "scale": "/5",
+      "avg_10pt": 7.53,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -42,14 +44,14 @@
       "scale": "/5",
       "avg_10pt": 7.0,
       "median_10pt": 7.0,
-      "judgment": "概ね良好"
+      "judgment": "要改善"
     },
     {
       "site": "楽天トラベル",
-      "count": 7,
-      "native_avg": 3.29,
+      "count": 8,
+      "native_avg": 3.25,
       "scale": "/5",
-      "avg_10pt": 6.57,
+      "avg_10pt": 6.5,
       "median_10pt": 6.0,
       "judgment": "要改善"
     }
@@ -57,28 +59,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 43,
-      "pct": "30.9%"
+      "count": 46,
+      "pct": "31.1%"
     },
     {
       "score": 9,
       "count": 15,
-      "pct": "10.8%"
+      "pct": "10.1%"
     },
     {
       "score": 8,
-      "count": 37,
-      "pct": "26.6%"
+      "count": 40,
+      "pct": "27.0%"
     },
     {
       "score": 7,
-      "count": 8,
-      "pct": "5.8%"
+      "count": 9,
+      "pct": "6.1%"
     },
     {
       "score": 6,
-      "count": 21,
-      "pct": "15.1%"
+      "count": 22,
+      "pct": "14.9%"
     },
     {
       "score": 5,
@@ -87,13 +89,13 @@
     },
     {
       "score": 4,
-      "count": 9,
-      "pct": "6.5%"
+      "count": 10,
+      "pct": "6.8%"
     },
     {
       "score": 3,
       "count": 3,
-      "pct": "2.2%"
+      "pct": "2.0%"
     },
     {
       "score": 2,
@@ -116,7 +118,7 @@
       "good": "Convenient and Central",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "便利で中心部に位置する",
       "translated_bad": "",
       "reviewer": "Robby"
     },
@@ -194,7 +196,7 @@
       "good": "朝食がとてもおいしかった。 駅に近くて、ホテルの隣の建物からエレベーターで降りると一蘭にことができ便利だった。",
       "bad": "予約サイトに載っていた部屋の広さと実際の広さは差があった。 18平米なので仕方ないが本当に狭かった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食がとてもおいしかった。 駅に近くて、ホテルの隣の建物からエレベーターで降りると一蘭にことができ便利だった。",
       "translated_bad": "予約サイトに載っていた部屋の広さと実際の広さは差があった。 18平米なので仕方ないが本当に狭かった。",
       "reviewer": "Bompei"
     },
@@ -210,6 +212,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "mtantan8"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-23",
+      "comment": "博多駅からのアクセスがよく、キャリーを引いていたので助かりました。 また机が広く、デスクライトもあり作業がしやすかったです。 ただ気になった点としては2つあります。 1点目は備え付きの歯ブラシを梱包している袋がベタベタでした。外袋なので捨てるとはいえ、不快でした…。 2点目はユニットバスのシャワーの水圧が弱いです。他の都道府県の店舗も弱かったので一律なのかもしれませんが、女性だとロングヘアだと髪を洗うのに時間がかかります。",
+      "good": "",
+      "bad": "",
+      "translated": "博多駅からのアクセスがよく、キャリーを引いていたので助かりました。 また机が広く、デスクライトもあり作業がしやすかったです。 ただ気になった点としては2つあります。 1点目は備え付きの歯ブラシを梱包している袋がベタベタでした。外袋なので捨てるとはいえ、不快でした…。 2点目はユニットバスのシャワーの水圧が弱いです。他の都道府県の店舗も弱かったので一律なのかもしれませんが、女性だとロングヘアだと髪を洗うのに時間がかかります。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
     },
     {
       "site": "Trip.com",
@@ -259,7 +274,7 @@
       "good": "가까움",
       "bad": "조식",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "近い",
       "translated_bad": "朝食",
       "reviewer": "Kyung"
     },
@@ -324,9 +339,22 @@
       "good": "아침식사",
       "bad": "없음",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食",
       "translated_bad": "なし",
       "reviewer": "Sunjung"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Jisook"
     },
     {
       "site": "Google",
@@ -376,7 +404,7 @@
       "good": "Bien qu'en face de la gare, très bonne insonorisation de la chambre. Situation plein centre ville et proche train, métro,bus",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅の向かいという立地にもかかわらず、部屋は防音性が非常に高かった。市内中心部に位置し、電車、地下鉄、バスの駅にも近い。",
       "translated_bad": "",
       "reviewer": "Isabelle"
     },
@@ -389,7 +417,7 @@
       "good": "博多駅前の立地が最高で、とても便利です。",
       "bad": "部屋の中、特にユニットバスが古い造りで、洗面所の蛇口が2口式なのが残念ですが、それ以外は快適でした。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "博多駅前の立地が最高で、とても便利です。",
       "translated_bad": "部屋の中、特にユニットバスが古い造りで、洗面所の蛇口が2口式なのが残念ですが、それ以外は快適でした。",
       "reviewer": "Yasunori"
     },
@@ -405,6 +433,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-19",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yenyu"
     },
     {
       "site": "Google",
@@ -467,7 +508,7 @@
       "good": "朝ごはんの種類が多くて美味しい！ 部屋はとても綺麗。",
       "bad": "風呂、トイレが少し汚く、生乾きの匂いがするのが残念 又、手元のライトが壊れててつかなかった。他はつくけどそこはつかなくてもいい感じだったけど。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝ごはんの種類が多くて美味しい！ 部屋はとても綺麗。",
       "translated_bad": "風呂、トイレが少し汚く、生乾きの匂いがするのが残念 又、手元のライトが壊れててつかなかった。他はつくけどそこはつかなくてもいい感じだったけど。",
       "reviewer": "日高"
     },
@@ -480,7 +521,7 @@
       "good": "朝食が、思っていた以上に品数が、豊富で、美味しかったです。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食が、思っていた以上に品数が、豊富で、美味しかったです。",
       "translated_bad": "",
       "reviewer": "Machiko"
     },
@@ -532,7 +573,7 @@
       "good": "하카타역 바로코앞이라 너무편했어요. 이치란라면집.편의점도 바로 옆건물에붙어있고. 다이소도 바로앞이구요. 직원분들도 친절하시고 호텔이 오래된듯하긴했지만 욕실이나 침대도 편했어요. 엘레베이터가 항상 기다리고있어 편하더라고요.",
       "bad": "히터소리가 무지크더라구요^^; 세면대의 찬물조리개에서 물이 줄줄 흘러내렸는데 카운터에 전달은 못했네요ㅜ 하카타역바로코앞이니만큼 대로변의 소음은 참아야죠!",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "博多駅バロコの前だったのでとても楽しかったです。一蘭ラーメン屋さん。コンビニもすぐ隣の建物に付いてるし。ダイソーもすぐ前です。スタッフの方も親切でホテルが古いようでしたがバスルームやベッドも楽でした。エレベーターがいつも待っていて楽でした。",
       "translated_bad": "ヒーターの音は無知でした^^;洗面台の冷水絞りで水がずっと流れ落ちたのにカウンターに届けられませんでしたㅜ博多駅のバロコ前だから、通りの騒音は我慢しなければなりません！",
       "reviewer": "Joohee"
     },
@@ -571,9 +612,22 @@
       "good": "駅から近い",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅から近い",
       "translated_bad": "",
       "reviewer": "Ayumi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-16",
+      "comment": "",
+      "good": "The location is excellent—just opposite Hakata Station, making it very convenient, especially if you have luggage or need to rush to catch the subway to the airport early in the morning.  The hotel is a bit older, but it has everything that is needed for a comfortable stay. The room size is relatively spacious compared to many typical business hotels in Japan. The staff are friendly and the check-in process is smooth. The complimentary breakfast is simple but sufficient to start the day.  Overall, it is a good choice for travelers who prioritize location, convenience, and value for money when staying in Hakata.",
+      "bad": "One thing I didn’t particularly like is that the hotel does not have a hot spring bath or public bath facility. After a long day of traveling or sightseeing, it would be nice to relax in an onsen.",
+      "translated": "",
+      "translated_good": "立地は抜群で、博多駅の真向かいにあるため、特に荷物が多い場合や、早朝に空港へ向かう地下鉄に急いで乗る必要がある場合に非常に便利です。ホテル自体はやや古いですが、快適な滞在に必要なものはすべて揃っています。客室は日本の一般的なビジネスホテルと比べて比較的広々としています。スタッフは親切で、チェックインもスムーズです。無料の朝食はシンプルですが、一日を始めるには十分です。全体的に見て、博多滞在において立地、利便性、そしてコストパフォーマンスを重視する旅行者にとって良い選択肢と言えるでしょう。",
+      "translated_bad": "一つ残念だったのは、ホテルに温泉や大浴場がないことです。長時間の移動や観光の後には、温泉でゆっくりくつろげたらいいのにと思いました。",
+      "reviewer": "Chang"
     },
     {
       "site": "Trip.com",
@@ -623,7 +677,7 @@
       "good": "地點極佳，交通方便，設備稍舊，乾淨舒適！",
       "bad": "整體較為昏暗",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が最高、交通の便も便利、設備はやや古いものの、清潔で快適！",
       "translated_bad": "全体的に照明が暗かった。",
       "reviewer": "Shih"
     },
@@ -753,9 +807,22 @@
       "good": "スタッフの方達が親切で感じがよかったです",
       "bad": "ホテル自体はいいですが、設備が少し古くなってきてるように思いました",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの方達が親切で感じがよかったです",
       "translated_bad": "ホテル自体はいいですが、設備が少し古くなってきてるように思いました",
       "reviewer": "Hazuki"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-13",
+      "comment": "",
+      "good": "Great location. Lots of room. The staff are so helpful and friendly.",
+      "bad": "The laundry facilities were not in a great location. There is a smoking room within the laundry room and it made the laundry room smell like smoke, which I don’t want my clean laundry smelling like cigarettes.",
+      "translated": "",
+      "translated_good": "立地が最高。部屋も広々としている。スタッフの方々もとても親切でフレンドリー。",
+      "translated_bad": "洗濯施設の場所があまり良くなかった。洗濯室内に喫煙室があり、洗濯室全体がタバコの臭いが充満していた。せっかくきれいに洗った洗濯物にタバコの臭いがつくのは嫌だった。",
+      "reviewer": "Shann"
     },
     {
       "site": "楽天トラベル",
@@ -870,7 +937,7 @@
       "good": "駅近で便利　一階のライブラリー　ロッカーが便利 動きやすかった",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅近で便利　一階のライブラリー　ロッカーが便利 動きやすかった",
       "translated_bad": "",
       "reviewer": "Takahara"
     },
@@ -948,7 +1015,7 @@
       "good": "特別良かった点はこれと言ってない。",
       "bad": "トイレが全体的に悪い。便座が暖かくないお尻が冷たい。残念",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "特別良かった点はこれと言ってない。",
       "translated_bad": "トイレが全体的に悪い。便座が暖かくないお尻が冷たい。残念",
       "reviewer": "Tomohiro"
     },
@@ -1052,7 +1119,7 @@
       "good": "無料の朝食はありがたかったが  食べられる料理があまりなかった",
       "bad": "雨が降り配管の雨が流れる音なのか  うるさくて一睡もできなかった  満室で部屋の変更もできないとの事  受験で利用させてもらったがうるさすぎて勉強も出来ず眠れずで最悪だった",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "無料の朝食はありがたかったが  食べられる料理があまりなかった",
       "translated_bad": "雨が降り配管の雨が流れる音なのか  うるさくて一睡もできなかった  満室で部屋の変更もできないとの事  受験で利用させてもらったがうるさすぎて勉強も出来ず眠れずで最悪だった",
       "reviewer": "Akemi"
     },
@@ -1091,6 +1158,19 @@
       "good": "",
       "bad": "",
       "translated": "やはり評が良い理由がありますね。博多駅のすぐ前で、アクセス性、移動の利便性が最高ですが、スタッフはとてもフレンドリーです。施設は典型的な日本のホテルのように非常に広く、良くないが遵守します。大丈夫です。次にまた利用するつもりです。イチオシです！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "곽동근"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-27",
+      "comment": "やはり評が良い理由がありますね。博多駅のすぐ前で、アクセス性、移動の利便性が最高ですが、スタッフはとてもフレンドリーです。施設は典型的な日本のホテルのように非常に広く、良くないが遵守します。大丈夫です。次にまた利用するつもりです。イチオシ！",
+      "good": "",
+      "bad": "",
+      "translated": "やはり評が良い理由がありますね。博多駅のすぐ前で、アクセス性、移動の利便性が最高ですが、スタッフはとてもフレンドリーです。施設は典型的な日本のホテルのように非常に広く、良くないが遵守します。大丈夫です。次にまた利用するつもりです。イチオシ！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "곽동근"
@@ -1169,7 +1249,7 @@
       "good": "It’s a good size room for 3 people, clean and comfortable. Breakfast included which really a big tick!",
       "bad": "The bins provided are too small.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "3人で泊まるには十分な広さの部屋で、清潔で快適です。朝食付きなのも大きなポイントです！",
       "translated_bad": "提供されているゴミ箱は小さすぎる。",
       "reviewer": "Leung"
     },
@@ -1182,9 +1262,22 @@
       "good": "駅から近い！！",
       "bad": "特になし。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅から近い！！",
       "translated_bad": "特になし。",
       "reviewer": "Yumeto"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "皓勻"
     },
     {
       "site": "Booking.com",
@@ -1195,7 +1288,7 @@
       "good": "Convince to station only",
       "bad": "Small room, hallway felt like a prison",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅に説得するだけ",
       "translated_bad": "狭い部屋で、廊下はまるで牢獄のようだった。",
       "reviewer": "Oneworldimages"
     },
@@ -1221,7 +1314,7 @@
       "good": "駅に近いだけ良かった",
       "bad": "料金の割に合わ無い  掃除機、お風呂などしっかりかけるように心がけて欲しい  フロントの接客態度",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅に近いだけ良かった",
       "translated_bad": "料金の割に合わ無い  掃除機、お風呂などしっかりかけるように心がけて欲しい  フロントの接客態度",
       "reviewer": "Yumiko"
     },
@@ -1234,7 +1327,7 @@
       "good": "住宿地點棒！早餐好吃！",
       "bad": "飯店較為老舊",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "最高のロケーション！美味しい朝食！",
       "translated_bad": "そのレストランはかなり古い。",
       "reviewer": "Shuting"
     },
@@ -1382,6 +1475,19 @@
       "reviewer": "Sawamura"
     },
     {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-22",
+      "comment": "客室は小さいですが、それでもapaホテルより少し大きいです。歳月が感じられる宿ですが、とてもフレンドリーなサービス、朝食付き、博多駅のすぐ前の場所がとても満足です。",
+      "good": "",
+      "bad": "",
+      "translated": "客室は小さいですが、それでもapaホテルより少し大きいです。歳月が感じられる宿ですが、とてもフレンドリーなサービス、朝食付き、博多駅のすぐ前の場所がとても満足です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "익명"
+    },
+    {
       "site": "じゃらん",
       "rating": 3.0,
       "rating_10pt": 6.0,
@@ -1442,7 +1548,7 @@
       "good": "位置和大廳的服務人員親切笑容",
       "bad": "很多燈具是用拉的，非常不直覺，建議更新",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ロビーや施設内のスタッフのフレンドリーな笑顔",
       "translated_bad": "照明器具の多くは引き出し式で、非常に使いづらいので、交換することをお勧めします。",
       "reviewer": "Sheng"
     },
@@ -1572,7 +1678,7 @@
       "good": "房間寬敞、服務親切、附早餐性價比高",
       "bad": "空調系統效率不佳",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "広々とした客室、親切なサービス、朝食付きで、コストパフォーマンス抜群です。",
       "translated_bad": "エアコンの性能が悪い",
       "reviewer": "Heng"
     },
@@ -1637,7 +1743,7 @@
       "good": "교통, 여행의 중심지. 이만한 가격에 잘없음. 간단하지만 무료 조식. 하루 종일 제공되는 커피.",
       "bad": "룸 컨디션은 예전에 비해 좋아졌지만 여전히 화장실은 많이 낡음. 화장실 환기가 잘안됨.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "交通、旅行の中心地。これだけの価格でうまくいきません。シンプルだが無料の朝食。終日提供されるコーヒー。",
       "translated_bad": "ルームコンディションは以前に比べて良くなったが、依然としてトイレは多く古い。トイレ換気がうまくいかない。",
       "reviewer": "Kim"
     },
@@ -1663,7 +1769,7 @@
       "good": "하키타 역 바로 옆",
       "bad": "2월 첫 주 방문인데, 실내 온도를 27도로 맞추었는데도 밤에 너무 오슬오슬 추워서 감기 걸렸다. 꽤 비싼 일본 호텔도 별 수 없나 보다. 유리창에 김이 많이 서린다. 겨울에 일본 올 때는 호텔이라도 작은 전기장판을 가져 와야 되나?",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "博多駅のすぐ隣",
       "translated_bad": "2月初週訪問なのに、室内温度を27度に合わせたのに、夜にはあまりにも冷ややかで寒くなった。かなり高価な日本ホテルもあまりないのか。ガラス窓にキムがたくさん立ちます。冬に日本に来るときは、ホテルでも小さな電気張板を持って来るべきですか？",
       "reviewer": "Man"
     },
@@ -1689,7 +1795,7 @@
       "good": "地點佳,車站就在旁邊方便",
       "bad": "早餐可以再提升一點",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が抜群で、駅がすぐ隣にあるのでとても便利です。",
       "translated_bad": "朝食はもう少し改善できるだろう。",
       "reviewer": "李"
     },
@@ -1702,7 +1808,7 @@
       "good": "Good location",
       "bad": "Old n dated",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が良い",
       "translated_bad": "古くて時代遅れ",
       "reviewer": "Choon"
     },
@@ -1889,6 +1995,19 @@
       "reviewer": "Zack Cho"
     },
     {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-02-11",
+      "comment": "旅行で嫌な思いをしたくないなら、他のホテルに泊まることを強くお勧めします。このホテルに泊まってから、二度と日本でコンフォートホテルに泊まることはありません。名前は全くの嘘で、全く快適ではありません。  ▍ロケーション コンフォートホテルは博多駅のすぐ隣、通りを渡ったところにあります。風が苦手な方は、P7出口（福岡朝日ビル）または西8出口から地下通路をご利用ください。どちらもホテルに通じています。  ▍客室 なんてこった！部屋に入る前から、エレベーターから廊下を歩くだけで、このホテルの古さと荒廃を感じました。暗い廊下と薄暗い照明は、まるで幽霊屋敷のような廃墟ホテルに迷い込んだかのような気分でした。  部屋に入ると、設備が壊れていて古いことに気づきました。小さな冷蔵庫が床に置かれ、通路に突き出ていました。使えそうに見えず、むしろ回収を待つゴミの山のようでした。  部屋のカーペットは黒っぽく、遠くから見ると問題なさそうに見えました。しかし、座ってよく見ると、なんと！細かいゴミの山で、とても汚い。窓を開けると、窓フィルムが破れていました。夜にシャワーを浴びていると、壁に洗剤が3つ（理論上はシャンプー、コンディショナー、シャワージェル）掛けてありましたが、ラベルがなかったので、推測するしかありませんでした。  ▍危険！部屋のコンセントはすべて予備で、電線はクリップで留められているだけでした。さらにおかしなことに、コーナークリップさえ使われていませんでした！露出した電線の多さに衝撃を受け、本当に日本にいるのかとさえ思いました。どうしてこんなに雑な仕上がりで危険なのでしょうか！テーブルの上の延長コードのプラグは被覆が剥がれていて、露出した電線のすぐ隣にやかんが置いてありました！このホテルが電気系統の故障で火事になったとしても不思議ではない。",
+      "good": "",
+      "bad": "",
+      "translated": "旅行で嫌な思いをしたくないなら、他のホテルに泊まることを強くお勧めします。このホテルに泊まってから、二度と日本でコンフォートホテルに泊まることはありません。名前は全くの嘘で、全く快適ではありません。  ▍ロケーション コンフォートホテルは博多駅のすぐ隣、通りを渡ったところにあります。風が苦手な方は、P7出口（福岡朝日ビル）または西8出口から地下通路をご利用ください。どちらもホテルに通じています。  ▍客室 なんてこった！部屋に入る前から、エレベーターから廊下を歩くだけで、このホテルの古さと荒廃を感じました。暗い廊下と薄暗い照明は、まるで幽霊屋敷のような廃墟ホテルに迷い込んだかのような気分でした。  部屋に入ると、設備が壊れていて古いことに気づきました。小さな冷蔵庫が床に置かれ、通路に突き出ていました。使えそうに見えず、むしろ回収を待つゴミの山のようでした。  部屋のカーペットは黒っぽく、遠くから見ると問題なさそうに見えました。しかし、座ってよく見ると、なんと！細かいゴミの山で、とても汚い。窓を開けると、窓フィルムが破れていました。夜にシャワーを浴びていると、壁に洗剤が3つ（理論上はシャンプー、コンディショナー、シャワージェル）掛けてありましたが、ラベルがなかったので、推測するしかありませんでした。  ▍危険！部屋のコンセントはすべて予備で、電線はクリップで留められているだけでした。さらにおかしなことに、コーナークリップさえ使われていませんでした！露出した電線の多さに衝撃を受け、本当に日本にいるのかとさえ思いました。どうしてこんなに雑な仕上がりで危険なのでしょうか！テーブルの上の延長コードのプラグは被覆が剥がれていて、露出した電線のすぐ隣にやかんが置いてありました！このホテルが電気系統の故障で火事になったとしても不思議ではない。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Zack Cho"
+    },
+    {
       "site": "Trip.com",
       "rating": 6.0,
       "rating_10pt": 6.0,
@@ -1910,9 +2029,23 @@
       "good": "地點",
       "bad": "設施畧舊",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "場所",
       "translated_bad": "施設はやや古い。",
       "reviewer": "Bonnie"
     }
+  ],
+  "positives": [
+    "便利で中心部に位置する",
+    "立地が良く、駅にも近い。美味しい朝食も提供される。",
+    "博多駅ビューでお願いしましたが、お願いしたとおり博多駅前に配っていただきました！ビューがとても綺麗でした〜駅前なのに静かで防音も良かったです！そして部屋が広くてよかったです😆宿も清潔でした〜ホテルスタッフの方もとてもフレンドリーでした！初めての海外旅行でしたが、スタッフの方々が親切にしていただきありがとうございます。福岡に来るたびに利用したいです〜",
+    "バス、地下鉄、電車のアクセシビリティに優れ、場所は本当に良いです。  雨の一滴も合わず国際線空港まで行くほどです。  特に無料の朝食のおかげで、朝から移動するのに最適です。",
+    "博多駅近くの最高のロケーションとお得な価格 直感を信じてよかったです。評価は低いですが、名古屋にあるこのチェーンのホテルでの快適な滞在と同じような体験でした。名古屋のホテルより古いですが、手入れが行き届いていて、清潔です。価格に見合った優れた価値を提供しています。 メリット: 無料Wi-Fiと高速インターネット接続（パスワード不要）。 効率性: 迅速でスムーズなチェックインと便利な荷物預かり。 客室品質: 11階 1128号室 清潔な客室で、防音性が高く、シャワーとビデの両方に信頼できるヒーターが付いています。ミニ冷蔵庫、ヘアドライヤー、スリッパ付き（お持ち帰りいただけます）。 アメニティ: ライブラリーカフェ（深夜0時まで無料の水、コーヒー、紅茶）は素晴らしいです。ボリュームたっぷりのおいしい朝食が含まれています。（午前6時30分～午前9時30分） 利便性: セルフサービスのランドリー（14階）、各階に自動販売機、ロビーには必需品（バスローブ/洗面用具）が用意されています。立地：福岡空港から30分、博多駅、地下鉄、バスターミナルからすぐ、セブンイレブンとスターバックスの隣という最高の拠点。ショッピングモール、レストラン、交通機関に囲まれています。スタッフ：親切で対応が良い。短所：早めのチェックアウト：午前10時が平均より少し早い。テレビにはNetflixとYouTubeがありません。視聴できる映画は限られており、有料です。"
+  ],
+  "negatives": [
+    "あまりにも古いと朝食がおいしいです。",
+    "不慣れな年寄りだけで宿泊するのは無理 システムが良くない",
+    "朝ごはんの種類が多くて美味しい！ 部屋はとても綺麗。",
+    "特別良かった点はこれと言ってない。",
+    "無料の朝食はありがたかったが  食べられる料理があまりなかった"
   ]
 }

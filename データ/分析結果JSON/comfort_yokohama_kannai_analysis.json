@@ -1,30 +1,32 @@
 {
-  "total_reviews": 143,
+  "hotel_name": "コンフォートホテル横浜関内",
+  "hotel_key": "comfort_yokohama_kannai",
+  "total_reviews": 148,
   "overall_avg_10pt": 7.52,
-  "high_count": 96,
-  "high_rate": 67.1,
-  "mid_count": 29,
+  "high_count": 100,
+  "high_rate": 67.6,
+  "mid_count": 30,
   "mid_rate": 20.3,
   "low_count": 18,
-  "low_rate": 12.6,
+  "low_rate": 12.2,
   "site_stats": [
     {
-      "site": "Trip.com",
-      "count": 19,
-      "native_avg": 8.32,
-      "scale": "/10",
-      "avg_10pt": 8.32,
-      "median_10pt": 9.0,
-      "judgment": "良好"
+      "site": "楽天トラベル",
+      "count": 42,
+      "native_avg": 3.74,
+      "scale": "/5",
+      "avg_10pt": 7.48,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
     },
     {
-      "site": "Agoda",
-      "count": 11,
-      "native_avg": 8.0,
+      "site": "Booking.com",
+      "count": 32,
+      "native_avg": 7.03,
       "scale": "/10",
-      "avg_10pt": 8.0,
+      "avg_10pt": 7.03,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "要改善"
     },
     {
       "site": "Google",
@@ -36,29 +38,29 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "楽天トラベル",
-      "count": 42,
-      "native_avg": 3.74,
-      "scale": "/5",
-      "avg_10pt": 7.48,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "じゃらん",
-      "count": 19,
-      "native_avg": 3.63,
+      "count": 20,
+      "native_avg": 3.65,
       "scale": "/5",
-      "avg_10pt": 7.26,
+      "avg_10pt": 7.3,
       "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "Trip.com",
+      "count": 19,
+      "native_avg": 8.32,
+      "scale": "/10",
+      "avg_10pt": 8.32,
+      "median_10pt": 9.0,
       "judgment": "概ね良好"
     },
     {
-      "site": "Booking.com",
-      "count": 28,
-      "native_avg": 7.0,
+      "site": "Agoda",
+      "count": 11,
+      "native_avg": 8.0,
       "scale": "/10",
-      "avg_10pt": 7.0,
+      "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -67,37 +69,37 @@
     {
       "score": 10,
       "count": 34,
-      "pct": "23.8%"
+      "pct": "23.0%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "5.6%"
+      "pct": "5.4%"
     },
     {
       "score": 8,
-      "count": 54,
-      "pct": "37.8%"
+      "count": 58,
+      "pct": "39.2%"
     },
     {
       "score": 7,
       "count": 6,
-      "pct": "4.2%"
+      "pct": "4.1%"
     },
     {
       "score": 6,
       "count": 18,
-      "pct": "12.6%"
+      "pct": "12.2%"
     },
     {
       "score": 5,
-      "count": 5,
-      "pct": "3.5%"
+      "count": 6,
+      "pct": "4.1%"
     },
     {
       "score": 4,
       "count": 10,
-      "pct": "7.0%"
+      "pct": "6.8%"
     },
     {
       "score": 3,
@@ -107,7 +109,7 @@
     {
       "score": 2,
       "count": 7,
-      "pct": "4.9%"
+      "pct": "4.7%"
     }
   ],
   "comments": [
@@ -120,7 +122,7 @@
       "good": "ロケーション ウェルカムドリンク",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ロケーション ウェルカムドリンク",
       "translated_bad": "",
       "reviewer": "池田"
     },
@@ -185,7 +187,7 @@
       "good": "チェックイン、チェックアウトともにスムーズにでき良かった。 朝食がおかずもいろいろと選べ美味しかった。 ヨーグルトが👌",
       "bad": "設備にちょい残念な点が… シャワーヘッドの元のあたりから水もれあり。３部屋予約して宿泊したが、どの部屋もそんな感じだった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "チェックイン、チェックアウトともにスムーズにでき良かった。 朝食がおかずもいろいろと選べ美味しかった。 ヨーグルトが👌",
       "translated_bad": "設備にちょい残念な点が… シャワーヘッドの元のあたりから水もれあり。３部屋予約して宿泊したが、どの部屋もそんな感じだった。",
       "reviewer": "Kaori"
     },
@@ -302,7 +304,7 @@
       "good": "部屋も広く、快適でした",
       "bad": "ホテルが改装中が残念で、朝食がバイキングでないのが、残念でした。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋も広く、快適でした",
       "translated_bad": "ホテルが改装中が残念で、朝食がバイキングでないのが、残念でした。",
       "reviewer": "芝田"
     },
@@ -354,7 +356,7 @@
       "good": "観光としての立地は凄くいいともう",
       "bad": "部屋が思っていた以上に狭い  タオルかける場所がない  ユニットバスが狭すぎる  朝食が激混みで、やっと通されたら食べ物がほとんどなく、トレー、お皿もなかった。やっと食べようとしたら、横で机のアルコール清掃をされて、少しかかってしまった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "観光としての立地は凄くいいともう",
       "translated_bad": "部屋が思っていた以上に狭い  タオルかける場所がない  ユニットバスが狭すぎる  朝食が激混みで、やっと通されたら食べ物がほとんどなく、トレー、お皿もなかった。やっと食べようとしたら、横で机のアルコール清掃をされて、少しかかってしまった。",
       "reviewer": "Yasuhito"
     },
@@ -458,7 +460,7 @@
       "good": "スタッフの応対は良かったです",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの応対は良かったです",
       "translated_bad": "",
       "reviewer": "Kyoko"
     },
@@ -588,7 +590,7 @@
       "good": "窓から富士山が見えました。",
       "bad": "あさのお弁当オニギリならジュースではなく、お茶が良かったかな？？",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "窓から富士山が見えました。",
       "translated_bad": "あさのお弁当オニギリならジュースではなく、お茶が良かったかな？？",
       "reviewer": "澤木"
     },
@@ -601,7 +603,7 @@
       "good": "連泊なのにお部屋の清掃入られたことに驚きました。散らかしていて申し訳なかったです。m(_ _)m",
       "bad": "レストラン？が改装中で提供された朝ごはん（お弁当）が残念でした。 あと、エレベーターが遅くて急いでいる時は早めの行動が必要です。（気持ちの問題）",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "連泊なのにお部屋の清掃入られたことに驚きました。散らかしていて申し訳なかったです。m(_ _)m",
       "translated_bad": "レストラン？が改装中で提供された朝ごはん（お弁当）が残念でした。 あと、エレベーターが遅くて急いでいる時は早めの行動が必要です。（気持ちの問題）",
       "reviewer": "Chie"
     },
@@ -1415,6 +1417,19 @@
       "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
+      "date": "2026-02-21",
+      "comment": "",
+      "good": "離車站近，免費早餐菜色不錯。",
+      "bad": "窗外隔音較差，住12樓外面街道聲音仍很清晰。電梯有點慢。",
+      "translated": "",
+      "translated_good": "駅からも近く、無料の朝食の種類もかなり豊富です。",
+      "translated_bad": "窓の外の遮音性は悪く、12階に住んでいても街の騒音がかなり聞こえます。エレベーターも少し遅いです。",
+      "reviewer": "Yun"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
       "date": "2026-02-20",
       "comment": "",
       "good": "",
@@ -1446,9 +1461,22 @@
       "good": "無料で期待していなかったが、なかなか良かった。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "無料で期待していなかったが、なかなか良かった。",
       "translated_bad": "",
       "reviewer": "Keizo"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-19",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Toshie"
     },
     {
       "site": "Agoda",
@@ -1498,7 +1526,7 @@
       "good": "朝食が美味しかった",
       "bad": "チケットが買えなかった",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食が美味しかった",
       "translated_bad": "チケットが買えなかった",
       "reviewer": "後藤"
     },
@@ -1537,9 +1565,22 @@
       "good": "関内駅からは近いかも",
       "bad": "日程を変更したが、スタッフ間で共有されていない。１月２日に施設、その後にBooking.comへ。Booking.comへの連絡時は、途中待たされて、その間にBooking.comと施設間で連絡を取ったとBooking.comの担当から言われた。その際に、施設側にも伝わったとされた。しかし、チェックイン、チェックアウトで日程変更できない、返金できないなどを言われた。返金率も、悪い。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "関内駅からは近いかも",
       "translated_bad": "日程を変更したが、スタッフ間で共有されていない。１月２日に施設、その後にBooking.comへ。Booking.comへの連絡時は、途中待たされて、その間にBooking.comと施設間で連絡を取ったとBooking.comの担当から言われた。その際に、施設側にも伝わったとされた。しかし、チェックイン、チェックアウトで日程変更できない、返金できないなどを言われた。返金率も、悪い。",
       "reviewer": "Hiroyuki"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-02-17",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kenhchi"
     },
     {
       "site": "楽天トラベル",
@@ -1667,7 +1708,7 @@
       "good": "全て良かった",
       "bad": "ない",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "全て良かった",
       "translated_bad": "ない",
       "reviewer": "Minako"
     },
@@ -1724,6 +1765,19 @@
       "reviewer": "まるはむたち"
     },
     {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-14",
+      "comment": "家族旅行で利用しました。駅から近くて，中華街も徒歩圏内。部屋も清潔にされていて，朝食のスムージーが美味しかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "家族旅行で利用しました。駅から近くて，中華街も徒歩圏内。部屋も清潔にされていて，朝食のスムージーが美味しかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
+    },
+    {
       "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
@@ -1732,7 +1786,7 @@
       "good": "ベットが良かった",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ベットが良かった",
       "translated_bad": "",
       "reviewer": "Jupei"
     },
@@ -1771,7 +1825,7 @@
       "good": "駅から近くにある。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅から近くにある。",
       "translated_bad": "",
       "reviewer": "Akira"
     },
@@ -1784,7 +1838,7 @@
       "good": "場所",
       "bad": "全体に窮屈",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "場所",
       "translated_bad": "全体に窮屈",
       "reviewer": "Shunichi"
     },
@@ -1797,7 +1851,7 @@
       "good": "駅から近い",
       "bad": "朝食が混む",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅から近い",
       "translated_bad": "朝食が混む",
       "reviewer": "Takemi"
     },
@@ -1914,9 +1968,22 @@
       "good": "当ホテルは便利なロケーション、温かく行き届いたサービス、そして美味しい朝食を誇ります。",
       "bad": "お酒を飲みながらおしゃべりを楽しむ人には、部屋に椅子が 2 つあると便利です。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "当ホテルは便利なロケーション、温かく行き届いたサービス、そして美味しい朝食を誇ります。",
       "translated_bad": "お酒を飲みながらおしゃべりを楽しむ人には、部屋に椅子が 2 つあると便利です。",
       "reviewer": "Hiroshi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-07",
+      "comment": "",
+      "good": "朝食はよかった",
+      "bad": "特になし",
+      "translated": "",
+      "translated_good": "朝食はよかった",
+      "translated_bad": "特になし",
+      "reviewer": "Yuji"
     },
     {
       "site": "Booking.com",
@@ -1970,5 +2037,18 @@
       "translated_bad": "クリーニング",
       "reviewer": "Akemi"
     }
+  ],
+  "positives": [
+    "ロケーション ウェルカムドリンク",
+    "最高のロケーションです。最寄りの駅まではわずか5分。ホテルの向かいにはコンビニエンスストアがあります。周辺のレストランも素晴らしいです。",
+    "最高のロケーションです。最寄りの駅まではわずか5分。ホテルの向かいにはコンビニエンスストアがあります。周辺のレストランも素晴らしいです。",
+    "トリプルベッドの設定がありがたい。 部屋は清潔で、朝食も期待以上。 また利用したい。",
+    "とてもよかったです。また泊まりたいです。スタッフの方みんな一生懸命でした。朝食カフェスペースがオシャレでした。"
+  ],
+  "negatives": [
+    "チェックイン時、やり方が分からずモタモタしてしまった際、受付の方の対応があまり丁寧では無く、後ろに並んでいる人がいたわけでもないのに、私たちに「早くして」と言う感情がすごく伝わってくるような接客をされて、子どもとせっかく楽しみにして来たのにとても悲しかったです。アメニティーなどの種類も少なすぎて、お値段の割に、サービス的には不親切だな、と感じました。アクセス的には駅から近く、行きやすかったです。近くにスーパーやコンビニがあるのでとても便利でした。",
+    "観光としての立地は凄くいいともう",
+    "予約時に見落としていたこちらのミスかもしれないが、内装工事しており、その関係で音がうるさく、朝食も弁当だった。",
+    "羊頭狗肉で非常に残念な滞在でした。 予約したプランには【朝食ビュッフェが無料！スムージーや期間限定メニュー！】などと大々的に銘打ってありましたが、実際にはチェックイン時に「工事期間のため簡単な弁当になる」と伝えられました。  工事期間は3月7日〜20日だそうで、私が予約したのは3月15日（宿泊は19日）なので、予約入れた時点ですでに工事中でしたね。つまり、宿泊当日は朝食を提供できないと事前に知りながら【朝食ビュッフェ無料】と不実を記載していた、ということになります。少なからず問題だし、トラブルは十分予見できるでしょう。  弁当は写真のとおり非常に粗末で、手をつけませんでした。 まあそれはいいのですが、本件で不愉快な思いをしている宿泊客が多数存在するのは確実なのに、それと知りながら平気で行う姿勢がとても残念です。"
   ]
 }

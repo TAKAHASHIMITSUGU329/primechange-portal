@@ -1,13 +1,24 @@
 {
-  "total_reviews": 132,
-  "overall_avg_10pt": 9.12,
-  "high_count": 118,
-  "high_rate": 89.4,
-  "mid_count": 12,
-  "mid_rate": 9.1,
+  "hotel_name": "京成リッチモンドホテル東京錦糸町",
+  "hotel_key": "keisei_kinshicho",
+  "total_reviews": 148,
+  "overall_avg_10pt": 9.15,
+  "high_count": 133,
+  "high_rate": 89.9,
+  "mid_count": 13,
+  "mid_rate": 8.8,
   "low_count": 2,
-  "low_rate": 1.5,
+  "low_rate": 1.4,
   "site_stats": [
+    {
+      "site": "Booking.com",
+      "count": 67,
+      "native_avg": 8.96,
+      "scale": "/10",
+      "avg_10pt": 8.96,
+      "median_10pt": 9.0,
+      "judgment": "非常に良好"
+    },
     {
       "site": "Trip.com",
       "count": 56,
@@ -15,7 +26,7 @@
       "scale": "/10",
       "avg_10pt": 9.43,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "非常に良好"
     },
     {
       "site": "Google",
@@ -24,16 +35,7 @@
       "scale": "/5",
       "avg_10pt": 9.18,
       "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Booking.com",
-      "count": 51,
-      "native_avg": 8.82,
-      "scale": "/10",
-      "avg_10pt": 8.82,
-      "median_10pt": 9.0,
-      "judgment": "良好"
+      "judgment": "非常に良好"
     },
     {
       "site": "楽天トラベル",
@@ -42,44 +44,44 @@
       "scale": "/5",
       "avg_10pt": 8.0,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 75,
-      "pct": "56.8%"
+      "count": 85,
+      "pct": "57.4%"
     },
     {
       "score": 9,
-      "count": 25,
+      "count": 28,
       "pct": "18.9%"
     },
     {
       "score": 8,
-      "count": 18,
-      "pct": "13.6%"
+      "count": 20,
+      "pct": "13.5%"
     },
     {
       "score": 7,
-      "count": 6,
-      "pct": "4.5%"
+      "count": 7,
+      "pct": "4.7%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "3.8%"
+      "pct": "3.4%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "0.8%"
+      "pct": "0.7%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "1.5%"
+      "pct": "1.4%"
     }
   ],
   "comments": [
@@ -134,6 +136,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "佳萾"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Jade"
     },
     {
       "site": "Trip.com",
@@ -248,7 +263,7 @@
       "good": "La proximité avec la gare, Le petit déjeuner, L'accueil et la gentillesse du personnel",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅に近いこと、朝食、スタッフの温かい歓迎と親切さ",
       "translated_bad": "",
       "reviewer": "Thomas"
     },
@@ -274,9 +289,22 @@
       "good": "Номер комфортный , чистый . Большая ванная . Есть достаточно места для двух больших чемоданов. Большой выбор блюд  на завтраках",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋は快適で清潔です。バスルームも広く、大型スーツケース2個を置くのに十分なスペースがあります。朝食の種類も豊富です。",
       "translated_bad": "",
       "reviewer": "Aleksandr"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "江口"
     },
     {
       "site": "Trip.com",
@@ -300,7 +328,7 @@
       "good": "部屋が広い、風呂が洗い場が別で、使い良い",
       "bad": "無し",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が広い、風呂が洗い場が別で、使い良い",
       "translated_bad": "無し",
       "reviewer": "Seiichi"
     },
@@ -313,9 +341,22 @@
       "good": "お風呂場が広くて快適だった。",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "お風呂場が広くて快適だった。",
       "translated_bad": "特になし",
       "reviewer": "H"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-23",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kc"
     },
     {
       "site": "Trip.com",
@@ -339,7 +380,7 @@
       "good": "The staff here was amazing. Very accommodating and helpful. As foreigners, it was very scary to come and try to communicate but they were very friendly amd answered every question. I highly recommend this place.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ここのスタッフは素晴らしかったです。とても親切で親身になって対応してくれました。外国人として、ここに来てコミュニケーションを取るのはとても不安でしたが、スタッフはとてもフレンドリーで、どんな質問にも答えてくれました。この場所を強くお勧めします。",
       "translated_bad": "",
       "reviewer": "Celia"
     },
@@ -469,7 +510,7 @@
       "good": "入り口の紅茶が良かった",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "入り口の紅茶が良かった",
       "translated_bad": "",
       "reviewer": "Yuko"
     },
@@ -521,7 +562,7 @@
       "good": "Instalaciones cómodas , zona muy tranquila y relativamente cerca de una estación grande.",
       "bad": "Todo bien",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "快適な設備、非常に静かなエリア、そして大きな駅からも比較的近い。",
       "translated_bad": "すべて順調です",
       "reviewer": "Aylin"
     },
@@ -547,7 +588,7 @@
       "good": "キレイなホテルでした",
       "bad": "特にありません。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "キレイなホテルでした",
       "translated_bad": "特にありません。",
       "reviewer": "英一"
     },
@@ -612,9 +653,22 @@
       "good": "Posizione ottimale, a 5' della stazione Kinshicho per cui molto ben collegato per arrivare ovunque.  Attenzione dello staff buona. Colazione buona ma tutti giorni uguale, poco di tutto per esempio i cereali, la frutta anche pochissima.  Camera più spaziosa nel confronto con altri dove siamo stati in Giappone.",
       "bad": "Parlano poco inglese.  Poca offerta di cose nella colazione.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "錦糸町駅から徒歩5分という絶好のロケーションで、どこへ行くにも非常に便利です。スタッフの対応も丁寧でした。朝食は美味しかったのですが、毎日同じメニューで、シリアルなど種類は少なめ、フルーツもほとんどありませんでした。部屋は、日本で泊まった他のホテルよりも広々としていました。",
       "translated_bad": "彼らは英語をほとんど話しません。朝食の種類は限られています。",
       "reviewer": "Bruno"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-15",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Michel"
     },
     {
       "site": "Booking.com",
@@ -651,7 +705,7 @@
       "good": "住宿地離車站近，工作人員親切",
       "bad": "房間枕頭有的太扁或太硬，睡不習慣",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "宿泊施設は駅に近く、スタッフも親切だった。",
       "translated_bad": "部屋にある枕の中には、平らすぎたり硬すぎたりするものがあって、私はそういう枕で寝ることに慣れていないんです。",
       "reviewer": "Chehua"
     },
@@ -664,7 +718,7 @@
       "good": "location and pricing very good",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地と価格設定が非常に良い",
       "translated_bad": "",
       "reviewer": "Binod"
     },
@@ -729,7 +783,7 @@
       "good": "清潔",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "クリーン",
       "translated_bad": "特になし",
       "reviewer": "Onodera"
     },
@@ -755,8 +809,21 @@
       "good": "乾淨整潔 床好睡",
       "bad": "這次checking 的工作人員似乎有點不耐煩 是厭世臉的中年大叔 另外3/9早餐開放時間6:30 也晚了啦」好幾分才開放用餐 這對我們七點多就要離開的著實增加困擾",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で整頓されており、快適なベッドで眠ることができます。",
       "translated_bad": "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては非常に不便でした。",
+      "reviewer": "Sulien"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-10",
+      "comment": "",
+      "good": "交通地點很好 房間很舒適 早餐雖然簡單但都很好吃",
+      "bad": "沒有",
+      "translated": "",
+      "translated_good": "立地は最高で、部屋は快適、朝食はシンプルながらも美味しい。",
+      "translated_bad": "いいえ",
       "reviewer": "Sulien"
     },
     {
@@ -807,7 +874,7 @@
       "good": "交通方便又便利，服務人員很友善，有些會中文，還可以寄放行李，真的很棒👍🏼",
       "bad": "早餐樣式不多，其餘很棒",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "交通の便が良くて簡単で、スタッフはとても親切で、中国語を話せる人もいますし、荷物預かりサービスも受けられます。本当に素晴らしいです！👍🏼",
       "translated_bad": "朝食の種類は豊富ではなかったが、それ以外は素晴らしかった。",
       "reviewer": "Hsin"
     },
@@ -820,9 +887,22 @@
       "good": "Very clean room and nice bathroom    Great view and ventilation    Amazing, helpful staff    Laundry facilities (coin laundry) available    Close to shops and train station, very convenient",
       "bad": "Couldn’t get feather-free bedding despite my allergy request",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "とても清潔な部屋と素敵なバスルーム。眺めも良く風通しも抜群。親切で素晴らしいスタッフ。コインランドリー設備あり。お店や駅にも近く、とても便利。",
       "translated_bad": "アレルギーがあるという私の要望にもかかわらず、羽毛不使用の寝具を入手できませんでした。",
       "reviewer": "Michael"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-07",
+      "comment": "",
+      "good": "とても清潔で綺麗でした",
+      "bad": "なし",
+      "translated": "",
+      "translated_good": "とても清潔で綺麗でした",
+      "translated_bad": "なし",
+      "reviewer": "Harue"
     },
     {
       "site": "Booking.com",
@@ -833,7 +913,7 @@
       "good": "房间很干净，工作人员热情",
       "bad": "没有",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋はとても清潔で、スタッフの方々もとても親切でした。",
       "translated_bad": "いいえ",
       "reviewer": "Jiru"
     },
@@ -916,6 +996,32 @@
       "reviewer": "怡綾"
     },
     {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Junghun"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "飯店地點",
+      "bad": "",
+      "translated": "",
+      "translated_good": "ホテルの場所",
+      "translated_bad": "",
+      "reviewer": "Hsi"
+    },
+    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -927,6 +1033,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-04",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "怡綾"
     },
     {
       "site": "Booking.com",
@@ -950,7 +1069,7 @@
       "good": "位於市中心，生活機能很方便！",
       "bad": "無。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "市内中心部に位置し、日用品へのアクセスが便利です！",
       "translated_bad": "なし。",
       "reviewer": "Zhe"
     },
@@ -1011,7 +1130,7 @@
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-26",
-      "comment": "\"Excellent service and friendly staff! The rooms are larger and cheaper than city-center hotels. Breakfast is good enough for a morning meal. While it’s a short walk from the station, the value for money is unbeatable—especially with the free bath salts and face masks provided. Definitely recommended!\"",
+      "comment": "Excellent service and friendly staff! The rooms are larger and cheaper than city-center hotels. Breakfast is good enough for a morning meal. While it’s a short walk from the station, the value for money is unbeatable—especially with the free bath salts and face masks provided. Definitely recommended!",
       "good": "",
       "bad": "",
       "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分満足できる内容です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
@@ -1106,7 +1225,7 @@
       "good": "とても清潔でした。 チェックインの時戸惑っていましたが丁寧に教えていただきました。完了した後に　同じ福岡ですと和かに言われた時ホッとしました。若い女性で感じ良かったです。 孫が錦糸町で働いていますので また泊まりに来たいです。",
       "bad": "無し",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "とても清潔でした。 チェックインの時戸惑っていましたが丁寧に教えていただきました。完了した後に　同じ福岡ですと和かに言われた時ホッとしました。若い女性で感じ良かったです。 孫が錦糸町で働いていますので また泊まりに来たいです。",
       "translated_bad": "無し",
       "reviewer": "Hisao"
     },
@@ -1176,6 +1295,19 @@
       "reviewer": "Tanabe"
     },
     {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-24",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ray"
+    },
+    {
       "site": "Trip.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
@@ -1210,7 +1342,7 @@
       "good": "駅まで近いので、ゆっくり移動できる。 宿泊前日で予約がとれ助かりました。 また利用するようにします",
       "bad": "アメニティの無くなりがすごく早かった。21時頃なので、気にして頂ければ助かりました。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅まで近いので、ゆっくり移動できる。 宿泊前日で予約がとれ助かりました。 また利用するようにします",
       "translated_bad": "アメニティの無くなりがすごく早かった。21時頃なので、気にして頂ければ助かりました。",
       "reviewer": "Kumamoto"
     },
@@ -1226,6 +1358,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "タクミ"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Katie"
     },
     {
       "site": "Google",
@@ -1262,7 +1407,7 @@
       "good": "スタッフ様の顧客応対が丁寧で美意識の高さを感じます。",
       "bad": "共用部分にクラシック音楽などのBGMが雰囲気程度に流していると､もっと良くなるように感じました。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフ様の顧客応対が丁寧で美意識の高さを感じます。",
       "translated_bad": "共用部分にクラシック音楽などのBGMが雰囲気程度に流していると､もっと良くなるように感じました。",
       "reviewer": "Kohei"
     },
@@ -1379,7 +1524,7 @@
       "good": "New hotel with nice service. good location to go shopping and find a place for dinner.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "サービスの良い新しいホテルです。ショッピングや夕食をとる場所を探すのに便利な立地です。",
       "translated_bad": "",
       "reviewer": "Takao"
     },
@@ -1421,6 +1566,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Damon"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-16",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Shafique"
     },
     {
       "site": "Trip.com",
@@ -1502,6 +1660,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-15",
+      "comment": "",
+      "good": "Location, room, staff at reception",
+      "bad": "",
+      "translated": "",
+      "translated_good": "立地、部屋、受付スタッフ",
+      "translated_bad": "",
+      "reviewer": "Shriya"
+    },
+    {
+      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-02-15",
@@ -1535,7 +1706,7 @@
       "good": "我們小孩不小心把床單弄髒了。他們也沒有叫我們賠償，反而立即幫助我們處理，員工態度都很棒，性價比也不錯，交通也方便",
       "bad": "無，頂多是洗衣機有點不太夠",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "子供がうっかりシーツを汚してしまいましたが、弁償を求められることもなく、すぐに掃除を手伝ってくれました。スタッフは皆とても親切で、料金も手頃、立地も便利でした。",
       "translated_bad": "いいえ、せいぜい洗濯機の台数が足りないだけです。",
       "reviewer": "Tsu"
     },
@@ -1548,7 +1719,7 @@
       "good": "Facility is good, hotel very new and provide different types of tea bag in hotel’s lobby, masks and cream are welcome to use, filter coffee is good.",
       "bad": "I booked 2 rooms, one room for 3 peoples, another room for 2 peoples, the front desk mixed up and gave me wrong room card.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "設備は良好で、ホテルはとても新しく、ロビーには様々な種類のティーバッグが用意されており、マスクやクリームも自由に利用できます。フィルターコーヒーも美味しいです。",
       "translated_bad": "私は2部屋予約しました。1部屋は3人用、もう1部屋は2人用です。フロントの人が間違えて、間違ったルームカードを渡されました。",
       "reviewer": "Amy"
     },
@@ -1626,7 +1797,7 @@
       "good": "ทำเลดีใกล้kinshicho station มีร้านสะดวกซื้อและร้านอาหารมากมาย ห้องพักขนาดกว้างสำหรับTokyo สะอาด อาหารเช้าดี พนักงานน่ารัก สุภาพ",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "錦糸町駅近くという絶好のロケーションで、コンビニやレストランも豊富です。東京にしては広々とした客室、清潔感があり、朝食も美味しく、スタッフも親切で丁寧です。",
       "translated_bad": "",
       "reviewer": "Kanokporn"
     },
@@ -1683,6 +1854,45 @@
       "reviewer": "Sandy"
     },
     {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-09",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Sato"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-09",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "上田"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-09",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Junho"
+    },
+    {
       "site": "Trip.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
@@ -1704,7 +1914,7 @@
       "good": "Great location and good value. I stayed here by myself so the small room was fine with me. The convenience store was near by so it was really convenient. The subway station was close by so you can get to the main part of Tokyo from Kinshicho easily. There's a direct bus to Tokyo Disneyland from Kinshicho station too.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地も良く、料金も手頃でした。一人旅だったので、小さな部屋でも問題ありませんでした。近くにコンビニがあったのでとても便利でした。地下鉄の駅も近かったので、錦糸町から東京の中心部へ簡単にアクセスできます。錦糸町駅から東京ディズニーランド行きの直通バスも出ています。",
       "translated_bad": "",
       "reviewer": "Kaoru"
     },
@@ -1756,7 +1966,7 @@
       "good": "房間空間大",
       "bad": "感覺只有僕床，沒有更換，側所也不像每天清潔，更換的新毛巾就放在床上",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "広い部屋",
       "translated_bad": "ベッドしか使われていないようで、トイレは毎日掃除されておらず、新しいタオルはベッドの上に置きっぱなしだった。",
       "reviewer": "匿名"
     },
@@ -1795,9 +2005,20 @@
       "good": "Its not bad multi conbinis around and some fast food too.",
       "bad": "Its a little far from the station but youll walk past some conbinis on the way and coco and matsuya so if you dont mind walking 10 mins everytime you go out its not that bad.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "周辺には悪くないコンビニエンスストアやファストフード店もある。",
       "translated_bad": "駅から少し遠いですが、途中にコンビニやココ、マツヤなどがあるので、外出するたびに10分歩くのが苦にならないなら、それほど悪くはありません。",
       "reviewer": "Mark"
     }
+  ],
+  "positives": [
+    "サービスは最高でした！部屋に用意されていたワイン、ビール、クッキー、ジュースはすべて無料で、毎日補充されていました！部屋は清潔で整頓されていて、雰囲気も素晴らしかったです！本当に素晴らしい体験でした！👍👍👍",
+    "立地が非常に良く、街の眺めも素晴らしい。",
+    "日本に行くときはいつもこのチェーンホテルに泊まるのが好きです。主な理由は、エコノミーダブルルームの一般的な140cm幅のベッドではなく、150cm幅のベッドがあるからです。2人でも窮屈さを感じずに快適に眠れます。ただし、欠点はベッドが標準サイズなので、部屋のスペースが比較的狭いことです。今回は錦糸町支店に泊まりました。利点は、1. 入口でウェルカムドリンクがあったこと、2. JR錦糸町駅から遠くなく、周辺には飲食店やショッピング施設、24時間営業のスーパーマーケットなどがあり賑やかであることでした。欠点は、禁煙室を予約したのに、トイレ付近でタバコの臭いがしたことです。",
+    "錦糸町駅から徒歩5分という好立地。成田空港から電車で乗り換える必要もありません。ショッピングセンター、ショップ、レストランも近くにあります。スタッフも親切でした。間違いなくまた利用します。",
+    "素晴らしい滞在でした！ホテルはとても素敵で、清潔で快適でした。何より最高だったのは立地です。街の中心部に位置しているので、観光がとても楽でした。賑やかな場所に近いホテルをお探しの方には、ぜひおすすめします！"
+  ],
+  "negatives": [
+    "少し汚れていて、防音性も低い。",
+    "駅まで近いので、ゆっくり移動できる。 宿泊前日で予約がとれ助かりました。 また利用するようにします"
   ]
 }

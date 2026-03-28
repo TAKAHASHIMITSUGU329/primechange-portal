@@ -1,39 +1,32 @@
 {
-  "total_reviews": 143,
-  "overall_avg_10pt": 9.22,
-  "high_count": 139,
-  "high_rate": 97.2,
-  "mid_count": 3,
-  "mid_rate": 2.1,
+  "hotel_name": "コンフォートスイーツ東京ベイ",
+  "hotel_key": "comfort_suites_tokyobay",
+  "total_reviews": 148,
+  "overall_avg_10pt": 9.18,
+  "high_count": 143,
+  "high_rate": 96.6,
+  "mid_count": 4,
+  "mid_rate": 2.7,
   "low_count": 1,
   "low_rate": 0.7,
   "site_stats": [
     {
-      "site": "Trip.com",
-      "count": 15,
-      "native_avg": 9.6,
-      "scale": "/10",
-      "avg_10pt": 9.6,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Agoda",
-      "count": 18,
-      "native_avg": 9.5,
-      "scale": "/10",
-      "avg_10pt": 9.5,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Google",
-      "count": 8,
-      "native_avg": 4.62,
+      "site": "楽天トラベル",
+      "count": 47,
+      "native_avg": 4.59,
       "scale": "/5",
-      "avg_10pt": 9.25,
+      "avg_10pt": 9.19,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "非常に良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 32,
+      "native_avg": 8.75,
+      "scale": "/10",
+      "avg_10pt": 8.75,
+      "median_10pt": 9.0,
+      "judgment": "非常に良好"
     },
     {
       "site": "じゃらん",
@@ -42,47 +35,56 @@
       "scale": "/5",
       "avg_10pt": 9.21,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "非常に良好"
     },
     {
-      "site": "楽天トラベル",
-      "count": 47,
-      "native_avg": 4.6,
-      "scale": "/5",
-      "avg_10pt": 9.19,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Booking.com",
-      "count": 27,
-      "native_avg": 8.85,
+      "site": "Agoda",
+      "count": 18,
+      "native_avg": 9.5,
       "scale": "/10",
-      "avg_10pt": 8.85,
-      "median_10pt": 9.0,
-      "judgment": "良好"
+      "avg_10pt": 9.5,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
+    },
+    {
+      "site": "Trip.com",
+      "count": 15,
+      "native_avg": 9.6,
+      "scale": "/10",
+      "avg_10pt": 9.6,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
+    },
+    {
+      "site": "Google",
+      "count": 8,
+      "native_avg": 4.62,
+      "scale": "/5",
+      "avg_10pt": 9.25,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 83,
-      "pct": "58.0%"
+      "count": 84,
+      "pct": "56.8%"
     },
     {
       "score": 9,
       "count": 16,
-      "pct": "11.2%"
+      "pct": "10.8%"
     },
     {
       "score": 8,
-      "count": 40,
-      "pct": "28.0%"
+      "count": 43,
+      "pct": "29.1%"
     },
     {
       "score": 7,
-      "count": 2,
-      "pct": "1.4%"
+      "count": 3,
+      "pct": "2.0%"
     },
     {
       "score": 6,
@@ -261,7 +263,7 @@
       "good": "全部",
       "bad": "ディズニーの送迎バスの最終時間が早い、もう少しバスの本数と終バスの時間を遅くして欲しい",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "全て",
       "translated_bad": "ディズニーの送迎バスの最終時間が早い、もう少しバスの本数と終バスの時間を遅くして欲しい",
       "reviewer": "Sousuke"
     },
@@ -326,7 +328,7 @@
       "good": "本日、無事にチェックアウトし自宅へ帰宅いたしました。 この2日間、本当に良い思い出を夫婦で創ることができました。その拠点としてコンフォートスイーツ東京ベイを選べて良かったと実感しています。 ウェルカムドリンクや朝食のブュッフェ、それに部屋も過ごしやく1日楽しんで疲れた体を休めることができました。 宿泊前から諸々の詳細情報を教えて頂きありがとうございました。（もちろんAI対応でもありがたいです。） 本来はこの場でのメッセージは場違いだと思いますが、妻は初めてのディズニーリゾートでその記念にこのホテルを選べて大満足で気持ちを伝えたく連絡いたしました。 ありがとうございました。",
       "bad": "特になし。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "本日、無事にチェックアウトし自宅へ帰宅いたしました。 この2日間、本当に良い思い出を夫婦で創ることができました。その拠点としてコンフォートスイーツ東京ベイを選べて良かったと実感しています。 ウェルカムドリンクや朝食のブュッフェ、それに部屋も過ごしやく1日楽しんで疲れた体を休めることができました。 宿泊前から諸々の詳細情報を教えて頂きありがとうございました。（もちろんAI対応でもありがたいです。） 本来はこの場でのメッセージは場違いだと思いますが、妻は初めてのディズニーリゾートでその記念にこのホテルを選べて大満足で気持ちを伝えたく連絡いたしました。 ありがとうございました。",
       "translated_bad": "特になし。",
       "reviewer": "大智"
     },
@@ -352,7 +354,7 @@
       "good": "イベント会場や駅に近くてとても便利でした。",
       "bad": "エアコンや冷蔵庫の音が気になりました",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "イベント会場や駅に近くてとても便利でした。",
       "translated_bad": "エアコンや冷蔵庫の音が気になりました",
       "reviewer": "Ito"
     },
@@ -378,7 +380,7 @@
       "good": "・内装が綺麗 ・チェックイン、チェックアウトが楽 ・ホテル内にコンビニが併設 ・部屋が広かった",
       "bad": "・強いて言うならお風呂の温度と実際に出てくるお湯の温度が差がある",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "・内装が綺麗 ・チェックイン、チェックアウトが楽 ・ホテル内にコンビニが併設 ・部屋が広かった",
       "translated_bad": "・強いて言うならお風呂の温度と実際に出てくるお湯の温度が差がある",
       "reviewer": "Katsuto"
     },
@@ -394,6 +396,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "平田"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-22",
+      "comment": "",
+      "good": "とても清潔にされている。",
+      "bad": "なし",
+      "translated": "",
+      "translated_good": "とても清潔にされている。",
+      "translated_bad": "なし",
+      "reviewer": "Kodera"
     },
     {
       "site": "じゃらん",
@@ -495,7 +510,7 @@
       "good": "ホテルのお部屋の中もとても綺麗で清潔でした。フロントの方も親切でとても快適に過ごしました。朝食も本当に美味しくて、種類もたくさんで是非また泊まらせていただきたいです。ありがとうございました。",
       "bad": "ないです。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ホテルのお部屋の中もとても綺麗で清潔でした。フロントの方も親切でとても快適に過ごしました。朝食も本当に美味しくて、種類もたくさんで是非また泊まらせていただきたいです。ありがとうございました。",
       "translated_bad": "ないです。",
       "reviewer": "飯森"
     },
@@ -872,7 +887,7 @@
       "good": "The rooms where very large(hard to find in Tokyo), always very clean. Staff are beyond friendly and happy to help. All facilities are excellent, free coffee downstairs and amenities. Super quiet area and a nice break from the bustling city of Tokyo",
       "bad": "Only bad thing is it does take quite some time to get from the city to the hotel and often found ourselves getting Ubers which added up after a while. There is a bus that runs straight from the train station to a street over from the hotel which is good in return",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋はとても広く（東京ではなかなか見かけない）、いつも清潔でした。スタッフはとてもフレンドリーで、喜んで手伝ってくれます。設備も充実していて、階下には無料のコーヒーとアメニティがあります。とても静かなエリアで、賑やかな東京の街から離れてゆっくり過ごせます。",
       "translated_bad": "唯一の難点は、市内からホテルまでかなり時間がかかることで、Uberを利用することが多く、料金がかさんでしまうことが多かった。その代わり、駅からホテルのすぐ近くの通りまで直通バスが出ているので便利だ。",
       "reviewer": "Lachlan"
     },
@@ -1319,6 +1334,19 @@
       "reviewer": "Riri"
     },
     {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "子どもが居るので浴槽付きのお風呂だったのでよかった。 小さい子どもとの添い寝だったが、事前にベッドを壁側へ寄せて あり丁寧に対応してもらえた。ベッドガードも準備してくれるので助かった",
+      "bad": "",
+      "translated": "",
+      "translated_good": "子どもが居るので浴槽付きのお風呂だったのでよかった。 小さい子どもとの添い寝だったが、事前にベッドを壁側へ寄せて あり丁寧に対応してもらえた。ベッドガードも準備してくれるので助かった",
+      "translated_bad": "",
+      "reviewer": "Goto"
+    },
+    {
       "site": "Google",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -1379,7 +1407,7 @@
       "good": "子どもが居るので浴槽付きのお風呂だったのでよかった。 小さい子どもとの添い寝だったが、事前にベッドを壁側へ寄せて あり丁寧に対応してもらえた。ベッドガードも準備してくれるので助かった",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "子どもが居るので浴槽付きのお風呂だったのでよかった。 小さい子どもとの添い寝だったが、事前にベッドを壁側へ寄せて あり丁寧に対応してもらえた。ベッドガードも準備してくれるので助かった",
       "translated_bad": "",
       "reviewer": "GOTO"
     },
@@ -1431,7 +1459,7 @@
       "good": "ディズニーに近くで良いです",
       "bad": "特にありません",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ディズニーに近くで良いです",
       "translated_bad": "特にありません",
       "reviewer": "Shouichi"
     },
@@ -1444,7 +1472,7 @@
       "good": "お風呂とトイレが別ですし、お部屋も綺麗です！スタッフの方も親切でした。",
       "bad": "ないです。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "お風呂とトイレが別ですし、お部屋も綺麗です！スタッフの方も親切でした。",
       "translated_bad": "ないです。",
       "reviewer": "Sara"
     },
@@ -1457,9 +1485,22 @@
       "good": "お風呂とトイレが別なところ",
       "bad": "子供分のバスタオルがない（添い寝可能であれば、人数分お願いしたい）",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "お風呂とトイレが別なところ",
       "translated_bad": "子供分のバスタオルがない（添い寝可能であれば、人数分お願いしたい）",
       "reviewer": "Haruka"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Takahashi"
     },
     {
       "site": "じゃらん",
@@ -1626,7 +1667,7 @@
       "good": "客室をグレードアップしてくれていた事",
       "bad": "なし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "客室をグレードアップしてくれていた事",
       "translated_bad": "なし",
       "reviewer": "Kenya"
     },
@@ -1639,7 +1680,7 @@
       "good": "清潔で部屋も朝食もよくコスパ最高でした。",
       "bad": "ディズニーに預けるスーツケースについて尋ねたのですが、 ディズニーのロッカー空きがなければ園内に持参して歩くしかないと言われました。 男性のスタッフの方でしたが、正確ではない情報で困惑しました。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で部屋も朝食もよくコスパ最高でした。",
       "translated_bad": "ディズニーに預けるスーツケースについて尋ねたのですが、 ディズニーのロッカー空きがなければ園内に持参して歩くしかないと言われました。 男性のスタッフの方でしたが、正確ではない情報で困惑しました。",
       "reviewer": "杉崎"
     },
@@ -1720,6 +1761,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "にゃんちぃー⭐︎⭐︎"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-18",
+      "comment": "",
+      "good": "とても清潔だった。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "とても清潔だった。",
+      "translated_bad": "",
+      "reviewer": "遠藤"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-18",
+      "comment": "",
+      "good": "清潔さとスタッフの対応",
+      "bad": "布団が固定されていて自由に動かせなかったこと",
+      "translated": "",
+      "translated_good": "清潔さとスタッフの対応",
+      "translated_bad": "布団が固定されていて自由に動かせなかったこと",
+      "reviewer": "Nanami"
     },
     {
       "site": "Booking.com",
@@ -1821,7 +1888,7 @@
       "good": "ベットが広く、冷蔵庫やレンジなどの設備も整っており、遅くに入室しても食事など困らなかった。 バストイレ別もありがたかった。",
       "bad": "特にありません。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ベットが広く、冷蔵庫やレンジなどの設備も整っており、遅くに入室しても食事など困らなかった。 バストイレ別もありがたかった。",
       "translated_bad": "特にありません。",
       "reviewer": "Hisae"
     },
@@ -1886,7 +1953,7 @@
       "good": "遅い時間のチェックインでしだが、丁寧に教えて頂き分かりやすかった。部屋も綺麗で凄く過ごしやすかった！",
       "bad": "とくになし。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "遅い時間のチェックインでしだが、丁寧に教えて頂き分かりやすかった。部屋も綺麗で凄く過ごしやすかった！",
       "translated_bad": "とくになし。",
       "reviewer": "らんとるるの"
     },
@@ -1955,5 +2022,13 @@
       "translated_bad": "",
       "reviewer": "きりゅう0727"
     }
-  ]
+  ],
+  "positives": [
+    "大満足のホテルでした、ここ数年で一番。 ロケーションは、窓が小さく、磨りガラスだったのと雨降りだったのでいまいちでした。 温泉は、あったのかな？ここはわからないから星3個。 基本は大満足、リピートも考えるホテルでした。",
+    "忘れ物しても返ってきました。神です。",
+    "ディズニーで遊んだ後に利用させていただきました。子ども2人と添い寝しても十分な大きさのベッドで、しっかり休めました。 朝食は子どもが好きなメニューが多く、たくさん食べることができました。畳の席があり、赤ちゃん連れでもゆっくり食べられてよかったです。 また利用したいです。",
+    "スタッフの方が親切で、声をかけてくれたり、ディズニー帰りで混み合っていてもスムーズな流れで何でも出来て良かった。",
+    "部屋に入った時のお楽しみ、ウェルカムドリンク、モーニングビュッフェのキッズメニューやおまけのお菓子など、子供を楽しませるためにいろいろ考えて下さってます。 ひとつ問題をあげるなら、ディズニーからホテルへ戻る時のバスが止まる場所が曖昧なことくらいです。"
+  ],
+  "negatives": []
 }

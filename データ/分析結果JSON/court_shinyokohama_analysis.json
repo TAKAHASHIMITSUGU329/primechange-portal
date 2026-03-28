@@ -1,17 +1,37 @@
 {
-  "total_reviews": 118,
-  "overall_avg_10pt": 7.12,
-  "high_count": 60,
-  "high_rate": 50.8,
-  "mid_count": 44,
-  "mid_rate": 37.3,
-  "low_count": 14,
-  "low_rate": 11.9,
+  "hotel_name": "コートホテル新横浜",
+  "hotel_key": "court_shinyokohama",
+  "total_reviews": 148,
+  "overall_avg_10pt": 7.13,
+  "high_count": 70,
+  "high_rate": 47.3,
+  "mid_count": 61,
+  "mid_rate": 41.2,
+  "low_count": 17,
+  "low_rate": 11.5,
   "site_stats": [
+    {
+      "site": "Booking.com",
+      "count": 121,
+      "native_avg": 7.07,
+      "scale": "/10",
+      "avg_10pt": 7.07,
+      "median_10pt": 7.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "じゃらん",
+      "count": 11,
+      "native_avg": 3.63,
+      "scale": "/5",
+      "avg_10pt": 7.27,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
     {
       "site": "Google",
       "count": 7,
-      "native_avg": 3.86,
+      "native_avg": 3.85,
       "scale": "/5",
       "avg_10pt": 7.71,
       "median_10pt": 8.0,
@@ -27,24 +47,6 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "じゃらん",
-      "count": 11,
-      "native_avg": 3.64,
-      "scale": "/5",
-      "avg_10pt": 7.27,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
-      "site": "Booking.com",
-      "count": 91,
-      "native_avg": 7.03,
-      "scale": "/10",
-      "avg_10pt": 7.03,
-      "median_10pt": 7.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "Trip.com",
       "count": 3,
       "native_avg": 6.67,
@@ -57,48 +59,48 @@
   "distribution": [
     {
       "score": 10,
-      "count": 16,
-      "pct": "13.6%"
+      "count": 19,
+      "pct": "12.8%"
     },
     {
       "score": 9,
-      "count": 10,
-      "pct": "8.5%"
+      "count": 13,
+      "pct": "8.8%"
     },
     {
       "score": 8,
-      "count": 34,
-      "pct": "28.8%"
+      "count": 38,
+      "pct": "25.7%"
     },
     {
       "score": 7,
-      "count": 18,
-      "pct": "15.3%"
+      "count": 31,
+      "pct": "20.9%"
     },
     {
       "score": 6,
-      "count": 15,
-      "pct": "12.7%"
+      "count": 19,
+      "pct": "12.8%"
     },
     {
       "score": 5,
       "count": 11,
-      "pct": "9.3%"
+      "pct": "7.4%"
     },
     {
       "score": 4,
-      "count": 8,
+      "count": 10,
       "pct": "6.8%"
     },
     {
       "score": 3,
-      "count": 3,
-      "pct": "2.5%"
+      "count": 4,
+      "pct": "2.7%"
     },
     {
       "score": 2,
       "count": 3,
-      "pct": "2.5%"
+      "pct": "2.0%"
     }
   ],
   "comments": [
@@ -117,6 +119,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-28",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mutsunori"
+    },
+    {
+      "site": "Booking.com",
       "rating": 5.0,
       "rating_10pt": 5.0,
       "date": "2026-02-28",
@@ -127,6 +142,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Hisashi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-28",
+      "comment": "",
+      "good": "静かで清潔でスタッフの対応も満足のいくものだった。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "静かで清潔でスタッフの対応も満足のいくものだった。",
+      "translated_bad": "",
+      "reviewer": "Yukitoku"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-28",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ayuta"
     },
     {
       "site": "Booking.com",
@@ -163,7 +204,7 @@
       "good": "部屋が綺麗。部屋をグレードアップしてくれた。スタッフも感じが良い。ゆっくりできた。",
       "bad": "特にない",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が綺麗。部屋をグレードアップしてくれた。スタッフも感じが良い。ゆっくりできた。",
       "translated_bad": "特にない",
       "reviewer": "Nakamura"
     },
@@ -189,9 +230,22 @@
       "good": "朝食がバラエティでとても良かったです。",
       "bad": "チェックインで前払しましたが、領収は帰る時で良いですか？との質問をされました。多額をお支払いしてるのだから、即領収書を発行してもらわないと不安です。例えば領収書を貰ってないと、まだ宿泊費頂いてないです!!と、言われればそれまでですよね、、",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "朝食がバラエティでとても良かったです。",
       "translated_bad": "チェックインで前払しましたが、領収は帰る時で良いですか？との質問をされました。多額をお支払いしてるのだから、即領収書を発行してもらわないと不安です。例えば領収書を貰ってないと、まだ宿泊費頂いてないです!!と、言われればそれまでですよね、、",
       "reviewer": "Ii"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Keisuke"
     },
     {
       "site": "楽天トラベル",
@@ -228,7 +282,7 @@
       "good": "値段がそれなりで安い",
       "bad": "室内の温度が高くて寝苦しい 窓を開ければ多少緩和されたがそれでもこの時期が寒いとはいえ、室温調節ができないのが辛かった トイレ周りが汚い",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "値段がそれなりで安い",
       "translated_bad": "室内の温度が高くて寝苦しい 窓を開ければ多少緩和されたがそれでもこの時期が寒いとはいえ、室温調節ができないのが辛かった トイレ周りが汚い",
       "reviewer": "Mochizuki"
     },
@@ -267,7 +321,7 @@
       "good": "駅から近いので便利",
       "bad": "エアコンが暖房のみだった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅から近いので便利",
       "translated_bad": "エアコンが暖房のみだった。",
       "reviewer": "恭也"
     },
@@ -293,7 +347,7 @@
       "good": "雨が降ってたので、傘はありますか？と聞いてくださったこと。心配りを感じました。",
       "bad": "古いホテルなので水回りしょうがないですね。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "雨が降ってたので、傘はありますか？と聞いてくださったこと。心配りを感じました。",
       "translated_bad": "古いホテルなので水回りしょうがないですね。",
       "reviewer": "Maiko"
     },
@@ -306,7 +360,7 @@
       "good": "横浜アリーナに近い",
       "bad": "エアコン設置されてるが温度調整出来ない。風呂や机、いろんなところが破損していた。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "横浜アリーナに近い",
       "translated_bad": "エアコン設置されてるが温度調整出来ない。風呂や机、いろんなところが破損していた。",
       "reviewer": "Masato"
     },
@@ -338,6 +392,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kaitlin"
+    },
+    {
+      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-02-23",
@@ -351,6 +418,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mio"
+    },
+    {
+      "site": "Booking.com",
       "rating": 4.0,
       "rating_10pt": 4.0,
       "date": "2026-02-23",
@@ -358,9 +438,22 @@
       "good": "繁華街や駅に近い",
       "bad": "トイレの匂いが臭い！ 寝る時も気になった…",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "繁華街や駅に近い",
       "translated_bad": "トイレの匂いが臭い！ 寝る時も気になった…",
       "reviewer": "Ando"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-23",
+      "comment": "",
+      "good": "料金よりコスパ最高でした。新横浜駅にちかくて便利でした。",
+      "bad": "あまりない。",
+      "translated": "",
+      "translated_good": "料金よりコスパ最高でした。新横浜駅にちかくて便利でした。",
+      "translated_bad": "あまりない。",
+      "reviewer": "Lucky"
     },
     {
       "site": "Trip.com",
@@ -400,6 +493,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Kazuaki"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ryo"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Takafumi"
     },
     {
       "site": "Booking.com",
@@ -475,9 +594,22 @@
       "good": "全て",
       "bad": "特にない",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "全て",
       "translated_bad": "特にない",
       "reviewer": "Miyuu"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-20",
+      "comment": "",
+      "good": "立地条件がよかった",
+      "bad": "エアコンの温度調節ができなかったのが残念",
+      "translated": "",
+      "translated_good": "立地条件がよかった",
+      "translated_bad": "エアコンの温度調節ができなかったのが残念",
+      "reviewer": "Eri"
     },
     {
       "site": "Booking.com",
@@ -507,6 +639,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-19",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kanon"
+    },
+    {
+      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-02-19",
@@ -527,7 +672,7 @@
       "good": "安い",
       "bad": "ちょっとバスルームカーテンが雑菌臭で臭いのと、トイレの流す水が少なすぎて、トイレットペーパーが初回では流れないのが不満かなあ。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "安い",
       "translated_bad": "ちょっとバスルームカーテンが雑菌臭で臭いのと、トイレの流す水が少なすぎて、トイレットペーパーが初回では流れないのが不満かなあ。",
       "reviewer": "七條"
     },
@@ -540,7 +685,7 @@
       "good": "当たり前が一番いい感じ",
       "bad": "窓の開閉しない事だけ",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "当たり前が一番いい感じ",
       "translated_bad": "窓の開閉しない事だけ",
       "reviewer": "Tadaaki"
     },
@@ -637,6 +782,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-16",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Midori"
+    },
+    {
+      "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-16",
@@ -657,7 +815,7 @@
       "good": "ロケーションは最高に良い",
       "bad": "エレベーターに一番近い部屋だったのか宿泊客なのかスタッフの発するノイズ、隣室のいびき等がうるさくて安眠出来なかった。照明、風呂などの設備も古い。アメニティをケチっている。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ロケーションは最高に良い",
       "translated_bad": "エレベーターに一番近い部屋だったのか宿泊客なのかスタッフの発するノイズ、隣室のいびき等がうるさくて安眠出来なかった。照明、風呂などの設備も古い。アメニティをケチっている。",
       "reviewer": "Tetsuya"
     },
@@ -715,6 +873,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-02-15",
+      "comment": "",
+      "good": "フロントの方が丁寧な対応をしてくれたこと。駐車場のことを尋ねると分かりやすく説明してくれた。",
+      "bad": "施設は悪くはないのですが古かったです",
+      "translated": "",
+      "translated_good": "フロントの方が丁寧な対応をしてくれたこと。駐車場のことを尋ねると分かりやすく説明してくれた。",
+      "translated_bad": "施設は悪くはないのですが古かったです",
+      "reviewer": "Miki"
+    },
+    {
+      "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
       "date": "2026-02-15",
@@ -722,7 +893,7 @@
       "good": "お部屋がとても広くきれいで、掃除も行き届いていて、快適に過ごすことができました。 ベッドもひとりで寝るには十分過ぎるほどの大きさで、シーツなども清潔で熟睡できました。",
       "bad": "設備が古いので仕方ないかと思われますが、浴槽の排水に時間がかかりました。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "お部屋がとても広くきれいで、掃除も行き届いていて、快適に過ごすことができました。 ベッドもひとりで寝るには十分過ぎるほどの大きさで、シーツなども清潔で熟睡できました。",
       "translated_bad": "設備が古いので仕方ないかと思われますが、浴槽の排水に時間がかかりました。",
       "reviewer": "中村"
     },
@@ -787,9 +958,22 @@
       "good": "暖房がきいていた。",
       "bad": "加湿器が設置されていない。貸出をしているかもしれないが、とりに行くのが面倒。便座がずれているので、壊れないかと心配。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "暖房がきいていた。",
       "translated_bad": "加湿器が設置されていない。貸出をしているかもしれないが、とりに行くのが面倒。便座がずれているので、壊れないかと心配。",
       "reviewer": "Akiko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-12",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "茉耶"
     },
     {
       "site": "Booking.com",
@@ -806,6 +990,32 @@
     },
     {
       "site": "Booking.com",
+      "rating": 3.0,
+      "rating_10pt": 3.0,
+      "date": "2026-02-12",
+      "comment": "",
+      "good": "",
+      "bad": "エアコンのコントローラーが壊れていて、暑くて眠れなかった。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "エアコンのコントローラーが壊れていて、暑くて眠れなかった。",
+      "reviewer": "Miho"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-02-12",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Monica"
+    },
+    {
+      "site": "Booking.com",
       "rating": 8.0,
       "rating_10pt": 8.0,
       "date": "2026-02-12",
@@ -813,7 +1023,7 @@
       "good": "横浜アリーナから近くて宿泊費もお手頃価格でした",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "横浜アリーナから近くて宿泊費もお手頃価格でした",
       "translated_bad": "",
       "reviewer": "Taketo"
     },
@@ -829,6 +1039,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Kanta"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-12",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yamamoto"
     },
     {
       "site": "Booking.com",
@@ -865,7 +1088,7 @@
       "good": "コーヒーとミネラルウォーターのサービスが良かった",
       "bad": "特にない",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "コーヒーとミネラルウォーターのサービスが良かった",
       "translated_bad": "特にない",
       "reviewer": "Mic"
     },
@@ -878,7 +1101,7 @@
       "good": "スタッフの方がとても愛想良くて話しやすかったです。あと駅から近いのがよかったです。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの方がとても愛想良くて話しやすかったです。あと駅から近いのがよかったです。",
       "translated_bad": "",
       "reviewer": "Reina"
     },
@@ -925,6 +1148,19 @@
       "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
+      "date": "2026-01-30",
+      "comment": "",
+      "good": "綺麗",
+      "bad": "エアコンが、調整出来なかった。",
+      "translated": "",
+      "translated_good": "綺麗",
+      "translated_bad": "エアコンが、調整出来なかった。",
+      "reviewer": "岩崎"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
       "date": "2026-01-29",
       "comment": "",
       "good": "",
@@ -943,7 +1179,7 @@
       "good": "ベッドが広くてゆったりできた。",
       "bad": "特になし",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ベッドが広くてゆったりできた。",
       "translated_bad": "特になし",
       "reviewer": "Shigetaka"
     },
@@ -982,7 +1218,7 @@
       "good": "チェックイン、チェックアウトどちらも楽 以前は鍵だった気がする？電子に変わり使い易い 日の当たるテーブルで朝御飯を食べて元気が出ました",
       "bad": "部屋によるのかもしれませんがユニットバスと部屋の段差が怖いかなと思いました",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "チェックイン、チェックアウトどちらも楽 以前は鍵だった気がする？電子に変わり使い易い 日の当たるテーブルで朝御飯を食べて元気が出ました",
       "translated_bad": "部屋によるのかもしれませんがユニットバスと部屋の段差が怖いかなと思いました",
       "reviewer": "Tachikawa"
     },
@@ -1008,7 +1244,7 @@
       "good": "Hotel fica numa boa localização",
       "bad": "O ar condicionado é central.. então não dá pra regular temperatura. Passamos muito calor!!",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ホテルは立地が良い。",
       "translated_bad": "エアコンは集中式なので、温度調節ができません。とても暑くなります！",
       "reviewer": "Juliana"
     },
@@ -1021,7 +1257,7 @@
       "good": "近年機械でのチェックインが増えている中、ふろんとにてあ対面でのチェックインもいいなと感じました",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "近年機械でのチェックインが増えている中、ふろんとにてあ対面でのチェックインもいいなと感じました",
       "translated_bad": "",
       "reviewer": "Hana"
     },
@@ -1086,7 +1322,7 @@
       "good": "新横浜駅から近くで立地が良かった。",
       "bad": "各部屋の騒音がうるさかった。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "新横浜駅から近くで立地が良かった。",
       "translated_bad": "各部屋の騒音がうるさかった。",
       "reviewer": "Masaharu"
     },
@@ -1112,7 +1348,7 @@
       "good": "素泊まりだったので良くわかりません。",
       "bad": "素泊まりだったので良くわかりません。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "素泊まりだったので良くわかりません。",
       "translated_bad": "素泊まりだったので良くわかりません。",
       "reviewer": "Kenichi"
     },
@@ -1138,7 +1374,7 @@
       "good": "スタッフの方の対応が親切丁寧",
       "bad": "施設設備が少し古く感じました",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの方の対応が親切丁寧",
       "translated_bad": "施設設備が少し古く感じました",
       "reviewer": "Toshitaka"
     },
@@ -1177,9 +1413,22 @@
       "good": "新横浜駅からも近く、かつリーズナブルな価格帯でした。",
       "bad": "蛇口が熱湯が出る古いタイプで、冷水の蛇口と調節しないといけなかったので、ちょっとめんどくさかったです。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "新横浜駅からも近く、かつリーズナブルな価格帯でした。",
       "translated_bad": "蛇口が熱湯が出る古いタイプで、冷水の蛇口と調節しないといけなかったので、ちょっとめんどくさかったです。",
       "reviewer": "Mayuko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-01-25",
+      "comment": "",
+      "good": "無料コーヒーあり 荷物預かり",
+      "bad": "",
+      "translated": "",
+      "translated_good": "無料コーヒーあり 荷物預かり",
+      "translated_bad": "",
+      "reviewer": "Junji"
     },
     {
       "site": "Booking.com",
@@ -1196,6 +1445,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-01-25",
+      "comment": "",
+      "good": "スタッフの方の対応がとても良かったです。",
+      "bad": "声がまあまあ聞こえる",
+      "translated": "",
+      "translated_good": "スタッフの方の対応がとても良かったです。",
+      "translated_bad": "声がまあまあ聞こえる",
+      "reviewer": "Chinami"
+    },
+    {
+      "site": "Booking.com",
       "rating": 5.0,
       "rating_10pt": 5.0,
       "date": "2026-01-25",
@@ -1209,6 +1471,32 @@
     },
     {
       "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-01-25",
+      "comment": "",
+      "good": "ホテルの部屋は普通です。  今回OPで朝食つけましたが、とても美味しく頂きました。  地下鉄からも然程遠くなく、便利な場所です。",
+      "bad": "荷物置き場が有れば便利",
+      "translated": "",
+      "translated_good": "ホテルの部屋は普通です。  今回OPで朝食つけましたが、とても美味しく頂きました。  地下鉄からも然程遠くなく、便利な場所です。",
+      "translated_bad": "荷物置き場が有れば便利",
+      "reviewer": "Masami"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-01-25",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Erica"
+    },
+    {
+      "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
       "date": "2026-01-25",
@@ -1216,7 +1504,7 @@
       "good": "スタッフの対応がよく、ウェルカムドリンクが良かったです。",
       "bad": "清潔だが、全体的に年数が感じられた。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの対応がよく、ウェルカムドリンクが良かったです。",
       "translated_bad": "清潔だが、全体的に年数が感じられた。",
       "reviewer": "カヨ"
     },
@@ -1255,7 +1543,7 @@
       "good": "Trato de los empleados,limpieza y servicios",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "従業員の待遇、清潔さ、サービス",
       "translated_bad": "",
       "reviewer": "ルイス"
     },
@@ -1312,6 +1600,19 @@
       "reviewer": "Awazu"
     },
     {
+      "site": "Booking.com",
+      "rating": 4.0,
+      "rating_10pt": 4.0,
+      "date": "2026-01-23",
+      "comment": "",
+      "good": "ごく普通に寛げた",
+      "bad": "お湯の温度調節 部屋着が浴衣でひきずる スタッフに笑顔がなく冷たい態度の人がいた。どこでもそうだがそんな人にあたると途端に印象悪くなります",
+      "translated": "",
+      "translated_good": "ごく普通に寛げた",
+      "translated_bad": "お湯の温度調節 部屋着が浴衣でひきずる スタッフに笑顔がなく冷たい態度の人がいた。どこでもそうだがそんな人にあたると途端に印象悪くなります",
+      "reviewer": "Masami"
+    },
+    {
       "site": "Google",
       "rating": 3.0,
       "rating_10pt": 6.0,
@@ -1359,7 +1660,7 @@
       "good": "駅から割と近い所",
       "bad": "設備",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅から割と近い所",
       "translated_bad": "装置",
       "reviewer": "Shota"
     },
@@ -1372,9 +1673,35 @@
       "good": "部屋は明るく期待以上の清潔さだった",
       "bad": "シャワールームが暗くイメージが悪いです。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋は明るく期待以上の清潔さだった",
       "translated_bad": "シャワールームが暗くイメージが悪いです。",
       "reviewer": "Nobuya"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-01-22",
+      "comment": "",
+      "good": "落ち着いた雰囲気",
+      "bad": "ないです。",
+      "translated": "",
+      "translated_good": "落ち着いた雰囲気",
+      "translated_bad": "ないです。",
+      "reviewer": "Kannaka"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-01-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Dai"
     },
     {
       "site": "Booking.com",
@@ -1388,6 +1715,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Takeshi"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-01-22",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "江下"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 4.0,
+      "rating_10pt": 4.0,
+      "date": "2026-01-22",
+      "comment": "",
+      "good": "",
+      "bad": "夜中に何度もドアをノックする人がいて気持ち悪かった",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "夜中に何度もドアをノックする人がいて気持ち悪かった",
+      "reviewer": "Chika"
     },
     {
       "site": "Booking.com",
@@ -1411,7 +1764,7 @@
       "good": "緊急で部屋が取れた",
       "bad": "とくにないですね。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "緊急で部屋が取れた",
       "translated_bad": "とくにないですね。",
       "reviewer": "水島"
     },
@@ -1476,7 +1829,7 @@
       "good": "新横浜からの近さ",
       "bad": "建物が古いため汚れが目立つ",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "新横浜からの近さ",
       "translated_bad": "建物が古いため汚れが目立つ",
       "reviewer": "ひよし"
     },
@@ -1515,7 +1868,7 @@
       "good": "部屋が広いことと、ベッドがゆったりできるサイズだったこと。",
       "bad": "連泊だったのですが、使ったマグカップがそのままだったこと。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が広いことと、ベッドがゆったりできるサイズだったこと。",
       "translated_bad": "連泊だったのですが、使ったマグカップがそのままだったこと。",
       "reviewer": "Midori"
     },
@@ -1593,9 +1946,48 @@
       "good": "新横浜駅から徒歩で数分なので非常に利便が良いです。また、付にローソンとファミマが有り必要な物も揃えやすかったです。",
       "bad": "お風呂にあるシャンプー、リンス、ボディソープは髪や肌がガサガサになるのでオススメしません。 持参するか、新横浜駅にある薬局で旅行タイプの物を購入して使用されるのが良いです。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "新横浜駅から徒歩で数分なので非常に利便が良いです。また、付にローソンとファミマが有り必要な物も揃えやすかったです。",
       "translated_bad": "お風呂にあるシャンプー、リンス、ボディソープは髪や肌がガサガサになるのでオススメしません。 持参するか、新横浜駅にある薬局で旅行タイプの物を購入して使用されるのが良いです。",
       "reviewer": "Yuto"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-01-19",
+      "comment": "",
+      "good": "",
+      "bad": "部屋に内線電話がない！",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "部屋に内線電話がない！",
+      "reviewer": "Yosihiko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-01-19",
+      "comment": "",
+      "good": "余計なものがない、ベッドは清潔感がありました",
+      "bad": "大浴場などがない",
+      "translated": "",
+      "translated_good": "余計なものがない、ベッドは清潔感がありました",
+      "translated_bad": "大浴場などがない",
+      "reviewer": "Takaki"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-01-19",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Rino"
     },
     {
       "site": "Google",
@@ -1632,9 +2024,22 @@
       "good": "フロントの対応は、親切であった印象。  コーヒーメイカー時間がかかり行列！香のよいところが、救われました。ありがとう。",
       "bad": "1）洗面台の取り付けが、外れていた。  外観も台座が外れていて、ひどい状態であった。チェックインが遅くなったので、修理は、無理であろうと判断。  文句を言う気も起こらず。  2）便器ぼ、蓋とずれており。これで、高い料金を取るのか？と疑いたくなった。紹介してくれた友人には、写真を見せておきました。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "フロントの対応は、親切であった印象。  コーヒーメイカー時間がかかり行列！香のよいところが、救われました。ありがとう。",
       "translated_bad": "1）洗面台の取り付けが、外れていた。  外観も台座が外れていて、ひどい状態であった。チェックインが遅くなったので、修理は、無理であろうと判断。  文句を言う気も起こらず。  2）便器ぼ、蓋とずれており。これで、高い料金を取るのか？と疑いたくなった。紹介してくれた友人には、写真を見せておきました。",
       "reviewer": "Kaneda"
     }
+  ],
+  "positives": [
+    "部屋が綺麗。部屋をグレードアップしてくれた。スタッフも感じが良い。ゆっくりできた。",
+    "少し建物古いかも。シャワーの温度調節に苦労します。",
+    "雨が降ってたので、傘はありますか？と聞いてくださったこと。心配りを感じました。",
+    "大変よいホテルで満足です",
+    "スタッフの方は、丁寧で対応も良かったです。  部屋も広くきれいで清潔感もあり気持ち良く  過ごせました。  ただ一つ…暖房を入れていないのに暑く冷房  が使えたらと…思いました。"
+  ],
+  "negatives": [
+    "駅から近いので便利",
+    "横浜アリーナに近い",
+    "繁華街や駅に近い",
+    "安い"
   ]
 }

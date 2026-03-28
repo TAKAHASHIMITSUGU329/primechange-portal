@@ -1,30 +1,32 @@
 {
-  "total_reviews": 131,
-  "overall_avg_10pt": 8.19,
-  "high_count": 103,
-  "high_rate": 78.6,
-  "mid_count": 19,
-  "mid_rate": 14.5,
+  "hotel_name": "コンフォートイン六本木",
+  "hotel_key": "comfort_roppongi",
+  "total_reviews": 142,
+  "overall_avg_10pt": 8.23,
+  "high_count": 113,
+  "high_rate": 79.6,
+  "mid_count": 20,
+  "mid_rate": 14.1,
   "low_count": 9,
-  "low_rate": 6.9,
+  "low_rate": 6.3,
   "site_stats": [
     {
-      "site": "じゃらん",
-      "count": 1,
-      "native_avg": 5.0,
-      "scale": "/5",
-      "avg_10pt": 10.0,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
+      "site": "Booking.com",
+      "count": 75,
+      "native_avg": 8.25,
+      "scale": "/10",
+      "avg_10pt": 8.25,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
     },
     {
-      "site": "Trip.com",
-      "count": 9,
-      "native_avg": 9.67,
-      "scale": "/10",
-      "avg_10pt": 9.67,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
+      "site": "Google",
+      "count": 35,
+      "native_avg": 3.88,
+      "scale": "/5",
+      "avg_10pt": 7.77,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
     },
     {
       "site": "楽天トラベル",
@@ -33,25 +35,16 @@
       "scale": "/5",
       "avg_10pt": 8.47,
       "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Booking.com",
-      "count": 65,
-      "native_avg": 8.2,
-      "scale": "/10",
-      "avg_10pt": 8.2,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 34,
-      "native_avg": 3.85,
-      "scale": "/5",
-      "avg_10pt": 7.71,
-      "median_10pt": 8.0,
       "judgment": "概ね良好"
+    },
+    {
+      "site": "Trip.com",
+      "count": 9,
+      "native_avg": 9.67,
+      "scale": "/10",
+      "avg_10pt": 9.67,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
     },
     {
       "site": "Agoda",
@@ -60,49 +53,58 @@
       "scale": "/10",
       "avg_10pt": 7.4,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
+      "judgment": "要改善"
+    },
+    {
+      "site": "じゃらん",
+      "count": 1,
+      "native_avg": 5.0,
+      "scale": "/5",
+      "avg_10pt": 10.0,
+      "median_10pt": 10.0,
+      "judgment": "非常に良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 44,
-      "pct": "33.6%"
+      "count": 49,
+      "pct": "34.5%"
     },
     {
       "score": 9,
-      "count": 17,
-      "pct": "13.0%"
+      "count": 18,
+      "pct": "12.7%"
     },
     {
       "score": 8,
-      "count": 42,
-      "pct": "32.1%"
+      "count": 46,
+      "pct": "32.4%"
     },
     {
       "score": 7,
       "count": 10,
-      "pct": "7.6%"
+      "pct": "7.0%"
     },
     {
       "score": 6,
       "count": 7,
-      "pct": "5.3%"
+      "pct": "4.9%"
     },
     {
       "score": 5,
-      "count": 2,
-      "pct": "1.5%"
+      "count": 3,
+      "pct": "2.1%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "1.5%"
+      "pct": "1.4%"
     },
     {
       "score": 2,
       "count": 7,
-      "pct": "5.3%"
+      "pct": "4.9%"
     }
   ],
   "comments": [
@@ -115,7 +117,7 @@
       "good": "방이 넓고 위치가 좋음",
       "bad": "직원 대응이 별로임",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋が広く位置が良い",
       "translated_bad": "従業員の対応はあまりありません",
       "reviewer": "Munkyun"
     },
@@ -193,7 +195,7 @@
       "good": "도쿄 숙소 중에 엄청 넓은 편이고 롯폰기 역 거의 바로 앞이라 좋았어요! 엘레베이터 있는 출구에서는 조금 더 멀지만 큰 짐 없이 이동 시에는 역에서 매우매우 가깝습니다. 작지만 욕조도 있고, 로비에서 커피도 무료로 줘서 괜찮았어요. 나리타 공항에서는 접근성이 좋은 편은 아니지만 도쿄 여기저기 다니기는 매우 괜찮습니다. 롯폰기역 나와서 호텔 가기 전에 패밀리마트있고 돈키호테 가는쪽에 세븐일레븐 있어요. 칼같이 3시 체크인 시켜주시긴 하지만 큰 단점은 아니라고 생각합니다. 청소도 매일 해주셔서 좋았어요!",
       "bad": "호텔이 도로에 가까이 붙어있어서 밤에 예민하신 분들은 귀마개 챙겨오셔야 할듯해요. 그리고 욕실이 좀 낡은 점? 빼고는 크게 단점이 없었어요 편의점이 패미마 말고는 아주 가까이 없다는 점이 조오금 아쉬워요",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "東京宿舎の中でとても広い方で、六本木駅ほぼすぐ前で良かったです！エレベーターのある出口からはもう少し遠いですが、大きな荷物なしで移動時には駅からとてもとても近いです。小さいけど浴槽もあって、ロビーでコーヒーも無料でくれてよかったです。成田空港ではアクセシビリティが良い方ではありませんが、東京のあちこちで通うのはとても大丈夫です。六本木駅出てホテルに行く前にファミリーマートあり、ドン・キホーテ行く側にセブンイレブンあります。剣のように3時チェックインさせていただきますが大きな欠点ではないと思います。掃除も毎日してくれてよかったです！",
       "translated_bad": "ホテルが道路に近づいていて、夜に鋭敏な方は耳栓を持って来なければならないようです。そしてバスルームが少し古い点？それ以外には大きな欠点がありませんでした。",
       "reviewer": "서현"
     },
@@ -206,7 +208,7 @@
       "good": "Everything was fine clean room staff were amazing great location",
       "bad": "I wouldnt let the included breakfast sway you to stay here it wasnt very good",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "全てが順調で、部屋は清潔で、スタッフも素晴らしく、立地も最高でした。",
       "translated_bad": "朝食付きだからといってここに泊まるのはお勧めしません。あまり美味しくありませんでした。",
       "reviewer": "Micheal"
     },
@@ -245,7 +247,7 @@
       "good": "The Thai breakfast was a pleasant surprise. While not the best Thai food I have aver tasted in Tokyo, it was still good and a nice change from standard hotel breakfast fare. The room was very comfortable, with a very large bathroom by Japanese business hotel standards.",
       "bad": "Nothing I can think of.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "タイ風朝食は嬉しい驚きでした。東京で食べたタイ料理の中で最高とは言えませんが、それでも美味しく、一般的なホテルの朝食とは違った良い気分転換になりました。部屋はとても快適で、日本のビジネスホテルの基準からするとバスルームが非常に広かったです。",
       "translated_bad": "思い当たる節はない。",
       "reviewer": "Keren"
     },
@@ -323,7 +325,7 @@
       "good": "The location and very comfortable place to stay.",
       "bad": "Nothing.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地も良く、とても快適な滞在場所でした。",
       "translated_bad": "何もない。",
       "reviewer": "Tudong"
     },
@@ -362,7 +364,7 @@
       "good": "駅からちかい スタッフの感じがいい",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅からちかい スタッフの感じがいい",
       "translated_bad": "",
       "reviewer": "Yoko"
     },
@@ -414,7 +416,7 @@
       "good": "Good location and nice reception staff",
       "bad": "Coffee machine broken most of the stay",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が良く、受付スタッフも感じが良い。",
       "translated_bad": "コーヒーマシンが滞在中ほとんど故障していた",
       "reviewer": "Kourtney"
     },
@@ -505,7 +507,7 @@
       "good": "Clean spacious good location",
       "bad": "Lack of facilities but can’t ask for more! Good value",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で広々としており、立地も良い。",
       "translated_bad": "設備は少ないけど、それ以上は望めない！値段も手頃。",
       "reviewer": "Tong"
     },
@@ -518,7 +520,7 @@
       "good": "設備完善，環境乾淨，地理位置很棒，櫃檯人員十分友善且有耐心。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "設備は素晴らしく、環境は清潔で、立地も良く、受付のスタッフはとても親切で忍耐強いです。",
       "translated_bad": "",
       "reviewer": "Chih-han"
     },
@@ -544,7 +546,7 @@
       "good": "スタッフの対応",
       "bad": "洗面ボール中のカビ",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの対応",
       "translated_bad": "洗面ボール中のカビ",
       "reviewer": "Miyuki"
     },
@@ -557,7 +559,7 @@
       "good": "スタッフの対応",
       "bad": "洗面ボール中のカビ",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの対応",
       "translated_bad": "洗面ボール中のカビ",
       "reviewer": "miyuki"
     },
@@ -586,6 +588,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "marron-j"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-15",
+      "comment": "",
+      "good": "",
+      "bad": "シャンプーが2個でリンスが1個で、ボディーソープがありませんでした。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "シャンプーが2個でリンスが1個で、ボディーソープがありませんでした。",
+      "reviewer": "Manaka"
     },
     {
       "site": "Agoda",
@@ -635,7 +650,7 @@
       "good": "The car that we booked to return to the airport didn't appear to have turned up. However the receptionist went out of his way to find where it was. he found the driver sitting in the car at the back of the hotel without coming in to tell us he was there. The location close to the MTR station was excellent and gave easy access to the whole of the city.",
       "bad": "The room originally allocated was very small. We requested an upgrade, which we got, but felt that the additional cost was a bit high.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "空港へ戻るために予約していた車が来なかったのですが、受付の方がわざわざ探してくれました。運転手はホテルの裏手に車の中で座っていましたが、私たちに知らせることなく見つけてくれました。MTR駅に近い立地は素晴らしく、市内各地へのアクセスも抜群でした。",
       "translated_bad": "最初に割り当てられた部屋はとても狭かった。アップグレードをリクエストしたところ、対応してもらえたが、追加料金が少し高いと感じた。",
       "reviewer": "Chris"
     },
@@ -661,7 +676,7 @@
       "good": "Posizione attaccata alla metro  Dimensione spaziosa delle camere Pulizia Amenities (pigiama, ciabatte etc)",
       "bad": "No bottigliette d’acqua complimentary",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "地下鉄駅に近い立地 広々とした部屋 清潔さ アメニティ（パジャマ、スリッパなど）",
       "translated_bad": "無料のウォーターボトルはありません",
       "reviewer": "Cristiana"
     },
@@ -713,7 +728,7 @@
       "good": "スタッフの方がとても親切。朝食も美味しく、朝食のスタッフの人たちも感じが良かった。これだけ気分良く接客してくれるのであれば、泊まる価値はあるなと思いました。また行きます。",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの方がとても親切。朝食も美味しく、朝食のスタッフの人たちも感じが良かった。これだけ気分良く接客してくれるのであれば、泊まる価値はあるなと思いました。また行きます。",
       "translated_bad": "",
       "reviewer": "Akiko"
     },
@@ -726,7 +741,7 @@
       "good": "Location, pillows, shower",
       "bad": "Not so clean.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地、枕、シャワー",
       "translated_bad": "あまり清潔ではない。",
       "reviewer": "Pia"
     },
@@ -739,7 +754,7 @@
       "good": "六本木車站五號出口上來步行2分鐘抵達，交通非常便利，鄰近也有全家便利商店跟63angels可以去體驗",
       "bad": "都很滿意",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "六本木駅5番出口から徒歩2分と非常に便利です。近くにはファミリーマートや63angelsもあり、散策にも最適です。",
       "translated_bad": "大変満足しています",
       "reviewer": "彥志"
     },
@@ -765,7 +780,7 @@
       "good": "Su ubicación es excelente. Nos sentimos muy a gusto en todo momento!",
       "bad": "-",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が最高でした。滞在中ずっととても快適に過ごせました！",
       "translated_bad": "-",
       "reviewer": "Ivanna"
     },
@@ -791,7 +806,7 @@
       "good": "Clean and tidy and the staff were very helpful.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で整頓されていて、スタッフの方々もとても親切でした。",
       "translated_bad": "",
       "reviewer": "Stephanie"
     },
@@ -817,7 +832,20 @@
       "good": "Ottima posizione, camere spaziose, bagno comodo e tanti servizi accessori come la.lavanderia a gettoni interna, il distributore di bibite e pigiama e ciabatte gratuite.",
       "bad": "Il distributore di caffè è attivo solo dalle 7, sarebbe comodo prima per chi prende voli di ritorno al mattino presto",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "絶好のロケーション、広々とした客室、快適なバスルームに加え、館内コインランドリー、飲料自動販売機、無料のパジャマとスリッパなど、多くの付加サービスも充実しています。",
+      "translated_bad": "コーヒーマシンは午前7時以降しか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから利用できると便利でしょう。",
+      "reviewer": "Mariafrancesca"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-05",
+      "comment": "",
+      "good": "Ottima posizione, camere spaziose, bagno comodo e tanti servizi accessori come la.lavanderia a gettoni interna, il distributore di bibite e pigiama e ciabatte gratuite.",
+      "bad": "Il distributore di caffè è attivo solo dalle 7, sarebbe comodo prima per chi prende voli di ritorno al mattino presto",
+      "translated": "",
+      "translated_good": "絶好のロケーション、広々とした客室、快適なバスルームに加え、館内コインランドリー、飲料自動販売機、無料のパジャマとスリッパなど、多くの付加サービスも充実しています。",
       "translated_bad": "コーヒーマシンは午前7時以降しか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから利用できると便利でしょう。",
       "reviewer": "Mariafrancesca"
     },
@@ -830,9 +858,22 @@
       "good": "La ubicación es maravillosa y el hotel ideal para estancias cortas.   Te regalan origamis muy bonitos",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地が素晴らしく、短期滞在に最適なホテルです。とても素敵な折り紙のギフトももらえます。",
       "translated_bad": "",
       "reviewer": "Danay"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-05",
+      "comment": "",
+      "good": "Расположение идеальное. Номера нормальные, у нас все было чисто, уборка каждый день.",
+      "bad": "Окно в номере не открывается, но при это закрыто не полностью, есть небольшая щель откуда все время дует. Но, если включить кондиционер на обогрев, то в номере тепло.",
+      "translated": "",
+      "translated_good": "立地は最高です。部屋も快適で、全て清潔で、毎日清掃されていました。",
+      "translated_bad": "部屋の窓は開かないが、完全に閉まっているわけでもなく、小さな隙間から常に隙間風が入ってくる。しかし、エアコンをつければ部屋は暖かくなる。",
+      "reviewer": "Vasilii"
     },
     {
       "site": "Booking.com",
@@ -856,7 +897,46 @@
       "good": "The property is situated in good location",
       "bad": "The  breakfast is THAI FOOD.. not JAPANESE FOOD. The checkout time is 10:00 am and is TOO EARLY",
       "translated": "",
+      "translated_good": "この物件は好立地に位置しています",
+      "translated_bad": "朝食はタイ料理です。日本料理ではありません。チェックアウト時間は午前10時ですが、早すぎます。",
+      "reviewer": "Dikdik"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
       "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ganesh"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Tomoka"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-03",
+      "comment": "",
+      "good": "The property is situated in good location",
+      "bad": "The  breakfast is THAI FOOD.. not JAPANESE FOOD. The checkout time is 10:00 am and is TOO EARLY",
+      "translated": "",
+      "translated_good": "この物件は好立地に位置しています",
       "translated_bad": "朝食はタイ料理です。日本料理ではありません。チェックアウト時間は午前10時ですが、早すぎます。",
       "reviewer": "Dikdik"
     },
@@ -895,7 +975,7 @@
       "good": "房間不會太小，枕頭有附硬的和軟的非常貼心，環境乾淨，住起來很舒適，離地鐵站非常近，附近有24Hr營業的藥妝店，也有很多餐廳和商場",
       "bad": "床頭插座太少",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋は狭すぎず、枕は硬めのものと柔らかめのものが用意されていて、気の利いた配慮が感じられました。清潔で快適な環境でした。地下鉄の駅からも非常に近く、24時間営業のドラッグストア、レストラン、ショッピングモールも近くにあります。",
       "translated_bad": "ベッドの近くにコンセントが少なすぎる。",
       "reviewer": "Shan"
     },
@@ -947,7 +1027,7 @@
       "good": "The hotel is excellent, the service in the lobby is very good, it's located very close to the metro, and the room is very clean with everything you need for a great stay. I recommend it 100%. This is our third year there, and we wouldn't change it for anything.",
       "bad": "Breakfast is always the same.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "このホテルは最高です。ロビーのサービスも素晴らしく、地下鉄の駅からも非常に近く、部屋も清潔で快適な滞在に必要なものがすべて揃っています。100％お勧めします。今年で3年目になりますが、何があってもこのホテルを選びます。",
       "translated_bad": "朝食はいつも同じだ。",
       "reviewer": "Pablo"
     },
@@ -1038,7 +1118,7 @@
       "good": "The hotel is great, very friendly and helpful staff. We were able to leave our luggage before check in and after check out. Location is amazing, very close to Roppongi Crossing and Roppongi Hills. This is not only a great area in Tokyo, it is well connected and has developed a lot in the past 8 years since I used to live there. The place is clean, with comfortable bed, the bathroom is also clean and nice.",
       "bad": "The only thing that as a bit tricky was the size of the room, but we managed to handle 2 big checked luggages, 2 big backpacks and lots of shopping.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ホテルは素晴らしく、スタッフはとてもフレンドリーで親切でした。チェックイン前とチェックアウト後に荷物を預けることができました。立地も最高で、六本木スクランブル交差点と六本木ヒルズにとても近いです。ここは東京の中でも素晴らしいエリアであるだけでなく、交通の便も良く、私が以前住んでいた8年前から大きく発展しました。部屋は清潔で、ベッドも快適、バスルームも清潔で素敵でした。",
       "translated_bad": "唯一少し厄介だったのは部屋の広さでしたが、大きな預け荷物2個、大きなバックパック2個、そしてたくさんの買い物袋をなんとか収納できました。",
       "reviewer": "Wanderwoman123"
     },
@@ -1064,7 +1144,7 @@
       "good": "The shower was excellent. The beds were comfortable. Close to the trains (1 block from hotel) and close to Tokyo Tower (about a 20-25 min walk). The staff was very friendly and accommodating. Let us keep our luggage there on the last day before heading to the airport.",
       "bad": "The room had 1 window, and it was frosted over glass that could not open. So room seemed extremely dreary with no natural lighting. Also for a non smoking billed room, there was a very obvious smokers smell within the room.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "シャワーは素晴らしかったです。ベッドも快適でした。電車にも近く（ホテルから1ブロック）、東京タワーにも近い（徒歩約20～25分）。スタッフはとても親切で、親身になって対応してくれました。最終日には空港へ向かう前に荷物を預かってくれました。",
       "translated_bad": "部屋には窓が1つしかなく、しかも曇りガラスで開けることができなかった。そのため、自然光が全く入らず、部屋は非常に陰鬱な雰囲気だった。また、禁煙室と謳われているにもかかわらず、部屋の中には明らかにタバコの臭いが漂っていた。",
       "reviewer": "James"
     },
@@ -1077,7 +1157,7 @@
       "good": "Su ubicación y buen trato del personal",
       "bad": "Pocas lavadoras y secadoras",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地とスタッフのサービスの良さ",
       "translated_bad": "洗濯機と乾燥機が少ない",
       "reviewer": "David"
     },
@@ -1129,7 +1209,7 @@
       "good": "The beds were so comfortable! Nice place with proper black out blinds.",
       "bad": "Breakfast could have been a bit longer than until 10am, since we stayed there after travelling from a different time zone and had to eat breakfast by 4am for us.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ベッドがとても快適でした！遮光カーテンもきちんと付いていて、素敵な場所でした。",
       "translated_bad": "朝食は午前10時までではなく、もう少し長くてもよかったと思います。というのも、私たちは時差のある地域から来たので、午前4時までに朝食を済ませなければならなかったからです。",
       "reviewer": "Susanne"
     },
@@ -1142,7 +1222,7 @@
       "good": "👍",
       "bad": "沒有",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "👍",
       "translated_bad": "いいえ",
       "reviewer": "Jiawei"
     },
@@ -1168,7 +1248,7 @@
       "good": "The bed was super comfortable and the shower was the best I have ever experienced.  There is coin laundry on each floor and a washer that adds the soap automatically",
       "bad": "The room is small but well organized.   And of course you are in the dead center of the Roppongi entertainment district so that is to be expected.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "ベッドはとても快適で、シャワーは今までで最高でした。各階にコインランドリーがあり、洗剤を自動で投入してくれる洗濯機もあります。",
       "translated_bad": "部屋は狭いですが、きちんと整理整頓されています。そしてもちろん、ここは六本木の繁華街のど真ん中にあるので、それは当然のことでしょう。",
       "reviewer": "James"
     },
@@ -1181,7 +1261,7 @@
       "good": "Staff were very nice.",
       "bad": "Room wasn’t great for price. Can’t open windows so room gets stuffy.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "スタッフの方々はとても親切でした。",
       "translated_bad": "値段の割には部屋があまり良くなかった。窓が開けられないので、部屋が蒸し暑くなる。",
       "reviewer": "Hayden"
     },
@@ -1220,7 +1300,7 @@
       "good": "施設は古いが清潔でした",
       "bad": "冷蔵庫スイッチ1にして下段に入れても冷凍されてしまった",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "施設は古いが清潔でした",
       "translated_bad": "冷蔵庫スイッチ1にして下段に入れても冷凍されてしまった",
       "reviewer": "Kyoko"
     },
@@ -1233,7 +1313,7 @@
       "good": "Emplacement, propreté, gentillesse du personnel",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地、清潔さ、スタッフの親切さ",
       "translated_bad": "",
       "reviewer": "Aleksandra"
     },
@@ -1291,6 +1371,19 @@
     },
     {
       "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-16",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Linda"
+    },
+    {
+      "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
       "date": "2026-02-16",
@@ -1324,7 +1417,7 @@
       "good": "駅から近く、掃除が行き届いていて綺麗で過ごしやすい部屋だった",
       "bad": "朝食がエスニック料理気味で食べれるものが限られた",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅から近く、掃除が行き届いていて綺麗で過ごしやすい部屋だった",
       "translated_bad": "朝食がエスニック料理気味で食べれるものが限られた",
       "reviewer": "ゆうこ"
     },
@@ -1428,9 +1521,35 @@
       "good": "Las personas son muy amables en la recepción y las habitaciones son cómodas, las del piso 5.",
       "bad": "Que el desayuno siempre es el mismo todos los días.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "受付のスタッフはとても親切で、部屋も快適です。特に5階の部屋はおすすめです。",
       "translated_bad": "その朝食は毎日同じだ。",
       "reviewer": "Pablo"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-13",
+      "comment": "",
+      "good": "Location, and friendly staff",
+      "bad": "Nothing",
+      "translated": "",
+      "translated_good": "立地とフレンドリーなスタッフ",
+      "translated_bad": "何もない",
+      "reviewer": "Ulf"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-13",
+      "comment": "",
+      "good": "Hotel çok temiz ve çalışanları güleryüzlü ve ilgililer. Odanın büyüklüğü ve yatakların konforu çok iyi.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "ホテルはとても清潔で、スタッフは親切で気配りが行き届いています。部屋の広さもベッドの快適さも申し分ありません。",
+      "translated_bad": "",
+      "reviewer": "Hakan"
     },
     {
       "site": "Trip.com",
@@ -1480,7 +1599,7 @@
       "good": "It was clean, the rates were reasonable, the staff were so friendly and helpful and location was great.",
       "bad": "",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "清潔で、料金も手頃で、スタッフはとても親切で協力的で、立地も最高でした。",
       "translated_bad": "",
       "reviewer": "Vikram"
     },
@@ -1615,6 +1734,19 @@
       "reviewer": "jong gu kim"
     },
     {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-08",
+      "comment": "六本木で4人家族単位または2人旅行の際、「ツインベッド」構成の部屋を宿泊しながら苛性良く泊まれる場所らしい。 1階の朝食ビュッフェがタイ式で出るちょっと生き生きとした面があるが、予約していなかった朝食価格は大人基準1500円だから、数日泊まるとするのも大丈夫だろうが、私たちの家族は3泊しながらあの時入る道にマートやコンビニで購入した様々な秒。  日本旅行で通っている間に会った部屋が少し大きめのツインベッド構成が本当に良かった…",
+      "good": "",
+      "bad": "",
+      "translated": "六本木で4人家族単位または2人旅行の際、「ツインベッド」構成の部屋を宿泊しながら苛性良く泊まれる場所らしい。 1階の朝食ビュッフェがタイ式で出るちょっと生き生きとした面があるが、予約していなかった朝食価格は大人基準1500円だから、数日泊まるとするのも大丈夫だろうが、私たちの家族は3泊しながらあの時入る道にマートやコンビニで購入した様々な秒。  日本旅行で通っている間に会った部屋が少し大きめのツインベッド構成が本当に良かった…",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "jong gu kim"
+    },
+    {
       "site": "Booking.com",
       "rating": 7.0,
       "rating_10pt": 7.0,
@@ -1623,7 +1755,7 @@
       "good": "駅近なのにリーズナブルなのが1番良かった。  フロントの方の説明が丁寧で良かった。",
       "bad": "朝食の際、外国人スタッフがずっと入り口で立ってお喋りしていたのが気になった。  お皿やバイキングの流れがわからず聞いたにも関わらず、あちらです、の一言だけで少し残念だった。  お風呂に浸かりたかったので、（確認不足だったが）バスがないのに驚いた。",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "駅近なのにリーズナブルなのが1番良かった。  フロントの方の説明が丁寧で良かった。",
       "translated_bad": "朝食の際、外国人スタッフがずっと入り口で立ってお喋りしていたのが気になった。  お皿やバイキングの流れがわからず聞いたにも関わらず、あちらです、の一言だけで少し残念だった。  お風呂に浸かりたかったので、（確認不足だったが）バスがないのに驚いた。",
       "reviewer": "Naomi"
     },
@@ -1701,7 +1833,7 @@
       "good": "Расположение хорошее. Район Roppongi достаточно известен ;-)",
       "bad": "Завтраки могли бы быть и получше.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "立地は良いですね。六本木エリアはかなり有名ですからね ;-)",
       "translated_bad": "朝食はもっと改善できるはずだ。",
       "reviewer": "Ivan"
     },
@@ -1766,9 +1898,22 @@
       "good": "Room was huge, they lent us a humidifier during winter dry time. Bed was ok.",
       "bad": "toilet has some sewage smell, think the building is quite old.",
       "translated": "",
-      "translated_good": "",
+      "translated_good": "部屋は広々としていて、冬の乾燥期には加湿器を貸してくれました。ベッドはまあまあでした。",
       "translated_bad": "トイレから下水の臭いがする。建物がかなり古いようだ。",
       "reviewer": "Lazyslogger"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-02",
+      "comment": "",
+      "good": "朝食のカレーが美味しかった。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "朝食のカレーが美味しかった。",
+      "translated_bad": "",
+      "reviewer": "Junichi"
     },
     {
       "site": "Google",
@@ -1809,5 +1954,18 @@
       "translated_bad": "",
       "reviewer": "Rei R"
     }
+  ],
+  "positives": [
+    "六本木駅から近い立地で良かったです。 コンビニも割と近くにあり、利便性も良いですね。 部屋はコンパクトでは有りますが、立地と価格を考えたら良い方かな？とは思います。 コーヒーのウェルカムドリンクが有りました。",
+    "格安ホテルだったにもかかわらず、意外にも良かった。以前シンガポールで泊まった4つ星ホテルのように、古くて狭いだろうと思っていたのだが、部屋は確かに狭かったものの、必要なものはすべて揃っていて、とても清潔だった。唯一の難点は、窓が開かず、プライバシーフィルムが貼られていたため、外が全く見えなかったことだ。これは中国のホテルとは違っていた。",
+    "全てが順調で、部屋は清潔で、スタッフも素晴らしく、立地も最高でした。",
+    "タイ風朝食は嬉しい驚きでした。東京で食べたタイ料理の中で最高とは言えませんが、それでも美味しく、一般的なホテルの朝食とは違った良い気分転換になりました。部屋はとても快適で、日本のビジネスホテルの基準からするとバスルームが非常に広かったです。",
+    "2泊スケジュール。古いホテルです。日本ビジネスホテルの代表ランナーでもあります。古いホテルですが、かなり大きな部屋を手に入れることができてここで決めました。東京ビジネス級で3つ星ホテルでは、なぜならこの程度の大きさの部屋を手に入れることが難しいようです。コスト面では一ヶ月前の予約ですが、最近の国際情勢が不安なうえ、日本も物価がどんどん上がっているのか、価格が安くはありません。   比較的綺麗に保たれるようだが昔のようではないよう。よく覗くとほこりが見えて、トイレ便器の裏側の隙間には黒くカビが座って...そんなに見えるからちょっと...ますます難しくなるのが感じられる。とにかくここファミリールームのツインベッドルームはエキストラベッドに増えて4人まで入るのに十分ですね。 44平方平方なので空間をゆっくりと使えていいです。水が涼しくよく出てきます。バスルーム、トイレは小さいですが、そのまま水がよく出て水伝も最近変えたようです。新しいものです。全体的にはとても管理されています。  欠点/ 1. 窓の外にすぐに高架道路があるので防音がうまくいきません。窓がベッドヘッドにあり、ピヨピヨの音がよく聞こえます。窓際家のような感じ〜 2.従業員サービスはあまりありません。毎年出張に、旅行に、しばしば日本に行っていますが、このような経験は初めてなのか。完全不親切に気分が悪い。 3.ほこりが多いです。拭くところだけ拭くか、他の場所は拭き取る。ヘッドの天板にほこりが挟まれます。ヘッド照明が切れて折れてしまったのを惜しんでいるのか…黒い絶縁テープで突き回して放置するホテル設備管理の状態は理解できない。"
+  ],
+  "negatives": [
+    "立地は良いが部屋は狭く、外国人観光客も多いからか壁紙等も綺麗ではない。自分は狭い部屋に追いやられたのかと思ってしまうくらい部屋は狭いです。",
+    "この物件は好立地に位置しています",
+    "この物件は好立地に位置しています",
+    "スタッフの方々はとても親切でした。"
   ]
 }
