@@ -1,23 +1,30 @@
 {
-  "hotel_name": "ハートンホテル東品川",
-  "hotel_key": "hearton",
-  "total_reviews": 145,
-  "overall_avg_10pt": 8.57,
-  "high_count": 120,
-  "high_rate": 82.8,
-  "mid_count": 23,
-  "mid_rate": 15.9,
+  "total_reviews": 140,
+  "overall_avg_10pt": 8.59,
+  "high_count": 116,
+  "high_rate": 82.9,
+  "mid_count": 22,
+  "mid_rate": 15.7,
   "low_count": 2,
   "low_rate": 1.4,
   "site_stats": [
     {
-      "site": "じゃらん",
-      "count": 44,
-      "native_avg": 4.3,
-      "scale": "/5",
-      "avg_10pt": 8.59,
-      "median_10pt": 8.0,
+      "site": "Trip.com",
+      "count": 23,
+      "native_avg": 9.43,
+      "scale": "/10",
+      "avg_10pt": 9.43,
+      "median_10pt": 10.0,
       "judgment": "優秀"
+    },
+    {
+      "site": "じゃらん",
+      "count": 41,
+      "native_avg": 4.32,
+      "scale": "/5",
+      "avg_10pt": 8.63,
+      "median_10pt": 8.0,
+      "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
@@ -26,25 +33,7 @@
       "scale": "/5",
       "avg_10pt": 8.58,
       "median_10pt": 8.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Booking.com",
-      "count": 29,
-      "native_avg": 8.52,
-      "scale": "/10",
-      "avg_10pt": 8.52,
-      "median_10pt": 8.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Trip.com",
-      "count": 20,
-      "native_avg": 9.45,
-      "scale": "/10",
-      "avg_10pt": 9.45,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "Agoda",
@@ -53,7 +42,16 @@
       "scale": "/10",
       "avg_10pt": 8.55,
       "median_10pt": 8.0,
-      "judgment": "優秀"
+      "judgment": "良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 24,
+      "native_avg": 8.5,
+      "scale": "/10",
+      "avg_10pt": 8.5,
+      "median_10pt": 8.0,
+      "judgment": "良好"
     },
     {
       "site": "Google",
@@ -69,27 +67,27 @@
     {
       "score": 10,
       "count": 63,
-      "pct": "43.4%"
+      "pct": "45.0%"
     },
     {
       "score": 9,
-      "count": 8,
-      "pct": "5.5%"
+      "count": 7,
+      "pct": "5.0%"
     },
     {
       "score": 8,
-      "count": 49,
-      "pct": "33.8%"
+      "count": 46,
+      "pct": "32.9%"
     },
     {
       "score": 7,
       "count": 6,
-      "pct": "4.1%"
+      "pct": "4.3%"
     },
     {
       "score": 6,
-      "count": 17,
-      "pct": "11.7%"
+      "count": 16,
+      "pct": "11.4%"
     },
     {
       "score": 2,
@@ -159,7 +157,7 @@
       "good": "Sehr freundliches und hilfsbereites Personal, das uns bei einer Suchaktion in der Kommunikation mit den anderen Unterkünften sehr gut geholfen hat.",
       "bad": "",
       "translated": "",
-      "translated_good": "非常に親切で協力的だったスタッフの方々は、捜索活動中に他の宿泊施設との連絡を取る際に大変助けてくれました。",
+      "translated_good": "",
       "translated_bad": "",
       "reviewer": "Mo"
     },
@@ -214,19 +212,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Sharon"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-26",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Alejandro"
     },
     {
       "site": "Trip.com",
@@ -354,7 +339,7 @@
       "good": "駅が近い  商業施設が近い",
       "bad": "駐車場有だったが、大きく高さの有る車は入らない  朝ごはん、トースターが付いてたらあの感じでもまあ良かったになる　サバじゃなくてシャケなら良かった",
       "translated": "",
-      "translated_good": "駅が近い  商業施設が近い",
+      "translated_good": "",
       "translated_bad": "駐車場有だったが、大きく高さの有る車は入らない  朝ごはん、トースターが付いてたらあの感じでもまあ良かったになる　サバじゃなくてシャケなら良かった",
       "reviewer": "Mutsumi"
     },
@@ -385,6 +370,19 @@
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
     },
     {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-24",
+      "comment": "便利なロケーション。広いベッド",
+      "good": "",
+      "bad": "",
+      "translated": "便利なロケーション。広いベッド",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
       "site": "Agoda",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -406,7 +404,7 @@
       "good": "The bed was really comfortable. The front desk staff were really nice and helpful and even helped me send my luggage. I love the location as it’s across from a train station and shopping area. I also really appreciate that you can open the windows a little for fresh air.",
       "bad": "The breakfast isn’t worth it. The food was lukewarm and nothing stood out except the terrible coffee.",
       "translated": "",
-      "translated_good": "ベッドは本当に快適でした。フロントのスタッフはとても親切で、荷物の運搬まで手伝ってくれました。駅とショッピングエリアの向かいという立地も気に入っています。窓を少し開けて新鮮な空気を取り入れられるのもとてもありがたかったです。",
+      "translated_good": "",
       "translated_bad": "朝食はおすすめできません。料理はぬるく、ひどいコーヒー以外に特筆すべき点は何もありませんでした。",
       "reviewer": "Lynnette"
     },
@@ -419,7 +417,7 @@
       "good": "利便性がよかった。洗面所周りが広く全体的に綺麗でお安くお得感があった。",
       "bad": "特になかった。",
       "translated": "",
-      "translated_good": "利便性がよかった。洗面所周りが広く全体的に綺麗でお安くお得感があった。",
+      "translated_good": "",
       "translated_bad": "特になかった。",
       "reviewer": "Mayumi"
     },
@@ -458,7 +456,7 @@
       "good": "清潔で良かった",
       "bad": "高さ制限のある車は、別の駐車場に停めるようになりますが、不便でした",
       "translated": "",
-      "translated_good": "清潔で良かった",
+      "translated_good": "",
       "translated_bad": "高さ制限のある車は、別の駐車場に停めるようになりますが、不便でした",
       "reviewer": "Yorio"
     },
@@ -515,19 +513,6 @@
       "reviewer": "かねごろう"
     },
     {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-23",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Rubén"
-    },
-    {
       "site": "じゃらん",
       "rating": 4.0,
       "rating_10pt": 8.0,
@@ -578,19 +563,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Khin"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-22",
-      "comment": "",
-      "good": "There's a direct bus to the airport that leaves from just down the road, which was helpful for our early morning flight. The hotel itself was great, and the staff were lovely.",
-      "bad": "",
-      "translated": "",
-      "translated_good": "すぐ近くに空港行きの直通バスが出ていて、早朝便を利用する私たちにとってはとても助かりました。ホテル自体も素晴らしく、スタッフの方々も親切でした。",
-      "translated_bad": "",
-      "reviewer": "Veronica"
     },
     {
       "site": "楽天トラベル",
@@ -666,7 +638,7 @@
       "good": "Very close to the train station and the mall across the road for convenience. We stayed the one night when we’d arrived in Japan and it was great. Can’t fault it. The facilities were as needed. No complaints",
       "bad": "I wouldn’t stay more than a few nights as the room was quite small. It’s a great pit stop for when arriving into or exiting the country but I know I wouldn’t be comfortable for more than a night.",
       "translated": "",
-      "translated_good": "駅と道路を挟んで向かい側にあるショッピングモールにとても近くて便利でした。日本に到着した際に一泊しましたが、最高でした。文句のつけようがありません。必要な設備はすべて揃っていました。不満は一切ありません。",
+      "translated_good": "",
       "translated_bad": "部屋がかなり狭かったので、数泊以上は滞在しないでしょう。入国時や出国時の休憩には最適ですが、一泊以上は快適に過ごせないと思います。",
       "reviewer": "Daisylyn"
     },
@@ -835,7 +807,7 @@
       "good": "Het ontbijt is uitgebreid en lekker. Bij een langdurig verblijf wordt het wel ééntonig, omdat er per dag nagenoeg niets gewijzigd word.",
       "bad": "",
       "translated": "",
-      "translated_good": "朝食は種類豊富で美味しい。しかし、長期滞在では毎日ほとんど何も変わらないため、どうしても単調に感じてしまう。",
+      "translated_good": "",
       "translated_bad": "",
       "reviewer": "Bert"
     },
@@ -1230,19 +1202,6 @@
       "reviewer": "きよちゃんさん"
     },
     {
-      "site": "じゃらん",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-02-27",
-      "comment": "ホテルによってはエアコンが一括管理されていて、部屋ごとに運転切替や温度調整ができないことがあります。その点、当ホテルは部屋ごとに運転切替や温度調整ができます。季節の変わり目は暖房か冷房か選択に個人差がありますので、当ホテルのエアコンはたいへんよろしいかと思います。",
-      "good": "",
-      "bad": "",
-      "translated": "ホテルによってはエアコンが一括管理されていて、部屋ごとに運転切替や温度調整ができないことがあります。その点、当ホテルは部屋ごとに運転切替や温度調整ができます。季節の変わり目は暖房か冷房か選択に個人差がありますので、当ホテルのエアコンはたいへんよろしいかと思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "部長さん"
-    },
-    {
       "site": "Trip.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
@@ -1329,6 +1288,19 @@
       "good": "",
       "bad": "",
       "translated": "日本旅行中に地下鉄で展覧会場に近かったので、この宿を選びました。部屋は典型的な日本式で、少し古びていますが、一番の問題は周辺が非常に寂しいことです。コンビニエンスストアでさえ徒歩5分以上かかります。観光客にはお勧めしません。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "T‍o‍n‍g‍d‍a‍m‍a‍o"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-02-25",
+      "comment": "參加展會住的這家酒店，周邊比較偏，吃飯的地方都比較少，晚上到酒店出門走了半天也沒看到一家餐廳，風大又冷，衹能去便利店買飯吃……旅遊的話，不推薦這裏",
+      "good": "",
+      "bad": "",
+      "translated": "展覧会のために宿泊したホテルは、かなり辺鄙な場所にあり、食事の選択肢が限られていました。夜にホテルに到着してからずっと歩き回りましたが、レストランは一つも見つかりませんでした。風が強く寒かったので、コンビニで食べ物を買うしかありませんでした…。観光客にはこのホテルはお勧めしません。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "T‍o‍n‍g‍d‍a‍m‍a‍o"
@@ -1446,7 +1418,7 @@
       "good": "ロケーション",
       "bad": "バス周りの音が煩ったのでよく眠れなかった",
       "translated": "",
-      "translated_good": "ロケーション",
+      "translated_good": "",
       "translated_bad": "バス周りの音が煩ったのでよく眠れなかった",
       "reviewer": "Masahiko"
     },
@@ -1477,6 +1449,19 @@
       "reviewer": "ゲ‍ス‍ト"
     },
     {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-02-23",
+      "comment": "房間乾淨，性價比超高。旁邊是地鐵站和永旺，出行方便快捷。周圍餐廳也很多，吃飯也很方便。旅行首選。",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は清潔で、料金に見合った素晴らしい価値を提供してくれました。地下鉄駅とイオンモールに隣接しており、交通の便も良く、移動も簡単です。周辺には多くのレストランがあり、食事にも大変便利です。旅行者にとって最高の選択肢と言えるでしょう。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
       "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1488,19 +1473,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Teiko"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-02-23",
-      "comment": "",
-      "good": "Hotel bardzo przyjemny. Obsługa miła i pomocna, bezproblemowa komunikacja w języku angielskim. Pokój na dwie osoby i na kilka dni w Tokio wystarczający, lecz przy dwóch dużych bagażach, które otwieraliśmy, aby dostać się do naszych rzeczy, był trochę za mały. Reszta bez zarzutów. Czysto i komfortowo. Śniadania rewelacja. Różnorodność wyboru, trochę kuchni azjatyckiej, trochę europejskiej. Generalnie codziennie to samo, ale wybór jest spory. Obsługa cały czas czuwa i donosi jedzenie, gdy coś się skończy. Na dole na piętrze z recepcją jest pralnia oraz palarnia. Niedaleko dwie stacje metra, jedna tuż pod samym hotelem. Skorzystaliśmy z opcji nadania bagażu do hotelu w Nagoyi. Panie w recepcji bardzo miłe, wypełniły za nas wszystkie formalności. Płatność tylko gotówką z dostawą na następny dzień. Jesteśmy bardzo zadowoleni z wyboru na nasz kilkudniowy wyjazd do Tokio, polecamy :)",
-      "bad": "Ciasny pokój, ciężko rozłożyć dwie duże walizki.",
-      "translated": "",
-      "translated_good": "ホテルはとても快適でした。スタッフは親切で協力的で、英語でのコミュニケーションもスムーズでした。部屋は2人で数日間東京に滞在するには十分でしたが、大きなスーツケースが2つあり、荷物を取り出すために開けなければならなかったため、少し狭く感じました。それ以外はすべて完璧でした。清潔で快適でした。朝食は素晴らしかったです。アジア料理やヨーロッパ料理など、幅広い種類がありました。基本的に毎日同じメニューでしたが、選択肢は豊富でした。スタッフは常に近くにいて、食べ物がなくなると持ってきてくれました。1階の受付にはランドリールームと喫煙所があります。地下鉄の駅が2つ近くにあり、1つはホテルの真下にあります。私たちは名古屋のホテルに荷物を預けるオプションを利用しました。受付係はとても親切で、すべての書類手続きを代行してくれました。支払いは現金のみで、翌日配達でした。東京への数日間の旅行でこのホテルを選んで本当に良かったと思っています。強くお勧めします。",
-      "translated_bad": "部屋が狭く、大きなスーツケース2個を広げるのが大変だった。",
-      "reviewer": "Martyna"
     },
     {
       "site": "楽天トラベル",
@@ -1764,19 +1736,6 @@
     },
     {
       "site": "じゃらん",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-02-21",
-      "comment": "朝食は料理が冷めてるのがあったり、ほとんどのおかずに料理名が書いてなく見た目で判断するしかなかったです",
-      "good": "",
-      "bad": "",
-      "translated": "朝食は料理が冷めてるのがあったり、ほとんどのおかずに料理名が書いてなく見た目で判断するしかなかったです",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "不明"
-    },
-    {
-      "site": "じゃらん",
       "rating": 4.0,
       "rating_10pt": 8.0,
       "date": "2026-02-21",
@@ -1828,19 +1787,6 @@
       "reviewer": "★オハナ★さん"
     },
     {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-02-20",
-      "comment": "りんかい線で国際展示場にアクセスの良いところを探して宿泊しました。  古い感じはありますが、清潔感は全く問題ありません。駅からも近く、駅にはお店がなんでもあって困りませんでした。  部屋は大人２人でも十分寝られるベッドサイズで、手狭過ぎず、コスパは良かったです。  お風呂のお湯は調整しないといけないので、そこは設備が古いかもしれませんが、シャワーの勢いもしっかりしていて、個人的には全く問題ありませんでした。個別空調ですし、とても快適でした！",
-      "good": "",
-      "bad": "",
-      "translated": "りんかい線で国際展示場にアクセスの良いところを探して宿泊しました。  古い感じはありますが、清潔感は全く問題ありません。駅からも近く、駅にはお店がなんでもあって困りませんでした。  部屋は大人２人でも十分寝られるベッドサイズで、手狭過ぎず、コスパは良かったです。  お風呂のお湯は調整しないといけないので、そこは設備が古いかもしれませんが、シャワーの勢いもしっかりしていて、個人的には全く問題ありませんでした。個別空調ですし、とても快適でした！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "不明"
-    },
-    {
       "site": "楽天トラベル",
       "rating": 5.0,
       "rating_10pt": 10.0,
@@ -1880,19 +1826,6 @@
       "reviewer": "Maeda"
     },
     {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-02-19",
-      "comment": "",
-      "good": "スタッフさんの対応が良かった",
-      "bad": "高速道路の走行音が気になった",
-      "translated": "",
-      "translated_good": "スタッフさんの対応が良かった",
-      "translated_bad": "高速道路の走行音が気になった",
-      "reviewer": "新田"
-    },
-    {
       "site": "Google",
       "rating": 4.0,
       "rating_10pt": 8.0,
@@ -1927,7 +1860,7 @@
       "good": "朝ごはんが美味しい",
       "bad": "部屋の掃除がいまいち",
       "translated": "",
-      "translated_good": "朝ごはんが美味しい",
+      "translated_good": "",
       "translated_bad": "部屋の掃除がいまいち",
       "reviewer": "Toshiro"
     },
@@ -1983,29 +1916,5 @@
       "translated_bad": "",
       "reviewer": "ゆきとさくらいろ"
     }
-  ],
-  "positives": [
-    "領収書の課題は再訪の際には解決しており、レセプションスタッフにも引き継がれていた。ハード面は引き続き問題なし",
-    "非常に親切で協力的だったスタッフの方々は、捜索活動中に他の宿泊施設との連絡を取る際に大変助けてくれました。",
-    "お風呂も広いし 部屋も綺麗 アクセスもいいし、また利用したいです！",
-    "交通の便が非常に良く、スーパーマーケットはすぐ隣にあり、とても静かです。品川駅からホテルまでのタクシー料金はわずか1600円で、非常に安価です。",
-    "代々木体育館でのイベントの為利用しました。  駅から近いし、向かえには大きなイオンがありお部屋も予約時と違う大きなお部屋を用意してもらい大満足のホテルでした。",
-    "駅の近くで雨が雨が降って来たけど大丈夫な距離でした。  スタッフの方達は、対応がとても良かったです。  アメニティもいろいろありました。  自販機もありました。",
-    "ホテルは清潔そのもので、スタッフの方々もとても親切です。提供されるサービスも素晴らしいです。  唯一の難点は、東京の主要観光エリアから公共交通機関で少なくとも30分かかることです。しかし、品川海浜駅の向かいに位置し、青物横町駅から徒歩約15分という好立地なので、アクセスはかなり楽です。品揃え豊富なショッピングモールもすぐ近くにあります。",
-    "駅近で徒歩圏内に飲食店やスーパーもあり受付の方の対応も良く、部屋も綺麗、何よりチェックアウト時間も12時と遅めで良い。  ただ1つだけその長所を台無しにするのが9時頃からの他の部屋の清掃、外国人スタッフさんなのか話しながら作業しておりガタガタドスンと作業音が大きいので、チェックアウトまでゴロゴロ二度寝しようとしていたのを起こされ最後までくつろぐことが出来なかったのが残念。",
-    "とても居心地が良くて最高でした！イオンや駅が近くにあり、とても良い立地だなと感じました、また泊まりたいです！",
-    "駅からも近くて良かったです。また利用したいと思います。コンビニが近くにあれば最高なのですが。あったけど私がわからなかっただけかも。"
-  ],
-  "negatives": [
-    "チェックインの際にフロントにいる女性スタッフ（特にこのレビューに多くあがっている名前の方）、お客様に対してとても失礼な対応をしていました。毎日お仕事で疲れていることやストレスが溜まっていることは分かりますが、仕事は仕事でオンオフきっちりした方がいいホテルの顔になれると思いますよ笑",
-    "駐車場有だったが、大きく高さの有る車は入らない  朝ごはん、トースターが付いてたらあの感じでもまあ良かったになる　サバじゃなくてシャケなら良かった",
-    "朝食はおすすめできません。料理はぬるく、ひどいコーヒー以外に特筆すべき点は何もありませんでした。",
-    "特になかった。",
-    "高さ制限のある車は、別の駐車場に停めるようになりますが、不便でした",
-    "部屋がかなり狭かったので、数泊以上は滞在しないでしょう。入国時や出国時の休憩には最適ですが、一泊以上は快適に過ごせないと思います。",
-    "バス周りの音が煩ったのでよく眠れなかった",
-    "部屋が狭く、大きなスーツケース2個を広げるのが大変だった。",
-    "館内の雰囲気やお部屋の広さは満足のいくものでしたが、ベッド上にたたんである館内着を着用しようと思い広げてみると、髪の毛が5.6本付着したままの状態のものが置いてありました。未洗濯のものだと思い込んで使い回したのか、洗濯時に取れなかったのかはわかりかねますが、非常に不快でした。 このことを内線電話にて伝えたところ、電話口で対応してくださった方はこちらの言い分に困惑しているようでしたが、困惑したのはこちらです。 訪室して館内着を届けてくださった方は、新しい館内着について「一応見えるところは確認させていただいたんですけれども、」とのことでした。 クリーニングをして使い回しているものとはいえ直に人の肌身に触れるものですし、部屋の清掃時にその点は確認していらっしゃらないのでしょうか。今一度お部屋の清掃方法や教育体制を見直してみてはどうかと思うほどに衝撃を受けました。  アメニティ類も豊富で入館時のイメージが良かっただけに、大変残念です。",
-    "高速道路の走行音が気になった"
   ]
 }
