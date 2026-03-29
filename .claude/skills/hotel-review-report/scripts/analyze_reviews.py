@@ -174,6 +174,34 @@ def main():
     print(f"ヘッダー行: {header_row_idx + 1}")
     print(f"カラムマッピング: site={col_site}, rating={col_rating}, date={col_date}")
 
+    # カラムオフセット検証: 最初のデータ行でサイト列に "TRUE"/"FALSE" が入っていたら
+    # ヘッダーとデータが1列ずれている（Google Sheetsのセル結合由来）ので補正する
+    KNOWN_SITES_LOWER = {"booking.com", "trip.com", "agoda", "じゃらん", "楽天トラベル",
+                         "楽天", "google", "一休.com", "一休", "jalan", "rakuten", "booking", "trip"}
+    for check_row in all_rows[header_row_idx + 1:]:
+        if len(check_row) <= max(col_site, col_rating):
+            continue
+        site_val = check_row[col_site].strip().lower()
+        if not site_val:
+            continue
+        if site_val in ("true", "false") or site_val not in KNOWN_SITES_LOWER:
+            # サイト列に想定外の値 → 1列右にずらして再チェック
+            shifted_site = check_row[col_site + 1].strip().lower() if col_site + 1 < len(check_row) else ""
+            if shifted_site in KNOWN_SITES_LOWER:
+                print(f"カラムオフセット補正: 全カラムを+1シフト ('{check_row[col_site]}' は有効なサイト名でない)")
+                col_site += 1
+                col_rating = col_rating + 1 if col_rating is not None else None
+                col_date = col_date + 1 if col_date is not None else None
+                col_comment_all = col_comment_all + 1 if col_comment_all is not None else None
+                col_comment_good = col_comment_good + 1 if col_comment_good is not None else None
+                col_comment_bad = col_comment_bad + 1 if col_comment_bad is not None else None
+                col_translated_all = col_translated_all + 1 if col_translated_all is not None else None
+                col_translated_good = col_translated_good + 1 if col_translated_good is not None else None
+                col_translated_bad = col_translated_bad + 1 if col_translated_bad is not None else None
+                col_reviewer = col_reviewer + 1 if col_reviewer is not None else None
+                print(f"補正後カラムマッピング: site={col_site}, rating={col_rating}, date={col_date}")
+        break  # 最初の有効行だけチェック
+
     # データ行をパース
     reviews = []
     seen = set()  # 重複検出用
