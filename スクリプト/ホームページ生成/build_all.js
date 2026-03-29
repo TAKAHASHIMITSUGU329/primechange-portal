@@ -684,6 +684,9 @@ copyAssets(OUTPUT_DIR);
 // Write all reviews data for client-side filtering
 writeJSON('hotel-reviews-all.json', allReviewsCompact);
 
+// Pre-write hotel-details.json so snapshot copy succeeds (also written inside buildHotelDashboard)
+writeJSON('hotel-details.json', hotelDetails);
+
 // Calculate portfolio summary KPIs for snapshot
 var CLEANING_KEYWORDS = ['清掃', '汚れ', 'ゴミ', '髪の毛', 'シミ', 'カビ', 'ほこり', '埃', '汚い', '不潔', '臭い', 'におい', '匂い', 'ホコリ', 'しみ', 'かび', 'ごみ'];
 function hasCleaningIssue(text) {
