@@ -1,10 +1,10 @@
 {
-  "total_reviews": 128,
-  "overall_avg_10pt": 8.88,
-  "high_count": 108,
-  "high_rate": 84.4,
-  "mid_count": 19,
-  "mid_rate": 14.8,
+  "total_reviews": 130,
+  "overall_avg_10pt": 8.87,
+  "high_count": 111,
+  "high_rate": 85.4,
+  "mid_count": 18,
+  "mid_rate": 13.8,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
@@ -20,9 +20,9 @@
     {
       "site": "楽天トラベル",
       "count": 16,
-      "native_avg": 4.69,
+      "native_avg": 4.62,
       "scale": "/5",
-      "avg_10pt": 9.38,
+      "avg_10pt": 9.25,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,19 +46,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 27,
-      "native_avg": 8.56,
+      "count": 30,
+      "native_avg": 8.67,
       "scale": "/10",
-      "avg_10pt": 8.56,
+      "avg_10pt": 8.67,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 34,
-      "native_avg": 8.18,
+      "count": 33,
+      "native_avg": 8.12,
       "scale": "/10",
-      "avg_10pt": 8.18,
+      "avg_10pt": 8.12,
       "median_10pt": 8.0,
       "judgment": "良好"
     }
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 62,
-      "pct": "48.4%"
+      "count": 61,
+      "pct": "46.9%"
     },
     {
       "score": 9,
-      "count": 21,
-      "pct": "16.4%"
+      "count": 23,
+      "pct": "17.7%"
     },
     {
       "score": 8,
-      "count": 25,
-      "pct": "19.5%"
+      "count": 27,
+      "pct": "20.8%"
     },
     {
       "score": 7,
-      "count": 11,
-      "pct": "8.6%"
+      "count": 10,
+      "pct": "7.7%"
     },
     {
       "score": 6,
       "count": 7,
-      "pct": "5.5%"
+      "pct": "5.4%"
     },
     {
       "score": 5,
@@ -101,6 +101,71 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-29",
+      "comment": "Booking.com",
+      "good": "Great location, team and space",
+      "bad": "Nothing",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "何もない",
+      "reviewer": "Lorena"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-28",
+      "comment": "Booking.com",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "晴子"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-28",
+      "comment": "Booking.com",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Katsuhiro"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-28",
+      "comment": "楽天トラベル",
+      "good": "",
+      "bad": "",
+      "translated": "フロントのお姉さんがカーディガンに可愛いネイルをしていて笑顔も良く、服装がかしこまった感じではなく自然で良かった。  アメニティは必要な物を選べるのが良かった。 化粧水、乳液、メイク落としはフロントに言えばもらえます。  部屋は狭いけど(キャリーケースを広げたら通れない)新しいからキレイ。  関内から徒歩５分で立地は良い。 景色は向かい側がオフィスビルだから カーテンは開けられない。  １階には、お風呂があるし、入り口にお洒落なリンゴ酢あまおうドリンクがあり、さっぱりして美味しかった。お風呂にはウォーターサーバーもある。  朝食は、サラダバーの種類が沢山あり(珍しくアボガドもあり)、木のボウルで沢山食べられるのが良かった。 木製皿に入れる気満々でしたが、種類はあまり無かった笑 肉系がベーコンしかなく、個人的にはウインナー、生ハム等もあればなと。  トータルでは、また泊まりたいホテルでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "JUNOMANA"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-28",
+      "comment": "Booking.com",
+      "good": "Nice new clean comfortable hotel.",
+      "bad": "All was good",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "すべて順調でした",
+      "reviewer": "Mary"
+    },
     {
       "site": "Google",
       "rating": 5.0,
@@ -856,45 +921,6 @@
       "reviewer": "のりちゃんさん"
     },
     {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "楽天トラベル",
-      "good": "",
-      "bad": "",
-      "translated": "コスパ良、オシャレ、泊まりやすかったです！ ロビーのドリンクサービスも最高！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ぱんだがじゅまる"
-    },
-    {
-      "site": "Agoda",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-02",
-      "comment": "Agoda",
-      "good": "",
-      "bad": "",
-      "translated": "とても良かったです☺️",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "YUURI"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-03-02",
-      "comment": "Booking.com",
-      "good": "Location, modern",
-      "bad": "The hotel was advertised as having a restaurant for dinner and breakfast you had to book for breakfast we tried to get a coffee and was turned away and the restaurant was closed in the evenings",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "ホテルは夕食と朝食を提供するレストランがあると宣伝していたが、朝食は予約が必要だった。コーヒーを飲もうとしたが断られ、レストランは夜は閉まっていた。",
-      "reviewer": "Vanessa"
-    },
-    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1006,7 +1032,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "サービスは平均的で、部屋は狭い。",
+      "translated": "サービスは平均的で、部屋は狭かった。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1149,7 +1175,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "部屋の広さはちょうど良く、独立したシャワーとトイレ、二段ベッドが2台あり、4人家族に最適でした。ホテルのロビーには大きな共同バスタブ、ウェルカムドリンク、ランドリールーム、ソーダファウンテン、電子レンジがありました。立地も便利で、JR駅から徒歩5～7分ほど。階下にはファミリーマート、セブンイレブン、ローソンのコンビニがありました。中華街までは徒歩約15分です。次回も必ずこのホテルを選びます。",
+      "translated": "部屋の広さはちょうど良く、独立したシャワーとトイレ、そして二段ベッドが2台あり、4人家族には最適でした。ホテルのロビーには大きな共同バスタブ、ウェルカムドリンク、ランドリールーム、ソーダファウンテン、電子レンジがありました。立地も便利で、JR駅から徒歩5～7分ほど。階下にはファミリーマート、セブンイレブン、ローソンといったコンビニエンスストアがありました。中華街までは徒歩約15分です。次回訪れる際も、間違いなくこのホテルを選びます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

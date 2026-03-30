@@ -1,12 +1,12 @@
 {
-  "total_reviews": 123,
+  "total_reviews": 125,
   "overall_avg_10pt": 8.9,
-  "high_count": 106,
-  "high_rate": 86.2,
+  "high_count": 108,
+  "high_rate": 86.4,
   "mid_count": 11,
-  "mid_rate": 8.9,
+  "mid_rate": 8.8,
   "low_count": 6,
-  "low_rate": 4.9,
+  "low_rate": 4.8,
   "site_stats": [
     {
       "site": "Agoda",
@@ -37,16 +37,16 @@
     },
     {
       "site": "Booking.com",
-      "count": 66,
-      "native_avg": 8.95,
+      "count": 65,
+      "native_avg": 8.92,
       "scale": "/10",
-      "avg_10pt": 8.95,
-      "median_10pt": 9.5,
+      "avg_10pt": 8.92,
+      "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
-      "count": 3,
+      "count": 4,
       "native_avg": 4.0,
       "scale": "/5",
       "avg_10pt": 8.0,
@@ -55,11 +55,11 @@
     },
     {
       "site": "Google",
-      "count": 23,
-      "native_avg": 3.83,
+      "count": 25,
+      "native_avg": 3.92,
       "scale": "/5",
-      "avg_10pt": 7.65,
-      "median_10pt": 8.0,
+      "avg_10pt": 7.84,
+      "median_10pt": 10.0,
       "judgment": "概ね良好"
     }
   ],
@@ -67,22 +67,22 @@
     {
       "score": 10,
       "count": 71,
-      "pct": "57.7%"
+      "pct": "56.8%"
     },
     {
       "score": 9,
-      "count": 16,
-      "pct": "13.0%"
+      "count": 17,
+      "pct": "13.6%"
     },
     {
       "score": 8,
-      "count": 19,
-      "pct": "15.4%"
+      "count": 20,
+      "pct": "16.0%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "5.7%"
+      "pct": "5.6%"
     },
     {
       "score": 6,
@@ -111,6 +111,84 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-29",
+      "comment": "Good hotel had everything needed for a Tokyo stay",
+      "good": "",
+      "bad": "",
+      "translated": "良いホテルで、東京滞在に必要なものはすべて揃っていました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "Location was good and in a quiet area. Breakfast was abundant and very diverse and the staff were always around to assist should you need anything. The hotel catered for tea and coffee out of meal hours which was fantastic and a great way and place to meet other patrons/ travellers.",
+      "bad": "Nothing - all seemed good value for the money.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "特に問題はなかった。すべて価格に見合った価値があったように思えた。",
+      "reviewer": "Julia"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "La struttura é molto pulita, le stanze più grandi dello standard. Inoltre l'hotel fornisce 24h su 24 bevande gratis in una saletta accanto alla hall. Colazione varia e buona per soli 9€.  La posizione anche se non è centrale è ben fornita da 2 stazioni metro, la zona è tranquilla e sicura. Lo consiglio fortemente.",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Hilaria"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-29",
+      "comment": "駅、セブンイレブン、ローソン、ファミリーマートが近くにあり、とても便利な立地です。部屋も広々としています。",
+      "good": "",
+      "bad": "",
+      "translated": "駅、セブンイレブン、ローソン、ファミリーマートが近くにあり、とても便利な立地です。部屋も広々としています。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Unyawee Seri"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-29",
+      "comment": "สะดวกมากๆ ใกล้รถไฟ ใกล้ 7-11, lowson, family mart ห้องกว้าง",
+      "good": "",
+      "bad": "",
+      "translated": "駅、セブンイレブン、ローソン、ファミリーマートが近くにあり、とても便利な立地です。部屋も広々としています。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Unyawee Seri"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-28",
+      "comment": "部屋も風呂も清潔で適度に広く、過ごしやすかったです。朝食も野菜が多く体調が整いました。又泊まりたいと思いました。 難点を言えば、馬喰町駅が近いのですがスーツケースを抱えて階段を上がるのが辛かったです。それが嫌で帰りは神田まで行きましたが、ちょっと歩くので、荷物が少ない時なら良かったです。",
+      "good": "",
+      "bad": "",
+      "translated": "部屋も風呂も清潔で適度に広く、過ごしやすかったです。朝食も野菜が多く体調が整いました。又泊まりたいと思いました。 難点を言えば、馬喰町駅が近いのですがスーツケースを抱えて階段を上がるのが辛かったです。それが嫌で帰りは神田まで行きましたが、ちょっと歩くので、荷物が少ない時なら良かったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "不明"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -600,7 +678,7 @@
       "comment": "This was my second visit to this hotel. And despite the constant flow of tourists, the staff manages to keep the service level at its best. Everything is just as good as the first time. Great job, guys!",
       "good": "",
       "bad": "",
-      "translated": "このホテルに宿泊するのは今回で2回目です。観光客がひっきりなしに訪れるにもかかわらず、スタッフの皆さんは最高のサービスレベルを維持してくれています。すべてが前回と変わらず素晴らしかったです。皆さん、素晴らしい仕事ぶりです！",
+      "translated": "このホテルに宿泊するのは今回で2回目です。観光客がひっきりなしに訪れるにもかかわらず、スタッフの皆さんは最高のサービスレベルを維持してくれています。すべてが前回と変わらず素晴らしかったです。皆さん、素晴らしい仕事ぶりでした！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -821,7 +899,7 @@
       "comment": "Some of the staff are very professional, but otherwise they watch you take the free coffee as if you were a thief. They do not bother to greet you. It is the first time in Japan that I have seen impolite people in a hotel",
       "good": "",
       "bad": "",
-      "translated": "スタッフの中には非常にプロフェッショナルな人もいますが、それ以外の人は、まるで泥棒を見るかのように、無料のコーヒーを取るのをじっと見ています。挨拶すらしてくれません。日本でホテルのスタッフにこんなに失礼な人を見たのは初めてです。",
+      "translated": "スタッフの中には非常にプロフェッショナルな人もいますが、それ以外の人は、まるで泥棒を見るかのように、無料のコーヒーを取るのをじっと見ています。挨拶すらしてくれません。日本でホテルでこんなに失礼な人を見たのは初めてです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "R0CH3 V1LL3 (Pirate)"
@@ -906,58 +984,6 @@
     },
     {
       "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-08",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Nitin"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Sinye"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "El desayuno es muy rico y muy variado a diferencia de otros hoteles que me quede en japon, fue el mejor, el personal siempre muy amable, y me volvería a quedar sin duda ahí en mi próxima visita a japon, el cuarto limpio y de buen tamaño, mucho más amplio que la mayoría en japon",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Areli"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-06",
-      "comment": "很好。位置十分方便。離秋葉原很近走路十分鐘。",
-      "good": "",
-      "bad": "",
-      "translated": "素晴らしい。立地がとても便利です。秋葉原まで徒歩わずか10分と非常に近いです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
       "date": "2026-02-28",
@@ -1016,7 +1042,7 @@
       "comment": "2人房可以加床變3人房的好選擇",
       "good": "",
       "bad": "",
-      "translated": "エキストラベッドを追加することで、2人部屋を3人部屋に変えるのに最適な選択肢です。",
+      "translated": "エキストラベッドを追加することで、2人部屋を3人部屋に変えるのに最適な方法です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "林政雄"
@@ -1263,7 +1289,7 @@
       "comment": "設施：設施齊全，化粧鏡，全身穿衣鏡都有，吹風機特別好用！！  環境：酒店一樓就是餐廳，餐廳環境也很舒適  服務：可以提前寄存行李，特別方便。",
       "good": "",
       "bad": "",
-      "translated": "設備：化粧鏡や全身鏡など、設備が充実しています。ヘアドライヤーは特に便利です！ 環境：レストランはホテルの1階にあり、レストランの環境もとても快適です。 サービス：荷物を事前に預かってもらえるので、とても便利です。",
+      "translated": "設備：化粧鏡や全身鏡など、設備が充実しています。ヘアドライヤーは特に便利です！ 環境：レストランはホテルの1階にあり、レストランの環境も非常に快適です。 サービス：荷物を事前に預かってもらえるので、とても便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1588,7 +1614,7 @@
       "comment": "孩子不加錢可同住雙人房，還免費升級為三張床，空間很足夠，每天還有咖啡和小心點自助使用，早餐樣式多，最喜歡現打果汁，服務人員都很貼心，很完美",
       "good": "",
       "bad": "",
-      "translated": "子供は追加料金なしでダブルルームに泊まることができましたが、私たちは無料でトリプルルームにアップグレードしてもらえました。部屋は広々としていて、毎日セルフサービスのコーヒーと軽食が用意されていました。朝食は種類豊富で、特に絞りたてのジュースが気に入りました。スタッフの方々もとても親切で、完璧でした。",
+      "translated": "子供は追加料金なしでダブルルームに泊まることができましたが、私たちは無料でトリプルルームにアップグレードしてもらえました。部屋は広々としていて、毎日セルフサービスのコーヒーと軽食が用意されていました。朝食は種類豊富で、特に絞りたてのジュースが気に入りました。スタッフの方々はとても親切で気配りが行き届いており、最高の滞在でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "沈玉涵"

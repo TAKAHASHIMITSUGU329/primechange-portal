@@ -1,12 +1,12 @@
 {
-  "total_reviews": 100,
-  "overall_avg_10pt": 8.74,
-  "high_count": 86,
-  "high_rate": 86.0,
+  "total_reviews": 104,
+  "overall_avg_10pt": 8.78,
+  "high_count": 90,
+  "high_rate": 86.5,
   "mid_count": 10,
-  "mid_rate": 10.0,
+  "mid_rate": 9.6,
   "low_count": 4,
-  "low_rate": 4.0,
+  "low_rate": 3.8,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -19,28 +19,28 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 37,
-      "native_avg": 4.46,
+      "count": 39,
+      "native_avg": 4.49,
       "scale": "/5",
-      "avg_10pt": 8.92,
+      "avg_10pt": 8.97,
       "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 14,
-      "native_avg": 8.86,
+      "count": 15,
+      "native_avg": 8.93,
       "scale": "/10",
-      "avg_10pt": 8.86,
-      "median_10pt": 9.5,
+      "avg_10pt": 8.93,
+      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 16,
-      "native_avg": 8.69,
+      "count": 17,
+      "native_avg": 8.71,
       "scale": "/10",
-      "avg_10pt": 8.69,
+      "avg_10pt": 8.71,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,18 +66,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 55,
-      "pct": "55.0%"
+      "count": 58,
+      "pct": "55.8%"
     },
     {
       "score": 9,
-      "count": 5,
-      "pct": "5.0%"
+      "count": 6,
+      "pct": "5.8%"
     },
     {
       "score": 8,
       "count": 26,
-      "pct": "26.0%"
+      "pct": "25.0%"
     },
     {
       "score": 7,
@@ -87,7 +87,7 @@
     {
       "score": 6,
       "count": 9,
-      "pct": "9.0%"
+      "pct": "8.7%"
     },
     {
       "score": 4,
@@ -97,10 +97,62 @@
     {
       "score": 2,
       "count": 3,
-      "pct": "3.0%"
+      "pct": "2.9%"
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-29",
+      "comment": "駅からのアクセスと清潔さが最高でした。受付の方もスマートで丁寧で好印象。リピありありです。",
+      "good": "",
+      "bad": "",
+      "translated": "駅からのアクセスと清潔さが最高でした。受付の方もスマートで丁寧で好印象。リピありありです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "キティメロ"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Lee"
+    },
+    {
+      "site": "Agoda",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-28",
+      "comment": "駅まで傘無しで1分、京王スーパーも駅直結です。近くにレストランも多い。 清掃も行き届いており朝食の和食もおいしかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "駅まで傘無しで1分、京王スーパーも駅直結です。近くにレストランも多い。 清掃も行き届いており朝食の和食もおいしかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Toshinari"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-28",
+      "comment": "仕事の出張にて、何度か利用させて頂いておりますが、ホテルが綺麗かつ快適です。 テレビは、youtube等の視聴コンテンツ対応なので、こちらも快適ポイント！ さすがは、スターツグループです。  朝食付きプランにしていますが、ご飯＋パン類、飲みものやヨーグルトなど用意されております。ただ最近はご飯茶碗が小さくなって来といたりと残念ポイントがあります。  府中駅にも直結できるので、アクセスや 夕食などは豊富です。私は普段からクルマですが、こちらも近隣にカード利用可能なコインパーキングあり、24時間以内で1800円で駐車可○",
+      "good": "",
+      "bad": "",
+      "translated": "仕事の出張にて、何度か利用させて頂いておりますが、ホテルが綺麗かつ快適です。 テレビは、youtube等の視聴コンテンツ対応なので、こちらも快適ポイント！ さすがは、スターツグループです。  朝食付きプランにしていますが、ご飯＋パン類、飲みものやヨーグルトなど用意されております。ただ最近はご飯茶碗が小さくなって来といたりと残念ポイントがあります。  府中駅にも直結できるので、アクセスや 夕食などは豊富です。私は普段からクルマですが、こちらも近隣にカード利用可能なコインパーキングあり、24時間以内で1800円で駐車可○",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "astra00m"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,

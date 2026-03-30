@@ -1,10 +1,10 @@
 {
-  "total_reviews": 132,
-  "overall_avg_10pt": 9.12,
-  "high_count": 118,
-  "high_rate": 89.4,
+  "total_reviews": 134,
+  "overall_avg_10pt": 9.1,
+  "high_count": 120,
+  "high_rate": 89.6,
   "mid_count": 12,
-  "mid_rate": 9.1,
+  "mid_rate": 9.0,
   "low_count": 2,
   "low_rate": 1.5,
   "site_stats": [
@@ -28,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 51,
-      "native_avg": 8.82,
+      "count": 53,
+      "native_avg": 8.79,
       "scale": "/10",
-      "avg_10pt": 8.82,
+      "avg_10pt": 8.79,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -49,17 +49,17 @@
     {
       "score": 10,
       "count": 75,
-      "pct": "56.8%"
+      "pct": "56.0%"
     },
     {
       "score": 9,
       "count": 25,
-      "pct": "18.9%"
+      "pct": "18.7%"
     },
     {
       "score": 8,
-      "count": 18,
-      "pct": "13.6%"
+      "count": 20,
+      "pct": "14.9%"
     },
     {
       "score": 7,
@@ -69,12 +69,12 @@
     {
       "score": 6,
       "count": 5,
-      "pct": "3.8%"
+      "pct": "3.7%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "0.8%"
+      "pct": "0.7%"
     },
     {
       "score": 4,
@@ -83,6 +83,45 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "交通方便，附近也有很多超商及24小時的樂天超市",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "家儀"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-29",
+      "comment": "挺不錯的酒店👍",
+      "good": "",
+      "bad": "",
+      "translated": "とても素敵なホテルですね👍",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "部屋がきれいだった",
+      "bad": "ちょっと高い",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ちょっと高い",
+      "reviewer": "Rie"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -364,7 +403,7 @@
       "comment": "位置方便，酒店距離車站8-10分鐘路程，附近有商場，以及GU、Uniqlo、無印，可以在附近購物，而且不需要走很遠路就可以回酒店，亦有24小時超市",
       "good": "",
       "bad": "",
-      "translated": "ホテルは駅から徒歩8～10分と便利な場所に位置しています。近くにはGU、ユニクロ、無印良品などのショッピングモールがあり、ホテルまで遠くまで歩かなくても気軽に買い物を楽しめます。24時間営業のスーパーマーケットも利用可能です。",
+      "translated": "ホテルは駅から徒歩8～10分と便利な場所に位置しています。GU、ユニクロ、無印良品などのショッピングモールが近くにあり、ホテルまで遠くまで歩かなくても気軽に買い物を楽しめます。24時間営業のスーパーマーケットも利用可能です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍n‍n‍(‍*‍¯‍︶‍¯‍*‍)"
@@ -390,7 +429,7 @@
       "comment": "酒店地理位置優越，附近很多美食，例如鳥貴族。便利店和商場也在5分鐘步行範圍內。5-7分鐘可行到JR站",
       "good": "",
       "bad": "",
-      "translated": "このホテルは、バードネストをはじめとする数多くのレストランが近隣にある絶好のロケーションを誇ります。コンビニエンスストアやショッピングモールも徒歩5分圏内です。JR駅までは徒歩5～7分です。",
+      "translated": "このホテルは絶好のロケーションを誇り、近隣にはバードネストをはじめとする数多くのレストランがあります。コンビニエンスストアやショッピングモールも徒歩5分圏内です。JR駅までは徒歩5～7分です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -676,7 +715,7 @@
       "comment": "房間很大，位置好又鄰近地鐵和jr線，不用擔心轉乘問題，值得推薦住的飯店",
       "good": "",
       "bad": "",
-      "translated": "部屋は広々としていて、立地も素晴らしく、地下鉄とJR線に近かったので、乗り換えの心配は全くありませんでした。非常におすすめのホテルです。",
+      "translated": "部屋は広々としていて、立地も素晴らしく、地下鉄とJR線に近かったので乗り換えの心配は全くありませんでした。非常におすすめのホテルです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -793,7 +832,7 @@
       "comment": "整體感覺很好",
       "good": "",
       "bad": "",
-      "translated": "全体的に、とても良かった。",
+      "translated": "全体的な印象は非常に良い",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -808,7 +847,7 @@
       "bad": "早餐樣式不多，其餘很棒",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "朝食の種類は豊富ではなかったが、それ以外は素晴らしかった。",
+      "translated_bad": "朝食の種類は多くなかったが、それ以外は素晴らしかった。",
       "reviewer": "Hsin"
     },
     {
@@ -821,7 +860,7 @@
       "bad": "Couldn’t get feather-free bedding despite my allergy request",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "アレルギーがあるという私の要望にもかかわらず、羽毛不使用の寝具を入手できませんでした。",
+      "translated_bad": "アレルギーがあるという私の要望にもかかわらず、羽毛不使用の寝具を用意してもらえませんでした。",
       "reviewer": "Michael"
     },
     {
@@ -914,19 +953,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "怡綾"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-04",
-      "comment": "非常棒的酒店，地理位置很好，錦系町站南口出來後一路筆直走就可以到，酒店服務人員也非常友好，有問題會及時解決，提出來的房間需求都滿足了，很棒！酒店工作人員每天都會換浴巾和倒垃圾，之前去日本其他城市也都住richmond，便捷，實惠，乾淨，舒適，下次來日本玩還會繼續選擇這個牌子的^ _ ^",
-      "good": "",
-      "bad": "",
-      "translated": "錦糸町駅南口から徒歩すぐという最高のロケーションにある素晴らしいホテルです。ホテルスタッフもとても親切で、どんな問題にも迅速に対応してくれました。部屋のリクエストにも全て応えてくれて、本当に助かりました！タオル交換やゴミ捨ても毎日行ってくれました。以前にも日本の他の都市でリッチモンドホテルに宿泊したことがありますが、便利で手頃な価格、清潔で快適です。次回日本に来る時も、間違いなくこのブランドを選びます！^_^",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
     },
     {
       "site": "Booking.com",
@@ -1196,7 +1222,7 @@
       "comment": "酒店早餐好，附近有很多吃飯的店，去地鐵站也很方便，總之很喜歡這個酒店。下次還住着個酒店啦啦啦啦啦啦啦啊啦",
       "good": "",
       "bad": "",
-      "translated": "ホテルの朝食は美味しく、周辺にはたくさんのレストランがあり、地下鉄の駅にもとても便利でした。全体的にこのホテルはとても気に入りました。次回も必ずここに泊まります！",
+      "translated": "ホテルの朝食は美味しく、周辺にはたくさんのレストランがあり、地下鉄の駅にもとても便利でした。全体的に、このホテルは本当に気に入りました。次回も必ずここに泊まります！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1549,7 +1575,7 @@
       "bad": "I booked 2 rooms, one room for 3 peoples, another room for 2 peoples, the front desk mixed up and gave me wrong room card.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "私は2部屋予約しました。1部屋は3人用、もう1部屋は2人用です。フロントの人が間違えて、間違ったルームカードを渡されました。",
+      "translated_bad": "私は2部屋予約しました。1部屋は3人用、もう1部屋は2人用です。しかし、フロントの人が間違えて、間違ったルームカードを渡されました。",
       "reviewer": "Amy"
     },
     {
@@ -1690,7 +1716,7 @@
       "comment": "飯店回覆信件親切、迅速 性價比高 值得推薦加購早餐",
       "good": "",
       "bad": "",
-      "translated": "ホテルはメールへの返信が迅速かつ丁寧でした。料金に見合った価値があり、朝食付きプランをご希望の方には特におすすめです。",
+      "translated": "ホテルはメールへの返信が迅速かつ丁寧でした。料金に見合った価値があり、朝食付きのプランをご希望の方には特におすすめです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

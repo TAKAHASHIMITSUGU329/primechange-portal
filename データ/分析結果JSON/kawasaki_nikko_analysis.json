@@ -1,19 +1,19 @@
 {
-  "total_reviews": 130,
-  "overall_avg_10pt": 8.68,
-  "high_count": 106,
+  "total_reviews": 135,
+  "overall_avg_10pt": 8.67,
+  "high_count": 110,
   "high_rate": 81.5,
-  "mid_count": 22,
-  "mid_rate": 16.9,
+  "mid_count": 23,
+  "mid_rate": 17.0,
   "low_count": 2,
   "low_rate": 1.5,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 30,
-      "native_avg": 9.63,
+      "count": 31,
+      "native_avg": 9.58,
       "scale": "/10",
-      "avg_10pt": 9.63,
+      "avg_10pt": 9.58,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -28,16 +28,16 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 6,
-      "native_avg": 4.5,
+      "count": 7,
+      "native_avg": 4.43,
       "scale": "/5",
-      "avg_10pt": 9.0,
+      "avg_10pt": 8.86,
       "median_10pt": 10.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 66,
+      "count": 69,
       "native_avg": 8.65,
       "scale": "/10",
       "avg_10pt": 8.65,
@@ -46,53 +46,44 @@
     },
     {
       "site": "Google",
-      "count": 19,
-      "native_avg": 3.58,
+      "count": 20,
+      "native_avg": 3.55,
       "scale": "/5",
-      "avg_10pt": 7.16,
+      "avg_10pt": 7.1,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
-      "site": "Agoda",
-      "count": 1,
-      "native_avg": 7.0,
-      "scale": "/10",
-      "avg_10pt": 7.0,
-      "median_10pt": 7.0,
       "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 56,
-      "pct": "43.1%"
+      "count": 57,
+      "pct": "42.2%"
     },
     {
       "score": 9,
-      "count": 24,
-      "pct": "18.5%"
+      "count": 26,
+      "pct": "19.3%"
     },
     {
       "score": 8,
-      "count": 26,
+      "count": 27,
       "pct": "20.0%"
     },
     {
       "score": 7,
-      "count": 10,
-      "pct": "7.7%"
+      "count": 9,
+      "pct": "6.7%"
     },
     {
       "score": 6,
-      "count": 11,
-      "pct": "8.5%"
+      "count": 13,
+      "pct": "9.6%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "0.8%"
+      "pct": "0.7%"
     },
     {
       "score": 2,
@@ -101,6 +92,136 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "ロケーションが良かった",
+      "bad": "特になし",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "特になし",
+      "reviewer": "Hiro"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "多次入住，早餐豐盛，服務好，房間安靜，交通也十分便利，在JR車站旁邊，而且離羽田機場也交通便利，非常方便",
+      "good": "",
+      "bad": "",
+      "translated": "私はここに何度も宿泊しています。朝食は種類豊富で、サービスも良く、部屋は静かで、立地も非常に便利です。JR駅のすぐ隣で、羽田空港にも近いです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Pak"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "早餐好吃，房間打掃都很乾淨",
+      "bad": "房內燈光略為不足",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "部屋の照明がやや不十分だった。",
+      "reviewer": "Tommydogg"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "Acceptable",
+      "bad": "Hotel facilities are outdated。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ホテルの設備は時代遅れだ。",
+      "reviewer": "Weng"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-29",
+      "comment": "服務人員非常的貼心，而且也會很願意去協助客戶解決問題",
+      "good": "",
+      "bad": "",
+      "translated": "サービススタッフは非常に親切で、顧客の問題解決に積極的に協力してくれた。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-29",
+      "comment": "最上階のプランで、快適に過ごせました。 ドリンク無料券もついていて嬉しかったです。 設備について、部屋のウォシュレットが作動しませんでした。それがとても残念でした。修理をお願いします。",
+      "good": "",
+      "bad": "",
+      "translated": "最上階のプランで、快適に過ごせました。 ドリンク無料券もついていて嬉しかったです。 設備について、部屋のウォシュレットが作動しませんでした。それがとても残念でした。修理をお願いします。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "torotoro3"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-28",
+      "comment": "",
+      "good": "Amazing location - connected via pedestrian bridge to all nearby buildings. It rained heavily on one of the days and I was able to walk on foot without an umbrella to the train station and the nearby shopping centre without an umbrella.   Spotlessly clean rooms. Attention to detail and staff were all very caring. It must be an old building but the interiors of the room were nicely decorated with modern materials.  Bed, sheets, duvet were all very comfortable. I had very good sleep here.",
+      "bad": "I could hear someone’s snoring from somewhere on the floor in the middle of the night. Space to put luggage is very limited. It did have a separate space for big coats and shoes.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "真夜中に、部屋のどこかから誰かのいびきが聞こえてきました。荷物を置くスペースは非常に限られています。大きなコートや靴を置くための専用スペースはありましたが。",
+      "reviewer": "Su"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-28",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Shigeki"
+    },
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-28",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "井崎正浩"
+    },
     {
       "site": "Google",
       "rating": 3.0,
@@ -668,7 +789,7 @@
       "comment": "位於JR川崎站旁邊走路一下子，就算是從京成川崎站過來也大約十至十五分鐘，飯店櫃檯在一樓，其他樓層有其他設施。  房間大小還OK，不算太小，各項該有的東西都有，還有折紙鶴在桌上迎賓，現在加入Onw Harmony會員還有送小禮物，網路WiFi密碼在電視上面，不過從Check-In到住進房間貌似都沒有人提到。  各樓層都有飲料機跟冰塊機，部分樓層有販售酒精飲料。  早餐在10樓一間餐廳，整體還不錯，日式西式都有，雖然熟食種類以星級飯店覺得不算多，就是一般會有的都有，沒有特別多出來的，飲料種類倒是蠻多的，甚至還有霜淇淋。  一些小缺點是沒有洗衣房，這問題可大可小，然後飯店櫃檯人員英語能力似乎不太好，雖然還是很熱情的協助辦理入住，但畢竟是品牌飯店櫃檯，基本的外語能力應該還是要具備，而不是拿手機按Google Translate，另外一個不解的是房間窗戶有貼膜沒辦法看清楚外面，不明白。",
       "good": "",
       "bad": "",
-      "translated": "JR川崎駅から徒歩すぐ、または京成川崎駅から10～15分ほどの場所に位置するホテルです。フロントは1階にあり、その他の施設は他の階にあります。客室は狭すぎず、必要なアメニティはすべて揃っており、テーブルにはウェルカム用の折り鶴が置かれています。Onw Harmony Nowにご入会いただくと、ちょっとしたプレゼントがあります。Wi-Fiのパスワードはテレビに表示されていますが、チェックイン時や入室時に誰も教えてくれなかったようです。各階に飲料と製氷機があり、一部の階ではアルコール飲料も販売しています。朝食は10階のレストランで提供され、和食と洋食の両方があり、概ね満足できる内容です。星付きホテルとしては調理済み食品の種類はそれほど多くありませんが、一般的なメニューは揃っており、特に豪華なものはありません。しかし、ソフトクリームなど、飲み物の種類は豊富です。小さな欠点としては、ランドリールームがないことが挙げられますが、これは些細な問題にも大きな問題にもなり得ます。また、フロントのスタッフの英語力は限られているようでした。チェックインの際のサポートは非​​常に親切だったものの、有名ホテルである以上、スマホのGoogle翻訳を使うだけでなく、基本的な外国語能力を備えているべきだった。また、部屋の窓が着色ガラスだったため、外が見えにくかったのも困った点だった。",
+      "translated": "JR川崎駅から徒歩すぐ、または京成川崎駅から10～15分ほどの場所に位置するホテルです。フロントは1階にあり、その他の施設は他の階にあります。客室は狭すぎず、必要なアメニティはすべて揃っており、テーブルにはウェルカム用の折り鶴が置かれています。Onw Harmony Nowにご入会いただくと、ちょっとしたプレゼントがあります。Wi-Fiのパスワードはテレビに表示されていますが、チェックイン時や入室時に誰も教えてくれなかったようです。各階に飲料と製氷機があり、一部の階ではアルコール飲料も販売しています。朝食は10階のレストランで提供され、和食と洋食の両方が選べ、概ね満足できる内容です。星付きホテルとしては調理済み食品の種類はそれほど多くありませんが、特別なものはなく、一般的なメニューが揃っています。ただし、ソフトクリームなど、飲み物の種類はかなり豊富です。小さな欠点としては、ランドリールームがないことが挙げられますが、これは些細な問題にも大きな問題にもなり得ます。また、フロントのスタッフの英語力は限られているようでした。チェックインの際のサポートは非​​常に親切だったものの、有名ホテルである以上、スマホのGoogle翻訳を使うだけでなく、基本的な外国語能力を備えているべきだった。また、部屋の窓が着色ガラスだったため、外が見えにくかったのも困った点だった。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "吳漢堡"
@@ -707,7 +828,7 @@
       "comment": "位置好，車站旁邊，出行方便，不過還是能聽到電車的聲音的。 樓層高，可以看到街景，甚至遠山。 早餐日式和西洋的都有，品種還算豐富，有冰激凌",
       "good": "",
       "bad": "",
-      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々まで見渡せます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
+      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々も眺めることができます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -880,71 +1001,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "あゆさん"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-08",
-      "comment": "역 바로 앞이라 찾기 쉽고 호텔 바로 옆에 마트가 있어 편리해요",
-      "good": "",
-      "bad": "",
-      "translated": "駅のすぐ前で見つけやすく、ホテルのすぐ隣にマートがあり便利です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-08",
-      "comment": "",
-      "good": "地點位置",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Nanfong"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-08",
-      "comment": "",
-      "good": "Good room, comfortable bed, great breakfast",
-      "bad": "Perhaps a bit too noise from the train sounds early morning",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "早朝の電車の音が少しうるさいかもしれない",
-      "reviewer": "Esteban"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-08",
-      "comment": "",
-      "good": "Hôtel très propre et confortable  Très bon emplacement situé a proximité immédiate de la gare de Kawasaki qui permet de relier facilement certains endroits stratégiques de Tokyo (environ 20/25 minutes en train de l'aéroport d'Haneda et de la gare de Tokyo)  Le buffet du petit déjeuner est varié et savoureux  En résumé, bon rapport qualité/prix",
-      "bad": "Un seul espace fumeur dans tout l'immeuble",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "建物全体で喫煙エリアは1箇所のみです。",
-      "reviewer": "Antoine"
-    },
-    {
-      "site": "Agoda",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-03-08",
-      "comment": "駅近で、老舗ホテルのため、安心して滞在できた。",
-      "good": "",
-      "bad": "",
-      "translated": "駅近で、老舗ホテルのため、安心して滞在できた。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Ayumi"
     },
     {
       "site": "Booking.com",
@@ -1229,7 +1285,7 @@
       "bad": "Tutto sembra molto datato ormai, ma le cose peggiori sono state: - impossibile modificare temperatura della stanza, e dentro faceva un caldo infernale (a febbraio). C’è un piccolo condizionatore ma non fa quasi nulla - dal bagno c’è un costante rumore ripetuto che purtroppo si sente dal letto, essendo attiguo - il letto col materasso a molle è scomodissimo, specialmente dopo settimane di bei materassi duri giapponesi, e le lenzuola in acrilico rendono ancora più calda l’esperienza del pernottamento - la pulizia della stanza lascia a desiderare",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）焼けつくように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
+      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）地獄のように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
       "reviewer": "Michele"
     },
     {

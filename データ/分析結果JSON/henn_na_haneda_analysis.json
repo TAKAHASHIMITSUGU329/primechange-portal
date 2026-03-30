@@ -1,19 +1,19 @@
 {
-  "total_reviews": 338,
-  "overall_avg_10pt": 8.3,
-  "high_count": 258,
-  "high_rate": 76.3,
-  "mid_count": 69,
+  "total_reviews": 343,
+  "overall_avg_10pt": 8.31,
+  "high_count": 262,
+  "high_rate": 76.4,
+  "mid_count": 70,
   "mid_rate": 20.4,
   "low_count": 11,
-  "low_rate": 3.3,
+  "low_rate": 3.2,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 23,
-      "native_avg": 9.43,
+      "count": 24,
+      "native_avg": 9.46,
       "scale": "/10",
-      "avg_10pt": 9.43,
+      "avg_10pt": 9.46,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -36,6 +36,15 @@
       "judgment": "良好"
     },
     {
+      "site": "Google",
+      "count": 66,
+      "native_avg": 4.08,
+      "scale": "/5",
+      "avg_10pt": 8.15,
+      "median_10pt": 10.0,
+      "judgment": "良好"
+    },
+    {
       "site": "Agoda",
       "count": 37,
       "native_avg": 8.14,
@@ -46,53 +55,44 @@
     },
     {
       "site": "Booking.com",
-      "count": 145,
+      "count": 148,
       "native_avg": 8.14,
       "scale": "/10",
       "avg_10pt": 8.14,
       "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 65,
-      "native_avg": 4.06,
-      "scale": "/5",
-      "avg_10pt": 8.12,
-      "median_10pt": 10.0,
       "judgment": "良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 117,
-      "pct": "34.6%"
+      "count": 119,
+      "pct": "34.7%"
     },
     {
       "score": 9,
-      "count": 43,
-      "pct": "12.7%"
+      "count": 44,
+      "pct": "12.8%"
     },
     {
       "score": 8,
-      "count": 98,
-      "pct": "29.0%"
+      "count": 99,
+      "pct": "28.9%"
     },
     {
       "score": 7,
-      "count": 31,
-      "pct": "9.2%"
+      "count": 32,
+      "pct": "9.3%"
     },
     {
       "score": 6,
       "count": 29,
-      "pct": "8.6%"
+      "pct": "8.5%"
     },
     {
       "score": 5,
       "count": 9,
-      "pct": "2.7%"
+      "pct": "2.6%"
     },
     {
       "score": 4,
@@ -107,10 +107,75 @@
     {
       "score": 2,
       "count": 7,
-      "pct": "2.1%"
+      "pct": "2.0%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "The room is spacious and very comfortable. The hotel features a robot receptionist, which was a fun and unique experience—especially for kids, who were really excited about it.  It’s a great place for families, with books available for children to enjoy. The hotel also provides an airport shuttle service, which makes traveling much more convenient.",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は広々としていてとても快適です。ホテルにはロボットの受付係がいて、特に子供たちは大喜びで、楽しくてユニークな体験でした。子供向けの本も用意されているので、家族連れにも最適です。空港シャトルサービスもあるので、旅行もとても便利です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "p‍i‍n‍g‍.‍k‍a‍b"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "Everything you need. Great value. Especially the free airport shuttle. Good clean and functional.",
+      "bad": "Checkin lacks that personal touch. The animatronics are amusing, but does not replace a good smile.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "チェックインには、人間味のある対応が欠けている。アニマトロニクスは面白いが、素敵な笑顔の代わりにはならない。",
+      "reviewer": "Pa"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Jeffrey"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-29",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Sachiko"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-28",
+      "comment": "羽田空港利用時に宿泊しました。 ロボットが受付にいますが、ちゃんとインターフォンを押せば人間も対応してくださいます（笑）。  最新の人気マンガが読み放題だったり、コインランドリーもあったので長期滞在には良さそうです。  すぐ近くにスーパーやコンビニがあるので、夕飯や朝ごはんには困りませんでした。  空港とホテルの往復無料バスがありますが、時間帯や人数が限られているので、場合によっては電車利用なども検討した方が良いかもしれません。",
+      "good": "",
+      "bad": "",
+      "translated": "羽田空港利用時に宿泊しました。 ロボットが受付にいますが、ちゃんとインターフォンを押せば人間も対応してくださいます（笑）。  最新の人気マンガが読み放題だったり、コインランドリーもあったので長期滞在には良さそうです。  すぐ近くにスーパーやコンビニがあるので、夕飯や朝ごはんには困りませんでした。  空港とホテルの往復無料バスがありますが、時間帯や人数が限られているので、場合によっては電車利用なども検討した方が良いかもしれません。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "A.a"
+    },
     {
       "site": "Booking.com",
       "rating": 10.0,
@@ -1562,7 +1627,7 @@
       "comment": "地理位置方便，距離地鐵站，去羽田機場方便。自己辦理入住，衹要按照步驟操作，很方便。房間雖然小，短期出行完全足夠。 有免費巴士，不過我們沒有入住  酒店附近有烤肉店，建議不吃自助餐，點餐更好。",
       "good": "",
       "bad": "",
-      "translated": "立地は便利で、地下鉄の駅に近く、羽田空港へのアクセスも容易です。チェックインも手順通りに進めるだけでとても簡単でした。部屋は狭いですが、短期滞在には十分です。無料のシャトルバスがありますが、利用しませんでした。ホテルの近くには焼肉店がいくつかあるので、ビュッフェではなくアラカルトで注文することをおすすめします。",
+      "translated": "立地は便利で、地下鉄の駅に近く、羽田空港へのアクセスも容易です。チェックインはセルフサービスで、手順に従うだけでとても簡単でした。部屋は小さいですが、短期滞在には十分です。無料のシャトルバスがありますが、私たちは利用しませんでした。ホテルの近くには焼肉店がいくつかあるので、ビュッフェではなくアラカルトで注文することをお勧めします。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1941,7 +2006,7 @@
       "bad": "Der Shuttlebus zum Flughafen Haneda fährt leider nur 1x pro Stunde und zu Stoßzeiten kann es leicht vorkommen, dass man keinen Platz mehr bekommt.  Außerdem fährt er nur morgens und abends. Wer außerhalb der Zeiten ankommt, muss die Bahn nehmen (Keikyu Line, vier Stationen bis Bahnhof Otorii für 313yen).",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保しやすいものの、運行時間は朝と夕方のみです。それ以外の時間帯に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
+      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保するのも容易です。また、運行時間は朝と夕方のみです。これらの時間帯以外に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
       "reviewer": "Thomas"
     },
     {
@@ -2511,7 +2576,7 @@
       "comment": "用uber叫計程車等了10分鐘司機不知道在幹嘛都沒動，櫃檯幫忙叫車服務很好",
       "good": "",
       "bad": "",
-      "translated": "Uberを呼んで10分待ったのですが、運転手は動こうともせず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、スムーズに配車を手配してくれました。",
+      "translated": "Uberを呼んで10分待ったのですが、運転手は一向に動かず、何もしていませんでした。カウンターのスタッフは親切に対応してくれて、スムーズに配車を手配してくれました。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "高欣義"
@@ -3826,7 +3891,7 @@
       "bad": "The shuttle service from the airport was a joke. It doesn’t show the shuttle doesn’t run until after 7.30pm at night anywhere that I could see on the website. I was forced to put my global roaming on my phone and get a Japanese stranger to ring the hotel for me to be told the shuttle wasn’t running upon my arrival at terminal 3 at Haneda Airport. I was then forced to seek out English speaking people at the train station and get advice on which train to get and where to get off to access your hotel. The shuttle the next morning at 4.45am was over full and I was lucky to get the last seat back to the airport. Very unsatisfactory. I also tried contacting room service for a wake up call with no result.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるのかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満員で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
+      "translated_bad": "空港からのシャトルサービスはひどいものでした。ウェブサイトのどこにも、シャトルが夜7時半以降まで運行していないとは書いてありませんでした。仕方なく携帯電話の国際ローミングをオンにして、見知らぬ日本人にホテルに電話してもらい、羽田空港第3ターミナル到着時にシャトルが運行していないことを知らされました。その後、駅で英語を話せる人を探し、どの電車に乗ってどこで降りればホテルに行けるかを尋ねなければなりませんでした。翌朝4時45分発のシャトルは満席で、運良く最後の席に座ることができて空港に戻ることができました。非常に不満です。モーニングコールを頼もうとルームサービスにも連絡しましたが、繋がりませんでした。",
       "reviewer": "Chris"
     },
     {
@@ -4344,7 +4409,7 @@
       "comment": "Has everything you'd need except temperature control in the bedroom. Rooms are designed to feel spacious, I've stayed in more expensive hotels that are poorly designed and feel more cramped. The best part for me was that the have blackout curtains (pic attached), those things are amazing and allowed me to get good sleep. Rooms also have a dry clean closet which was my first, just didn't have a suit with me this trip. The down stairs has food and the automated  system works. A big plus is that if you want others like gf or kids to see what Universal Studios was like in the 90s, you've come to the right place.  I didn't know there was a shuttle I was checking out around 8AM and the shuttle guy was taking ppl to the Haneda airport. I cracked a joke with him about taking me to Narita he laughed and said he's sorry he couldn't, but the Otorii station runs an express to Narita by the our. So I'd you're like me landing at HND and flying out from NRT this was very convenient.",
       "good": "",
       "bad": "",
-      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があったことです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港まで人を運んでいました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
+      "translated": "寝室の温度調節以外は必要なものはすべて揃っています。部屋は広々と感じられるように設計されており、もっと高価なホテルでも設計が悪く、窮屈に感じるところがありました。私にとって一番良かったのは、遮光カーテン（写真添付）があることです。これは素晴らしいもので、ぐっすり眠ることができました。部屋にはドライクリーニングクローゼットもあり、これは私にとって初めての経験でしたが、今回はスーツを持ってきていなかったので利用しませんでした。階下には食事があり、自動システムが機能しています。大きな利点は、ガールフレンドや子供など他の人に90年代のユニバーサルスタジオがどんな感じだったかを見せたいなら、ここが最適な場所だということです。シャトルがあることを知らなかったのですが、午前8時頃にチェックアウトしたところ、シャトルの運転手は羽田空港に人を送っていました。成田まで連れて行ってほしいと冗談を言うと、彼は笑って、それはできないが、大鳥居駅から成田行きの特急が出ていると言いました。なので、私のようにHNDに到着してNRTから出発するなら、これはとても便利でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Walter Avalos"
