@@ -1,5 +1,5 @@
 // V2 Index Page Builder - generates index.html for the portfolio portal
-const { esc, nav, footer, pageHead, pageFoot } = require('./common-v2');
+const { esc, nav, footer, pageHead, pageFoot, deltaBadge } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
 // Achievement calculation helpers
@@ -73,7 +73,7 @@ function buildIndex(data, deltas, revenueOps) {
 
   // ── KPI Grid ──
   var kpiDefs = [
-    { key: 'total_hotels', label: 'ホテル数', value: totalHotels, unit: 'ホテル', color: 'var(--accent)', target: null, lower: false, deltaKey: null },
+    { key: 'total_hotels', label: 'ホテル数', value: totalHotels, unit: 'ホテル', color: 'var(--accent)', target: null, lower: false, deltaKey: 'total_hotels' },
     { key: 'total_reviews', label: '口コミ数', value: totalReviews.toLocaleString(), unit: '件', color: 'var(--green)', target: null, lower: false, deltaKey: 'total_reviews' },
     { key: 'avg_score', label: '平均スコア', value: curAvgScore, unit: '/ 10 点', color: curAvgScore >= 8 ? 'var(--green)' : 'var(--orange)', target: targetAvgScore, lower: false, deltaKey: 'avg_score' },
     { key: 'high_rate', label: '高評価率', value: curHighRate + '%', unit: '8点以上', color: 'var(--green)', target: targetHighRate, lower: false, deltaKey: 'high_rate', rawVal: curHighRate },
@@ -83,15 +83,7 @@ function buildIndex(data, deltas, revenueOps) {
   html.push('<div class="kpi-grid" id="indexKpiGrid">');
 
   kpiDefs.forEach(function(k) {
-    var deltaHtml = '';
-    if (deltas && deltas.hasDeltas && k.deltaKey && deltas.metrics[k.deltaKey]) {
-      var d = deltas.metrics[k.deltaKey];
-      var deltaVal = d.delta;
-      var isImproved = k.lower ? deltaVal < 0 : deltaVal > 0;
-      var arrow = deltaVal > 0 ? '&#9650;' : deltaVal < 0 ? '&#9660;' : '&#9654;';
-      var dCls = isImproved ? 'up' : 'down';
-      deltaHtml = '<div class="kpi-delta ' + dCls + '">' + arrow + ' ' + (deltaVal > 0 ? '+' : '') + deltaVal + '</div>';
-    }
+    var deltaHtml = deltaBadge(deltas && deltas.hasDeltas && k.deltaKey && deltas.metrics[k.deltaKey] ? deltas.metrics[k.deltaKey] : null, k.lower ? 'lower' : 'higher');
 
     var targetHtml = '';
     if (k.target != null) {

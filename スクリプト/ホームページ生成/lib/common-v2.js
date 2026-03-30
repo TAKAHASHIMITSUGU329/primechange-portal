@@ -325,6 +325,16 @@ function commonCSS() {
     '  .gauge-row { gap: 1rem; }',
     '  .gauge-item { min-width: 120px; }',
     '}',
+    '',
+    '/* Delta badges */',
+    '.delta-badge { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.65rem; font-weight: 700; padding: 0.12rem 0.45rem; border-radius: 6px; margin-left: 0.35rem; white-space: nowrap; vertical-align: middle; }',
+    '.delta-badge.up { color: #065F46; background: #ECFDF5; border: 1px solid #A7F3D0; }',
+    '.delta-badge.down { color: #991B1B; background: #FEF2F2; border: 1px solid #FECACA; }',
+    '.delta-badge.flat { color: #6B7280; background: #F3F4F6; border: 1px solid #D1D5DB; }',
+    '.delta-badge .delta-prev { font-size: 0.58rem; font-weight: 400; opacity: 0.7; margin-left: 0.15rem; }',
+    '.delta-badge.compact { padding: 0.08rem 0.3rem; font-size: 0.58rem; }',
+    '.delta-badge.compact .delta-prev { display: none; }',
+    '.hide-deltas .delta-badge { display: none; }',
   ].join('\n');
 }
 
@@ -355,6 +365,45 @@ function copyAssets(outputDir) {
 
 function footer() {
   return '<div class="footer">&copy; 2026 PRIME CHANGE Corporation &mdash; Hotel Quality Management Portal &mdash; Confidential</div>';
+}
+
+function deltaBadge(deltaObj, polarity) {
+  if (!deltaObj || deltaObj.delta == null) return '';
+  var d = deltaObj.delta;
+  var cls, arrow, sign;
+  if (d === 0) {
+    cls = 'flat';
+    arrow = '&#9654;';
+    sign = '';
+  } else {
+    var isPositive = d > 0;
+    var isGood = polarity === 'lower' ? !isPositive : isPositive;
+    cls = isGood ? 'up' : 'down';
+    arrow = isPositive ? '&#9650;' : '&#9660;';
+    sign = isPositive ? '+' : '';
+  }
+  var formatted = typeof d === 'number' && d % 1 !== 0 ? d.toFixed(2) : String(d);
+  var prevFormatted = deltaObj.previous != null ? (typeof deltaObj.previous === 'number' && deltaObj.previous % 1 !== 0 ? deltaObj.previous.toFixed(2) : String(deltaObj.previous)) : '';
+  return '<span class="delta-badge ' + cls + '">' + arrow + sign + formatted + ' <span class="delta-prev">\u524D\u65E5 ' + prevFormatted + '</span></span>';
+}
+
+function deltaBadgeCompact(deltaObj, polarity) {
+  if (!deltaObj || deltaObj.delta == null) return '';
+  var d = deltaObj.delta;
+  var cls, arrow, sign;
+  if (d === 0) {
+    cls = 'flat';
+    arrow = '&#9654;';
+    sign = '';
+  } else {
+    var isPositive = d > 0;
+    var isGood = polarity === 'lower' ? !isPositive : isPositive;
+    cls = isGood ? 'up' : 'down';
+    arrow = isPositive ? '&#9650;' : '&#9660;';
+    sign = isPositive ? '+' : '';
+  }
+  var formatted = typeof d === 'number' && d % 1 !== 0 ? d.toFixed(2) : String(d);
+  return '<span class="delta-badge compact ' + cls + '">' + arrow + sign + formatted + '</span>';
 }
 
 function pageHead(title, options) {
@@ -402,4 +451,4 @@ function pageFoot() {
   return '</body>\n</html>';
 }
 
-module.exports = { esc, nav, commonCSS, writeCommonCSS, copyAssets, footer, pageHead, pageFoot };
+module.exports = { esc, nav, commonCSS, writeCommonCSS, copyAssets, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact };

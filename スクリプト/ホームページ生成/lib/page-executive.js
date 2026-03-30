@@ -1,6 +1,6 @@
 // V3 Executive Summary Page Generator
 'use strict';
-const { esc, nav, footer, pageHead, pageFoot } = require('./common-v2');
+const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
 function buildExecutive(data, deltas, revenueOps, csResults) {
@@ -110,7 +110,10 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
     var p = calcProgress(kpi);
     lines.push('<div class="kpi-progress-card">');
     lines.push('  <div class="kpi-progress-label">' + esc(kpi.kpi) + '</div>');
-    lines.push('  <div class="kpi-progress-values"><span class="kpi-current">' + esc(kpi.current) + '</span><span class="kpi-arrow">&rarr;</span><span class="kpi-ptarget">' + esc(kpi.target) + '</span></div>');
+    var kpiDeltaKey = kpi.kpi.indexOf('平均スコア') !== -1 ? 'avg_score' : kpi.kpi.indexOf('高評価') !== -1 ? 'high_rate' : kpi.kpi.indexOf('クレーム') !== -1 ? 'cleaning_issue_rate' : kpi.kpi.indexOf('低評価') !== -1 ? 'low_rate' : null;
+    var kpiDeltaObj = deltas && deltas.hasDeltas && kpiDeltaKey && deltas.metrics && deltas.metrics[kpiDeltaKey] ? deltas.metrics[kpiDeltaKey] : null;
+    var kpiPolarity = p.isLowerBetter ? 'lower' : 'higher';
+    lines.push('  <div class="kpi-progress-values"><span class="kpi-current">' + esc(kpi.current) + '</span>' + deltaBadgeCompact(kpiDeltaObj, kpiPolarity) + '<span class="kpi-arrow">&rarr;</span><span class="kpi-ptarget">' + esc(kpi.target) + '</span></div>');
     lines.push('  <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:' + p.pct + '%;background:' + p.color + ';"></div></div>');
     lines.push('  <div class="kpi-progress-footer">達成率 <strong style="color:' + p.color + ';">' + p.pct + '%</strong> &middot; 期限: ' + esc(kpi.deadline || '') + '</div>');
     lines.push('</div>');
@@ -134,7 +137,9 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
       var loss = revenueOps && revenueOps[revKey] ? revenueOps[revKey].monthlyLoss : 0;
       lines.push('<div class="risk-card"><div class="risk-info">');
       lines.push('  <div class="risk-hotel-name">' + esc(h.hotel) + '</div>');
-      lines.push('  <div class="risk-detail">スコア: <strong style="color:#EF4444;">' + (h.avg || 0) + '</strong> / 清掃課題率: <strong>' + (h.cleaning_rate || 0) + '%</strong></div>');
+      var riskKey = revKey || '';
+      var riskDelta = deltas && deltas.hotels && deltas.hotels[riskKey] && deltas.hotels[riskKey].overall_avg_10pt;
+      lines.push('  <div class="risk-detail">スコア: <strong style="color:#EF4444;">' + (h.avg || 0) + '</strong>' + deltaBadgeCompact(riskDelta || null, 'higher') + ' / 清掃課題率: <strong>' + (h.cleaning_rate || 0) + '%</strong></div>');
       lines.push('  <div class="risk-problems">' + esc((h.key_problems || []).join('、')) + '</div>');
       lines.push('</div>');
       if (loss > 0) lines.push('<span class="revenue-badge loss">&yen;' + formatYen(loss) + '/月</span>');

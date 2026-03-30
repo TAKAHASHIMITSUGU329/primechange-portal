@@ -1,7 +1,7 @@
 // V2 Cleaning Strategy page builder
 // Generates cleaning-strategy.html with revenue impact on category bars
 
-var { esc, nav, footer, pageHead, pageFoot } = require('./common-v2');
+var { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact } = require('./common-v2');
 var { formatYen } = require('./revenue-calc');
 
 var severityColor = {
@@ -18,7 +18,7 @@ var priorityColor = {
   'MAINTENANCE': '#10B981'
 };
 
-function buildCleaningStrategy(data, revenueOps) {
+function buildCleaningStrategy(data, revenueOps, deltas) {
   var cleanDive = data.cleanDive || {};
   var priMatrix = data.priMatrix || {};
   var crossRec = data.crossRec || [];
@@ -56,11 +56,12 @@ function buildCleaningStrategy(data, revenueOps) {
     var catShare = totalCleaningIssues > 0 ? mentions / totalCleaningIssues : 0;
     var catLoss = Math.round(totalPortfolioLoss * catShare);
 
+    var catDelta = deltas && deltas.hasDeltas && deltas.cleaning && deltas.cleaning.categories && deltas.cleaning.categories[c.category] ? deltas.cleaning.categories[c.category] : null;
     var barHtml = '<div class="h-bar">'
       + '<div class="h-bar-label">' + esc(c.category) + '</div>'
       + '<div class="h-bar-track">'
       + '<div class="h-bar-fill" style="width:' + pct + '%;background:' + col + ';">'
-      + '<span class="h-bar-val">' + mentions + '件 (' + hotelsAffected + 'ホテル)</span>'
+      + '<span class="h-bar-val">' + mentions + '件 (' + hotelsAffected + 'ホテル)' + deltaBadgeCompact(catDelta, 'lower') + '</span>'
       + '</div></div></div>';
 
     // V2 revenue badge
@@ -182,8 +183,8 @@ function buildCleaningStrategy(data, revenueOps) {
     '  </div>',
     '',
     '  <div class="kpi-grid" id="cleaningKpiGrid">',
-    '    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃クレーム率</div><div class="kpi-value" data-kpi="cleaning_issue_rate">' + esc(String(cleanDive.portfolio_cleaning_issue_rate || cleanDive.overall_cleaning_issue_rate || 0)) + '%</div></div>',
-    '    <div class="kpi-card" style="border-left-color:var(--orange);"><div class="kpi-label">清掃クレーム件数</div><div class="kpi-value" data-kpi="cleaning_issue_count">' + (cleanDive.total_cleaning_mentions || cleanDive.total_cleaning_issues || 0) + '</div></div>',
+    '    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">清掃クレーム率</div><div class="kpi-value" data-kpi="cleaning_issue_rate">' + esc(String(cleanDive.portfolio_cleaning_issue_rate || cleanDive.overall_cleaning_issue_rate || 0)) + '%</div>' + deltaBadge(deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.cleaning_issue_rate ? deltas.metrics.cleaning_issue_rate : null, 'lower') + '</div>',
+    '    <div class="kpi-card" style="border-left-color:var(--orange);"><div class="kpi-label">清掃クレーム件数</div><div class="kpi-value" data-kpi="cleaning_issue_count">' + (cleanDive.total_cleaning_mentions || cleanDive.total_cleaning_issues || 0) + '</div>' + deltaBadge(deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.cleaning_issue_count ? deltas.metrics.cleaning_issue_count : null, 'lower') + '</div>',
     '    <div class="kpi-card" style="border-left-color:var(--purple);"><div class="kpi-label">カテゴリ数</div><div class="kpi-value">' + cats.length + '</div></div>',
     '    <div class="kpi-card" style="border-left-color:var(--red);"><div class="kpi-label">緊急対応ホテル</div><div class="kpi-value">' + urgentCount + '</div></div>',
     '  </div>',

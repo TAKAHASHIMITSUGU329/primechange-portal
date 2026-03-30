@@ -2,12 +2,12 @@
 // Generates hotel-dashboard.html with revenue opportunity badges and target scores
 'use strict';
 
-const { esc, nav, footer, pageHead, pageFoot } = require('./common-v2');
+const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
 var tierColor = { '優秀': '#10B981', '良好': '#3B82F6', '概ね良好': '#F59E0B', '要改善': '#EF4444' };
 
-function buildHotelDashboard(data, revenueOps) {
+function buildHotelDashboard(data, revenueOps, deltas) {
   var pov = data.pov;
   var meta = data.meta || {};
   var hotelsRanked = pov.hotels_ranked || [];
@@ -90,10 +90,15 @@ function buildHotelDashboard(data, revenueOps) {
     var cleanRate = h.cleaning_issue_rate || 0;
     var cleanColor = cleanRate > 5 ? 'var(--red)' : cleanRate > 0 ? 'var(--orange)' : 'var(--green)';
 
+    // Delta badge for hotel overall score
+    var hotelDelta = deltas && deltas.hotels && deltas.hotels[h.key] && deltas.hotels[h.key].overall_avg_10pt;
+    var hotelDeltaHtml = deltaBadgeCompact(hotelDelta || null, 'higher');
+
     // Site dots
     var siteStats = h.site_stats || [];
     var sites = siteStats.map(function(s) {
-      return '<span class="site-dot">' + esc(s.site) + ' ' + (s.avg_10pt || s.avg || '') + '</span>';
+      var siteDelta = deltas && deltas.hotels && deltas.hotels[h.key] && deltas.hotels[h.key].sites && deltas.hotels[h.key].sites[s.site] && deltas.hotels[h.key].sites[s.site].avg_10pt;
+      return '<span class="site-dot">' + esc(s.site) + ' ' + (s.avg_10pt || s.avg || '') + deltaBadgeCompact(siteDelta || null, 'higher') + '</span>';
     }).join('');
 
     // Revenue opportunity (V2)
@@ -129,17 +134,17 @@ function buildHotelDashboard(data, revenueOps) {
       '    <div class="rank-badge" style="background:' + rankBg + ';">' + h.rank + '</div>',
       '  </div>',
       '  <div class="score-row">',
-      '    <div class="score-big" style="color:' + tc + ';">' + (h.avg || 0) + '</div>',
+      '    <div class="score-big" style="color:' + tc + ';">' + (h.avg || 0) + hotelDeltaHtml + '</div>',
       '    <div class="score-bar-wrap">',
       '      <div class="score-bar-bg"><div class="score-bar" style="width:' + barPct + '%;background:' + tc + ';"></div></div>',
       '      <div class="score-label">',
       '        <span><span class="tier-badge" style="background:' + tc + ';">' + esc(h.tier) + '</span></span>',
-      '        <span>' + (h.total_reviews || 0) + '件</span>',
+      '        <span>' + (h.total_reviews || 0) + '件' + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[h.key] && deltas.hotels[h.key].total_reviews || null, 'higher') + '</span>',
       '      </div>',
       '    </div>',
       '  </div>',
       '  <div class="stats-row">',
-      '    <div class="stat-chip"><div class="val" style="color:var(--green);">' + (h.high_rate_pct || h.high_rate || 0) + '%</div><div class="lbl">高評価</div></div>',
+      '    <div class="stat-chip"><div class="val" style="color:var(--green);">' + (h.high_rate_pct || h.high_rate || 0) + '%' + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[h.key] && deltas.hotels[h.key].high_rate || null, 'higher') + '</div><div class="lbl">高評価</div></div>',
       '    <div class="stat-chip"><div class="val" style="color:var(--red);">' + (h.low_rate_pct || h.low_rate || 0) + '%</div><div class="lbl">低評価</div></div>',
       '    <div class="stat-chip"><div class="val" style="color:' + cleanColor + ';">' + cleanRate + '%</div><div class="lbl">清掃課題</div></div>',
       '  </div>',

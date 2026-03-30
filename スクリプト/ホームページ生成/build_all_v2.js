@@ -140,7 +140,7 @@ Object.keys(revenueOps).forEach(function(k) { totalOpportunity += revenueOps[k].
 console.log('  Revenue opportunity: ¥' + formatYen(totalOpportunity) + '/月');
 
 // Delta calculation
-var deltas = calcDeltas(OUTPUT_DIR, portfolioSummary);
+var deltas = calcDeltas(OUTPUT_DIR, portfolioSummary, hotelDetailsProcessed, data.cleanDive);
 console.log('  Deltas: ' + (deltas.hasDeltas ? deltas.alerts.length + ' alerts' : 'no previous data'));
 
 // CS analysis
@@ -165,6 +165,7 @@ writeJSON('hotel-ranked.json', data.pov.hotels_ranked);
 writeJSON('tier-color.json', { '優秀': '#10B981', '良好': '#3B82F6', '概ね良好': '#F59E0B', '要改善': '#EF4444' });
 writeJSON('portfolio-summary.json', portfolioSummary);
 writeJSON('deltas.json', deltas);
+writeJSON('cleaning-summary.json', { category_summary: (data.cleanDive && data.cleanDive.category_summary) || [] });
 
 var buildDate = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10); // JST
 var buildMetaData = {
@@ -204,11 +205,11 @@ var indexHtml = buildIndex(data, deltas, revenueOps);
 writePage('index.html', indexHtml);
 
 // 2. Hotel Dashboard
-var dashboardHtml = buildHotelDashboard(data, revenueOps);
+var dashboardHtml = buildHotelDashboard(data, revenueOps, deltas);
 writePage('hotel-dashboard.html', dashboardHtml);
 
 // 3. Cleaning Strategy
-var cleaningHtml = buildCleaningStrategy(data, revenueOps);
+var cleaningHtml = buildCleaningStrategy(data, revenueOps, deltas);
 writePage('cleaning-strategy.html', cleaningHtml);
 
 // 4. Deep Analysis
@@ -234,7 +235,7 @@ if (typeof revenueResult === 'object' && revenueResult.html) {
 }
 
 // 6. Action Plans
-var actionResult = buildActionPlans(data, revenueOps);
+var actionResult = buildActionPlans(data, revenueOps, deltas);
 if (typeof actionResult === 'object' && actionResult.html) {
   writePage('action-plans.html', actionResult.html);
   if (actionResult.snapshotContent) {
@@ -276,7 +277,7 @@ var snapshotDir = path.join(OUTPUT_DIR, 'data', 'snapshots', buildDate);
 if (!fs.existsSync(snapshotDir)) fs.mkdirSync(snapshotDir, { recursive: true });
 
 // Copy snapshot files
-['hotel-reviews-all.json', 'hotel-details.json', 'build-meta.json', 'portfolio-summary.json'].forEach(function(f) {
+['hotel-reviews-all.json', 'hotel-details.json', 'build-meta.json', 'portfolio-summary.json', 'cleaning-summary.json', 'deltas.json'].forEach(function(f) {
   var src = path.join(OUTPUT_DIR, 'data', f);
   if (fs.existsSync(src)) {
     fs.copyFileSync(src, path.join(snapshotDir, f));

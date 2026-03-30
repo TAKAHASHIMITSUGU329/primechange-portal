@@ -1,7 +1,7 @@
 // V2 Action Plans page builder
 // Generates action-plans.html with action execution management (改善4)
 
-var { esc, nav, footer, pageHead, pageFoot } = require('./common-v2');
+var { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact } = require('./common-v2');
 var { formatYen } = require('./revenue-calc');
 
 var phaseColors = ['var(--red)', 'var(--orange)', 'var(--blue)'];
@@ -25,7 +25,7 @@ function findHotelKey(hotelsRanked, hotelName) {
   return hotelName.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
 }
 
-function buildActionPlans(data, revenueOps) {
+function buildActionPlans(data, revenueOps, deltas) {
   var plans = data.actionPlans || [];
   var priMatrix = data.priMatrix || {};
   var kpi = data.kpi || {};
@@ -124,7 +124,7 @@ function buildActionPlans(data, revenueOps) {
       '<div class="accordion-item" data-hotel="' + esc(p.hotel) + '" data-priority="' + esc(p.priority_level || 'STANDARD') + '">',
       '  <div class="accordion-header">',
       '    <div>' + (priorityBadge[p.priority_level] || '') + ' ' + esc(p.hotel)
-        + ' <span style="font-size:0.75rem;color:var(--text-light);">(' + esc(String(p.current_avg)) + ' &rarr; ' + esc(String(p.target_avg)) + ')</span>'
+        + ' <span style="font-size:0.75rem;color:var(--text-light);">(' + esc(String(p.current_avg)) + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[hotelKey] && deltas.hotels[hotelKey].overall_avg_10pt || null, 'higher') + ' &rarr; ' + esc(String(p.target_avg)) + ')</span>'
         + revBadge + '</div>',
       '    <span class="accordion-arrow">&#9660;</span>',
       '  </div>',
