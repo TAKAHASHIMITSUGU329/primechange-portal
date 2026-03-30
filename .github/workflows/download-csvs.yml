@@ -1,0 +1,94 @@
+name: Download Hotel CSVs from Google Sheets
+
+on:
+  schedule:
+    # 毎日 22:30 UTC (翌07:30 JST) - リモートトリガー(23:00 UTC)の30分前
+    - cron: '30 22 * * *'
+  workflow_dispatch: # 手動実行用
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download 19 hotel CSVs from Google Sheets
+        run: |
+          mkdir -p "データ/ホテル口コミデータ"
+
+          declare -A HOTELS
+          HOTELS[daiwa_osaki]="1IIHEn4nAIy9UXzrYptU-RQIiTbKkV0G_CaABF7znVrY|0"
+          HOTELS[chisan]="1IWigsWTzbRG-juWtIlg4ZchiuWqRhJFpPPczXdQxG6Y|0"
+          HOTELS[hearton]="1A25mmVRYSnG3ZB8oa0oZVp-vCP2xMkwX-Zqdkk4BIzI|0"
+          HOTELS[keyakigate]="1srchDxFyv7TJ3IEZXJ19miH04p3jRug5nVtA3BLertQ|605247000"
+          HOTELS[richmond_mejiro]="1XWU6925CpT3GMMonAqy4UENKM11gWloUkJIsgGImUts|0"
+          HOTELS[keisei_kinshicho]="1jUS_HwTfowG1xIHFtwJbCL5dTj7FrhvUe6d32AevZ2g|0"
+          HOTELS[daiichi_ikebukuro]="1X2GgFKxTOs7CuJSlPYrpzigraSnWcKh6cMJLfsXhWlU|0"
+          HOTELS[comfort_roppongi]="1Jtm0rXTigY2OVManNjx1qQ6G9EKQEXuPs_T1BdlOvls|0"
+          HOTELS[comfort_suites_tokyobay]="1zCFAmzRqvSDbjwvK7qI4cYBHlrmBifTPm0Y-g0rruyE|0"
+          HOTELS[comfort_era_higashikanda]="1H9jmOVQR4UdEQ5hsxZ2Xz44BT72RJDwNa6BOKFhXxRg|0"
+          HOTELS[comfort_yokohama_kannai]="1rnQOsyUXuSzBKdqPN_ey_4Iw5VtYWTgSR5Z4nh-1zd4|0"
+          HOTELS[comfort_narita]="1lQ3FRDuE75dkByQRFd0i0F2xcHnl-3-UAOJwhIt3jAU|0"
+          HOTELS[apa_kamata]="16xuhAdNzdeyAKu-LhU8ATgR8_kZ1JXfa9lT51tAB1Nw|0"
+          HOTELS[apa_sagamihara]="1E2ZQJyE6pOJ3jr6GyB56KcYnVVq54m6dO_6h_SQy39A|0"
+          HOTELS[court_shinyokohama]="1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY|0"
+          HOTELS[comment_yokohama]="1cVH7khdgh8bDN-wtAw2KVakJqHILo58VOBu0SKmBFrU|0"
+          HOTELS[kawasaki_nikko]="1aQ2MaKJmOz7eT53oqszCDO9Fa3UEbfhFSgXfVmVpO9A|0"
+          HOTELS[henn_na_haneda]="18DkZLJ8UDQ2-4MBrh7B4y28tHaYnoWIQqEoFkvFDNKg|2026949334"
+          HOTELS[comfort_hakata]="1_7xoyIiq1llfO0I2328ZQlB6sD0lMsnpRMp1rMGNPcg|0"
+
+          SUCCESS=0
+          FAIL=0
+
+          for key in "${!HOTELS[@]}"; do
+            IFS='|' read -r SHEET_ID GID <<< "${HOTELS[$key]}"
+            URL="https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${GID}"
+
+            if [ "$key" = "chisan" ]; then
+              FILENAME="chisan_data_converted.csv"
+            else
+              FILENAME="${key}_data.csv"
+            fi
+
+            HTTP_CODE=$(curl -sL -o "データ/ホテル口コミデータ/${FILENAME}" -w "%{http_code}" "$URL")
+
+            if [ "$HTTP_CODE" = "200" ]; then
+              LINES=$(wc -l < "データ/ホテル口コミデータ/${FILENAME}")
+              echo "✓ ${key}: ${LINES} lines"
+              SUCCESS=$((SUCCESS + 1))
+            else
+              echo "✗ ${key}: HTTP ${HTTP_CODE}"
+              FAIL=$((FAIL + 1))
+            fi
+          done
+
+          echo ""
+          echo "=== Summary: ${SUCCESS}/19 success, ${FAIL}/19 failed ==="
+
+          # 1つでも成功していればコミット対象あり
+          if [ "$SUCCESS" -eq 0 ]; then
+            echo "::error::All downloads failed"
+            exit 1
+          fi
+
+      - name: Count total reviews
+        run: |
+          TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
+          echo "Total CSV lines: ${TOTAL}"
+
+      - name: Commit and push CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "データ/ホテル口コミデータ/"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
+            git commit -m "CSV自動更新: ${DATE} (${TOTAL} lines)"
+            git push
+          fi
