@@ -4,7 +4,10 @@
 import os
 import datetime
 
-DOWNLOADS_DIR = os.path.expanduser("~/Downloads")
+# リポジトリ内のXLSXディレクトリを優先、なければ~/Downloadsにフォールバック
+_REPO_XLSX_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'データ', 'ホテル集計表XLSX')
+_DOWNLOADS_DIR = os.path.expanduser("~/Downloads")
+DOWNLOADS_DIR = _REPO_XLSX_DIR if os.path.isdir(_REPO_XLSX_DIR) else _DOWNLOADS_DIR
 
 HOTEL_FILES = {
     'daiwa_osaki': 'R8_P1_ダイワロイネットホテル東京大崎_集計表.xlsx',

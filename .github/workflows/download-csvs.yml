@@ -1,4 +1,4 @@
-name: Download Hotel CSVs from Google Sheets
+name: Download Hotel Data from Google Sheets
 
 on:
   schedule:
@@ -74,21 +74,72 @@ jobs:
             exit 1
           fi
 
-      - name: Count total reviews
+      - name: Download 19 hotel XLSX files from Google Sheets
         run: |
-          TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
-          echo "Total CSV lines: ${TOTAL}"
+          mkdir -p "データ/ホテル集計表XLSX"
 
-      - name: Commit and push CSVs
+          declare -A XLSX_MAP
+          XLSX_MAP[daiwa_osaki]="1IIHEn4nAIy9UXzrYptU-RQIiTbKkV0G_CaABF7znVrY|R8_P1_ダイワロイネットホテル東京大崎_集計表.xlsx"
+          XLSX_MAP[chisan]="1IWigsWTzbRG-juWtIlg4ZchiuWqRhJFpPPczXdQxG6Y|R8_P1_チサンホテル浜松町_集計表.xlsx"
+          XLSX_MAP[hearton]="1A25mmVRYSnG3ZB8oa0oZVp-vCP2xMkwX-Zqdkk4BIzI|R8_P1_ハートンホテル東品川_集計表.xlsx"
+          XLSX_MAP[keyakigate]="1srchDxFyv7TJ3IEZXJ19miH04p3jRug5nVtA3BLertQ|R8_P1_ホテルケヤキゲート東京府中_集計表.xlsx"
+          XLSX_MAP[richmond_mejiro]="1XWU6925CpT3GMMonAqy4UENKM11gWloUkJIsgGImUts|R8_P1_リッチモンドホテル東京目白_集計表.xlsx"
+          XLSX_MAP[keisei_kinshicho]="1jUS_HwTfowG1xIHFtwJbCL5dTj7FrhvUe6d32AevZ2g|R8_P1_京成リッチモンドホテル東京錦糸町_集計表.xlsx"
+          XLSX_MAP[daiichi_ikebukuro]="1X2GgFKxTOs7CuJSlPYrpzigraSnWcKh6cMJLfsXhWlU|R8_P1_第一イン池袋_集計表.xlsx"
+          XLSX_MAP[comfort_roppongi]="1Jtm0rXTigY2OVManNjx1qQ6G9EKQEXuPs_T1BdlOvls|R8_P2_コンフォートイン六本木_集計表.xlsx"
+          XLSX_MAP[comfort_suites_tokyobay]="1zCFAmzRqvSDbjwvK7qI4cYBHlrmBifTPm0Y-g0rruyE|R8_P2_コンフォートスイーツ東京ベイ_集計表.xlsx"
+          XLSX_MAP[comfort_era_higashikanda]="1H9jmOVQR4UdEQ5hsxZ2Xz44BT72RJDwNa6BOKFhXxRg|R8_P2_コンフォートホテルERA東京東神田_集計表.xlsx"
+          XLSX_MAP[comfort_narita]="1lQ3FRDuE75dkByQRFd0i0F2xcHnl-3-UAOJwhIt3jAU|R8_P2_コンフォートホテル成田_集計表.xlsx"
+          XLSX_MAP[comfort_yokohama_kannai]="1rnQOsyUXuSzBKdqPN_ey_4Iw5VtYWTgSR5Z4nh-1zd4|R8_P2_コンフォートホテル横浜関内_集計表.xlsx"
+          XLSX_MAP[apa_kamata]="16xuhAdNzdeyAKu-LhU8ATgR8_kZ1JXfa9lT51tAB1Nw|R8_P3_アパホテル蒲田駅東_集計表.xlsx"
+          XLSX_MAP[apa_sagamihara]="1E2ZQJyE6pOJ3jr6GyB56KcYnVVq54m6dO_6h_SQy39A|R8_P3_アパホテル相模原橋本駅東_集計表.xlsx"
+          XLSX_MAP[court_shinyokohama]="1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY|R8_P3_コートホテル新横浜_集計表.xlsx"
+          XLSX_MAP[comment_yokohama]="1cVH7khdgh8bDN-wtAw2KVakJqHILo58VOBu0SKmBFrU|R8_P3_ホテルコメント横浜関内_集計表.xlsx"
+          XLSX_MAP[kawasaki_nikko]="1aQ2MaKJmOz7eT53oqszCDO9Fa3UEbfhFSgXfVmVpO9A|R8_P3_川崎日航ホテル_集計表.xlsx"
+          XLSX_MAP[henn_na_haneda]="18DkZLJ8UDQ2-4MBrh7B4y28tHaYnoWIQqEoFkvFDNKg|R8_P3_変なホテル東京羽田_集計表.xlsx"
+          XLSX_MAP[comfort_hakata]="1_7xoyIiq1llfO0I2328ZQlB6sD0lMsnpRMp1rMGNPcg|R8_P4_コンフォートホテル博多_集計表.xlsx"
+
+          XLSX_SUCCESS=0
+          XLSX_FAIL=0
+
+          for key in "${!XLSX_MAP[@]}"; do
+            IFS='|' read -r SHEET_ID FILENAME <<< "${XLSX_MAP[$key]}"
+            URL="https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx"
+
+            HTTP_CODE=$(curl -sL -o "データ/ホテル集計表XLSX/${FILENAME}" -w "%{http_code}" "$URL")
+
+            if [ "$HTTP_CODE" = "200" ]; then
+              SIZE=$(wc -c < "データ/ホテル集計表XLSX/${FILENAME}")
+              echo "✓ ${key}: ${SIZE} bytes"
+              XLSX_SUCCESS=$((XLSX_SUCCESS + 1))
+            else
+              echo "✗ ${key}: HTTP ${HTTP_CODE}"
+              rm -f "データ/ホテル集計表XLSX/${FILENAME}"
+              XLSX_FAIL=$((XLSX_FAIL + 1))
+            fi
+          done
+
+          echo ""
+          echo "=== XLSX Summary: ${XLSX_SUCCESS}/19 success, ${XLSX_FAIL}/19 failed ==="
+
+      - name: Summary
+        run: |
+          CSV_TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
+          XLSX_COUNT=$(ls データ/ホテル集計表XLSX/*.xlsx 2>/dev/null | wc -l)
+          echo "CSV lines: ${CSV_TOTAL}"
+          echo "XLSX files: ${XLSX_COUNT}"
+
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "データ/ホテル口コミデータ/"
+          git add "データ/ホテル口コミデータ/" "データ/ホテル集計表XLSX/"
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             DATE=$(date -u +%Y-%m-%d)
-            TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
-            git commit -m "CSV自動更新: ${DATE} (${TOTAL} lines)"
+            CSV_TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
+            XLSX_COUNT=$(ls データ/ホテル集計表XLSX/*.xlsx 2>/dev/null | wc -l)
+            git commit -m "データ自動更新: ${DATE} (CSV ${CSV_TOTAL}行, XLSX ${XLSX_COUNT}件)"
             git push
           fi
