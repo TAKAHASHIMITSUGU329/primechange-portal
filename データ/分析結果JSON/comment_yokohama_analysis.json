@@ -1,19 +1,19 @@
 {
-  "total_reviews": 131,
-  "overall_avg_10pt": 8.88,
-  "high_count": 112,
-  "high_rate": 85.5,
-  "mid_count": 18,
-  "mid_rate": 13.7,
+  "total_reviews": 132,
+  "overall_avg_10pt": 8.83,
+  "high_count": 111,
+  "high_rate": 84.1,
+  "mid_count": 20,
+  "mid_rate": 15.2,
   "low_count": 1,
   "low_rate": 0.8,
   "site_stats": [
     {
       "site": "Google",
-      "count": 15,
-      "native_avg": 4.93,
+      "count": 16,
+      "native_avg": 4.81,
       "scale": "/5",
-      "avg_10pt": 9.87,
+      "avg_10pt": 9.62,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -47,18 +47,18 @@
     {
       "site": "Booking.com",
       "count": 30,
-      "native_avg": 8.67,
+      "native_avg": 8.7,
       "scale": "/10",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.7,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
       "count": 33,
-      "native_avg": 8.12,
+      "native_avg": 8.0,
       "scale": "/10",
-      "avg_10pt": 8.12,
+      "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "良好"
     }
@@ -67,22 +67,22 @@
     {
       "score": 10,
       "count": 62,
-      "pct": "47.3%"
+      "pct": "47.0%"
     },
     {
       "score": 9,
-      "count": 23,
-      "pct": "17.6%"
+      "count": 22,
+      "pct": "16.7%"
     },
     {
       "score": 8,
       "count": 27,
-      "pct": "20.6%"
+      "pct": "20.5%"
     },
     {
       "score": 7,
-      "count": 10,
-      "pct": "7.6%"
+      "count": 11,
+      "pct": "8.3%"
     },
     {
       "score": 6,
@@ -91,8 +91,8 @@
     },
     {
       "score": 5,
-      "count": 1,
-      "pct": "0.8%"
+      "count": 2,
+      "pct": "1.5%"
     },
     {
       "score": 3,
@@ -101,6 +101,45 @@
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "Trip.com",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルには近代的な設備、快適な浴場があり、近隣には様々なコンビニエンスストアもあります。ホテルのスタッフはいつも親切でフレンドリーなので、全体的に満足のいく滞在となるでしょう。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "Booking.com",
+      "good": "清潔、タオルがふわふわ、タオルの用意がたくさんある、布団が寝やすい、ドライヤーがリファ、アメニティに無料スープや紅茶がある、遮音性がある、清掃の要望に応えてもらえる、ゴミ箱が小さすぎない",
+      "bad": "強いて言えば、隣の横浜BUNTAIでイベントをやってる時に、外に並んでる方向けの拡声器の案内がうるさくて起きちゃうくらい。ホテルは悪くない",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "強いて言えば、隣の横浜BUNTAIでイベントをやってる時に、外に並んでる方向けの拡声器の案内がうるさくて起きちゃうくらい。ホテルは悪くない",
+      "reviewer": "Haruka"
+    },
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-31",
+      "comment": "Google",
+      "good": "",
+      "bad": "",
+      "translated": "綺麗なホテルで部屋も雰囲気が良かった。浴場もあり出たらラズベリー？の飲みものがおいてあり美味しかった。 ただ受付の説明不足があった。 ※エレベーターは部屋キーでかざさないとボタンを押せないことは必ず説明してあげましょう。 困っている方がいました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "食玩大好きななを"
+    },
     {
       "site": "楽天トラベル",
       "rating": 4.0,
@@ -139,6 +178,45 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "hiroshi ishizuka"
+    },
+    {
+      "site": "Agoda",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-03-30",
+      "comment": "Agoda",
+      "good": "駅から近かったこと。",
+      "bad": "夜部屋が寒かったので、暖房を入れようとしたら、個人では設定できなかったこと。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "夜部屋が寒かったので、暖房を入れようとしたら、個人では設定できなかったこと。",
+      "reviewer": "Kazumi"
+    },
+    {
+      "site": "Agoda",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-03-30",
+      "comment": "Agoda",
+      "good": "部屋は快適だった",
+      "bad": "朝食が値段の割に貧相。つけないほうが良いと思う。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "朝食が値段の割に貧相。つけないほうが良いと思う。",
+      "reviewer": "TERUMI"
+    },
+    {
+      "site": "Agoda",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-30",
+      "comment": "Agoda",
+      "good": "駐車場が高さ制限で軽自動車なのに使えない。不便",
+      "bad": "アメニティーに　ボディタオルがほしい。 コーヒー　朝起きたら飲みたいです。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "アメニティーに　ボディタオルがほしい。 コーヒー　朝起きたら飲みたいです。",
+      "reviewer": "Junichi"
     },
     {
       "site": "Booking.com",
@@ -824,7 +902,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "部屋は清潔でした。バスルームのウェットエリアとドライエリアが分かれているのと、便利なシャワーが気に入りました。二段ベッドを使うのは久しぶりで、まるで学生時代に戻ったような気分でした。ホテルの雰囲気もとても気に入ったので、今後もきちんと管理され続けることを願っています。",
+      "translated": "部屋は清潔でした。バスルームのウェットエリアとドライエリアが分かれているのと、便利なシャワーが気に入りました。二段ベッドを使うのは久しぶりで、まるで学生時代に戻ったような気分でした。ホテルの雰囲気もとても気に入ったので、今後も良い状態が維持されることを願っています。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -867,71 +945,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "聖帝サウザー"
-    },
-    {
-      "site": "Agoda",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-05",
-      "comment": "Agoda",
-      "good": "",
-      "bad": "",
-      "translated": "ゆっくり出来ました。スタッフの方も親切でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "UDAGAWA"
-    },
-    {
-      "site": "Agoda",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-05",
-      "comment": "Agoda",
-      "good": "",
-      "bad": "",
-      "translated": "駐車場を予約していたが、受付にとても時間がかかって待たされた。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ryo"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-04",
-      "comment": "Trip.com",
-      "good": "",
-      "bad": "",
-      "translated": "素敵な場所",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "7‍i‍o"
-    },
-    {
-      "site": "Agoda",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-04",
-      "comment": "Agoda",
-      "good": "",
-      "bad": "",
-      "translated": "フロントの方が親切です。 お部屋は、清潔感があり過ごしやすいです。 併設のイタリアレストランで夕飯を頂きましたが接客が外国の方で親切でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "SANAE"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-04",
-      "comment": "Booking.com",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yumi"
     },
     {
       "site": "Trip.com",

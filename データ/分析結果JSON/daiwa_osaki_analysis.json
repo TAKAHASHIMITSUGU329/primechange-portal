@@ -1,10 +1,10 @@
 {
-  "total_reviews": 63,
-  "overall_avg_10pt": 8.87,
-  "high_count": 51,
-  "high_rate": 81.0,
-  "mid_count": 12,
-  "mid_rate": 19.0,
+  "total_reviews": 67,
+  "overall_avg_10pt": 8.84,
+  "high_count": 54,
+  "high_rate": 80.6,
+  "mid_count": 13,
+  "mid_rate": 19.4,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
@@ -19,19 +19,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 27,
-      "native_avg": 9.0,
+      "count": 30,
+      "native_avg": 8.93,
       "scale": "/10",
-      "avg_10pt": 9.0,
-      "median_10pt": 9.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Agoda",
-      "count": 6,
-      "native_avg": 8.67,
-      "scale": "/10",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.93,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -41,6 +32,15 @@
       "native_avg": 4.33,
       "scale": "/5",
       "avg_10pt": 8.67,
+      "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Agoda",
+      "count": 7,
+      "native_avg": 8.57,
+      "scale": "/10",
+      "avg_10pt": 8.57,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,31 +66,83 @@
   "distribution": [
     {
       "score": 10,
-      "count": 32,
-      "pct": "50.8%"
+      "count": 33,
+      "pct": "49.3%"
     },
     {
       "score": 9,
       "count": 8,
-      "pct": "12.7%"
+      "pct": "11.9%"
     },
     {
       "score": 8,
-      "count": 11,
-      "pct": "17.5%"
+      "count": 13,
+      "pct": "19.4%"
     },
     {
       "score": 7,
-      "count": 7,
-      "pct": "11.1%"
+      "count": 8,
+      "pct": "11.9%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "7.9%"
+      "pct": "7.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "",
+      "bad": "以前、レストランが14階にあったと思うのですが、その時の朝食は素晴らしかったです。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "以前、レストランが14階にあったと思うのですが、その時の朝食は素晴らしかったです。",
+      "reviewer": "渡辺"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "Everything worked OK .",
+      "bad": "Gloomy cold breakfast in gloomy cold pseudo Italian restaurant",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "陰鬱で冷たい朝食を、陰鬱で冷たい偽イタリアンレストランで",
+      "reviewer": "Robin"
+    },
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "",
+      "bad": "以前、レストランが14階にあったと思うのですが、その時の朝食は素晴らしかったです。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "以前、レストランが14階にあったと思うのですが、その時の朝食は素晴らしかったです。",
+      "reviewer": "渡辺"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yoshiyuki"
+    },
     {
       "site": "Agoda",
       "rating": 7.0,
@@ -606,7 +658,7 @@
       "comment": "房間舒適温馨，周邊有多個綜合體，吃飯購物出行都方便",
       "good": "",
       "bad": "",
-      "translated": "部屋は快適で居心地が良く、近くには複数のショッピングモールがあり、食事、買い物、交通の便が良い。",
+      "translated": "部屋は快適で居心地が良く、近くには複数のショッピングモールがあり、食事、買い物、交通機関の利用に便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

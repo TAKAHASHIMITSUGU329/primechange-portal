@@ -1,12 +1,12 @@
 {
   "total_reviews": 143,
-  "overall_avg_10pt": 7.54,
-  "high_count": 96,
-  "high_rate": 67.1,
+  "overall_avg_10pt": 7.57,
+  "high_count": 97,
+  "high_rate": 67.8,
   "mid_count": 29,
   "mid_rate": 20.3,
-  "low_count": 18,
-  "low_rate": 12.6,
+  "low_count": 17,
+  "low_rate": 11.9,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -37,10 +37,19 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 45,
+      "count": 46,
       "native_avg": 3.78,
       "scale": "/5",
-      "avg_10pt": 7.56,
+      "avg_10pt": 7.57,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 28,
+      "native_avg": 7.25,
+      "scale": "/10",
+      "avg_10pt": 7.25,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -50,15 +59,6 @@
       "native_avg": 3.6,
       "scale": "/5",
       "avg_10pt": 7.2,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
-      "site": "Booking.com",
-      "count": 29,
-      "native_avg": 7.1,
-      "scale": "/10",
-      "avg_10pt": 7.1,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -76,8 +76,8 @@
     },
     {
       "score": 8,
-      "count": 52,
-      "pct": "36.4%"
+      "count": 53,
+      "pct": "37.1%"
     },
     {
       "score": 7,
@@ -98,11 +98,6 @@
       "score": 4,
       "count": 9,
       "pct": "6.3%"
-    },
-    {
-      "score": 3,
-      "count": 1,
-      "pct": "0.7%"
     },
     {
       "score": 2,
@@ -175,6 +170,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ミースケキヨ"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "コーヒーやお茶が24時までフリーなのはとても嬉しかったです。ライブラリーの本も子どもと一緒に楽しめました。",
+      "good": "",
+      "bad": "",
+      "translated": "コーヒーやお茶が24時までフリーなのはとても嬉しかったです。ライブラリーの本も子どもと一緒に楽しめました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "choco8175"
     },
     {
       "site": "楽天トラベル",
@@ -808,7 +816,7 @@
       "comment": "La struttura è il classico business hotel con stanze piccole ma accoglienti peccato solo che c'erano i lavori di ristrutturazione e quindi non c'era la solita colazione ma davano un piccolo pocket lunch sinceramente avevo preso l'hotel per avere la colazione a buffet quindi non mi è piaciuto che non l'avessero perlomeno annunciato che ci sarebbero stati i lavori ! Altro hotel a Kyoto ha scritto e detto di cancellare nel caso ! Prezzo non adeguato",
       "good": "",
       "bad": "",
-      "translated": "このホテルは、小さめながら快適な客室を備えた、典型的なビジネスホテルです。残念ながら改装工事中で、通常の朝食は提供されていませんでした。代わりに、軽食が提供されました。正直なところ、ビュッフェスタイルの朝食目当てでこのホテルを予約したので、せめて改装工事の告知すらしてくれなかったのは残念でした。京都の別のホテルに連絡を取り、必要であればキャンセルすると伝えました。料金も妥当ではありませんでした。",
+      "translated": "このホテルは、小さめながら快適な客室を備えた典型的なビジネスホテルです。残念ながら改装工事中で、通常の朝食は提供されていませんでした。代わりに、軽食が提供されました。正直なところ、ビュッフェスタイルの朝食目当てでこのホテルを予約したので、せめて改装工事の告知すらしてくれなかったのは残念でした。京都の別のホテルに連絡を取り、必要であればキャンセルすると伝えました。料金も妥当ではありませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1029,7 +1037,7 @@
       "comment": "自助早餐都撤了，變成盒飯飯糰。在裝修，局部像工地一樣。這些訊息訂房頁面毫無提及。 優點：衞生可以，房間寬敞。 缺點：白燈光昏暗，洗護辣雞，和東橫一樣辣雞。",
       "good": "",
       "bad": "",
-      "translated": "ビュッフェスタイルの朝食は廃止され、お弁当とおにぎりに置き換えられました。改装工事中で、一部は工事現場のようです。これらの詳細は予約ページには記載されていません。長所：清潔さは許容範囲内、部屋は広々としています。短所：照明が暗く、アメニティがひどく、東横インと全く同じです。",
+      "translated": "ビュッフェスタイルの朝食は廃止され、代わりに弁当とおにぎりが提供されるようになりました。改装工事中で、一部は工事現場のようです。この情報は予約ページには記載されていません。良い点：清潔さは許容範囲内、部屋は広々としています。悪い点：照明が暗く、アメニティがひどい。東横インと全く同じです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -1059,19 +1067,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "いいまりさん"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 3.0,
-      "rating_10pt": 3.0,
-      "date": "2026-03-13",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "杉浦"
     },
     {
       "site": "Agoda",
@@ -1939,7 +1934,7 @@
       "comment": "Superb experience for a bargain price, in a super-central location. The Blue line (Yokohama subway) is one block away and other lines aren't much further. Neat and tidy rooms and a fantastic buffet breakfast await. I have traveled all over Japan and can't remember a better experience, especially for the money. The sun-soaked daytime 'Library Cafe' caps it off to provide a Zen-like space to get work done or relax with a complimentary coffee.",
       "good": "",
       "bad": "",
-      "translated": "最高のロケーションで、お手頃価格の素晴らしい滞在体験ができます。ブルーライン（横浜地下鉄）の駅はわずか1ブロック先で、他の路線もすぐ近くです。清潔で整頓された客室と、素晴らしいビュッフェ式朝食が待っています。日本中を旅してきましたが、特にこの価格でこれほど素晴らしい体験をしたホテルは他に記憶にありません。日中は陽光が降り注ぐ「ライブラリーカフェ」があり、禅のような空間で仕事をしたり、無料のコーヒーを飲みながらリラックスしたりできます。",
+      "translated": "最高のロケーションで、お手頃価格の素晴らしい滞在体験ができます。ブルーライン（横浜地下鉄）の駅はわずか1ブロック先で、他の路線もすぐ近くです。清潔で整頓された客室と、素晴らしいビュッフェ式朝食が待っています。日本中を旅してきましたが、特にこの価格でこれほど素晴らしい体験は他に記憶にありません。日中は陽光が降り注ぐ「ライブラリーカフェ」が、仕事をしたり、無料のコーヒーを飲みながらリラックスしたりできる、禅のような空間を提供してくれます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍a‍r‍i‍s‍h‍ ‍M‍a‍c‍k‍o‍w‍i‍a‍k"

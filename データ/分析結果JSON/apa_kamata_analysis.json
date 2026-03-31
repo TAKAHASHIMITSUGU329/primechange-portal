@@ -1,12 +1,12 @@
 {
-  "total_reviews": 59,
-  "overall_avg_10pt": 7.37,
-  "high_count": 37,
-  "high_rate": 62.7,
+  "total_reviews": 60,
+  "overall_avg_10pt": 7.38,
+  "high_count": 38,
+  "high_rate": 63.3,
   "mid_count": 16,
-  "mid_rate": 27.1,
+  "mid_rate": 26.7,
   "low_count": 6,
-  "low_rate": 10.2,
+  "low_rate": 10.0,
   "site_stats": [
     {
       "site": "Google",
@@ -19,10 +19,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 18,
-      "native_avg": 7.56,
+      "count": 19,
+      "native_avg": 7.58,
       "scale": "/10",
-      "avg_10pt": 7.56,
+      "avg_10pt": 7.58,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -58,37 +58,37 @@
     {
       "score": 10,
       "count": 8,
-      "pct": "13.6%"
+      "pct": "13.3%"
     },
     {
       "score": 9,
       "count": 4,
-      "pct": "6.8%"
+      "pct": "6.7%"
     },
     {
       "score": 8,
-      "count": 25,
-      "pct": "42.4%"
+      "count": 26,
+      "pct": "43.3%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "8.5%"
+      "pct": "8.3%"
     },
     {
       "score": 6,
       "count": 8,
-      "pct": "13.6%"
+      "pct": "13.3%"
     },
     {
       "score": 5,
       "count": 3,
-      "pct": "5.1%"
+      "pct": "5.0%"
     },
     {
       "score": 4,
       "count": 4,
-      "pct": "6.8%"
+      "pct": "6.7%"
     },
     {
       "score": 3,
@@ -102,6 +102,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "きれい",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "せいいち"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,

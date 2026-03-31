@@ -1,19 +1,19 @@
 {
-  "total_reviews": 135,
-  "overall_avg_10pt": 8.68,
-  "high_count": 111,
-  "high_rate": 82.2,
-  "mid_count": 22,
-  "mid_rate": 16.3,
-  "low_count": 2,
-  "low_rate": 1.5,
+  "total_reviews": 136,
+  "overall_avg_10pt": 8.64,
+  "high_count": 110,
+  "high_rate": 80.9,
+  "mid_count": 23,
+  "mid_rate": 16.9,
+  "low_count": 3,
+  "low_rate": 2.2,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 31,
-      "native_avg": 9.58,
+      "count": 32,
+      "native_avg": 9.5,
       "scale": "/10",
-      "avg_10pt": 9.58,
+      "avg_10pt": 9.5,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -27,21 +27,21 @@
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 7,
-      "native_avg": 4.43,
-      "scale": "/5",
-      "avg_10pt": 8.86,
-      "median_10pt": 10.0,
+      "site": "Booking.com",
+      "count": 68,
+      "native_avg": 8.63,
+      "scale": "/10",
+      "avg_10pt": 8.63,
+      "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
-      "site": "Booking.com",
-      "count": 70,
-      "native_avg": 8.64,
-      "scale": "/10",
-      "avg_10pt": 8.64,
-      "median_10pt": 9.0,
+      "site": "楽天トラベル",
+      "count": 9,
+      "native_avg": 4.22,
+      "scale": "/5",
+      "avg_10pt": 8.44,
+      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
@@ -57,31 +57,36 @@
   "distribution": [
     {
       "score": 10,
-      "count": 57,
-      "pct": "42.2%"
+      "count": 58,
+      "pct": "42.6%"
     },
     {
       "score": 9,
-      "count": 26,
-      "pct": "19.3%"
+      "count": 24,
+      "pct": "17.6%"
     },
     {
       "score": 8,
       "count": 28,
-      "pct": "20.7%"
+      "pct": "20.6%"
     },
     {
       "score": 7,
-      "count": 9,
-      "pct": "6.7%"
+      "count": 10,
+      "pct": "7.4%"
     },
     {
       "score": 6,
       "count": 12,
-      "pct": "8.9%"
+      "pct": "8.8%"
     },
     {
       "score": 5,
+      "count": 1,
+      "pct": "0.7%"
+    },
+    {
+      "score": 4,
       "count": 1,
       "pct": "0.7%"
     },
@@ -92,6 +97,58 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-03-31",
+      "comment": "部屋の空調は全館空調が機能せず（間違いなく老朽化）全くダメでした。",
+      "good": "",
+      "bad": "",
+      "translated": "部屋の空調は全館空調が機能せず（間違いなく老朽化）全くダメでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ハバネロロロ"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "駅のすぐ横にあり立地も良く、周りに飲食店も多く大変便利です。 ホテル内も綺麗でセキュリティも良く安心です。",
+      "good": "",
+      "bad": "",
+      "translated": "駅のすぐ横にあり立地も良く、周りに飲食店も多く大変便利です。 ホテル内も綺麗でセキュリティも良く安心です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ななりん1220"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-31",
+      "comment": "酒店位於川崎火車站隔離，也有巴士站在附近，附近還有幾個商場，旁邊仲有個水族館，地理位置非常方便多元化，還有個超市可以買平民百姓的用品食物，很好很方便。酒店櫃檯服務態度良好。房間設施齊備衛生整潔是令人住得舒服嘅地方下次如果方便會推薦給朋友整體而言這間酒店值得推薦。",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは川崎駅のすぐそばに位置し、近くにはバスターミナルやショッピングモールがいくつかあり、水族館も隣接しているため、非常に便利で多様な立地です。また、日用品の食料品を購入できるスーパーマーケットもあり、大変便利です。ホテルのフロントの対応も良く、客室設備は清潔で整頓されており、快適な滞在が可能です。次回も都合がよければ利用したいですし、友人にも勧めたいと思います。総合的に見て、このホテルはおすすめです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Florence"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -841,7 +898,7 @@
       "comment": "位置好，車站旁邊，出行方便，不過還是能聽到電車的聲音的。 樓層高，可以看到街景，甚至遠山。 早餐日式和西洋的都有，品種還算豐富，有冰激凌",
       "good": "",
       "bad": "",
-      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々も眺めることができます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
+      "translated": "立地は良く、駅のすぐ隣なので移動に便利ですが、路面電車の音は聞こえます。高層階にあるため、街並みはもちろん、遠くの山々まで見渡せます。朝食は和食と洋食の両方があり、アイスクリームなど種類も豊富です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -962,45 +1019,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-10",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yihsuan"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-09",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yuk"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-09",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yasunori"
     },
     {
       "site": "Booking.com",

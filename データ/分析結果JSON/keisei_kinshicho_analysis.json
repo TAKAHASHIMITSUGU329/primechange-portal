@@ -1,10 +1,10 @@
 {
   "total_reviews": 134,
-  "overall_avg_10pt": 9.09,
-  "high_count": 120,
-  "high_rate": 89.6,
-  "mid_count": 12,
-  "mid_rate": 9.0,
+  "overall_avg_10pt": 9.04,
+  "high_count": 119,
+  "high_rate": 88.8,
+  "mid_count": 13,
+  "mid_rate": 9.7,
   "low_count": 2,
   "low_rate": 1.5,
   "site_stats": [
@@ -19,52 +19,52 @@
     },
     {
       "site": "Google",
-      "count": 23,
-      "native_avg": 4.57,
+      "count": 22,
+      "native_avg": 4.5,
       "scale": "/5",
-      "avg_10pt": 9.13,
+      "avg_10pt": 9.0,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Booking.com",
       "count": 51,
-      "native_avg": 8.76,
+      "native_avg": 8.73,
       "scale": "/10",
-      "avg_10pt": 8.76,
+      "avg_10pt": 8.73,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
-      "count": 2,
-      "native_avg": 3.5,
+      "count": 3,
+      "native_avg": 3.67,
       "scale": "/5",
-      "avg_10pt": 7.0,
-      "median_10pt": 7.0,
+      "avg_10pt": 7.33,
+      "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 74,
-      "pct": "55.2%"
+      "count": 72,
+      "pct": "53.7%"
     },
     {
       "score": 9,
-      "count": 25,
-      "pct": "18.7%"
+      "count": 24,
+      "pct": "17.9%"
     },
     {
       "score": 8,
-      "count": 21,
-      "pct": "15.7%"
+      "count": 23,
+      "pct": "17.2%"
     },
     {
       "score": 7,
-      "count": 6,
-      "pct": "4.5%"
+      "count": 7,
+      "pct": "5.2%"
     },
     {
       "score": 6,
@@ -83,6 +83,58 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "地點方便，房間整潔，出水很大洗澡很舒適",
+      "bad": "沒有不滿意的地方",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "不満な点は何もありません。",
+      "reviewer": "Chia"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "一樓大廳提供泡澡球、面膜，跟其他常見的備品，但沒有浴帽跟牙刷。",
+      "bad": "早餐還不錯吃，但品項不多而且每天一樣，連住很多天會吃到膩，自動鬆餅機很有趣",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "朝食はまあまあだったが、種類が少なく、毎日同じものだったので、数日滞在すると飽きてしまうだろう。自動ワッフルメーカーはなかなか面白かった。",
+      "reviewer": "Chen"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Andrew"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "立地も駅近で良いですね。朝食は普通。ただ海外スタッフの方の日本語、マナーは素晴らしいものがありました。是非これからも頑張ってください。",
+      "good": "",
+      "bad": "",
+      "translated": "立地も駅近で良いですね。朝食は普通。ただ海外スタッフの方の日本語、マナーは素晴らしいものがありました。是非これからも頑張ってください。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "W220S55LKUNI"
+    },
     {
       "site": "Booking.com",
       "rating": 8.0,
@@ -149,6 +201,19 @@
       "reviewer": "Shimla Diaries"
     },
     {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "Perfectly located hotel centrally located and walking distance to Kinshichō station",
+      "good": "",
+      "bad": "",
+      "translated": "錦糸町駅から徒歩圏内の便利な立地にあるホテルです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Shimla Diaries"
+    },
+    {
       "site": "Trip.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -182,7 +247,7 @@
       "comment": "服務很棒！房間內的紅酒、啤酒、餅乾、果汁全都免費，而且每天都補新的！！房間乾淨、整潔、有氛圍！體驗感超好👍👍👍",
       "good": "",
       "bad": "",
-      "translated": "サービスは最高でした！部屋に用意されていたワイン、ビール、クッキー、ジュースはすべて無料で、毎日補充されていました！部屋は清潔で整頓されていて、雰囲気も素晴らしかったです！最高の体験でした！👍👍👍",
+      "translated": "サービスは最高でした！部屋に用意されていたワイン、ビール、クッキー、ジュースはすべて無料で、毎日補充してくれました！部屋は清潔で整頓されていて、雰囲気も素晴らしかったです！本当に素晴らしい体験でした！👍👍👍",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -312,7 +377,7 @@
       "comment": "真的是非常棒的飯店❤️ 我們住了5天 地理位置絕佳 走路就可以到錦系町車站 且有JR線、半藏門線 換乘交通非常方便 附近也有很多吃的餐廳、便利商店和24h超市 生活飲食非常便利  再來是房間內的環境 非常乾淨舒服溫馨 以東京住宿來說 房內的空間算蠻大的，而且還有浴缸 床頭還有窗戶，可以看外面的風景 電視還可以連接手機 沐浴用品也用的非常好 龍頭設備水壓非常的強，洗澡非常非常的舒服 水又大又熱的（瞬熱） 而且還可以一邊淋浴一邊放泡澡的水，兩者同時進行 超完美😍 還有提供除臭除菌的衣物噴霧和除濕機 超級貼心🫶🏻（愛死）  櫃檯人員也都很親切友善 退房很酷噢～ 可以用機器按ㄧ按退房👍  整體下來體驗真的非常舒服💕 已經決定下次再去東京旅遊都要住這了☺️ 大推薦給去東京旅遊找住宿的妳/你們哦^_^",
       "good": "",
       "bad": "",
-      "translated": "ここは本当に素晴らしいホテルです！❤️ 5日間滞在しました。立地は最高で、錦糸町駅から徒歩圏内、JR線と半蔵門線にもアクセスでき、交通の便が非常に良いです。周辺にはレストラン、コンビニ、24時間営業のスーパーマーケットもたくさんあり、日常生活や食事にとても便利です。部屋自体もとても清潔で快適で居心地が良かったです。東京の宿泊施設としてはかなり広い部屋で、バスタブまでありました。ベッドの横には景色が見える窓があり、テレビは携帯電話に接続できました。アメニティも素晴らしく、蛇口の水圧が非常に強く、シャワーがとても快適でした。お湯はすぐに出て、量もたっぷりでした（瞬時に加熱！）。シャワーとバスタブを同時に使うこともできました。完璧です！😍 消臭・除菌の洗濯用スプレーと除湿機も用意されていて、とても気が利いていました！🫶🏻（とても気に入りました！）フロントのスタッフもとてもフレンドリーで親切でした。チェックアウトは簡単でした！機械でボタンを押すだけでチェックアウトできたんです！👍 全体的に本当に素晴らしい体験でした！💕 次回東京に来るときも、またここに泊まることに決めました！☺️ 東京旅行で宿泊先を探している方には、ぜひおすすめします！^_^",
+      "translated": "ここは本当に素晴らしいホテルです！❤️ 5日間滞在しました。立地は最高で、錦糸町駅から徒歩圏内、JR線と半蔵門線にもアクセスでき、交通の便が非常に良いです。周辺にはレストラン、コンビニ、24時間営業のスーパーマーケットもたくさんあり、日常生活や食事にとても便利です。部屋自体もとても清潔で快適で居心地が良かったです。東京の宿泊施設としてはかなり広い部屋で、バスタブまでありました。ベッドの横には景色が見える窓があり、テレビは携帯電話に接続できました。アメニティも素晴らしく、蛇口の水圧が非常に強く、シャワーがとても快適でした。お湯はすぐに出て、量もたっぷりでした（瞬時に加熱！）。シャワーとバスタブを同時に使うこともできました。完璧です！😍 消臭・除菌の洗濯用スプレーと除湿機も用意されていて、とても気が利いていました！🫶🏻（とても気に入りました！）フロントのスタッフもとてもフレンドリーで親切でした。チェックアウトは簡単でした！機械でボタンを押すだけでチェックアウトできたんです！👍 全体的に、本当に素晴らしい体験でした！💕 次回東京に来るときも、またここに泊まることに決めました！☺️ 東京旅行で宿泊先を探している方には、ぜひおすすめします！^_^",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍m‍y‍ ‍ ‍Ł‍î‍a‍o"
@@ -847,7 +912,7 @@
       "bad": "這次checking 的工作人員似乎有點不耐煩 是厭世臉的中年大叔 另外3/9早餐開放時間6:30 也晚了啦」好幾分才開放用餐 這對我們七點多就要離開的著實增加困擾",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては非常に不便でした。",
+      "translated_bad": "チェックインカウンターのスタッフは少しせっかちな様子でした。疲れ切った表情をした中年の男性でした。また、3月9日の朝食開始時間は午前6時30分とかなり遅かったです。食事の提供開始まで数分かかり、午前7時頃に出発する必要があった私たちにとっては大変不便でした。",
       "reviewer": "Sulien"
     },
     {
@@ -888,71 +953,6 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-09",
-      "comment": "",
-      "good": "交通方便又便利，服務人員很友善，有些會中文，還可以寄放行李，真的很棒👍🏼",
-      "bad": "早餐樣式不多，其餘很棒",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "朝食の種類は多くなかったが、それ以外は素晴らしかった。",
-      "reviewer": "Hsin"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "Very clean room and nice bathroom    Great view and ventilation    Amazing, helpful staff    Laundry facilities (coin laundry) available    Close to shops and train station, very convenient",
-      "bad": "Couldn’t get feather-free bedding despite my allergy request",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "アレルギーがあるという私の要望にもかかわらず、羽毛不使用の寝具を用意してもらえませんでした。",
-      "reviewer": "Michael"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "房间很干净，工作人员热情",
-      "bad": "没有",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "いいえ",
-      "reviewer": "Jiru"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-07",
-      "comment": "京成リッチモンドホテル東京錦糸町での滞在は本当に楽しかったです。お部屋はとても清潔で、バスルームも快適で、景色と換気も抜群でした。スタッフは素晴らしく親切で、ホテルには便利なコインランドリーもありました。お店や駅にもとても近く、移動も楽でした。唯一の欠点は、アレルギーのため羽毛不使用の寝具を提供できなかったことですが、全体的にはとても快適で便利な滞在でした。",
-      "good": "",
-      "bad": "",
-      "translated": "京成リッチモンドホテル東京錦糸町での滞在は本当に楽しかったです。お部屋はとても清潔で、バスルームも快適で、景色と換気も抜群でした。スタッフは素晴らしく親切で、ホテルには便利なコインランドリーもありました。お店や駅にもとても近く、移動も楽でした。唯一の欠点は、アレルギーのため羽毛不使用の寝具を提供できなかったことですが、全体的にはとても快適で便利な滞在でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Michael J Fourie"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-07",
-      "comment": "I really enjoyed my stay at the Keisei Richmond Hotel Tokyo Kinshicho. The room was very clean, the bathroom was nice, and the view and ventilation were excellent. The staff were amazing and helpful, and the hotel offered convenient coin laundry facilities. It’s also very close to shops and the train station, which made getting around easy. The only downside for me was that they couldn’t provide feather-free bedding for my allergy, but overall it was a very comfortable and convenient stay.",
-      "good": "",
-      "bad": "",
-      "translated": "京成リッチモンドホテル東京錦糸町での滞在は本当に快適でした。部屋はとても清潔で、バスルームも素敵で、眺めも風通しも抜群でした。スタッフの方々は素晴らしく親切で、ホテルには便利なコインランドリー設備もありました。お店や駅にも近く、移動も楽でした。唯一の難点は、アレルギーのために羽毛不使用の寝具を用意してもらえなかったことですが、全体的にはとても快適で便利な滞在でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Michael J Fourie"
     },
     {
       "site": "Booking.com",
@@ -1040,7 +1040,7 @@
       "comment": "\"Excellent service and friendly staff! The rooms are larger and cheaper than city-center hotels. Breakfast is good enough for a morning meal. While it’s a short walk from the station, the value for money is unbeatable—especially with the free bath salts and face masks provided. Definitely recommended!\"",
       "good": "",
       "bad": "",
-      "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分満足できる内容です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
+      "translated": "「素晴らしいサービスとフレンドリーなスタッフ！部屋は市内中心部のホテルよりも広く、料金も安いです。朝食は朝食として十分な量です。駅から少し歩く必要がありますが、特に無料のバスソルトとフェイスマスクが付いていることを考えると、コストパフォーマンスは抜群です。間違いなくおすすめです！」",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1222,7 +1222,7 @@
       "comment": "酒店早餐好，附近有很多吃飯的店，去地鐵站也很方便，總之很喜歡這個酒店。下次還住着個酒店啦啦啦啦啦啦啦啊啦",
       "good": "",
       "bad": "",
-      "translated": "ホテルの朝食は美味しく、周辺にはたくさんのレストランがあり、地下鉄の駅にもとても便利でした。全体的に、このホテルは本当に気に入りました。次回も必ずここに泊まります！",
+      "translated": "ホテルの朝食は美味しく、周辺にはたくさんのレストランがあり、地下鉄の駅にもとても便利でした。全体的にこのホテルはとても気に入りました。次回も必ずここに泊まります！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1599,7 +1599,7 @@
       "comment": "酒店好方便，附近好多不同種類餐廳，而且很多商場逛逛，去東京站/淺草站/秋葉原都是10分鐘，晴空塔夜景好靚！",
       "good": "",
       "bad": "",
-      "translated": "ホテルは周辺に様々なレストランやショッピングモールが数多くあり、大変便利な立地です。東京駅、浅草駅、秋葉原へは徒歩わずか10分。東京スカイツリーの夜景は息を呑むほど美しいです！",
+      "translated": "ホテルは周辺に様々なレストランやショッピングモールが数多くあり、大変便利な立地です。東京駅、浅草駅、秋葉原へは徒歩わずか10分。東京スカイツリーからは美しい夜景が楽しめます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

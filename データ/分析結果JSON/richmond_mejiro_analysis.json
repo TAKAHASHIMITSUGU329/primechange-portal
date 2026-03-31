@@ -1,19 +1,19 @@
 {
   "total_reviews": 146,
   "overall_avg_10pt": 8.61,
-  "high_count": 124,
-  "high_rate": 84.9,
-  "mid_count": 18,
-  "mid_rate": 12.3,
-  "low_count": 4,
-  "low_rate": 2.7,
+  "high_count": 125,
+  "high_rate": 85.6,
+  "mid_count": 16,
+  "mid_rate": 11.0,
+  "low_count": 5,
+  "low_rate": 3.4,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 37,
-      "native_avg": 9.49,
+      "count": 40,
+      "native_avg": 9.45,
       "scale": "/10",
-      "avg_10pt": 9.49,
+      "avg_10pt": 9.45,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -29,10 +29,19 @@
     {
       "site": "じゃらん",
       "count": 28,
-      "native_avg": 4.46,
+      "native_avg": 4.32,
       "scale": "/5",
-      "avg_10pt": 8.93,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.64,
+      "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Google",
+      "count": 12,
+      "native_avg": 4.25,
+      "scale": "/5",
+      "avg_10pt": 8.5,
+      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
@@ -45,20 +54,11 @@
       "judgment": "良好"
     },
     {
-      "site": "Google",
-      "count": 14,
-      "native_avg": 4.07,
-      "scale": "/5",
-      "avg_10pt": 8.14,
-      "median_10pt": 9.0,
-      "judgment": "良好"
-    },
-    {
       "site": "Booking.com",
-      "count": 36,
-      "native_avg": 7.72,
+      "count": 35,
+      "native_avg": 7.74,
       "scale": "/10",
-      "avg_10pt": 7.72,
+      "avg_10pt": 7.74,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -66,8 +66,8 @@
   "distribution": [
     {
       "score": 10,
-      "count": 64,
-      "pct": "43.8%"
+      "count": 65,
+      "pct": "44.5%"
     },
     {
       "score": 9,
@@ -86,8 +86,8 @@
     },
     {
       "score": 6,
-      "count": 7,
-      "pct": "4.8%"
+      "count": 5,
+      "pct": "3.4%"
     },
     {
       "score": 5,
@@ -106,11 +106,76 @@
     },
     {
       "score": 2,
-      "count": 2,
-      "pct": "1.4%"
+      "count": 3,
+      "pct": "2.1%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "The location of the hotel was great. It was easily accessible to all the attractions.",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルの立地は最高でした。観光スポットへのアクセスも抜群でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "ベッドが少し堅かった。",
+      "good": "",
+      "bad": "",
+      "translated": "ベッドが少し堅かった。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "甘口さしみ醤油"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "The room is big and clean… will stay at this hotel if we go to Tokyo again 👍🏻",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は広くて清潔です…また東京に行く機会があれば、このホテルに泊まります👍🏻",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-03-31",
+      "comment": "OMG we cannot sleep well aircon very noisy. Really disturbed us . Anyways called the staff they are very approachable and appreciate there action but aircon still noisy . The rest are good . Like the food so many  choices.",
+      "good": "",
+      "bad": "",
+      "translated": "ああ、エアコンの音がうるさくてよく眠れません。本当に邪魔されました。とにかくスタッフに電話したら、とても親切に対応してくれて、対応してくれたのはありがたかったのですが、エアコンの音は相変わらずうるさいです。それ以外は良かったです。食事の種類も豊富で気に入りました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "Great location",
+      "bad": "Nothing",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "何もない",
+      "reviewer": "Diana"
+    },
     {
       "site": "Google",
       "rating": 1.0,
@@ -136,6 +201,19 @@
       "translated_good": "",
       "translated_bad": "朝食はすごく面白かったです。とても賑やかで、変わった洋食メニューがたくさんありました。私たちは気楽な性格なので楽しめましたが、先入観を持たずに臨むことをお勧めします。",
       "reviewer": "Deanne"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-03-30",
+      "comment": "空調が故障していて、室温が暑い。対応をフロントに依頼しました。待っている間、廊下とのドアを空けっ放しにし、対応が終わったのが、深夜0時をまわっていて、身体が休まりませんでしま。",
+      "good": "",
+      "bad": "",
+      "translated": "空調が故障していて、室温が暑い。対応をフロントに依頼しました。待っている間、廊下とのドアを空けっ放しにし、対応が終わったのが、深夜0時をまわっていて、身体が休まりませんでしま。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "いっち〜さん"
     },
     {
       "site": "Trip.com",
@@ -983,84 +1061,6 @@
       "reviewer": "ゆう49773429"
     },
     {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-06",
-      "comment": "",
-      "good": "L'emplacement à 2min de la gare. Le personnel.  Le calme du quartier. C'est propre.",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Manoel"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-06",
-      "comment": "目白駅近くの立地でスーパー、コンビニ、薬局、飲食店が数多くあります。 朝食はガストのピザ、チーズインハンバーグ、唐揚げなど人気メニューをバイキング形式で食べることができます。",
-      "good": "",
-      "bad": "",
-      "translated": "目白駅近くの立地でスーパー、コンビニ、薬局、飲食店が数多くあります。 朝食はガストのピザ、チーズインハンバーグ、唐揚げなど人気メニューをバイキング形式で食べることができます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ショウジ9393"
-    },
-    {
-      "site": "Google",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-06",
-      "comment": "この女性はどこでも写真を撮っていました。",
-      "good": "",
-      "bad": "",
-      "translated": "この女性はどこでも写真を撮っていました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "given sur"
-    },
-    {
-      "site": "Google",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-06",
-      "comment": "这个女的到处瞎拍",
-      "good": "",
-      "bad": "",
-      "translated": "この女性は行く先々で写真を撮っていた。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "given sur"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-06",
-      "comment": "まず接客がとても丁寧で入った時から良かった。お部屋も二人で13500円だったのにトイレとお風呂は別だし、綺麗だったしドライヤーはReFaだったのでとても良かった。駅からもそんなに遠くなく、テレビではYouTubeなどみれて良かったです。",
-      "good": "",
-      "bad": "",
-      "translated": "まず接客がとても丁寧で入った時から良かった。お部屋も二人で13500円だったのにトイレとお風呂は別だし、綺麗だったしドライヤーはReFaだったのでとても良かった。駅からもそんなに遠くなく、テレビではYouTubeなどみれて良かったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "じゅなさん"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-05",
-      "comment": "",
-      "good": "Mejiro is a really quiet part of Tokyo and I enjoyed having somewhere to retreat after the hustle and bustle of sightseeing each day. The staff at the counter were extremely helpful and even the ones that spoke limited English we were able to use the Google translator and communicate. The buffet breakfast had a good number of choices and was great value for ¥1500. Breakfast times were from 6:30 am to 10 am which allowed for us to head off early on the days that we needed to and have a more luxurious start to the day when we weren’t going anywhere too far. There was a number of amenities available in the lobby that you could help yourself to at any time. It was also only a couple of minutes walk away from Mejiro station. Bear in mind however that if you purchased the three day Tokyo Metro ticket, it is not valid for use at this smaller station and you need to either go to Shinjuku or Ikebukuro.",
-      "bad": "The cleaning schedule was a little bit confusing. We had several days of a five day stay where the bed wasn’t made even though that was meant to be part of the basic cleaning for the day. Not too sure why and it didn’t bother us enough to discuss it with reception. It did however mean that the cups weren’t cleaned as well and so we ended up having to wash them in the bathroom sink. We did have to miss one of our scheduled breakfast which was included with the room right and had been advised that we could use it at the restaurant but when we decided to go out for dinner and utilise it, we headed down to reception to find out the address of the restaurant and we got told that we could only use it for filtered coffee bags or sweets.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "清掃スケジュールが少し分かりにくかったです。5日間の滞在のうち、数日間はベッドメイキングがされていませんでした。これはその日の基本清掃に含まれているはずなのに。理由はよく分かりませんが、フロントに問い合わせるほど気になりませんでした。ただ、カップも洗われていなかったので、結局バスルームの洗面台で洗わなければなりませんでした。宿泊料金に含まれている予定の朝食を1回食べ損ねてしまい、レストランで利用できると聞いていたのですが、夕食に出かけて利用しようと思い、レストランの住所をフロントに尋ねたところ、フィルターコーヒーのバッグかお菓子しか利用できないと言われました。",
-      "reviewer": "Barb"
-    },
-    {
       "site": "Agoda",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1848,7 +1848,7 @@
       "comment": "06年的酒店,但房間還是乾淨的. 浴室雖然墻身浴缸發黃,但這只是影響第一觀感. 設備非常齊全,房間旁邊的窗台很大,適合放置物件,這點非常方便. 早餐是2樓的一家cafe,性價比高,有和食與洋食. 味道還行,但性價比很高.沒記錯是1500yen.   距離目白驛約5分鐘路程,出站左轉就到了. 附近便利店數量很足,酒店旁邊就是藥妝店. 而目白站也是非常方便,就在山手線上,池袋涉谷新宿東京上野秋葉原一圈都可以直達. 隔壁就是池袋,往南幾個站就到新宿涉谷. 前往中野/八王子/高尾山也非常方便. 注意避開通勤人潮就好. 目白感覺是比較高級的住宅區,整體氛圍很舒服,也不像旁邊池袋新宿那種地方吵鬧,沒什麼遊客. 而周邊地區在google map和tabelog平均評分都相當高,時間有限我只嘗過兩家,確實都不錯.",
       "good": "",
       "bad": "",
-      "translated": "ホテルは2006年に建てられましたが、部屋はまだ清潔でした。バスルームの壁とバスタブは黄ばんでいましたが、第一印象に影響しただけでした。設備は非常に充実しており、部屋の横にある大きな窓辺は物を置くのにとても便利でした。朝食は2階のカフェで、和食と洋食の両方があり、値段も手頃でした。味は悪くなく、値段も非常にリーズナブルでした。確か1500円だったと思います。目白駅から徒歩約5分。駅を出て左に曲がるだけです。近くにはコンビニがたくさんあり、ホテルのすぐ隣にはドラッグストアがあります。目白駅は山手線上にあり、池袋、渋谷、新宿、東京、上野、秋葉原へ直通で行けるのでとても便利です。池袋はすぐ隣で、新宿と渋谷は南へ数駅です。中野、八王子、高尾山へもとても便利です。通勤客の混雑には注意してください。目白は比較的高級な住宅街といった印象で、隣接する池袋や新宿のような騒がしいエリアとは異なり、観光客も少なく、全体的にとても落ち着いた雰囲気です。周辺エリアはGoogleマップで確認できます。Googleマップと食べログはどちらも平均評価が非常に高いです。時間の都合上、私は両方しか試していませんが、確かにどちらも非常に便利でした。",
+      "translated": "ホテルは2006年に建てられましたが、部屋はまだ清潔でした。バスルームの壁とバスタブは黄ばんでいましたが、第一印象に影響しただけでした。設備は非常に充実しており、部屋の横にある大きな窓辺は物を置くのにとても便利でした。朝食は2階のカフェで提供され、和食と洋食の両方があり、値段も手頃でした。味は悪くなく、値段も非常にリーズナブルでした。確か1500円だったと思います。目白駅から徒歩約5分で、駅を出て左に曲がるだけです。近くにはコンビニがたくさんあり、ホテルのすぐ隣にはドラッグストアがあります。目白駅は山手線上にあり、池袋、渋谷、新宿、東京、上野、秋葉原へ直通で行けるのでとても便利です。池袋はすぐ隣で、新宿と渋谷は南へ数駅です。中野、八王子、高尾山への移動もとても便利です。通勤ラッシュには注意してください。目白は比較的高級な住宅街といった印象で、隣接する池袋や新宿のような騒がしいエリアとは異なり、観光客も少なく、全体的にとても落ち着いた雰囲気です。周辺エリアはGoogleマップで確認できます。Googleマップと食べログはどちらも平均評価が非常に高いです。時間の都合上、私は両方しか試していませんが、確かにどちらも非常に便利でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
