@@ -1,10 +1,10 @@
 {
   "total_reviews": 135,
-  "overall_avg_10pt": 8.67,
-  "high_count": 110,
-  "high_rate": 81.5,
-  "mid_count": 23,
-  "mid_rate": 17.0,
+  "overall_avg_10pt": 8.68,
+  "high_count": 111,
+  "high_rate": 82.2,
+  "mid_count": 22,
+  "mid_rate": 16.3,
   "low_count": 2,
   "low_rate": 1.5,
   "site_stats": [
@@ -19,10 +19,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 8,
-      "native_avg": 4.5,
+      "count": 7,
+      "native_avg": 4.71,
       "scale": "/5",
-      "avg_10pt": 9.0,
+      "avg_10pt": 9.43,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 69,
-      "native_avg": 8.65,
+      "count": 70,
+      "native_avg": 8.64,
       "scale": "/10",
-      "avg_10pt": 8.65,
+      "avg_10pt": 8.64,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -67,8 +67,8 @@
     },
     {
       "score": 8,
-      "count": 27,
-      "pct": "20.0%"
+      "count": 28,
+      "pct": "20.7%"
     },
     {
       "score": 7,
@@ -77,8 +77,8 @@
     },
     {
       "score": 6,
-      "count": 13,
-      "pct": "9.6%"
+      "count": 12,
+      "pct": "8.9%"
     },
     {
       "score": 5,
@@ -117,6 +117,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Angela"
     },
     {
       "site": "Booking.com",
@@ -990,19 +1003,6 @@
       "reviewer": "Yasunori"
     },
     {
-      "site": "じゃらん",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-09",
-      "comment": "私の泊まった部屋は広くてとても綺麗で、女子2人で広々と泊まれました。  お風呂は部屋ですが、シャンプー等ボトルで個別に入ってるのが可愛く、残った分は他の他の旅行でも使えるので便利だと思いました。  朝ごはんはもう少し品数があると嬉しかったです。",
-      "good": "",
-      "bad": "",
-      "translated": "私の泊まった部屋は広くてとても綺麗で、女子2人で広々と泊まれました。  お風呂は部屋ですが、シャンプー等ボトルで個別に入ってるのが可愛く、残った分は他の他の旅行でも使えるので便利だと思いました。  朝ごはんはもう少し品数があると嬉しかったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "あゆさん"
-    },
-    {
       "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
@@ -1140,7 +1140,7 @@
       "comment": "一如既往給好評，酒店位置好，房間偏小，前台服務熱情，周邊配套吃飯方便",
       "good": "",
       "bad": "",
-      "translated": "いつものように、良い評価をつけます。ホテルの立地は良く、部屋は少し狭いですが、フロントの対応は親切で、近くには便利なレストランがたくさんあります。",
+      "translated": "いつものように、良い評価をつけます。ホテルの立地は良く、部屋は少し狭いですが、フロントの対応は親切で、近くにはたくさんのレストランがあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1285,7 +1285,7 @@
       "bad": "Tutto sembra molto datato ormai, ma le cose peggiori sono state: - impossibile modificare temperatura della stanza, e dentro faceva un caldo infernale (a febbraio). C’è un piccolo condizionatore ma non fa quasi nulla - dal bagno c’è un costante rumore ripetuto che purtroppo si sente dal letto, essendo attiguo - il letto col materasso a molle è scomodissimo, specialmente dopo settimane di bei materassi duri giapponesi, e le lenzuola in acrilico rendono ancora più calda l’esperienza del pernottamento - la pulizia della stanza lascia a desiderare",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）地獄のように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
+      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）焼けつくように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
       "reviewer": "Michele"
     },
     {

@@ -1,12 +1,12 @@
 {
-  "total_reviews": 88,
-  "overall_avg_10pt": 7.05,
+  "total_reviews": 90,
+  "overall_avg_10pt": 6.94,
   "high_count": 49,
-  "high_rate": 55.7,
+  "high_rate": 54.4,
   "mid_count": 23,
-  "mid_rate": 26.1,
-  "low_count": 16,
-  "low_rate": 18.2,
+  "mid_rate": 25.6,
+  "low_count": 18,
+  "low_rate": 20.0,
   "site_stats": [
     {
       "site": "Agoda",
@@ -18,15 +18,6 @@
       "judgment": "良好"
     },
     {
-      "site": "Booking.com",
-      "count": 5,
-      "native_avg": 7.6,
-      "scale": "/10",
-      "avg_10pt": 7.6,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "じゃらん",
       "count": 10,
       "native_avg": 3.5,
@@ -36,11 +27,20 @@
       "judgment": "概ね良好"
     },
     {
+      "site": "Booking.com",
+      "count": 6,
+      "native_avg": 6.83,
+      "scale": "/10",
+      "avg_10pt": 6.83,
+      "median_10pt": 7.5,
+      "judgment": "要改善"
+    },
+    {
       "site": "Google",
-      "count": 21,
-      "native_avg": 3.48,
+      "count": 22,
+      "native_avg": 3.36,
       "scale": "/5",
-      "avg_10pt": 6.95,
+      "avg_10pt": 6.73,
       "median_10pt": 8.0,
       "judgment": "要改善"
     },
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 17,
-      "pct": "19.3%"
+      "pct": "18.9%"
     },
     {
       "score": 9,
       "count": 2,
-      "pct": "2.3%"
+      "pct": "2.2%"
     },
     {
       "score": 8,
       "count": 30,
-      "pct": "34.1%"
+      "pct": "33.3%"
     },
     {
       "score": 7,
       "count": 3,
-      "pct": "3.4%"
+      "pct": "3.3%"
     },
     {
       "score": 6,
       "count": 19,
-      "pct": "21.6%"
+      "pct": "21.1%"
     },
     {
       "score": 5,
@@ -97,12 +97,17 @@
     {
       "score": 4,
       "count": 10,
-      "pct": "11.4%"
+      "pct": "11.1%"
+    },
+    {
+      "score": 3,
+      "count": 1,
+      "pct": "1.1%"
     },
     {
       "score": 2,
-      "count": 6,
-      "pct": "6.8%"
+      "count": 7,
+      "pct": "7.8%"
     }
   ],
   "comments": [
@@ -118,6 +123,32 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 3.0,
+      "rating_10pt": 3.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "安いです。 駅からも道が一本で分かりやすくて近いのもポイント高いです。",
+      "bad": "ベッドの下に子どもが入ってしまって出てきたら服も髪の毛もホコリまるけでした。 お風呂場のシャンプー、コンディショナー、ボディソープだと思いますが、ラベルがコンディショナーが２つでしたが、中身は違うのでおそらくひとつがボディソープだったんだと思います。 バスマットを出したら、前の宿泊者の物であろう使用済みのパックが出てきました。とても残念でした。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ベッドの下に子どもが入ってしまって出てきたら服も髪の毛もホコリまるけでした。 お風呂場のシャンプー、コンディショナー、ボディソープだと思いますが、ラベルがコンディショナーが２つでしたが、中身は違うのでおそらくひとつがボディソープだったんだと思います。 バスマットを出したら、前の宿泊者の物であろう使用済みのパックが出てきました。とても残念でした。",
+      "reviewer": "Nao"
+    },
+    {
+      "site": "Google",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mitch Kaneko"
     },
     {
       "site": "Google",

@@ -1,30 +1,30 @@
 {
-  "total_reviews": 104,
-  "overall_avg_10pt": 8.78,
-  "high_count": 90,
-  "high_rate": 86.5,
+  "total_reviews": 106,
+  "overall_avg_10pt": 8.8,
+  "high_count": 92,
+  "high_rate": 86.8,
   "mid_count": 10,
-  "mid_rate": 9.6,
+  "mid_rate": 9.4,
   "low_count": 4,
   "low_rate": 3.8,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 6,
-      "native_avg": 9.83,
+      "count": 7,
+      "native_avg": 9.86,
       "scale": "/10",
-      "avg_10pt": 9.83,
+      "avg_10pt": 9.86,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
-      "count": 39,
-      "native_avg": 4.49,
+      "count": 40,
+      "native_avg": 4.5,
       "scale": "/5",
-      "avg_10pt": 8.97,
+      "avg_10pt": 9.0,
       "median_10pt": 10.0,
-      "judgment": "良好"
+      "judgment": "優秀"
     },
     {
       "site": "Agoda",
@@ -66,41 +66,67 @@
   "distribution": [
     {
       "score": 10,
-      "count": 58,
-      "pct": "55.8%"
+      "count": 60,
+      "pct": "56.6%"
     },
     {
       "score": 9,
       "count": 6,
-      "pct": "5.8%"
+      "pct": "5.7%"
     },
     {
       "score": 8,
       "count": 26,
-      "pct": "25.0%"
+      "pct": "24.5%"
     },
     {
       "score": 7,
       "count": 1,
-      "pct": "1.0%"
+      "pct": "0.9%"
     },
     {
       "score": 6,
       "count": 9,
-      "pct": "8.7%"
+      "pct": "8.5%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.0%"
+      "pct": "0.9%"
     },
     {
       "score": 2,
       "count": 3,
-      "pct": "2.9%"
+      "pct": "2.8%"
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "府中駅から直結ですので大きな荷物を持っていても不便なく移動できました。",
+      "good": "",
+      "bad": "",
+      "translated": "府中駅から直結ですので大きな荷物を持っていても不便なく移動できました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "べえべえ0239"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "房間很乾凈。比較小 早餐很好。很好吃。附近最好的酒店了吧",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は少し狭かったものの、とても清潔でした。朝食は素晴らしく美味しかったです。おそらくこの地域で最高のホテルでしょう。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "S‍h‍a‍n‍s‍h‍a‍n‍2‍0‍7"
+    },
     {
       "site": "楽天トラベル",
       "rating": 5.0,

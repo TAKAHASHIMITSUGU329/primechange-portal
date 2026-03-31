@@ -11,13 +11,13 @@
     {
       "hotel_key": "apa_kamata",
       "name": "アパホテル蒲田駅東",
-      "claim_rate": 8.97,
-      "total_claims": 11,
+      "claim_rate": 9.62,
+      "total_claims": 12,
       "zero_claims": false,
-      "avg_maids": 13.4,
+      "avg_maids": 13.1,
       "avg_checkers": 1.0,
-      "maid_checker_ratio": 13.4,
-      "avg_completion_time": 15.03,
+      "maid_checker_ratio": 13.1,
+      "avg_completion_time": 15.01,
       "safety_score": 2.62,
       "safety_categories": {
         "整理整頓": 66.7,
@@ -28,18 +28,18 @@
       "tier": "要改善",
       "revpar": 759.6623,
       "monthly_revenue": 4679520,
-      "composite_score": 0.617
+      "composite_score": 0.61
     },
     {
       "hotel_key": "apa_sagamihara",
       "name": "アパホテル相模原橋本駅東",
-      "claim_rate": 7.85,
+      "claim_rate": 7.74,
       "total_claims": 5,
       "zero_claims": false,
-      "avg_maids": 7.6,
+      "avg_maids": null,
       "avg_checkers": null,
       "maid_checker_ratio": null,
-      "avg_completion_time": 15.24,
+      "avg_completion_time": null,
       "safety_score": 3.12,
       "safety_categories": {
         "整理整頓": 80.6,
@@ -53,18 +53,18 @@
       "tier": "概ね良好",
       "revpar": 823.6935,
       "monthly_revenue": 2698420,
-      "composite_score": 0.659
+      "composite_score": 0.685
     },
     {
       "hotel_key": "chisan",
       "name": "チサンホテル浜松町",
-      "claim_rate": 0.68,
+      "claim_rate": 0.67,
       "total_claims": 1,
       "zero_claims": false,
-      "avg_maids": 9.3,
+      "avg_maids": null,
       "avg_checkers": null,
       "maid_checker_ratio": null,
-      "avg_completion_time": 14.39,
+      "avg_completion_time": null,
       "safety_score": 3.21,
       "safety_categories": {
         "整理整頓": 88.9,
@@ -78,18 +78,18 @@
       "tier": "要緊急対応",
       "revpar": 655.3865,
       "monthly_revenue": 5578650,
-      "composite_score": 0.826
+      "composite_score": 0.804
     },
     {
       "hotel_key": "comfort_era_higashikanda",
       "name": "コンフォートホテルERA東神田",
-      "claim_rate": 5.8,
+      "claim_rate": 5.69,
       "total_claims": 5,
       "zero_claims": false,
-      "avg_maids": 7.6,
+      "avg_maids": 8.0,
       "avg_checkers": null,
       "maid_checker_ratio": null,
-      "avg_completion_time": 15.21,
+      "avg_completion_time": 15.28,
       "safety_score": 3.17,
       "safety_categories": {
         "整理整頓": 81.5,
@@ -103,18 +103,18 @@
       "tier": "良好",
       "revpar": 768.8602,
       "monthly_revenue": 4047280,
-      "composite_score": 0.708
+      "composite_score": 0.703
     },
     {
       "hotel_key": "comfort_hakata",
       "name": "コンフォートホテル博多",
-      "claim_rate": 10.88,
+      "claim_rate": 10.69,
       "total_claims": 14,
       "zero_claims": false,
-      "avg_maids": 17.0,
-      "avg_checkers": 5.1,
-      "maid_checker_ratio": 3.3,
-      "avg_completion_time": 16.01,
+      "avg_maids": 17.1,
+      "avg_checkers": 5.4,
+      "maid_checker_ratio": 3.2,
+      "avg_completion_time": 15.8,
       "safety_score": 2.6,
       "safety_categories": {
         "整理整頓": 73.4,
@@ -128,7 +128,7 @@
       "tier": "要緊急対応",
       "revpar": 850.7423,
       "monthly_revenue": 5764630,
-      "composite_score": 0.435
+      "composite_score": 0.462
     },
     {
       "hotel_key": "comfort_narita",
@@ -136,9 +136,9 @@
       "claim_rate": 3.01,
       "total_claims": 2,
       "zero_claims": false,
-      "avg_maids": 8.2,
+      "avg_maids": 8.0,
       "avg_checkers": 1.0,
-      "maid_checker_ratio": 8.2,
+      "maid_checker_ratio": 8.0,
       "avg_completion_time": 16.0,
       "safety_score": 2.62,
       "safety_categories": {
@@ -155,13 +155,13 @@
     {
       "hotel_key": "comfort_roppongi",
       "name": "コンフォートイン六本木",
-      "claim_rate": 1.83,
+      "claim_rate": 1.8,
       "total_claims": 1,
       "zero_claims": false,
-      "avg_maids": 5.3,
+      "avg_maids": 5.2,
       "avg_checkers": null,
       "maid_checker_ratio": null,
-      "avg_completion_time": 15.5,
+      "avg_completion_time": 15.3,
       "safety_score": 3.12,
       "safety_categories": {
         "整理整頓": 81.5,
@@ -175,18 +175,18 @@
       "tier": "概ね良好",
       "revpar": 890.5482,
       "monthly_revenue": 2842630,
-      "composite_score": 0.713
+      "composite_score": 0.73
     },
     {
       "hotel_key": "comfort_suites_tokyobay",
       "name": "コンフォートスイーツ東京ベイ",
-      "claim_rate": 9.31,
+      "claim_rate": 9.14,
       "total_claims": 12,
       "zero_claims": false,
-      "avg_maids": 22.4,
-      "avg_checkers": 5.5,
-      "maid_checker_ratio": 4.0,
-      "avg_completion_time": 15.52,
+      "avg_maids": null,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": null,
       "safety_score": 3.07,
       "safety_categories": {
         "整理整頓": 81.5,
@@ -200,18 +200,18 @@
       "tier": "優秀",
       "revpar": 1514.2353,
       "monthly_revenue": 13228360,
-      "composite_score": 0.641
+      "composite_score": 0.693
     },
     {
       "hotel_key": "comfort_yokohama",
       "name": "コンフォートホテル横浜関内",
-      "claim_rate": 2.04,
+      "claim_rate": 1.99,
       "total_claims": 2,
       "zero_claims": false,
-      "avg_maids": 10.5,
+      "avg_maids": 11.0,
       "avg_checkers": 1.0,
-      "maid_checker_ratio": 10.5,
-      "avg_completion_time": 15.32,
+      "maid_checker_ratio": 11.0,
+      "avg_completion_time": 15.39,
       "safety_score": 2.62,
       "safety_categories": {
         "整理整頓": 66.7,
@@ -222,18 +222,18 @@
       "tier": "要改善",
       "revpar": 595.5159,
       "monthly_revenue": 4051890,
-      "composite_score": 0.684
+      "composite_score": 0.678
     },
     {
       "hotel_key": "comment_yokohama",
       "name": "ホテルコメント横浜関内",
-      "claim_rate": 7.4,
+      "claim_rate": 7.26,
       "total_claims": 4,
       "zero_claims": false,
-      "avg_maids": 8.5,
-      "avg_checkers": 2.6,
-      "maid_checker_ratio": 3.3,
-      "avg_completion_time": 14.94,
+      "avg_maids": 9.2,
+      "avg_checkers": 2.3,
+      "maid_checker_ratio": 4.0,
+      "avg_completion_time": 15.03,
       "safety_score": 2.92,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -247,7 +247,7 @@
       "tier": "良好",
       "revpar": 1374.1749,
       "monthly_revenue": 4463320,
-      "composite_score": 0.697
+      "composite_score": 0.691
     },
     {
       "hotel_key": "court_shinyokohama",
@@ -255,10 +255,10 @@
       "claim_rate": 1.46,
       "total_claims": 1,
       "zero_claims": false,
-      "avg_maids": 8.1,
-      "avg_checkers": 2.5,
-      "maid_checker_ratio": 3.2,
-      "avg_completion_time": 14.88,
+      "avg_maids": 8.0,
+      "avg_checkers": 2.6,
+      "maid_checker_ratio": 3.1,
+      "avg_completion_time": 14.82,
       "safety_score": 2.92,
       "safety_categories": {
         "整理整頓": 69.4,
@@ -272,18 +272,18 @@
       "tier": "要改善",
       "revpar": 692.8226,
       "monthly_revenue": 3705215,
-      "composite_score": 0.732
+      "composite_score": 0.737
     },
     {
       "hotel_key": "daiichi_ikebukuro",
       "name": "第一イン池袋",
-      "claim_rate": 6.71,
+      "claim_rate": 6.6,
       "total_claims": 4,
       "zero_claims": false,
-      "avg_maids": 5.7,
-      "avg_checkers": 3.8,
-      "maid_checker_ratio": 1.5,
-      "avg_completion_time": 15.04,
+      "avg_maids": 5.6,
+      "avg_checkers": 3.4,
+      "maid_checker_ratio": 1.6,
+      "avg_completion_time": 15.19,
       "safety_score": 2.93,
       "safety_categories": {
         "整理整頓": 80.0,
@@ -297,18 +297,18 @@
       "tier": "優秀",
       "revpar": 1107.5565,
       "monthly_revenue": 4310610,
-      "composite_score": 0.705
+      "composite_score": 0.694
     },
     {
       "hotel_key": "daiwa_osaki",
       "name": "ダイワロイネットホテル東京大崎",
-      "claim_rate": 8.44,
+      "claim_rate": 8.3,
       "total_claims": 9,
       "zero_claims": false,
-      "avg_maids": 9.1,
+      "avg_maids": 8.2,
       "avg_checkers": 2.2,
-      "maid_checker_ratio": 4.1,
-      "avg_completion_time": 14.5,
+      "maid_checker_ratio": 3.7,
+      "avg_completion_time": 14.54,
       "safety_score": 3.09,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -322,18 +322,18 @@
       "tier": "良好",
       "revpar": 957.8492,
       "monthly_revenue": 5203037,
-      "composite_score": 0.729
+      "composite_score": 0.728
     },
     {
       "hotel_key": "hearton",
       "name": "ハートンホテル東品川",
-      "claim_rate": 7.55,
+      "claim_rate": 7.42,
       "total_claims": 17,
       "zero_claims": false,
-      "avg_maids": 12.4,
-      "avg_checkers": 1.5,
-      "maid_checker_ratio": 8.0,
-      "avg_completion_time": 15.64,
+      "avg_maids": null,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": null,
       "safety_score": 3.13,
       "safety_categories": {
         "整理整頓": 85.2,
@@ -347,7 +347,7 @@
       "tier": "良好",
       "revpar": 893.7779,
       "monthly_revenue": 11211550,
-      "composite_score": 0.64
+      "composite_score": 0.705
     },
     {
       "hotel_key": "henn_na_haneda",
@@ -355,10 +355,10 @@
       "claim_rate": 6.73,
       "total_claims": 6,
       "zero_claims": false,
-      "avg_maids": 12.6,
-      "avg_checkers": 3.0,
-      "maid_checker_ratio": 4.2,
-      "avg_completion_time": 15.19,
+      "avg_maids": null,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": null,
       "safety_score": 3.14,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -372,18 +372,18 @@
       "tier": "概ね良好",
       "revpar": 956.8125,
       "monthly_revenue": 5358150,
-      "composite_score": 0.681
+      "composite_score": 0.707
     },
     {
       "hotel_key": "kawasaki_nikko",
       "name": "川崎日航ホテル",
-      "claim_rate": 17.57,
+      "claim_rate": 17.23,
       "total_claims": 15,
       "zero_claims": false,
-      "avg_maids": 6.2,
-      "avg_checkers": 3.4,
-      "maid_checker_ratio": 1.8,
-      "avg_completion_time": 16.07,
+      "avg_maids": null,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": null,
       "safety_score": 3.1,
       "safety_categories": {
         "整理整頓": 83.4,
@@ -397,18 +397,18 @@
       "tier": "良好",
       "revpar": 1391.3276,
       "monthly_revenue": 7168120,
-      "composite_score": 0.48
+      "composite_score": 0.542
     },
     {
       "hotel_key": "keisei_richmond",
       "name": "京成リッチモンドホテル東京錦糸町",
-      "claim_rate": 13.25,
+      "claim_rate": 13.02,
       "total_claims": 12,
       "zero_claims": false,
-      "avg_maids": 7.9,
-      "avg_checkers": 2.9,
-      "maid_checker_ratio": 2.7,
-      "avg_completion_time": 15.73,
+      "avg_maids": 8.0,
+      "avg_checkers": 2.7,
+      "maid_checker_ratio": 2.9,
+      "avg_completion_time": 15.84,
       "safety_score": 2.87,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -422,18 +422,18 @@
       "tier": "優秀",
       "revpar": 977.9184,
       "monthly_revenue": 4791800,
-      "composite_score": 0.562
+      "composite_score": 0.555
     },
     {
       "hotel_key": "keyakigate",
       "name": "ホテルケヤキゲート東京府中",
-      "claim_rate": 3.65,
+      "claim_rate": 3.59,
       "total_claims": 3,
       "zero_claims": false,
       "avg_maids": 10.2,
-      "avg_checkers": 1.7,
-      "maid_checker_ratio": 6.0,
-      "avg_completion_time": 14.48,
+      "avg_checkers": 1.5,
+      "maid_checker_ratio": 6.9,
+      "avg_completion_time": 14.6,
       "safety_score": 2.87,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -447,7 +447,7 @@
       "tier": "良好",
       "revpar": 1013.1399,
       "monthly_revenue": 4425395,
-      "composite_score": 0.776
+      "composite_score": 0.767
     },
     {
       "hotel_key": "richmond_mejiro",
@@ -458,7 +458,7 @@
       "avg_maids": 6.0,
       "avg_checkers": 3.0,
       "maid_checker_ratio": 2.0,
-      "avg_completion_time": 15.48,
+      "avg_completion_time": 15.5,
       "safety_score": 3.04,
       "safety_categories": {
         "整理整頓": 85.2,
@@ -472,122 +472,122 @@
       "tier": "良好",
       "revpar": 902.3251,
       "monthly_revenue": 3663440,
-      "composite_score": 0.747
+      "composite_score": 0.745
     }
   ],
   "best_practices": {
     "hotels_ranked": [
       {
         "name": "チサンホテル浜松町",
-        "composite": 0.826,
+        "composite": 0.804,
         "review": 0,
-        "claims": 0.68,
-        "time": 14.39,
+        "claims": 0.67,
+        "time": null,
         "safety": 3.21
       },
       {
         "name": "ホテルケヤキゲート東京府中",
-        "composite": 0.776,
+        "composite": 0.767,
         "review": 8.74,
-        "claims": 3.65,
-        "time": 14.48,
+        "claims": 3.59,
+        "time": 14.6,
         "safety": 2.87
       },
       {
         "name": "リッチモンドホテル東京目白",
-        "composite": 0.747,
+        "composite": 0.745,
         "review": 8.73,
         "claims": 0,
-        "time": 15.48,
+        "time": 15.5,
         "safety": 3.04
       },
       {
         "name": "コートホテル新横浜",
-        "composite": 0.732,
+        "composite": 0.737,
         "review": 7.12,
         "claims": 1.46,
-        "time": 14.88,
+        "time": 14.82,
         "safety": 2.92
       },
       {
-        "name": "ダイワロイネットホテル東京大崎",
-        "composite": 0.729,
-        "review": 8.87,
-        "claims": 8.44,
-        "time": 14.5,
-        "safety": 3.09
-      },
-      {
         "name": "コンフォートイン六本木",
-        "composite": 0.713,
+        "composite": 0.73,
         "review": 8.19,
-        "claims": 1.83,
-        "time": 15.5,
+        "claims": 1.8,
+        "time": 15.3,
         "safety": 3.12
       },
       {
+        "name": "ダイワロイネットホテル東京大崎",
+        "composite": 0.728,
+        "review": 8.87,
+        "claims": 8.3,
+        "time": 14.54,
+        "safety": 3.09
+      },
+      {
+        "name": "変なホテル東京羽田",
+        "composite": 0.707,
+        "review": 8.3,
+        "claims": 6.73,
+        "time": null,
+        "safety": 3.14
+      },
+      {
+        "name": "ハートンホテル東品川",
+        "composite": 0.705,
+        "review": 8.59,
+        "claims": 7.42,
+        "time": null,
+        "safety": 3.13
+      },
+      {
         "name": "コンフォートホテルERA東神田",
-        "composite": 0.708,
+        "composite": 0.703,
         "review": 8.9,
-        "claims": 5.8,
-        "time": 15.21,
+        "claims": 5.69,
+        "time": 15.28,
         "safety": 3.17
       },
       {
         "name": "第一イン池袋",
-        "composite": 0.705,
+        "composite": 0.694,
         "review": 9.18,
-        "claims": 6.71,
-        "time": 15.04,
+        "claims": 6.6,
+        "time": 15.19,
         "safety": 2.93
       },
       {
-        "name": "ホテルコメント横浜関内",
-        "composite": 0.697,
-        "review": 8.88,
-        "claims": 7.4,
-        "time": 14.94,
-        "safety": 2.92
-      },
-      {
-        "name": "コンフォートホテル横浜関内",
-        "composite": 0.684,
-        "review": 7.52,
-        "claims": 2.04,
-        "time": 15.32,
-        "safety": 2.62
-      },
-      {
-        "name": "変なホテル東京羽田",
-        "composite": 0.681,
-        "review": 8.3,
-        "claims": 6.73,
-        "time": 15.19,
-        "safety": 3.14
-      },
-      {
-        "name": "アパホテル相模原橋本駅東",
-        "composite": 0.659,
-        "review": 8.17,
-        "claims": 7.85,
-        "time": 15.24,
-        "safety": 3.12
-      },
-      {
         "name": "コンフォートスイーツ東京ベイ",
-        "composite": 0.641,
+        "composite": 0.693,
         "review": 9.22,
-        "claims": 9.31,
-        "time": 15.52,
+        "claims": 9.14,
+        "time": null,
         "safety": 3.07
       },
       {
-        "name": "ハートンホテル東品川",
-        "composite": 0.64,
-        "review": 8.59,
-        "claims": 7.55,
-        "time": 15.64,
-        "safety": 3.13
+        "name": "ホテルコメント横浜関内",
+        "composite": 0.691,
+        "review": 8.88,
+        "claims": 7.26,
+        "time": 15.03,
+        "safety": 2.92
+      },
+      {
+        "name": "アパホテル相模原橋本駅東",
+        "composite": 0.685,
+        "review": 8.17,
+        "claims": 7.74,
+        "time": null,
+        "safety": 3.12
+      },
+      {
+        "name": "コンフォートホテル横浜関内",
+        "composite": 0.678,
+        "review": 7.52,
+        "claims": 1.99,
+        "time": 15.39,
+        "safety": 2.62
       },
       {
         "name": "コンフォートホテル成田",
@@ -599,34 +599,34 @@
       },
       {
         "name": "アパホテル蒲田駅東",
-        "composite": 0.617,
+        "composite": 0.61,
         "review": 7.34,
-        "claims": 8.97,
-        "time": 15.03,
+        "claims": 9.62,
+        "time": 15.01,
         "safety": 2.62
       },
       {
         "name": "京成リッチモンドホテル東京錦糸町",
-        "composite": 0.562,
+        "composite": 0.555,
         "review": 9.12,
-        "claims": 13.25,
-        "time": 15.73,
+        "claims": 13.02,
+        "time": 15.84,
         "safety": 2.87
       },
       {
         "name": "川崎日航ホテル",
-        "composite": 0.48,
+        "composite": 0.542,
         "review": 8.68,
-        "claims": 17.57,
-        "time": 16.07,
+        "claims": 17.23,
+        "time": null,
         "safety": 3.1
       },
       {
         "name": "コンフォートホテル博多",
-        "composite": 0.435,
+        "composite": 0.462,
         "review": 0,
-        "claims": 10.88,
-        "time": 16.01,
+        "claims": 10.69,
+        "time": 15.8,
         "safety": 2.6
       }
     ],
@@ -635,7 +635,7 @@
       "ホテルケヤキゲート東京府中",
       "リッチモンドホテル東京目白",
       "コートホテル新横浜",
-      "ダイワロイネットホテル東京大崎"
+      "コンフォートイン六本木"
     ],
     "bottom5_improvement": [
       "コンフォートホテル成田",
@@ -660,10 +660,10 @@
         "factor": "低メイド:チェッカー比率（高チェック密度）",
         "hotels": [
           "第一イン池袋",
-          "川崎日航ホテル",
           "リッチモンドホテル東京目白",
           "京成リッチモンドホテル東京錦糸町",
-          "コートホテル新横浜"
+          "コートホテル新横浜",
+          "コンフォートホテル博多"
         ],
         "description": "チェッカー1人あたりのメイド数が少ないホテルでスコアが高い傾向。",
         "transferable_actions": [
@@ -674,11 +674,9 @@
       {
         "factor": "早期清掃完了（15:00以前）",
         "hotels": [
-          "チサンホテル浜松町",
-          "ホテルケヤキゲート東京府中",
           "ダイワロイネットホテル東京大崎",
-          "コートホテル新横浜",
-          "ホテルコメント横浜関内"
+          "ホテルケヤキゲート東京府中",
+          "コートホテル新横浜"
         ],
         "description": "早期完了ホテルはゲストのチェックイン体験向上に寄与。",
         "transferable_actions": [
@@ -702,7 +700,7 @@
         ]
       }
     ],
-    "top5_avg_score": 8.36,
+    "top5_avg_score": 8.2,
     "bottom5_avg_score": 8.41
   },
   "implementation_roadmap": {
@@ -752,12 +750,12 @@
   "cross_analysis_insights": [
     {
       "title": "品質→売上の連鎖効果",
-      "finding": "スコア0.1点改善でRevPAR 2.48%向上（分析6）。クレーム50%削減で年間¥51,286,768増収（分析1）。",
+      "finding": "スコア0.1点改善でRevPAR 2.48%向上（分析6）。クレーム50%削減で年間¥48,032,910増収（分析1）。",
       "implication": "品質改善の経済効果は業界平均の2.5倍。投資対効果が非常に高い。"
     },
     {
       "title": "「チェック体制」が品質の鍵",
-      "finding": "M:C比率とスコアの相関r=-0.4408。メイド「数」より「質」と「チェック」が重要。",
+      "finding": "M:C比率とスコアの相関r=0.018。メイド「数」より「質」と「チェック」が重要。",
       "implication": "チェッカー配置の最適化が最もレバレッジの高い施策。"
     },
     {
