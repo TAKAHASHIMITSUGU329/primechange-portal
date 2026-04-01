@@ -19,7 +19,7 @@ HOTEL_FILES = {
     'daiichi_ikebukuro': 'R8_P1_第一イン池袋_集計表.xlsx',
     'comfort_roppongi': 'R8_P2_コンフォートイン六本木_集計表.xlsx',
     'comfort_suites_tokyobay': 'R8_P2_コンフォートスイーツ東京ベイ_集計表.xlsx',
-    # 'comfort_era_higashikanda': 'R8_P2_コンフォートホテルERA東京東神田_集計表.xlsx',  # XLSXデータ未取得のためスキップ
+    'comfort_era_higashikanda': 'R8_P2_コンフォートホテルERA東京東神田_集計表.xlsx',
     'comfort_narita': 'R8_P2_コンフォートホテル成田_集計表.xlsx',
     'comfort_yokohama': 'R8_P2_コンフォートホテル横浜関内_集計表.xlsx',
     'apa_sagamihara': 'R8_P3_アパホテル相模原橋本駅東_集計表.xlsx',
