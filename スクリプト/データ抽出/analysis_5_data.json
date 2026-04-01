@@ -4,7 +4,7 @@
     "title": "安全チェック×予兆検出分析",
     "subtitle": "Safety Inspection × Early Warning Analysis",
     "total_hotels": 19,
-    "hotels_with_data": 18,
+    "hotels_with_data": 19,
     "data_period": "R8年度（2月〜3月）"
   },
   "hotel_details": {
@@ -113,6 +113,18 @@
         "安全管理": 100.0,
         "衛生管理": 100.0,
         "現場運営": 68.6,
+        "現場ルール・マナー": 90.0
+      }
+    },
+    "comfort_era_higashikanda": {
+      "name": "コンフォートホテルERA東神田",
+      "avg_score": 3.17,
+      "inspections_count": 3,
+      "category_scores": {
+        "整理整頓": 81.5,
+        "安全管理": 91.7,
+        "衛生管理": 100.0,
+        "現場運営": 77.1,
         "現場ルール・マナー": 90.0
       }
     },
@@ -338,6 +350,21 @@
       }
     },
     {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "safety_score": 3.17,
+      "review_score": 8.9,
+      "claim_rate": 5.69,
+      "inspections": 3,
+      "category_scores": {
+        "整理整頓": 81.5,
+        "安全管理": 91.7,
+        "衛生管理": 100.0,
+        "現場運営": 77.1,
+        "現場ルール・マナー": 90.0
+      }
+    },
+    {
       "hotel_key": "comfort_narita",
       "name": "コンフォートホテル成田",
       "safety_score": 2.62,
@@ -451,12 +478,12 @@
   ],
   "correlations": {
     "safety_vs_review": {
-      "r": 0.3846,
-      "n": 16
+      "r": 0.4105,
+      "n": 17
     },
     "safety_vs_claims": {
-      "r": 0.3192,
-      "n": 16
+      "r": 0.2953,
+      "n": 17
     }
   },
   "problem_items": [
@@ -776,6 +803,27 @@
       "score": 2
     },
     {
+      "hotel": "コンフォートホテルERA東神田",
+      "category": "整理整頓",
+      "item": "③棚に物が積みあがっていないか",
+      "value": "✖",
+      "score": 1
+    },
+    {
+      "hotel": "コンフォートホテルERA東神田",
+      "category": "現場運営",
+      "item": "④スタッフ・社員同士の関係性（良好か、責任者の指示を素直に実行できているか）",
+      "value": "D",
+      "score": 2
+    },
+    {
+      "hotel": "コンフォートホテルERA東神田",
+      "category": "現場運営",
+      "item": "⑤フロントとの連絡・関係値",
+      "value": "E",
+      "score": 1
+    },
+    {
       "hotel": "コンフォートホテル成田",
       "category": "整理整頓",
       "item": "③棚に物が積みあがっていないか",
@@ -1035,7 +1083,7 @@
       "score": 2
     }
   ],
-  "total_problem_count": 82,
+  "total_problem_count": 85,
   "hotel_ranking": [
     {
       "hotel_key": "kawasaki_nikko",
@@ -1050,6 +1098,21 @@
         "衛生管理": 75.0,
         "現場運営": 84.7,
         "現場ルール・マナー": 100.0
+      }
+    },
+    {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "safety_score": 3.17,
+      "review_score": 8.9,
+      "claim_rate": 5.69,
+      "inspections": 3,
+      "category_scores": {
+        "整理整頓": 81.5,
+        "安全管理": 91.7,
+        "衛生管理": 100.0,
+        "現場運営": 77.1,
+        "現場ルール・マナー": 90.0
       }
     },
     {
@@ -1273,7 +1336,7 @@
     {
       "title": "安全チェック実施率の向上",
       "priority": "最優先",
-      "rationale": "19ホテル中18ホテルでチェック実施。未実施ホテルへの即時導入が必要。",
+      "rationale": "19ホテル中19ホテルでチェック実施。未実施ホテルへの即時導入が必要。",
       "actions": [
         "月1回の安全チェック実施を全ホテルに義務化",
         "チェックリストのデジタル化による入力率向上",
@@ -1283,7 +1346,7 @@
     {
       "title": "問題項目の重点改善",
       "priority": "高",
-      "rationale": "全82件の問題項目を特定。整理整頓と現場運営に課題集中。",
+      "rationale": "全85件の問題項目を特定。整理整頓と現場運営に課題集中。",
       "actions": [
         "△・✖評価の項目への是正措置と期限設定",
         "改善前後の写真記録による可視化",

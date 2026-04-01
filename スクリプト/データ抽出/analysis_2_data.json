@@ -4,11 +4,11 @@
     "title": "スタッフ個人別パフォーマンス分析",
     "subtitle": "Individual Staff Performance Analysis",
     "total_hotels": 19,
-    "total_staff_analyzed": 215,
+    "total_staff_analyzed": 236,
     "data_period": "R8年度（2月〜3月）"
   },
   "maid_claims_summary": {
-    "total_maids_with_claims": 113,
+    "total_maids_with_claims": 123,
     "top_claim_maids": [
       {
         "name": "ビケ",
@@ -39,6 +39,12 @@
         "claims": 6,
         "hotel": "第一イン池袋",
         "hotel_key": "daiichi_ikebukuro"
+      },
+      {
+        "name": "ー",
+        "claims": 6,
+        "hotel": "コンフォートホテルERA東神田",
+        "hotel_key": "comfort_era_higashikanda"
       },
       {
         "name": "タパ",
@@ -83,27 +89,21 @@
         "hotel_key": "comfort_suites_tokyobay"
       },
       {
+        "name": "？",
+        "claims": 5,
+        "hotel": "コンフォートホテルERA東神田",
+        "hotel_key": "comfort_era_higashikanda"
+      },
+      {
         "name": "インドラ",
         "claims": 5,
         "hotel": "川崎日航ホテル",
         "hotel_key": "kawasaki_nikko"
-      },
-      {
-        "name": "アニタ",
-        "claims": 4,
-        "hotel": "ダイワロイネットホテル東京大崎",
-        "hotel_key": "daiwa_osaki"
-      },
-      {
-        "name": "ブサル",
-        "claims": 4,
-        "hotel": "ダイワロイネットホテル東京大崎",
-        "hotel_key": "daiwa_osaki"
       }
     ]
   },
   "checker_claims_summary": {
-    "total_checkers_with_claims": 92,
+    "total_checkers_with_claims": 97,
     "top_claim_checkers": [
       {
         "name": "飯田",
@@ -198,9 +198,9 @@
     ]
   },
   "maid_productivity": {
-    "total_maids_with_room_data": 129,
-    "avg_rooms_per_day": 12.0,
-    "median_rooms_per_day": 12.0,
+    "total_maids_with_room_data": 145,
+    "avg_rooms_per_day": 11.7,
+    "median_rooms_per_day": 11.4,
     "max_rooms_per_day": 24.4,
     "min_rooms_per_day": 0.3,
     "top_performers": [
@@ -347,10 +347,10 @@
     ]
   },
   "attendance_analysis": {
-    "total_staff": 213,
-    "avg_days": 30.5,
-    "high_attendance": 176,
-    "low_attendance": 5
+    "total_staff": 234,
+    "avg_days": 29.9,
+    "high_attendance": 189,
+    "low_attendance": 8
   },
   "hotel_summaries": [
     {
@@ -519,6 +519,17 @@
       "avg_attendance_days": 26.5
     },
     {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "roster_size": 21,
+      "maid_count": 19,
+      "checker_count": 0,
+      "total_claims": 23,
+      "claims_per_maid": 1.21,
+      "avg_rooms_per_day": 10.1,
+      "avg_attendance_days": 23.5
+    },
+    {
       "hotel_key": "richmond_mejiro",
       "name": "リッチモンドホテル東京目白",
       "roster_size": 12,
@@ -556,7 +567,7 @@
     {
       "title": "クレーム多発スタッフへの個別研修",
       "priority": "最優先",
-      "rationale": "全113名のメイドからクレームが報告。上位集中是正で全体品質向上が可能。",
+      "rationale": "全123名のメイドからクレームが報告。上位集中是正で全体品質向上が可能。",
       "actions": [
         "クレーム2件以上のメイドへの個別フィードバック面談",
         "清掃手順の再確認と実技研修",
@@ -566,7 +577,7 @@
     {
       "title": "チェッカー品質管理力の強化",
       "priority": "高",
-      "rationale": "チェッカー92名の指摘実績を分析。見逃し傾向のあるチェッカーの底上げが重要。",
+      "rationale": "チェッカー97名の指摘実績を分析。見逃し傾向のあるチェッカーの底上げが重要。",
       "actions": [
         "チェッカー間のクレーム発見率比較と是正",
         "ベストチェッカーの手法共有会の開催",
@@ -576,7 +587,7 @@
     {
       "title": "生産性指標の導入と目標管理",
       "priority": "中",
-      "rationale": "メイド1日あたり清掃室数の平均12.0室。個人差が大きく標準化が課題。",
+      "rationale": "メイド1日あたり清掃室数の平均11.7室。個人差が大きく標準化が課題。",
       "actions": [
         "日あたり清掃室数の個人別トラッキング",
         "効率と品質のバランス指標の設定",

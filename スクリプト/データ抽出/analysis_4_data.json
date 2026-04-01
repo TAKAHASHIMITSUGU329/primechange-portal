@@ -4,26 +4,26 @@
     "title": "清掃完了時間×品質 分析",
     "subtitle": "Cleaning Completion Time × Quality Analysis",
     "total_hotels": 19,
-    "hotels_with_time_data": 7,
+    "hotels_with_time_data": 8,
     "data_period": "R8年度3月（日報データ）"
   },
   "time_analysis": {
     "correlations": {
       "time_vs_score": {
-        "r": 0.2291,
-        "r_squared": 0.0525,
-        "slope": 0.4021,
-        "intercept": 2.0424,
-        "n": 7,
-        "interpretation": "完了時間が1時間遅くなると、スコアが0.402点上昇"
+        "r": 0.2331,
+        "r_squared": 0.0544,
+        "slope": 0.4324,
+        "intercept": 1.6708,
+        "n": 8,
+        "interpretation": "完了時間が1時間遅くなると、スコアが0.432点上昇"
       },
       "time_vs_claims": {
-        "r": -0.2483,
-        "n": 7
+        "r": -0.2296,
+        "n": 8
       },
       "time_variability_vs_score": {
-        "r": -0.2333,
-        "n": 6
+        "r": 0.0172,
+        "n": 7
       }
     },
     "time_tiers": {
@@ -51,11 +51,12 @@
       },
       "late_finish": {
         "label": "遅延完了（15:30〜）",
-        "count": 3,
-        "avg_time": 15.63,
-        "avg_score": 8.25,
-        "avg_claim_rate": 1.62,
+        "count": 4,
+        "avg_time": 15.54,
+        "avg_score": 8.41,
+        "avg_claim_rate": 2.64,
         "hotels": [
+          "コンフォートホテルERA東神田",
           "コンフォートホテル横浜関内",
           "リッチモンドホテル東京目白",
           "コンフォートホテル成田"
@@ -85,9 +86,9 @@
           "score": 9.18
         },
         {
-          "name": "コンフォートホテル横浜関内",
-          "time": 15.39,
-          "score": 7.52
+          "name": "コンフォートホテルERA東神田",
+          "time": 15.28,
+          "score": 8.9
         }
       ],
       "slowest_5": [
@@ -107,19 +108,19 @@
           "score": 7.52
         },
         {
+          "name": "コンフォートホテルERA東神田",
+          "time": 15.28,
+          "score": 8.9
+        },
+        {
           "name": "第一イン池袋",
           "time": 15.19,
           "score": 9.18
-        },
-        {
-          "name": "アパホテル蒲田駅東",
-          "time": 15.01,
-          "score": 7.34
         }
       ],
-      "fastest_avg_score": 7.98,
-      "slowest_avg_score": 8.25,
-      "score_difference": -0.27
+      "fastest_avg_score": 8.26,
+      "slowest_avg_score": 8.57,
+      "score_difference": -0.31
     },
     "data_points": [
       {
@@ -157,6 +158,18 @@
         "score": 9.18,
         "cleaning_issue_rate": 0.8,
         "claim_rate": 6.5
+      },
+      {
+        "hotel_key": "comfort_era_higashikanda",
+        "name": "コンフォートホテルERA東神田",
+        "avg_completion_time": 15.28,
+        "min_time": 14.67,
+        "max_time": 16.5,
+        "std_time": 0.47,
+        "time_data_points": 18,
+        "score": 8.9,
+        "cleaning_issue_rate": 0.8,
+        "claim_rate": 5.69
       },
       {
         "hotel_key": "comfort_narita",
@@ -207,7 +220,7 @@
         "claim_rate": 1.46
       }
     ],
-    "total_hotels_analyzed": 7,
+    "total_hotels_analyzed": 8,
     "overall_avg_time": 15.22,
     "overall_time_range": "14.6〜16.0時"
   },
@@ -256,6 +269,21 @@
       "claim_rate": 12.79,
       "maid_data_points": 0,
       "time_data_points": 0
+    },
+    {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "days": 31,
+      "avg_maids": 8.0,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": 15.28,
+      "time_std": 0.47,
+      "avg_rooms_per_maid": 18.9,
+      "score": 8.9,
+      "claim_rate": 5.69,
+      "maid_data_points": 26,
+      "time_data_points": 18
     },
     {
       "hotel_key": "comment_yokohama",
@@ -486,7 +514,7 @@
   "recommendations": [
     {
       "title": "清掃完了時間の目標設定",
-      "rationale": "完了時間とスコアの相関r=0.2291。全19ホテル平均15.22時。早期完了グループは平均スコア7.93。",
+      "rationale": "完了時間とスコアの相関r=0.2331。全19ホテル平均15.22時。早期完了グループは平均スコア7.93。",
       "actions": [
         "全ホテル15:00完了を標準目標として設定",
         "遅延傾向ホテルへの原因分析と改善支援",
@@ -505,8 +533,8 @@
       "priority": "中"
     },
     {
-      "title": "ベンチマーク活用（スコア差-0.27点）",
-      "rationale": "最速5ホテルの平均スコア7.98 vs 最遅5ホテル8.25（差-0.27点）。",
+      "title": "ベンチマーク活用（スコア差-0.31点）",
+      "rationale": "最速5ホテルの平均スコア8.26 vs 最遅5ホテル8.57（差-0.31点）。",
       "actions": [
         "早期完了ホテルのオペレーション手法を調査",
         "効率化ベストプラクティスの横展開",

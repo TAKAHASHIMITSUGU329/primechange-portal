@@ -4,7 +4,7 @@
     "title": "人員配置×品質 相関分析",
     "subtitle": "Staffing Level × Quality Correlation Analysis",
     "total_hotels": 19,
-    "hotels_with_staffing_data": 7,
+    "hotels_with_staffing_data": 8,
     "data_period": "R8年度3月（日報データ）"
   },
   "staffing_analysis": {
@@ -15,9 +15,9 @@
         "n": 7
       },
       "maids_vs_score": {
-        "r": -0.6318,
-        "r_squared": 0.3992,
-        "n": 7
+        "r": -0.6313,
+        "r_squared": 0.3985,
+        "n": 8
       },
       "checkers_vs_score": {
         "r": 0.4421,
@@ -30,16 +30,16 @@
         "n": 7
       },
       "staff_vs_claims": {
-        "r": 0.5455,
-        "n": 7
+        "r": 0.3555,
+        "n": 8
       }
     },
     "staffing_tiers": {
       "low_staff": {
-        "count": 3,
-        "avg_maids": 6.5,
-        "avg_score": 8.8,
-        "avg_claim_rate": 3.14
+        "count": 4,
+        "avg_maids": 6.9,
+        "avg_score": 8.83,
+        "avg_claim_rate": 3.78
       },
       "high_staff": {
         "count": 4,
@@ -56,6 +56,13 @@
           "avg_checkers": 3.5,
           "ratio": 1.6,
           "score": 9.18
+        },
+        {
+          "name": "コンフォートホテルERA東神田",
+          "avg_maids": 8.0,
+          "avg_checkers": null,
+          "ratio": null,
+          "score": 8.9
         },
         {
           "name": "ホテルケヤキゲート東京府中",
@@ -77,13 +84,6 @@
           "avg_checkers": 1.0,
           "ratio": 8.0,
           "score": 8.5
-        },
-        {
-          "name": "コンフォートホテル横浜関内",
-          "avg_maids": 11.0,
-          "avg_checkers": 1.0,
-          "ratio": 11.0,
-          "score": 7.52
         }
       ],
       "bottom5_hotels": [
@@ -123,7 +123,7 @@
           "score": 8.73
         }
       ],
-      "top5_avg_ratio": 5.9,
+      "top5_avg_ratio": 4.6,
       "bottom5_avg_ratio": 7.4
     },
     "data_points": [
@@ -162,6 +162,18 @@
         "cleaning_issue_rate": 0.8,
         "claim_rate": 6.5,
         "maid_data_points": 22
+      },
+      {
+        "hotel_key": "comfort_era_higashikanda",
+        "name": "コンフォートホテルERA東神田",
+        "avg_maids": 8.0,
+        "avg_checkers": null,
+        "avg_total_staff": null,
+        "maid_checker_ratio": null,
+        "score": 8.9,
+        "cleaning_issue_rate": 0.8,
+        "claim_rate": 5.69,
+        "maid_data_points": 26
       },
       {
         "hotel_key": "comfort_narita",
@@ -212,7 +224,7 @@
         "maid_data_points": 20
       }
     ],
-    "total_hotels_analyzed": 7
+    "total_hotels_analyzed": 8
   },
   "hotel_summary": [
     {
@@ -259,6 +271,21 @@
       "claim_rate": 12.79,
       "maid_data_points": 0,
       "time_data_points": 0
+    },
+    {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "days": 31,
+      "avg_maids": 8.0,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": 15.28,
+      "time_std": 0.47,
+      "avg_rooms_per_maid": 18.9,
+      "score": 8.9,
+      "claim_rate": 5.69,
+      "maid_data_points": 26,
+      "time_data_points": 18
     },
     {
       "hotel_key": "comment_yokohama",
@@ -489,7 +516,7 @@
   "recommendations": [
     {
       "title": "メイド・チェッカー比率の最適化",
-      "rationale": "上位5ホテルの平均メイド:チェッカー比率は5.9:1、下位5ホテルは7.4:1。チェッカー配置の適正化がスコア向上に寄与する可能性。",
+      "rationale": "上位5ホテルの平均メイド:チェッカー比率は4.6:1、下位5ホテルは7.4:1。チェッカー配置の適正化がスコア向上に寄与する可能性。",
       "actions": [
         "メイド3〜5名に対しチェッカー1名の配置基準を設定",
         "高稼働日（150室超）は追加チェッカーの配置を検討",

@@ -81,6 +81,31 @@
       "composite_score": 0.804
     },
     {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "claim_rate": 5.69,
+      "total_claims": 5,
+      "zero_claims": false,
+      "avg_maids": 8.0,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": 15.28,
+      "safety_score": 3.17,
+      "safety_categories": {
+        "整理整頓": 81.5,
+        "安全管理": 91.7,
+        "衛生管理": 100.0,
+        "現場運営": 77.1,
+        "現場ルール・マナー": 90.0
+      },
+      "review_score": 8.9,
+      "cleaning_issue_rate": 0.8,
+      "tier": "良好",
+      "revpar": 768.8602,
+      "monthly_revenue": 4047280,
+      "composite_score": 0.703
+    },
+    {
       "hotel_key": "comfort_hakata",
       "name": "コンフォートホテル博多",
       "claim_rate": 10.51,
@@ -509,6 +534,14 @@
         "safety": 3.13
       },
       {
+        "name": "コンフォートホテルERA東神田",
+        "composite": 0.703,
+        "review": 8.9,
+        "claims": 5.69,
+        "time": 15.28,
+        "safety": 3.17
+      },
+      {
         "name": "コンフォートスイーツ東京ベイ",
         "composite": 0.696,
         "review": 9.22,
@@ -653,9 +686,9 @@
         "hotels": [
           "川崎日航ホテル",
           "チサンホテル浜松町",
+          "コンフォートホテルERA東神田",
           "変なホテル東京羽田",
-          "ハートンホテル東品川",
-          "アパホテル相模原橋本駅東"
+          "ハートンホテル東品川"
         ],
         "description": "安全チェック高得点ホテルは現場管理体制が成熟。",
         "transferable_actions": [
@@ -714,7 +747,7 @@
   "cross_analysis_insights": [
     {
       "title": "品質→売上の連鎖効果",
-      "finding": "スコア0.1点改善でRevPAR 2.48%向上（分析6）。クレーム50%削減で年間¥50,625,203増収（分析1）。",
+      "finding": "スコア0.1点改善でRevPAR 2.48%向上（分析6）。クレーム50%削減で年間¥51,056,731増収（分析1）。",
       "implication": "品質改善の経済効果は業界平均の2.5倍。投資対効果が非常に高い。"
     },
     {
