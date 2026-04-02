@@ -939,16 +939,16 @@
           "share_pct": 25.0
         },
         "安全・設備系": {
-          "count": 0,
-          "share_pct": 0.0
+          "count": 2,
+          "share_pct": 11.8
         },
         "その他": {
-          "count": 0,
-          "share_pct": 0.0
+          "count": 2,
+          "share_pct": 11.8
         }
       },
       "dominant_category": "客室準備系",
-      "profile_label": "客室準備系集中型（主にセット漏れ）"
+      "profile_label": "客室準備系集中型（主に残置）"
     },
     {
       "hotel_key": "henn_na_haneda",

@@ -69,7 +69,7 @@
         "rank": 4,
         "name": "コンフォートホテルERA東京東神田",
         "key": "comfort_era_higashikanda",
-        "avg": 8.9,
+        "avg": 8.89,
         "total_reviews": 125,
         "high_rate": 86.4,
         "low_rate": 4.8,
@@ -999,7 +999,7 @@
       {
         "key": "comfort_era_higashikanda",
         "name": "コンフォートホテルERA東京東神田",
-        "avg": 8.9,
+        "avg": 8.89,
         "total_reviews": 125,
         "high_rate": 86.4,
         "low_rate": 4.8,
@@ -1231,7 +1231,7 @@
       },
       {
         "hotel": "コンフォートホテルERA東京東神田",
-        "avg": 8.9,
+        "avg": 8.89,
         "total_reviews": 125,
         "cleaning_issues": 1,
         "cleaning_rate": 0.8,

@@ -13,9 +13,18 @@
       "count": 6,
       "native_avg": 3.5,
       "scale": "/5",
-      "avg_10pt": 7.0,
-      "median_10pt": 7.0,
-      "judgment": "概ね良好"
+      "avg_10pt": 6.91,
+      "median_10pt": 6.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "Booking.com",
+      "count": 6,
+      "native_avg": 6.83,
+      "scale": "/10",
+      "avg_10pt": 6.83,
+      "median_10pt": 7.5,
+      "judgment": "要改善"
     },
     {
       "site": "Google",

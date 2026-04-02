@@ -205,13 +205,13 @@
     },
     "kawasaki_nikko": {
       "name": "川崎日航ホテル",
-      "avg_score": 3.1,
-      "inspections_count": 2,
+      "avg_score": 3.26,
+      "inspections_count": 3,
       "category_scores": {
-        "整理整頓": 83.4,
+        "整理整頓": 88.9,
         "安全管理": 83.3,
         "衛生管理": 75.0,
-        "現場運営": 78.6,
+        "現場運営": 84.7,
         "現場ルール・マナー": 100.0
       }
     },
@@ -468,10 +468,10 @@
       "claim_rate": 17.57,
       "inspections": 2,
       "category_scores": {
-        "整理整頓": 83.4,
+        "整理整頓": 88.9,
         "安全管理": 83.3,
         "衛生管理": 75.0,
-        "現場運営": 78.6,
+        "現場運営": 84.7,
         "現場ルール・マナー": 100.0
       }
     }
@@ -1041,6 +1041,13 @@
       "score": 1
     },
     {
+      "hotel": "川崎日航ホテル",
+      "category": "衛生管理",
+      "item": "①温度計・湿度計は置かれているか",
+      "value": "✖",
+      "score": 1
+    },
+    {
       "hotel": "コンフォートホテル博多",
       "category": "整理整頓",
       "item": "③棚に物が積みあがっていないか",
@@ -1078,6 +1085,21 @@
   ],
   "total_problem_count": 84,
   "hotel_ranking": [
+    {
+      "hotel_key": "kawasaki_nikko",
+      "name": "川崎日航ホテル",
+      "safety_score": 3.26,
+      "review_score": 8.68,
+      "claim_rate": 16.94,
+      "inspections": 3,
+      "category_scores": {
+        "整理整頓": 88.9,
+        "安全管理": 83.3,
+        "衛生管理": 75.0,
+        "現場運営": 84.7,
+        "現場ルール・マナー": 100.0
+      }
+    },
     {
       "hotel_key": "comfort_era_higashikanda",
       "name": "コンフォートホテルERA東神田",
