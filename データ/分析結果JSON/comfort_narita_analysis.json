@@ -493,7 +493,7 @@
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房モードには切り替えられていなかった。",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっていて、部屋を冷やすオプションはなかったのだ。",
       "reviewer": "Suzanne"
     },
     {
@@ -714,7 +714,7 @@
       "bad": "The bed and pillow were uncomfortable to sleep in.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ベッドと枕は寝心地が悪かった。",
+      "translated_bad": "ベッドと枕が寝心地が悪かった。",
       "reviewer": "Choon"
     },
     {
@@ -1661,7 +1661,7 @@
       "comment": "不錯的飯店！環境乾淨，服務人員親切",
       "good": "",
       "bad": "",
-      "translated": "素敵なレストランでした！清潔な環境で、スタッフも親切でした。",
+      "translated": "素敵なレストランです！店内は清潔で、スタッフも親切です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

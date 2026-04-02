@@ -1,10 +1,10 @@
 {
-  "total_reviews": 75,
-  "overall_avg_10pt": 9.48,
-  "high_count": 70,
-  "high_rate": 93.3,
+  "total_reviews": 74,
+  "overall_avg_10pt": 9.47,
+  "high_count": 69,
+  "high_rate": 93.2,
   "mid_count": 3,
-  "mid_rate": 4.0,
+  "mid_rate": 4.1,
   "low_count": 2,
   "low_rate": 2.7,
   "site_stats": [
@@ -19,10 +19,10 @@
     },
     {
       "site": "Trip.com",
-      "count": 44,
-      "native_avg": 9.73,
+      "count": 43,
+      "native_avg": 9.72,
       "scale": "/10",
-      "avg_10pt": 9.73,
+      "avg_10pt": 9.72,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -57,18 +57,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 56,
-      "pct": "74.7%"
+      "count": 55,
+      "pct": "74.3%"
     },
     {
       "score": 9,
       "count": 11,
-      "pct": "14.7%"
+      "pct": "14.9%"
     },
     {
       "score": 8,
       "count": 3,
-      "pct": "4.0%"
+      "pct": "4.1%"
     },
     {
       "score": 7,
@@ -78,7 +78,7 @@
     {
       "score": 6,
       "count": 1,
-      "pct": "1.3%"
+      "pct": "1.4%"
     },
     {
       "score": 4,
@@ -87,19 +87,6 @@
     }
   ],
   "comments": [
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "地點好，近池袋站，附近非常熱鬧，生活機能強，樓下就有超商，有3人床房，4床房，每次家族旅遊的第一選擇",
-      "good": "",
-      "bad": "",
-      "translated": "池袋駅に近く、立地も抜群。周辺は活気があり、コンビニエンスストアも1階にあるなど、生活に必要な施設も充実しています。3人部屋と4人部屋があり、家族旅行に最適です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -238,7 +225,7 @@
       "comment": "他們沒有飲水機!!把掃人員垃圾桶周圍的垃圾都沒清掉!!! 手扶梯也只有一個，上午往下，下午往上 房間偏小",
       "good": "",
       "bad": "",
-      "translated": "ウォーターサーバーがなかった！清掃員のゴミ箱の周りのゴミさえ片付けていなかった！エスカレーターは1基しかなく、午前中は下り、午後は上りだった。部屋も狭かった。",
+      "translated": "ウォーターサーバーがなかった！清掃員のゴミ箱の周りのゴミさえ片付けていなかった！エスカレーターは1基しかなく、午前中は下り、午後は上りのみ。部屋も狭い。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -251,7 +238,7 @@
       "comment": "酒店位置很方便，在主幹道背後，出來就是parco。",
       "good": "",
       "bad": "",
-      "translated": "ホテルは幹線道路のすぐ裏手にあり、すぐ外に公園があるという非常に便利な場所に位置しています。",
+      "translated": "ホテルは幹線道路のすぐ裏手という非常に便利な場所にあり、すぐ外には公園があります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -576,7 +563,7 @@
       "comment": "ที่พักเดินทางสะดวกใกล้สถานีรถไฟ jr และ subway  แถวโรงแรมมีร้านอาหารให้เลือกมากมาย แถมอยู่ใกล้ family mart และ7-11 ด้วย",
       "good": "",
       "bad": "",
-      "translated": "宿泊施設はJR駅と地下鉄駅に近く、便利な立地です。ホテル周辺には多くのレストランがあり、ファミリーマートやセブンイレブンもすぐ近くにあります。",
+      "translated": "宿泊施設はJR駅と地下鉄駅に近く、便利な立地です。ホテルの周辺には多くのレストランがあり、ファミリーマートやセブンイレブンもすぐ近くにあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -953,7 +940,7 @@
       "comment": "A very nice budget hotel with perfect location right in the center of Ikebukuro in just 2 minutes from Ikebukuro JR station West Exit (N). All the stores and restaurants are nearby which makes it super easy to get around. Room was quite spacious compared to business hotels, we particularly enjoyed having a wardrobe and a table to late night snacks from conbini (which is located right in the hotel’s first floor). Room was cozy and comfortable and it was cleaned everyday and 2 water bottles were provided on a daily basis for which we are very grateful! I would definitely recommend staying here for everyone who wants a comfortable place for exploring Tokyo!",
       "good": "",
       "bad": "",
-      "translated": "池袋駅西口（北口）からわずか2分という、池袋の中心部に位置する、とても素敵な格安ホテルです。周辺にはお店やレストランが全て揃っているので、移動も非常に便利です。部屋はビジネスホテルに比べてかなり広々としており、特にクローゼットとテーブルがあったので、ホテルの1階にあるコンビニで夜食を買うのに重宝しました。部屋は居心地が良く快適で、毎日清掃され、ミネラルウォーターも毎日2本提供されていたので、とてもありがたかったです。東京観光に快適な滞在先をお探しの方には、ぜひこのホテルをおすすめします！",
+      "translated": "池袋駅西口（北口）から徒歩わずか2分という、池袋の中心部に位置する、とても素敵な格安ホテルです。周辺にはお店やレストランが全て揃っているので、移動も非常に便利です。ビジネスホテルと比べると部屋はかなり広く、特にクローゼットとテーブルがあったので、ホテルの1階にあるコンビニで夜食を買うのに重宝しました。部屋は居心地が良く快適で、毎日清掃され、ミネラルウォーター2本が毎日補充されていたのも大変ありがたかったです。東京観光に快適な滞在先をお探しの方には、ぜひこのホテルをおすすめします！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "A‍l‍m‍a‍w‍e‍n"
@@ -992,7 +979,7 @@
       "comment": "อยู่ใกล้สถานีอิเคะ ใกล้มาร์ท ใกล้ย่านของกิน ห้าง Sunshine/  Seibu ก็อยู่ไม่ไกล พนักงานบริการดี",
       "good": "",
       "bad": "",
-      "translated": "池袋駅に近く、コンビニや飲食店街もすぐそばです。サンシャイン・西武百貨店も近くにあります。スタッフの対応も丁寧です。",
+      "translated": "池袋駅に近く、コンビニや飲食店街もすぐそばです。サンシャイン百貨店や西武百貨店も近くにあります。スタッフの対応も丁寧です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "l‍a‍l‍a‍.‍l‍a‍b‍i‍e‍s"

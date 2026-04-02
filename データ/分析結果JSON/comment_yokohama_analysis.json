@@ -1,10 +1,10 @@
 {
-  "total_reviews": 67,
+  "total_reviews": 65,
   "overall_avg_10pt": 8.82,
-  "high_count": 58,
-  "high_rate": 86.6,
+  "high_count": 56,
+  "high_rate": 86.2,
   "mid_count": 8,
-  "mid_rate": 11.9,
+  "mid_rate": 12.3,
   "low_count": 1,
   "low_rate": 1.5,
   "site_stats": [
@@ -37,7 +37,7 @@
     },
     {
       "site": "Trip.com",
-      "count": 12,
+      "count": 10,
       "native_avg": 9.0,
       "scale": "/10",
       "avg_10pt": 9.0,
@@ -66,33 +66,33 @@
   "distribution": [
     {
       "score": 10,
-      "count": 31,
-      "pct": "46.3%"
+      "count": 30,
+      "pct": "46.2%"
     },
     {
       "score": 9,
       "count": 12,
-      "pct": "17.9%"
+      "pct": "18.5%"
     },
     {
       "score": 8,
-      "count": 15,
-      "pct": "22.4%"
+      "count": 14,
+      "pct": "21.5%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "6.0%"
+      "pct": "6.2%"
     },
     {
       "score": 6,
       "count": 2,
-      "pct": "3.0%"
+      "pct": "3.1%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.0%"
+      "pct": "3.1%"
     },
     {
       "score": 3,
@@ -101,32 +101,6 @@
     }
   ],
   "comments": [
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "Trip.com",
-      "good": "",
-      "bad": "",
-      "translated": "横浜ブンタイやスタジアム至近。穴場。大浴場あり。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "N‍T‍ ‍f‍a‍m‍i‍l‍y"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-01",
-      "comment": "Trip.com",
-      "good": "",
-      "bad": "",
-      "translated": "ホテルは概ね問題なかった。ただ、一部の部屋はかなり不衛生だった。例えば、枕に足跡がついていたり、バスルームに短い髪の毛が落ちていたりした。（フロントのスタッフは枕に足跡がついているのを見ても気にせず、そのまま元の場所に戻していた😂）",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
-    },
     {
       "site": "Trip.com",
       "rating": 10.0,
