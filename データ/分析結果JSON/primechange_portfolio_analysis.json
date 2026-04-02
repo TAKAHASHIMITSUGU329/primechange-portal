@@ -23,8 +23,8 @@
       "avg": 6.57
     },
     "total_reviews": 2290,
-    "portfolio_high_rate": 77.8,
-    "portfolio_low_rate": 5.2,
+    "portfolio_high_rate": 77.9,
+    "portfolio_low_rate": 5.1,
     "hotels_ranked": [
       {
         "rank": 1,
@@ -69,10 +69,10 @@
         "rank": 4,
         "name": "コンフォートホテルERA東京東神田",
         "key": "comfort_era_higashikanda",
-        "avg": 8.89,
+        "avg": 8.93,
         "total_reviews": 125,
-        "high_rate": 86.4,
-        "low_rate": 4.8,
+        "high_rate": 87.2,
+        "low_rate": 4.0,
         "cleaning_issue_count": 1,
         "cleaning_issue_rate": 0.8,
         "priority": "STANDARD",
@@ -357,15 +357,21 @@
       },
       {
         "category": "シミ・汚れ跡",
-        "total_mentions": 10,
+        "total_mentions": 11,
         "hotels_affected": 4,
-        "severity": "HIGH",
+        "severity": "CRITICAL",
         "sample_comments": [
           {
             "hotel": "ダイワロイネットホテル東京大崎",
             "rating": 6.0,
             "text": "部屋は広々としていますが、基本的な設備が不足しています。部屋にセーフティボックスがないため、旅行が不便でした。結局、貴重品は毎日フロントに預けなければなりませんでした。コットンボールなどの基本的なアメニティが用意されていないのは驚きです。それ以外は、部屋の広さと清潔さは気に入っています。フットマッサージ機が備え付けられているのは良かったです。夏に予定されている改装工事後のより良い部屋を楽しみにして",
             "site": "じゃらん"
+          },
+          {
+            "hotel": "ダイワロイネットホテル東京大崎",
+            "rating": 6.0,
+            "text": "Excellent location; very close to the station and other amenities. My partner had horrible allergies that only occurred when staying in the room. We don’t know if it was from pests or their cleaning c",
+            "site": "Google"
           },
           {
             "hotel": "リッチモンドホテル東京目白",
@@ -384,12 +390,6 @@
             "rating": 7.0,
             "text": "喫煙場所が遠すぎるのでHPに案内して欲しかったし、工事中で階段が付かずエレベータが使えない事を知らずに長時間フロントに行けなかったのでスタッフが1階で説明するか案内文を掲示して欲しかった。楽しみにしていたビュッフェで朝食が取れなかったことも残念。 喫煙場所が遠すぎるのでHPに案内して欲しかったし、工事中で階段が付かずエレベータが使えない事を知らずに長時間フロントに行けなかったのでスタッフが1階で説",
             "site": "Trip.com"
-          },
-          {
-            "hotel": "コンフォートホテル横浜関内",
-            "rating": 5.0,
-            "text": "ホテルが改装しているのを知らないで 宿泊をしたので、楽しみにしていた朝食のスムージーが飲めなくて残念でした。 ホテルが改装しているのを知らないで 宿泊をしたので、楽しみにしていた朝食のスムージーが飲めなくて残念でした。",
-            "site": "Agoda"
           }
         ]
       },
@@ -857,7 +857,7 @@
         "priority": "STANDARD",
         "categories": {
           "清掃品質全般": 3,
-          "シミ・汚れ跡": 1,
+          "シミ・汚れ跡": 2,
           "害虫": 2
         },
         "neg_review_count": 13
@@ -999,10 +999,10 @@
       {
         "key": "comfort_era_higashikanda",
         "name": "コンフォートホテルERA東京東神田",
-        "avg": 8.89,
+        "avg": 8.93,
         "total_reviews": 125,
-        "high_rate": 86.4,
-        "low_rate": 4.8,
+        "high_rate": 87.2,
+        "low_rate": 4.0,
         "cleaning_issue_count": 1,
         "cleaning_issue_rate": 0.8,
         "priority": "STANDARD",
@@ -1010,7 +1010,7 @@
           "排水・詰まり": 1,
           "清掃品質全般": 1
         },
-        "neg_review_count": 17
+        "neg_review_count": 16
       },
       {
         "key": "comfort_suites_tokyobay",
@@ -1136,8 +1136,8 @@
         "cleaning_rate": 4.5,
         "key_problems": [
           "清掃品質全般",
-          "害虫",
-          "シミ・汚れ跡"
+          "シミ・汚れ跡",
+          "害虫"
         ]
       },
       {
@@ -1231,7 +1231,7 @@
       },
       {
         "hotel": "コンフォートホテルERA東京東神田",
-        "avg": 8.89,
+        "avg": 8.93,
         "total_reviews": 125,
         "cleaning_issues": 1,
         "cleaning_rate": 0.8,
@@ -2358,14 +2358,14 @@
       },
       {
         "kpi": "高評価率（8-10点）",
-        "current": "77.8%",
-        "target": "82.8%以上",
+        "current": "77.9%",
+        "target": "82.9%以上",
         "deadline": "2026年9月"
       },
       {
         "kpi": "低評価率（1-4点）",
-        "current": "5.2%",
-        "target": "2.6%以下",
+        "current": "5.1%",
+        "target": "2.5%以下",
         "deadline": "2026年9月"
       }
     ],
