@@ -1,64 +1,64 @@
 {
-  "total_reviews": 140,
+  "total_reviews": 141,
   "overall_avg_10pt": 8.46,
-  "high_count": 111,
-  "high_rate": 79.3,
-  "mid_count": 24,
-  "mid_rate": 17.1,
+  "high_count": 114,
+  "high_rate": 80.9,
+  "mid_count": 22,
+  "mid_rate": 15.6,
   "low_count": 5,
-  "low_rate": 3.6,
+  "low_rate": 3.5,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 19,
-      "native_avg": 9.53,
+      "count": 21,
+      "native_avg": 9.57,
       "scale": "/10",
-      "avg_10pt": 9.53,
+      "avg_10pt": 9.57,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 20,
-      "native_avg": 4.5,
+      "count": 18,
+      "native_avg": 4.39,
       "scale": "/5",
-      "avg_10pt": 9.0,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
+      "avg_10pt": 8.78,
+      "median_10pt": 9.0,
+      "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
-      "count": 23,
-      "native_avg": 4.17,
+      "count": 21,
+      "native_avg": 4.29,
       "scale": "/5",
-      "avg_10pt": 8.35,
+      "avg_10pt": 8.57,
       "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 58,
-      "native_avg": 8.28,
+      "count": 55,
+      "native_avg": 8.22,
       "scale": "/10",
-      "avg_10pt": 8.28,
+      "avg_10pt": 8.22,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "じゃらん",
-      "count": 10,
-      "native_avg": 4.0,
+      "count": 15,
+      "native_avg": 4.07,
       "scale": "/5",
-      "avg_10pt": 8.0,
+      "avg_10pt": 8.13,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 10,
-      "native_avg": 7.2,
+      "count": 11,
+      "native_avg": 7.27,
       "scale": "/10",
-      "avg_10pt": 7.2,
+      "avg_10pt": 7.27,
       "median_10pt": 7.0,
       "judgment": "概ね良好"
     }
@@ -66,18 +66,18 @@
   "distribution": [
     {
       "score": 10,
-      "count": 54,
-      "pct": "38.6%"
+      "count": 53,
+      "pct": "37.6%"
     },
     {
       "score": 9,
-      "count": 19,
-      "pct": "13.6%"
+      "count": 17,
+      "pct": "12.1%"
     },
     {
       "score": 8,
-      "count": 38,
-      "pct": "27.1%"
+      "count": 44,
+      "pct": "31.2%"
     },
     {
       "score": 7,
@@ -86,8 +86,8 @@
     },
     {
       "score": 6,
-      "count": 14,
-      "pct": "10.0%"
+      "count": 12,
+      "pct": "8.5%"
     },
     {
       "score": 5,
@@ -107,6 +107,45 @@
   ],
   "comments": [
     {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "かわいかつひろ"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "Kamar nya sedikit kecil Tp dekat dari stasiun dan combini Sampo nya good. Bahkan 1 hari setelah nya rambut masih halus  Udah 2x nginap disini setiap berangkat dari narita",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は少し狭いですが、駅に近く、コンビニのシャンプーは良いです。1日経っても髪は柔らかいままです。成田空港から出発するたびに、ここに2回宿泊しました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "S‍y‍a‍m‍r‍a‍t‍u‍l‍ ‍F‍u‍a‍d‍y"
+    },
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "成田空港発の旅行の前泊として利用。駅近く、飲食店やショップも多く便利でした。料金もお手頃。",
+      "good": "",
+      "bad": "",
+      "translated": "成田空港発の旅行の前泊として利用。駅近く、飲食店やショップも多く便利でした。料金もお手頃。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "一吉"
+    },
+    {
       "site": "Booking.com",
       "rating": 3.0,
       "rating_10pt": 3.0,
@@ -120,6 +159,84 @@
       "reviewer": "Yoshio"
     },
     {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "👍👍👍👍👍",
+      "good": "",
+      "bad": "",
+      "translated": "👍👍👍👍👍",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Diana"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "まずチェックイン時に対応してくださった方、こちらの質問に笑顔で答えてくださり好印象でした。  朝食で「これは…」と少し思った出来事があり近くのスタッフさんにお伝えしたところ、大変丁寧に対応してくださいました。笑顔で気持ちよくご飯が食べられて大満足。  小松菜とパイナップルのスムージーがとってもとってもとーーーっても美味しかったです。  また他の部屋の掃除をしているスタッフさんが全員必ず「おはようございます」と挨拶をして下さり、とにかく全体的に接客面で大満足。  近くで予定がある時は必ずまたこちらを利用させていただきます。ありがとうございました！！",
+      "good": "",
+      "bad": "",
+      "translated": "まずチェックイン時に対応してくださった方、こちらの質問に笑顔で答えてくださり好印象でした。  朝食で「これは…」と少し思った出来事があり近くのスタッフさんにお伝えしたところ、大変丁寧に対応してくださいました。笑顔で気持ちよくご飯が食べられて大満足。  小松菜とパイナップルのスムージーがとってもとってもとーーーっても美味しかったです。  また他の部屋の掃除をしているスタッフさんが全員必ず「おはようございます」と挨拶をして下さり、とにかく全体的に接客面で大満足。  近くで予定がある時は必ずまたこちらを利用させていただきます。ありがとうございました！！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ぼらさん"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "無料の朝食が用意されていてとても良かったです。ただ、もし白いご飯もあれば、さらに満足度が高くなると思いました。",
+      "good": "",
+      "bad": "",
+      "translated": "無料の朝食が用意されていてとても良かったです。ただ、もし白いご飯もあれば、さらに満足度が高くなると思いました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yangさん"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "スタッフのサービスがとても良く、丁寧で気持ちの良い対応でした。無料の朝食も用意されていて、種類もあり、どれも美味しく満足できました。また利用したいと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "スタッフのサービスがとても良く、丁寧で気持ちの良い対応でした。無料の朝食も用意されていて、種類もあり、どれも美味しく満足できました。また利用したいと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yangさん"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "サービスがとても良く、スタッフの対応も親切で快適に過ごせました。部屋も清潔で居心地がよく、ゆっくり休むことができました。冬でも暖房の温度を自分で調整できるので、暑すぎることもなく、とても快適でした。また利用したいと思います。",
+      "good": "",
+      "bad": "",
+      "translated": "サービスがとても良く、スタッフの対応も親切で快適に過ごせました。部屋も清潔で居心地がよく、ゆっくり休むことができました。冬でも暖房の温度を自分で調整できるので、暑すぎることもなく、とても快適でした。また利用したいと思います。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yangさん"
+    },
+    {
       "site": "Booking.com",
       "rating": 9.0,
       "rating_10pt": 9.0,
@@ -131,6 +248,19 @@
       "translated_good": "",
       "translated_bad": "部屋は全体的に素敵で、平均的なホテルよりも広かったのですが、もう少し清潔だったら良かったと思います。バスルームの隅々に少し埃や汚れがありました。でも全体的には素晴らしく、また泊まりたいです！",
       "reviewer": "Elysia"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-29",
+      "comment": "京成成田駅近くで成田空港へのアクセスも楽でした。  チェックインが半自動化されれており、チェックイン／チェックアウトの時間が短縮出来て助かりました。  部屋はコンパクトですが何も不自由することなく快適に過ごせました。  朝食は朝6時から食べられ、成田空港早朝便利用でもなんとか食べることが出来ます。また利用したいです。",
+      "good": "",
+      "bad": "",
+      "translated": "京成成田駅近くで成田空港へのアクセスも楽でした。  チェックインが半自動化されれており、チェックイン／チェックアウトの時間が短縮出来て助かりました。  部屋はコンパクトですが何も不自由することなく快適に過ごせました。  朝食は朝6時から食べられ、成田空港早朝便利用でもなんとか食べることが出来ます。また利用したいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "しんちゃんさん"
     },
     {
       "site": "Booking.com",
@@ -363,7 +493,7 @@
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっていて、部屋を冷やすオプションはなかったのだ。",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房モードには切り替えられていなかった。",
       "reviewer": "Suzanne"
     },
     {
@@ -584,7 +714,7 @@
       "bad": "The bed and pillow were uncomfortable to sleep in.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ベッドと枕が寝心地が悪かった。",
+      "translated_bad": "ベッドと枕は寝心地が悪かった。",
       "reviewer": "Choon"
     },
     {
@@ -634,7 +764,7 @@
       "comment": "I recently stayed at the Comfort Hotel Narita and had a fantastic experience. The location is incredibly convenient, making it an ideal choice for anyone traveling to or from the airport. What truly made my stay special was the wonderful staff. Every employee I encountered was exceptionally nice, polite, and went out of their way to be helpful. Their hospitality made me feel welcome from the moment I arrived. A few highlights of my stay:  Cleanliness: The room was spotless and well-maintained.  Comfort: The bed was very comfortable, ensuring a great night's sleep.  Amenities: I really appreciated the complimentary coffee and the delicious breakfast options provided.  Quiet Atmosphere: Despite being near transportation hubs, the room was very quiet.  Overall, this hotel offers excellent value for money. I highly recommend it to anyone looking for a stress-free and pleasant stay in Narita. I will definitely be back",
       "good": "",
       "bad": "",
-      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点は以下の通りです。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは大変ありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。総合的に見て、このホテルは価格以上の価値があります。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
+      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点をいくつか挙げます。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは本当にありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。全体的に見て、このホテルは価格以上の価値を提供しています。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "David Herz"
@@ -924,123 +1054,6 @@
       "translated_good": "",
       "translated_bad": "ありません。",
       "reviewer": "Yasuhiro"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Catherine"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "La atención del personal y su buena ubicación",
-      "bad": "La cama era algo dura",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "ベッドはやや硬かった。",
-      "reviewer": "Paulina"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-07",
-      "comment": "京成成田から駅近で便利です",
-      "good": "",
-      "bad": "",
-      "translated": "京成成田から駅近で便利です",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "るいるい0131"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-07",
-      "comment": "",
-      "good": "L emplacement le confort du lit",
-      "bad": "Chambre un peu petite",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "部屋は少し狭かった。",
-      "reviewer": "Caroline"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-06",
-      "comment": "成田市で一番のお気に入り。朝食なしのホテルと同じ価格なのに、朝食は無料です。",
-      "good": "",
-      "bad": "",
-      "translated": "成田市で一番のお気に入り。朝食なしのホテルと同じ価格なのに、朝食は無料です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "fabian110"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-05",
-      "comment": "京成成田駅東口を出て、地下道方面へお進みください。階下にはエスカレーターとエレベーターがございます。ホテルフロントは2階にあり、夜間は入退室管理のため、ルームキーが必要となります。",
-      "good": "",
-      "bad": "",
-      "translated": "京成成田駅東口を出て、地下道方面へお進みください。階下にはエスカレーターとエレベーターがございます。ホテルフロントは2階にあり、夜間は入退室管理のため、ルームキーが必要となります。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kimi Kover"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-03-05",
-      "comment": "在京成成田站東口,往地下道方向走，下樓有手扶梯及電梯可以搭乘，飯店櫃台在二樓晚上有門禁管控，需要房卡感應",
-      "good": "",
-      "bad": "",
-      "translated": "京成成田駅東口を出て、地下通路へお進みください。地下にはエスカレーターとエレベーターがございます。ホテルのフロントは2階にあり、夜間は入退室管理が行われておりますので、ルームキーが必要です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kimi Kover"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-04",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Jianfeng"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-04",
-      "comment": "ジェットスター早朝便に乗るために小学生2人宿泊しました。チェックイン22時すぎチェックアウト6時と滞在時間が短めなので、駅近というだけで選択しましたが、添い寝、朝食無料サービスが嬉しかったです。 シャワーは温度調節が難しかったですが、おおむね満足です！ 早朝便利用の際はまた利用したいです。",
-      "good": "",
-      "bad": "",
-      "translated": "ジェットスター早朝便に乗るために小学生2人宿泊しました。チェックイン22時すぎチェックアウト6時と滞在時間が短めなので、駅近というだけで選択しましたが、添い寝、朝食無料サービスが嬉しかったです。 シャワーは温度調節が難しかったですが、おおむね満足です！ 早朝便利用の際はまた利用したいです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "nagggg"
     },
     {
       "site": "じゃらん",
@@ -1648,7 +1661,7 @@
       "comment": "不錯的飯店！環境乾淨，服務人員親切",
       "good": "",
       "bad": "",
-      "translated": "素敵なレストランです！店内は清潔で、スタッフも親切です。",
+      "translated": "素敵なレストランでした！清潔な環境で、スタッフも親切でした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

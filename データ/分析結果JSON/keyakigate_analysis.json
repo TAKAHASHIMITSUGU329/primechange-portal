@@ -1,30 +1,30 @@
 {
-  "total_reviews": 104,
-  "overall_avg_10pt": 8.78,
-  "high_count": 90,
-  "high_rate": 86.5,
+  "total_reviews": 108,
+  "overall_avg_10pt": 8.81,
+  "high_count": 94,
+  "high_rate": 87.0,
   "mid_count": 10,
-  "mid_rate": 9.6,
+  "mid_rate": 9.3,
   "low_count": 4,
-  "low_rate": 3.8,
+  "low_rate": 3.7,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 6,
-      "native_avg": 9.83,
+      "count": 7,
+      "native_avg": 9.86,
       "scale": "/10",
-      "avg_10pt": 9.83,
+      "avg_10pt": 9.86,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
-      "count": 39,
-      "native_avg": 4.49,
+      "count": 41,
+      "native_avg": 4.51,
       "scale": "/5",
-      "avg_10pt": 8.97,
+      "avg_10pt": 9.02,
       "median_10pt": 10.0,
-      "judgment": "良好"
+      "judgment": "優秀"
     },
     {
       "site": "Agoda",
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 17,
-      "native_avg": 8.71,
+      "count": 18,
+      "native_avg": 8.67,
       "scale": "/10",
-      "avg_10pt": 8.71,
+      "avg_10pt": 8.67,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,41 +66,93 @@
   "distribution": [
     {
       "score": 10,
-      "count": 58,
-      "pct": "55.8%"
+      "count": 61,
+      "pct": "56.5%"
     },
     {
       "score": 9,
       "count": 6,
-      "pct": "5.8%"
+      "pct": "5.6%"
     },
     {
       "score": 8,
-      "count": 26,
+      "count": 27,
       "pct": "25.0%"
     },
     {
       "score": 7,
       "count": 1,
-      "pct": "1.0%"
+      "pct": "0.9%"
     },
     {
       "score": 6,
       "count": 9,
-      "pct": "8.7%"
+      "pct": "8.3%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.0%"
+      "pct": "0.9%"
     },
     {
       "score": 2,
       "count": 3,
-      "pct": "2.9%"
+      "pct": "2.8%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "涼子"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "京王アリーナへ2日間のスケジュールで妻と宿泊。駅から近く京王アリーナにも近くてとても便利。通常のビジネスホテルよりも広いのは当たり前だが、お風呂もそれなりに広く疲れが取れる入浴剤のサービスもあり良かった。",
+      "good": "",
+      "bad": "",
+      "translated": "京王アリーナへ2日間のスケジュールで妻と宿泊。駅から近く京王アリーナにも近くてとても便利。通常のビジネスホテルよりも広いのは当たり前だが、お風呂もそれなりに広く疲れが取れる入浴剤のサービスもあり良かった。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "梅っぽ"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "府中駅から直結ですので大きな荷物を持っていても不便なく移動できました。",
+      "good": "",
+      "bad": "",
+      "translated": "府中駅から直結ですので大きな荷物を持っていても不便なく移動できました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "べえべえ0239"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-30",
+      "comment": "房間很乾凈。比較小 早餐很好。很好吃。附近最好的酒店了吧",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は少し狭かったものの、とても清潔でした。朝食は素晴らしく美味しかったです。おそらくこの地域で最高のホテルでしょう。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "S‍h‍a‍n‍s‍h‍a‍n‍2‍0‍7"
+    },
     {
       "site": "楽天トラベル",
       "rating": 5.0,

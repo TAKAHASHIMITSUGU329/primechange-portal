@@ -1,47 +1,47 @@
 {
-  "total_reviews": 135,
-  "overall_avg_10pt": 8.67,
+  "total_reviews": 136,
+  "overall_avg_10pt": 8.64,
   "high_count": 110,
-  "high_rate": 81.5,
+  "high_rate": 80.9,
   "mid_count": 23,
-  "mid_rate": 17.0,
-  "low_count": 2,
-  "low_rate": 1.5,
+  "mid_rate": 16.9,
+  "low_count": 3,
+  "low_rate": 2.2,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 31,
-      "native_avg": 9.58,
+      "count": 32,
+      "native_avg": 9.5,
       "scale": "/10",
-      "avg_10pt": 9.58,
+      "avg_10pt": 9.5,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "じゃらん",
-      "count": 8,
-      "native_avg": 4.5,
+      "count": 7,
+      "native_avg": 4.71,
       "scale": "/5",
-      "avg_10pt": 9.0,
+      "avg_10pt": 9.43,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 7,
-      "native_avg": 4.43,
-      "scale": "/5",
-      "avg_10pt": 8.86,
-      "median_10pt": 10.0,
+      "site": "Booking.com",
+      "count": 68,
+      "native_avg": 8.63,
+      "scale": "/10",
+      "avg_10pt": 8.63,
+      "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
-      "site": "Booking.com",
-      "count": 69,
-      "native_avg": 8.65,
-      "scale": "/10",
-      "avg_10pt": 8.65,
-      "median_10pt": 9.0,
+      "site": "楽天トラベル",
+      "count": 9,
+      "native_avg": 4.22,
+      "scale": "/5",
+      "avg_10pt": 8.44,
+      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
@@ -57,31 +57,36 @@
   "distribution": [
     {
       "score": 10,
-      "count": 57,
-      "pct": "42.2%"
+      "count": 58,
+      "pct": "42.6%"
     },
     {
       "score": 9,
-      "count": 26,
-      "pct": "19.3%"
+      "count": 24,
+      "pct": "17.6%"
     },
     {
       "score": 8,
-      "count": 27,
-      "pct": "20.0%"
+      "count": 28,
+      "pct": "20.6%"
     },
     {
       "score": 7,
-      "count": 9,
-      "pct": "6.7%"
+      "count": 10,
+      "pct": "7.4%"
     },
     {
       "score": 6,
-      "count": 13,
-      "pct": "9.6%"
+      "count": 12,
+      "pct": "8.8%"
     },
     {
       "score": 5,
+      "count": 1,
+      "pct": "0.7%"
+    },
+    {
+      "score": 4,
       "count": 1,
       "pct": "0.7%"
     },
@@ -92,6 +97,58 @@
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-03-31",
+      "comment": "部屋の空調は全館空調が機能せず（間違いなく老朽化）全くダメでした。",
+      "good": "",
+      "bad": "",
+      "translated": "部屋の空調は全館空調が機能せず（間違いなく老朽化）全くダメでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ハバネロロロ"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-03-31",
+      "comment": "駅のすぐ横にあり立地も良く、周りに飲食店も多く大変便利です。 ホテル内も綺麗でセキュリティも良く安心です。",
+      "good": "",
+      "bad": "",
+      "translated": "駅のすぐ横にあり立地も良く、周りに飲食店も多く大変便利です。 ホテル内も綺麗でセキュリティも良く安心です。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ななりん1220"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-03-31",
+      "comment": "酒店位於川崎火車站隔離，也有巴士站在附近，附近還有幾個商場，旁邊仲有個水族館，地理位置非常方便多元化，還有個超市可以買平民百姓的用品食物，很好很方便。酒店櫃檯服務態度良好。房間設施齊備衛生整潔是令人住得舒服嘅地方下次如果方便會推薦給朋友整體而言這間酒店值得推薦。",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは川崎駅のすぐそばに位置し、近くにはバスターミナルやショッピングモールがいくつかあり、水族館も隣接しているため、非常に便利で多様な立地です。また、日用品の食料品を購入できるスーパーマーケットもあり、大変便利です。ホテルのフロントデスクの対応も良く、客室設備は清潔で整頓されており、快適な滞在ができます。次回も都合がよければ利用したいですし、友人にも勧めたいと思います。総合的に見て、このホテルはおすすめです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-31",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Florence"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -117,6 +174,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-03-30",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Angela"
     },
     {
       "site": "Booking.com",
@@ -438,7 +508,7 @@
       "comment": "房間內提供瓶裝水，早餐還算豐富，也有師傅煎蛋，衹是幾天的餐食沒啥變化，不舒適的是房間窗無法開啟不能換氣，3月季節房間悶熱，空調不起作用，前台忽悠説用電風扇，結果氣温持續上升...感覺酒店設施及服務不上檔次，房間也比較小，價格卻比大阪京都的更大面積的房間貴不少",
       "good": "",
       "bad": "",
-      "translated": "部屋にはボトル入りの水が用意されており、朝食は目玉焼きを作ってくれるシェフがいるなど、かなりボリュームがありました。しかし、食事は数日間同じでした。不快だったのは、換気のために部屋の窓を開けることができず、3月なのに部屋が蒸し暑かったことです。エアコンは作動せず、フロントデスクは扇風機を使うように勧めてきましたが、気温は上がり続けました…。ホテルの設備とサービスは標準以下で、部屋もかなり狭かったのに、大阪や京都の広い部屋と比べて料金はかなり高かったです。",
+      "translated": "部屋にはボトル入りの水が用意されており、朝食は目玉焼きを作ってくれるシェフもいて、かなりボリュームがありました。しかし、食事は数日間同じでした。不快だったのは、換気のために部屋の窓を開けることができず、3月なのに部屋が蒸し暑かったことです。エアコンは作動せず、フロントの係員は扇風機を使うように勧めてきましたが、気温は上がり続けました…。ホテルの設備やサービスは標準以下で、部屋もかなり狭かったのに、大阪や京都の広い部屋と比べて料金はかなり高かったです。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "S‍o‍m‍e‍l‍i‍u‍b‍o‍d‍y"
@@ -952,58 +1022,6 @@
     },
     {
       "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-10",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yihsuan"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-03-09",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yuk"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-03-09",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yasunori"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-03-09",
-      "comment": "私の泊まった部屋は広くてとても綺麗で、女子2人で広々と泊まれました。  お風呂は部屋ですが、シャンプー等ボトルで個別に入ってるのが可愛く、残った分は他の他の旅行でも使えるので便利だと思いました。  朝ごはんはもう少し品数があると嬉しかったです。",
-      "good": "",
-      "bad": "",
-      "translated": "私の泊まった部屋は広くてとても綺麗で、女子2人で広々と泊まれました。  お風呂は部屋ですが、シャンプー等ボトルで個別に入ってるのが可愛く、残った分は他の他の旅行でも使えるので便利だと思いました。  朝ごはんはもう少し品数があると嬉しかったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "あゆさん"
-    },
-    {
-      "site": "Booking.com",
       "rating": 10.0,
       "rating_10pt": 10.0,
       "date": "2026-02-28",
@@ -1140,7 +1158,7 @@
       "comment": "一如既往給好評，酒店位置好，房間偏小，前台服務熱情，周邊配套吃飯方便",
       "good": "",
       "bad": "",
-      "translated": "いつものように、良い評価をつけます。ホテルの立地は良く、部屋は少し狭いですが、フロントのスタッフはとても親切で、近くにはたくさんのレストランがあります。",
+      "translated": "いつものように、良い評価をつけます。ホテルの立地は良く、部屋は少し狭いですが、フロントの対応は親切で、近くには便利なレストランがたくさんあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -1285,7 +1303,7 @@
       "bad": "Tutto sembra molto datato ormai, ma le cose peggiori sono state: - impossibile modificare temperatura della stanza, e dentro faceva un caldo infernale (a febbraio). C’è un piccolo condizionatore ma non fa quasi nulla - dal bagno c’è un costante rumore ripetuto che purtroppo si sente dal letto, essendo attiguo - il letto col materasso a molle è scomodissimo, specialmente dopo settimane di bei materassi duri giapponesi, e le lenzuola in acrilico rendono ancora più calda l’esperienza del pernottamento - la pulizia della stanza lascia a desiderare",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）地獄のように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
+      "translated_bad": "すべてが今となっては時代遅れに感じられますが、最悪だったのは以下の点です。- 室温の調節が不可能で、室内は（2月なのに）焼けつくように暑かった。小型のエアコンはありますが、ほとんど役に立ちません。- バスルームから絶えず繰り返される音が聞こえ、隣室なのでベッドからも聞こえてしまうのが残念です。- ボックススプリングベッドは非常に寝心地が悪く、特に数週間快適でしっかりとした日本のマットレスで寝た後ではなおさらです。アクリル製のシーツのせいで、夜はさらに暑く感じます。- 部屋の清潔さには改善の余地があります。",
       "reviewer": "Michele"
     },
     {
@@ -1816,7 +1834,7 @@
       "comment": "鄰近川崎駅，地理位置方便，交通方便 就算夜歸，附近都有很餐廳及超市 不愁衣食 附近有大型商場，方便shopping 價錢合理",
       "good": "",
       "bad": "",
-      "translated": "川崎駅近くという便利な立地で、交通アクセスも抜群です。帰りが遅くなっても、周辺には飲食店やスーパーマーケットがたくさんあるので、食事や衣類の心配は無用です。また、大型ショッピングモールも近くにあり、リーズナブルな価格で買い物を楽しめます。",
+      "translated": "川崎駅近くという便利な立地で、交通アクセスも抜群です。帰りが遅くなっても、周辺には飲食店やスーパーマーケットがたくさんあるので、食事や衣類の心配は無用です。大型ショッピングモールも近くにあるので、買い物も便利でリーズナブルな価格で楽しめます。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "E‍x‍i‍t‍f‍a‍i‍f‍a‍i"
