@@ -18,30 +18,21 @@
       "judgment": "概ね良好"
     },
     {
-      "site": "Agoda",
-      "count": 9,
-      "native_avg": 6.67,
-      "scale": "/10",
-      "avg_10pt": 6.67,
-      "median_10pt": 6.0,
+      "site": "楽天トラベル",
+      "count": 19,
+      "native_avg": 3.21,
+      "scale": "/5",
+      "avg_10pt": 6.42,
+      "median_10pt": 8.0,
       "judgment": "要改善"
     },
     {
       "site": "Booking.com",
-      "count": 5,
-      "native_avg": 6.6,
+      "count": 4,
+      "native_avg": 6.25,
       "scale": "/10",
-      "avg_10pt": 6.6,
-      "median_10pt": 7.0,
-      "judgment": "要改善"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 20,
-      "native_avg": 3.2,
-      "scale": "/5",
-      "avg_10pt": 6.4,
-      "median_10pt": 7.0,
+      "avg_10pt": 6.25,
+      "median_10pt": 6.0,
       "judgment": "要改善"
     },
     {

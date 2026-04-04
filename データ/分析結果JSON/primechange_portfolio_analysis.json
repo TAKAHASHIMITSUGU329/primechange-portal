@@ -35,7 +35,7 @@
         "high_rate": 93.7,
         "low_rate": 2.5,
         "cleaning_issue_count": 1,
-        "cleaning_issue_rate": 1.3,
+        "cleaning_issue_rate": 1.4,
         "priority": "STANDARD",
         "tier": "優秀"
       },
@@ -879,7 +879,7 @@
         "high_rate": 93.7,
         "low_rate": 2.5,
         "cleaning_issue_count": 1,
-        "cleaning_issue_rate": 1.3,
+        "cleaning_issue_rate": 1.4,
         "priority": "STANDARD",
         "categories": {
           "排水・詰まり": 1
@@ -1116,7 +1116,7 @@
         "avg": 9.49,
         "total_reviews": 79,
         "cleaning_issues": 1,
-        "cleaning_rate": 1.3,
+        "cleaning_rate": 1.4,
         "key_problems": [
           "排水・詰まり"
         ]
@@ -1424,6 +1424,134 @@
           {
             "action": "排水管の老朽化調査と更新計画の策定",
             "category": "排水・詰まり"
+          }
+        ]
+      },
+      "priority_rank": 1
+    },
+    {
+      "hotel": "コンフォートホテル博多",
+      "priority_level": "URGENT",
+      "current_avg": 7.83,
+      "target_avg": 8.5,
+      "phase1_immediate": {
+        "timeline": "1-2週間",
+        "actions": [
+          {
+            "action": "清掃品質基準の明確化と全スタッフへの共有",
+            "category": "清掃品質全般",
+            "issue_count": 5
+          },
+          {
+            "action": "重点箇所（水回り・ベッド周り）の清掃手順見直し",
+            "category": "清掃品質全般",
+            "issue_count": 5
+          },
+          {
+            "action": "高所・棚上部・エアコン上部のほこり除去",
+            "category": "ほこり・塵",
+            "issue_count": 2
+          },
+          {
+            "action": "テレビ裏・家具裏の清掃徹底",
+            "category": "ほこり・塵",
+            "issue_count": 2
+          },
+          {
+            "action": "シミ箇所の特定と専用クリーナーによる除去",
+            "category": "シミ・汚れ跡",
+            "issue_count": 2
+          },
+          {
+            "action": "エアコンフィルター・内部のカビ除去と消毒",
+            "category": "カビ・モールド",
+            "issue_count": 1
+          },
+          {
+            "action": "加湿器の分解洗浄・カビ除去",
+            "category": "カビ・モールド",
+            "issue_count": 1
+          },
+          {
+            "action": "浴室天井・壁・目地のカビ取り処理",
+            "category": "カビ・モールド",
+            "issue_count": 1
+          },
+          {
+            "action": "臭気発生源の特定と即時対処（排水トラップ、換気扇）",
+            "category": "臭気・異臭",
+            "issue_count": 1
+          },
+          {
+            "action": "消臭・脱臭処理の実施",
+            "category": "臭気・異臭",
+            "issue_count": 1
+          }
+        ]
+      },
+      "phase2_short_term": {
+        "timeline": "1-3ヶ月",
+        "actions": [
+          {
+            "action": "品質管理チェックリストの導入と実施",
+            "category": "清掃品質全般"
+          },
+          {
+            "action": "QCインスペクション体制の構築（ランダム抜き打ち検査）",
+            "category": "清掃品質全般"
+          },
+          {
+            "action": "週次の高所清掃スケジュール導入",
+            "category": "ほこり・塵"
+          },
+          {
+            "action": "シミ発見時の即時報告・対処フロー構築",
+            "category": "シミ・汚れ跡"
+          },
+          {
+            "action": "防カビコーティング施工（浴室・エアコン周り）",
+            "category": "カビ・モールド"
+          },
+          {
+            "action": "エアコン月次メンテナンスサイクル導入",
+            "category": "カビ・モールド"
+          },
+          {
+            "action": "定期的な換気・消臭ルーティンの標準化",
+            "category": "臭気・異臭"
+          },
+          {
+            "action": "エアコン・排水系の臭気源の根本対策",
+            "category": "臭気・異臭"
+          }
+        ]
+      },
+      "phase3_medium_term": {
+        "timeline": "3-6ヶ月",
+        "actions": [
+          {
+            "action": "清掃スタッフの定期研修プログラム導入",
+            "category": "清掃品質全般"
+          },
+          {
+            "action": "デジタル清掃記録システムの検討",
+            "category": "清掃品質全般"
+          },
+          {
+            "action": "換気設備の改善提案（換気扇能力の見直し）",
+            "category": "カビ・モールド"
+          },
+          {
+            "action": "除湿対策の強化（除湿機導入検討）",
+            "category": "カビ・モールド"
+          },
+          {
+            "action": "オゾン脱臭機の導入検討",
+            "category": "臭気・異臭"
+          },
+          {
+            "action": "空気品質モニタリングの導入",
+            "category": "臭気・異臭"
           }
         ]
       },
@@ -1995,8 +2123,8 @@
     "portfolio_targets": [
       {
         "kpi": "ポートフォリオ平均スコア",
-        "current": "8.35",
-        "target": "8.85",
+        "current": "8.33",
+        "target": "8.83",
         "deadline": "2026年9月"
       },
       {
