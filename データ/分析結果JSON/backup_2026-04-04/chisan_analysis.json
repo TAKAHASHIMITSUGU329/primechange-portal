@@ -1,70 +1,52 @@
 {
-  "total_reviews": 58,
-  "overall_avg_10pt": 6.57,
-  "high_count": 27,
-  "high_rate": 46.6,
+  "total_reviews": 63,
+  "overall_avg_10pt": 6.52,
+  "high_count": 29,
+  "high_rate": 46.0,
   "mid_count": 19,
-  "mid_rate": 32.8,
-  "low_count": 12,
-  "low_rate": 20.7,
+  "mid_rate": 30.2,
+  "low_count": 15,
+  "low_rate": 23.8,
   "site_stats": [
     {
       "site": "じゃらん",
-      "count": 6,
-      "native_avg": 3.5,
+      "count": 7,
+      "native_avg": 3.71,
       "scale": "/5",
-      "avg_10pt": 6.91,
-      "median_10pt": 6.0,
-      "judgment": "要改善"
+      "avg_10pt": 7.43,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
     },
     {
-      "site": "Booking.com",
-      "count": 6,
-      "native_avg": 6.83,
-      "scale": "/10",
-      "avg_10pt": 6.83,
-      "median_10pt": 7.5,
-      "judgment": "要改善"
-    },
-    {
-      "site": "Google",
-      "count": 14,
-      "native_avg": 3.36,
+      "site": "楽天トラベル",
+      "count": 19,
+      "native_avg": 3.21,
       "scale": "/5",
-      "avg_10pt": 6.71,
+      "avg_10pt": 6.42,
       "median_10pt": 8.0,
       "judgment": "要改善"
     },
     {
-      "site": "Agoda",
-      "count": 9,
-      "native_avg": 6.67,
+      "site": "Booking.com",
+      "count": 4,
+      "native_avg": 6.25,
       "scale": "/10",
-      "avg_10pt": 6.67,
+      "avg_10pt": 6.25,
       "median_10pt": 6.0,
       "judgment": "要改善"
     },
     {
-      "site": "Booking.com",
-      "count": 5,
-      "native_avg": 6.6,
-      "scale": "/10",
-      "avg_10pt": 6.6,
-      "median_10pt": 7.0,
-      "judgment": "要改善"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 20,
-      "native_avg": 3.2,
+      "site": "Google",
+      "count": 16,
+      "native_avg": 3.19,
       "scale": "/5",
-      "avg_10pt": 6.4,
+      "avg_10pt": 6.38,
       "median_10pt": 7.0,
       "judgment": "要改善"
     },
     {
       "site": "Trip.com",
-      "count": 4,
+      "count": 6,
       "native_avg": 6.0,
       "scale": "/10",
       "avg_10pt": 6.0,
@@ -75,46 +57,111 @@
   "distribution": [
     {
       "score": 10,
-      "count": 7,
-      "pct": "12.1%"
+      "count": 9,
+      "pct": "14.3%"
     },
     {
       "score": 8,
       "count": 20,
-      "pct": "34.5%"
+      "pct": "31.7%"
     },
     {
       "score": 7,
       "count": 3,
-      "pct": "5.2%"
+      "pct": "4.8%"
     },
     {
       "score": 6,
       "count": 14,
-      "pct": "24.1%"
+      "pct": "22.2%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.4%"
+      "pct": "3.2%"
     },
     {
       "score": 4,
-      "count": 5,
-      "pct": "8.6%"
+      "count": 7,
+      "pct": "11.1%"
     },
     {
       "score": 3,
       "count": 2,
-      "pct": "3.4%"
+      "pct": "3.2%"
     },
     {
       "score": 2,
-      "count": 5,
-      "pct": "8.6%"
+      "count": 6,
+      "pct": "9.5%"
     }
   ],
   "comments": [
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "久しぶりに泊まりました。浜松町からホテルまでの道が整備されていてとてもきれいになっていました。部屋は清潔で気持ちよく過ごせました。",
+      "good": "",
+      "bad": "",
+      "translated": "久しぶりに泊まりました。浜松町からホテルまでの道が整備されていてとてもきれいになっていました。部屋は清潔で気持ちよく過ごせました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "KKさん"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "การเดินทางสะดวกมากๆและที่พักอยู่มนทำเลที่ดี พนักงานบริการดี",
+      "good": "",
+      "bad": "",
+      "translated": "旅程は非常に便利で、宿泊施設も素晴らしい立地でした。スタッフのサービスも素晴らしかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-03",
+      "comment": "何しろ狭くて古びている",
+      "good": "",
+      "bad": "",
+      "translated": "何しろ狭くて古びている",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "m2999"
+    },
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "日高浩二"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 2.0,
+      "rating_10pt": 2.0,
+      "date": "2026-04-02",
+      "comment": "設備が古く、サービスも良くないです。",
+      "good": "",
+      "bad": "",
+      "translated": "設備が古く、サービスも良くないです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Google",
       "rating": 5.0,
