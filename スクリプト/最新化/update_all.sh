@@ -71,7 +71,7 @@ for entry in "${HOTELS[@]}"; do
     continue
   fi
   echo -n "  分析: $name ... "
-  if python3 "$ANALYZE" --csv "$CSV" --start-month 2026-03 --end-month 2026-04 --output "$JSON_OUT" 2>/dev/null; then
+  if python3 "$ANALYZE" --csv "$CSV" --start-month 2025-12 --end-month 2026-04 --output "$JSON_OUT" 2>/dev/null; then
     echo "OK"
     ANALYZE_OK=$((ANALYZE_OK + 1))
   else

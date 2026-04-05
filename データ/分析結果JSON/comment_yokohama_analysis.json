@@ -1,28 +1,28 @@
 {
-  "total_reviews": 71,
-  "overall_avg_10pt": 8.83,
-  "high_count": 62,
-  "high_rate": 87.3,
-  "mid_count": 8,
-  "mid_rate": 11.3,
+  "total_reviews": 74,
+  "overall_avg_10pt": 8.81,
+  "high_count": 64,
+  "high_rate": 86.5,
+  "mid_count": 9,
+  "mid_rate": 12.2,
   "low_count": 1,
   "low_rate": 1.4,
   "site_stats": [
     {
       "site": "じゃらん",
-      "count": 4,
-      "native_avg": 4.75,
+      "count": 5,
+      "native_avg": 4.8,
       "scale": "/5",
-      "avg_10pt": 9.5,
+      "avg_10pt": 9.6,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Google",
-      "count": 7,
-      "native_avg": 4.71,
+      "count": 8,
+      "native_avg": 4.75,
       "scale": "/5",
-      "avg_10pt": 9.43,
+      "avg_10pt": 9.5,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,10 +46,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 20,
-      "native_avg": 8.85,
+      "count": 21,
+      "native_avg": 8.67,
       "scale": "/10",
-      "avg_10pt": 8.85,
+      "avg_10pt": 8.67,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,33 +66,33 @@
   "distribution": [
     {
       "score": 10,
-      "count": 33,
-      "pct": "46.5%"
+      "count": 35,
+      "pct": "47.3%"
     },
     {
       "score": 9,
       "count": 12,
-      "pct": "16.9%"
+      "pct": "16.2%"
     },
     {
       "score": 8,
       "count": 17,
-      "pct": "23.9%"
+      "pct": "23.0%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "5.6%"
+      "pct": "5.4%"
     },
     {
       "score": 6,
       "count": 2,
-      "pct": "2.8%"
+      "pct": "2.7%"
     },
     {
       "score": 5,
-      "count": 2,
-      "pct": "2.8%"
+      "count": 3,
+      "pct": "4.1%"
     },
     {
       "score": 3,
@@ -101,6 +101,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-04-05",
+      "comment": "Booking.com",
+      "good": "宿泊代が妥当だった",
+      "bad": "駐車場は基本ないが  付近と提携していない",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "駐車場は基本ないが  付近と提携していない",
+      "reviewer": "Takayuki"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-05",
+      "comment": "Google",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは綺麗で駅から近い。ハマスタから近い。分かりやすい。部屋は広い、綺麗。大浴場は広く気持ち良い。朝食ブッフェは和洋完璧で全て美味しい。全てにおいて素晴らしいです。もう永世名人ですね。絶対にお勧めです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "山守裕之"
+    },
     {
       "site": "Booking.com",
       "rating": 8.0,
@@ -126,6 +152,19 @@
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Noriko"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "じゃらん",
+      "good": "",
+      "bad": "",
+      "translated": "友達と利用しました。  部屋がとってもオシャレで楽しかったです！  大浴場のドライヤーはSALONIAだったのですぐ乾いて利用しやすかったです。  朝食も色んな美味しいものがバイキング形式で選べて最高でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "みうさん"
     },
     {
       "site": "Booking.com",
