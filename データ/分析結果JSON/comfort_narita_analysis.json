@@ -1,19 +1,19 @@
 {
-  "total_reviews": 85,
-  "overall_avg_10pt": 8.67,
-  "high_count": 73,
-  "high_rate": 85.9,
+  "total_reviews": 73,
+  "overall_avg_10pt": 8.56,
+  "high_count": 61,
+  "high_rate": 83.6,
   "mid_count": 10,
-  "mid_rate": 11.8,
+  "mid_rate": 13.7,
   "low_count": 2,
-  "low_rate": 2.4,
+  "low_rate": 2.7,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 14,
-      "native_avg": 9.5,
+      "count": 10,
+      "native_avg": 9.4,
       "scale": "/10",
-      "avg_10pt": 9.5,
+      "avg_10pt": 9.4,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -28,11 +28,11 @@
     },
     {
       "site": "Google",
-      "count": 16,
-      "native_avg": 4.38,
+      "count": 11,
+      "native_avg": 4.27,
       "scale": "/5",
-      "avg_10pt": 8.75,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.55,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
@@ -46,11 +46,11 @@
     },
     {
       "site": "Booking.com",
-      "count": 30,
-      "native_avg": 8.43,
+      "count": 27,
+      "native_avg": 8.37,
       "scale": "/10",
-      "avg_10pt": 8.43,
-      "median_10pt": 8.5,
+      "avg_10pt": 8.37,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
@@ -66,197 +66,41 @@
   "distribution": [
     {
       "score": 10,
-      "count": 35,
-      "pct": "41.2%"
+      "count": 28,
+      "pct": "38.4%"
     },
     {
       "score": 9,
-      "count": 12,
-      "pct": "14.1%"
+      "count": 10,
+      "pct": "13.7%"
     },
     {
       "score": 8,
-      "count": 26,
-      "pct": "30.6%"
+      "count": 23,
+      "pct": "31.5%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "4.7%"
+      "pct": "5.5%"
     },
     {
       "score": 6,
       "count": 6,
-      "pct": "7.1%"
+      "pct": "8.2%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.4%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.4%"
     }
   ],
   "comments": [
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-04",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Joel"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-03",
-      "comment": "ที่พักอาจจะเก่าไปนิด แต่สะดวกเพราะอยู่ใกล้รถไฟ ใกล้สนามบิน",
-      "good": "",
-      "bad": "",
-      "translated": "宿泊施設は少し古いかもしれませんが、駅と空港に近いので便利です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ป‍อ‍ป‍ี‍้‍ย‍ิ‍้‍ม"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "とってもよかったです。成田空港近くのホテルは古いまま以上してるところが多い一方、コンフォート成田は清潔、かつとてもきめ細やかなサービスなので、とても安心して宿泊出来ました。1点、湯船がもう少し広ければと思いましたが、それもカバーできるほどの良さでした。空港からもJR、京成出すぐなので成田空港を頻繁に使う自分としては、とてもおすすめです。",
-      "good": "",
-      "bad": "",
-      "translated": "とってもよかったです。成田空港近くのホテルは古いまま以上してるところが多い一方、コンフォート成田は清潔、かつとてもきめ細やかなサービスなので、とても安心して宿泊出来ました。1点、湯船がもう少し広ければと思いましたが、それもカバーできるほどの良さでした。空港からもJR、京成出すぐなので成田空港を頻繁に使う自分としては、とてもおすすめです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "S‍Z‍4‍2‍5"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-02",
-      "comment": "朝食サービスが内容、時間共に最高でした。 忙しい朝にぴったりでした！",
-      "good": "",
-      "bad": "",
-      "translated": "朝食サービスが内容、時間共に最高でした。 忙しい朝にぴったりでした！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-02",
-      "comment": "全体的には、まあまあです。",
-      "good": "",
-      "bad": "",
-      "translated": "全体的には、まあまあです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "游俊廷"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-02",
-      "comment": "整體來說 還OK",
-      "good": "",
-      "bad": "",
-      "translated": "全体的には、まあまあです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "游俊廷"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "The staff at this place were very helpful and friendly. The dining room area can be used at any time and they have a microwave and coffee maker that you can use. It also overlooks a small part of the city. The rooms were spacious and very comfortable.",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルのスタッフはとても親切でフレンドリーでした。ダイニングエリアはいつでも利用でき、電子レンジとコーヒーメーカーも備え付けられています。また、街の一部が少し見えるのも魅力です。客室は広々としていて、とても快適でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Mark Shimei"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "Booked 2 nights in order to kept room for late checkout the next day as my flight is in the evening. Very good location. 2 Lawson stores nearby and near Narita rail station for easy access to Narita airport ! Many eatery and old Japan charm shops houses and walking distance to nearby Naritasan temples ! It is definitely a better comfort hotel than the one I stayed in Fukuoka",
-      "good": "",
-      "bad": "",
-      "translated": "翌日のフライトが夕方なので、レイトチェックアウトのために2泊予約しました。立地は最高です。近くにローソンが2店舗あり、成田空港へのアクセスも便利な成田駅もすぐ近くです！飲食店や昔ながらの日本の趣のあるお店がたくさんあり、近くの成田山のお寺にも徒歩圏内です！福岡で泊まったホテルよりも断然快適でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "T‍e‍o‍ ‍T"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kawi"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "Posizione ottimale, a pochi passi dalla stazione e quindi molto comodo per prendere i voli su aeroporto di Narita. Stanza ampia, pulita e confortevole con rifacimento quotidiano. Self check in e out per un ingresso e uscita rapido e veloce. Colazione a buffet varia e buona.",
-      "bad": "Nulla da segnalare",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "報告事項なし",
-      "reviewer": "Elena"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Krishna Karnadi"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "こちらのスタッフはとても親切でフレンドリーでした。ダイニングエリアはいつでも利用でき、電子レンジとコーヒーメーカーも備え付けられています。また、街の一部が少し見えるのも魅力です。客室は広々としていて、とても快適でした。",
-      "good": "",
-      "bad": "",
-      "translated": "こちらのスタッフはとても親切でフレンドリーでした。ダイニングエリアはいつでも利用でき、電子レンジとコーヒーメーカーも備え付けられています。また、街の一部が少し見えるのも魅力です。客室は広々としていて、とても快適でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Mark Shimei"
-    },
     {
       "site": "Google",
       "rating": 4.0,
@@ -644,7 +488,7 @@
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房のオプションはなかった。",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房モードには切り替えられていなかった。",
       "reviewer": "Suzanne"
     },
     {
@@ -865,7 +709,7 @@
       "bad": "The bed and pillow were uncomfortable to sleep in.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ベッドと枕は寝心地が悪かった。",
+      "translated_bad": "ベッドと枕が寝心地が悪かった。",
       "reviewer": "Choon"
     },
     {
@@ -915,7 +759,7 @@
       "comment": "I recently stayed at the Comfort Hotel Narita and had a fantastic experience. The location is incredibly convenient, making it an ideal choice for anyone traveling to or from the airport. What truly made my stay special was the wonderful staff. Every employee I encountered was exceptionally nice, polite, and went out of their way to be helpful. Their hospitality made me feel welcome from the moment I arrived. A few highlights of my stay:  Cleanliness: The room was spotless and well-maintained.  Comfort: The bed was very comfortable, ensuring a great night's sleep.  Amenities: I really appreciated the complimentary coffee and the delicious breakfast options provided.  Quiet Atmosphere: Despite being near transportation hubs, the room was very quiet.  Overall, this hotel offers excellent value for money. I highly recommend it to anyone looking for a stress-free and pleasant stay in Narita. I will definitely be back",
       "good": "",
       "bad": "",
-      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点をいくつか挙げます。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは本当にありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。全体的に見て、このホテルは価格以上の価値を提供しています。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
+      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点は以下の通りです。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは大変ありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。総合的に見て、このホテルは価格以上の価値があります。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "David Herz"

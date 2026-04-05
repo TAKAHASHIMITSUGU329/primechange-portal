@@ -6,45 +6,8 @@
 <title>PRIMECHANGE ポートフォリオ品質管理ポータル V2</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/common-v2.css">
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script>
-tailwind.config = {
-  darkMode: "class",
-  theme: {
-    extend: {
-      colors: {
-        "primary": "#a02225",
-        "primary-container": "#c23b3a",
-        "on-primary": "#ffffff",
-        "on-secondary-fixed": "#1a1a2e",
-        "on-secondary-container": "#63627a",
-        "on-surface": "#191c1d",
-        "on-surface-variant": "#59413f",
-        "surface": "#f8f9fa",
-        "surface-container": "#edeeef",
-        "surface-container-low": "#f3f4f5",
-        "surface-container-lowest": "#ffffff",
-        "surface-container-high": "#e7e8e9",
-        "surface-container-highest": "#e1e3e4",
-        "outline-variant": "#e0bfbc",
-        "tertiary": "#005d61",
-        "tertiary-container": "#00787c",
-        "error": "#ba1a1a",
-        "error-container": "#ffdad6",
-        "on-error-container": "#93000a",
-      },
-      fontFamily: {
-        "headline": ["Manrope", "Noto Sans JP", "sans-serif"],
-        "body": ["Plus Jakarta Sans", "Noto Sans JP", "sans-serif"],
-        "label": ["Inter", "sans-serif"],
-      }
-    }
-  }
-}
-</script>
 <script src="data/inline-data.js"></script>
 <script src="scripts/common-v2.js" defer></script>
 <script src="scripts/svg-gauge-v2.js" defer></script>
@@ -52,20 +15,8 @@ tailwind.config = {
 <script src="scripts/date-filter-ui-v2.js" defer></script>
 <script src="scripts/page-snapshot-v2.js" defer></script>
 <script src="scripts/trend-chart-v2.js" defer></script>
-<style>
-.material-symbols-outlined {
-  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-  vertical-align: middle;
-}
-body { font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif; background-color: #f8f9fa; }
-.glass-nav { background-color: rgba(255,255,255,0.88); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
-.kanban-shadow { box-shadow: 0 8px 24px rgba(26,26,46,0.06); }
-/* Override common-v2 nav to use glass effect */
-.main-nav { background: rgba(255,255,255,0.88) !important; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
-</style>
 </head>
-<body class="bg-surface text-on-surface">
-
+<body>
 <nav class="main-nav">
   <div class="nav-inner">
     <a href="executive.html" class="nav-brand"><img src="https://primechange.co.jp/wp-content/themes/prime_change/assets/img/logo.png" alt="PRIME CHANGE" class="nav-logo"></a>
@@ -85,280 +36,223 @@ body { font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif; background-
     <button class="nav-toggle">&#9776;</button>
   </div>
 </nav>
+<div class="container">
+<h1 class="page-title">PRIMECHANGE ポートフォリオ品質管理ポータル V2</h1>
+<p class="page-subtitle">2026年4月5日 更新 &mdash; 19ホテル・1,632件の口コミデータに基づく統合ダッシュボード</p>
 
-<!-- Main Content -->
-<main class="max-w-[1400px] mx-auto px-8 pt-8 pb-12">
+<div class="kpi-grid" id="indexKpiGrid">
+<div class="kpi-card" style="border-left-color:var(--accent);">
+  <div class="kpi-label">ホテル数</div>
+  <div class="kpi-value" data-kpi="total_hotels">19</div>
+  <div class="kpi-sub">ホテル</div>
 
-  <!-- Dashboard Header -->
-  <div class="mb-10">
-    <h1 class="text-3xl font-extrabold tracking-tight text-on-secondary-fixed font-headline mb-2">
-      PRIMECHANGE ポートフォリオ品質管理ポータル
-    </h1>
-    <p class="text-on-surface-variant font-body text-sm">2026年4月5日 更新 &mdash; 19ホテル・1,762件の口コミデータに基づく統合ダッシュボード</p>
-  </div>
 
-  <!-- KPI Grid -->
-  <section class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 mb-10" id="indexKpiGrid">
-    <!-- ホテル数 -->
-    <div class="bg-surface-container-lowest p-5 rounded-xl kanban-shadow flex flex-col gap-2">
-      <span class="text-label text-[10px] font-semibold text-on-secondary-container uppercase tracking-widest">管理ホテル数</span>
-      <div class="flex items-baseline gap-1">
-        <span class="text-4xl font-extrabold text-on-secondary-fixed font-headline" data-kpi="total_hotels">19</span>
-        <span class="text-sm font-medium text-on-surface-variant">施設</span>
-      </div>
-      <div class="mt-3 h-1 w-full bg-surface-container rounded-full overflow-hidden">
-        <div class="h-full bg-primary" style="width:100%;"></div>
-      </div>
-    </div>
-    <!-- 口コミ数 -->
-    <div class="bg-surface-container-lowest p-5 rounded-xl kanban-shadow flex flex-col gap-2">
-      <span class="text-label text-[10px] font-semibold text-on-secondary-container uppercase tracking-widest">口コミ数</span>
-      <div class="flex items-baseline gap-1">
-        <span class="text-4xl font-extrabold text-on-secondary-fixed font-headline" data-kpi="total_reviews">1,762</span>
-        <span class="text-sm font-medium text-on-surface-variant">件</span>
-      </div>
-      <div class="flex items-center gap-1 text-tertiary text-xs font-bold mt-2">
-        <span class="material-symbols-outlined text-sm">trending_up</span>
-        <span>+451件（前日比）</span>
-      </div>
-    </div>
-    <!-- 平均スコア -->
-    <div class="bg-surface-container-lowest p-5 rounded-xl kanban-shadow flex flex-col gap-2 relative overflow-hidden">
-      <span class="text-label text-[10px] font-semibold text-on-secondary-container uppercase tracking-widest">平均スコア</span>
-      <div class="flex items-baseline gap-1">
-        <span class="text-4xl font-extrabold text-primary font-headline" data-kpi="avg_score">8.36</span>
-        <span class="text-sm font-medium text-on-surface-variant">/ 10</span>
-      </div>
-      <div class="text-[11px] text-on-surface-variant mt-1">目標 8.86 &mdash; 達成率 <span class="font-bold text-emerald-600">94.4%</span></div>
-      <svg class="absolute bottom-0 right-0 w-24 h-12 opacity-20 text-primary" viewBox="0 0 100 50">
-        <path d="M0,50 Q25,10 50,30 T100,0" fill="none" stroke="currentColor" stroke-width="3"/>
-      </svg>
-    </div>
-    <!-- 高評価率 -->
-    <div class="bg-surface-container-lowest p-5 rounded-xl kanban-shadow flex flex-col gap-2">
-      <span class="text-label text-[10px] font-semibold text-on-secondary-container uppercase tracking-widest">高評価率</span>
-      <div class="flex items-baseline gap-1">
-        <span class="text-4xl font-extrabold text-on-secondary-fixed font-headline" data-kpi="high_rate">78%</span>
-      </div>
-      <div class="text-[11px] text-on-surface-variant mt-1">目標 83.4% &mdash; 達成率 <span class="font-bold text-emerald-600">93.5%</span></div>
-      <div class="mt-2 h-1 w-full bg-surface-container rounded-full overflow-hidden">
-        <div class="h-full bg-tertiary-container" style="width:78%;"></div>
-      </div>
-    </div>
-    <!-- 清掃クレーム率 -->
-    <div class="bg-surface-container-lowest p-5 rounded-xl kanban-shadow flex flex-col gap-2">
-      <span class="text-label text-[10px] font-semibold text-on-secondary-container uppercase tracking-widest">清掃クレーム率</span>
-      <div class="flex items-baseline gap-1">
-        <span class="text-4xl font-extrabold text-error font-headline" data-kpi="cleaning_issue_rate">4.4%</span>
-      </div>
-      <div class="text-[11px] text-on-surface-variant mt-1">目標 2% &mdash; 達成率 <span class="font-bold text-red-600">45.5%</span></div>
-      <div class="flex items-center gap-1 text-error text-xs font-bold mt-2">
-        <span class="material-symbols-outlined text-sm">warning</span>
-        <span>要注意アラート</span>
-      </div>
-    </div>
-  </section>
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">口コミ数</div>
+  <div class="kpi-value" data-kpi="total_reviews">1,632</div>
+  <div class="kpi-sub">件</div>
 
-  <!-- Main Content: Alert + Navigation Grid -->
-  <div class="flex flex-col lg:flex-row gap-8 mb-10">
 
-    <!-- Left: Alert Section -->
-    <section class="lg:w-[38%] space-y-5">
-      <div class="flex items-center justify-between">
-        <h2 class="text-xl font-bold font-headline text-on-secondary-fixed">注意が必要なホテル</h2>
-        <span class="px-3 py-1 bg-error-container text-on-error-container text-[10px] font-bold rounded-full">7件のアラート</span>
-      </div>
-      <div class="space-y-3">
-        <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300">
-          <div class="flex justify-between items-start mb-2">
-            <h3 class="font-bold text-on-secondary-fixed text-sm">コンフォートホテル博多</h3>
-            <span class="text-[10px] bg-red-100 text-red-700 px-2 py-0.5 rounded font-semibold">URGENT</span>
-          </div>
-          <p class="text-xs text-on-surface-variant leading-relaxed mb-2">スコア <strong class="text-error">7.89</strong> / 清掃課題率 <strong>12%</strong></p>
-          <p class="text-[11px] text-on-surface-variant">主要課題: 清掃品質全般, 臭気・異臭, ほこり・塵</p>
-        </div>
-        <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300">
-          <div class="flex justify-between items-start mb-2">
-            <h3 class="font-bold text-on-secondary-fixed text-sm">アパホテル蒲田駅東</h3>
-            <span class="text-[10px] bg-red-100 text-red-700 px-2 py-0.5 rounded font-semibold">URGENT</span>
-          </div>
-          <p class="text-xs text-on-surface-variant leading-relaxed mb-2">スコア <strong class="text-error">7.38</strong> / 清掃課題率 <strong>11.7%</strong></p>
-          <p class="text-[11px] text-on-surface-variant">主要課題: 清掃品質全般, ほこり・塵, 臭気・異臭</p>
-        </div>
-        <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300">
-          <div class="flex justify-between items-start mb-2">
-            <h3 class="font-bold text-on-secondary-fixed text-sm">コートホテル新横浜</h3>
-            <span class="text-[10px] bg-red-100 text-red-700 px-2 py-0.5 rounded font-semibold">URGENT</span>
-          </div>
-          <p class="text-xs text-on-surface-variant leading-relaxed mb-2">スコア <strong class="text-error">7.12</strong> / 清掃課題率 <strong>8.5%</strong></p>
-          <p class="text-[11px] text-on-surface-variant">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</p>
-        </div>
-        <div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300 opacity-80">
-          <div class="flex justify-between items-start mb-2">
-            <h3 class="font-bold text-on-secondary-fixed text-sm">チサンホテル浜松町</h3>
-            <span class="text-[10px] bg-red-100 text-red-700 px-2 py-0.5 rounded font-semibold">URGENT</span>
-          </div>
-          <p class="text-xs text-on-surface-variant leading-relaxed mb-2">スコア <strong class="text-error">6.52</strong> / 清掃課題率 <strong>7.9%</strong></p>
-          <p class="text-[11px] text-on-surface-variant">主要課題: ほこり・塵, 毛髪・髪の毛, 清掃品質全般</p>
-        </div>
-        <a href="hotel-dashboard.html" class="block text-center text-primary text-xs font-bold hover:underline mt-2">全ホテルの詳細を表示 &rarr;</a>
-      </div>
-    </section>
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">平均スコア</div>
+  <div class="kpi-value" data-kpi="avg_score">8.33</div>
+  <div class="kpi-sub">/ 10 点</div>
 
-    <!-- Right: Navigation Grid -->
-    <section class="lg:w-[62%]">
-      <div class="mb-5">
-        <h2 class="text-xl font-bold font-headline text-on-secondary-fixed">戦略別ポータル</h2>
-      </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-        <a href="cleaning-strategy.html" class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-44 cursor-pointer block no-underline">
-          <div class="relative z-10 p-6 h-full flex flex-col justify-between">
-            <div class="w-11 h-11 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
-              <span class="material-symbols-outlined text-2xl">cleaning_services</span>
-            </div>
-            <div>
-              <h3 class="text-base font-bold text-on-secondary-fixed font-headline">清掃戦略分析</h3>
-              <p class="text-xs text-on-surface-variant mt-1">78件の清掃指摘・カテゴリ別ヒートマップ・優先度マトリクス</p>
-            </div>
-          </div>
-        </a>
-        <a href="ota-strategy.html" class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-44 cursor-pointer block no-underline">
-          <div class="relative z-10 p-6 h-full flex flex-col justify-between">
-            <div class="w-11 h-11 rounded-lg bg-tertiary-container/10 flex items-center justify-center text-tertiary">
-              <span class="material-symbols-outlined text-2xl">monitoring</span>
-            </div>
-            <div>
-              <h3 class="text-base font-bold text-on-secondary-fixed font-headline">OTAパフォーマンス</h3>
-              <p class="text-xs text-on-surface-variant mt-1">複数サイトの口コミとスコアの相関関係を可視化</p>
-            </div>
-          </div>
-        </a>
-        <a href="es-dashboard.html" class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-44 cursor-pointer block no-underline">
-          <div class="relative z-10 p-6 h-full flex flex-col justify-between">
-            <div class="w-11 h-11 rounded-lg bg-on-secondary-container/10 flex items-center justify-center text-on-secondary-container">
-              <span class="material-symbols-outlined text-2xl">psychology</span>
-            </div>
-            <div>
-              <h3 class="text-base font-bold text-on-secondary-fixed font-headline">人材・ES管理</h3>
-              <p class="text-xs text-on-surface-variant mt-1">従業員満足度とサービス品質の相関分析・離職リスク予測</p>
-            </div>
-          </div>
-        </a>
-        <a href="simulator.html" class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-44 cursor-pointer block no-underline">
-          <div class="relative z-10 p-6 h-full flex flex-col justify-between">
-            <div class="w-11 h-11 rounded-lg bg-primary/10 flex items-center justify-center text-primary">
-              <span class="material-symbols-outlined text-2xl">calculate</span>
-            </div>
-            <div>
-              <h3 class="text-base font-bold text-on-secondary-fixed font-headline">ROIシミュレーター</h3>
-              <p class="text-xs text-on-surface-variant mt-1">設備投資による口コミスコアとADRの向上予測</p>
-            </div>
-          </div>
-        </a>
-      </div>
+<div class="kpi-target">目標8.83 達成率<span class="achievement good">94.3%</span></div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--green);">
+  <div class="kpi-label">高評価率</div>
+  <div class="kpi-value" data-kpi="high_rate">77.5%</div>
+  <div class="kpi-sub">8点以上</div>
 
-      <!-- Additional nav row -->
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-5">
-        <a href="deep-analysis.html" class="flex items-center gap-3 bg-surface-container-lowest rounded-xl kanban-shadow p-4 hover:-translate-y-1 transition-transform no-underline">
-          <span class="material-symbols-outlined text-primary text-xl">search</span>
-          <div>
-            <div class="text-sm font-bold text-on-secondary-fixed">深掘り分析</div>
-            <div class="text-[10px] text-on-surface-variant">7つの専門分析</div>
-          </div>
-        </a>
-        <a href="revenue-impact.html" class="flex items-center gap-3 bg-surface-container-lowest rounded-xl kanban-shadow p-4 hover:-translate-y-1 transition-transform no-underline">
-          <span class="material-symbols-outlined text-tertiary text-xl">trending_up</span>
-          <div>
-            <div class="text-sm font-bold text-on-secondary-fixed">品質×売上</div>
-            <div class="text-[10px] text-on-surface-variant">月間約9,985万円</div>
-          </div>
-        </a>
-        <a href="action-plans.html" class="flex items-center gap-3 bg-surface-container-lowest rounded-xl kanban-shadow p-4 hover:-translate-y-1 transition-transform no-underline">
-          <span class="material-symbols-outlined text-primary text-xl">assignment_turned_in</span>
-          <div>
-            <div class="text-sm font-bold text-on-secondary-fixed">アクションプラン</div>
-            <div class="text-[10px] text-on-surface-variant">7ホテルの改善計画</div>
-          </div>
-        </a>
-      </div>
-    </section>
-  </div>
+<div class="kpi-target">目標83.4 達成率<span class="achievement good">92.9%</span></div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--red);">
+  <div class="kpi-label">清掃クレーム率</div>
+  <div class="kpi-value" data-kpi="cleaning_issue_rate">4.6%</div>
+  <div class="kpi-sub">75件</div>
 
-  <!-- Priority Actions -->
-  <div class="card mb-6">
-    <div class="card-title">&#128293; 今週の優先アクション TOP3</div>
-    <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
-      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
-        <div>
-          <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#1</span>
-          <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">コンフォートホテル博多</span>
-          <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.89 &rarr; 目標 8.4</span>
-        </div>
-      </div>
-    </div>
-    <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
-      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
-        <div>
-          <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#2</span>
-          <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">アパホテル蒲田駅東</span>
-          <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.38 &rarr; 目標 7.9</span>
-        </div>
-      </div>
-    </div>
-    <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
-      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
-        <div>
-          <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#3</span>
-          <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">コートホテル新横浜</span>
-          <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.12 &rarr; 目標 7.6</span>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="kpi-target">目標2 達成率<span class="achievement bad">43.5%</span></div>
+</div>
+<div class="kpi-card" style="border-left-color:var(--red);">
+  <div class="kpi-label">低評価率</div>
+  <div class="kpi-value" data-kpi="low_rate">5.5%</div>
+  <div class="kpi-sub">4点以下</div>
 
-  <!-- Trend Chart -->
-  <div class="card mb-6">
-    <div class="card-title">&#128200; 口コミトレンド（日別）</div>
-    <div id="portfolioTrend" style="margin-top:1rem;"></div>
-  </div>
-
-  <!-- KPI Gauges -->
-  <div class="card mb-6">
-    <div class="card-title">&#127919; KPI目標 達成状況</div>
-    <div class="gauge-row">
-      <div class="gauge-item">
-        <div class="gauge-label">平均スコア</div>
-        <div class="svg-gauge" data-value="8.36" data-target="8.86" data-unit="" data-label="平均スコア" data-lower="false"></div>
-        <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">94.4%</span></div>
-      </div>
-      <div class="gauge-item">
-        <div class="gauge-label">清掃クレーム率</div>
-        <div class="svg-gauge" data-value="4.4" data-target="2" data-unit="%" data-label="清掃クレーム率" data-lower="true"></div>
-        <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">45.5%</span></div>
-      </div>
-      <div class="gauge-item">
-        <div class="gauge-label">高評価率</div>
-        <div class="svg-gauge" data-value="78" data-target="83.4" data-unit="%" data-label="高評価率" data-lower="false"></div>
-        <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">93.5%</span></div>
-      </div>
-      <div class="gauge-item">
-        <div class="gauge-label">低評価率</div>
-        <div class="svg-gauge" data-value="5.3" data-target="2.2" data-unit="%" data-label="低評価率" data-lower="true"></div>
-        <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">41.5%</span></div>
-      </div>
-    </div>
-  </div>
-
-</main>
-
-<div class="footer">&copy; 2026 PRIME CHANGE Corporation &mdash; Hotel Quality Management Portal &mdash; Confidential</div>
-
-<!-- Floating Support Button -->
-<div class="fixed bottom-8 right-8 z-40">
-  <button class="w-14 h-14 bg-on-secondary-fixed text-white rounded-full flex items-center justify-center shadow-xl hover:scale-105 transition-transform">
-    <span class="material-symbols-outlined">support_agent</span>
-  </button>
+<div class="kpi-target">目標2.2 達成率<span class="achievement bad">40%</span></div>
+</div>
 </div>
 
+<div class="grid-cards">
+<a href="hotel-dashboard.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128200;</div>
+  <div class="link-card-title">ホテル別口コミ</div>
+  <div class="link-card-desc">ホテルの口コミ分析をカード形式で一覧。サイト別評価・スコア分布・口コミ詳細をモーダルで閲覧。</div>
+  <div class="link-card-stat">19ホテル / 1,632件 &rarr;</div>
+</div></a>
+<a href="cleaning-strategy.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128167;</div>
+  <div class="link-card-title">清掃戦略</div>
+  <div class="link-card-desc">清掃品質の課題分析、カテゴリ別ヒートマップ、優先度マトリクス、横断的改善施策。</div>
+  <div class="link-card-stat">75件の清掃指摘 &rarr;</div>
+</div></a>
+<a href="deep-analysis.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128270;</div>
+  <div class="link-card-title">深掘り分析</div>
+  <div class="link-card-desc">クレーム類型・スタッフ・人員配置・完了時間・安全・品質売上・ベストプラクティスの7分析。</div>
+  <div class="link-card-stat">7つの専門分析 &rarr;</div>
+</div></a>
+<a href="revenue-impact.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128176;</div>
+  <div class="link-card-title">品質×売上</div>
+  <div class="link-card-desc">品質スコアと売上の相関分析、弾力性係数、3つのROIシナリオ比較。</div>
+  <div class="link-card-stat">月間約9,985万円 &rarr;</div>
+</div></a>
+<a href="action-plans.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#9989;</div>
+  <div class="link-card-title">アクションプラン</div>
+  <div class="link-card-desc">ホテル別の3フェーズ改善計画（即時/短期/中期）とKPI目標管理。</div>
+  <div class="link-card-stat">7ホテルの改善計画 &rarr;</div>
+</div></a>
+<a href="es-dashboard.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128101;</div>
+  <div class="link-card-title">ES管理</div>
+  <div class="link-card-desc">従業員満足度と品質スコアの相関分析、負荷管理、離職リスク予測。</div>
+  <div class="link-card-stat">ES×品質統合管理 &rarr;</div>
+</div></a>
+<a href="talent-management.html" class="link-card">
+<div class="card">
+  <div class="link-card-icon">&#128188;</div>
+  <div class="link-card-title">タレントマネジメント</div>
+  <div class="link-card-desc">スタッフ生産性ランキング・ホテル別人員配置・クレーム集中リスク分析。</div>
+  <div class="link-card-stat">人材配置×品質分析 &rarr;</div>
+</div></a>
+</div>
+
+<div class="card">
+  <div class="card-title">&#128293; 今週の優先アクション TOP3</div>
+  <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+      <div>
+        <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#1</span>
+        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">アパホテル蒲田駅東</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.38 &rarr; 目標 7.9</span>
+      </div>
+
+    </div>
+
+  </div>
+  <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+      <div>
+        <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#2</span>
+        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">コンフォートホテル博多</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 7.83 &rarr; 目標 8.3</span>
+      </div>
+
+    </div>
+
+  </div>
+  <div style="padding:1rem;border-left:4px solid var(--red);background:#FEF2F2;border-radius:8px;margin-bottom:0.75rem;">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:0.5rem;">
+      <div>
+        <span style="font-weight:800;font-size:1.1rem;color:var(--red);">#3</span>
+        <span style="font-weight:700;font-size:0.95rem;margin-left:0.5rem;">チサンホテル浜松町</span>
+        <span style="font-size:0.8rem;color:var(--text-light);margin-left:0.5rem;">スコア 6.52 &rarr; 目標 7</span>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="card alert-card">
+  <div class="card-title" style="color:var(--red);">&#9888; 緊急対応が必要なホテル (7件)</div>
+  <div class="alert-grid">
+    <div class="alert-item">
+      <div class="alert-item-title">アパホテル蒲田駅東</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.38</strong> / 清掃課題率: <strong>11.7%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, ほこり・塵, 臭気・異臭</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">コンフォートホテル博多</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.83</strong> / 清掃課題率: <strong>11.4%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, ほこり・塵, シミ・汚れ跡</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">チサンホテル浜松町</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">6.52</strong> / 清掃課題率: <strong>9.3%</strong></div>
+      <div class="alert-item-sub">主要課題: ほこり・塵, 毛髪・髪の毛, 清掃品質全般</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">コートホテル新横浜</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.12</strong> / 清掃課題率: <strong>8.5%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭, タバコ関連</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">コンフォートホテル横浜関内</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">7.57</strong> / 清掃課題率: <strong>8.4%</strong></div>
+      <div class="alert-item-sub">主要課題: シミ・汚れ跡, 清掃品質全般, カビ・モールド</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">ダイワロイネットホテル東京大崎</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.59</strong> / 清掃課題率: <strong>8.1%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, シミ・汚れ跡, 害虫</div>
+
+    </div>
+    <div class="alert-item">
+      <div class="alert-item-title">川崎日航ホテル</div>
+      <div class="alert-item-detail">スコア: <strong style="color:var(--red);">8.64</strong> / 清掃課題率: <strong>5.1%</strong></div>
+      <div class="alert-item-sub">主要課題: 清掃品質全般, 臭気・異臭</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">&#128200; 口コミトレンド（日別）</div>
+  <div id="portfolioTrend" style="margin-top:1rem;"></div>
+</div>
+
+<div class="card">
+  <div class="card-title">&#127919; KPI目標 達成状況</div>
+  <div class="gauge-row">
+    <div class="gauge-item">
+      <div class="gauge-label">平均スコア</div>
+      <div class="svg-gauge" data-value="8.33" data-target="8.83" data-unit="" data-label="平均スコア" data-lower="false"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">94.3%</span></div>
+    </div>
+    <div class="gauge-item">
+      <div class="gauge-label">清掃クレーム率</div>
+      <div class="svg-gauge" data-value="4.6" data-target="2" data-unit="%" data-label="清掃クレーム率" data-lower="true"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">43.5%</span></div>
+    </div>
+    <div class="gauge-item">
+      <div class="gauge-label">高評価率</div>
+      <div class="svg-gauge" data-value="77.5" data-target="83.4" data-unit="%" data-label="高評価率" data-lower="false"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement good">92.9%</span></div>
+    </div>
+    <div class="gauge-item">
+      <div class="gauge-label">低評価率</div>
+      <div class="svg-gauge" data-value="5.5" data-target="2.2" data-unit="%" data-label="低評価率" data-lower="true"></div>
+      <div style="font-size:0.75rem;color:var(--text-light);margin-top:0.3rem;">達成率: <span class="achievement bad">40%</span></div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="footer">&copy; 2026 PRIME CHANGE Corporation &mdash; Hotel Quality Management Portal &mdash; Confidential</div>
 </body>
 </html>

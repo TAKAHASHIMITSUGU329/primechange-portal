@@ -1,12 +1,12 @@
 {
-  "total_reviews": 61,
-  "overall_avg_10pt": 8.98,
-  "high_count": 54,
-  "high_rate": 88.5,
+  "total_reviews": 59,
+  "overall_avg_10pt": 8.95,
+  "high_count": 52,
+  "high_rate": 88.1,
   "mid_count": 5,
-  "mid_rate": 8.2,
+  "mid_rate": 8.5,
   "low_count": 2,
-  "low_rate": 3.3,
+  "low_rate": 3.4,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -28,10 +28,10 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 27,
-      "native_avg": 4.7,
+      "count": 26,
+      "native_avg": 4.69,
       "scale": "/5",
-      "avg_10pt": 9.41,
+      "avg_10pt": 9.38,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,10 +46,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 10,
-      "native_avg": 4.4,
+      "count": 9,
+      "native_avg": 4.33,
       "scale": "/5",
-      "avg_10pt": 8.8,
+      "avg_10pt": 8.67,
       "median_10pt": 10.0,
       "judgment": "良好"
     },
@@ -66,62 +66,36 @@
   "distribution": [
     {
       "score": 10,
-      "count": 39,
-      "pct": "63.9%"
+      "count": 37,
+      "pct": "62.7%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "4.9%"
+      "pct": "5.1%"
     },
     {
       "score": 8,
       "count": 12,
-      "pct": "19.7%"
+      "pct": "20.3%"
     },
     {
       "score": 7,
       "count": 1,
-      "pct": "1.6%"
+      "pct": "1.7%"
     },
     {
       "score": 6,
       "count": 4,
-      "pct": "6.6%"
+      "pct": "6.8%"
     },
     {
       "score": 2,
       "count": 2,
-      "pct": "3.3%"
+      "pct": "3.4%"
     }
   ],
   "comments": [
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-05",
-      "comment": "府中駅からすぐの立地で本当に便利です。お部屋も綺麗、バスルームも広めでアメニティグッツも充実してます。フロントの方も親切で府中にくるかたへぜひおすすめしたいホテルです。",
-      "good": "",
-      "bad": "",
-      "translated": "府中駅からすぐの立地で本当に便利です。お部屋も綺麗、バスルームも広めでアメニティグッツも充実してます。フロントの方も親切で府中にくるかたへぜひおすすめしたいホテルです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "kokorokorokoro"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-04",
-      "comment": "昨年に引き続き2回目の利用です。部屋もキレイで居心地も良いです。朝食のメニューは少ないけど、非常に美味しくいただきました。スマホの動画をテレビへ転送できるシステムも良かったです。",
-      "good": "",
-      "bad": "",
-      "translated": "昨年に引き続き2回目の利用です。部屋もキレイで居心地も良いです。朝食のメニューは少ないけど、非常に美味しくいただきました。スマホの動画をテレビへ転送できるシステムも良かったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "nisihiさん"
-    },
     {
       "site": "Booking.com",
       "rating": 8.0,

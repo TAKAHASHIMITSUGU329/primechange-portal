@@ -1,10 +1,10 @@
 {
-  "total_reviews": 73,
-  "overall_avg_10pt": 8.25,
-  "high_count": 57,
-  "high_rate": 78.1,
-  "mid_count": 15,
-  "mid_rate": 20.5,
+  "total_reviews": 70,
+  "overall_avg_10pt": 8.24,
+  "high_count": 55,
+  "high_rate": 78.6,
+  "mid_count": 14,
+  "mid_rate": 20.0,
   "low_count": 1,
   "low_rate": 1.4,
   "site_stats": [
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 38,
-      "native_avg": 8.11,
+      "count": 35,
+      "native_avg": 8.09,
       "scale": "/10",
-      "avg_10pt": 8.11,
+      "avg_10pt": 8.09,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 20,
-      "pct": "27.4%"
+      "count": 19,
+      "pct": "27.1%"
     },
     {
       "score": 9,
-      "count": 10,
-      "pct": "13.7%"
+      "count": 9,
+      "pct": "12.9%"
     },
     {
       "score": 8,
       "count": 27,
-      "pct": "37.0%"
+      "pct": "38.6%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "6.8%"
+      "pct": "7.1%"
     },
     {
       "score": 6,
-      "count": 9,
-      "pct": "12.3%"
+      "count": 8,
+      "pct": "11.4%"
     },
     {
       "score": 5,
@@ -101,45 +101,6 @@
     }
   ],
   "comments": [
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-04",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Tahlee"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-03",
-      "comment": "",
-      "good": "The location is great next to a subway station, staff are helpful and the room that we had was very spacious.",
-      "bad": "Yummy but Very limited breakfast option as they have the same menu everyday",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "美味しいけど、毎日同じメニューなので朝食の選択肢がすごく限られている。",
-      "reviewer": "Carlito"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Ai"
-    },
     {
       "site": "Booking.com",
       "rating": 8.0,
@@ -644,7 +605,7 @@
       "bad": "Coffee machine broken most of the stay",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "滞在中ほとんどの時間、コーヒーマシンが故障していた。",
+      "translated_bad": "コーヒーマシンが滞在中ほとんど故障していた",
       "reviewer": "Kourtney"
     },
     {
@@ -694,7 +655,7 @@
       "comment": "這裏太方便了，樓下就是地鐵站，不論是自己或是朋友一起來都非常之方便，最重要的是客服人員態度10分好，10分推薦",
       "good": "",
       "bad": "",
-      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフの方々がとても親切で助かります。本当におすすめです！",
+      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフがとても親切で助かります。本当におすすめです！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍o‍m‍o‍4‍2‍9"

@@ -4,11 +4,11 @@
     "title": "スタッフ個人別パフォーマンス分析",
     "subtitle": "Individual Staff Performance Analysis",
     "total_hotels": 19,
-    "total_staff_analyzed": 309,
+    "total_staff_analyzed": 312,
     "data_period": "R8年度（2月〜3月）"
   },
   "maid_claims_summary": {
-    "total_maids_with_claims": 110,
+    "total_maids_with_claims": 111,
     "top_claim_maids": [
       {
         "name": "不明",
@@ -148,6 +148,18 @@
         "hotel_key": "kawasaki_nikko"
       },
       {
+        "name": "チャン",
+        "claims": 5,
+        "hotel": "ダイワロイネットホテル東京大崎",
+        "hotel_key": "daiwa_osaki"
+      },
+      {
+        "name": "サラ",
+        "claims": 5,
+        "hotel": "ホテルケヤキゲート東京府中",
+        "hotel_key": "keyakigate"
+      },
+      {
         "name": "メイ",
         "claims": 5,
         "hotel": "京成リッチモンドホテル東京錦糸町",
@@ -158,12 +170,6 @@
         "claims": 5,
         "hotel": "川崎日航ホテル",
         "hotel_key": "kawasaki_nikko"
-      },
-      {
-        "name": "チャン",
-        "claims": 4,
-        "hotel": "ダイワロイネットホテル東京大崎",
-        "hotel_key": "daiwa_osaki"
       },
       {
         "name": "ピョー",
@@ -184,12 +190,6 @@
         "hotel_key": "hearton"
       },
       {
-        "name": "サラ",
-        "claims": 4,
-        "hotel": "ホテルケヤキゲート東京府中",
-        "hotel_key": "keyakigate"
-      },
-      {
         "name": "ラジタ",
         "claims": 3,
         "hotel": "ハートンホテル東品川",
@@ -198,9 +198,9 @@
     ]
   },
   "maid_productivity": {
-    "total_maids_with_room_data": 172,
-    "avg_rooms_per_day": 11.8,
-    "median_rooms_per_day": 12.7,
+    "total_maids_with_room_data": 174,
+    "avg_rooms_per_day": 11.7,
+    "median_rooms_per_day": 12.6,
     "max_rooms_per_day": 26.1,
     "min_rooms_per_day": 0.3,
     "top_performers": [
@@ -347,9 +347,9 @@
     ]
   },
   "attendance_analysis": {
-    "total_staff": 306,
-    "avg_days": 28.9,
-    "high_attendance": 242,
+    "total_staff": 309,
+    "avg_days": 28.8,
+    "high_attendance": 244,
     "low_attendance": 12
   },
   "hotel_summaries": [
@@ -378,13 +378,13 @@
     {
       "hotel_key": "comfort_narita",
       "name": "コンフォートホテル成田",
-      "roster_size": 18,
-      "maid_count": 17,
+      "roster_size": 20,
+      "maid_count": 19,
       "checker_count": 0,
       "total_claims": 0,
       "claims_per_maid": 0.0,
-      "avg_rooms_per_day": 2.7,
-      "avg_attendance_days": 23.3
+      "avg_rooms_per_day": 2.9,
+      "avg_attendance_days": 24.0
     },
     {
       "hotel_key": "comfort_yokohama",
@@ -469,8 +469,8 @@
       "roster_size": 25,
       "maid_count": 18,
       "checker_count": 4,
-      "total_claims": 4,
-      "claims_per_maid": 0.22,
+      "total_claims": 5,
+      "claims_per_maid": 0.28,
       "avg_rooms_per_day": 11.1,
       "avg_attendance_days": 25.6
     },
@@ -505,7 +505,7 @@
       "total_claims": 3,
       "claims_per_maid": 0.43,
       "avg_rooms_per_day": 10.4,
-      "avg_attendance_days": 34.1
+      "avg_attendance_days": 34.2
     },
     {
       "hotel_key": "keisei_richmond",
@@ -546,28 +546,28 @@
       "roster_size": 16,
       "maid_count": 13,
       "checker_count": 3,
-      "total_claims": 14,
-      "claims_per_maid": 1.08,
+      "total_claims": 15,
+      "claims_per_maid": 1.15,
       "avg_rooms_per_day": 12.9,
       "avg_attendance_days": 39.4
     },
     {
       "hotel_key": "kawasaki_nikko",
       "name": "川崎日航ホテル",
-      "roster_size": 26,
-      "maid_count": 15,
+      "roster_size": 27,
+      "maid_count": 16,
       "checker_count": 3,
       "total_claims": 25,
-      "claims_per_maid": 1.67,
+      "claims_per_maid": 1.56,
       "avg_rooms_per_day": 13.1,
-      "avg_attendance_days": 30.4
+      "avg_attendance_days": 29.8
     }
   ],
   "recommendations": [
     {
       "title": "クレーム多発スタッフへの個別研修",
       "priority": "最優先",
-      "rationale": "全110名のメイドからクレームが報告。上位集中是正で全体品質向上が可能。",
+      "rationale": "全111名のメイドからクレームが報告。上位集中是正で全体品質向上が可能。",
       "actions": [
         "クレーム2件以上のメイドへの個別フィードバック面談",
         "清掃手順の再確認と実技研修",
@@ -587,7 +587,7 @@
     {
       "title": "生産性指標の導入と目標管理",
       "priority": "中",
-      "rationale": "メイド1日あたり清掃室数の平均11.8室。個人差が大きく標準化が課題。",
+      "rationale": "メイド1日あたり清掃室数の平均11.7室。個人差が大きく標準化が課題。",
       "actions": [
         "日あたり清掃室数の個人別トラッキング",
         "効率と品質のバランス指標の設定",
