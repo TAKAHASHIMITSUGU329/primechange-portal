@@ -1,6 +1,6 @@
 // V2 Revenue Impact page generator - produces revenue-impact.html
 // Improvement 2: 売上インパクト横串 with Hotel Revenue Opportunity Table
-const { esc, nav, footer, pageHead, pageFoot } = require('./common-v2');
+const { esc, nav, footer, pageHead, pageFoot, deltaBadge } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
 // ---------------------------------------------------------------------------
@@ -42,7 +42,7 @@ function priBadge(pri) {
 // Main builder
 // ---------------------------------------------------------------------------
 
-function buildRevenueImpact(data, revenueOps) {
+function buildRevenueImpact(data, revenueOps, deltas) {
   var a6 = (data.analyses && data.analyses[6]) || (data.analyses && data.analyses['6']) || {};
   var html = [];
   var content = [];
@@ -103,6 +103,11 @@ function buildRevenueImpact(data, revenueOps) {
     content.push('<div class="kpi-card"><div class="kpi-label">平均RevPAR</div><div class="kpi-value">&#165;' + Math.round(ps.avg_revpar).toLocaleString() + '</div></div>');
     if (totalPotential > 0) {
       content.push('<div class="kpi-card" style="border-left-color:var(--orange);"><div class="kpi-label">総改善ポテンシャル</div><div class="kpi-value" style="color:var(--green);">+&#165;' + formatYen(totalPotential) + '</div><div class="kpi-sub">月間改善機会</div></div>');
+    }
+    // Portfolio score delta context
+    var scoreDelta = deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.avg_score;
+    if (scoreDelta) {
+      content.push('<div class="kpi-card" style="border-left-color:var(--navy);"><div class="kpi-label">ポートフォリオ平均スコア</div><div class="kpi-value">' + scoreDelta.current + '</div><div class="kpi-sub">/ 10 点</div>' + deltaBadge(scoreDelta, 'higher') + '</div>');
     }
     content.push('</div>');
   }

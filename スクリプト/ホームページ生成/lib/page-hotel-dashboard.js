@@ -145,7 +145,7 @@ function buildHotelDashboard(data, revenueOps, deltas) {
       '  </div>',
       '  <div class="stats-row">',
       '    <div class="stat-chip"><div class="val" style="color:var(--green);">' + (h.high_rate_pct || h.high_rate || 0) + '%' + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[h.key] && deltas.hotels[h.key].high_rate || null, 'higher') + '</div><div class="lbl">高評価</div></div>',
-      '    <div class="stat-chip"><div class="val" style="color:var(--red);">' + (h.low_rate_pct || h.low_rate || 0) + '%</div><div class="lbl">低評価</div></div>',
+      '    <div class="stat-chip"><div class="val" style="color:var(--red);">' + (h.low_rate_pct || h.low_rate || 0) + '%' + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[h.key] && deltas.hotels[h.key].low_rate || null, 'lower') + '</div><div class="lbl">低評価</div></div>',
       '    <div class="stat-chip"><div class="val" style="color:' + cleanColor + ';">' + cleanRate + '%</div><div class="lbl">清掃課題</div></div>',
       '  </div>',
       '  <div class="site-dots">' + sites + '</div>',
@@ -195,6 +195,7 @@ function buildHotelDashboard(data, revenueOps, deltas) {
   lines.push('      <div class="kpi-label">管理ホテル数</div>');
   lines.push('      <div class="kpi-value">' + totalHotels + '</div>');
   lines.push('      <div class="kpi-sub">ホテル</div>');
+  lines.push('      ' + deltaBadge(deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.total_hotels || null, 'higher'));
   lines.push('      ' + totalHotelsTarget);
   lines.push('    </div>');
 
@@ -203,6 +204,7 @@ function buildHotelDashboard(data, revenueOps, deltas) {
   lines.push('      <div class="kpi-label">総口コミ数</div>');
   lines.push('      <div class="kpi-value">' + totalReviews.toLocaleString() + '</div>');
   lines.push('      <div class="kpi-sub">件の口コミを分析</div>');
+  lines.push('      ' + deltaBadge(deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.total_reviews || null, 'higher'));
   lines.push('      ' + totalReviewsTarget);
   lines.push('    </div>');
 
@@ -212,6 +214,7 @@ function buildHotelDashboard(data, revenueOps, deltas) {
   lines.push('      <div class="kpi-label">ポートフォリオ平均</div>');
   lines.push('      <div class="kpi-value">' + avgScore + '</div>');
   lines.push('      <div class="kpi-sub">/ 10 点</div>');
+  lines.push('      ' + deltaBadge(deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.avg_score || null, 'higher'));
   lines.push('      ' + avgScoreTarget);
   lines.push('    </div>');
 
@@ -220,6 +223,7 @@ function buildHotelDashboard(data, revenueOps, deltas) {
   lines.push('      <div class="kpi-label">高評価率</div>');
   lines.push('      <div class="kpi-value">' + highRate + '%</div>');
   lines.push('      <div class="kpi-sub">8点以上の割合</div>');
+  lines.push('      ' + deltaBadge(deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.high_rate || null, 'higher'));
   lines.push('      ' + highRateTarget);
   lines.push('    </div>');
 
@@ -228,6 +232,7 @@ function buildHotelDashboard(data, revenueOps, deltas) {
   lines.push('      <div class="kpi-label">低評価率</div>');
   lines.push('      <div class="kpi-value">' + lowRate + '%</div>');
   lines.push('      <div class="kpi-sub">4点以下の割合</div>');
+  lines.push('      ' + deltaBadge(deltas && deltas.hasDeltas && deltas.metrics && deltas.metrics.low_rate || null, 'lower'));
   lines.push('      ' + lowRateTarget);
   lines.push('    </div>');
 

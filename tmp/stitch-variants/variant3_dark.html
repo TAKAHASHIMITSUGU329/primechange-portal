@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+              "navy-deep": "#1A1A2E",
+              "navy-card": "rgba(30, 30, 60, 0.4)",
+              "brand-red": "#C23B3A",
+              "accent-cyan": "#00f2ff",
+              "accent-gold": "#FFD700",
+              "glass-border": "rgba(255, 255, 255, 0.12)"
+            },
+            "fontFamily": {
+              "headline": ["Manrope", "Noto Sans JP", "sans-serif"],
+              "body": ["Plus Jakarta Sans", "Noto Sans JP", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+            }
+          },
+        },
+      }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .glass-morphism {
+                background: rgba(255, 255, 255, 0.03);
+                backdrop-filter: blur(20px);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            }
+            .glass-nav {
+                background: rgba(26, 26, 46, 0.8);
+                backdrop-filter: blur(15px);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            }
+            .glowing-text-cyan {
+                text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+            }
+            .glowing-text-red {
+                text-shadow: 0 0 10px rgba(194, 59, 58, 0.5);
+            }
+            .card-hover:hover {
+                background: rgba(255, 255, 255, 0.06);
+                border-color: rgba(255, 255, 255, 0.2);
+                transform: translateY(-2px);
+                transition: all 0.3s ease;
+            }
+        }
+        body {
+            background-color: #1A1A2E;
+            color: #ffffff;
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+            background-image: 
+                radial-gradient(circle at 0% 0%, rgba(194, 59, 58, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 100% 100%, rgba(0, 242, 255, 0.03) 0%, transparent 50%);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+<header class="fixed top-0 w-full z-50 glass-nav">
+<div class="flex justify-between items-center px-8 h-20 w-full max-w-[1920px] mx-auto">
+<div class="flex items-center gap-12">
+<span class="text-2xl font-extrabold tracking-[0.2em] text-white font-headline">PRIMECHANGE</span>
+<nav class="hidden lg:flex items-center gap-8 font-headline text-xs font-bold tracking-widest uppercase">
+<a class="text-white border-b-2 border-brand-red pb-1 transition-all" href="#">ポータル</a>
+<a class="text-white/60 hover:text-white transition-all" href="#">ホテル別</a>
+<a class="text-white/60 hover:text-white transition-all" href="#">清掃戦略</a>
+<a class="text-white/60 hover:text-white transition-all" href="#">深掘り分析</a>
+<a class="text-white/60 hover:text-white transition-all" href="#">シミュレーター</a>
+<a class="text-white/60 hover:text-white transition-all" href="#">OTA戦略</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex gap-2">
+<button class="p-2.5 rounded-xl glass-morphism hover:bg-white/10 transition-all">
+<span class="material-symbols-outlined text-white text-xl">notifications</span>
+</button>
+<button class="p-2.5 rounded-xl glass-morphism hover:bg-white/10 transition-all">
+<span class="material-symbols-outlined text-white text-xl">search</span>
+</button>
+</div>
+<div class="h-10 w-[1px] bg-white/10 mx-2"></div>
+<div class="flex items-center gap-3">
+<div class="text-right">
+<p class="text-[10px] font-bold text-white/40 uppercase tracking-tighter">Executive</p>
+<p class="text-xs font-semibold text-white">M. Tanaka</p>
+</div>
+<div class="w-10 h-10 rounded-full border-2 border-brand-red p-0.5">
+<img alt="User Profile" class="w-full h-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkRvWtQM5PfcZI3SLyd_yQJhtOKYZ2Y-Es2c9mL7kKHpQ8q_L8_rLVFLscuZp80mo7ikPgs4a4AfWmEXke2YoYkAZzLXfAbTED-DNvyZx1Qkldgb73TcYdfXsY408fBg5kcfw6EQY79iZEpf6IxCZWkmTAetIm1YTe_m0bq-03RHi3_gn55nZQ_TwvXjjhTPktKYEegRSXlAhvYVZVHeJ9HHJN-laYrXckWlE0RKJlHWfSyHUCag_IUbkPFzwl--66o_GjX1aMrJM"/>
+</div>
+</div>
+</div>
+</div>
+</header>
+<aside class="h-screen w-20 fixed left-0 top-0 pt-24 flex flex-col items-center gap-8 bg-black/20 border-r border-white/5 hidden xl:flex z-40">
+<a class="p-3 text-brand-red glass-morphism rounded-xl" href="#"><span class="material-symbols-outlined">dashboard</span></a>
+<a class="p-3 text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined">fact_check</span></a>
+<a class="p-3 text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined">group</span></a>
+<a class="p-3 text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined">insights</span></a>
+<div class="mt-auto mb-8">
+<a class="p-3 text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined">settings</span></a>
+</div>
+</aside>
+<main class="xl:pl-20 pt-28 pb-12 px-10 max-w-[1920px] mx-auto">
+<div class="mb-12 flex justify-between items-end">
+<div>
+<h1 class="text-4xl font-extrabold tracking-tight text-white font-headline mb-3">
+                    QUALITY <span class="text-brand-red">PORTFOLIO</span>
+</h1>
+<div class="flex items-center gap-4">
+<span class="text-white/40 text-sm font-medium tracking-widest uppercase">Performance Dashboard</span>
+<span class="w-1.5 h-1.5 rounded-full bg-brand-red animate-pulse"></span>
+<span class="text-brand-red text-xs font-bold uppercase tracking-widest">Live April 2024</span>
+</div>
+</div>
+<div class="flex gap-4">
+<button class="px-6 py-2.5 glass-morphism rounded-lg text-xs font-bold tracking-widest uppercase hover:bg-white/10 transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-sm">calendar_month</span> 月間レポート
+                </button>
+</div>
+</div>
+<section class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12">
+<div class="glass-morphism p-8 rounded-2xl flex flex-col justify-between relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-24 h-24 bg-white/5 rounded-bl-full -mr-8 -mt-8 transition-all group-hover:scale-110"></div>
+<span class="text-[10px] font-bold text-white/40 uppercase tracking-[0.2em] mb-4">Portfolio Size</span>
+<div class="flex items-baseline gap-2">
+<span class="text-5xl font-extrabold text-white font-headline">19</span>
+<span class="text-sm font-medium text-white/30">Hotels</span>
+</div>
+<div class="mt-6 flex items-center gap-2">
+<span class="h-1 flex-1 bg-white/10 rounded-full overflow-hidden">
+<span class="block h-full bg-white/40 w-full"></span>
+</span>
+</div>
+</div>
+<div class="glass-morphism p-8 rounded-2xl flex flex-col justify-between group">
+<span class="text-[10px] font-bold text-white/40 uppercase tracking-[0.2em] mb-4">Total Reviews</span>
+<div class="flex items-baseline gap-2">
+<span class="text-5xl font-extrabold text-white font-headline">1,856</span>
+</div>
+<div class="mt-6 flex items-center gap-2 text-accent-cyan text-xs font-bold">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span class="glowing-text-cyan">+12.4% vs Prev Month</span>
+</div>
+</div>
+<div class="glass-morphism p-8 rounded-2xl border-t-2 border-t-accent-cyan/30 flex flex-col justify-between group">
+<span class="text-[10px] font-bold text-accent-cyan uppercase tracking-[0.2em] mb-4">Average Score</span>
+<div class="flex items-baseline gap-2">
+<span class="text-5xl font-extrabold text-white font-headline glowing-text-cyan">8.33</span>
+<span class="text-sm font-medium text-white/30">/ 10</span>
+</div>
+<div class="mt-4 flex items-center gap-1">
+<div class="flex text-accent-cyan">
+<span class="material-symbols-outlined text-xs fill-1">star</span>
+<span class="material-symbols-outlined text-xs fill-1">star</span>
+<span class="material-symbols-outlined text-xs fill-1">star</span>
+<span class="material-symbols-outlined text-xs fill-1">star</span>
+<span class="material-symbols-outlined text-xs">star_half</span>
+</div>
+</div>
+</div>
+<div class="glass-morphism p-8 rounded-2xl flex flex-col justify-between group">
+<span class="text-[10px] font-bold text-white/40 uppercase tracking-[0.2em] mb-4">High Satisfaction</span>
+<div class="flex items-baseline gap-2">
+<span class="text-5xl font-extrabold text-white font-headline">77.4</span>
+<span class="text-sm font-medium text-white/30">%</span>
+</div>
+<div class="mt-6 h-1 bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-accent-cyan shadow-[0_0_10px_rgba(0,242,255,0.5)]" style="width: 77.4%;"></div>
+</div>
+</div>
+<div class="glass-morphism p-8 rounded-2xl border-t-2 border-t-brand-red/50 bg-brand-red/5 flex flex-col justify-between group">
+<span class="text-[10px] font-bold text-brand-red uppercase tracking-[0.2em] mb-4">Cleaning Claims</span>
+<div class="flex items-baseline gap-2">
+<span class="text-5xl font-extrabold text-brand-red font-headline glowing-text-red">4.3</span>
+<span class="text-sm font-medium text-brand-red/40">%</span>
+</div>
+<div class="mt-6 flex items-center gap-2 text-brand-red text-xs font-bold">
+<span class="material-symbols-outlined text-sm">error</span>
+<span class="uppercase tracking-widest animate-pulse">Critical Alert</span>
+</div>
+</div>
+</section>
+<div class="grid grid-cols-12 gap-8">
+<section class="col-span-12 lg:col-span-4 space-y-6">
+<div class="flex items-center justify-between mb-2">
+<h2 class="text-sm font-bold font-headline text-white tracking-[0.3em] uppercase">Critical Focus Units</h2>
+<span class="px-2 py-1 bg-brand-red text-white text-[9px] font-black rounded uppercase tracking-tighter shadow-lg shadow-brand-red/20">4 Priority Alerts</span>
+</div>
+<div class="space-y-4">
+<div class="glass-morphism rounded-2xl p-6 border-l-4 border-brand-red card-hover relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-all">
+<span class="material-symbols-outlined text-4xl">warning</span>
+</div>
+<div class="flex justify-between items-start mb-3">
+<h3 class="font-bold text-white text-lg tracking-tight">グランドゼニス 汐留</h3>
+<span class="text-[9px] bg-brand-red/20 text-brand-red border border-brand-red/30 px-2 py-0.5 rounded font-bold uppercase">Score Drop</span>
+</div>
+<p class="text-sm text-white/50 leading-relaxed mb-5">直近1週間の清潔感スコアが0.5pt低下。特定のフロアでの清掃不備が要因の可能性。</p>
+<div class="flex justify-between items-center">
+<button class="text-accent-cyan text-[10px] font-black tracking-widest uppercase flex items-center gap-2 group/btn">
+                                Analysis <span class="material-symbols-outlined text-xs group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<span class="text-[10px] text-white/20 font-mono">ID: SHI-001</span>
+</div>
+</div>
+<div class="glass-morphism rounded-2xl p-6 border-l-4 border-brand-red card-hover relative overflow-hidden group">
+<div class="flex justify-between items-start mb-3">
+<h3 class="font-bold text-white text-lg tracking-tight">パークリゾート 京都</h3>
+<span class="text-[9px] bg-brand-red/20 text-brand-red border border-brand-red/30 px-2 py-0.5 rounded font-bold uppercase">Facilities</span>
+</div>
+<p class="text-sm text-white/50 leading-relaxed mb-5">配管に関するクレームが複数件発生。特定タイプの客室に問題が集中しています。</p>
+<div class="flex justify-between items-center">
+<button class="text-accent-cyan text-[10px] font-black tracking-widest uppercase flex items-center gap-2 group/btn">
+                                Maintenance <span class="material-symbols-outlined text-xs group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<span class="text-[10px] text-white/20 font-mono">ID: KYO-042</span>
+</div>
+</div>
+<div class="glass-morphism rounded-2xl p-6 border-l-4 border-white/20 opacity-60 hover:opacity-100 transition-all card-hover">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-white text-base">ベイサイド 横浜</h3>
+<span class="text-[9px] bg-white/5 text-white/60 border border-white/10 px-2 py-0.5 rounded uppercase">Response Delay</span>
+</div>
+<p class="text-xs text-white/40 mb-2">OTA口コミへの返信率が70%を維持。未返信が32件蓄積。</p>
+</div>
+</div>
+</section>
+<section class="col-span-12 lg:col-span-8">
+<div class="mb-8">
+<h2 class="text-sm font-bold font-headline text-white tracking-[0.3em] uppercase">Strategic Modules</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="group relative h-64 glass-morphism rounded-2xl overflow-hidden cursor-pointer card-hover border-b-4 border-b-brand-red/0 hover:border-b-brand-red transition-all">
+<div class="absolute inset-0 z-0">
+<img alt="luxury hotel interior" class="w-full h-full object-cover opacity-10 group-hover:scale-110 group-hover:opacity-20 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCypuFZQvYP0vhiyGLW0wOzN9Yb1-XGl0xA_kHNNOkbMmPJZ8z4AYRSZ8Aw2rdw5tY1EWVREYgRZYgY0TjNgBK7hgV50oVAGbcyMRM9Nngs4JGHotibrNIAP3dsvqjYwf-rw0WrioeDVD1dI9Jig_A078uNm2pvVS-K8sSbDoLiaz-xi5sPZHN8oJArjLMqkgu5NmAefOrFaV5My__kz5Cbf_mWRAza5pNKD0vyiFJpJm5X51XrKo7T4r6hvnBDREMQnJO0AluS-Us"/>
+<div class="absolute inset-0 bg-gradient-to-t from-navy-deep to-transparent"></div>
+</div>
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-2xl glass-morphism flex items-center justify-center text-brand-red shadow-xl group-hover:rotate-6 transition-transform">
+<span class="material-symbols-outlined text-3xl">cleaning_services</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-white font-headline mb-2">清掃戦略分析</h3>
+<p class="text-xs text-white/40 font-medium leading-relaxed">AIによる清掃動線とコストの最適化シミュレーション</p>
+<div class="mt-4 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-[9px] font-black uppercase text-accent-cyan tracking-widest">Access Module</span>
+<span class="h-[1px] w-8 bg-accent-cyan/30"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="group relative h-64 glass-morphism rounded-2xl overflow-hidden cursor-pointer card-hover border-b-4 border-b-accent-cyan/0 hover:border-b-accent-cyan transition-all">
+<div class="absolute inset-0 z-0">
+<img alt="data analytics" class="w-full h-full object-cover opacity-10 group-hover:scale-110 group-hover:opacity-20 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsKmhVmBrEQvkZMWcq8FMOsD9IU-Mmx5dXEbn6eEQ45RHlnpKrzBjHcOnACRIMGzP-6OqIXoQ92XPSVyx2m9ugzF_hP8hNwc1g5U-EPM2TP-Vjf0vOe61fMss6VFn7VN-W7nlioYjswQdU7uxkzXKZonSImc5CJwAzIE49du3BlPcQ0ZHHuogoUcsPPqZXiVU6YVcU7TRo3xE5mana1nefpZcHupHfOh5jYESfgjWJonyogH5GhvjNE_jKLYbjvRfLwJ_oGlWFLQA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-navy-deep to-transparent"></div>
+</div>
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-2xl glass-morphism flex items-center justify-center text-accent-cyan shadow-xl group-hover:rotate-6 transition-transform">
+<span class="material-symbols-outlined text-3xl">monitoring</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-white font-headline mb-2">OTAパフォーマンス</h3>
+<p class="text-xs text-white/40 font-medium leading-relaxed">複数サイトの口コミとスコアの相関関係を可視化</p>
+<div class="mt-4 flex items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="text-[9px] font-black uppercase text-accent-cyan tracking-widest">Access Module</span>
+<span class="h-[1px] w-8 bg-accent-cyan/30"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="group relative h-64 glass-morphism rounded-2xl overflow-hidden cursor-pointer card-hover">
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-2xl glass-morphism flex items-center justify-center text-white/60">
+<span class="material-symbols-outlined text-3xl">psychology</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-white font-headline mb-2">人材・ES管理</h3>
+<p class="text-xs text-white/40 font-medium leading-relaxed">従業員満足度とサービス品質の相関関係スコアリング</p>
+</div>
+</div>
+</div>
+<div class="group relative h-64 glass-morphism rounded-2xl overflow-hidden cursor-pointer card-hover border-b-4 border-b-white/0 hover:border-b-white transition-all">
+<div class="relative z-10 p-8 h-full flex flex-col justify-between">
+<div class="w-14 h-14 rounded-2xl glass-morphism flex items-center justify-center text-accent-gold">
+<span class="material-symbols-outlined text-3xl">calculate</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-white font-headline mb-2">ROIシミュレーター</h3>
+<p class="text-xs text-white/40 font-medium leading-relaxed">設備投資による口コミスコアとADRの向上予測</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12 flex justify-end">
+<button class="relative group overflow-hidden bg-brand-red px-10 py-4 rounded-xl font-black text-[10px] tracking-[0.3em] uppercase transition-all shadow-[0_0_30px_rgba(194,59,58,0.3)] hover:shadow-brand-red/50 active:scale-95">
+<span class="relative z-10 flex items-center gap-3">
+                            Generate Intelligence Report <span class="material-symbols-outlined text-base">ios_share</span>
+</span>
+<div class="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+</button>
+</div>
+</section>
+</div>
+</main>
+<div class="fixed bottom-10 right-10 z-50">
+<button class="w-16 h-16 glass-morphism rounded-2xl flex items-center justify-center shadow-2xl hover:scale-110 hover:rotate-3 transition-all border-white/20">
+<span class="material-symbols-outlined text-white text-3xl">support_agent</span>
+<span class="absolute -top-1 -right-1 w-4 h-4 bg-accent-cyan rounded-full animate-ping"></span>
+</button>
+</div>
+
+</body></html>

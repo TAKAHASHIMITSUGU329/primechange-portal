@@ -139,7 +139,9 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
       lines.push('  <div class="risk-hotel-name">' + esc(h.hotel) + '</div>');
       var riskKey = revKey || '';
       var riskDelta = deltas && deltas.hotels && deltas.hotels[riskKey] && deltas.hotels[riskKey].overall_avg_10pt;
-      lines.push('  <div class="risk-detail">スコア: <strong style="color:#EF4444;">' + (h.avg || 0) + '</strong>' + deltaBadgeCompact(riskDelta || null, 'higher') + ' / 清掃課題率: <strong>' + (h.cleaning_rate || 0) + '%</strong></div>');
+      var riskHighDelta = deltas && deltas.hotels && deltas.hotels[riskKey] && deltas.hotels[riskKey].high_rate;
+      var riskLowDelta = deltas && deltas.hotels && deltas.hotels[riskKey] && deltas.hotels[riskKey].low_rate;
+      lines.push('  <div class="risk-detail">スコア: <strong style="color:#EF4444;">' + (h.avg || 0) + '</strong>' + deltaBadgeCompact(riskDelta || null, 'higher') + ' / 高評価: <strong>' + (h.high_rate || 0) + '%</strong>' + deltaBadgeCompact(riskHighDelta || null, 'higher') + ' / 低評価: <strong>' + (h.low_rate || 0) + '%</strong>' + deltaBadgeCompact(riskLowDelta || null, 'lower') + ' / 清掃課題率: <strong>' + (h.cleaning_rate || 0) + '%</strong></div>');
       lines.push('  <div class="risk-problems">' + esc((h.key_problems || []).join('、')) + '</div>');
       lines.push('</div>');
       if (loss > 0) lines.push('<span class="revenue-badge loss">&yen;' + formatYen(loss) + '/月</span>');

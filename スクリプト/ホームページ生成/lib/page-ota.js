@@ -6,6 +6,7 @@ var nav = common.nav;
 var footer = common.footer;
 var pageHead = common.pageHead;
 var pageFoot = common.pageFoot;
+var deltaBadgeCompact = common.deltaBadgeCompact;
 
 var TIER_COLORS = {
   '優秀': '#10B981',
@@ -35,7 +36,7 @@ function scoreColor(score) {
   return '#EF4444';
 }
 
-function buildOTA(data) {
+function buildOTA(data, deltas) {
   var pov = data.pov || {};
   var hotelsRanked = pov.hotels_ranked || [];
   var hotelDetails = data.hotelDetails || {};
@@ -132,10 +133,32 @@ function buildOTA(data) {
     var agg = siteAgg[site];
     var avgScore = agg.count > 0 ? (agg.totalScore / agg.count) : 0;
     var color = scoreColor(avgScore);
+    // Aggregate site-level delta across all hotels
+    var siteScoreSum = 0, sitePrevSum = 0, siteScoreCount = 0;
+    var siteCountSum = 0, sitePrevCountSum = 0, siteCountHas = false;
+    if (deltas && deltas.hasDeltas && deltas.hotels) {
+      Object.keys(deltas.hotels).forEach(function(hk) {
+        var hd = deltas.hotels[hk];
+        if (hd.sites && hd.sites[site]) {
+          if (hd.sites[site].avg_10pt) {
+            siteScoreSum += hd.sites[site].avg_10pt.current;
+            sitePrevSum += hd.sites[site].avg_10pt.previous;
+            siteScoreCount++;
+          }
+          if (hd.sites[site].count) {
+            siteCountSum += hd.sites[site].count.current;
+            sitePrevCountSum += hd.sites[site].count.previous;
+            siteCountHas = true;
+          }
+        }
+      });
+    }
+    var siteAvgDelta = siteScoreCount > 0 ? { current: Math.round(siteScoreSum / siteScoreCount * 100) / 100, previous: Math.round(sitePrevSum / siteScoreCount * 100) / 100, delta: Math.round((siteScoreSum / siteScoreCount - sitePrevSum / siteScoreCount) * 100) / 100 } : null;
+    var siteCountDelta = siteCountHas ? { current: siteCountSum, previous: sitePrevCountSum, delta: siteCountSum - sitePrevCountSum } : null;
     lines.push('<div class="ota-site-card" style="border-top-color:' + color + ';">');
     lines.push('  <div class="site-name">' + esc(site) + '</div>');
-    lines.push('  <div class="site-score" style="color:' + color + ';">' + avgScore.toFixed(2) + '</div>');
-    lines.push('  <div class="site-meta"><span>' + agg.reviews + '件</span><span>|</span><span>' + agg.hotelCount + 'ホテル</span></div>');
+    lines.push('  <div class="site-score" style="color:' + color + ';">' + avgScore.toFixed(2) + deltaBadgeCompact(siteAvgDelta, 'higher') + '</div>');
+    lines.push('  <div class="site-meta"><span>' + agg.reviews + '件' + deltaBadgeCompact(siteCountDelta, 'higher') + '</span><span>|</span><span>' + agg.hotelCount + 'ホテル</span></div>');
     lines.push('</div>');
   });
   lines.push('</div></div>');
@@ -159,7 +182,8 @@ function buildOTA(data) {
       if (stat) {
         var bg = cellColor(stat.avg_10pt);
         var tc = cellTextColor(stat.avg_10pt);
-        lines.push('<td style="background:' + bg + ';color:' + tc + ';">' + stat.avg_10pt.toFixed(1) + '</td>');
+        var cellDelta = deltas && deltas.hasDeltas && deltas.hotels && deltas.hotels[h.key] && deltas.hotels[h.key].sites && deltas.hotels[h.key].sites[site] && deltas.hotels[h.key].sites[site].avg_10pt;
+        lines.push('<td style="background:' + bg + ';color:' + tc + ';">' + stat.avg_10pt.toFixed(1) + deltaBadgeCompact(cellDelta || null, 'higher') + '</td>');
       } else {
         lines.push('<td style="background:#F1F5F9;"><span class="heatmap-no-data">&mdash;</span></td>');
       }

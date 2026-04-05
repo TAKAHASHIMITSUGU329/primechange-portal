@@ -77,7 +77,8 @@ function buildIndex(data, deltas, revenueOps) {
     { key: 'total_reviews', label: '口コミ数', value: totalReviews.toLocaleString(), unit: '件', color: 'var(--green)', target: null, lower: false, deltaKey: 'total_reviews' },
     { key: 'avg_score', label: '平均スコア', value: curAvgScore, unit: '/ 10 点', color: curAvgScore >= 8 ? 'var(--green)' : 'var(--orange)', target: targetAvgScore, lower: false, deltaKey: 'avg_score' },
     { key: 'high_rate', label: '高評価率', value: curHighRate + '%', unit: '8点以上', color: 'var(--green)', target: targetHighRate, lower: false, deltaKey: 'high_rate', rawVal: curHighRate },
-    { key: 'cleaning_issue_rate', label: '清掃クレーム率', value: curCleanRate + '%', unit: (cleanDive && cleanDive.total_cleaning_mentions ? cleanDive.total_cleaning_mentions + '件' : ''), color: 'var(--red)', target: targetCleanRate, lower: true, deltaKey: 'cleaning_issue_rate', rawVal: curCleanRate }
+    { key: 'cleaning_issue_rate', label: '清掃クレーム率', value: curCleanRate + '%', unit: (cleanDive && cleanDive.total_cleaning_mentions ? cleanDive.total_cleaning_mentions + '件' : ''), color: 'var(--red)', target: targetCleanRate, lower: true, deltaKey: 'cleaning_issue_rate', rawVal: curCleanRate },
+    { key: 'low_rate', label: '低評価率', value: curLowRate + '%', unit: '4点以下', color: 'var(--red)', target: targetLowRate, lower: true, deltaKey: 'low_rate', rawVal: curLowRate }
   ];
 
   html.push('<div class="kpi-grid" id="indexKpiGrid">');

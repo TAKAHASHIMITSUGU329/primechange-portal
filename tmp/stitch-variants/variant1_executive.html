@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#C23B3A",
+                        "navy": "#1A1A2E",
+                        "on-secondary-fixed": "#1a1a2e",
+                        "surface": "#f4f6f8",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#fdfdfe",
+                        "outline-variant": "#e0e0e0",
+                        "tertiary": "#00787c",
+                        "error": "#ba1a1a"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope", "Noto Sans JP", "sans-serif"],
+                        "body": ["Plus Jakarta Sans", "Noto Sans JP", "sans-serif"],
+                        "label": ["Inter", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply bg-surface text-navy font-body;
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .data-card {
+            @apply bg-white border border-slate-200 shadow-sm rounded-lg p-5 transition-all hover:shadow-md;
+        }
+        .sparkline-svg {
+            @apply w-full h-12 overflow-visible opacity-80;
+        }
+        .glass-nav {
+            background-color: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+<body class="bg-surface">
+<header class="fixed top-0 w-full z-50 glass-nav border-b border-slate-200">
+<div class="flex justify-between items-center px-6 h-14 w-full">
+<div class="flex items-center gap-6">
+<span class="text-xl font-extrabold tracking-tighter text-primary font-headline">PRIMECHANGE</span>
+<nav class="hidden lg:flex items-center gap-4 font-headline text-[13px] font-semibold text-slate-600">
+<a class="text-primary border-b-2 border-primary py-4 px-1" href="#">ポータル</a>
+<a class="hover:text-primary transition-colors py-4 px-1" href="#">ホテル別</a>
+<a class="hover:text-primary transition-colors py-4 px-1" href="#">清掃戦略</a>
+<a class="hover:text-primary transition-colors py-4 px-1" href="#">深掘り分析</a>
+<a class="hover:text-primary transition-colors py-4 px-1" href="#">シミュレーター</a>
+<a class="hover:text-primary transition-colors py-4 px-1" href="#">OTA戦略</a>
+</nav>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex items-center bg-slate-100 rounded-md px-3 py-1.5 gap-2">
+<span class="material-symbols-outlined text-sm text-slate-500">calendar_today</span>
+<span class="text-xs font-bold text-slate-600">2024年4月度</span>
+</div>
+<button class="p-1.5 text-slate-500 hover:text-primary"><span class="material-symbols-outlined">notifications</span></button>
+<button class="p-1.5 text-slate-500 hover:text-primary"><span class="material-symbols-outlined">settings</span></button>
+<img alt="User profile" class="w-8 h-8 rounded-full border border-slate-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkRvWtQM5PfcZI3SLyd_yQJhtOKYZ2Y-Es2c9mL7kKHpQ8q_L8_rLVFLscuZp80mo7ikPgs4a4AfWmEXke2YoYkAZzLXfAbTED-DNvyZx1Qkldgb73TcYdfXsY408fBg5kcfw6EQY79iZEpf6IxCZWkmTAetIm1YTe_m0bq-03RHi3_gn55nZQ_TwvXjjhTPktKYEegRSXlAhvYVZVHeJ9HHJN-laYrXckWlE0RKJlHWfSyHUCag_IUbkPFzwl--66o_GjX1aMrJM"/>
+</div>
+</div>
+</header>
+<aside class="h-screen w-52 fixed left-0 top-0 pt-14 flex flex-col bg-slate-50 border-r border-slate-200 hidden xl:flex">
+<div class="p-4 space-y-1">
+<p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest px-3 mb-2">Management</p>
+<a class="flex items-center gap-3 bg-white border border-slate-200 text-primary px-3 py-2.5 rounded shadow-sm text-xs font-bold" href="#">
+<span class="material-symbols-outlined text-lg">dashboard</span>
+<span>アクション</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 px-3 py-2.5 hover:bg-slate-200/50 rounded text-xs font-bold transition-all" href="#">
+<span class="material-symbols-outlined text-lg">group_work</span>
+<span>ES管理</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 px-3 py-2.5 hover:bg-slate-200/50 rounded text-xs font-bold transition-all" href="#">
+<span class="material-symbols-outlined text-lg">psychology</span>
+<span>タレント</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 px-3 py-2.5 hover:bg-slate-200/50 rounded text-xs font-bold transition-all" href="#">
+<span class="material-symbols-outlined text-lg">trending_up</span>
+<span>品質×売上</span>
+</a>
+</div>
+</aside>
+<main class="xl:pl-52 pt-14">
+<div class="p-6 max-w-[1600px] mx-auto">
+<div class="flex justify-between items-end mb-6">
+<div>
+<h1 class="text-2xl font-extrabold tracking-tight font-headline">ポートフォリオ品質管理 Executive Summary</h1>
+<p class="text-xs text-slate-500 font-medium mt-1">リアルタイム分析・全19施設統合データ・最終更新: 14:02</p>
+</div>
+<div class="flex gap-2">
+<button class="bg-white border border-slate-300 text-slate-700 px-4 py-2 rounded text-xs font-bold flex items-center gap-2 hover:bg-slate-50">
+<span class="material-symbols-outlined text-sm">filter_alt</span> フィルター
+                    </button>
+<button class="bg-primary text-white px-4 py-2 rounded text-xs font-bold flex items-center gap-2 hover:opacity-90 shadow-sm">
+<span class="material-symbols-outlined text-sm">file_download</span> レポート出力
+                    </button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 mb-6">
+<div class="data-card">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest">管理ホテル数</span>
+<span class="text-xs font-bold text-slate-400">Total</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="text-3xl font-extrabold font-headline">19</span>
+<span class="text-xs font-bold text-slate-400">施設</span>
+</div>
+<div class="mt-4">
+<svg class="sparkline-svg" viewBox="0 0 100 20">
+<path d="M0,15 L10,14 L20,16 L30,12 L40,15 L50,13 L60,14 L70,10 L80,11 L90,8 L100,7" fill="none" stroke="#64748b" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+</svg>
+</div>
+</div>
+<div class="data-card border-l-4 border-l-tertiary">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest">口コミ数</span>
+<span class="text-[10px] bg-tertiary/10 text-tertiary px-1.5 py-0.5 rounded">+12%</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="text-3xl font-extrabold font-headline">1,856</span>
+<span class="text-xs font-bold text-slate-400">件</span>
+</div>
+<div class="mt-4">
+<svg class="sparkline-svg" viewBox="0 0 100 20">
+<path d="M0,18 L10,16 L20,17 L30,14 L40,12 L50,10 L60,11 L70,8 L80,9 L90,5 L100,2" fill="none" stroke="#00787c" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+</svg>
+</div>
+</div>
+<div class="data-card border-l-4 border-l-primary">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest">平均スコア</span>
+<span class="text-[10px] bg-primary/10 text-primary px-1.5 py-0.5 rounded">High</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="text-3xl font-extrabold font-headline text-primary">8.33</span>
+<span class="text-xs font-bold text-slate-400">/ 10</span>
+</div>
+<div class="mt-4">
+<svg class="sparkline-svg" viewBox="0 0 100 20">
+<path d="M0,10 L10,12 L20,9 L30,11 L40,8 L50,9 L60,7 L70,8 L80,6 L90,7 L100,5" fill="none" stroke="#C23B3A" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+</svg>
+</div>
+</div>
+<div class="data-card">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest">高評価率</span>
+<span class="text-xs font-bold text-slate-400">Target 80%</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="text-3xl font-extrabold font-headline">77.4</span>
+<span class="text-xs font-bold text-slate-400">%</span>
+</div>
+<div class="mt-4">
+<svg class="sparkline-svg" viewBox="0 0 100 20">
+<path d="M0,15 L10,16 L20,14 L30,13 L40,15 L50,14 L60,12 L70,11 L80,10 L90,12 L100,11" fill="none" stroke="#64748b" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+</svg>
+</div>
+</div>
+<div class="data-card border-l-4 border-l-error">
+<div class="flex justify-between items-start mb-2">
+<span class="text-[10px] font-extrabold text-slate-400 uppercase tracking-widest">清掃クレーム率</span>
+<span class="text-[10px] bg-error/10 text-error px-1.5 py-0.5 rounded">Alert</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="text-3xl font-extrabold font-headline text-error">4.3</span>
+<span class="text-xs font-bold text-slate-400">%</span>
+</div>
+<div class="mt-4">
+<svg class="sparkline-svg" viewBox="0 0 100 20">
+<path d="M0,18 L10,17 L20,19 L30,18 L40,20 L50,17 L60,16 L70,18 L80,15 L90,16 L100,12" fill="none" stroke="#ba1a1a" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+</svg>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+<div class="lg:col-span-8 data-card">
+<div class="flex justify-between items-center mb-6">
+<h2 class="text-sm font-bold font-headline flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">bar_chart</span> ホテル別パフォーマンス・ランキング
+                        </h2>
+<select class="text-[10px] border-slate-200 rounded px-2 py-1 font-bold outline-none">
+<option>平均スコア順</option>
+<option>口コミ数順</option>
+<option>クレーム率順</option>
+</select>
+</div>
+<div class="space-y-5">
+<div class="space-y-1.5">
+<div class="flex justify-between text-xs font-bold">
+<span class="text-slate-700">グランドゼニス 汐留 <span class="ml-2 text-[10px] text-error font-medium">※ 要注視</span></span>
+<span class="text-slate-500">8.9 <span class="text-slate-400 font-normal">/ 10</span></span>
+</div>
+<div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden flex">
+<div class="bg-primary h-full" style="width: 89%;"></div>
+</div>
+</div>
+<div class="space-y-1.5">
+<div class="flex justify-between text-xs font-bold">
+<span class="text-slate-700">パークリゾート 京都</span>
+<span class="text-slate-500">8.7 <span class="text-slate-400 font-normal">/ 10</span></span>
+</div>
+<div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden flex">
+<div class="bg-slate-400 h-full" style="width: 87%;"></div>
+</div>
+</div>
+<div class="space-y-1.5">
+<div class="flex justify-between text-xs font-bold">
+<span class="text-slate-700">ベイサイド 横浜</span>
+<span class="text-slate-500">8.4 <span class="text-slate-400 font-normal">/ 10</span></span>
+</div>
+<div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden flex">
+<div class="bg-slate-400 h-full" style="width: 84%;"></div>
+</div>
+</div>
+<div class="space-y-1.5">
+<div class="flex justify-between text-xs font-bold">
+<span class="text-slate-700">札幌シティイン</span>
+<span class="text-slate-500">7.9 <span class="text-slate-400 font-normal">/ 10</span></span>
+</div>
+<div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden flex">
+<div class="bg-slate-300 h-full" style="width: 79%;"></div>
+</div>
+</div>
+<div class="space-y-1.5">
+<div class="flex justify-between text-xs font-bold">
+<span class="text-slate-700">福岡アーバンプレイス</span>
+<span class="text-slate-500">7.5 <span class="text-slate-400 font-normal">/ 10</span></span>
+</div>
+<div class="w-full bg-slate-100 h-2.5 rounded-full overflow-hidden flex">
+<div class="bg-slate-300 h-full" style="width: 75%;"></div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-4 border-t border-slate-100 flex justify-center">
+<button class="text-xs font-bold text-primary hover:underline">全19施設の詳細ランキングを表示</button>
+</div>
+</div>
+<div class="lg:col-span-4 space-y-6">
+<div class="data-card">
+<h2 class="text-sm font-bold font-headline mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary">pie_chart</span> スコア分布分析
+                        </h2>
+<div class="relative flex justify-center items-center py-4">
+<svg class="w-40 h-40" viewBox="0 0 36 36">
+<circle cx="18" cy="18" fill="transparent" r="15.9" stroke="#f1f5f9" stroke-width="4"></circle>
+<circle cx="18" cy="18" fill="transparent" r="15.9" stroke="#C23B3A" stroke-dasharray="65 100" stroke-dashoffset="25" stroke-width="4"></circle>
+<circle cx="18" cy="18" fill="transparent" r="15.9" stroke="#00787c" stroke-dasharray="25 100" stroke-dashoffset="60" stroke-width="4"></circle>
+<circle cx="18" cy="18" fill="transparent" r="15.9" stroke="#94a3b8" stroke-dasharray="10 100" stroke-dashoffset="35" stroke-width="4"></circle>
+</svg>
+<div class="absolute text-center">
+<p class="text-2xl font-extrabold font-headline">8.3</p>
+<p class="text-[10px] text-slate-400 font-bold uppercase">Avg Score</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mt-6">
+<div class="flex items-center gap-2">
+<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>
+<span class="text-[11px] font-bold text-slate-600">8-10点 (65%)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2.5 h-2.5 rounded-full bg-tertiary"></div>
+<span class="text-[11px] font-bold text-slate-600">6-8点 (25%)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-2.5 h-2.5 rounded-full bg-slate-400"></div>
+<span class="text-[11px] font-bold text-slate-600">4-6点 (10%)</span>
+</div>
+</div>
+</div>
+<div class="data-card bg-navy text-white border-none shadow-xl">
+<div class="flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-primary text-xl">auto_awesome</span>
+<h3 class="text-xs font-bold uppercase tracking-widest text-slate-400">AI要約インサイト</h3>
+</div>
+<p class="text-xs leading-relaxed opacity-90 mb-4">
+                            今週の全施設平均スコアは安定していますが、<span class="text-primary font-bold">「清潔感」へのネガティブな言及が前週比+14%</span>増加しています。特に汐留と京都において特定フロアの清掃完了時間が遅延している傾向が見られます。
+                        </p>
+<button class="w-full py-2 bg-white/10 hover:bg-white/20 rounded text-[10px] font-bold transition-all border border-white/10">分析レポートを開く</button>
+</div>
+</div>
+</div>
+<div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="data-card flex items-center gap-4 cursor-pointer hover:border-primary">
+<div class="w-10 h-10 rounded bg-slate-100 flex items-center justify-center text-slate-600">
+<span class="material-symbols-outlined">cleaning_services</span>
+</div>
+<div>
+<h4 class="text-xs font-bold">清掃戦略分析</h4>
+<p class="text-[10px] text-slate-400">ROI: 112%</p>
+</div>
+</div>
+<div class="data-card flex items-center gap-4 cursor-pointer hover:border-primary">
+<div class="w-10 h-10 rounded bg-slate-100 flex items-center justify-center text-slate-600">
+<span class="material-symbols-outlined">monitoring</span>
+</div>
+<div>
+<h4 class="text-xs font-bold">OTA戦略</h4>
+<p class="text-[10px] text-slate-400">ADR: +1.2k JPY</p>
+</div>
+</div>
+<div class="data-card flex items-center gap-4 cursor-pointer hover:border-primary">
+<div class="w-10 h-10 rounded bg-slate-100 flex items-center justify-center text-slate-600">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<div>
+<h4 class="text-xs font-bold">ES管理</h4>
+<p class="text-[10px] text-slate-400">Retention: 94%</p>
+</div>
+</div>
+<div class="data-card flex items-center gap-4 cursor-pointer hover:border-primary">
+<div class="w-10 h-10 rounded bg-slate-100 flex items-center justify-center text-slate-600">
+<span class="material-symbols-outlined">calculate</span>
+</div>
+<div>
+<h4 class="text-xs font-bold">シミュレーター</h4>
+<p class="text-[10px] text-slate-400">Forecasting Active</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<div class="fixed bottom-6 right-6">
+<button class="w-12 h-12 bg-navy text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-105 transition-transform">
+<span class="material-symbols-outlined">support_agent</span>
+</button>
+</div>
+
+</body></html>

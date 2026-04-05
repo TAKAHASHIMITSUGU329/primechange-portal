@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRIMECHANGE UI改善案 比較</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Noto Sans JP", -apple-system, sans-serif; background: #f0f0f0; padding: 2rem; }
+h1 { text-align: center; font-size: 1.6rem; color: #1A1A2E; margin-bottom: 0.5rem; }
+.subtitle { text-align: center; color: #64748B; font-size: 0.9rem; margin-bottom: 2rem; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 1600px; margin: 0 auto; }
+.card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.card-header { padding: 1rem 1.5rem; border-bottom: 1px solid #eee; }
+.card-header h2 { font-size: 1.1rem; color: #1A1A2E; }
+.card-header .tag { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.7rem; font-weight: 700; color: #fff; margin-left: 0.5rem; vertical-align: middle; }
+.tag-base { background: #64748B; }
+.tag-data { background: #3B82F6; }
+.tag-minimal { background: #10B981; }
+.tag-dark { background: #8B5CF6; }
+.card-header p { font-size: 0.8rem; color: #64748B; margin-top: 0.3rem; }
+.card img { width: 100%; height: auto; display: block; }
+</style>
+</head>
+<body>
+<h1>PRIMECHANGE UI改善案 比較一覧</h1>
+<p class="subtitle">Stitch で生成した4つのデザイン案</p>
+<div class="grid">
+  <div class="card">
+    <div class="card-header">
+      <h2>現行ベース <span class="tag tag-base">BASE</span></h2>
+      <p>現在のV2ダッシュボードをベースに再構成したデザイン</p>
+    </div>
+    <img src="base.png" alt="Base Design">
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <h2>案1: Executive Summary <span class="tag tag-data">DATA</span></h2>
+      <p>スパークライン・ドーナツチャート・横棒グラフ統合。分析者向けデータ密度重視</p>
+    </div>
+    <img src="variant1_executive.png" alt="Executive Summary">
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <h2>案2: Modern Minimal <span class="tag tag-minimal">MINIMAL</span></h2>
+      <p>超大型タイポグラフィ・豊富な余白・アイコンナビ。経営層が一目で把握できるUI</p>
+    </div>
+    <img src="variant2_minimal.png" alt="Modern Minimal">
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <h2>案3: Dark Premium <span class="tag tag-dark">PREMIUM</span></h2>
+      <p>ネイビー背景・グラスモーフィズム・グロー効果。プレゼンテーション映えする高級感</p>
+    </div>
+    <img src="variant3_dark.png" alt="Dark Premium">
+  </div>
+</div>
+</body>
+</html>

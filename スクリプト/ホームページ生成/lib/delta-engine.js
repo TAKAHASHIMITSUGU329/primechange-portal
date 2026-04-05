@@ -42,7 +42,7 @@ function calcDeltas(outputDir, currentSummary, hotelDetailsProcessed, cleanDive)
 
   // --- Portfolio-level metric deltas ---
   var metrics = {};
-  var fields = ['avg_score', 'high_rate', 'cleaning_issue_rate', 'total_reviews', 'total_hotels', 'cleaning_issue_count'];
+  var fields = ['avg_score', 'high_rate', 'low_rate', 'cleaning_issue_rate', 'total_reviews', 'total_hotels', 'cleaning_issue_count'];
   fields.forEach(function(f) {
     var curr = currentSummary[f];
     var prevVal = prevSummary[f];
@@ -94,6 +94,33 @@ function calcDeltas(outputDir, currentSummary, hotelDetailsProcessed, cleanDive)
         };
       }
 
+      // low_rate
+      if (hotel.low_rate != null && prevH.low_rate != null) {
+        hotelDelta.low_rate = {
+          current: hotel.low_rate,
+          previous: prevH.low_rate,
+          delta: Math.round((hotel.low_rate - prevH.low_rate) * 100) / 100
+        };
+      }
+
+      // low_count
+      if (hotel.low_count != null && prevH.low_count != null) {
+        hotelDelta.low_count = {
+          current: hotel.low_count,
+          previous: prevH.low_count,
+          delta: hotel.low_count - prevH.low_count
+        };
+      }
+
+      // high_count
+      if (hotel.high_count != null && prevH.high_count != null) {
+        hotelDelta.high_count = {
+          current: hotel.high_count,
+          previous: prevH.high_count,
+          delta: hotel.high_count - prevH.high_count
+        };
+      }
+
       // Site-by-site avg_10pt diffs
       var sites = {};
       var currentSites = hotel.site_stats || hotel.sites || hotel.site_details || [];
@@ -129,6 +156,17 @@ function calcDeltas(outputDir, currentSummary, hotelDetailsProcessed, cleanDive)
               previous: prevAvg,
               delta: Math.round((currAvg - prevAvg) * 100) / 100
             }
+          };
+        }
+
+        var currCount = currSite.count;
+        var prevCount = prevSite.count;
+        if (currCount != null && prevCount != null) {
+          if (!sites[siteName]) sites[siteName] = {};
+          sites[siteName].count = {
+            current: currCount,
+            previous: prevCount,
+            delta: currCount - prevCount
           };
         }
       });
@@ -235,6 +273,26 @@ function calcDeltas(outputDir, currentSummary, hotelDetailsProcessed, cleanDive)
         title: '清掃クレーム率上昇',
         message: '清掃クレーム率が +' + metrics.cleaning_issue_rate.delta.toFixed(1) + '%上昇（' + metrics.cleaning_issue_rate.previous + '% → ' + metrics.cleaning_issue_rate.current + '%）',
         severity: 'red'
+      });
+    }
+  }
+
+  if (metrics.low_rate) {
+    if (metrics.low_rate.delta >= 1.0) {
+      alerts.push({
+        type: 'danger',
+        icon: '&#9888;&#65039;',
+        title: '低評価率上昇',
+        message: '低評価率が +' + metrics.low_rate.delta.toFixed(1) + '%上昇（' + metrics.low_rate.previous + '% → ' + metrics.low_rate.current + '%）',
+        severity: 'red'
+      });
+    } else if (metrics.low_rate.delta <= -1.0) {
+      alerts.push({
+        type: 'improvement',
+        icon: '&#128994;',
+        title: '低評価率改善',
+        message: '低評価率が ' + metrics.low_rate.delta.toFixed(1) + '%改善（' + metrics.low_rate.previous + '% → ' + metrics.low_rate.current + '%）',
+        severity: 'green'
       });
     }
   }

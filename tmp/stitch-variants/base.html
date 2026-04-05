@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Inter:wght@400;500;600&amp;family=Noto+Sans+JP:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-fixed-variant": "#45455b",
+                    "on-tertiary-fixed": "#002021",
+                    "tertiary": "#005d61",
+                    "on-secondary-container": "#63627a",
+                    "tertiary-fixed": "#98f1f5",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#af2d2e",
+                    "error-container": "#ffdad6",
+                    "secondary-container": "#e2e0fc",
+                    "inverse-primary": "#ffb3ae",
+                    "outline-variant": "#e0bfbc",
+                    "surface-container-low": "#f3f4f5",
+                    "surface": "#f8f9fa",
+                    "secondary-fixed-dim": "#c6c4df",
+                    "outline": "#8d706e",
+                    "on-primary-fixed": "#410004",
+                    "error": "#ba1a1a",
+                    "background": "#f8f9fa",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#5d5c74",
+                    "on-primary-fixed-variant": "#8e131a",
+                    "on-error-container": "#93000a",
+                    "on-secondary": "#ffffff",
+                    "surface-bright": "#f8f9fa",
+                    "primary-fixed": "#ffdad7",
+                    "surface-variant": "#e1e3e4",
+                    "secondary-fixed": "#e2e0fc",
+                    "on-surface-variant": "#59413f",
+                    "primary-container": "#c23b3a",
+                    "on-background": "#191c1d",
+                    "surface-container": "#edeeef",
+                    "on-secondary-fixed": "#1a1a2e",
+                    "surface-container-highest": "#e1e3e4",
+                    "on-tertiary-container": "#adfcff",
+                    "tertiary-container": "#00787c",
+                    "on-error": "#ffffff",
+                    "on-primary-container": "#ffe9e7",
+                    "tertiary-fixed-dim": "#7cd5d9",
+                    "on-tertiary": "#ffffff",
+                    "on-surface": "#191c1d",
+                    "surface-dim": "#d9dadb",
+                    "primary-fixed-dim": "#ffb3ae",
+                    "inverse-surface": "#2e3132",
+                    "primary": "#a02225",
+                    "inverse-on-surface": "#f0f1f2",
+                    "surface-container-high": "#e7e8e9",
+                    "on-tertiary-fixed-variant": "#004f52"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.75rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope", "Noto Sans JP", "sans-serif"],
+                    "body": ["Plus Jakarta Sans", "Noto Sans JP", "sans-serif"],
+                    "label": ["Inter", "sans-serif"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .glass-nav {
+            background-color: rgba(248, 249, fa, 0.85);
+            backdrop-filter: blur(12px);
+        }
+        .kanban-shadow {
+            box-shadow: 0 8px 24px rgba(26, 26, 46, 0.06);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+<!-- TopNavBar Implementation -->
+<header class="fixed top-0 w-full z-50 glass-nav shadow-[0_8px_24px_rgba(26,26,46,0.06)]">
+<div class="flex justify-between items-center px-8 h-16 w-full max-w-[1920px] mx-auto">
+<div class="flex items-center gap-8">
+<span class="text-xl font-bold tracking-tighter text-on-secondary-fixed font-headline">PRIMECHANGE</span>
+<nav class="hidden lg:flex items-center gap-6 font-headline text-sm font-medium tracking-tight">
+<a class="text-primary border-b-2 border-primary pb-1 cursor-pointer active:opacity-80" href="#">ポータル</a>
+<a class="text-on-secondary-fixed opacity-70 hover:text-primary transition-colors duration-300 cursor-pointer active:opacity-80" href="#">ホテル別</a>
+<a class="text-on-secondary-fixed opacity-70 hover:text-primary transition-colors duration-300 cursor-pointer active:opacity-80" href="#">清掃戦略</a>
+<a class="text-on-secondary-fixed opacity-70 hover:text-primary transition-colors duration-300 cursor-pointer active:opacity-80" href="#">深掘り分析</a>
+<a class="text-on-secondary-fixed opacity-70 hover:text-primary transition-colors duration-300 cursor-pointer active:opacity-80" href="#">シミュレーター</a>
+<a class="text-on-secondary-fixed opacity-70 hover:text-primary transition-colors duration-300 cursor-pointer active:opacity-80" href="#">OTA戦略</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 rounded-full hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-on-secondary-fixed">notifications</span>
+</button>
+<button class="p-2 rounded-full hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-on-secondary-fixed">settings</span>
+</button>
+<div class="w-8 h-8 rounded-full bg-surface-container-highest overflow-hidden border border-outline-variant/15">
+<img alt="Consultant Profile" data-alt="professional male business consultant in a suit looking confident and smiling slightly against a neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkRvWtQM5PfcZI3SLyd_yQJhtOKYZ2Y-Es2c9mL7kKHpQ8q_L8_rLVFLscuZp80mo7ikPgs4a4AfWmEXke2YoYkAZzLXfAbTED-DNvyZx1Qkldgb73TcYdfXsY408fBg5kcfw6EQY79iZEpf6IxCZWkmTAetIm1YTe_m0bq-03RHi3_gn55nZQ_TwvXjjhTPktKYEegRSXlAhvYVZVHeJ9HHJN-laYrXckWlE0RKJlHWfSyHUCag_IUbkPFzwl--66o_GjX1aMrJM"/>
+</div>
+</div>
+</div>
+</header>
+<!-- SideNavBar Implementation (As an anchor for desktop layout) -->
+<aside class="h-screen w-64 fixed left-0 top-0 pt-20 flex flex-col bg-surface-container-low border-r border-transparent hidden xl:flex">
+<div class="flex flex-col gap-1">
+<a class="flex items-center gap-3 text-primary border-l-2 border-primary bg-white/50 px-6 py-4 font-body text-xs font-semibold" href="#">
+<span class="material-symbols-outlined">assignment_turned_in</span>
+<span>アクション</span>
+</a>
+<a class="flex items-center gap-3 text-on-secondary-fixed opacity-60 px-6 py-4 hover:bg-white/30 transition-all duration-200 font-body text-xs font-semibold" href="#">
+<span class="material-symbols-outlined">group_work</span>
+<span>ES管理</span>
+</a>
+<a class="flex items-center gap-3 text-on-secondary-fixed opacity-60 px-6 py-4 hover:bg-white/30 transition-all duration-200 font-body text-xs font-semibold" href="#">
+<span class="material-symbols-outlined">psychology</span>
+<span>タレント</span>
+</a>
+<a class="flex items-center gap-3 text-on-secondary-fixed opacity-60 px-6 py-4 hover:bg-white/30 transition-all duration-200 font-body text-xs font-semibold" href="#">
+<span class="material-symbols-outlined">trending_up</span>
+<span>品質×売上</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="xl:pl-64 pt-24 pb-12 px-8 max-w-[1920px] mx-auto min-h-screen">
+<!-- Dashboard Header -->
+<div class="mb-10">
+<h1 class="text-3xl font-extrabold tracking-tight text-on-secondary-fixed font-headline mb-2">
+                PRIMECHANGE ポートフォリオ品質管理ポータル
+            </h1>
+<p class="text-on-surface-variant font-body">2024年4月度 リアルタイムパフォーマンス・ダッシュボード</p>
+</div>
+<!-- KPI Grid: The "Modern Ryokan" Asymmetric Layout -->
+<section class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl kanban-shadow flex flex-col gap-2">
+<span class="text-label text-xs font-semibold text-on-secondary-container uppercase tracking-widest">管理ホテル数</span>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-extrabold text-on-secondary-fixed font-headline">19</span>
+<span class="text-sm font-medium text-on-surface-variant">施設</span>
+</div>
+<div class="mt-4 h-1 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 100%;"></div>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl kanban-shadow flex flex-col gap-2">
+<span class="text-label text-xs font-semibold text-on-secondary-container uppercase tracking-widest">口コミ数</span>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-extrabold text-on-secondary-fixed font-headline">1856</span>
+<span class="text-sm font-medium text-on-surface-variant">件</span>
+</div>
+<div class="flex items-center gap-1 text-tertiary text-xs font-bold mt-2">
+<span class="material-symbols-outlined text-sm">trending_up</span>
+<span>前月比 +12%</span>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl kanban-shadow flex flex-col gap-2 relative overflow-hidden">
+<span class="text-label text-xs font-semibold text-on-secondary-container uppercase tracking-widest">平均スコア</span>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-extrabold text-primary font-headline">8.33</span>
+<span class="text-sm font-medium text-on-surface-variant">/ 10</span>
+</div>
+<svg class="absolute bottom-0 right-0 w-24 h-12 opacity-20 text-primary" viewbox="0 0 100 50">
+<path d="M0,50 Q25,10 50,30 T100,0" fill="none" stroke="currentColor" stroke-width="3"></path>
+</svg>
+</div>
+<!-- Metric 4 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl kanban-shadow flex flex-col gap-2">
+<span class="text-label text-xs font-semibold text-on-secondary-container uppercase tracking-widest">高評価率</span>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-extrabold text-on-secondary-fixed font-headline">77.4</span>
+<span class="text-sm font-medium text-on-surface-variant">%</span>
+</div>
+<div class="mt-4 h-1 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-tertiary" style="width: 77.4%;"></div>
+</div>
+</div>
+<!-- Metric 5 -->
+<div class="bg-surface-container-lowest p-6 rounded-xl kanban-shadow flex flex-col gap-2">
+<span class="text-label text-xs font-semibold text-on-secondary-container uppercase tracking-widest">清掃クレーム率</span>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-extrabold text-error font-headline">4.3</span>
+<span class="text-sm font-medium text-on-surface-variant">%</span>
+</div>
+<div class="flex items-center gap-1 text-error text-xs font-bold mt-2">
+<span class="material-symbols-outlined text-sm">warning</span>
+<span>要注意アラート</span>
+</div>
+</div>
+</section>
+<!-- Main Dashboard Content Area -->
+<div class="flex flex-col lg:flex-row gap-8">
+<!-- Alert Section: Left Column -->
+<section class="lg:w-1/3 space-y-6">
+<div class="flex items-center justify-between">
+<h2 class="text-xl font-bold font-headline text-on-secondary-fixed">注意が必要なホテル</h2>
+<span class="px-3 py-1 bg-error-container text-on-error-container text-[10px] font-bold rounded-full">4件のアラート</span>
+</div>
+<div class="space-y-4">
+<!-- Alert Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-on-secondary-fixed">グランドゼニス 汐留</h3>
+<span class="text-[10px] bg-surface-container text-on-surface-variant px-2 py-0.5 rounded">スコア低下</span>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-3">直近1週間の清潔感スコアが0.5pt低下。特定のフロアでの清掃不備が要因の可能性。</p>
+<button class="text-primary text-xs font-bold flex items-center gap-1 hover:gap-2 transition-all">
+                            詳細を分析する <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+<!-- Alert Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-on-secondary-fixed">パークリゾート 京都</h3>
+<span class="text-[10px] bg-surface-container text-on-surface-variant px-2 py-0.5 rounded">設備問題</span>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-3">配管に関するクレームが複数件発生。特定タイプの客室（デラックス・ツイン）に集中。</p>
+<button class="text-primary text-xs font-bold flex items-center gap-1 hover:gap-2 transition-all">
+                            修繕履歴を確認 <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+<!-- Alert Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300 opacity-80">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-on-secondary-fixed">ベイサイド 横浜</h3>
+<span class="text-[10px] bg-surface-container text-on-surface-variant px-2 py-0.5 rounded">返信遅延</span>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-3">OTA口コミへの返信率が70%を維持。未返信が32件蓄積しています。</p>
+</div>
+<!-- Alert Item 4 -->
+<div class="bg-surface-container-lowest rounded-xl p-5 border-l-4 border-primary kanban-shadow transition-transform hover:-translate-y-1 duration-300 opacity-80">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-bold text-on-secondary-fixed">札幌シティイン</h3>
+<span class="text-[10px] bg-surface-container text-on-surface-variant px-2 py-0.5 rounded">低評価検知</span>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed mb-3">接客に関する星1つの評価が投稿されました。オペレーションの即時確認が必要です。</p>
+</div>
+</div>
+</section>
+<!-- Navigation Grid & Deep Dive: Right Column -->
+<section class="lg:w-2/3">
+<div class="mb-6">
+<h2 class="text-xl font-bold font-headline text-on-secondary-fixed">戦略別ポータル</h2>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Nav Card 1 -->
+<div class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-48 cursor-pointer">
+<div class="absolute inset-0 z-0">
+<img alt="luxury hotel interior" class="w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-500" data-alt="high-end luxury hotel lobby with minimalist Japanese design, clean lines, and soft warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCypuFZQvYP0vhiyGLW0wOzN9Yb1-XGl0xA_kHNNOkbMmPJZ8z4AYRSZ8Aw2rdw5tY1EWVREYgRZYgY0TjNgBK7hgV50oVAGbcyMRM9Nngs4JGHotibrNIAP3dsvqjYwf-rw0WrioeDVD1dI9Jig_A078uNm2pvVS-K8sSbDoLiaz-xi5sPZHN8oJArjLMqkgu5NmAefOrFaV5My__kz5Cbf_mWRAza5pNKD0vyiFJpJm5X51XrKo7T4r6hvnBDREMQnJO0AluS-Us"/>
+</div>
+<div class="relative z-10 p-6 h-full flex flex-col justify-between">
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">cleaning_services</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-on-secondary-fixed font-headline">清掃戦略分析</h3>
+<p class="text-xs text-on-surface-variant mt-1">AIによる清掃動線とコストの最適化シミュレーション</p>
+</div>
+</div>
+</div>
+<!-- Nav Card 2 -->
+<div class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-48 cursor-pointer">
+<div class="absolute inset-0 z-0">
+<img alt="data analytics dashboard" class="w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-500" data-alt="modern data visualization screens showing complex graphs and hospitality metrics in a dark office environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsKmhVmBrEQvkZMWcq8FMOsD9IU-Mmx5dXEbn6eEQ45RHlnpKrzBjHcOnACRIMGzP-6OqIXoQ92XPSVyx2m9ugzF_hP8hNwc1g5U-EPM2TP-Vjf0vOe61fMss6VFn7VN-W7nlioYjswQdU7uxkzXKZonSImc5CJwAzIE49du3BlPcQ0ZHHuogoUcsPPqZXiVU6YVcU7TRo3xE5mana1nefpZcHupHfOh5jYESfgjWJonyogH5GhvjNE_jKLYbjvRfLwJ_oGlWFLQA"/>
+</div>
+<div class="relative z-10 p-6 h-full flex flex-col justify-between">
+<div class="w-12 h-12 rounded-lg bg-tertiary-container/10 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-3xl">monitoring</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-on-secondary-fixed font-headline">OTAパフォーマンス</h3>
+<p class="text-xs text-on-surface-variant mt-1">複数サイトの口コミとスコアの相関関係を可視化</p>
+</div>
+</div>
+</div>
+<!-- Nav Card 3 -->
+<div class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-48 cursor-pointer">
+<div class="absolute inset-0 z-0">
+<img alt="team meeting" class="w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-500" data-alt="hotel staff in professional uniforms having a briefing session in a clean modern conference room" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC31_VKVMyAonKdIKLY-PyBWSUW5X7Nktsv_Ang6NtMKbqWo9V_cE_OG_f4fftDGH-pwIdCyC0bYESzbtdMFZl9eL6jFXxWco2Qq4qcHjYtx72a756CffMDjgLaju5GdebpLR0ggJVl0xs04yqxzCvoeIHWB8QT0PfMWkrGh5hLh8n-T1BGNfNDg6nPLtRJeHZZwjaKmyNba9OptDZrQVYOzYu7o1eEmanpsZs0xqVgQ--_c7MlU5T4aXNm7gD1ebNU6eoqJyXdoE4"/>
+</div>
+<div class="relative z-10 p-6 h-full flex flex-col justify-between">
+<div class="w-12 h-12 rounded-lg bg-on-secondary-container/10 flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-3xl">psychology</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-on-secondary-fixed font-headline">人材・ES管理</h3>
+<p class="text-xs text-on-surface-variant mt-1">従業員満足度とサービス品質の相関関係スコアリング</p>
+</div>
+</div>
+</div>
+<!-- Nav Card 4 -->
+<div class="group relative overflow-hidden bg-surface-container-lowest rounded-xl kanban-shadow h-48 cursor-pointer">
+<div class="absolute inset-0 z-0">
+<img alt="financial chart" class="w-full h-full object-cover opacity-10 group-hover:scale-105 transition-transform duration-500" data-alt="close-up of a financial growth chart on a digital screen with deep blue and soft red accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAk_ek_pWRgvBGiCJ3BPJCHRptz0XejT_seOIH5WLjQcnaIrLsgnSKmsRfBchrs9PoRHk50eRwI1fwCtHzthodlObgb09F0FcAZnUrQRuFF1u6zf9oal7XDIBrc5rEKfEm2_KmLSpjl6D061m9Z3eP-AMkR5oSzpKPLJ7jpcda8tst0SaSkA9xZUVHN8VoyLX9PHEdOSJUcFRL_PGLNK4dZGE-WYaoA5fiBmRLAYLCFVRpK8zY6mvCc8FFXXXhPrJfoeNSWm-j55Zg"/>
+</div>
+<div class="relative z-10 p-6 h-full flex flex-col justify-between">
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">calculate</span>
+</div>
+<div>
+<h3 class="text-lg font-bold text-on-secondary-fixed font-headline">ROIシミュレーター</h3>
+<p class="text-xs text-on-surface-variant mt-1">設備投資による口コミスコアとADRの向上予測</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer Action -->
+<div class="mt-8 flex justify-end">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-8 py-3 rounded-md font-bold text-sm shadow-lg hover:shadow-primary/20 transition-all active:opacity-80 flex items-center gap-2">
+<span>全施設の統合レポートを生成</span>
+<span class="material-symbols-outlined text-base">download</span>
+</button>
+</div>
+</section>
+</div>
+</main>
+<!-- Floating Action Button for Support -->
+<div class="fixed bottom-8 right-8 z-40">
+<button class="w-14 h-14 bg-on-secondary-fixed text-white rounded-full flex items-center justify-center shadow-xl hover:scale-105 transition-transform">
+<span class="material-symbols-outlined">support_agent</span>
+</button>
+</div>
+</body></html>

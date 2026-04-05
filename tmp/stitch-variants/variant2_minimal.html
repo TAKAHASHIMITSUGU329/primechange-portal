@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&amp;family=Inter:wght@300;400;500&amp;family=Noto+Sans+JP:wght@100;300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#C23B3A",
+                        "navy": "#1A1A2E",
+                        "surface": "#FFFFFF",
+                        "soft-gray": "#F8F9FA",
+                        "border-light": "#E9ECEF",
+                        "text-main": "#1A1A2E",
+                        "text-muted": "#6C757D"
+                    },
+                    borderRadius: {
+                        "massive": "2rem",
+                        "xl": "1.5rem"
+                    },
+                    fontFamily: {
+                        "headline": ["Manrope", "Noto Sans JP", "sans-serif"],
+                        "body": ["Plus Jakarta Sans", "Noto Sans JP", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply bg-surface text-text-main font-body antialiased;
+                letter-spacing: -0.01em;
+            }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        .hero-gradient {
+            background: radial-gradient(circle at top left, rgba(194, 59, 58, 0.03) 0%, rgba(255, 255, 255, 0) 50%);
+        }
+        .kpi-card-gradient {
+            background: linear-gradient(180deg, #FFFFFF 0%, #FDFDFD 100%);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hero-number {
+            font-size: 5rem;
+            line-height: 1;
+            font-weight: 200;
+            letter-spacing: -0.05em;
+        }
+        .nav-sidebar {
+            width: 80px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="hero-gradient">
+<aside class="nav-sidebar fixed left-0 top-0 h-full border-r border-border-light flex flex-col items-center py-8 bg-white z-50">
+<div class="mb-12">
+<div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold text-lg">P</div>
+</div>
+<nav class="flex flex-col gap-8 flex-1">
+<button class="p-3 text-primary bg-primary/5 rounded-2xl" title="ポータル">
+<span class="material-symbols-outlined !text-3xl">grid_view</span>
+</button>
+<button class="p-3 text-text-muted hover:text-primary transition-colors" title="ホテル別">
+<span class="material-symbols-outlined !text-3xl">domain</span>
+</button>
+<button class="p-3 text-text-muted hover:text-primary transition-colors" title="深掘り分析">
+<span class="material-symbols-outlined !text-3xl">analytics</span>
+</button>
+<button class="p-3 text-text-muted hover:text-primary transition-colors" title="清掃戦略">
+<span class="material-symbols-outlined !text-3xl">mop</span>
+</button>
+<button class="p-3 text-text-muted hover:text-primary transition-colors" title="シミュレーター">
+<span class="material-symbols-outlined !text-3xl">calculate</span>
+</button>
+<button class="p-3 text-text-muted hover:text-primary transition-colors" title="アクション">
+<span class="material-symbols-outlined !text-3xl">assignment_turned_in</span>
+</button>
+</nav>
+<div class="flex flex-col gap-6 mt-auto">
+<button class="p-3 text-text-muted hover:text-text-main transition-colors">
+<span class="material-symbols-outlined !text-2xl">notifications</span>
+</button>
+<div class="w-10 h-10 rounded-full bg-soft-gray overflow-hidden border border-border-light">
+<img alt="Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkRvWtQM5PfcZI3SLyd_yQJhtOKYZ2Y-Es2c9mL7kKHpQ8q_L8_rLVFLscuZp80mo7ikPgs4a4AfWmEXke2YoYkAZzLXfAbTED-DNvyZx1Qkldgb73TcYdfXsY408fBg5kcfw6EQY79iZEpf6IxCZWkmTAetIm1YTe_m0bq-03RHi3_gn55nZQ_TwvXjjhTPktKYEegRSXlAhvYVZVHeJ9HHJN-laYrXckWlE0RKJlHWfSyHUCag_IUbkPFzwl--66o_GjX1aMrJM"/>
+</div>
+</div>
+</aside>
+<main class="ml-20 min-h-screen px-12 py-16 lg:px-24">
+<header class="max-w-7xl mx-auto mb-24">
+<h1 class="text-5xl lg:text-7xl font-light font-headline tracking-tight text-navy mb-6">
+            Quality Management <br/><span class="font-extrabold text-primary">Overview.</span>
+</h1>
+<div class="flex items-center gap-4 text-text-muted">
+<span class="uppercase tracking-widest text-sm font-semibold">PRIMECHANGE PORTFOLIO</span>
+<div class="h-px w-12 bg-border-light"></div>
+<span class="text-sm">2024.04 Performance Report</span>
+</div>
+</header>
+<section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-12 mb-32">
+<div class="flex flex-col gap-4">
+<span class="text-xs uppercase tracking-[0.2em] font-bold text-text-muted">Managed Hotels</span>
+<div class="hero-number font-headline text-navy">19</div>
+<p class="text-sm text-text-muted">Total active properties</p>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-xs uppercase tracking-[0.2em] font-bold text-text-muted">Total Reviews</span>
+<div class="hero-number font-headline text-navy">1.8k</div>
+<div class="flex items-center gap-2 text-primary font-semibold text-sm">
+<span class="material-symbols-outlined !text-sm">north_east</span>
+<span>+12%</span>
+</div>
+</div>
+<div class="flex flex-col gap-4 relative">
+<span class="text-xs uppercase tracking-[0.2em] font-bold text-text-muted">Avg. Score</span>
+<div class="hero-number font-headline text-primary">8.3</div>
+<p class="text-sm text-text-muted">Out of 10.0 scale</p>
+<div class="absolute -right-4 top-1/2 -translate-y-1/2 opacity-5 pointer-events-none">
+<span class="material-symbols-outlined !text-[120px]">star</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-xs uppercase tracking-[0.2em] font-bold text-text-muted">Positive Rate</span>
+<div class="hero-number font-headline text-navy">77%</div>
+<div class="w-full h-1 bg-border-light rounded-full overflow-hidden">
+<div class="h-full bg-navy w-[77.4%]"></div>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-xs uppercase tracking-[0.2em] font-bold text-text-muted">Cleaning Claims</span>
+<div class="hero-number font-headline text-primary">4.3%</div>
+<div class="flex items-center gap-2 text-primary font-semibold text-sm">
+<span class="material-symbols-outlined !text-sm">warning</span>
+<span>Critical Attention</span>
+</div>
+</div>
+</section>
+<div class="max-w-7xl mx-auto grid grid-cols-12 gap-16">
+<section class="col-span-12 lg:col-span-5">
+<div class="flex items-end justify-between mb-12">
+<h2 class="text-3xl font-light tracking-tight text-navy">Priority Alerts</h2>
+<span class="text-sm font-bold text-primary">4 ISSUES FOUND</span>
+</div>
+<div class="space-y-12">
+<div class="group cursor-pointer">
+<div class="flex items-start justify-between mb-4">
+<span class="text-xs font-bold tracking-widest text-text-muted uppercase">01 / SHIODOME</span>
+<span class="material-symbols-outlined text-text-muted group-hover:text-primary transition-colors">arrow_forward</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Grand Zenith Shiodome</h3>
+<p class="text-text-muted font-light leading-relaxed">Cleanliness score dropped by 0.5pt in the last 7 days. Possible issues on specific floors.</p>
+<div class="mt-4 h-0.5 w-0 group-hover:w-full bg-primary transition-all duration-500"></div>
+</div>
+<div class="group cursor-pointer">
+<div class="flex items-start justify-between mb-4">
+<span class="text-xs font-bold tracking-widest text-text-muted uppercase">02 / KYOTO</span>
+<span class="material-symbols-outlined text-text-muted group-hover:text-primary transition-colors">arrow_forward</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Park Resort Kyoto</h3>
+<p class="text-text-muted font-light leading-relaxed">Plumbing issues recurring in Deluxe Twin rooms. Immediate inspection required.</p>
+<div class="mt-4 h-0.5 w-0 group-hover:w-full bg-primary transition-all duration-500"></div>
+</div>
+<button class="flex items-center gap-2 text-sm font-bold text-navy hover:text-primary transition-colors">
+                    VIEW ALL CRITICAL ALERTS
+                    <span class="material-symbols-outlined !text-lg">keyboard_arrow_right</span>
+</button>
+</div>
+</section>
+<section class="col-span-12 lg:col-span-7">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+<div class="aspect-square bg-soft-gray rounded-massive p-10 flex flex-col justify-between hover:bg-white hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500 group relative overflow-hidden">
+<span class="material-symbols-outlined !text-5xl text-navy group-hover:scale-110 transition-transform duration-500">cleaning_services</span>
+<div>
+<h3 class="text-2xl font-bold mb-2">Cleaning Strategy</h3>
+<p class="text-sm text-text-muted">Efficiency &amp; Cost Optimization</p>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-[0.03] pointer-events-none group-hover:opacity-[0.07] transition-opacity">
+<span class="material-symbols-outlined !text-[200px]">cleaning_services</span>
+</div>
+</div>
+<div class="aspect-square bg-soft-gray rounded-massive p-10 flex flex-col justify-between hover:bg-white hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500 group relative overflow-hidden">
+<span class="material-symbols-outlined !text-5xl text-navy group-hover:scale-110 transition-transform duration-500">public</span>
+<div>
+<h3 class="text-2xl font-bold mb-2">OTA Analysis</h3>
+<p class="text-sm text-text-muted">Global Performance Tracker</p>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-[0.03] pointer-events-none group-hover:opacity-[0.07] transition-opacity">
+<span class="material-symbols-outlined !text-[200px]">public</span>
+</div>
+</div>
+<div class="aspect-square bg-soft-gray rounded-massive p-10 flex flex-col justify-between hover:bg-white hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500 group relative overflow-hidden">
+<span class="material-symbols-outlined !text-5xl text-navy group-hover:scale-110 transition-transform duration-500">psychology_alt</span>
+<div>
+<h3 class="text-2xl font-bold mb-2">Talent &amp; ES</h3>
+<p class="text-sm text-text-muted">Staff Satisfaction Metrics</p>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-[0.03] pointer-events-none group-hover:opacity-[0.07] transition-opacity">
+<span class="material-symbols-outlined !text-[200px]">psychology_alt</span>
+</div>
+</div>
+<div class="aspect-square bg-soft-gray rounded-massive p-10 flex flex-col justify-between hover:bg-white hover:shadow-2xl hover:shadow-navy/5 transition-all duration-500 group relative overflow-hidden">
+<span class="material-symbols-outlined !text-5xl text-navy group-hover:scale-110 transition-transform duration-500">trending_up</span>
+<div>
+<h3 class="text-2xl font-bold mb-2">ROI Prediction</h3>
+<p class="text-sm text-text-muted">Investment Simulation</p>
+</div>
+<div class="absolute -bottom-10 -right-10 opacity-[0.03] pointer-events-none group-hover:opacity-[0.07] transition-opacity">
+<span class="material-symbols-outlined !text-[200px]">trending_up</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer class="max-w-7xl mx-auto mt-32 pb-16 flex justify-between items-center border-t border-border-light pt-12">
+<div class="text-xs tracking-widest text-text-muted font-bold">PRIMECHANGE CONSULTING — EST. 2024</div>
+<button class="px-12 py-5 bg-navy text-white rounded-full font-bold text-sm hover:bg-primary transition-all shadow-xl hover:shadow-primary/20 flex items-center gap-3">
+            DOWNLOAD FULL EXECUTIVE REPORT
+            <span class="material-symbols-outlined !text-xl">file_download</span>
+</button>
+</footer>
+</main>
+<div class="fixed bottom-12 right-12">
+<button class="w-16 h-16 bg-white border border-border-light text-navy rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">chat_bubble</span>
+</button>
+</div>
+
+</body></html>

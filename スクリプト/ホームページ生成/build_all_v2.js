@@ -108,19 +108,21 @@ function hasCleaningIssue(text) {
   return false;
 }
 
-var ptRev = 0, ptSum = 0, ptHigh = 0, ptClean = 0;
+var ptRev = 0, ptSum = 0, ptHigh = 0, ptLow = 0, ptClean = 0;
 Object.keys(allReviewsCompact).forEach(function(key) {
   allReviewsCompact[key].forEach(function(r) {
     ptRev++;
     var score = parseFloat(r.r) || 0;
     ptSum += score;
     if (score >= 8) ptHigh++;
+    if (score <= 4) ptLow++;
     if (hasCleaningIssue((r.c || '') + (r.g || '') + (r.b || ''))) ptClean++;
   });
 });
 
 var portfolioAvg = ptRev > 0 ? Math.round(ptSum / ptRev * 100) / 100 : 0;
 var portfolioHighRate = ptRev > 0 ? Math.round(ptHigh / ptRev * 1000) / 10 : 0;
+var portfolioLowRate = ptRev > 0 ? Math.round(ptLow / ptRev * 1000) / 10 : 0;
 var portfolioCleanRate = ptRev > 0 ? Math.round(ptClean / ptRev * 1000) / 10 : 0;
 
 var portfolioSummary = {
@@ -128,6 +130,7 @@ var portfolioSummary = {
   total_reviews: ptRev,
   avg_score: portfolioAvg,
   high_rate: portfolioHighRate,
+  low_rate: portfolioLowRate,
   cleaning_issue_rate: portfolioCleanRate,
   cleaning_issue_count: ptClean
 };
@@ -224,7 +227,7 @@ if (typeof deepResult === 'object' && deepResult.html) {
 }
 
 // 5. Revenue Impact
-var revenueResult = buildRevenueImpact(data, revenueOps);
+var revenueResult = buildRevenueImpact(data, revenueOps, deltas);
 if (typeof revenueResult === 'object' && revenueResult.html) {
   writePage('revenue-impact.html', revenueResult.html);
   if (revenueResult.snapshotContent) {
@@ -261,7 +264,7 @@ var simHtml = buildSimulator(data, revenueOps);
 writePage('simulator.html', simHtml);
 
 // 10. OTA Strategy (V3)
-var otaHtml = buildOTA(data);
+var otaHtml = buildOTA(data, deltas);
 writePage('ota-strategy.html', otaHtml);
 
 // 11. Talent Management

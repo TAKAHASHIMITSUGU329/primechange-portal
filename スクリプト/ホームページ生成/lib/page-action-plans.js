@@ -124,7 +124,10 @@ function buildActionPlans(data, revenueOps, deltas) {
       '<div class="accordion-item" data-hotel="' + esc(p.hotel) + '" data-priority="' + esc(p.priority_level || 'STANDARD') + '">',
       '  <div class="accordion-header">',
       '    <div>' + (priorityBadge[p.priority_level] || '') + ' ' + esc(p.hotel)
-        + ' <span style="font-size:0.75rem;color:var(--text-light);">(' + esc(String(p.current_avg)) + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[hotelKey] && deltas.hotels[hotelKey].overall_avg_10pt || null, 'higher') + ' &rarr; ' + esc(String(p.target_avg)) + ')</span>'
+        + ' <span style="font-size:0.75rem;color:var(--text-light);">(' + esc(String(p.current_avg)) + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[hotelKey] && deltas.hotels[hotelKey].overall_avg_10pt || null, 'higher')
+        + ' 高評価' + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[hotelKey] && deltas.hotels[hotelKey].high_rate || null, 'higher')
+        + ' 低評価' + deltaBadgeCompact(deltas && deltas.hotels && deltas.hotels[hotelKey] && deltas.hotels[hotelKey].low_rate || null, 'lower')
+        + ' &rarr; ' + esc(String(p.target_avg)) + ')</span>'
         + revBadge + '</div>',
       '    <span class="accordion-arrow">&#9660;</span>',
       '  </div>',
