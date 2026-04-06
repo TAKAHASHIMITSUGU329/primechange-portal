@@ -56,16 +56,19 @@ def extract_staff_data():
                 absence = safe_number(ws2.cell(row=row_idx, column=8).value, None)
                 hours = safe_number(ws2.cell(row=row_idx, column=9).value, None)
 
-                # Monthly data: Feb=c21(days),c23(hrs),c24(rooms) / Mar=c31(days),c33(hrs),c34(rooms)
+                # Monthly data: Feb=c21(days),c23(hrs),c24(rooms) / Mar=c31(days),c33(hrs),c34(rooms) / Apr=c41(days),c43(hrs),c44(rooms)
                 feb_days = safe_number(ws2.cell(row=row_idx, column=21).value, 0)
                 feb_hours = safe_number(ws2.cell(row=row_idx, column=23).value, 0)
                 feb_rooms = safe_number(ws2.cell(row=row_idx, column=24).value, 0)
                 mar_days = safe_number(ws2.cell(row=row_idx, column=31).value, 0)
                 mar_hours = safe_number(ws2.cell(row=row_idx, column=33).value, 0)
                 mar_rooms = safe_number(ws2.cell(row=row_idx, column=34).value, 0)
+                apr_days = safe_number(ws2.cell(row=row_idx, column=41).value, 0)
+                apr_hours = safe_number(ws2.cell(row=row_idx, column=43).value, 0)
+                apr_rooms = safe_number(ws2.cell(row=row_idx, column=44).value, 0)
 
-                total_rooms = int(feb_rooms + mar_rooms)
-                sum_days = int(feb_days + mar_days) if (feb_days + mar_days) > 0 else (int(total_days) if total_days else 0)
+                total_rooms = int(feb_rooms + mar_rooms + apr_rooms)
+                sum_days = int(feb_days + mar_days + apr_days) if (feb_days + mar_days + apr_days) > 0 else (int(total_days) if total_days else 0)
 
                 hotel_data['roster'].append({
                     'name': str(name).strip(),
@@ -73,10 +76,11 @@ def extract_staff_data():
                     'pay_type': str(pay_type).strip() if pay_type else '',
                     'total_days': sum_days,
                     'absence_days': int(absence) if absence else 0,
-                    'total_hours': round((feb_hours + mar_hours) or (hours or 0), 1),
+                    'total_hours': round((feb_hours + mar_hours + apr_hours) or (hours or 0), 1),
                     'rooms_cleaned': total_rooms,
                     'feb_rooms': int(feb_rooms),
                     'mar_rooms': int(mar_rooms),
+                    'apr_rooms': int(apr_rooms),
                 })
 
         hotel_data['total_maid_claims'] = sum(m['claims'] for m in hotel_data['maids'])
@@ -198,7 +202,7 @@ def main():
             'analysis_id': 2, 'title': 'スタッフ個人別パフォーマンス分析',
             'subtitle': 'Individual Staff Performance Analysis',
             'total_hotels': 19, 'total_staff_analyzed': total_roster,
-            'data_period': 'R8年度（2月〜3月）'
+            'data_period': 'R8年度（2月〜4月）'
         },
         **results,
     }

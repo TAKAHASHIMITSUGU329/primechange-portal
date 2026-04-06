@@ -5,7 +5,7 @@
     "subtitle": "Individual Staff Performance Analysis",
     "total_hotels": 19,
     "total_staff_analyzed": 312,
-    "data_period": "R8年度（2月〜3月）"
+    "data_period": "R8年度（2月〜4月）"
   },
   "maid_claims_summary": {
     "total_maids_with_claims": 111,
@@ -198,159 +198,169 @@
     ]
   },
   "maid_productivity": {
-    "total_maids_with_room_data": 174,
-    "avg_rooms_per_day": 11.7,
-    "median_rooms_per_day": 12.6,
-    "max_rooms_per_day": 26.1,
+    "total_maids_with_room_data": 187,
+    "avg_rooms_per_day": 11.1,
+    "median_rooms_per_day": 12.2,
+    "max_rooms_per_day": 26.0,
     "min_rooms_per_day": 0.3,
     "top_performers": [
       {
         "name": "辛",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 55,
+        "total_days": 57,
         "absence_days": 0,
-        "total_hours": 301.7,
-        "rooms_cleaned": 1436,
+        "total_hours": 311.6,
+        "rooms_cleaned": 1483,
         "feb_rooms": 638,
         "mar_rooms": 798,
+        "apr_rooms": 47,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
-        "rooms_per_day": 26.1
+        "rooms_per_day": 26.0
       },
       {
         "name": "楊",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 53,
+        "total_days": 58,
         "absence_days": 0,
-        "total_hours": 289.5,
-        "rooms_cleaned": 1372,
+        "total_hours": 312.2,
+        "rooms_cleaned": 1467,
         "feb_rooms": 659,
         "mar_rooms": 713,
+        "apr_rooms": 95,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
-        "rooms_per_day": 25.9
+        "rooms_per_day": 25.3
       },
       {
         "name": "モハン",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 23,
+        "total_days": 28,
         "absence_days": 0,
-        "total_hours": 104.3,
-        "rooms_cleaned": 561,
+        "total_hours": 129.9,
+        "rooms_cleaned": 676,
         "feb_rooms": 561,
         "mar_rooms": 0,
+        "apr_rooms": 115,
         "hotel": "ハートンホテル東品川",
         "hotel_key": "hearton",
-        "rooms_per_day": 24.4
+        "rooms_per_day": 24.1
       },
       {
         "name": "ブラトキ",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 51,
+        "total_days": 56,
         "absence_days": 0,
-        "total_hours": 262.7,
-        "rooms_cleaned": 1190,
+        "total_hours": 285.7,
+        "rooms_cleaned": 1273,
         "feb_rooms": 543,
         "mar_rooms": 647,
-        "hotel": "チサンホテル浜松町",
-        "hotel_key": "chisan",
-        "rooms_per_day": 23.3
-      },
-      {
-        "name": "ビナ",
-        "position": "メイド",
-        "pay_type": "歩合",
-        "total_days": 42,
-        "absence_days": 0,
-        "total_hours": 229.1,
-        "rooms_cleaned": 971,
-        "feb_rooms": 307,
-        "mar_rooms": 664,
-        "hotel": "チサンホテル浜松町",
-        "hotel_key": "chisan",
-        "rooms_per_day": 23.1
-      },
-      {
-        "name": "マヤ",
-        "position": "メイド",
-        "pay_type": "歩合",
-        "total_days": 51,
-        "absence_days": 0,
-        "total_hours": 278.6,
-        "rooms_cleaned": 1171,
-        "feb_rooms": 529,
-        "mar_rooms": 642,
-        "hotel": "チサンホテル浜松町",
-        "hotel_key": "chisan",
-        "rooms_per_day": 23.0
-      },
-      {
-        "name": "スシラ",
-        "position": "メイド",
-        "pay_type": "歩合",
-        "total_days": 52,
-        "absence_days": 0,
-        "total_hours": 279.8,
-        "rooms_cleaned": 1185,
-        "feb_rooms": 546,
-        "mar_rooms": 639,
-        "hotel": "チサンホテル浜松町",
-        "hotel_key": "chisan",
-        "rooms_per_day": 22.8
-      },
-      {
-        "name": "コイララ",
-        "position": "メイド",
-        "pay_type": "歩合",
-        "total_days": 51,
-        "absence_days": 0,
-        "total_hours": 267.4,
-        "rooms_cleaned": 1163,
-        "feb_rooms": 527,
-        "mar_rooms": 636,
-        "hotel": "チサンホテル浜松町",
-        "hotel_key": "chisan",
-        "rooms_per_day": 22.8
-      },
-      {
-        "name": "マヌ",
-        "position": "メイド",
-        "pay_type": "歩合",
-        "total_days": 40,
-        "absence_days": 0,
-        "total_hours": 219.5,
-        "rooms_cleaned": 908,
-        "feb_rooms": 292,
-        "mar_rooms": 616,
+        "apr_rooms": 83,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
         "rooms_per_day": 22.7
       },
       {
-        "name": "ラクシャン",
+        "name": "コイララ",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 39,
+        "total_days": 55,
         "absence_days": 0,
-        "total_hours": 206.8,
-        "rooms_cleaned": 879,
-        "feb_rooms": 486,
-        "mar_rooms": 393,
+        "total_hours": 285.8,
+        "rooms_cleaned": 1233,
+        "feb_rooms": 527,
+        "mar_rooms": 636,
+        "apr_rooms": 70,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
-        "rooms_per_day": 22.5
+        "rooms_per_day": 22.4
+      },
+      {
+        "name": "ビナ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 47,
+        "absence_days": 0,
+        "total_hours": 252.1,
+        "rooms_cleaned": 1053,
+        "feb_rooms": 307,
+        "mar_rooms": 664,
+        "apr_rooms": 82,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 22.4
+      },
+      {
+        "name": "ジャスミン",
+        "position": "メイド",
+        "pay_type": "",
+        "total_days": 49,
+        "absence_days": 0,
+        "total_hours": 231.0,
+        "rooms_cleaned": 1098,
+        "feb_rooms": 450,
+        "mar_rooms": 648,
+        "apr_rooms": 0,
+        "hotel": "ハートンホテル東品川",
+        "hotel_key": "hearton",
+        "rooms_per_day": 22.4
+      },
+      {
+        "name": "スシラ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 56,
+        "absence_days": 0,
+        "total_hours": 299.0,
+        "rooms_cleaned": 1248,
+        "feb_rooms": 546,
+        "mar_rooms": 639,
+        "apr_rooms": 63,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 22.3
+      },
+      {
+        "name": "マヤ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 56,
+        "absence_days": 0,
+        "total_hours": 301.4,
+        "rooms_cleaned": 1249,
+        "feb_rooms": 529,
+        "mar_rooms": 642,
+        "apr_rooms": 78,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 22.3
+      },
+      {
+        "name": "マヌ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 45,
+        "absence_days": 0,
+        "total_hours": 242.5,
+        "rooms_cleaned": 998,
+        "feb_rooms": 292,
+        "mar_rooms": 616,
+        "apr_rooms": 90,
+        "hotel": "チサンホテル浜松町",
+        "hotel_key": "chisan",
+        "rooms_per_day": 22.2
       }
     ]
   },
   "attendance_analysis": {
     "total_staff": 309,
-    "avg_days": 28.8,
-    "high_attendance": 244,
-    "low_attendance": 12
+    "avg_days": 31.0,
+    "high_attendance": 251,
+    "low_attendance": 11
   },
   "hotel_summaries": [
     {
@@ -383,8 +393,8 @@
       "checker_count": 0,
       "total_claims": 0,
       "claims_per_maid": 0.0,
-      "avg_rooms_per_day": 2.9,
-      "avg_attendance_days": 24.0
+      "avg_rooms_per_day": 2.8,
+      "avg_attendance_days": 26.0
     },
     {
       "hotel_key": "comfort_yokohama",
@@ -439,7 +449,7 @@
       "total_claims": 1,
       "claims_per_maid": 0.11,
       "avg_rooms_per_day": 18.0,
-      "avg_attendance_days": 36.8
+      "avg_attendance_days": 39.5
     },
     {
       "hotel_key": "apa_sagamihara",
@@ -450,7 +460,7 @@
       "total_claims": 2,
       "claims_per_maid": 0.11,
       "avg_rooms_per_day": 0.4,
-      "avg_attendance_days": 27.6
+      "avg_attendance_days": 29.8
     },
     {
       "hotel_key": "henn_na_haneda",
@@ -460,8 +470,8 @@
       "checker_count": 6,
       "total_claims": 5,
       "claims_per_maid": 0.19,
-      "avg_rooms_per_day": 11.4,
-      "avg_attendance_days": 28.1
+      "avg_rooms_per_day": 10.9,
+      "avg_attendance_days": 30.0
     },
     {
       "hotel_key": "keyakigate",
@@ -471,8 +481,8 @@
       "checker_count": 4,
       "total_claims": 5,
       "claims_per_maid": 0.28,
-      "avg_rooms_per_day": 11.1,
-      "avg_attendance_days": 25.6
+      "avg_rooms_per_day": 10.6,
+      "avg_attendance_days": 27.8
     },
     {
       "hotel_key": "comfort_era_higashikanda",
@@ -482,8 +492,8 @@
       "checker_count": 0,
       "total_claims": 5,
       "claims_per_maid": 0.28,
-      "avg_rooms_per_day": 14.8,
-      "avg_attendance_days": 24.5
+      "avg_rooms_per_day": 15.0,
+      "avg_attendance_days": 26.7
     },
     {
       "hotel_key": "comfort_hakata",
@@ -493,8 +503,8 @@
       "checker_count": 7,
       "total_claims": 11,
       "claims_per_maid": 0.28,
-      "avg_rooms_per_day": 4.4,
-      "avg_attendance_days": 22.4
+      "avg_rooms_per_day": 4.2,
+      "avg_attendance_days": 24.1
     },
     {
       "hotel_key": "daiichi_ikebukuro",
@@ -504,8 +514,8 @@
       "checker_count": 4,
       "total_claims": 3,
       "claims_per_maid": 0.43,
-      "avg_rooms_per_day": 10.4,
-      "avg_attendance_days": 34.2
+      "avg_rooms_per_day": 11.4,
+      "avg_attendance_days": 33.5
     },
     {
       "hotel_key": "keisei_richmond",
@@ -515,8 +525,8 @@
       "checker_count": 6,
       "total_claims": 11,
       "claims_per_maid": 0.5,
-      "avg_rooms_per_day": 12.4,
-      "avg_attendance_days": 26.6
+      "avg_rooms_per_day": 9.0,
+      "avg_attendance_days": 28.5
     },
     {
       "hotel_key": "hearton",
@@ -526,8 +536,8 @@
       "checker_count": 2,
       "total_claims": 14,
       "claims_per_maid": 0.54,
-      "avg_rooms_per_day": 14.7,
-      "avg_attendance_days": 33.4
+      "avg_rooms_per_day": 13.9,
+      "avg_attendance_days": 36.7
     },
     {
       "hotel_key": "chisan",
@@ -537,8 +547,8 @@
       "checker_count": 0,
       "total_claims": 7,
       "claims_per_maid": 0.58,
-      "avg_rooms_per_day": 23.1,
-      "avg_attendance_days": 46.1
+      "avg_rooms_per_day": 22.5,
+      "avg_attendance_days": 50.4
     },
     {
       "hotel_key": "daiwa_osaki",
@@ -548,8 +558,8 @@
       "checker_count": 3,
       "total_claims": 15,
       "claims_per_maid": 1.15,
-      "avg_rooms_per_day": 12.9,
-      "avg_attendance_days": 39.4
+      "avg_rooms_per_day": 12.1,
+      "avg_attendance_days": 42.8
     },
     {
       "hotel_key": "kawasaki_nikko",
@@ -559,8 +569,8 @@
       "checker_count": 3,
       "total_claims": 25,
       "claims_per_maid": 1.56,
-      "avg_rooms_per_day": 13.1,
-      "avg_attendance_days": 29.8
+      "avg_rooms_per_day": 11.2,
+      "avg_attendance_days": 32.1
     }
   ],
   "recommendations": [
@@ -587,7 +597,7 @@
     {
       "title": "生産性指標の導入と目標管理",
       "priority": "中",
-      "rationale": "メイド1日あたり清掃室数の平均11.7室。個人差が大きく標準化が課題。",
+      "rationale": "メイド1日あたり清掃室数の平均11.1室。個人差が大きく標準化が課題。",
       "actions": [
         "日あたり清掃室数の個人別トラッキング",
         "効率と品質のバランス指標の設定",
