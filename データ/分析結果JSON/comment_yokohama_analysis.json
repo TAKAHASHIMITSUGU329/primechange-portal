@@ -1,16 +1,25 @@
 {
-  "total_reviews": 65,
-  "overall_avg_10pt": 8.82,
-  "high_count": 56,
-  "high_rate": 86.2,
-  "mid_count": 8,
-  "mid_rate": 12.3,
+  "total_reviews": 75,
+  "overall_avg_10pt": 8.83,
+  "high_count": 65,
+  "high_rate": 86.7,
+  "mid_count": 9,
+  "mid_rate": 12.0,
   "low_count": 1,
-  "low_rate": 1.5,
+  "low_rate": 1.3,
   "site_stats": [
     {
       "site": "じゃらん",
-      "count": 4,
+      "count": 5,
+      "native_avg": 4.8,
+      "scale": "/5",
+      "avg_10pt": 9.6,
+      "median_10pt": 10.0,
+      "judgment": "優秀"
+    },
+    {
+      "site": "Google",
+      "count": 8,
       "native_avg": 4.75,
       "scale": "/5",
       "avg_10pt": 9.5,
@@ -19,25 +28,16 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 11,
-      "native_avg": 4.73,
+      "count": 13,
+      "native_avg": 4.69,
       "scale": "/5",
-      "avg_10pt": 9.45,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Google",
-      "count": 7,
-      "native_avg": 4.71,
-      "scale": "/5",
-      "avg_10pt": 9.43,
+      "avg_10pt": 9.38,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "Trip.com",
-      "count": 10,
+      "count": 12,
       "native_avg": 9.0,
       "scale": "/10",
       "avg_10pt": 9.0,
@@ -46,10 +46,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 17,
-      "native_avg": 8.76,
+      "count": 21,
+      "native_avg": 8.67,
       "scale": "/10",
-      "avg_10pt": 8.76,
+      "avg_10pt": 8.67,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -66,41 +66,171 @@
   "distribution": [
     {
       "score": 10,
-      "count": 30,
-      "pct": "46.2%"
+      "count": 36,
+      "pct": "48.0%"
     },
     {
       "score": 9,
       "count": 12,
-      "pct": "18.5%"
+      "pct": "16.0%"
     },
     {
       "score": 8,
-      "count": 14,
-      "pct": "21.5%"
+      "count": 17,
+      "pct": "22.7%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "6.2%"
+      "pct": "5.3%"
     },
     {
       "score": 6,
       "count": 2,
-      "pct": "3.1%"
+      "pct": "2.7%"
     },
     {
       "score": 5,
-      "count": 2,
-      "pct": "3.1%"
+      "count": 3,
+      "pct": "4.0%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.5%"
+      "pct": "1.3%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-04-05",
+      "comment": "Booking.com",
+      "good": "宿泊代が妥当だった",
+      "bad": "駐車場は基本ないが  付近と提携していない",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "駐車場は基本ないが  付近と提携していない",
+      "reviewer": "Takayuki"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-05",
+      "comment": "Google",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは綺麗で駅から近い。ハマスタから近い。分かりやすい。部屋は広い、綺麗。大浴場は広く気持ち良い。朝食ブッフェは和洋完璧で全て美味しい。全てにおいて素晴らしいです。もう永世名人ですね。絶対にお勧めです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "山守裕之"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-05",
+      "comment": "楽天トラベル",
+      "good": "",
+      "bad": "",
+      "translated": "子ども達憧れの2段ベッドに大満足！とても綺麗なホテルでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゆめゆうパパ"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-04",
+      "comment": "Booking.com",
+      "good": "アメニティーとスープとお茶！ 狭い部屋だけど2段ベットでワクワクした 綺麗",
+      "bad": "特にない",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "特にない",
+      "reviewer": "Saito"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "Booking.com",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Noriko"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "じゃらん",
+      "good": "",
+      "bad": "",
+      "translated": "友達と利用しました。  部屋がとってもオシャレで楽しかったです！  大浴場のドライヤーはSALONIAだったのですぐ乾いて利用しやすかったです。  朝食も色んな美味しいものがバイキング形式で選べて最高でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "みうさん"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-03",
+      "comment": "Booking.com",
+      "good": "メゾネットタイプの部屋に家族で利用させていただきました。 部屋もキレイでとても快適に過ごす事が出来ました。 大浴場は思っていたより小さいけど、空いている時間なら良いと思います。 朝食バイキングは開放的なレストランでゆっくりと食事できるので、オススメです。 ホテルスタッフは皆さん素晴らしいです。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ぱらぐら"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-02",
+      "comment": "Trip.com",
+      "good": "",
+      "bad": "",
+      "translated": "横浜ブンタイやスタジアム至近。穴場。大浴場あり。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "N‍T‍ ‍f‍a‍m‍i‍l‍y"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-02",
+      "comment": "楽天トラベル",
+      "good": "",
+      "bad": "",
+      "translated": "外観もお部屋も丸みがあってデザインが素敵なホテルです。 雨の日だったので濡れた鞄やビニール袋を置く場所に困りました。ラゲージラックが無い。ベッドや椅子には置けないから丸テーブルとリモコンやティッシュが置いてある棚上に。びしょびしょになりました。そこでご飯食べるともう置き場が足りなくて狭い。 大きな折りたたみ物干しがあったのはいいけど、パウダールームもシャワールームもトイレの壁もオシャレにシンプルすぎて、棚とかひっかける場所がないのが惜しい。上にちょっとした置き場やフックがあればタオル置いたり濡れたものを干したり出来るのに…と滞在中たびたび思いました。 お風呂はのびのび入れて気持ちよかった。館内着は着やすくて、お風呂後に冷たいドリンクがあるのが嬉しいです。 ベッドは広くて枕は二種類あって  寝やすかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "hanuka1221"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-01",
+      "comment": "Trip.com",
+      "good": "",
+      "bad": "",
+      "translated": "ホテルは概ね問題なかった。ただ、一部の部屋はかなり不衛生だった。例えば、枕に足跡がついていたり、バスルームに短い髪の毛が落ちていたりした。（フロントのスタッフは枕に足跡がついているのを見ても気にせず、そのまま元の場所に戻していた😂）",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -421,7 +551,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "横浜武道館のすぐ隣という最高のロケーションで、地下鉄金内駅から徒歩わずか2～3分です。ホテルにはサウナ、温泉、大浴場があり、快適な滞在をお約束します。",
+      "translated": "立地は抜群で、横浜武道館のすぐ隣、地下鉄寛寧駅からも徒歩わずか2～3分と非常に近い。ホテルにはサウナ、温泉、大浴場があり、快適な滞在をお約束します。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
@@ -889,7 +1019,7 @@
       "comment": "Trip.com",
       "good": "",
       "bad": "",
-      "translated": "ここが建てられたばかりだったので、とてもきれいです！トイレが特にすっきりしているので、きれいですが、本当にきれいです。",
+      "translated": "ここが建てられたばかりだったので、とてもきれいです！トイレが特にすっきりしていて選びましたが、本当にきれいですね。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "뀨‍에‍애‍엑"
