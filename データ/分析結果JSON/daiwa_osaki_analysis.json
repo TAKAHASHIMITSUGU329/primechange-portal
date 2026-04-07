@@ -1,16 +1,16 @@
 {
-  "total_reviews": 43,
-  "overall_avg_10pt": 8.63,
-  "high_count": 32,
-  "high_rate": 74.4,
-  "mid_count": 11,
-  "mid_rate": 25.6,
+  "total_reviews": 37,
+  "overall_avg_10pt": 8.59,
+  "high_count": 27,
+  "high_rate": 73.0,
+  "mid_count": 10,
+  "mid_rate": 27.0,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 6,
+      "count": 5,
       "native_avg": 10.0,
       "scale": "/10",
       "avg_10pt": 10.0,
@@ -19,11 +19,11 @@
     },
     {
       "site": "Booking.com",
-      "count": 20,
-      "native_avg": 8.8,
+      "count": 16,
+      "native_avg": 8.81,
       "scale": "/10",
-      "avg_10pt": 8.8,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.81,
+      "median_10pt": 9.5,
       "judgment": "良好"
     },
     {
@@ -55,10 +55,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 6,
-      "native_avg": 3.83,
+      "count": 5,
+      "native_avg": 3.8,
       "scale": "/5",
-      "avg_10pt": 7.67,
+      "avg_10pt": 7.6,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -66,109 +66,31 @@
   "distribution": [
     {
       "score": 10,
-      "count": 19,
-      "pct": "44.2%"
+      "count": 17,
+      "pct": "45.9%"
     },
     {
       "score": 9,
-      "count": 4,
-      "pct": "9.3%"
+      "count": 2,
+      "pct": "5.4%"
     },
     {
       "score": 8,
-      "count": 9,
-      "pct": "20.9%"
+      "count": 8,
+      "pct": "21.6%"
     },
     {
       "score": 7,
-      "count": 7,
-      "pct": "16.3%"
+      "count": 6,
+      "pct": "16.2%"
     },
     {
       "score": 6,
       "count": 4,
-      "pct": "9.3%"
+      "pct": "10.8%"
     }
   ],
   "comments": [
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-04",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kin"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-03",
-      "comment": "大崎出張で2回目のお世話となりました  前回同様に清潔、快適、駅近等々で今回もお世話になった次第です",
-      "good": "",
-      "bad": "",
-      "translated": "大崎出張で2回目のお世話となりました  前回同様に清潔、快適、駅近等々で今回もお世話になった次第です",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "undersonjpさん"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "対応がいつも迅速かつ丁寧なところや、部屋が綺麗。",
-      "bad": "とくに無いです。",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "とくに無いです。",
-      "reviewer": "Mayumi"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "โรงแรมห้องค่อนข้างกว้าง สะอาด พนักงานยิ้มแย้ม ใกล้สถานีรถไฟถือว่าดีค่า",
-      "good": "",
-      "bad": "",
-      "translated": "ホテルの客室は広々としていて清潔です。スタッフは親切で笑顔が素敵です。駅に近いのも大きな利点です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "b‍e‍l‍l‍o‍p‍i‍n‍k‍y‍p‍i‍e"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Satoru"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "房間乾淨，交通便利",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yu"
-    },
     {
       "site": "Trip.com",
       "rating": 10.0,

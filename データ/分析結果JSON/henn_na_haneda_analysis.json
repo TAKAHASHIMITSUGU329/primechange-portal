@@ -10,37 +10,37 @@
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 12,
-      "native_avg": 9.17,
+      "count": 9,
+      "native_avg": 9.56,
       "scale": "/10",
-      "avg_10pt": 9.17,
+      "avg_10pt": 9.56,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 23,
-      "native_avg": 4.39,
+      "site": "じゃらん",
+      "count": 8,
+      "native_avg": 4.38,
       "scale": "/5",
-      "avg_10pt": 8.78,
-      "median_10pt": 10.0,
+      "avg_10pt": 8.75,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
-      "site": "じゃらん",
-      "count": 12,
-      "native_avg": 4.33,
+      "site": "楽天トラベル",
+      "count": 19,
+      "native_avg": 4.32,
       "scale": "/5",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.63,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 23,
-      "native_avg": 8.43,
+      "count": 20,
+      "native_avg": 8.4,
       "scale": "/10",
-      "avg_10pt": 8.43,
+      "avg_10pt": 8.4,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -60,7 +60,7 @@
       "scale": "/5",
       "avg_10pt": 7.76,
       "median_10pt": 10.0,
-      "judgment": "概ね良好"
+      "judgment": "良好"
     }
   ],
   "distribution": [
@@ -97,12 +97,12 @@
     {
       "score": 4,
       "count": 2,
-      "pct": "1.0%"
+      "pct": "1.2%"
     },
     {
       "score": 3,
-      "count": 2,
-      "pct": "1.0%"
+      "count": 1,
+      "pct": "0.6%"
     },
     {
       "score": 2,

@@ -1,61 +1,61 @@
 {
-  "total_reviews": 63,
+  "total_reviews": 54,
   "overall_avg_10pt": 6.52,
-  "high_count": 29,
-  "high_rate": 46.0,
-  "mid_count": 19,
-  "mid_rate": 30.2,
-  "low_count": 15,
-  "low_rate": 23.8,
+  "high_count": 25,
+  "high_rate": 46.3,
+  "mid_count": 17,
+  "mid_rate": 31.5,
+  "low_count": 12,
+  "low_rate": 22.2,
   "site_stats": [
     {
       "site": "じゃらん",
-      "count": 7,
-      "native_avg": 3.71,
+      "count": 6,
+      "native_avg": 3.5,
       "scale": "/5",
-      "avg_10pt": 7.43,
-      "median_10pt": 8.0,
+      "avg_10pt": 7.0,
+      "median_10pt": 7.0,
       "judgment": "概ね良好"
     },
     {
       "site": "Agoda",
-      "count": 9,
-      "native_avg": 6.67,
+      "count": 8,
+      "native_avg": 6.88,
       "scale": "/10",
-      "avg_10pt": 6.67,
-      "median_10pt": 6.0,
-      "judgment": "要改善"
-    },
-    {
-      "site": "Booking.com",
-      "count": 5,
-      "native_avg": 6.6,
-      "scale": "/10",
-      "avg_10pt": 6.6,
-      "median_10pt": 7.0,
-      "judgment": "要改善"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 20,
-      "native_avg": 3.2,
-      "scale": "/5",
-      "avg_10pt": 6.4,
+      "avg_10pt": 6.88,
       "median_10pt": 7.0,
       "judgment": "要改善"
     },
     {
       "site": "Google",
-      "count": 16,
-      "native_avg": 3.19,
+      "count": 13,
+      "native_avg": 3.23,
       "scale": "/5",
-      "avg_10pt": 6.38,
-      "median_10pt": 7.0,
+      "avg_10pt": 6.46,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 19,
+      "native_avg": 3.21,
+      "scale": "/5",
+      "avg_10pt": 6.42,
+      "median_10pt": 8.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "Booking.com",
+      "count": 4,
+      "native_avg": 6.25,
+      "scale": "/10",
+      "avg_10pt": 6.25,
+      "median_10pt": 6.0,
       "judgment": "要改善"
     },
     {
       "site": "Trip.com",
-      "count": 6,
+      "count": 4,
       "native_avg": 6.0,
       "scale": "/10",
       "avg_10pt": 6.0,
@@ -66,43 +66,43 @@
   "distribution": [
     {
       "score": 10,
-      "count": 9,
-      "pct": "14.3%"
+      "count": 6,
+      "pct": "11.1%"
     },
     {
       "score": 8,
-      "count": 20,
-      "pct": "31.7%"
+      "count": 19,
+      "pct": "35.2%"
     },
     {
       "score": 7,
       "count": 3,
-      "pct": "4.8%"
+      "pct": "5.6%"
     },
     {
       "score": 6,
-      "count": 14,
-      "pct": "22.2%"
+      "count": 13,
+      "pct": "24.1%"
     },
     {
       "score": 5,
-      "count": 2,
-      "pct": "3.2%"
+      "count": 1,
+      "pct": "1.9%"
     },
     {
       "score": 4,
-      "count": 7,
-      "pct": "11.1%"
+      "count": 5,
+      "pct": "9.3%"
     },
     {
       "score": 3,
       "count": 2,
-      "pct": "3.2%"
+      "pct": "3.7%"
     },
     {
       "score": 2,
-      "count": 6,
-      "pct": "9.5%"
+      "count": 5,
+      "pct": "9.3%"
     }
   ],
   "comments": [

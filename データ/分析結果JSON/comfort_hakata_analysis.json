@@ -28,8 +28,8 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 4,
-      "native_avg": 3.75,
+      "count": 3,
+      "native_avg": 3.33,
       "scale": "/5",
       "avg_10pt": 7.5,
       "median_10pt": 7.0,
@@ -46,11 +46,11 @@
     },
     {
       "site": "Google",
-      "count": 13,
-      "native_avg": 3.23,
+      "count": 12,
+      "native_avg": 3.17,
       "scale": "/5",
-      "avg_10pt": 6.46,
-      "median_10pt": 8.0,
+      "avg_10pt": 6.33,
+      "median_10pt": 7.0,
       "judgment": "要改善"
     }
   ],
