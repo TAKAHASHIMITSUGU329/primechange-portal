@@ -1,6 +1,6 @@
 // V3 Executive Summary Page Generator
 'use strict';
-const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact } = require('./common-v2');
+const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact, deltaSummaryBanner } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
 function buildExecutive(data, deltas, revenueOps, csResults) {
@@ -91,6 +91,9 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   lines.push(pageHead('EXECUTIVE SUMMARY - PRIME CHANGE', { extraCSS: extraCSS }));
   lines.push(nav('executive'));
   lines.push('<div class="container">');
+
+  // --- Delta Summary Banner ---
+  lines.push(deltaSummaryBanner(deltas));
 
   // --- Header ---
   lines.push('<div class="section-heading"><span class="heading-en">EXECUTIVE SUMMARY</span><span class="heading-ja">エグゼクティブサマリー &mdash; 経営会議用ダッシュボード</span></div>');

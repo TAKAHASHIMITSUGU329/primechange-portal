@@ -1,12 +1,12 @@
 {
-  "total_reviews": 61,
-  "overall_avg_10pt": 8.98,
-  "high_count": 54,
-  "high_rate": 88.5,
+  "total_reviews": 62,
+  "overall_avg_10pt": 8.97,
+  "high_count": 55,
+  "high_rate": 88.7,
   "mid_count": 5,
-  "mid_rate": 8.2,
+  "mid_rate": 8.1,
   "low_count": 2,
-  "low_rate": 3.3,
+  "low_rate": 3.2,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -37,12 +37,12 @@
     },
     {
       "site": "Booking.com",
-      "count": 11,
-      "native_avg": 9.0,
+      "count": 12,
+      "native_avg": 8.92,
       "scale": "/10",
-      "avg_10pt": 9.0,
+      "avg_10pt": 8.92,
       "median_10pt": 9.0,
-      "judgment": "優秀"
+      "judgment": "良好"
     },
     {
       "site": "じゃらん",
@@ -67,17 +67,17 @@
     {
       "score": 10,
       "count": 39,
-      "pct": "63.9%"
+      "pct": "62.9%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "4.9%"
+      "pct": "4.8%"
     },
     {
       "score": 8,
-      "count": 12,
-      "pct": "19.7%"
+      "count": 13,
+      "pct": "21.0%"
     },
     {
       "score": 7,
@@ -87,15 +87,28 @@
     {
       "score": 6,
       "count": 4,
-      "pct": "6.6%"
+      "pct": "6.5%"
     },
     {
       "score": 2,
       "count": 2,
-      "pct": "3.3%"
+      "pct": "3.2%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-06",
+      "comment": "",
+      "good": "Very close to train station  My room was very quiet and bed comfy",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Dianne"
+    },
     {
       "site": "楽天トラベル",
       "rating": 5.0,

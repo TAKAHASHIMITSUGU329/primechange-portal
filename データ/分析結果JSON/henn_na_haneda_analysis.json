@@ -1,12 +1,12 @@
 {
-  "total_reviews": 193,
-  "overall_avg_10pt": 8.31,
-  "high_count": 146,
-  "high_rate": 75.6,
-  "mid_count": 39,
-  "mid_rate": 20.2,
-  "low_count": 8,
-  "low_rate": 4.1,
+  "total_reviews": 197,
+  "overall_avg_10pt": 8.25,
+  "high_count": 147,
+  "high_rate": 74.6,
+  "mid_count": 41,
+  "mid_rate": 20.8,
+  "low_count": 9,
+  "low_rate": 4.6,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -46,19 +46,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 90,
-      "native_avg": 8.12,
+      "count": 93,
+      "native_avg": 8.09,
       "scale": "/10",
-      "avg_10pt": 8.12,
+      "avg_10pt": 8.09,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 33,
-      "native_avg": 3.97,
+      "count": 34,
+      "native_avg": 3.88,
       "scale": "/5",
-      "avg_10pt": 7.94,
+      "avg_10pt": 7.76,
       "median_10pt": 10.0,
       "judgment": "概ね良好"
     }
@@ -67,32 +67,32 @@
     {
       "score": 10,
       "count": 70,
-      "pct": "36.3%"
+      "pct": "35.5%"
     },
     {
       "score": 9,
       "count": 26,
-      "pct": "13.5%"
+      "pct": "13.2%"
     },
     {
       "score": 8,
-      "count": 50,
+      "count": 51,
       "pct": "25.9%"
     },
     {
       "score": 7,
-      "count": 19,
-      "pct": "9.8%"
+      "count": 20,
+      "pct": "10.2%"
     },
     {
       "score": 6,
-      "count": 14,
-      "pct": "7.3%"
+      "count": 15,
+      "pct": "7.6%"
     },
     {
       "score": 5,
       "count": 6,
-      "pct": "3.1%"
+      "pct": "3.0%"
     },
     {
       "score": 4,
@@ -106,11 +106,63 @@
     },
     {
       "score": 2,
-      "count": 4,
-      "pct": "2.1%"
+      "count": 5,
+      "pct": "2.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-06",
+      "comment": "",
+      "good": "Good location.",
+      "bad": "Beds were not comfortable.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ベッドは快適ではなかった。",
+      "reviewer": "Aidan"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-04-06",
+      "comment": "",
+      "good": "Location",
+      "bad": "n.a.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "該当なし",
+      "reviewer": "Eufemia"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-06",
+      "comment": "",
+      "good": "場所は良い。",
+      "bad": "スタッフが常時いるのではなく、電話でやりとりするスタイル。省人は理解出来るが少し寂しい感じがする。  チェックインは15時からで、それ以前の場合は荷物をフロントに預けるわけではないので場所が限られている。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "スタッフが常時いるのではなく、電話でやりとりするスタイル。省人は理解出来るが少し寂しい感じがする。  チェックインは15時からで、それ以前の場合は荷物をフロントに預けるわけではないので場所が限られている。",
+      "reviewer": "Nobuaki"
+    },
+    {
+      "site": "Google",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-04-06",
+      "comment": "荷物が複数個ある場合や、大きな荷物をお持ちの場合は、シャトルバスの手配を拒否されるため、ここに宿泊しないでください。",
+      "good": "",
+      "bad": "",
+      "translated": "荷物が複数個ある場合や、大きな荷物をお持ちの場合は、シャトルバスの手配を拒否されるため、ここに宿泊しないでください。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Just Me"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -197,7 +249,7 @@
       "comment": "這家酒店最讓人印象深刻的，應該是由恐龍在前台服務吧～ 其實就是自助入住，系統有多種語言選擇，算是簡單易用，有不懂的仍是有服務員可以幫忙。退房也是自助。  房間乾淨整潔，設備如圖片介紹，我是商務出行，行李不多，但如果是携帶旅行箱，打開就沒地方走動了。  鄰近羽田機場，優勢是有免費穿梭巴士往返，約15分鐘車程，上午:酒店到羽田機場;下午:機場到酒店;每小時一班。 自行前往的話最近的車站是大鳥居站  酒店位於較為安靜的住宅區，走出大街有便利店、牛丼飯、NOTORI等，買夜宵也方便。",
       "good": "",
       "bad": "",
-      "translated": "このホテルで最も印象に残るのは、おそらく恐竜をテーマにしたフロントデスクサービスでしょう！基本的にはセルフチェックインで、システムは多言語に対応しており、非常に使いやすいです。何か質問があれば、スタッフが対応してくれます。チェックアウトもセルフサービスです。部屋は清潔で整頓されており、アメニティは写真の通りです。私は出張で荷物は少なかったのですが、スーツケースを持っていると、開けた瞬間に動き回るスペースがなくなってしまいます。羽田空港に近いのは大きな利点で、無料シャトルバスサービスがあり、車で約15分です。午前：ホテルから羽田空港、午後：空港からホテル、1時間に1本運行しています。最寄りの駅は大鳥居駅です。ホテルは比較的静かな住宅街に位置しており、大通りを少し外れたところにコンビニ、牛丼屋、NOTORIレストランなどがあり、夜食を買うのに便利です。",
+      "translated": "このホテルで最も印象に残るのは、おそらく恐竜をテーマにしたフロントデスクサービスでしょう！基本的にはセルフチェックインで、システムは多言語対応で非常に使いやすいです。何か質問があれば、スタッフが対応してくれます。チェックアウトもセルフサービスです。部屋は清潔で整頓されており、アメニティは写真の通りです。私は出張で荷物は少なかったのですが、スーツケースを持っていると、開けた瞬間に動き回るスペースがなくなってしまいます。羽田空港に近いのは大きな利点で、無料シャトルバスサービスがあり、車で約15分です。午前：ホテルから羽田空港、午後：空港からホテル、1時間に1本運行しています。最寄りの駅は大鳥居駅です。ホテルは比較的静かな住宅街に位置しており、大通りを少し外れたところにコンビニ、牛丼屋、NOTORIレストランなどがあり、夜食を買うのに便利です。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -327,7 +379,7 @@
       "comment": "Although its not super close to the airport there's more space than most japanese hotels and they have an Indian breakfast buffet",
       "good": "",
       "bad": "",
-      "translated": "空港からそれほど近くはないものの、日本のホテルの多くよりも広々としており、インド風の朝食ビュッフェも提供している。",
+      "translated": "空港からそれほど近くはないものの、日本のホテルの多くよりも広々としており、インド風の朝食ビュッフェを提供している。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Korey ghenee"
@@ -1081,7 +1133,7 @@
       "comment": "Perfect place to stay before or after your flight! The check in experience is so unique with the robots. Real staff is available to help (signs tell you this).  The room itself is mostly clean (we did find some hairs on the toilet and floor), comfortable, and a good value for the price paid. There are basic amenities provided.  Overall I would recommend and would stay here again.",
       "good": "",
       "bad": "",
-      "translated": "フライトの前後に滞在するのに最適な場所です！ロボットによるチェックインはとてもユニークです。もちろん、スタッフも常駐しており（案内表示にも記載されています）、必要な時に対応してくれます。部屋自体は概ね清潔で（トイレと床に髪の毛が少し落ちていましたが）、快適で、料金に見合った価値があります。基本的なアメニティも揃っています。全体的に見て、おすすめできるホテルで、また利用したいと思います。",
+      "translated": "フライトの前後に滞在するのに最適な場所です！ロボットによるチェックインはとてもユニークです。もちろん、スタッフも常駐しており（案内表示にも記載されています）、必要な時に対応してくれます。部屋自体は概ね清潔で（トイレと床に髪の毛が少し落ちていましたが）、快適で、料金に見合った価値があります。基本的なアメニティも揃っています。全体的に見ておすすめできるホテルで、また利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "DM Mendoza"
@@ -2474,7 +2526,7 @@
       "bad": "Der Shuttlebus zum Flughafen Haneda fährt leider nur 1x pro Stunde und zu Stoßzeiten kann es leicht vorkommen, dass man keinen Platz mehr bekommt.  Außerdem fährt er nur morgens und abends. Wer außerhalb der Zeiten ankommt, muss die Bahn nehmen (Keikyu Line, vier Stationen bis Bahnhof Otorii für 313yen).",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保するのも容易です。また、運行時間は朝と夕方のみです。これらの時間帯以外に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
+      "translated_bad": "羽田空港行きのシャトルバスは残念ながら1時間に1本しか運行しておらず、ピーク時は席を確保しやすいものの、運行時間は朝と夕方のみです。それ以外の時間帯に到着する場合は、電車（京急線、大鳥居駅まで4駅、313円）を利用する必要があります。",
       "reviewer": "Thomas"
     },
     {
@@ -2526,7 +2578,7 @@
       "bad": "I searched for Hen na hotel and got another one close to the other airport so I had to take train 1 hour each way. That is not Your foult but mine. I should have understood that it was a chain, but with a such odd name I did not believe it.   Robot checking in is not so nice. You have good locking girls in Japan.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女性がたくさんいますね。",
+      "translated_bad": "ヘンナホテルを検索したら、別の空港近くのホテルが出てきてしまい、片道1時間も電車に乗らなければなりませんでした。これはあなたのせいではなく、私の責任です。チェーンホテルだと気づくべきだったのですが、変わった名前だったので信じられませんでした。ロボットによるチェックインはあまり気持ちの良いものではありません。日本には鍵を閉めるのが好きな女の子がたくさんいますね。",
       "reviewer": "Sundberg"
     },
     {

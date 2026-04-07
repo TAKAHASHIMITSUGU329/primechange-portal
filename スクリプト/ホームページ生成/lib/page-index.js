@@ -1,5 +1,5 @@
 // V2 Index Page Builder - generates index.html for the portfolio portal
-const { esc, nav, footer, pageHead, pageFoot, deltaBadge } = require('./common-v2');
+const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaSummaryBanner } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
 // Achievement calculation helpers
@@ -63,6 +63,9 @@ function buildIndex(data, deltas, revenueOps) {
       );
     });
   }
+
+  // ── Delta Summary Banner ──
+  html.push(deltaSummaryBanner(deltas));
 
   // ── Page Title + Subtitle ──
   html.push(

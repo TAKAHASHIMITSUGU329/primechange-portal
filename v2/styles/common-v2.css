@@ -286,11 +286,32 @@ body { font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI
 }
 
 /* Delta badges */
-.delta-badge { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.65rem; font-weight: 700; padding: 0.12rem 0.45rem; border-radius: 6px; margin-left: 0.35rem; white-space: nowrap; vertical-align: middle; }
+.delta-badge { display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.72rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 6px; margin-left: 0.35rem; white-space: nowrap; vertical-align: middle; }
 .delta-badge.up { color: #065F46; background: #ECFDF5; border: 1px solid #A7F3D0; }
 .delta-badge.down { color: #991B1B; background: #FEF2F2; border: 1px solid #FECACA; }
 .delta-badge.flat { color: #6B7280; background: #F3F4F6; border: 1px solid #D1D5DB; }
-.delta-badge .delta-prev { font-size: 0.58rem; font-weight: 400; opacity: 0.7; margin-left: 0.15rem; }
-.delta-badge.compact { padding: 0.08rem 0.3rem; font-size: 0.58rem; }
+.delta-badge .delta-prev { font-size: 0.62rem; font-weight: 400; opacity: 0.7; margin-left: 0.15rem; }
+.delta-badge.compact { padding: 0.1rem 0.35rem; font-size: 0.62rem; }
 .delta-badge.compact .delta-prev { display: none; }
 .hide-deltas .delta-badge { display: none; }
+
+/* Delta summary banner */
+.delta-summary-banner { background: linear-gradient(135deg, #1E293B, #334155); color: white; border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; }
+.delta-summary-banner .dsb-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
+.delta-summary-banner .dsb-title { font-size: 0.85rem; font-weight: 700; }
+.delta-summary-banner .dsb-date { font-size: 0.72rem; opacity: 0.7; }
+.delta-summary-banner .dsb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.75rem; }
+.delta-summary-banner .dsb-item { background: rgba(255,255,255,0.08); border-radius: 8px; padding: 0.6rem 0.75rem; text-align: center; }
+.delta-summary-banner .dsb-label { font-size: 0.65rem; opacity: 0.7; margin-bottom: 0.2rem; }
+.delta-summary-banner .dsb-value { font-size: 1.1rem; font-weight: 800; }
+.delta-summary-banner .dsb-delta { font-size: 0.75rem; font-weight: 700; margin-top: 0.15rem; }
+.delta-summary-banner .dsb-delta.good { color: #6EE7B7; }
+.delta-summary-banner .dsb-delta.bad { color: #FCA5A5; }
+.delta-summary-banner .dsb-delta.neutral { color: #94A3B8; }
+.delta-summary-banner .dsb-movers { margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.15); display: flex; gap: 1rem; flex-wrap: wrap; }
+.delta-summary-banner .dsb-mover { font-size: 0.72rem; display: flex; align-items: center; gap: 0.3rem; }
+.delta-summary-banner .dsb-mover .mover-name { opacity: 0.8; }
+.delta-summary-banner .dsb-mover .mover-delta { font-weight: 700; }
+.delta-summary-banner .dsb-mover .mover-delta.up { color: #6EE7B7; }
+.delta-summary-banner .dsb-mover .mover-delta.down { color: #FCA5A5; }
+@media (max-width: 768px) { .delta-summary-banner .dsb-grid { grid-template-columns: repeat(3, 1fr); } }

@@ -1,10 +1,10 @@
 {
-  "total_reviews": 75,
-  "overall_avg_10pt": 8.25,
-  "high_count": 59,
-  "high_rate": 78.7,
-  "mid_count": 15,
-  "mid_rate": 20.0,
+  "total_reviews": 77,
+  "overall_avg_10pt": 8.26,
+  "high_count": 60,
+  "high_rate": 77.9,
+  "mid_count": 16,
+  "mid_rate": 20.8,
   "low_count": 1,
   "low_rate": 1.3,
   "site_stats": [
@@ -28,19 +28,19 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 11,
-      "native_avg": 4.45,
+      "count": 12,
+      "native_avg": 4.5,
       "scale": "/5",
-      "avg_10pt": 8.91,
+      "avg_10pt": 9.0,
       "median_10pt": 10.0,
-      "judgment": "良好"
+      "judgment": "優秀"
     },
     {
       "site": "Booking.com",
-      "count": 39,
-      "native_avg": 8.13,
+      "count": 40,
+      "native_avg": 8.1,
       "scale": "/10",
-      "avg_10pt": 8.13,
+      "avg_10pt": 8.1,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,28 +66,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 20,
-      "pct": "26.7%"
+      "count": 21,
+      "pct": "27.3%"
     },
     {
       "score": 9,
       "count": 11,
-      "pct": "14.7%"
+      "pct": "14.3%"
     },
     {
       "score": 8,
       "count": 28,
-      "pct": "37.3%"
+      "pct": "36.4%"
     },
     {
       "score": 7,
-      "count": 5,
-      "pct": "6.7%"
+      "count": 6,
+      "pct": "7.8%"
     },
     {
       "score": 6,
       "count": 9,
-      "pct": "12.0%"
+      "pct": "11.7%"
     },
     {
       "score": 5,
@@ -101,6 +101,32 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-04-06",
+      "comment": "",
+      "good": "A cama é confortável, a localização excelente e o quarto que fiquei tinha um tamanho bom. Por esse motivo, julgo um bom custo benefício.",
+      "bad": "A privada do banheiro vazava um pouco de água, além do cheiro do ralo ser bem forte. Alguns dias ficava com forte cheiro de urina, principalmente após a limpeza. A recepção também tinha esse cheiro. Foi algo que me incomodou bastante. O café da manhã é caro e tem pouca variedade (três tipos de pão, geleia, manteiga, sucrilhos, ovo e só - além de comida comida) não compensa o preço.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "トイレは少し水漏れしていて、排水口からかなり強い臭いがしました。特に掃除後は、尿の臭いがひどくなる日もありました。受付エリアも同じ臭いがして、かなり気になりました。朝食は値段が高い上に種類も少なく（パンが3種類、ジャム、バター、シリアル、卵、それだけです。それ以外は食事がほとんどありません）、値段に見合う価値はありません。",
+      "reviewer": "Marcella"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-06",
+      "comment": "六本木駅5番出口から近くて便利！大人2人と幼児2人でキングベッドの一部屋を利用。スタッフさんの気遣いもとてもよかった。ただ部屋が狭かったのは残念。都心の駅近と料金を考えると仕方がない…。清掃は行き届いているのでキレイ！",
+      "good": "",
+      "bad": "",
+      "translated": "六本木駅5番出口から近くて便利！大人2人と幼児2人でキングベッドの一部屋を利用。スタッフさんの気遣いもとてもよかった。ただ部屋が狭かったのは残念。都心の駅近と料金を考えると仕方がない…。清掃は行き届いているのでキレイ！",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "にゃーやん"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -187,7 +213,7 @@
       "comment": "While everything you could need was here, provided, tea, coffee, water filter, laundry, a great shower..., great staff and service, just the room's are just too small.. Two people travelling international,with lge bags and carry on bag each..not a spare space for a bag anywhere...",
       "good": "",
       "bad": "",
-      "translated": "必要なものはすべて揃っていて、紅茶、コーヒー、浄水器、ランドリー、素晴らしいシャワーなど、スタッフもサービスも最高だったのですが、部屋がとにかく狭すぎました。大きなスーツケースと機内持ち込みバッグをそれぞれ持っていた2人組が海外旅行をしたのですが、どこにもバッグを置くスペースがありませんでした。",
+      "translated": "必要なものはすべて揃っていて、紅茶、コーヒー、浄水器、ランドリー、素晴らしいシャワーなど、スタッフもサービスも最高だったのですが、部屋がとにかく狭すぎました。大きなスーツケースと機内持ち込みバッグをそれぞれ持っていた2人で海外旅行をしたのですが、どこにもバッグを置くスペースがありませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

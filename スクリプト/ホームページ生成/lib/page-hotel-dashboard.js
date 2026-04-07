@@ -2,7 +2,7 @@
 // Generates hotel-dashboard.html with revenue opportunity badges and target scores
 'use strict';
 
-const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact } = require('./common-v2');
+const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact, deltaSummaryBanner } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
 var tierColor = { '優秀': '#10B981', '良好': '#3B82F6', '概ね良好': '#F59E0B', '要改善': '#EF4444' };
@@ -182,6 +182,9 @@ function buildHotelDashboard(data, revenueOps, deltas) {
 
   // Container start
   lines.push('<div class="container">');
+
+  // Delta Summary Banner
+  lines.push(deltaSummaryBanner(deltas));
 
   // Page title
   lines.push('  <h1 class="page-title">ホテル別口コミダッシュボード</h1>');

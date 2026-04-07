@@ -327,14 +327,35 @@ function commonCSS() {
     '}',
     '',
     '/* Delta badges */',
-    '.delta-badge { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.65rem; font-weight: 700; padding: 0.12rem 0.45rem; border-radius: 6px; margin-left: 0.35rem; white-space: nowrap; vertical-align: middle; }',
+    '.delta-badge { display: inline-flex; align-items: center; gap: 0.25rem; font-size: 0.72rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 6px; margin-left: 0.35rem; white-space: nowrap; vertical-align: middle; }',
     '.delta-badge.up { color: #065F46; background: #ECFDF5; border: 1px solid #A7F3D0; }',
     '.delta-badge.down { color: #991B1B; background: #FEF2F2; border: 1px solid #FECACA; }',
     '.delta-badge.flat { color: #6B7280; background: #F3F4F6; border: 1px solid #D1D5DB; }',
-    '.delta-badge .delta-prev { font-size: 0.58rem; font-weight: 400; opacity: 0.7; margin-left: 0.15rem; }',
-    '.delta-badge.compact { padding: 0.08rem 0.3rem; font-size: 0.58rem; }',
+    '.delta-badge .delta-prev { font-size: 0.62rem; font-weight: 400; opacity: 0.7; margin-left: 0.15rem; }',
+    '.delta-badge.compact { padding: 0.1rem 0.35rem; font-size: 0.62rem; }',
     '.delta-badge.compact .delta-prev { display: none; }',
     '.hide-deltas .delta-badge { display: none; }',
+    '',
+    '/* Delta summary banner */',
+    '.delta-summary-banner { background: linear-gradient(135deg, #1E293B, #334155); color: white; border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; }',
+    '.delta-summary-banner .dsb-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }',
+    '.delta-summary-banner .dsb-title { font-size: 0.85rem; font-weight: 700; }',
+    '.delta-summary-banner .dsb-date { font-size: 0.72rem; opacity: 0.7; }',
+    '.delta-summary-banner .dsb-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.75rem; }',
+    '.delta-summary-banner .dsb-item { background: rgba(255,255,255,0.08); border-radius: 8px; padding: 0.6rem 0.75rem; text-align: center; }',
+    '.delta-summary-banner .dsb-label { font-size: 0.65rem; opacity: 0.7; margin-bottom: 0.2rem; }',
+    '.delta-summary-banner .dsb-value { font-size: 1.1rem; font-weight: 800; }',
+    '.delta-summary-banner .dsb-delta { font-size: 0.75rem; font-weight: 700; margin-top: 0.15rem; }',
+    '.delta-summary-banner .dsb-delta.good { color: #6EE7B7; }',
+    '.delta-summary-banner .dsb-delta.bad { color: #FCA5A5; }',
+    '.delta-summary-banner .dsb-delta.neutral { color: #94A3B8; }',
+    '.delta-summary-banner .dsb-movers { margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid rgba(255,255,255,0.15); display: flex; gap: 1rem; flex-wrap: wrap; }',
+    '.delta-summary-banner .dsb-mover { font-size: 0.72rem; display: flex; align-items: center; gap: 0.3rem; }',
+    '.delta-summary-banner .dsb-mover .mover-name { opacity: 0.8; }',
+    '.delta-summary-banner .dsb-mover .mover-delta { font-weight: 700; }',
+    '.delta-summary-banner .dsb-mover .mover-delta.up { color: #6EE7B7; }',
+    '.delta-summary-banner .dsb-mover .mover-delta.down { color: #FCA5A5; }',
+    '@media (max-width: 768px) { .delta-summary-banner .dsb-grid { grid-template-columns: repeat(3, 1fr); } }',
   ].join('\n');
 }
 
@@ -385,6 +406,68 @@ function deltaBadge(deltaObj, polarity) {
   var formatted = typeof d === 'number' && d % 1 !== 0 ? d.toFixed(2) : String(d);
   var prevFormatted = deltaObj.previous != null ? (typeof deltaObj.previous === 'number' && deltaObj.previous % 1 !== 0 ? deltaObj.previous.toFixed(2) : String(deltaObj.previous)) : '';
   return '<span class="delta-badge ' + cls + '">' + arrow + sign + formatted + ' <span class="delta-prev">\u524D\u65E5 ' + prevFormatted + '</span></span>';
+}
+
+function deltaSummaryBanner(deltas) {
+  if (!deltas || !deltas.hasDeltas) return '';
+  var m = deltas.metrics || {};
+  var lines = [];
+  lines.push('<div class="delta-summary-banner">');
+  lines.push('  <div class="dsb-header"><div class="dsb-title">&#128200; \u524D\u65E5\u6BD4\u30B5\u30DE\u30EA\u30FC</div><div class="dsb-date">\u6BD4\u8F03\u5143: ' + (deltas.previousDate || '') + '</div></div>');
+  lines.push('  <div class="dsb-grid">');
+
+  var items = [
+    { key: 'total_reviews', label: '\u53E3\u30B3\u30DF\u6570', unit: '\u4EF6', polarity: 'higher' },
+    { key: 'avg_score', label: '\u5E73\u5747\u30B9\u30B3\u30A2', unit: 'pt', polarity: 'higher' },
+    { key: 'high_rate', label: '\u9AD8\u8A55\u4FA1\u7387', unit: '%', polarity: 'higher' },
+    { key: 'low_rate', label: '\u4F4E\u8A55\u4FA1\u7387', unit: '%', polarity: 'lower' },
+    { key: 'cleaning_issue_rate', label: '\u6E05\u6383\u30AF\u30EC\u30FC\u30E0\u7387', unit: '%', polarity: 'lower' },
+    { key: 'cleaning_issue_count', label: '\u6E05\u6383\u30AF\u30EC\u30FC\u30E0\u4EF6\u6570', unit: '\u4EF6', polarity: 'lower' }
+  ];
+
+  items.forEach(function(item) {
+    var metric = m[item.key];
+    if (!metric) return;
+    var d = metric.delta;
+    var cls = 'neutral';
+    var arrow = '\u25B6';
+    if (d !== 0) {
+      var isGood = item.polarity === 'lower' ? d < 0 : d > 0;
+      cls = isGood ? 'good' : 'bad';
+      arrow = d > 0 ? '\u25B2' : '\u25BC';
+    }
+    var sign = d > 0 ? '+' : '';
+    var formatted = typeof d === 'number' && d % 1 !== 0 ? d.toFixed(2) : String(d);
+    lines.push('    <div class="dsb-item"><div class="dsb-label">' + item.label + '</div><div class="dsb-value">' + metric.current + '<span style="font-size:0.6rem;opacity:0.6;">' + item.unit + '</span></div><div class="dsb-delta ' + cls + '">' + arrow + ' ' + sign + formatted + '</div></div>');
+  });
+
+  lines.push('  </div>');
+
+  // Top movers (hotels with biggest score changes)
+  var movers = [];
+  if (deltas.hotels) {
+    Object.keys(deltas.hotels).forEach(function(k) {
+      var h = deltas.hotels[k];
+      if (h.overall_avg_10pt && h.overall_avg_10pt.delta !== 0) {
+        movers.push({ key: k, delta: h.overall_avg_10pt.delta, current: h.overall_avg_10pt.current });
+      }
+    });
+  }
+  if (movers.length > 0) {
+    movers.sort(function(a, b) { return Math.abs(b.delta) - Math.abs(a.delta); });
+    lines.push('  <div class="dsb-movers">');
+    lines.push('    <span style="font-size:0.7rem;opacity:0.6;">\u5909\u52D5\u30DB\u30C6\u30EB:</span>');
+    movers.slice(0, 5).forEach(function(mv) {
+      var cls = mv.delta > 0 ? 'up' : 'down';
+      var sign = mv.delta > 0 ? '+' : '';
+      var arrow = mv.delta > 0 ? '\u25B2' : '\u25BC';
+      lines.push('    <span class="dsb-mover"><span class="mover-name">' + mv.key.replace(/_/g, ' ') + '</span><span class="mover-delta ' + cls + '">' + arrow + sign + mv.delta.toFixed(2) + '</span></span>');
+    });
+    lines.push('  </div>');
+  }
+
+  lines.push('</div>');
+  return lines.join('\n');
 }
 
 function deltaBadgeCompact(deltaObj, polarity) {
@@ -451,4 +534,4 @@ function pageFoot() {
   return '</body>\n</html>';
 }
 
-module.exports = { esc, nav, commonCSS, writeCommonCSS, copyAssets, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact };
+module.exports = { esc, nav, commonCSS, writeCommonCSS, copyAssets, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact, deltaSummaryBanner };
