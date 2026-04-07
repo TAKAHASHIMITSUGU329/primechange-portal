@@ -1,28 +1,37 @@
 {
-  "total_reviews": 91,
-  "overall_avg_10pt": 7.95,
-  "high_count": 64,
-  "high_rate": 70.3,
-  "mid_count": 19,
-  "mid_rate": 20.9,
+  "total_reviews": 70,
+  "overall_avg_10pt": 7.83,
+  "high_count": 49,
+  "high_rate": 70.0,
+  "mid_count": 13,
+  "mid_rate": 18.6,
   "low_count": 8,
-  "low_rate": 8.8,
+  "low_rate": 11.4,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 43,
-      "native_avg": 8.88,
+      "count": 31,
+      "native_avg": 9.03,
       "scale": "/10",
-      "avg_10pt": 8.88,
-      "median_10pt": 9.0,
-      "judgment": "良好"
+      "avg_10pt": 9.03,
+      "median_10pt": 10.0,
+      "judgment": "優秀"
     },
     {
       "site": "じゃらん",
-      "count": 6,
-      "native_avg": 3.83,
+      "count": 4,
+      "native_avg": 4.0,
       "scale": "/5",
-      "avg_10pt": 7.67,
+      "avg_10pt": 8.0,
+      "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 20,
+      "native_avg": 7.0,
+      "scale": "/10",
+      "avg_10pt": 7.0,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
@@ -31,18 +40,9 @@
       "count": 3,
       "native_avg": 3.33,
       "scale": "/5",
-      "avg_10pt": 7.5,
-      "median_10pt": 7.0,
-      "judgment": "概ね良好"
-    },
-    {
-      "site": "Booking.com",
-      "count": 25,
-      "native_avg": 7.24,
-      "scale": "/10",
-      "avg_10pt": 7.24,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
+      "avg_10pt": 6.67,
+      "median_10pt": 6.0,
+      "judgment": "要改善"
     },
     {
       "site": "Google",
@@ -57,324 +57,51 @@
   "distribution": [
     {
       "score": 10,
-      "count": 29,
-      "pct": "31.9%"
+      "count": 23,
+      "pct": "32.9%"
     },
     {
       "score": 9,
-      "count": 10,
-      "pct": "11.0%"
+      "count": 7,
+      "pct": "10.0%"
     },
     {
       "score": 8,
-      "count": 25,
-      "pct": "27.5%"
+      "count": 19,
+      "pct": "27.1%"
     },
     {
       "score": 7,
-      "count": 8,
-      "pct": "8.8%"
+      "count": 4,
+      "pct": "5.7%"
     },
     {
       "score": 6,
-      "count": 8,
-      "pct": "8.8%"
+      "count": 6,
+      "pct": "8.6%"
     },
     {
       "score": 5,
       "count": 3,
-      "pct": "3.3%"
+      "pct": "4.3%"
     },
     {
       "score": 4,
       "count": 3,
-      "pct": "3.3%"
+      "pct": "4.3%"
     },
     {
       "score": 3,
       "count": 2,
-      "pct": "2.2%"
+      "pct": "2.9%"
     },
     {
       "score": 2,
       "count": 3,
-      "pct": "3.3%"
+      "pct": "4.3%"
     }
   ],
   "comments": [
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-06",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "麥芳瑜"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-06",
-      "comment": "호텔이 전체적으로 오래되었지만 청소부분이나 객실상태는 깔끔한편이었고 무엇보다 위치가 하카타역바로앞이라 너무 좋았구요 창이커서 뷰도 좋았습니다",
-      "good": "",
-      "bad": "",
-      "translated": "ホテルは全体的に古いですが、清掃部分や部屋の状態はきれいでした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-06",
-      "comment": "部屋は広いが浴室が狭かった。ロビーも狭い。ただ荷物を預けやすいようになっていたのは良かった。",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は広いが浴室が狭かった。ロビーも狭い。ただ荷物を預けやすいようになっていたのは良かった。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-05",
-      "comment": "It's OK for 1 night, very near to train station. Too crowded at the breakfast place!",
-      "good": "",
-      "bad": "",
-      "translated": "一泊する分には問題ない。駅からもとても近い。朝食会場は混雑しすぎていた！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-05",
-      "comment": "Hotel is very near to Hakata Station. Friendly staff & room size is fine for us. However the air con temperature was controlled even though there aircon control in the room. The window cannot be open.",
-      "good": "",
-      "bad": "",
-      "translated": "ホテルは博多駅からとても近いです。スタッフは親切で、部屋の広さも私たちには十分でした。ただ、部屋にエアコンの調節機能があるにもかかわらず、エアコンの温度が制限されていました。窓も開けられませんでした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-05",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Jonathan"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-05",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "子謙"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-05",
-      "comment": "駅を出てすぐなので迷いませんし、便利です。朝食はバラエティ豊かで美味しかったです。伝統料理の水炊き風スープが飲めたのもうれしかったです。チェックインの前後に荷物を預かっていただけたのが助かりました。",
-      "good": "",
-      "bad": "",
-      "translated": "駅を出てすぐなので迷いませんし、便利です。朝食はバラエティ豊かで美味しかったです。伝統料理の水炊き風スープが飲めたのもうれしかったです。チェックインの前後に荷物を預かっていただけたのが助かりました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "みーちゃんさん"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-04",
-      "comment": "地點相當方便，一出博多站就看到，完全不用擔心迷路 房間大小剛剛好，但設施比較陳舊 地點優於一切！",
-      "good": "",
-      "bad": "",
-      "translated": "立地はとても便利で、博多駅を出てすぐなので迷う心配はありません。部屋の広さはちょうど良いのですが、設備は少し古めです。一番の魅力は立地の良さです！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-04",
-      "comment": "子供１人添い寝無料で宿泊。駅、地下鉄、バスターミナル、コンビニ、地下街、スタバ、飲食店。 ホテルから全てが近くて、便利。親はとても楽です。 チェックイン前に荷物を預けて、身軽に遊びに行けました。 宿泊時には子供用にタオルと歯ブラシをいただきました。 お部屋は確かに暗めです。 宿泊箇所が10階以上なので、道路の声や音などは聞こえませんでした。 夜、救急車のサイレンは聞こえました。 朝食の場所は広くはないですが、スタッフさんがしっかり誘導してくれるのでスムーズ。 海外からの観光客、日本の家族連れも多かったですが、全く騒がしくなく静かに食事されてました。 食事は美味しく、子供も喜んでいました。 長期休み中の小学生はホテルや公共の交通機関、施設など安かったり無料な箇所が多く、ありがたいです。 よい旅ができました。",
-      "good": "",
-      "bad": "",
-      "translated": "子供１人添い寝無料で宿泊。駅、地下鉄、バスターミナル、コンビニ、地下街、スタバ、飲食店。 ホテルから全てが近くて、便利。親はとても楽です。 チェックイン前に荷物を預けて、身軽に遊びに行けました。 宿泊時には子供用にタオルと歯ブラシをいただきました。 お部屋は確かに暗めです。 宿泊箇所が10階以上なので、道路の声や音などは聞こえませんでした。 夜、救急車のサイレンは聞こえました。 朝食の場所は広くはないですが、スタッフさんがしっかり誘導してくれるのでスムーズ。 海外からの観光客、日本の家族連れも多かったですが、全く騒がしくなく静かに食事されてました。 食事は美味しく、子供も喜んでいました。 長期休み中の小学生はホテルや公共の交通機関、施設など安かったり無料な箇所が多く、ありがたいです。 よい旅ができました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "kohiyaro"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-04-03",
-      "comment": "The location of the hotel was actually very near to Hakata station, but the hotel facilities seems old. The toilets are not clean as it seems on photos, i even saw a bug on the floor and smells bad when i checked in to the room. The rooms are too tight to even open my luggages.",
-      "good": "",
-      "bad": "",
-      "translated": "ホテルの立地は博多駅に非常に近かったのですが、ホテルの設備は古びていました。トイレは写真で見るほど清潔ではなく、チェックインした時には床に虫がいて、悪臭もしました。部屋は狭すぎてスーツケースを開けることさえできませんでした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "C‍H‍E‍R‍I‍E‍ ‍C‍."
-    },
-    {
-      "site": "Trip.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-03",
-      "comment": "첫 일본 여행이신 어머니 모시고 갔습니다. 직원분들 매우 친절하시고 호텔 위치는 역 바로 앞이라 이동하기 최상입니다. 짐도 보관 후 쇼핑 관광 가능해서 대만족이네요..",
-      "good": "",
-      "bad": "",
-      "translated": "初めての日本旅行である母親を迎えに行きました。スタッフの方はとてもフレンドリーで、ホテルの場所は駅のすぐ前で移動するのに最適です。荷物も保管後にショッピング観光可能なので大満足ですね..",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "에‍쎄‍체‍인‍지"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-03",
-      "comment": "海外の方の利用が多い",
-      "good": "",
-      "bad": "",
-      "translated": "海外の方の利用が多い",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "小松清廉"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "Just opposite hakata station, very strategy location. Not new hotel but very clean, breakfast very nice.",
-      "good": "",
-      "bad": "",
-      "translated": "博多駅の真向かいという、非常に便利な立地です。新しいホテルではありませんが、とても清潔で、朝食も美味しかったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "S‍h‍a‍n‍e‍L‍e‍a‍n"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-02",
-      "comment": "",
-      "good": "近鐵路站，價錢平，在博多站去邊方便。房間收拾企理 整潔。",
-      "bad": "早餐地方細，食品不太多，人多補充不到。酒店在圖片最上4層，安排接近尾方，冇景，行長走廊。",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "朝食会場は狭く、料理の量も少なく、人数が多いと補充しきれません。ホテルは写真の最上階4フロアにあり、奥まった場所に配置されているため眺望はなく、廊下が長いです。",
-      "reviewer": "Carrie"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "하카타역 바로 앞이라 이동이 편리.",
-      "good": "",
-      "bad": "",
-      "translated": "博多駅のすぐ前で移動が便利。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-01",
-      "comment": "Excellent location, right opposite Hakata station. Many shopping and restaurants nearby. Excellent considering the relatively low price. Hotel a bit old but overall quite clean. My room was facing the Hakata station and sound proofing was terrible. Can hear the traffic and noises coming from the outdoor activities/stalls  outside the station.",
-      "good": "",
-      "bad": "",
-      "translated": "博多駅の真向かいという絶好のロケーション。周辺にはショッピングやレストランが多数あります。比較的低価格であることを考えると、非常に良いホテルです。ホテル自体は少し古いですが、全体的に清潔です。私の部屋は博多駅に面していて、防音性が非常に悪かったです。駅の外の交通騒音や露店の騒音が聞こえました。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "湘蘋"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-01",
-      "comment": "Great location! The hotel feels a bit old-fashioned, but the staff are incredibly helpful and friendly.",
-      "good": "",
-      "bad": "",
-      "translated": "立地は最高！ホテル自体は少し古風な感じがするけれど、スタッフは信じられないほど親切でフレンドリーだ。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "じゃらん",
-      "rating": 3.0,
-      "rating_10pt": 6.0,
-      "date": "2026-04-01",
-      "comment": "駅チカなのか、多数がインバウンドの方々でした。朝食は会場が狭いのもあり、整列できないのか大人、子供もルール違反多く、大変。",
-      "good": "",
-      "bad": "",
-      "translated": "駅チカなのか、多数がインバウンドの方々でした。朝食は会場が狭いのもあり、整列できないのか大人、子供もルール違反多く、大変。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ヨッシーさん"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-01",
-      "comment": "靠近博多站、步行大概5分鐘 周邊超多晚餐館 附近亦有7仔、Starbucks 門口有的士🚕站 清晨出機場亦非常的近 大概$1700Yen⋯⋯ 勝價比不錯，房間可以望到博多站",
-      "good": "",
-      "bad": "",
-      "translated": "博多駅から徒歩約5分の場所に位置しています。セブンイレブンやスターバックスなど、周辺には飲食店が多数あります。タクシー乗り場はすぐ目の前にあります。早朝は空港にも非常に近いです。料金は約1700円で、コストパフォーマンスに優れています。部屋からは博多駅の景色が見えます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "神‍奇‍女‍俠"
-    },
     {
       "site": "Booking.com",
       "rating": 7.0,
