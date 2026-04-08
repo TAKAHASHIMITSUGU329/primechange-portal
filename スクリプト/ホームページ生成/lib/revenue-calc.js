@@ -53,6 +53,8 @@ function calcAllRevenueOpportunities(data) {
       monthlyLoss: monthlyLoss,
       roomCount: revData ? revData.room_count : 0,
       actualRevenue: revData ? revData.actual_revenue : 0,
+      marchRevenue: revData ? (revData.march_revenue || 0) : 0,
+      aprilRevenue: revData ? (revData.april_revenue || 0) : 0,
       occupancyRate: revData ? revData.occupancy_rate : 0,
       priority: perHotelTarget ? perHotelTarget.priority : null
     };

@@ -9,6 +9,7 @@ Quality → Revenue Elasticity Analysis
 
 import json
 import os
+from datetime import date
 import numpy as np
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -48,6 +49,10 @@ for h in hotels_ranked:
         "cleaning_issue_rate": h.get("cleaning_issue_rate", 0),
         "revenue": r.get("actual_revenue", 0),
         "occupancy": r.get("occupancy_rate", 0),
+        "march_revenue": r.get("march_revenue", 0),
+        "march_occupancy": r.get("march_occupancy", 0),
+        "april_revenue": r.get("april_revenue", 0),
+        "april_occupancy": r.get("april_occupancy", 0),
         "profit_rate": r.get("profit_rate", 0),
         "adr": r.get("adr", 0),
         "revpar": r.get("revpar", 0),
@@ -326,6 +331,8 @@ data_points = sorted([{
     "adr": round(h["adr"], 0),
     "revpar": round(h["revpar"], 0),
     "revenue": h["revenue"],
+    "march_revenue": h["march_revenue"],
+    "april_revenue": h["april_revenue"],
     "room_count": h["room_count"],
     "phase": h["phase"],
     "priority": h["priority"],
@@ -340,17 +347,17 @@ output = {
     "analysis_metadata": {
         "title": "品質→売上弾力性分析",
         "analysis_number": 6,
-        "date": "2026-03-10",
+        "date": date.today().isoformat(),
         "hotels_count": len(hotels),
         "data_sources": [
-            "hotel_revenue_data.json（19ホテル2月売上実績）",
+            "hotel_revenue_data.json（19ホテル売上実績）",
             "primechange_portfolio_analysis.json（19ホテル口コミスコア）",
         ],
         "methodology": "19ホテル横断の単回帰分析（numpy.polyfit）",
         "limitations": [
             "サンプルサイズN=19のため、統計的有意性は限定的",
             "ホテル規模（客室数）、立地、ブランド等の交絡変数を完全には制御できていない",
-            "1ヶ月分（2月）のスナップショットデータであり、時系列変動は未反映",
+            "スナップショットデータであり、時系列変動は未反映",
             "因果関係ではなく相関関係の分析である点に注意",
         ],
     },
@@ -362,6 +369,12 @@ output = {
         "avg_occupancy": f"{float(np.mean(occupancies))*100:.1f}%",
         "avg_adr": round(float(np.mean(adrs)), 1),
         "avg_revpar": round(float(np.mean(revpars)), 1),
+        "feb_total_revenue": round(sum(h["revenue"] for h in hotels)),
+        "feb_avg_occupancy": f"{float(np.mean([h['occupancy'] for h in hotels]))*100:.1f}%",
+        "mar_total_revenue": round(sum(h["march_revenue"] for h in hotels)),
+        "mar_avg_occupancy": f"{float(np.mean([h['march_occupancy'] for h in hotels]))*100:.1f}%",
+        "apr_total_revenue": round(sum(h["april_revenue"] for h in hotels)),
+        "apr_avg_occupancy": f"{float(np.mean([h['april_occupancy'] for h in hotels]))*100:.1f}%",
     },
     "regression_results": {
         "score_vs_occupancy": reg_occ,
