@@ -1,10 +1,10 @@
 {
-  "total_reviews": 85,
-  "overall_avg_10pt": 9.4,
-  "high_count": 77,
-  "high_rate": 90.6,
-  "mid_count": 6,
-  "mid_rate": 7.1,
+  "total_reviews": 74,
+  "overall_avg_10pt": 9.47,
+  "high_count": 69,
+  "high_rate": 93.2,
+  "mid_count": 3,
+  "mid_rate": 4.1,
   "low_count": 2,
   "low_rate": 2.4,
   "site_stats": [
@@ -36,15 +36,6 @@
       "judgment": "優秀"
     },
     {
-      "site": "Google",
-      "count": 18,
-      "native_avg": 4.5,
-      "scale": "/5",
-      "avg_10pt": 9.0,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
       "site": "Agoda",
       "count": 1,
       "native_avg": 4.0,
@@ -57,28 +48,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 62,
-      "pct": "72.9%"
+      "count": 55,
+      "pct": "74.3%"
     },
     {
       "score": 9,
-      "count": 12,
-      "pct": "14.1%"
+      "count": 11,
+      "pct": "14.9%"
     },
     {
       "score": 8,
       "count": 3,
-      "pct": "3.5%"
+      "pct": "4.1%"
     },
     {
       "score": 7,
-      "count": 3,
-      "pct": "3.5%"
+      "count": 2,
+      "pct": "2.7%"
     },
     {
       "score": 6,
-      "count": 3,
-      "pct": "3.5%"
+      "count": 1,
+      "pct": "1.4%"
     },
     {
       "score": 4,

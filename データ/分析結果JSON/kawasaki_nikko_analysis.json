@@ -1,28 +1,19 @@
 {
-  "total_reviews": 84,
-  "overall_avg_10pt": 8.56,
-  "high_count": 66,
-  "high_rate": 78.6,
-  "mid_count": 15,
-  "mid_rate": 17.9,
+  "total_reviews": 71,
+  "overall_avg_10pt": 8.66,
+  "high_count": 58,
+  "high_rate": 81.7,
+  "mid_count": 10,
+  "mid_rate": 14.1,
   "low_count": 3,
-  "low_rate": 3.6,
+  "low_rate": 4.2,
   "site_stats": [
     {
-      "site": "Agoda",
-      "count": 1,
-      "native_avg": 10.0,
-      "scale": "/10",
-      "avg_10pt": 10.0,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
       "site": "Trip.com",
-      "count": 24,
-      "native_avg": 9.38,
+      "count": 21,
+      "native_avg": 9.33,
       "scale": "/10",
-      "avg_10pt": 9.38,
+      "avg_10pt": 9.33,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -37,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 34,
-      "native_avg": 8.65,
+      "count": 29,
+      "native_avg": 8.72,
       "scale": "/10",
-      "avg_10pt": 8.65,
+      "avg_10pt": 8.72,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -55,54 +46,49 @@
     },
     {
       "site": "Google",
-      "count": 12,
-      "native_avg": 3.08,
+      "count": 8,
+      "native_avg": 3.12,
       "scale": "/5",
-      "avg_10pt": 6.17,
-      "median_10pt": 6.0,
+      "avg_10pt": 6.25,
+      "median_10pt": 7.0,
       "judgment": "要改善"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 38,
-      "pct": "45.2%"
+      "count": 33,
+      "pct": "46.5%"
     },
     {
       "score": 9,
-      "count": 12,
-      "pct": "14.3%"
+      "count": 11,
+      "pct": "15.5%"
     },
     {
       "score": 8,
-      "count": 16,
-      "pct": "19.0%"
+      "count": 14,
+      "pct": "19.7%"
     },
     {
       "score": 7,
       "count": 6,
-      "pct": "7.1%"
+      "pct": "8.5%"
     },
     {
       "score": 6,
-      "count": 8,
-      "pct": "9.5%"
-    },
-    {
-      "score": 5,
-      "count": 1,
-      "pct": "1.2%"
+      "count": 4,
+      "pct": "5.6%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.4%"
     },
     {
       "score": 2,
       "count": 2,
-      "pct": "2.4%"
+      "pct": "2.8%"
     }
   ],
   "comments": [

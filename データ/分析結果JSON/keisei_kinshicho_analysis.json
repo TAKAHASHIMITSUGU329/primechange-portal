@@ -1,39 +1,39 @@
 {
-  "total_reviews": 88,
-  "overall_avg_10pt": 9.31,
-  "high_count": 82,
-  "high_rate": 93.2,
-  "mid_count": 5,
-  "mid_rate": 5.7,
+  "total_reviews": 67,
+  "overall_avg_10pt": 9.24,
+  "high_count": 62,
+  "high_rate": 92.5,
+  "mid_count": 4,
+  "mid_rate": 6.0,
   "low_count": 1,
-  "low_rate": 1.1,
+  "low_rate": 1.5,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 45,
-      "native_avg": 9.62,
+      "count": 34,
+      "native_avg": 9.53,
       "scale": "/10",
-      "avg_10pt": 9.62,
+      "avg_10pt": 9.53,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
-      "site": "Booking.com",
-      "count": 30,
-      "native_avg": 9.0,
-      "scale": "/10",
+      "site": "Google",
+      "count": 8,
+      "native_avg": 4.5,
+      "scale": "/5",
       "avg_10pt": 9.0,
       "median_10pt": 9.0,
       "judgment": "優秀"
     },
     {
-      "site": "Google",
-      "count": 12,
-      "native_avg": 4.5,
-      "scale": "/5",
-      "avg_10pt": 9.0,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
+      "site": "Booking.com",
+      "count": 24,
+      "native_avg": 8.96,
+      "scale": "/10",
+      "avg_10pt": 8.96,
+      "median_10pt": 9.0,
+      "judgment": "良好"
     },
     {
       "site": "楽天トラベル",
@@ -48,33 +48,28 @@
   "distribution": [
     {
       "score": 10,
-      "count": 56,
-      "pct": "63.6%"
+      "count": 40,
+      "pct": "59.7%"
     },
     {
       "score": 9,
-      "count": 13,
-      "pct": "14.8%"
+      "count": 11,
+      "pct": "16.4%"
     },
     {
       "score": 8,
-      "count": 13,
-      "pct": "14.8%"
+      "count": 11,
+      "pct": "16.4%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "4.5%"
-    },
-    {
-      "score": 6,
-      "count": 1,
-      "pct": "1.1%"
+      "pct": "6.0%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.1%"
+      "pct": "1.5%"
     }
   ],
   "comments": [
@@ -1204,7 +1199,7 @@
       "comment": "由錦糸町站南口行去酒店4-5分鐘. 途中經過食肆、family mart. 可以買水、補給物品. 酒店位於大馬路. 夜晚返酒店也安全. 錦糸町附近有幾個商場. 本人要行1.5人先行完他們😆酒店大堂有茶包、臉部用品等可自取. 泡澡錠也有3款味道可選擇. 最讚係有 face serum 冬天很啱用👍🏻👍🏻👍🏻",
       "good": "",
       "bad": "",
-      "translated": "錦糸町駅南口からホテルまで徒歩4～5分",
+      "translated": "錦糸町駅南口から徒歩4～5分。途中には飲食店やファミリーマートがあり、水や日用品などを購入できます。ホテルは道路沿いに位置しており、夜間の帰宅も安全です。錦糸町周辺には複数のショッピングモールがあります。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "j‍e‍j‍e‍n‍g"
