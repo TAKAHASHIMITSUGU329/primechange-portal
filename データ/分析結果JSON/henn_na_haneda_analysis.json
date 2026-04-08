@@ -10,37 +10,37 @@
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 12,
-      "native_avg": 9.17,
+      "count": 9,
+      "native_avg": 9.56,
       "scale": "/10",
-      "avg_10pt": 9.17,
+      "avg_10pt": 9.56,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 23,
-      "native_avg": 4.39,
+      "site": "じゃらん",
+      "count": 8,
+      "native_avg": 4.38,
       "scale": "/5",
-      "avg_10pt": 8.78,
-      "median_10pt": 10.0,
+      "avg_10pt": 8.75,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
-      "site": "じゃらん",
-      "count": 12,
-      "native_avg": 4.33,
+      "site": "楽天トラベル",
+      "count": 19,
+      "native_avg": 4.32,
       "scale": "/5",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.63,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 23,
-      "native_avg": 8.43,
+      "count": 20,
+      "native_avg": 8.4,
       "scale": "/10",
-      "avg_10pt": 8.43,
+      "avg_10pt": 8.4,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -60,7 +60,7 @@
       "scale": "/5",
       "avg_10pt": 8.0,
       "median_10pt": 10.0,
-      "judgment": "概ね良好"
+      "judgment": "良好"
     }
   ],
   "distribution": [
@@ -97,12 +97,12 @@
     {
       "score": 4,
       "count": 2,
-      "pct": "1.0%"
+      "pct": "1.2%"
     },
     {
       "score": 3,
-      "count": 2,
-      "pct": "1.0%"
+      "count": 1,
+      "pct": "0.6%"
     },
     {
       "score": 2,
@@ -901,7 +901,7 @@
       "bad": "Needs another pillow on each bed. Be aware, if taking the train back to the hotel, it will be packed due to the train going to the airport.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "各ベッドに枕がもう一つ必要です。ホテルへ電車で戻る場合は、空港行きの電車なので満員になることをご了承ください。",
+      "translated_bad": "各ベッドに枕がもう一つ必要です。ホテルへ電車で戻る場合は、空港行きの電車なので大変混雑するのでご注意ください。",
       "reviewer": "Ngan"
     },
     {
@@ -1629,7 +1629,7 @@
       "bad": "Too expensive and too noisy at 2am  Shuttle service was too limited",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "午前2時は高すぎるし騒がしすぎる。シャトルバスの運行本数も少なすぎる。",
+      "translated_bad": "午前2時は高すぎるし騒がしすぎる。シャトルバスの便数も少なすぎる。",
       "reviewer": "Sonomi"
     },
     {

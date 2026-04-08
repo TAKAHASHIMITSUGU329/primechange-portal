@@ -6,14 +6,23 @@
   "mid_count": 2,
   "mid_rate": 2.7,
   "low_count": 2,
-  "low_rate": 2.2,
+  "low_rate": 2.7,
   "site_stats": [
     {
       "site": "Google",
-      "count": 9,
-      "native_avg": 4.67,
+      "count": 7,
+      "native_avg": 4.71,
       "scale": "/5",
-      "avg_10pt": 9.33,
+      "avg_10pt": 9.43,
+      "median_10pt": 10.0,
+      "judgment": "優秀"
+    },
+    {
+      "site": "Trip.com",
+      "count": 11,
+      "native_avg": 9.36,
+      "scale": "/10",
+      "avg_10pt": 9.36,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -36,20 +45,11 @@
       "judgment": "優秀"
     },
     {
-      "site": "Trip.com",
-      "count": 14,
-      "native_avg": 9.21,
-      "scale": "/10",
-      "avg_10pt": 9.21,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
       "site": "Booking.com",
-      "count": 17,
-      "native_avg": 8.65,
+      "count": 14,
+      "native_avg": 8.57,
       "scale": "/10",
-      "avg_10pt": 8.65,
+      "avg_10pt": 8.57,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -81,18 +81,18 @@
     },
     {
       "score": 7,
-      "count": 2,
-      "pct": "2.2%"
+      "count": 1,
+      "pct": "1.4%"
     },
     {
       "score": 6,
       "count": 1,
-      "pct": "1.1%"
+      "pct": "1.4%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "2.2%"
+      "pct": "2.7%"
     }
   ],
   "comments": [

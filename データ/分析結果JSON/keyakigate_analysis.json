@@ -28,10 +28,10 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 27,
-      "native_avg": 4.7,
+      "count": 26,
+      "native_avg": 4.69,
       "scale": "/5",
-      "avg_10pt": 9.41,
+      "avg_10pt": 9.38,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,10 +46,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 10,
-      "native_avg": 4.4,
+      "count": 9,
+      "native_avg": 4.33,
       "scale": "/5",
-      "avg_10pt": 8.8,
+      "avg_10pt": 8.67,
       "median_10pt": 10.0,
       "judgment": "良好"
     },
@@ -82,7 +82,7 @@
     {
       "score": 7,
       "count": 1,
-      "pct": "1.6%"
+      "pct": "1.7%"
     },
     {
       "score": 6,
