@@ -223,9 +223,9 @@ function renderA2(d) {
   // Maid productivity top performers
   if (d.maid_productivity && d.maid_productivity.top_performers) {
     var perf = d.maid_productivity.top_performers;
-    var tbl3 = '<div style="overflow-x:auto;"><table class="data-table"><thead><tr><th>#</th><th>スタッフ名</th><th>職種</th><th>雇用</th><th>出勤日数</th><th>総清掃室数</th><th>2月</th><th>3月</th><th>室/日</th></tr></thead><tbody>';
+    var tbl3 = '<div style="overflow-x:auto;"><table class="data-table"><thead><tr><th>#</th><th>スタッフ名</th><th>職種</th><th>雇用</th><th>出勤日数</th><th>総清掃室数</th><th>2月</th><th>3月</th><th>4月</th><th>室/日</th></tr></thead><tbody>';
     perf.forEach(function(p, i) {
-      tbl3 += '<tr><td>' + (i + 1) + '</td><td style="font-weight:600;">' + esc(p.name) + '</td><td>' + esc(p.position || '') + '</td><td>' + esc(p.pay_type || '') + '</td><td style="text-align:right;">' + num(p.total_days) + '</td><td style="text-align:right;font-weight:700;">' + num(p.rooms_cleaned) + '</td><td style="text-align:right;">' + num(p.feb_rooms) + '</td><td style="text-align:right;">' + num(p.mar_rooms) + '</td><td style="text-align:right;color:var(--accent);font-weight:700;">' + num(p.rooms_per_day) + '</td></tr>';
+      tbl3 += '<tr><td>' + (i + 1) + '</td><td style="font-weight:600;">' + esc(p.name) + '</td><td>' + esc(p.position || '') + '</td><td>' + esc(p.pay_type || '') + '</td><td style="text-align:right;">' + num(p.total_days) + '</td><td style="text-align:right;font-weight:700;">' + num(p.rooms_cleaned) + '</td><td style="text-align:right;">' + num(p.feb_rooms) + '</td><td style="text-align:right;">' + num(p.mar_rooms) + '</td><td style="text-align:right;">' + num(p.apr_rooms) + '</td><td style="text-align:right;color:var(--accent);font-weight:700;">' + num(p.rooms_per_day) + '</td></tr>';
     });
     tbl3 += '</tbody></table></div>';
     html.push(section('&#127941; 清掃生産性Top10', tbl3));

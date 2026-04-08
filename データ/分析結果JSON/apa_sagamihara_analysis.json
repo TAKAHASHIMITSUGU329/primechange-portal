@@ -1,10 +1,10 @@
 {
-  "total_reviews": 30,
-  "overall_avg_10pt": 8.0,
-  "high_count": 20,
-  "high_rate": 66.7,
+  "total_reviews": 31,
+  "overall_avg_10pt": 8.06,
+  "high_count": 21,
+  "high_rate": 67.7,
   "mid_count": 10,
-  "mid_rate": 33.3,
+  "mid_rate": 32.3,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
@@ -36,21 +36,21 @@
       "judgment": "良好"
     },
     {
+      "site": "楽天トラベル",
+      "count": 7,
+      "native_avg": 4.0,
+      "scale": "/5",
+      "avg_10pt": 8.0,
+      "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
       "site": "Booking.com",
       "count": 9,
       "native_avg": 7.89,
       "scale": "/10",
       "avg_10pt": 7.89,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
-      "site": "楽天トラベル",
-      "count": 6,
-      "native_avg": 3.83,
-      "scale": "/5",
-      "avg_10pt": 7.67,
-      "median_10pt": 7.0,
       "judgment": "概ね良好"
     },
     {
@@ -66,31 +66,44 @@
   "distribution": [
     {
       "score": 10,
-      "count": 6,
-      "pct": "20.0%"
+      "count": 7,
+      "pct": "22.6%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "10.0%"
+      "pct": "9.7%"
     },
     {
       "score": 8,
       "count": 11,
-      "pct": "36.7%"
+      "pct": "35.5%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "16.7%"
+      "pct": "16.1%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "16.7%"
+      "pct": "16.1%"
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-01",
+      "comment": "フロントのみなさんの応対がよかった。館内は部屋も大浴場も清潔に掃除されていた。朝食の種類が少なく、和食のみでデザートや飲み物があまりないところが残念。それでも手作り感のある味はよかった。ロケーションもよく、橋本からの行動には抜群だった。また機会があったらぜひとも泊まりたい",
+      "good": "",
+      "bad": "",
+      "translated": "フロントのみなさんの応対がよかった。館内は部屋も大浴場も清潔に掃除されていた。朝食の種類が少なく、和食のみでデザートや飲み物があまりないところが残念。それでも手作り感のある味はよかった。ロケーションもよく、橋本からの行動には抜群だった。また機会があったらぜひとも泊まりたい",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "えみやん2"
+    },
     {
       "site": "Google",
       "rating": 5.0,

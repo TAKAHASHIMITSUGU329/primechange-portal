@@ -6,7 +6,7 @@
   "mid_count": 3,
   "mid_rate": 3.2,
   "low_count": 2,
-  "low_rate": 2.7,
+  "low_rate": 2.2,
   "site_stats": [
     {
       "site": "楽天トラベル",
@@ -19,19 +19,10 @@
     },
     {
       "site": "Google",
-      "count": 7,
-      "native_avg": 4.71,
+      "count": 9,
+      "native_avg": 4.67,
       "scale": "/5",
-      "avg_10pt": 9.43,
-      "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Trip.com",
-      "count": 11,
-      "native_avg": 9.36,
-      "scale": "/10",
-      "avg_10pt": 9.36,
+      "avg_10pt": 9.33,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -45,11 +36,20 @@
       "judgment": "優秀"
     },
     {
-      "site": "Booking.com",
+      "site": "Trip.com",
       "count": 14,
-      "native_avg": 8.57,
+      "native_avg": 9.21,
       "scale": "/10",
-      "avg_10pt": 8.57,
+      "avg_10pt": 9.21,
+      "median_10pt": 10.0,
+      "judgment": "優秀"
+    },
+    {
+      "site": "Booking.com",
+      "count": 17,
+      "native_avg": 8.65,
+      "scale": "/10",
+      "avg_10pt": 8.65,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
@@ -81,18 +81,18 @@
     },
     {
       "score": 7,
-      "count": 1,
-      "pct": "1.4%"
+      "count": 2,
+      "pct": "2.2%"
     },
     {
       "score": 6,
       "count": 1,
-      "pct": "1.4%"
+      "pct": "1.1%"
     },
     {
       "score": 4,
       "count": 2,
-      "pct": "2.7%"
+      "pct": "2.2%"
     }
   ],
   "comments": [
