@@ -74,7 +74,7 @@ function findPerHotelTarget(targets, hotelName) {
 // Format yen amount for display
 function formatYen(amount) {
   if (Math.abs(amount) >= 10000) {
-    return Math.round(amount / 10000) + '万';
+    return Math.round(amount / 10000).toLocaleString() + '万';
   }
   return amount.toLocaleString();
 }
