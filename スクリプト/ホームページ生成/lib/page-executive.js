@@ -13,15 +13,26 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   var revenueData = data.revenueData || {};
   var hotelsRanked = pov.hotels_ranked || [];
 
-  // --- Calculate revenue totals ---
-  var totalRevenue = 0, totalOccupancy = 0, totalOpportunity = 0, hotelCount = 0;
+  // --- Calculate revenue totals (Feb / Mar / Apr) ---
+  var febRevenue = 0, marRevenue = 0, aprRevenue = 0;
+  var febOccupancy = 0, marOccupancy = 0, aprOccupancy = 0;
+  var totalOpportunity = 0, hotelCount = 0;
   Object.keys(revenueData).forEach(function(k) {
     var rd = revenueData[k];
-    totalRevenue += rd.actual_revenue || 0;
-    totalOccupancy += rd.occupancy_rate || 0;
+    febRevenue += rd.actual_revenue || 0;
+    marRevenue += rd.march_revenue || 0;
+    aprRevenue += rd.april_revenue || 0;
+    febOccupancy += rd.occupancy_rate || 0;
+    marOccupancy += rd.march_occupancy || 0;
+    aprOccupancy += rd.april_occupancy || 0;
     hotelCount++;
   });
+  var totalRevenue = febRevenue;
+  var totalOccupancy = febOccupancy;
   var avgOccupancy = hotelCount > 0 ? (totalOccupancy / hotelCount * 100).toFixed(1) : 0;
+  var avgFebOcc = hotelCount > 0 ? (febOccupancy / hotelCount * 100).toFixed(1) : 0;
+  var avgMarOcc = hotelCount > 0 ? (marOccupancy / hotelCount * 100).toFixed(1) : 0;
+  var avgAprOcc = hotelCount > 0 ? (aprOccupancy / hotelCount * 100).toFixed(1) : 0;
   Object.keys(revenueOps || {}).forEach(function(k) { totalOpportunity += (revenueOps[k].monthlyLoss || 0); });
 
   // --- Calculate portfolio NPS ---
@@ -123,10 +134,11 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   });
   lines.push('</div></div>');
 
-  // --- Revenue Overview ---
+  // --- Revenue Overview (Monthly Breakdown) ---
   lines.push('<div class="revenue-overview">');
-  lines.push('<div class="revenue-card"><div class="sub-label">ポートフォリオ月間売上</div><div class="big-num">&yen;' + formatYen(totalRevenue) + '</div></div>');
-  lines.push('<div class="revenue-card"><div class="sub-label">平均稼働率</div><div class="big-num">' + avgOccupancy + '%</div></div>');
+  lines.push('<div class="revenue-card"><div class="sub-label">2月 売上 / 稼働率</div><div class="big-num">&yen;' + formatYen(febRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgFebOcc + '%</div></div>');
+  lines.push('<div class="revenue-card"><div class="sub-label">3月 売上 / 稼働率</div><div class="big-num">&yen;' + formatYen(marRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgMarOcc + '%</div></div>');
+  lines.push('<div class="revenue-card"><div class="sub-label">4月 売上 / 稼働率<span style="font-size:0.7rem;color:#94A3B8;margin-left:0.3rem;">途中</span></div><div class="big-num">&yen;' + formatYen(aprRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgAprOcc + '%</div></div>');
   lines.push('<div class="revenue-card"><div class="sub-label">月間改善余地（推定）</div><div class="big-num" style="color:#C23B3A;">&yen;' + formatYen(totalOpportunity) + '/月</div></div>');
   lines.push('</div>');
 
