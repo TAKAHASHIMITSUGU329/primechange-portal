@@ -10,7 +10,7 @@
   "site_stats": [
     {
       "site": "楽天トラベル",
-      "count": 3,
+      "count": 1,
       "native_avg": 5.0,
       "scale": "/5",
       "avg_10pt": 10.0,
@@ -28,10 +28,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 14,
-      "native_avg": 9.21,
+      "count": 13,
+      "native_avg": 9.15,
       "scale": "/10",
-      "avg_10pt": 9.21,
+      "avg_10pt": 9.15,
       "median_10pt": 9.0,
       "judgment": "優秀"
     },

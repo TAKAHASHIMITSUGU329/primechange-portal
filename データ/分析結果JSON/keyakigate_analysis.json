@@ -37,10 +37,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 10,
-      "native_avg": 4.4,
+      "count": 9,
+      "native_avg": 4.33,
       "scale": "/5",
-      "avg_10pt": 8.8,
+      "avg_10pt": 8.67,
       "median_10pt": 10.0,
       "judgment": "良好"
     },

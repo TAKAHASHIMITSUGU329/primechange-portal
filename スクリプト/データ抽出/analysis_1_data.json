@@ -14,13 +14,13 @@
     {
       "type": "セット漏れ",
       "total_count": 42,
-      "share_pct": 31.3,
+      "share_pct": 30.7,
       "hotels_affected": 13
     },
     {
       "type": "残置",
       "total_count": 32,
-      "share_pct": 23.9,
+      "share_pct": 23.4,
       "hotels_affected": 12
     },
     {
@@ -31,9 +31,15 @@
     },
     {
       "type": "清掃不備",
+      "total_count": 15,
+      "share_pct": 10.9,
+      "hotels_affected": 7
+    },
+    {
+      "type": "その他",
       "total_count": 13,
-      "share_pct": 9.7,
-      "hotels_affected": 6
+      "share_pct": 9.5,
+      "hotels_affected": 8
     },
     {
       "type": "その他",
@@ -44,7 +50,7 @@
     {
       "type": "髪の毛",
       "total_count": 8,
-      "share_pct": 6.0,
+      "share_pct": 5.8,
       "hotels_affected": 5
     },
     {
@@ -93,7 +99,7 @@
   "category_breakdown": {
     "客室準備系": {
       "count": 76,
-      "share_pct": 56.7,
+      "share_pct": 55.5,
       "types": [
         "残置",
         "セット漏れ",
@@ -112,7 +118,7 @@
     },
     "安全・設備系": {
       "count": 6,
-      "share_pct": 4.5,
+      "share_pct": 4.4,
       "types": [
         "巻き込み",
         "誤入室",
@@ -1911,6 +1917,14 @@
       },
       {
         "type": "清掃不備",
+        "current_count": 15,
+        "reduced_count": 7,
+        "rate_reduction": 0.3494,
+        "score_improvement": 0.0165,
+        "revenue_impact_monthly": 361414
+      },
+      {
+        "type": "その他",
         "current_count": 13,
         "reduced_count": 6,
         "rate_reduction": 0.3067,
@@ -2152,8 +2166,8 @@
       "priority": "最優先"
     },
     {
-      "title": "カテゴリ別対策: 客室準備系（全体の56.7%）",
-      "rationale": "客室準備系カテゴリが最多で、構成比56.7%。類型残置, セット漏れ, 手配ミスへの体系的対策が効果的。",
+      "title": "カテゴリ別対策: 客室準備系（全体の55.5%）",
+      "rationale": "客室準備系カテゴリが最多で、構成比55.5%。類型残置, セット漏れ, 手配ミスへの体系的対策が効果的。",
       "actions": [
         "客室準備系に関するSOPの見直しと標準化",
         "ベストプラクティスホテルからの手法移植",

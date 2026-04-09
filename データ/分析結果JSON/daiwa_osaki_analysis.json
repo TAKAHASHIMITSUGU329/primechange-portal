@@ -55,10 +55,10 @@
     },
     {
       "site": "じゃらん",
-      "count": 6,
-      "native_avg": 3.83,
+      "count": 5,
+      "native_avg": 3.8,
       "scale": "/5",
-      "avg_10pt": 7.67,
+      "avg_10pt": 7.6,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }

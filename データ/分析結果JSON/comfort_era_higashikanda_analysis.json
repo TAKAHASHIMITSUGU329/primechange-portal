@@ -36,15 +36,6 @@
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 6,
-      "native_avg": 4.5,
-      "scale": "/5",
-      "avg_10pt": 9.0,
-      "median_10pt": 9.0,
-      "judgment": "優秀"
-    },
-    {
       "site": "Booking.com",
       "count": 41,
       "native_avg": 8.93,
@@ -92,12 +83,12 @@
     {
       "score": 4,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.5%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.5%"
     },
     {
       "score": 2,
