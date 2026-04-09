@@ -1,12 +1,12 @@
 {
-  "total_reviews": 70,
-  "overall_avg_10pt": 8.24,
-  "high_count": 55,
-  "high_rate": 78.6,
-  "mid_count": 14,
-  "mid_rate": 20.0,
+  "total_reviews": 81,
+  "overall_avg_10pt": 8.33,
+  "high_count": 64,
+  "high_rate": 79.0,
+  "mid_count": 16,
+  "mid_rate": 19.8,
   "low_count": 1,
-  "low_rate": 1.3,
+  "low_rate": 1.2,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -28,7 +28,7 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 10,
+      "count": 12,
       "native_avg": 4.5,
       "scale": "/5",
       "avg_10pt": 9.0,
@@ -37,10 +37,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 35,
-      "native_avg": 8.09,
+      "count": 41,
+      "native_avg": 8.12,
       "scale": "/10",
-      "avg_10pt": 8.09,
+      "avg_10pt": 8.12,
+      "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Google",
+      "count": 14,
+      "native_avg": 4.0,
+      "scale": "/5",
+      "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -52,55 +61,98 @@
       "avg_10pt": 7.5,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
-    },
-    {
-      "site": "Google",
-      "count": 11,
-      "native_avg": 3.73,
-      "scale": "/5",
-      "avg_10pt": 7.45,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 19,
-      "pct": "27.1%"
+      "count": 24,
+      "pct": "29.6%"
     },
     {
       "score": 9,
-      "count": 9,
-      "pct": "12.9%"
+      "count": 12,
+      "pct": "14.8%"
     },
     {
       "score": 8,
-      "count": 27,
-      "pct": "38.6%"
+      "count": 28,
+      "pct": "34.6%"
     },
     {
       "score": 7,
-      "count": 5,
-      "pct": "7.1%"
+      "count": 6,
+      "pct": "7.4%"
     },
     {
       "score": 6,
-      "count": 8,
-      "pct": "11.4%"
+      "count": 9,
+      "pct": "11.1%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "1.3%"
+      "pct": "1.2%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "1.3%"
+      "pct": "1.2%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-08",
+      "comment": "",
+      "good": "Amazing location in Roppongi  Great staff with excellent English skills  daily cleaning and towels on demand  free umbrellas to borrow on rainy days",
+      "bad": "Only one electric plug but you can borrow an extension at the lobby.  furniture and bathroom a bit outdated.   Cleaning staff uses fire escape stairs and sometimes ruins your nap  tiny desk barely enough room for a laptop",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "コンセントは1つだけですが、ロビーで延長コードを借りることができます。家具やバスルームは少し古めです。清掃スタッフが非常階段を使うため、昼寝が邪魔されることがあります。机は小さく、ノートパソコンを置くスペースがほとんどありません。",
+      "reviewer": "Vortex"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-07",
+      "comment": "立地が最高。スタッフもとても親切。",
+      "good": "",
+      "bad": "",
+      "translated": "立地が最高。スタッフもとても親切。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Craig Cannon"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-07",
+      "comment": "Great location. Very helpful staff.",
+      "good": "",
+      "bad": "",
+      "translated": "立地が最高。スタッフもとても親切。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Craig Cannon"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-07",
+      "comment": "素晴らしいロケーション。とても親切なスタッフ。",
+      "good": "",
+      "bad": "",
+      "translated": "素晴らしいロケーション。とても親切なスタッフ。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Craig Cannon"
+    },
     {
       "site": "Booking.com",
       "rating": 7.0,
@@ -176,7 +228,7 @@
       "bad": "Yummy but Very limited breakfast option as they have the same menu everyday",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "美味しいけど、毎日同じメニューなので朝食の選択肢がすごく限られている",
+      "translated_bad": "美味しいけど、毎日同じメニューなので朝食の選択肢がすごく限られている。",
       "reviewer": "Carlito"
     },
     {
@@ -759,7 +811,7 @@
       "comment": "I was very pleased with this hotel. I booked a room with a queen bed, which I found quite spacious for Japanese standards. The room was equipped with a humidifier, which was very convenient during my stay. The staff were friendly and attentive. The Thai breakfast was really good, I was quite surprised by it and definitely recommend it. Overall, it was a great stay!",
       "good": "",
       "bad": "",
-      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ式の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
+      "translated": "このホテルには大変満足しました。クイーンサイズのベッドがある部屋を予約したのですが、日本の基準からするとかなり広々としていました。部屋には加湿器が備え付けられていて、滞在中とても便利でした。スタッフは親切で気配りが行き届いていました。タイ風の朝食は本当に美味しく、期待以上で、ぜひおすすめします。全体的に素晴らしい滞在でした！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Nanda"
@@ -1099,7 +1151,7 @@
       "bad": "Il distributore di caffè è attivo solo dalle 7, sarebbe comodo prima per chi prende voli di ritorno al mattino presto",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していれば便利でしょう。",
+      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していると便利でしょう。",
       "reviewer": "Mariafrancesca"
     }
   ]

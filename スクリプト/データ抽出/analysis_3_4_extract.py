@@ -39,65 +39,66 @@ HOTEL_NAME_MAP = {
 def extract_daily_data():
     """Extract daily report data from all 19 hotels."""
     all_hotels = {}
+    all_dates = []  # 全ホテルの日報日付を収集（期間動的算出用）
 
     for hk in HOTEL_FILES:
         wb = open_workbook(hk)
-        daily_sheet = None
-        for s in wb.sheetnames:
-            if '日報' in s:
-                daily_sheet = s
-                break
-        if not daily_sheet:
+        # 全日報シートを収集（月別に分かれている: ③R8_2日報, ③R8_3日報, ③R8_4日報 等）
+        daily_sheets = [s for s in wb.sheetnames if '日報' in s and '原本' not in s]
+        if not daily_sheets:
             wb.close()
             continue
 
-        ws = wb[daily_sheet]
         daily_entries = []
 
-        for row_idx in range(9, 500):
-            date_val = ws.cell(row=row_idx, column=3).value
-            if date_val is None:
-                continue
-            date_str = str(date_val)
-            if '202' not in date_str:
-                continue
+        for daily_sheet in daily_sheets:
+            ws = wb[daily_sheet]
+            for row_idx in range(9, 500):
+                date_val = ws.cell(row=row_idx, column=3).value
+                if date_val is None:
+                    continue
+                date_str = str(date_val)
+                if '202' not in date_str:
+                    continue
 
-            maid = safe_number(ws.cell(row=row_idx, column=10).value, None)
-            checker = safe_number(ws.cell(row=row_idx, column=11).value, None)
-            time_v = safe_time(ws.cell(row=row_idx, column=9).value)
-            claim = safe_number(ws.cell(row=row_idx, column=8).value, 0)
-            workload_raw = ws.cell(row=row_idx, column=14).value
-            workload = safe_number(workload_raw, None) if workload_raw else None
-            # Some workload values are text like "残 21\n滞在 49\nアウト150\nフル 3"
-            if workload is None and workload_raw and isinstance(workload_raw, str):
-                # Try to extract total from text
-                import re
-                nums = re.findall(r'(\d+)', str(workload_raw))
-                if nums:
-                    workload = sum(int(n) for n in nums)
+                maid = safe_number(ws.cell(row=row_idx, column=10).value, None)
+                checker = safe_number(ws.cell(row=row_idx, column=11).value, None)
+                time_v = safe_time(ws.cell(row=row_idx, column=9).value)
+                claim = safe_number(ws.cell(row=row_idx, column=8).value, 0)
+                workload_raw = ws.cell(row=row_idx, column=14).value
+                workload = safe_number(workload_raw, None) if workload_raw else None
+                if workload is None and workload_raw and isinstance(workload_raw, str):
+                    import re
+                    nums = re.findall(r'(\d+)', str(workload_raw))
+                    if nums:
+                        workload = sum(int(n) for n in nums)
 
-            entry = {
-                'date': date_str[:10],
-                'maids': maid if maid and maid > 0 else None,
-                'checkers': checker if checker and checker > 0 else None,
-                'total_staff': (maid or 0) + (checker or 0) if (maid and maid > 0) or (checker and checker > 0) else None,
-                'completion_time': round(time_v, 2) if time_v and time_v > 6 else None,
-                'claims': claim,
-                'workload': workload if workload and workload > 0 else None,
-            }
+                entry = {
+                    'date': date_str[:10],
+                    'maids': maid if maid and maid > 0 else None,
+                    'checkers': checker if checker and checker > 0 else None,
+                    'total_staff': (maid or 0) + (checker or 0) if (maid and maid > 0) or (checker and checker > 0) else None,
+                    'completion_time': round(time_v, 2) if time_v and time_v > 6 else None,
+                    'claims': claim,
+                    'workload': workload if workload and workload > 0 else None,
+                }
 
-            # Calculate productivity metrics
-            if entry['maids'] and entry['workload'] and entry['workload'] > 0:
-                entry['rooms_per_maid'] = round(entry['workload'] / entry['maids'], 1)
-            else:
-                entry['rooms_per_maid'] = None
+                if entry['maids'] and entry['workload'] and entry['workload'] > 0:
+                    entry['rooms_per_maid'] = round(entry['workload'] / entry['maids'], 1)
+                else:
+                    entry['rooms_per_maid'] = None
 
-            if entry['checkers'] and entry['checkers'] > 0 and entry['workload'] and entry['workload'] > 0:
-                entry['rooms_per_checker'] = round(entry['workload'] / entry['checkers'], 1)
-            else:
-                entry['rooms_per_checker'] = None
+                if entry['checkers'] and entry['checkers'] > 0 and entry['workload'] and entry['workload'] > 0:
+                    entry['rooms_per_checker'] = round(entry['workload'] / entry['checkers'], 1)
+                else:
+                    entry['rooms_per_checker'] = None
 
-            daily_entries.append(entry)
+                daily_entries.append(entry)
+                if entry['date']:
+                    all_dates.append(entry['date'][:7])
+
+        # 日付でソート（複数シートからの統合のため）
+        daily_entries.sort(key=lambda e: e['date'])
 
         # Hotel-level aggregates
         maids_data = [e['maids'] for e in daily_entries if e['maids']]
@@ -137,7 +138,7 @@ def extract_daily_data():
 
         wb.close()
 
-    return all_hotels
+    return all_hotels, all_dates
 
 
 def load_quality_and_revenue():
@@ -515,7 +516,7 @@ def main():
 
     # Extract daily data
     print("\n[1/4] 日報データ抽出中...")
-    all_hotels = extract_daily_data()
+    all_hotels, all_dates = extract_daily_data()
     total_days = sum(h['total_days'] for h in all_hotels.values())
     print(f"  → {len(all_hotels)}ホテル、{total_days}日分のデータ")
 
@@ -567,6 +568,18 @@ def main():
 
     hotel_summary.sort(key=lambda x: x['score'] or 0, reverse=True)
 
+    # 日報データの期間を動的算出
+    if all_dates:
+        unique_months = sorted(set(all_dates))
+        min_m = int(unique_months[0].split('-')[1])
+        max_m = int(unique_months[-1].split('-')[1])
+        if min_m == max_m:
+            daily_period = f'R8年度{min_m}月（日報データ）'
+        else:
+            daily_period = f'R8年度{min_m}月〜{max_m}月（日報データ）'
+    else:
+        daily_period = 'R8年度（日報データ）'
+
     # Build output
     output_3 = {
         'analysis_metadata': {
@@ -575,7 +588,7 @@ def main():
             'subtitle': 'Staffing Level × Quality Correlation Analysis',
             'total_hotels': 19,
             'hotels_with_staffing_data': n3,
-            'data_period': 'R8年度3月（日報データ）'
+            'data_period': daily_period
         },
         'staffing_analysis': staffing_analysis,
         'hotel_summary': hotel_summary,
@@ -589,7 +602,7 @@ def main():
             'subtitle': 'Cleaning Completion Time × Quality Analysis',
             'total_hotels': 19,
             'hotels_with_time_data': n4,
-            'data_period': 'R8年度3月（日報データ）'
+            'data_period': daily_period
         },
         'time_analysis': time_analysis,
         'hotel_summary': hotel_summary,

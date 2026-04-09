@@ -1,28 +1,37 @@
 {
-  "total_reviews": 31,
-  "overall_avg_10pt": 8.06,
-  "high_count": 21,
-  "high_rate": 67.7,
+  "total_reviews": 34,
+  "overall_avg_10pt": 8.12,
+  "high_count": 24,
+  "high_rate": 70.6,
   "mid_count": 10,
-  "mid_rate": 32.3,
+  "mid_rate": 29.4,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
     {
       "site": "Google",
-      "count": 6,
-      "native_avg": 4.33,
+      "count": 7,
+      "native_avg": 4.29,
       "scale": "/5",
-      "avg_10pt": 8.67,
+      "avg_10pt": 8.57,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 6,
-      "native_avg": 8.17,
+      "count": 7,
+      "native_avg": 8.29,
       "scale": "/10",
-      "avg_10pt": 8.17,
+      "avg_10pt": 8.29,
+      "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 10,
+      "native_avg": 8.0,
+      "scale": "/10",
+      "avg_10pt": 8.0,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -45,15 +54,6 @@
       "judgment": "良好"
     },
     {
-      "site": "Booking.com",
-      "count": 9,
-      "native_avg": 7.89,
-      "scale": "/10",
-      "avg_10pt": 7.89,
-      "median_10pt": 8.0,
-      "judgment": "概ね良好"
-    },
-    {
       "site": "Trip.com",
       "count": 1,
       "native_avg": 6.0,
@@ -67,30 +67,69 @@
     {
       "score": 10,
       "count": 7,
-      "pct": "22.6%"
+      "pct": "20.6%"
     },
     {
       "score": 9,
-      "count": 3,
-      "pct": "9.7%"
+      "count": 5,
+      "pct": "14.7%"
     },
     {
       "score": 8,
-      "count": 11,
-      "pct": "35.5%"
+      "count": 12,
+      "pct": "35.3%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "16.1%"
+      "pct": "14.7%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "16.1%"
+      "pct": "14.7%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-08",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kengo"
+    },
+    {
+      "site": "Agoda",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-07",
+      "comment": "駅に近く便利です。 大浴場があるのが良かったです。",
+      "good": "",
+      "bad": "",
+      "translated": "駅に近く便利です。 大浴場があるのが良かったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "YOSHIMI"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-07",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ka Y"
+    },
     {
       "site": "楽天トラベル",
       "rating": 5.0,

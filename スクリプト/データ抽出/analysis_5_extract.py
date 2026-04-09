@@ -44,6 +44,7 @@ def score_abcde(val):
 
 def extract_safety_data():
     all_hotels = {}
+    all_inspection_months = []
     for hk in HOTEL_FILES:
         wb = open_workbook(hk)
         safety_sheet = None
@@ -110,6 +111,12 @@ def extract_safety_data():
                 inspection['total_items'] = len(all_scores)
                 inspection['problem_count'] = len([s for s in all_scores if s <= 1])
                 hotel_data['inspections'].append(inspection)
+                # 実データがある月のみ期間計算に含める
+                if dc['month']:
+                    import re
+                    m_match = re.search(r'(\d+)', dc['month'])
+                    if m_match:
+                        all_inspection_months.append(int(m_match.group(1)))
 
         # Hotel-level aggregates
         if hotel_data['inspections']:
@@ -132,7 +139,14 @@ def extract_safety_data():
         all_hotels[hk] = hotel_data
         wb.close()
 
-    return all_hotels
+    if all_inspection_months:
+        min_m = min(all_inspection_months)
+        max_m = max(all_inspection_months)
+        safety_period = f'R8年度（{min_m}月〜{max_m}月）' if min_m != max_m else f'R8年度（{min_m}月）'
+    else:
+        safety_period = 'R8年度'
+
+    return all_hotels, safety_period
 
 def analyze_safety_vs_quality(all_hotels):
     with open(os.path.join(OUT_DIR, 'primechange_portfolio_analysis.json'), 'r') as f:
@@ -214,7 +228,7 @@ def main():
     print("分析5: 安全チェック×予兆検出分析")
     print("=" * 50)
     print("\n[1/2] 安全チェックデータ抽出中...")
-    all_hotels = extract_safety_data()
+    all_hotels, safety_period = extract_safety_data()
     checked = sum(1 for h in all_hotels.values() if h['inspections_count'] > 0)
     print(f"  → {len(all_hotels)}ホテル、チェック実施{checked}ホテル")
 
@@ -229,7 +243,7 @@ def main():
             'analysis_id': 5, 'title': '安全チェック×予兆検出分析',
             'subtitle': 'Safety Inspection × Early Warning Analysis',
             'total_hotels': 19, 'hotels_with_data': checked,
-            'data_period': 'R8年度（2月〜3月）'
+            'data_period': safety_period
         },
         'hotel_details': {hk: {
             'name': h['name'], 'avg_score': h['avg_overall_score'],

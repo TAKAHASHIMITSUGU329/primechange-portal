@@ -47,31 +47,55 @@ def extract_staff_data():
         # Extract roster from award sheet
         if award_sheet:
             ws2 = wb[award_sheet]
+
+            # 月別ブロックは名前列でスタッフ順が異なるため、名前→行の索引を各月で構築
+            # 2月: name=col18, days=col21, hrs=col23, rooms=col24
+            # 3月: name=col28, days=col31, hrs=col33, rooms=col34
+            # 4月: name=col38, days=col41, hrs=col43, rooms=col44
+            month_configs = [
+                {'name_col': 18, 'days_col': 21, 'hrs_col': 23, 'rooms_col': 24, 'label': 'feb'},
+                {'name_col': 28, 'days_col': 31, 'hrs_col': 33, 'rooms_col': 34, 'label': 'mar'},
+                {'name_col': 38, 'days_col': 41, 'hrs_col': 43, 'rooms_col': 44, 'label': 'apr'},
+            ]
+            # 各月の名前→データ辞書を構築
+            monthly_data = {}
+            for mc in month_configs:
+                month_map = {}
+                for r in range(4, 100):
+                    n = ws2.cell(row=r, column=mc['name_col']).value
+                    if not n: continue
+                    n_str = str(n).strip()
+                    month_map[n_str] = {
+                        'days': safe_number(ws2.cell(row=r, column=mc['days_col']).value, 0),
+                        'hours': safe_number(ws2.cell(row=r, column=mc['hrs_col']).value, 0),
+                        'rooms': safe_number(ws2.cell(row=r, column=mc['rooms_col']).value, 0),
+                    }
+                monthly_data[mc['label']] = month_map
+
             for row_idx in range(4, 100):
                 name = ws2.cell(row=row_idx, column=3).value
                 if not name: continue
+                name_str = str(name).strip()
                 position = ws2.cell(row=row_idx, column=4).value
                 pay_type = ws2.cell(row=row_idx, column=5).value
                 total_days = safe_number(ws2.cell(row=row_idx, column=6).value, None)
                 absence = safe_number(ws2.cell(row=row_idx, column=8).value, None)
                 hours = safe_number(ws2.cell(row=row_idx, column=9).value, None)
 
-                # Monthly data: Feb=c21(days),c23(hrs),c24(rooms) / Mar=c31(days),c33(hrs),c34(rooms) / Apr=c41(days),c43(hrs),c44(rooms)
-                feb_days = safe_number(ws2.cell(row=row_idx, column=21).value, 0)
-                feb_hours = safe_number(ws2.cell(row=row_idx, column=23).value, 0)
-                feb_rooms = safe_number(ws2.cell(row=row_idx, column=24).value, 0)
-                mar_days = safe_number(ws2.cell(row=row_idx, column=31).value, 0)
-                mar_hours = safe_number(ws2.cell(row=row_idx, column=33).value, 0)
-                mar_rooms = safe_number(ws2.cell(row=row_idx, column=34).value, 0)
-                apr_days = safe_number(ws2.cell(row=row_idx, column=41).value, 0)
-                apr_hours = safe_number(ws2.cell(row=row_idx, column=43).value, 0)
-                apr_rooms = safe_number(ws2.cell(row=row_idx, column=44).value, 0)
+                # 名前で各月データを照合
+                feb = monthly_data['feb'].get(name_str, {'days': 0, 'hours': 0, 'rooms': 0})
+                mar = monthly_data['mar'].get(name_str, {'days': 0, 'hours': 0, 'rooms': 0})
+                apr = monthly_data['apr'].get(name_str, {'days': 0, 'hours': 0, 'rooms': 0})
+
+                feb_days, feb_hours, feb_rooms = feb['days'], feb['hours'], feb['rooms']
+                mar_days, mar_hours, mar_rooms = mar['days'], mar['hours'], mar['rooms']
+                apr_days, apr_hours, apr_rooms = apr['days'], apr['hours'], apr['rooms']
 
                 total_rooms = int(feb_rooms + mar_rooms + apr_rooms)
                 sum_days = int(feb_days + mar_days + apr_days) if (feb_days + mar_days + apr_days) > 0 else (int(total_days) if total_days else 0)
 
                 hotel_data['roster'].append({
-                    'name': str(name).strip(),
+                    'name': name_str,
                     'position': str(position).strip() if position else 'unknown',
                     'pay_type': str(pay_type).strip() if pay_type else '',
                     'total_days': sum_days,

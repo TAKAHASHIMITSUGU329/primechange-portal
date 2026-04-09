@@ -354,6 +354,21 @@ def main():
     print("Best: %s (%.2f)" % (best_hotel['_name'], best_hotel['overall_avg_10pt']))
     print("Worst: %s (%.2f)" % (worst_hotel['_name'], worst_hotel['overall_avg_10pt']))
 
+    # 口コミ日付から分析期間を動的算出
+    all_review_dates = []
+    for h in hotels:
+        for c in h.get('comments', []):
+            d = c.get('date', '')
+            if d and len(d) >= 7:
+                all_review_dates.append(d[:7])
+    if all_review_dates:
+        sorted_months = sorted(set(all_review_dates))
+        min_ym = sorted_months[0].split('-')
+        max_ym = sorted_months[-1].split('-')
+        analysis_period = f'{int(min_ym[0])}年{int(min_ym[1])}月〜{int(max_ym[0])}年{int(max_ym[1])}月'
+    else:
+        analysis_period = f'{date.today().year}年{date.today().month}月時点'
+
     # 3. Cleaning keyword analysis for each hotel
     all_category_totals = defaultdict(int)
     all_category_hotels = defaultdict(set)
@@ -636,7 +651,7 @@ def main():
             'title': 'PRIMECHANGE ホテル清掃戦略レポート',
             'subtitle': 'ゲスト口コミデータに基づく清掃品質改善提案書',
             'date': date.today().strftime('%Y年%-m月%-d日'),
-            'analysis_period': '2025年12月〜2026年3月',
+            'analysis_period': analysis_period,
             'total_hotels': len(hotels),
             'total_reviews': total_reviews,
             'portfolio_avg': round(weighted_avg, 2),

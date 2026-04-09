@@ -1,12 +1,12 @@
 {
-  "total_reviews": 59,
-  "overall_avg_10pt": 8.95,
-  "high_count": 52,
-  "high_rate": 88.1,
-  "mid_count": 5,
-  "mid_rate": 8.5,
-  "low_count": 2,
-  "low_rate": 3.4,
+  "total_reviews": 66,
+  "overall_avg_10pt": 8.8,
+  "high_count": 57,
+  "high_rate": 86.4,
+  "mid_count": 6,
+  "mid_rate": 9.1,
+  "low_count": 3,
+  "low_rate": 4.5,
   "site_stats": [
     {
       "site": "Trip.com",
@@ -28,20 +28,11 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 27,
-      "native_avg": 4.7,
+      "count": 29,
+      "native_avg": 4.66,
       "scale": "/5",
-      "avg_10pt": 9.41,
+      "avg_10pt": 9.31,
       "median_10pt": 10.0,
-      "judgment": "優秀"
-    },
-    {
-      "site": "Booking.com",
-      "count": 11,
-      "native_avg": 9.0,
-      "scale": "/10",
-      "avg_10pt": 9.0,
-      "median_10pt": 9.0,
       "judgment": "優秀"
     },
     {
@@ -54,48 +45,148 @@
       "judgment": "良好"
     },
     {
+      "site": "Booking.com",
+      "count": 13,
+      "native_avg": 8.77,
+      "scale": "/10",
+      "avg_10pt": 8.77,
+      "median_10pt": 9.0,
+      "judgment": "良好"
+    },
+    {
       "site": "Google",
-      "count": 5,
-      "native_avg": 3.0,
+      "count": 6,
+      "native_avg": 2.67,
       "scale": "/5",
-      "avg_10pt": 6.0,
-      "median_10pt": 6.0,
+      "avg_10pt": 5.33,
+      "median_10pt": 4.0,
       "judgment": "要改善"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 37,
-      "pct": "62.7%"
+      "count": 39,
+      "pct": "59.1%"
     },
     {
       "score": 9,
       "count": 3,
-      "pct": "5.1%"
+      "pct": "4.5%"
     },
     {
       "score": 8,
-      "count": 12,
-      "pct": "20.3%"
+      "count": 15,
+      "pct": "22.7%"
     },
     {
       "score": 7,
-      "count": 1,
-      "pct": "1.6%"
+      "count": 2,
+      "pct": "3.0%"
     },
     {
       "score": 6,
       "count": 4,
-      "pct": "6.8%"
+      "pct": "6.1%"
     },
     {
       "score": 2,
-      "count": 2,
-      "pct": "3.4%"
+      "count": 3,
+      "pct": "4.5%"
     }
   ],
   "comments": [
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-08",
+      "comment": "本文なし",
+      "good": "",
+      "bad": "",
+      "translated": "本文なし",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "パープルYU"
+    },
+    {
+      "site": "Google",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-04-08",
+      "comment": "これまで何度も利用してきましたが、今回は本当に我慢できません。 こんなコメントを書くのは初めてです。  これまで部屋の清潔さや接客については、正直「完璧ではない」と感じることもありましたが、自宅から近く、孫に会うため立地を優先して利用していました。 しかし今回は、そのような理由で利用していたことを後悔するレベルの対応でした。 じゃらんで事前に予約しているにもかかわらず、チェックイン時に「予約が見つからない」と言われ、夜遅い時間に30分以上も待たされました。同行していた70代の家族は、夜便の長距離フライト直後で疲れ切っている状態でした。 それにもかかわらず、スタッフから十分な説明も謝罪もなく、最終的に「ありました」とだけ言われました。あまりにも配慮に欠ける対応で、本当に信じられない思いでした。 予約システムの問題があったとしても、その後の対応は完全に接客・教育の問題だと感じます。利用者の状況を考えた最低限の配慮があってしかるべきではないでしょうか。 これまで多少の不満には目をつぶってきましたが、今回の件で信頼は完全に失われました。 今後の利用は考えられません。基本的な接客対応の改善を強く求めます。",
+      "good": "",
+      "bad": "",
+      "translated": "これまで何度も利用してきましたが、今回は本当に我慢できません。 こんなコメントを書くのは初めてです。  これまで部屋の清潔さや接客については、正直「完璧ではない」と感じることもありましたが、自宅から近く、孫に会うため立地を優先して利用していました。 しかし今回は、そのような理由で利用していたことを後悔するレベルの対応でした。 じゃらんで事前に予約しているにもかかわらず、チェックイン時に「予約が見つからない」と言われ、夜遅い時間に30分以上も待たされました。同行していた70代の家族は、夜便の長距離フライト直後で疲れ切っている状態でした。 それにもかかわらず、スタッフから十分な説明も謝罪もなく、最終的に「ありました」とだけ言われました。あまりにも配慮に欠ける対応で、本当に信じられない思いでした。 予約システムの問題があったとしても、その後の対応は完全に接客・教育の問題だと感じます。利用者の状況を考えた最低限の配慮があってしかるべきではないでしょうか。 これまで多少の不満には目をつぶってきましたが、今回の件で信頼は完全に失われました。 今後の利用は考えられません。基本的な接客対応の改善を強く求めます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "B"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-07",
+      "comment": "立地条件も良く(駅近)けやき通りに面しているので気持ちも良かったです。 室内もとてもきれいです。朝食も美味しかったのですがデザートにフルーツがあれば尚良かったと思います。 ドリンク用に紙コップとグラスがあったのですがカップがあればよいと思いました。",
+      "good": "",
+      "bad": "",
+      "translated": "立地条件も良く(駅近)けやき通りに面しているので気持ちも良かったです。 室内もとてもきれいです。朝食も美味しかったのですがデザートにフルーツがあれば尚良かったと思います。 ドリンク用に紙コップとグラスがあったのですがカップがあればよいと思いました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ネコ２２41"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-04-07",
+      "comment": "",
+      "good": "La disponibilité du personnel à l'écoute des clients de l'hôtel. J'ai apprécié notamment l'aide apportée pour le changement de carte SIM. La chambre était spacieuse et confortable.",
+      "bad": "Le petit déjeuner aurait pu être de meilleure qualité notamment pour les viennoiseries et le café",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "朝食はもっと質の良いものにできたはずだ。特にペストリーとコーヒーは。",
+      "reviewer": "Christine"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-06",
+      "comment": "",
+      "good": "Very close to train station  My room was very quiet and bed comfy",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Dianne"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-05",
+      "comment": "府中駅からすぐの立地で本当に便利です。お部屋も綺麗、バスルームも広めでアメニティグッツも充実してます。フロントの方も親切で府中にくるかたへぜひおすすめしたいホテルです。",
+      "good": "",
+      "bad": "",
+      "translated": "府中駅からすぐの立地で本当に便利です。お部屋も綺麗、バスルームも広めでアメニティグッツも充実してます。フロントの方も親切で府中にくるかたへぜひおすすめしたいホテルです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "kokorokorokoro"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "昨年に引き続き2回目の利用です。部屋もキレイで居心地も良いです。朝食のメニューは少ないけど、非常に美味しくいただきました。スマホの動画をテレビへ転送できるシステムも良かったです。",
+      "good": "",
+      "bad": "",
+      "translated": "昨年に引き続き2回目の利用です。部屋もキレイで居心地も良いです。朝食のメニューは少ないけど、非常に美味しくいただきました。スマホの動画をテレビへ転送できるシステムも良かったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "nisihiさん"
+    },
     {
       "site": "Booking.com",
       "rating": 8.0,

@@ -1,12 +1,12 @@
 {
-  "total_reviews": 63,
-  "overall_avg_10pt": 6.52,
-  "high_count": 29,
-  "high_rate": 46.0,
+  "total_reviews": 65,
+  "overall_avg_10pt": 6.48,
+  "high_count": 30,
+  "high_rate": 46.2,
   "mid_count": 19,
-  "mid_rate": 30.2,
-  "low_count": 15,
-  "low_rate": 23.8,
+  "mid_rate": 29.2,
+  "low_count": 16,
+  "low_rate": 24.6,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -46,10 +46,10 @@
     },
     {
       "site": "Google",
-      "count": 16,
-      "native_avg": 3.19,
+      "count": 18,
+      "native_avg": 3.11,
       "scale": "/5",
-      "avg_10pt": 6.38,
+      "avg_10pt": 6.22,
       "median_10pt": 7.0,
       "judgment": "要改善"
     },
@@ -67,45 +67,188 @@
     {
       "score": 10,
       "count": 9,
-      "pct": "14.3%"
+      "pct": "13.8%"
     },
     {
       "score": 8,
-      "count": 20,
-      "pct": "31.7%"
+      "count": 21,
+      "pct": "32.3%"
     },
     {
       "score": 7,
       "count": 3,
-      "pct": "4.8%"
+      "pct": "4.6%"
     },
     {
       "score": 6,
       "count": 14,
-      "pct": "22.2%"
+      "pct": "21.5%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "3.2%"
+      "pct": "3.1%"
     },
     {
       "score": 4,
       "count": 7,
-      "pct": "11.1%"
+      "pct": "10.8%"
     },
     {
       "score": 3,
       "count": 2,
-      "pct": "3.2%"
+      "pct": "3.1%"
     },
     {
       "score": 2,
-      "count": 6,
-      "pct": "9.5%"
+      "count": 7,
+      "pct": "10.8%"
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 1.0,
+      "rating_10pt": 2.0,
+      "date": "2026-04-09",
+      "comment": "娘の試合の観戦があり宿泊(１泊)しました。 外観は駅周りを含めとても綺麗に整備されていたので、期待しすぎたのかもしれませんが、客室は驚くほど古く、シャワートイレも謎の使い方のもので、トイレを流す水の音がありえないほど大きく、また上の階の水の音も聞こえてきて、驚きました。 端の部屋だったからと思ってはいますが、Wi-Fiが弱く、いつのまにかギガ難民になっていました(月末というのもあり) エレベーターはタバコ臭く(2基とも)連泊じゃなくて良かったと思うばかりでした。",
+      "good": "",
+      "bad": "",
+      "translated": "娘の試合の観戦があり宿泊(１泊)しました。 外観は駅周りを含めとても綺麗に整備されていたので、期待しすぎたのかもしれませんが、客室は驚くほど古く、シャワートイレも謎の使い方のもので、トイレを流す水の音がありえないほど大きく、また上の階の水の音も聞こえてきて、驚きました。 端の部屋だったからと思ってはいますが、Wi-Fiが弱く、いつのまにかギガ難民になっていました(月末というのもあり) エレベーターはタバコ臭く(2基とも)連泊じゃなくて良かったと思うばかりでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "mammamu o"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-08",
+      "comment": "非常に静かな環境で、ゆっくり休めました。 まわりに飲食店は少なめですが、少し歩けば沢山あり、コンビニも近くて便利でした。",
+      "good": "",
+      "bad": "",
+      "translated": "非常に静かな環境で、ゆっくり休めました。 まわりに飲食店は少なめですが、少し歩けば沢山あり、コンビニも近くて便利でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "aniy 11"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "久しぶりに泊まりました。浜松町からホテルまでの道が整備されていてとてもきれいになっていました。部屋は清潔で気持ちよく過ごせました。",
+      "good": "",
+      "bad": "",
+      "translated": "久しぶりに泊まりました。浜松町からホテルまでの道が整備されていてとてもきれいになっていました。部屋は清潔で気持ちよく過ごせました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "KKさん"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-04",
+      "comment": "การเดินทางสะดวกมากๆและที่พักอยู่มนทำเลที่ดี พนักงานบริการดี",
+      "good": "",
+      "bad": "",
+      "translated": "旅程は非常に快適で、宿泊施設も素晴らしい立地でした。スタッフのサービスも素晴らしかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-03",
+      "comment": "何しろ狭くて古びている",
+      "good": "",
+      "bad": "",
+      "translated": "何しろ狭くて古びている",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "m2999"
+    },
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-03",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "日高浩二"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 2.0,
+      "rating_10pt": 2.0,
+      "date": "2026-04-02",
+      "comment": "設備が古く、サービスも良くないです。",
+      "good": "",
+      "bad": "",
+      "translated": "設備が古く、サービスも良くないです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-01",
+      "comment": "駅が近いのと、コンビニがすぐ近くにあるのが嬉しい。鉄道の好きな人はすぐ前が線路なので楽しいかと。",
+      "good": "",
+      "bad": "",
+      "translated": "駅が近いのと、コンビニがすぐ近くにあるのが嬉しい。鉄道の好きな人はすぐ前が線路なので楽しいかと。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "風間美穂"
+    },
+    {
+      "site": "Agoda",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-04-01",
+      "comment": "トイレを流した時の音が異常にうるさい・・隣の部屋の音も聞こえるし、自分の部屋の音も聞こえていたと思う。 それなりの古さも感じましたが。 駅からは行きやすいしわかりやすいし、スタッフの方の対応もよかったですが、音が気になる人にはおすすめしないです。",
+      "good": "",
+      "bad": "",
+      "translated": "トイレを流した時の音が異常にうるさい・・隣の部屋の音も聞こえるし、自分の部屋の音も聞こえていたと思う。 それなりの古さも感じましたが。 駅からは行きやすいしわかりやすいし、スタッフの方の対応もよかったですが、音が気になる人にはおすすめしないです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "CHISATO"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-01",
+      "comment": "値段なりの内装、 外国人スタッフばかりです。日本語が得意な人とそうでない方の差があるなと思った。接客はよかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "値段なりの内装、 外国人スタッフばかりです。日本語が得意な人とそうでない方の差があるなと思った。接客はよかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "キムラ6286"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-01",
+      "comment": "",
+      "good": "清潔なお部屋でした",
+      "bad": "浜松町駅から結構歩きました。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "浜松町駅から結構歩きました。",
+      "reviewer": "Chieko"
+    },
     {
       "site": "Agoda",
       "rating": 6.0,

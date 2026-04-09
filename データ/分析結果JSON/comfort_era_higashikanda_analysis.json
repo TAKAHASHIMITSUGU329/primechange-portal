@@ -1,12 +1,12 @@
 {
-  "total_reviews": 81,
-  "overall_avg_10pt": 8.85,
-  "high_count": 72,
-  "high_rate": 88.9,
-  "mid_count": 4,
-  "mid_rate": 4.9,
+  "total_reviews": 85,
+  "overall_avg_10pt": 8.86,
+  "high_count": 75,
+  "high_rate": 88.2,
+  "mid_count": 5,
+  "mid_rate": 5.9,
   "low_count": 5,
-  "low_rate": 6.2,
+  "low_rate": 5.9,
   "site_stats": [
     {
       "site": "Agoda",
@@ -28,10 +28,10 @@
     },
     {
       "site": "Trip.com",
-      "count": 18,
-      "native_avg": 9.61,
+      "count": 19,
+      "native_avg": 9.63,
       "scale": "/10",
-      "avg_10pt": 9.61,
+      "avg_10pt": 9.63,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,19 +46,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 39,
-      "native_avg": 8.97,
+      "count": 41,
+      "native_avg": 8.93,
       "scale": "/10",
-      "avg_10pt": 8.97,
-      "median_10pt": 10.0,
+      "avg_10pt": 8.93,
+      "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 16,
-      "native_avg": 3.75,
+      "count": 17,
+      "native_avg": 3.82,
       "scale": "/5",
-      "avg_10pt": 7.5,
+      "avg_10pt": 7.65,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
@@ -66,23 +66,23 @@
   "distribution": [
     {
       "score": 10,
-      "count": 48,
-      "pct": "59.3%"
+      "count": 50,
+      "pct": "58.8%"
     },
     {
       "score": 9,
-      "count": 5,
-      "pct": "6.2%"
+      "count": 6,
+      "pct": "7.1%"
     },
     {
       "score": 8,
       "count": 19,
-      "pct": "23.5%"
+      "pct": "22.4%"
     },
     {
       "score": 7,
-      "count": 3,
-      "pct": "3.7%"
+      "count": 4,
+      "pct": "4.7%"
     },
     {
       "score": 6,
@@ -102,10 +102,62 @@
     {
       "score": 2,
       "count": 3,
-      "pct": "3.7%"
+      "pct": "3.5%"
     }
   ],
   "comments": [
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-09",
+      "comment": "最高の朝食とフレンドリーなスタッフ😍 とても親切で可愛かったです。部屋も素敵で、温かい便座も良かったです。もちろんまたすぐに戻ってきます xx",
+      "good": "",
+      "bad": "",
+      "translated": "最高の朝食とフレンドリーなスタッフ😍 とても親切で可愛かったです。部屋も素敵で、温かい便座も良かったです。もちろんまたすぐに戻ってきます xx",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Honey Boobee"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-08",
+      "comment": "",
+      "good": "La ubicación es muy buena, queda cerca de varias estaciones que conectan muy bien y de la asakusa line que es la que te trae y te lleva al aeropuerto",
+      "bad": "Las habitaciones son pequeñas para estándares occidentales, pero no para los estándares en Tokio",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "部屋は欧米の基準からすると狭いが、東京の基準からするとそうでもない。",
+      "reviewer": "Katerin"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-04-07",
+      "comment": "",
+      "good": "Clean and comfortable",
+      "bad": "Location is far from most sites although good access by subway is good",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "立地はほとんどの観光スポットから遠いが、地下鉄でのアクセスは良好である。",
+      "reviewer": "Clare"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-07",
+      "comment": "Удобное расположение, классные сотрудники на ресепшене. Завтрак окей. Мест в номере было достаточно",
+      "good": "",
+      "bad": "",
+      "translated": "立地が便利で、受付スタッフも素晴らしかったです。朝食はまあまあでした。部屋は十分な広さでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Trip.com",
       "rating": 10.0,
@@ -270,7 +322,7 @@
       "comment": "日本旅遊期間想說試看看 剛好用到青雅館 流程蠻順的 外國人也OK，價格也正常 最意外是沒有照騙 實際來的跟照片差不多 有興趣可以自己查一下 google搜「青雅館 日本上門」就有 ✈️Telegram：meiyou06 / Gleezy：meiyou008 / 賴官方：（@951iboll )",
       "good": "",
       "bad": "",
-      "translated": "日本旅行中にセイヤカンを試してみようと思っていたのですが、まさに完璧でした。手続きはスムーズで、外国人にも寛容で、価格もリーズナブルでした。一番驚いたのは、実際の商品が写真とほとんど同じだったことです。興味のある方は、「セイヤカン 日本 ドアツードア サービス」で検索してみてください。✈️Telegram: meiyou06 / Gleezy: meiyou008 / Official Lai: (@951iboll)",
+      "translated": "日本旅行中にセイヤカンを試してみようと思っていたのですが、まさに完璧でした。手続きはスムーズで、外国人にも門戸を開いてくれていて、値段も手頃でした。一番驚いたのは、実際の商品が写真とほとんど同じだったことです。興味のある方は、「セイヤカン 日本 ドアツードア サービス」で検索してみてください。✈️Telegram: meiyou06 / Gleezy: meiyou008 / Official Lai: (@951iboll)",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Rosy Khan"
@@ -582,7 +634,7 @@
       "comment": "東京酒店既size算唔錯呀，開到喼。雖然酒店位置唔算十分方便鐵路，要行大約10 分鐘先到地鐵站，但房間清潔，職員有禮貌笑容，大堂都有野飲同nuts供應，去機場坐淺草線一條線到達 好方便！推介大家去住！",
       "good": "",
       "bad": "",
-      "translated": "東京ホテルは広さも十分で、スーツケースも楽々収納できます。鉄道駅からは少し離れていますが（地下鉄駅まで徒歩約10分）、部屋は清潔で、スタッフは笑顔で丁寧に対応してくれます。ロビーには飲み物やナッツ類が用意されており、浅草線で空港へ行くのもとても便利です！ぜひ皆さんにおすすめします！",
+      "translated": "東京ホテルは広さも十分で、スーツケースも楽々収納できます。鉄道駅からは少し離れていますが（地下鉄駅まで徒歩約10分）、部屋は清潔で、スタッフは笑顔で丁寧に対応してくれます。ロビーにはドリンクやナッツ類が用意されており、浅草線で空港へ行くのもとても便利です！ぜひ皆さんにおすすめします！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍1‍2‍W"
@@ -985,7 +1037,7 @@
       "comment": "Самый лучший отель за все время пребывания в Японии! Довольно просторный номер, где есть все самое необходимое (холодильник, сейф, фен, обогреватель, чайник, вайфай и тд). Ремонт свежий, очень чисто как в номере, так и во всем отеле. На первом этаже большая зона для отдыха с библиотекой и бесплатными напитками. Работники замечательные, отзывчивые люди, которые добродушно помогут с любой возникшей проблемой. Спасибо Вам за это большое! Расположение удобное — в самом центре, в пешей доступности разные станции метро, большое количество комбини и очень бюджетная круглосуточная прачечная!",
       "good": "",
       "bad": "",
-      "translated": "日本で泊まったホテルの中で最高でした！部屋はとても広々としていて、必要なものはすべて揃っています（冷蔵庫、金庫、ヘアドライヤー、ヒーター、電気ケトル、Wi-Fiなど）。改装されたばかりで、部屋もホテル全体もとても清潔です。1階には、ライブラリーと無料のドリンクが楽しめる広いラウンジエリアがあります。スタッフは素晴らしく親切で、どんな問題にも快く対応してくれます。本当にありがとうございました！立地も便利で、中心部に位置し、様々な地下鉄駅、数多くのコンビニエンスストア、そして非常にリーズナブルな24時間営業のランドリーサービスまで徒歩圏内です！",
+      "translated": "日本で泊まったホテルの中で最高でした！部屋はとても広々としていて、必要なものはすべて揃っています（冷蔵庫、金庫、ヘアドライヤー、ヒーター、電気ケトル、Wi-Fiなど）。改装されたばかりで、部屋もホテル全体もとても清潔です。1階には、ライブラリーと無料のドリンクが楽しめる広いラウンジエリアがあります。スタッフは素晴らしく、親切で、どんな問題にも快く対応してくれます。本当にありがとうございました！立地も便利で、中心部に位置し、様々な地下鉄駅、数多くのコンビニエンスストア、そして非常にリーズナブルな24時間営業のランドリーサービスまで徒歩圏内です！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"

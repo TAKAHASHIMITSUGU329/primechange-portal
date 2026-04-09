@@ -1,16 +1,16 @@
 {
-  "total_reviews": 43,
-  "overall_avg_10pt": 8.63,
-  "high_count": 32,
-  "high_rate": 74.4,
+  "total_reviews": 49,
+  "overall_avg_10pt": 8.71,
+  "high_count": 38,
+  "high_rate": 77.6,
   "mid_count": 11,
-  "mid_rate": 25.6,
+  "mid_rate": 22.4,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 6,
+      "count": 8,
       "native_avg": 10.0,
       "scale": "/10",
       "avg_10pt": 10.0,
@@ -19,19 +19,19 @@
     },
     {
       "site": "Booking.com",
-      "count": 20,
-      "native_avg": 8.8,
+      "count": 23,
+      "native_avg": 8.78,
       "scale": "/10",
-      "avg_10pt": 8.8,
+      "avg_10pt": 8.78,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 4,
-      "native_avg": 8.25,
+      "count": 5,
+      "native_avg": 8.6,
       "scale": "/10",
-      "avg_10pt": 8.25,
+      "avg_10pt": 8.6,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -66,31 +66,109 @@
   "distribution": [
     {
       "score": 10,
-      "count": 19,
-      "pct": "44.2%"
+      "count": 23,
+      "pct": "46.9%"
     },
     {
       "score": 9,
       "count": 4,
-      "pct": "9.3%"
+      "pct": "8.2%"
     },
     {
       "score": 8,
-      "count": 9,
-      "pct": "20.9%"
+      "count": 11,
+      "pct": "22.4%"
     },
     {
       "score": 7,
       "count": 7,
-      "pct": "16.3%"
+      "pct": "14.3%"
     },
     {
       "score": 6,
       "count": 4,
-      "pct": "9.3%"
+      "pct": "8.2%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-09",
+      "comment": "位置非常方便，在JR大崎站南改軋口來3分鐘就能到酒店大樓的二樓，酒店前台在四樓，辦理入住和退房都很快，服務態度挺好的。",
+      "good": "",
+      "bad": "",
+      "translated": "立地は非常に便利です。JR大崎駅南口から徒歩わずか3分でホテルの2階に到着します。ホテルの受付は4階にあります。チェックインとチェックアウトはスムーズで、サービスも非常に良いです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "匿‍名‍ユ‍ー‍ザ‍ー"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-08",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Mayanja"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-08",
+      "comment": "",
+      "good": "交通機関の乗り換えが便利な事。",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Michie"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-07",
+      "comment": "",
+      "good": "สะดวกในการเดินทาง",
+      "bad": "เตียงนอนกับขนาดห้อง",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ベッドのサイズと部屋のサイズ。",
+      "reviewer": "Jurarat"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-07",
+      "comment": "We liked this hotel, it is close to the Osaki lines and the Osaki post office is open 7 days a week so we could ship our shopping home on the weekends.",
+      "good": "",
+      "bad": "",
+      "translated": "このホテルは気に入りました。大崎線に近く、大崎郵便局は週7日営業しているので、週末に買い物したものを自宅に送ることができました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Agoda",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-05",
+      "comment": "駅の改札から歩いて2分3分ぐらい。 品川駅まで1駅。 コンビニや飲食街も近い。 何より、プールもあるフルサイズのスポーツジムが併設されていて宿泊客は格安で利用できる。 部屋はデスクがあり仕事ができる。",
+      "good": "",
+      "bad": "",
+      "translated": "駅の改札から歩いて2分3分ぐらい。 品川駅まで1駅。 コンビニや飲食街も近い。 何より、プールもあるフルサイズのスポーツジムが併設されていて宿泊客は格安で利用できる。 部屋はデスクがあり仕事ができる。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Jumpei"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -528,7 +606,7 @@
       "comment": "Excellent location; very close to the station and other amenities. My partner had horrible allergies that only occurred when staying in the room. We don’t know if it was from pests or their cleaning chemicals. She only suffered while in bed; never in the day when we were traveling.  Other complaint is the slow elevator service as it always stops on the 4th floor lobby, so attempting to access the laundry or microwave is very slow. Access to other floors via stairs is not possible. Leaving the building in the morning is sometimes very slow due to the amount of people trying to enter and exit during checkout and breakfast.  The coin laundry is often always occupied at night; you may have to check frequently as people are not always timely in clearing their loads. This is a common problem with every business hotel in Japan. The plus is that detergent is provided from the machine. Outside coin laundry services are rather far.  Staff sometimes speaks English, other times use a pocket translator. Both were acceptable and were able to accomodate our requests, such as extending our stay. Services were fine, but we did not have a good experience due to the elevators and severe allergic reaction.",
       "good": "",
       "bad": "",
-      "translated": "立地は最高で、駅やその他のアメニティにとても近いです。パートナーは部屋に滞在している間だけひどいアレルギー症状が出ました。害虫が原因なのか、清掃用の化学薬品が原因なのかは分かりません。彼女はベッドにいる間だけ症状が出、旅行中は日中は全く症状が出ませんでした。もう一つの不満は、エレベーターが常に4階のロビーで止まるため、洗濯室や電子レンジを利用するのに非常に時間がかかることです。階段で他の階に行くことはできません。チェックアウトや朝食の時間帯は、多くの人が出入りするため、朝の建物の出入りが非常に遅くなることがあります。コインランドリーは夜間は常に使用中で、洗濯物を片付ける人が必ずしも時間通りにいないため、頻繁に確認する必要があるかもしれません。これは日本のビジネスホテルではよくある問題です。良い点は、洗濯機に洗剤が備え付けられていることです。外のコインランドリーはかなり遠いです。スタッフは英語を話せる場合もあれば、ポケット翻訳機を使う場合もあります。どちらも問題なく、滞在延長などのリクエストに対応してくれました。サービス自体は良かったのですが、エレベーターの不具合と重度のアレルギー反応のため、良い経験とは言えませんでした。",
+      "translated": "立地は最高で、駅やその他のアメニティにとても近いです。パートナーは部屋に滞在している間だけひどいアレルギー症状が出ました。害虫が原因なのか、清掃用の化学薬品が原因なのかは分かりません。彼女はベッドにいる間だけ苦しんで、旅行中は日中は全く苦しみませんでした。もう一つの不満は、エレベーターが常に4階のロビーで止まるため、洗濯室や電子レンジを利用するのに非常に時間がかかることです。階段で他の階に行くことはできません。チェックアウトや朝食の時間帯に多くの人が出入りするため、朝の建物を出るのが非常に時間がかかることがあります。コインランドリーは夜間は常に使用中で、洗濯物を片付ける人が必ずしも時間通りにいないため、頻繁に確認する必要があるかもしれません。これは日本のビジネスホテルではよくある問題です。良い点は、洗濯機に洗剤が備え付けられていることです。外のコインランドリーはかなり遠いです。スタッフは英語を話せる場合もあれば、ポケット翻訳機を使う場合もあります。どちらも許容範囲内で、滞在延長などのリクエストに対応してくれました。サービス自体は良かったのですが、エレベーターの不具合と重度のアレルギー反応のため、良い経験とは言えませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Brian Jun"

@@ -1,0 +1,680 @@
+{
+  "analysis_metadata": {
+    "analysis_id": 3,
+    "title": "人員配置×品質 相関分析",
+    "subtitle": "Staffing Level × Quality Correlation Analysis",
+    "total_hotels": 19,
+    "hotels_with_staffing_data": 19,
+    "data_period": "R8年度3月（日報データ）"
+  },
+  "staffing_analysis": {
+    "correlations": {
+      "staff_vs_score": {
+        "r": 0.0115,
+        "r_squared": 0.0001,
+        "n": 15
+      },
+      "maids_vs_score": {
+        "r": -0.0413,
+        "r_squared": 0.0017,
+        "n": 19
+      },
+      "checkers_vs_score": {
+        "r": 0.2886,
+        "r_squared": 0.0833,
+        "n": 15
+      },
+      "ratio_vs_score": {
+        "r": -0.4418,
+        "r_squared": 0.1952,
+        "n": 15
+      },
+      "staff_vs_claims": {
+        "r": 0.436,
+        "n": 19
+      }
+    },
+    "staffing_tiers": {
+      "low_staff": {
+        "count": 9,
+        "avg_maids": 7.0,
+        "avg_score": 8.49,
+        "avg_claim_rate": 5.94
+      },
+      "high_staff": {
+        "count": 10,
+        "avg_maids": 12.5,
+        "avg_score": 8.24,
+        "avg_claim_rate": 6.19
+      }
+    },
+    "optimal_staffing": {
+      "top5_hotels": [
+        {
+          "name": "コンフォートスイーツ東京ベイ",
+          "avg_maids": 22.4,
+          "avg_checkers": 5.5,
+          "ratio": 4.0,
+          "score": 9.16
+        },
+        {
+          "name": "コンフォートホテルERA東神田",
+          "avg_maids": 7.6,
+          "avg_checkers": null,
+          "ratio": null,
+          "score": 9.16
+        },
+        {
+          "name": "京成リッチモンドホテル東京錦糸町",
+          "avg_maids": 7.9,
+          "avg_checkers": 2.9,
+          "ratio": 2.7,
+          "score": 9.01
+        },
+        {
+          "name": "第一イン池袋",
+          "avg_maids": 5.7,
+          "avg_checkers": 3.8,
+          "ratio": 1.5,
+          "score": 9.01
+        },
+        {
+          "name": "ホテルケヤキゲート東京府中",
+          "avg_maids": 10.2,
+          "avg_checkers": 1.7,
+          "ratio": 6.0,
+          "score": 8.81
+        }
+      ],
+      "bottom5_hotels": [
+        {
+          "name": "コートホテル新横浜",
+          "avg_maids": 8.1,
+          "avg_checkers": 2.5,
+          "ratio": 3.2,
+          "score": 7.03
+        },
+        {
+          "name": "チサンホテル浜松町",
+          "avg_maids": 9.3,
+          "avg_checkers": null,
+          "ratio": null,
+          "score": 7.05
+        },
+        {
+          "name": "アパホテル蒲田駅東",
+          "avg_maids": 13.4,
+          "avg_checkers": 1.0,
+          "ratio": 13.4,
+          "score": 7.4
+        },
+        {
+          "name": "コンフォートホテル博多",
+          "avg_maids": 17.0,
+          "avg_checkers": 5.1,
+          "ratio": 3.3,
+          "score": 7.78
+        },
+        {
+          "name": "コンフォートホテル横浜関内",
+          "avg_maids": 10.5,
+          "avg_checkers": 1.0,
+          "ratio": 10.5,
+          "score": 7.82
+        }
+      ],
+      "top5_avg_ratio": 3.6,
+      "bottom5_avg_ratio": 7.6
+    },
+    "data_points": [
+      {
+        "hotel_key": "daiwa_osaki",
+        "name": "ダイワロイネットホテル東京大崎",
+        "avg_maids": 9.1,
+        "avg_checkers": 2.2,
+        "avg_total_staff": 11.4,
+        "maid_checker_ratio": 4.1,
+        "score": 8.8,
+        "cleaning_issue_rate": 4.3,
+        "claim_rate": 7.82,
+        "maid_data_points": 8
+      },
+      {
+        "hotel_key": "chisan",
+        "name": "チサンホテル浜松町",
+        "avg_maids": 9.3,
+        "avg_checkers": null,
+        "avg_total_staff": null,
+        "maid_checker_ratio": null,
+        "score": 7.05,
+        "cleaning_issue_rate": 11.9,
+        "claim_rate": 1.03,
+        "maid_data_points": 7
+      },
+      {
+        "hotel_key": "hearton",
+        "name": "ハートンホテル東品川",
+        "avg_maids": 12.4,
+        "avg_checkers": 1.5,
+        "avg_total_staff": 13.9,
+        "maid_checker_ratio": 8.0,
+        "score": 8.53,
+        "cleaning_issue_rate": 4.5,
+        "claim_rate": 7.63,
+        "maid_data_points": 13
+      },
+      {
+        "hotel_key": "keyakigate",
+        "name": "ホテルケヤキゲート東京府中",
+        "avg_maids": 10.2,
+        "avg_checkers": 1.7,
+        "avg_total_staff": 11.9,
+        "maid_checker_ratio": 6.0,
+        "score": 8.81,
+        "cleaning_issue_rate": 3.8,
+        "claim_rate": 3.4,
+        "maid_data_points": 13
+      },
+      {
+        "hotel_key": "richmond_mejiro",
+        "name": "リッチモンドホテル東京目白",
+        "avg_maids": 6.0,
+        "avg_checkers": 3.0,
+        "avg_total_staff": 9.0,
+        "maid_checker_ratio": 2.0,
+        "score": 8.72,
+        "cleaning_issue_rate": 1.9,
+        "claim_rate": 0,
+        "maid_data_points": 11
+      },
+      {
+        "hotel_key": "keisei_richmond",
+        "name": "京成リッチモンドホテル東京錦糸町",
+        "avg_maids": 7.9,
+        "avg_checkers": 2.9,
+        "avg_total_staff": 10.8,
+        "maid_checker_ratio": 2.7,
+        "score": 9.01,
+        "cleaning_issue_rate": 0.0,
+        "claim_rate": 13.93,
+        "maid_data_points": 13
+      },
+      {
+        "hotel_key": "daiichi_ikebukuro",
+        "name": "第一イン池袋",
+        "avg_maids": 5.7,
+        "avg_checkers": 3.8,
+        "avg_total_staff": 9.5,
+        "maid_checker_ratio": 1.5,
+        "score": 9.01,
+        "cleaning_issue_rate": 1.1,
+        "claim_rate": 9.3,
+        "maid_data_points": 18
+      },
+      {
+        "hotel_key": "comfort_roppongi",
+        "name": "コンフォートイン六本木",
+        "avg_maids": 5.3,
+        "avg_checkers": null,
+        "avg_total_staff": null,
+        "maid_checker_ratio": null,
+        "score": 8.13,
+        "cleaning_issue_rate": 6.7,
+        "claim_rate": 2.51,
+        "maid_data_points": 3
+      },
+      {
+        "hotel_key": "comfort_suites_tokyobay",
+        "name": "コンフォートスイーツ東京ベイ",
+        "avg_maids": 22.4,
+        "avg_checkers": 5.5,
+        "avg_total_staff": 27.9,
+        "maid_checker_ratio": 4.0,
+        "score": 9.16,
+        "cleaning_issue_rate": 0.8,
+        "claim_rate": 10.79,
+        "maid_data_points": 13
+      },
+      {
+        "hotel_key": "comfort_era_higashikanda",
+        "name": "コンフォートホテルERA東神田",
+        "avg_maids": 7.6,
+        "avg_checkers": null,
+        "avg_total_staff": null,
+        "maid_checker_ratio": null,
+        "score": 9.16,
+        "cleaning_issue_rate": 0.9,
+        "claim_rate": 6.55,
+        "maid_data_points": 12
+      },
+      {
+        "hotel_key": "comfort_narita",
+        "name": "コンフォートホテル成田",
+        "avg_maids": 8.2,
+        "avg_checkers": 1.0,
+        "avg_total_staff": 9.2,
+        "maid_checker_ratio": 8.2,
+        "score": 8.55,
+        "cleaning_issue_rate": 3.6,
+        "claim_rate": 0,
+        "maid_data_points": 6
+      },
+      {
+        "hotel_key": "comfort_yokohama",
+        "name": "コンフォートホテル横浜関内",
+        "avg_maids": 10.5,
+        "avg_checkers": 1.0,
+        "avg_total_staff": 11.5,
+        "maid_checker_ratio": 10.5,
+        "score": 7.82,
+        "cleaning_issue_rate": 10.0,
+        "claim_rate": 0,
+        "maid_data_points": 19
+      },
+      {
+        "hotel_key": "apa_sagamihara",
+        "name": "アパホテル相模原橋本駅東",
+        "avg_maids": 7.6,
+        "avg_checkers": null,
+        "avg_total_staff": null,
+        "maid_checker_ratio": null,
+        "score": 8.19,
+        "cleaning_issue_rate": 2.1,
+        "claim_rate": 4.4,
+        "maid_data_points": 13
+      },
+      {
+        "hotel_key": "apa_kamata",
+        "name": "アパホテル蒲田駅東",
+        "avg_maids": 13.4,
+        "avg_checkers": 1.0,
+        "avg_total_staff": 14.4,
+        "maid_checker_ratio": 13.4,
+        "score": 7.4,
+        "cleaning_issue_rate": 9.5,
+        "claim_rate": 11.34,
+        "maid_data_points": 12
+      },
+      {
+        "hotel_key": "court_shinyokohama",
+        "name": "コートホテル新横浜",
+        "avg_maids": 8.1,
+        "avg_checkers": 2.5,
+        "avg_total_staff": 10.6,
+        "maid_checker_ratio": 3.2,
+        "score": 7.03,
+        "cleaning_issue_rate": 9.2,
+        "claim_rate": 1.82,
+        "maid_data_points": 27
+      },
+      {
+        "hotel_key": "comment_yokohama",
+        "name": "ホテルコメント横浜関内",
+        "avg_maids": 8.5,
+        "avg_checkers": 2.6,
+        "avg_total_staff": 11.2,
+        "maid_checker_ratio": 3.3,
+        "score": 8.77,
+        "cleaning_issue_rate": 6.2,
+        "claim_rate": 2.63,
+        "maid_data_points": 13
+      },
+      {
+        "hotel_key": "henn_na_haneda",
+        "name": "変なホテル東京羽田",
+        "avg_maids": 12.6,
+        "avg_checkers": 3.0,
+        "avg_total_staff": 15.6,
+        "maid_checker_ratio": 4.2,
+        "score": 8.3,
+        "cleaning_issue_rate": 2.4,
+        "claim_rate": 3.13,
+        "maid_data_points": 10
+      },
+      {
+        "hotel_key": "kawasaki_nikko",
+        "name": "川崎日航ホテル",
+        "avg_maids": 6.2,
+        "avg_checkers": 3.4,
+        "avg_total_staff": 9.6,
+        "maid_checker_ratio": 1.8,
+        "score": 8.58,
+        "cleaning_issue_rate": 6.6,
+        "claim_rate": 14.95,
+        "maid_data_points": 25
+      },
+      {
+        "hotel_key": "comfort_hakata",
+        "name": "コンフォートホテル博多",
+        "avg_maids": 17.0,
+        "avg_checkers": 5.1,
+        "avg_total_staff": 22.1,
+        "maid_checker_ratio": 3.3,
+        "score": 7.78,
+        "cleaning_issue_rate": 14.2,
+        "claim_rate": 14.12,
+        "maid_data_points": 10
+      }
+    ],
+    "total_hotels_analyzed": 19
+  },
+  "hotel_summary": [
+    {
+      "hotel_key": "comfort_suites_tokyobay",
+      "name": "コンフォートスイーツ東京ベイ",
+      "days": 31,
+      "avg_maids": 22.4,
+      "avg_checkers": 5.5,
+      "maid_checker_ratio": 4.0,
+      "avg_completion_time": 15.52,
+      "time_std": 0.53,
+      "avg_rooms_per_maid": 11.4,
+      "score": 9.16,
+      "claim_rate": 10.79,
+      "maid_data_points": 13,
+      "time_data_points": 13
+    },
+    {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "days": 31,
+      "avg_maids": 7.6,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": 15.21,
+      "time_std": 0.36,
+      "avg_rooms_per_maid": 19.1,
+      "score": 9.16,
+      "claim_rate": 6.55,
+      "maid_data_points": 12,
+      "time_data_points": 8
+    },
+    {
+      "hotel_key": "keisei_richmond",
+      "name": "京成リッチモンドホテル東京錦糸町",
+      "days": 31,
+      "avg_maids": 7.9,
+      "avg_checkers": 2.9,
+      "maid_checker_ratio": 2.7,
+      "avg_completion_time": 15.73,
+      "time_std": 0.79,
+      "avg_rooms_per_maid": 15.2,
+      "score": 9.01,
+      "claim_rate": 13.93,
+      "maid_data_points": 13,
+      "time_data_points": 12
+    },
+    {
+      "hotel_key": "daiichi_ikebukuro",
+      "name": "第一イン池袋",
+      "days": 28,
+      "avg_maids": 5.7,
+      "avg_checkers": 3.8,
+      "maid_checker_ratio": 1.5,
+      "avg_completion_time": 15.04,
+      "time_std": 0.07,
+      "avg_rooms_per_maid": null,
+      "score": 9.01,
+      "claim_rate": 9.3,
+      "maid_data_points": 18,
+      "time_data_points": 4
+    },
+    {
+      "hotel_key": "keyakigate",
+      "name": "ホテルケヤキゲート東京府中",
+      "days": 31,
+      "avg_maids": 10.2,
+      "avg_checkers": 1.7,
+      "maid_checker_ratio": 6.0,
+      "avg_completion_time": 14.48,
+      "time_std": 0.36,
+      "avg_rooms_per_maid": 14.1,
+      "score": 8.81,
+      "claim_rate": 3.4,
+      "maid_data_points": 13,
+      "time_data_points": 13
+    },
+    {
+      "hotel_key": "daiwa_osaki",
+      "name": "ダイワロイネットホテル東京大崎",
+      "days": 31,
+      "avg_maids": 9.1,
+      "avg_checkers": 2.2,
+      "maid_checker_ratio": 4.1,
+      "avg_completion_time": 14.5,
+      "time_std": 0.24,
+      "avg_rooms_per_maid": 19.7,
+      "score": 8.8,
+      "claim_rate": 7.82,
+      "maid_data_points": 8,
+      "time_data_points": 9
+    },
+    {
+      "hotel_key": "comment_yokohama",
+      "name": "ホテルコメント横浜関内",
+      "days": 31,
+      "avg_maids": 8.5,
+      "avg_checkers": 2.6,
+      "maid_checker_ratio": 3.3,
+      "avg_completion_time": 14.94,
+      "time_std": 0.26,
+      "avg_rooms_per_maid": 10.0,
+      "score": 8.77,
+      "claim_rate": 2.63,
+      "maid_data_points": 13,
+      "time_data_points": 13
+    },
+    {
+      "hotel_key": "richmond_mejiro",
+      "name": "リッチモンドホテル東京目白",
+      "days": 31,
+      "avg_maids": 6.0,
+      "avg_checkers": 3.0,
+      "maid_checker_ratio": 2.0,
+      "avg_completion_time": 15.48,
+      "time_std": 0.12,
+      "avg_rooms_per_maid": null,
+      "score": 8.72,
+      "claim_rate": 0,
+      "maid_data_points": 11,
+      "time_data_points": 11
+    },
+    {
+      "hotel_key": "kawasaki_nikko",
+      "name": "川崎日航ホテル",
+      "days": 28,
+      "avg_maids": 6.2,
+      "avg_checkers": 3.4,
+      "maid_checker_ratio": 1.8,
+      "avg_completion_time": 16.07,
+      "time_std": 0.46,
+      "avg_rooms_per_maid": 22.0,
+      "score": 8.58,
+      "claim_rate": 14.95,
+      "maid_data_points": 25,
+      "time_data_points": 28
+    },
+    {
+      "hotel_key": "comfort_narita",
+      "name": "コンフォートホテル成田",
+      "days": 31,
+      "avg_maids": 8.2,
+      "avg_checkers": 1.0,
+      "maid_checker_ratio": 8.2,
+      "avg_completion_time": 16.0,
+      "time_std": 0.0,
+      "avg_rooms_per_maid": 13.1,
+      "score": 8.55,
+      "claim_rate": 0,
+      "maid_data_points": 6,
+      "time_data_points": 6
+    },
+    {
+      "hotel_key": "hearton",
+      "name": "ハートンホテル東品川",
+      "days": 31,
+      "avg_maids": 12.4,
+      "avg_checkers": 1.5,
+      "maid_checker_ratio": 8.0,
+      "avg_completion_time": 15.64,
+      "time_std": 0.19,
+      "avg_rooms_per_maid": null,
+      "score": 8.53,
+      "claim_rate": 7.63,
+      "maid_data_points": 13,
+      "time_data_points": 13
+    },
+    {
+      "hotel_key": "henn_na_haneda",
+      "name": "変なホテル東京羽田",
+      "days": 31,
+      "avg_maids": 12.6,
+      "avg_checkers": 3.0,
+      "maid_checker_ratio": 4.2,
+      "avg_completion_time": 15.19,
+      "time_std": 0.23,
+      "avg_rooms_per_maid": null,
+      "score": 8.3,
+      "claim_rate": 3.13,
+      "maid_data_points": 10,
+      "time_data_points": 10
+    },
+    {
+      "hotel_key": "apa_sagamihara",
+      "name": "アパホテル相模原橋本駅東",
+      "days": 31,
+      "avg_maids": 7.6,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": 15.24,
+      "time_std": 0.28,
+      "avg_rooms_per_maid": 12.7,
+      "score": 8.19,
+      "claim_rate": 4.4,
+      "maid_data_points": 13,
+      "time_data_points": 11
+    },
+    {
+      "hotel_key": "comfort_roppongi",
+      "name": "コンフォートイン六本木",
+      "days": 31,
+      "avg_maids": 5.3,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": 15.5,
+      "time_std": 0.5,
+      "avg_rooms_per_maid": 17.6,
+      "score": 8.13,
+      "claim_rate": 2.51,
+      "maid_data_points": 3,
+      "time_data_points": 2
+    },
+    {
+      "hotel_key": "comfort_yokohama",
+      "name": "コンフォートホテル横浜関内",
+      "days": 28,
+      "avg_maids": 10.5,
+      "avg_checkers": 1.0,
+      "maid_checker_ratio": 10.5,
+      "avg_completion_time": 15.32,
+      "time_std": 0.51,
+      "avg_rooms_per_maid": 15.3,
+      "score": 7.82,
+      "claim_rate": 0,
+      "maid_data_points": 19,
+      "time_data_points": 20
+    },
+    {
+      "hotel_key": "comfort_hakata",
+      "name": "コンフォートホテル博多",
+      "days": 31,
+      "avg_maids": 17.0,
+      "avg_checkers": 5.1,
+      "maid_checker_ratio": 3.3,
+      "avg_completion_time": 16.01,
+      "time_std": 0.72,
+      "avg_rooms_per_maid": 13.4,
+      "score": 7.78,
+      "claim_rate": 14.12,
+      "maid_data_points": 10,
+      "time_data_points": 10
+    },
+    {
+      "hotel_key": "apa_kamata",
+      "name": "アパホテル蒲田駅東",
+      "days": 31,
+      "avg_maids": 13.4,
+      "avg_checkers": 1.0,
+      "maid_checker_ratio": 13.4,
+      "avg_completion_time": 15.03,
+      "time_std": 0.23,
+      "avg_rooms_per_maid": 17.2,
+      "score": 7.4,
+      "claim_rate": 11.34,
+      "maid_data_points": 12,
+      "time_data_points": 10
+    },
+    {
+      "hotel_key": "chisan",
+      "name": "チサンホテル浜松町",
+      "days": 31,
+      "avg_maids": 9.3,
+      "avg_checkers": null,
+      "maid_checker_ratio": null,
+      "avg_completion_time": 14.39,
+      "time_std": 0.28,
+      "avg_rooms_per_maid": null,
+      "score": 7.05,
+      "claim_rate": 1.03,
+      "maid_data_points": 7,
+      "time_data_points": 3
+    },
+    {
+      "hotel_key": "court_shinyokohama",
+      "name": "コートホテル新横浜",
+      "days": 28,
+      "avg_maids": 8.1,
+      "avg_checkers": 2.5,
+      "maid_checker_ratio": 3.2,
+      "avg_completion_time": 14.88,
+      "time_std": 0.18,
+      "avg_rooms_per_maid": 15.4,
+      "score": 7.03,
+      "claim_rate": 1.82,
+      "maid_data_points": 27,
+      "time_data_points": 27
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "メイド・チェッカー比率の最適化",
+      "rationale": "上位5ホテルの平均メイド:チェッカー比率は3.6:1、下位5ホテルは7.6:1。チェッカー配置の適正化がスコア向上に寄与する可能性。",
+      "actions": [
+        "メイド3〜5名に対しチェッカー1名の配置基準を設定",
+        "高稼働日（150室超）は追加チェッカーの配置を検討",
+        "チェッカー不在ホテルへの配置導入"
+      ],
+      "priority": "高"
+    },
+    {
+      "title": "チェッカー配置とスコアの連動強化",
+      "rationale": "チェッカー数とスコアの相関r=0.2886。チェッカーによる品質検査がスコア改善の鍵。",
+      "actions": [
+        "チェッカー配置率100%を目標に採用・配置計画を策定",
+        "チェッカー研修プログラムの統一と強化",
+        "チェッカー不在時の代替チェック体制の確立"
+      ],
+      "priority": "最優先"
+    },
+    {
+      "title": "データ入力の標準化と充実",
+      "rationale": "日報のメイド数・チェッカー数の入力率がホテルにより大きく異なる。正確な分析のためにデータ品質向上が必要。",
+      "actions": [
+        "日報必須入力項目の明確化（メイド数・チェッカー数・完了時間）",
+        "翌日稼働数の数値入力フォーマット統一",
+        "月次での入力率チェックと改善フィードバック"
+      ],
+      "priority": "中"
+    }
+  ]
+}

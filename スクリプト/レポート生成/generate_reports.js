@@ -40,8 +40,8 @@ function parseCSV(filePath) {
     for (const s of sets) {
       if (!s.site || !s.date || !s.rating) continue;
 
-      // Filter for 2026-02 and 2026-03
-      if (!s.date.startsWith('2026-02') && !s.date.startsWith('2026-03')) continue;
+      // Filter: 2025-12 以降のデータのみ対象
+      if (s.date < '2025-12') continue;
 
       // Deduplicate using site+date+reviewer+rating
       const key = `${s.site}|${s.date}|${s.reviewer}|${s.rating}`;

@@ -14,8 +14,10 @@ OUT_DIR = BASE + "/納品レポート/ホテル別レポート"
 DOCX_TEMPLATE = BASE + "/.claude/skills/hotel-review-report/assets/docx_template.js"
 PPTX_TEMPLATE = BASE + "/.claude/skills/hotel-review-report/assets/pptx_template.js"
 NODE_MODULES = BASE + "/node_modules"
-ANALYSIS_PERIOD = "2025年12月〜2026年3月"
-REPORT_DATE = "2026年4月3日"
+from datetime import date as _date
+_today = _date.today()
+ANALYSIS_PERIOD = f"2025年12月〜{_today.year}年{_today.month}月"
+REPORT_DATE = f"{_today.year}年{_today.month}月{_today.day}日"
 
 HOTELS = {
     "daiwa_osaki": "ダイワロイネットホテル東京大崎",
