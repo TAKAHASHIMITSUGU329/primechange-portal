@@ -1,0 +1,127 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <!-- Title -->
+    <mxCell id="t1" value="&lt;b&gt;日次更新パイプライン シーケンス図&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="200" y="10" width="400" height="40" as="geometry"/>
+    </mxCell>
+    <!-- Actors -->
+    <mxCell id="a1" value="GitHub Actions&#xa;(cron)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;size=40;" vertex="1" parent="1">
+      <mxGeometry x="40" y="60" width="120" height="700" as="geometry"/>
+    </mxCell>
+    <mxCell id="a2" value="Google&#xa;Sheets" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;size=40;" vertex="1" parent="1">
+      <mxGeometry x="220" y="60" width="100" height="700" as="geometry"/>
+    </mxCell>
+    <mxCell id="a3" value="Python&#xa;分析" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;size=40;" vertex="1" parent="1">
+      <mxGeometry x="390" y="60" width="100" height="700" as="geometry"/>
+    </mxCell>
+    <mxCell id="a4" value="Node.js&#xa;ビルド" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;size=40;" vertex="1" parent="1">
+      <mxGeometry x="560" y="60" width="100" height="700" as="geometry"/>
+    </mxCell>
+    <mxCell id="a5" value="GitHub&#xa;Pages" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;size=40;" vertex="1" parent="1">
+      <mxGeometry x="720" y="60" width="100" height="700" as="geometry"/>
+    </mxCell>
+    <!-- Messages -->
+    <mxCell id="m1" value="1. curl CSV取得 (19ホテル)" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="160" as="sourcePoint"/>
+        <mxPoint x="270" y="160" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m1r" value="CSV files" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="270" y="190" as="sourcePoint"/>
+        <mxPoint x="100" y="190" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m2" value="2. curl XLSX取得 (19ホテル)" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="230" as="sourcePoint"/>
+        <mxPoint x="270" y="230" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m2r" value="XLSX files" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="270" y="260" as="sourcePoint"/>
+        <mxPoint x="100" y="260" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m3" value="3. analyze_reviews.py x 19" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="310" as="sourcePoint"/>
+        <mxPoint x="440" y="310" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m3r" value="{key}_analysis.json" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="440" y="340" as="sourcePoint"/>
+        <mxPoint x="100" y="340" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m4" value="4. analysis_1-7_extract.py" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="380" as="sourcePoint"/>
+        <mxPoint x="440" y="380" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m4r" value="analysis_{1-7}_data.json" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="440" y="410" as="sourcePoint"/>
+        <mxPoint x="100" y="410" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m5" value="5. aggregate_portfolio_analysis.py" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="450" as="sourcePoint"/>
+        <mxPoint x="440" y="450" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m5r" value="portfolio_analysis.json" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="440" y="480" as="sourcePoint"/>
+        <mxPoint x="100" y="480" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m6" value="6. build_all.js + build_all_v2.js" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="530" as="sourcePoint"/>
+        <mxPoint x="610" y="530" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m6r" value="HTML (V1 + V2)" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="610" y="560" as="sourcePoint"/>
+        <mxPoint x="100" y="560" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m7" value="7. generate_hotel_report.js x 19" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="600" as="sourcePoint"/>
+        <mxPoint x="610" y="600" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m7r" value="DOCX + PPTX" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="610" y="630" as="sourcePoint"/>
+        <mxPoint x="100" y="630" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m8" value="8. git push (rsync + deploy)" style="endArrow=block;endFill=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="10" relative="1" as="geometry">
+        <mxPoint x="100" y="680" as="sourcePoint"/>
+        <mxPoint x="770" y="680" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="m8r" value="公開完了" style="endArrow=open;endFill=0;dashed=1;fontSize=10;" edge="1" parent="1">
+      <mxGeometry x="-0.2" y="-10" relative="1" as="geometry">
+        <mxPoint x="770" y="710" as="sourcePoint"/>
+        <mxPoint x="100" y="710" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+    <!-- Notes -->
+    <mxCell id="n1" value="毎日自動実行&#xa;(GitHub Actions cron)" style="shape=note;whiteSpace=wrap;size=15;fillColor=#ffffcc;strokeColor=#cccc00;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="40" y="120" width="120" height="30" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

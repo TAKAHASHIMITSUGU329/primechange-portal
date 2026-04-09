@@ -100,5 +100,27 @@ build_all_v2.js → ホームページV2/ (V2: 11ページ)  → v2/
 - **GitHub Actions**: 日次CSV/XLSXダウンロード
 - **GitHub Pages**: ダッシュボード公開
 
-## 言語
-全コミュニケーション・コメントは日本語で行うこと。
+## 言語・コミュニケーション
+- 全コミュニケーション・コメントは日本語で行うこと。
+- ユーザーの使用言語（日本語/英語）に合わせて応答する。
+- 出力ファイル（レポート、議事録、ビジネスプラン）は特に指定がなければ日本語をデフォルトとする。
+
+## 環境制約
+- **Mac環境**（macOS）。自動化スクリプトはVBAよりPythonを優先すること。VBAが必要な場合、Mac Excelの制限（GetOpenFilenameなし、VBAプロジェクト直接埋め込み不可）に対応すること。
+- **Bash 3.x**（macOSデフォルト）。連想配列（`declare -A`）やBash 4+の機能は使用不可。Pythonや互換性のある代替手段を使用すること。
+- Node.js・Python 3が利用可能。
+
+## MCP連携
+- 利用可能なMCPツールが存在する場合は「不可能」と言わず、まず利用可能なツールを確認すること。
+- Gmail、Slack、Google Calendar等のMCP連携が設定されている可能性がある。機能の可否を判断する前に、必ず利用可能なツールを確認すること。
+
+## ホテル口コミパイプライン注意点
+- 日本語ディレクトリ名はGitHub Pagesで404やURLエンコード問題を引き起こす — パス参照時は常にURLエンコードを意識すること。
+- データ更新後、ダッシュボードが最新日付を反映していることを確認してから報告すること。
+- 差分バッジ（delta badges）は前日比を比較する。CSVキーとJSONキー間の`hotel_id`フォーマット不整合（例: `keisei_kinshicho` vs `keisei_richmond`）に注意。`hotel_xlsx_utils.py`の`KEY_MAP`を参照。
+- `analysis_6_extract.py`実行前に、`データ/分析結果JSON/`から依存ファイル（`hotel_revenue_data.json`, `primechange_portfolio_analysis.json`）を`スクリプト/データ抽出/`にコピーする必要あり。
+
+## Git & デプロイ
+- `git pull`にはmerge戦略を使用すること。rebaseは日本語ファイルパスでコンフリクトを引き起こすため禁止。
+- GitHub Pagesデプロイ後、キャッシュ遅延（数分）を考慮し、ライブURLで更新内容を確認すること。
+- デプロイ手順: `ホームページV2/` → `v2/`にrsync、`ホームページ/` → ルート直下にcp。

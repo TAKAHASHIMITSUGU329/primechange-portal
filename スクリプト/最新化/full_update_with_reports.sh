@@ -132,30 +132,33 @@ echo "  完了: $PC_OK 成功 / $PC_FAIL 失敗"
 
 # ステップ6: ダッシュボード & スナップショット生成
 echo ""
-echo "=== ステップ6: ダッシュボード生成 & スナップショット保存 ==="
+echo "=== ステップ6: V1/V2ダッシュボード生成 & スナップショット保存 ==="
 BUILD_SCRIPT="$BASE_DIR/スクリプト/ホームページ生成/build_all.js"
+BUILD_V2_SCRIPT="$BASE_DIR/スクリプト/ホームページ生成/build_all_v2.js"
+
 if node "$BUILD_SCRIPT"; then
-  echo "  ダッシュボード生成: OK"
-
-  # スナップショット検証
-  SNAPSHOT_DIR="$BASE_DIR/ホームページ/data/snapshots/$TODAY"
-  SNAPSHOT_INDEX="$BASE_DIR/ホームページ/data/snapshot-index.json"
-  if [ -d "$SNAPSHOT_DIR" ] && [ -f "$SNAPSHOT_DIR/hotel-reviews-all.json" ] && [ -f "$SNAPSHOT_DIR/hotel-details.json" ]; then
-    SNAP_SIZE=$(du -sh "$SNAPSHOT_DIR" | cut -f1)
-    echo "  スナップショット保存: OK ($SNAPSHOT_DIR, $SNAP_SIZE)"
-  else
-    echo "  WARNING: スナップショットが正しく保存されていません: $SNAPSHOT_DIR"
-  fi
-
-  if [ -f "$SNAPSHOT_INDEX" ]; then
-    SNAP_COUNT=$(node -e "var d=require('$SNAPSHOT_INDEX');console.log(d.length)" 2>/dev/null || echo "?")
-    echo "  スナップショット数: $SNAP_COUNT"
-    if [ "$SNAP_COUNT" != "?" ] && [ "$SNAP_COUNT" -gt 100 ] 2>/dev/null; then
-      echo "  WARNING: スナップショットが100件を超えています。クリーンアップを検討してください。"
-    fi
-  fi
+  echo "  V1ダッシュボード生成: OK"
 else
-  echo "  ダッシュボード生成: FAIL"
+  echo "  V1ダッシュボード生成: FAIL"
+fi
+
+if node "$BUILD_V2_SCRIPT"; then
+  echo "  V2ダッシュボード生成: OK"
+else
+  echo "  V2ダッシュボード生成: FAIL"
+fi
+
+# デプロイ（HTML同期）
+cp "$BASE_DIR/ホームページ/"*.html "$BASE_DIR/" 2>/dev/null
+echo "  V1デプロイ → ルート直下: OK"
+rsync -a "$BASE_DIR/ホームページV2/" "$BASE_DIR/v2/"
+echo "  V2デプロイ → v2/: OK"
+
+# スナップショット検証
+SNAPSHOT_DIR="$BASE_DIR/ホームページV2/data/snapshots/$TODAY"
+if [ -d "$SNAPSHOT_DIR" ]; then
+  SNAP_SIZE=$(du -sh "$SNAPSHOT_DIR" | cut -f1)
+  echo "  スナップショット保存: OK ($SNAPSHOT_DIR, $SNAP_SIZE)"
 fi
 
 # ステップ7: 最終サマリー
@@ -164,7 +167,8 @@ echo "============================================"
 echo "全体完了: $TODAY"
 echo "  ホテル別レポート: $HOTEL_OK/19"
 echo "  PRIMECHANGEレポート: $PC_OK/12"
-echo "  ダッシュボード: $BASE_DIR/ホームページ/"
-echo "  スナップショット: $BASE_DIR/ホームページ/data/snapshots/$TODAY/"
+echo "  V1ダッシュボード: $BASE_DIR/ホームページ/"
+echo "  V2ダッシュボード: $BASE_DIR/ホームページV2/"
+echo "  スナップショット: $SNAPSHOT_DIR"
 echo "  差分レポート: $JSON_DIR/diff_report_${TODAY}.txt"
 echo "============================================"

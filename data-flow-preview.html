@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>データパイプライン フローチャート</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Hiragino Sans', sans-serif; background: #f8f9fa; padding: 40px; }
+h1 { text-align: center; color: #333; margin-bottom: 30px; font-size: 22px; }
+.canvas { max-width: 900px; margin: 0 auto; position: relative; }
+.row { display: flex; justify-content: center; gap: 20px; margin-bottom: 8px; flex-wrap: wrap; }
+.arrow-row { display: flex; justify-content: center; margin: 6px 0; }
+.arrow { font-size: 28px; color: #888; }
+.arrows-split { display: flex; justify-content: center; gap: 180px; margin: 6px 0; }
+.arrows-triple { display: flex; justify-content: center; gap: 120px; margin: 6px 0; }
+.box {
+  padding: 14px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+  min-width: 160px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.box b { display: block; font-size: 14px; margin-bottom: 4px; }
+.source { background: #fff2cc; border: 2px solid #d6b656; }
+.process { background: #d5e8d4; border: 2px solid #82b366; }
+.data { background: #dae8fc; border: 2px solid #6c8ebf; }
+.analysis { background: #e1d5e7; border: 2px solid #9673a6; }
+.output { background: #f8cecc; border: 2px solid #b85450; }
+.connector {
+  width: 2px; height: 24px; background: #888; margin: 0 auto;
+}
+.h-line {
+  display: flex; align-items: center; justify-content: center; margin: 10px 0;
+}
+.h-line .line { width: 300px; height: 2px; background: #888; }
+.label { font-size: 11px; color: #666; margin-top: 2px; text-align: center; }
+.section {
+  background: rgba(0,0,0,0.03);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.section-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>データパイプライン フローチャート</h1>
+<div class="canvas">
+
+  <!-- Step 1: Data Source -->
+  <div class="section">
+    <div class="section-title">STEP 1 - データソース</div>
+    <div class="row">
+      <div class="box source">
+        <b>Google Sheets</b>
+        19ホテル 口コミ + 月報データ
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">&#x25BC;</span></div>
+
+  <!-- Step 2: Download -->
+  <div class="section">
+    <div class="section-title">STEP 2 - データ取得 (GitHub Actions / curl)</div>
+    <div class="row">
+      <div class="box process">
+        <b>curl ダウンロード</b>
+        CSV + XLSX 自動取得
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-row">
+    <span class="arrow">&#x25BC;</span>
+  </div>
+
+  <!-- Step 3: Raw Data -->
+  <div class="section">
+    <div class="section-title">STEP 3 - 生データ保管</div>
+    <div class="row">
+      <div class="box data">
+        <b>口コミCSV</b>
+        データ/ホテル口コミデータ/*.csv
+      </div>
+      <div class="box data">
+        <b>月報XLSX</b>
+        データ/ホテル集計表XLSX/*.xlsx
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">&#x25BC;</span></div>
+
+  <!-- Step 4: Analysis -->
+  <div class="section">
+    <div class="section-title">STEP 4 - Python分析</div>
+    <div class="row">
+      <div class="box analysis">
+        <b>analyze_reviews.py</b>
+        19ホテル個別分析
+      </div>
+      <div class="box analysis">
+        <b>analysis_1〜7_extract.py</b>
+        深掘り分析 (7種)
+      </div>
+      <div class="box analysis">
+        <b>aggregate_portfolio.py</b>
+        ポートフォリオ集約
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">&#x25BC;</span></div>
+
+  <!-- Step 5: JSON -->
+  <div class="section">
+    <div class="section-title">STEP 5 - 分析結果JSON</div>
+    <div class="row">
+      <div class="box data">
+        <b>{key}_analysis.json</b>
+        ホテル別分析 x 19
+      </div>
+      <div class="box data">
+        <b>analysis_{1-7}_data.json</b>
+        深掘り分析データ
+      </div>
+      <div class="box data">
+        <b>portfolio_analysis.json</b>
+        全体集約
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">&#x25BC;</span></div>
+
+  <!-- Step 6: Build -->
+  <div class="section">
+    <div class="section-title">STEP 6 - HTML/レポート生成 (Node.js)</div>
+    <div class="row">
+      <div class="box process">
+        <b>build_all.js</b>
+        V1ダッシュボード (5ページ)
+      </div>
+      <div class="box process">
+        <b>build_all_v2.js</b>
+        V2ダッシュボード (11ページ)
+      </div>
+      <div class="box process">
+        <b>generate_hotel_report.js</b>
+        レポート (DOCX/PPTX)
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow-row"><span class="arrow">&#x25BC;</span></div>
+
+  <!-- Step 7: Output -->
+  <div class="section">
+    <div class="section-title">STEP 7 - 公開・配信</div>
+    <div class="row">
+      <div class="box output">
+        <b>ルート直下HTML</b>
+        GitHub Pages (V1)
+      </div>
+      <div class="box output">
+        <b>v2/</b>
+        GitHub Pages (V2)
+      </div>
+      <div class="box output">
+        <b>レポート/</b>
+        DOCX + PPTX ファイル
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

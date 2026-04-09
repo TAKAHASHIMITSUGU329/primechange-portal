@@ -82,12 +82,25 @@ done
 echo "  完了: $ANALYZE_OK 成功 / $ANALYZE_FAIL 失敗"
 
 echo ""
+echo "=== ステップ2.5: 売上データ自動抽出（XLSX → JSON） ==="
+if python3 "$SCRIPT_DIR/データ抽出/extract_revenue_from_xlsx.py" 2>/dev/null; then
+  echo "  売上データ抽出: OK"
+else
+  echo "  売上データ抽出: スキップ (既存データ使用)"
+fi
+
+echo ""
 echo "=== ステップ3: ポートフォリオ分析再集計 ==="
 if python3 "$SCRIPT_DIR/データ抽出/aggregate_portfolio_analysis.py" 2>/dev/null; then
   echo "  ポートフォリオ分析: OK"
 else
   echo "  ポートフォリオ分析: スキップ (既存データ使用)"
 fi
+
+echo ""
+echo "=== ステップ3.3: 依存ファイルコピー（→ スクリプト/データ抽出/） ==="
+cp "$JSON_DIR/hotel_revenue_data.json" "$SCRIPT_DIR/データ抽出/" 2>/dev/null && echo "  hotel_revenue_data.json: OK" || true
+cp "$JSON_DIR/primechange_portfolio_analysis.json" "$SCRIPT_DIR/データ抽出/" 2>/dev/null && echo "  primechange_portfolio_analysis.json: OK" || true
 
 echo ""
 echo "=== ステップ3.5: 深掘り分析データ抽出 ==="
@@ -102,10 +115,37 @@ for script in analysis_1_extract.py analysis_2_extract.py analysis_3_4_extract.p
 done
 
 echo ""
-echo "=== ステップ4: ホームページ再生成 ==="
+echo "=== ステップ3.7: 分析JSONコピー（→ データ/分析結果JSON/） ==="
+COPY_OK=0
+for i in 1 2 3 4 5 6 7; do
+  SRC="$SCRIPT_DIR/データ抽出/analysis_${i}_data.json"
+  if [ -f "$SRC" ]; then
+    cp "$SRC" "$JSON_DIR/" && COPY_OK=$((COPY_OK + 1))
+  fi
+done
+echo "  コピー完了: ${COPY_OK}/7 ファイル"
+
+echo ""
+echo "=== ステップ4: V1ホームページ再生成 ==="
 node "$SCRIPT_DIR/ホームページ生成/build_all.js"
+
+echo ""
+echo "=== ステップ5: V2ダッシュボード再生成 ==="
+if node "$SCRIPT_DIR/ホームページ生成/build_all_v2.js"; then
+  echo "  V2ダッシュボード: OK"
+else
+  echo "  V2ダッシュボード: FAIL"
+fi
+
+echo ""
+echo "=== ステップ6: デプロイ（HTML同期） ==="
+cp "$BASE_DIR/ホームページ/"*.html "$BASE_DIR/" 2>/dev/null
+echo "  V1 → ルート直下: OK"
+rsync -a "$BASE_DIR/ホームページV2/" "$BASE_DIR/v2/"
+echo "  V2 → v2/: OK"
 
 echo ""
 echo "=== 最新化完了 ==="
 echo "日付: $(date '+%Y-%m-%d %H:%M:%S')"
-echo "ホームページ: $BASE_DIR/ホームページ/"
+echo "V1: $BASE_DIR/ホームページ/"
+echo "V2: $BASE_DIR/ホームページV2/"

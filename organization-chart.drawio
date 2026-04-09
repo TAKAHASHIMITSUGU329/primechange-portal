@@ -1,0 +1,110 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <!-- Title -->
+    <mxCell id="t1" value="&lt;b&gt;ホテルポートフォリオ 組織図&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="250" y="10" width="350" height="40" as="geometry"/>
+    </mxCell>
+    <!-- PRIMECHANGE -->
+    <mxCell id="pc" value="&lt;b&gt;PRIMECHANGE&lt;/b&gt;&#xa;ホテル口コミ分析ポータル&#xa;19ホテル管理" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=0;shadow=1;" vertex="1" parent="1">
+      <mxGeometry x="310" y="60" width="220" height="70" as="geometry"/>
+    </mxCell>
+    <!-- Dashboard Group -->
+    <mxCell id="dg" value="&lt;b&gt;ダッシュボード&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="60" y="180" width="140" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="rg" value="&lt;b&gt;レポート生成&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="350" y="180" width="140" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="ag" value="&lt;b&gt;深掘り分析&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="640" y="180" width="140" height="40" as="geometry"/>
+    </mxCell>
+    <!-- Dashboard pages -->
+    <mxCell id="d1" value="エグゼクティブ&#xa;サマリー" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="10" y="270" width="100" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="d2" value="ホテル別&#xa;ダッシュボード" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="120" y="270" width="100" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="d3" value="OTA戦略" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="10" y="320" width="100" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="d4" value="ESダッシュボード" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="120" y="320" width="100" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="d5" value="シミュレータ" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="10" y="365" width="100" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="d6" value="タレント&#xa;マネジメント" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="120" y="365" width="100" height="35" as="geometry"/>
+    </mxCell>
+    <!-- Report types -->
+    <mxCell id="rp1" value="ホテル個別レポート&#xa;(DOCX x 19)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="290" y="270" width="120" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="rp2" value="戦略レポート&#xa;(DOCX x 12)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="420" y="270" width="120" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="rp3" value="プレゼン資料&#xa;(PPTX)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="290" y="320" width="120" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="rp4" value="清掃戦略&#xa;レポート" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="420" y="320" width="120" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="rp5" value="売上インパクト&#xa;レポート" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="290" y="365" width="120" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="rp6" value="アクション&#xa;プラン" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="420" y="365" width="120" height="35" as="geometry"/>
+    </mxCell>
+    <!-- Analysis types -->
+    <mxCell id="an1" value="A1: OTA分析" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="600" y="270" width="100" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="an2" value="A2: スタッフ" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="710" y="270" width="100" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="an3" value="A3: トレンド" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="600" y="310" width="100" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="an4" value="A4: 競合" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="710" y="310" width="100" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="an5" value="A5: 感情分析" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="600" y="350" width="100" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="an6" value="A6: 品質x売上" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="710" y="350" width="100" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="an7" value="A7: 清掃品質" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="655" y="390" width="100" height="30" as="geometry"/>
+    </mxCell>
+    <!-- Edges from top -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="pc" target="dg" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="pc" target="rg" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="pc" target="ag" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Dashboard children -->
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#82b366;" edge="1" source="dg" target="d1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#82b366;" edge="1" source="dg" target="d2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#82b366;" edge="1" source="dg" target="d3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#82b366;" edge="1" source="dg" target="d4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#82b366;" edge="1" source="dg" target="d5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#82b366;" edge="1" source="dg" target="d6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Report children -->
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;" edge="1" source="rg" target="rp1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;" edge="1" source="rg" target="rp2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;" edge="1" source="rg" target="rp3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;" edge="1" source="rg" target="rp4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;" edge="1" source="rg" target="rp5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#d6b656;" edge="1" source="rg" target="rp6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <!-- Analysis children -->
+    <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;" edge="1" source="ag" target="an1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;" edge="1" source="ag" target="an2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e18" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;" edge="1" source="ag" target="an3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e19" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;" edge="1" source="ag" target="an4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e20" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;" edge="1" source="ag" target="an5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e21" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;" edge="1" source="ag" target="an6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e22" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#b85450;" edge="1" source="ag" target="an7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>

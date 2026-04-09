@@ -1,0 +1,71 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <!-- Title -->
+    <mxCell id="t1" value="&lt;b&gt;データパイプライン フローチャート&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="250" y="10" width="340" height="40" as="geometry"/>
+    </mxCell>
+    <!-- Google Sheets -->
+    <mxCell id="2" value="&lt;b&gt;Google Sheets&lt;/b&gt;&#xa;(19ホテル)" style="shape=mxgraph.flowchart.document;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="330" y="70" width="160" height="80" as="geometry"/>
+    </mxCell>
+    <!-- curl download -->
+    <mxCell id="3" value="curl でダウンロード&#xa;(CSV + XLSX)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="330" y="200" width="160" height="60" as="geometry"/>
+    </mxCell>
+    <!-- CSV files -->
+    <mxCell id="4" value="口コミCSV&#xa;データ/ホテル口コミデータ/*.csv" style="shape=mxgraph.flowchart.document;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="140" y="320" width="180" height="70" as="geometry"/>
+    </mxCell>
+    <!-- XLSX files -->
+    <mxCell id="5" value="月報XLSX&#xa;データ/ホテル集計表XLSX/*.xlsx" style="shape=mxgraph.flowchart.document;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="500" y="320" width="180" height="70" as="geometry"/>
+    </mxCell>
+    <!-- Python analysis -->
+    <mxCell id="6" value="Python分析&#xa;analyze_reviews.py x 19&#xa;analysis_1-7_extract.py" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="330" y="440" width="160" height="70" as="geometry"/>
+    </mxCell>
+    <!-- JSON output -->
+    <mxCell id="7" value="分析結果JSON&#xa;{key}_analysis.json&#xa;analysis_{1-7}_data.json&#xa;portfolio_analysis.json" style="shape=mxgraph.flowchart.document;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="310" y="560" width="200" height="80" as="geometry"/>
+    </mxCell>
+    <!-- Build V1 -->
+    <mxCell id="8" value="build_all.js&#xa;(V1: 5ページ)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="140" y="700" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Build V2 -->
+    <mxCell id="9" value="build_all_v2.js&#xa;(V2: 11ページ)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="370" y="700" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Report gen -->
+    <mxCell id="10" value="レポート生成&#xa;(DOCX/PPTX)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="590" y="700" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <!-- V1 output -->
+    <mxCell id="11" value="ルート直下HTML&#xa;(GitHub Pages)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="140" y="800" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <!-- V2 output -->
+    <mxCell id="12" value="v2/&#xa;(GitHub Pages)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="370" y="800" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Report output -->
+    <mxCell id="13" value="レポート/&#xa;(DOCX + PPTX)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="590" y="800" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Edges -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="2" target="3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="3" target="4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="3" target="5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="4" target="6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="5" target="6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="6" target="7" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="7" target="8" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="7" target="9" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="7" target="10" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="8" target="11" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="9" target="12" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="10" target="13" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>

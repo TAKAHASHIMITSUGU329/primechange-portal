@@ -1,0 +1,98 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <!-- Title -->
+    <mxCell id="t1" value="&lt;b&gt;システムアーキテクチャ図&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="320" y="10" width="300" height="40" as="geometry"/>
+    </mxCell>
+    <!-- Data Sources Layer -->
+    <mxCell id="layer1" value="データソース層" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;horizontal=1;" vertex="1" parent="1">
+      <mxGeometry x="40" y="60" width="860" height="100" as="geometry"/>
+    </mxCell>
+    <mxCell id="gs1" value="Google Sheets&#xa;(19ホテル口コミ)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="layer1">
+      <mxGeometry x="30" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="gs2" value="Google Sheets&#xa;(月報XLSX)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="layer1">
+      <mxGeometry x="220" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="gs3" value="Google Sheets&#xa;(売上データ)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="layer1">
+      <mxGeometry x="410" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="gs4" value="Google Sheets&#xa;(清掃・皆勤データ)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="layer1">
+      <mxGeometry x="600" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <!-- CI/CD Layer -->
+    <mxCell id="layer2" value="CI/CD層 (GitHub Actions)" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="40" y="200" width="860" height="100" as="geometry"/>
+    </mxCell>
+    <mxCell id="ci1" value="download-csvs.yml&#xa;(日次CSV取得)" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="layer2">
+      <mxGeometry x="120" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="ci2" value="download-csvs.yml&#xa;(日次XLSX取得)" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="layer2">
+      <mxGeometry x="370" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="ci3" value="update_all.sh&#xa;(パイプライン実行)" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="layer2">
+      <mxGeometry x="620" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Processing Layer -->
+    <mxCell id="layer3" value="分析・処理層 (Python + Node.js)" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="40" y="340" width="860" height="120" as="geometry"/>
+    </mxCell>
+    <mxCell id="py1" value="analyze_reviews.py&#xa;(口コミ分析 x19)" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="layer3">
+      <mxGeometry x="30" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="py2" value="analysis_1-7_extract.py&#xa;(深掘り分析)" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="layer3">
+      <mxGeometry x="220" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="py3" value="aggregate_portfolio.py&#xa;(ポートフォリオ集約)" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="layer3">
+      <mxGeometry x="410" y="40" width="160" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="nd1" value="delta-engine.js&#xa;(前日比差分計算)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="layer3">
+      <mxGeometry x="620" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Output Layer -->
+    <mxCell id="layer4" value="出力・生成層" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="40" y="500" width="860" height="100" as="geometry"/>
+    </mxCell>
+    <mxCell id="o1" value="build_all.js&#xa;V1ダッシュボード (5P)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="layer4">
+      <mxGeometry x="30" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="o2" value="build_all_v2.js&#xa;V2ダッシュボード (11P)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="layer4">
+      <mxGeometry x="250" y="40" width="160" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="o3" value="generate_hotel_report.js&#xa;ホテルレポート (DOCX)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="layer4">
+      <mxGeometry x="470" y="40" width="170" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="o4" value="generate_pptx.js&#xa;プレゼン (PPTX)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="layer4">
+      <mxGeometry x="690" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Delivery Layer -->
+    <mxCell id="layer5" value="配信層" style="swimlane;startSize=30;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="40" y="640" width="860" height="100" as="geometry"/>
+    </mxCell>
+    <mxCell id="del1" value="GitHub Pages&#xa;(ルート直下HTML)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="layer5">
+      <mxGeometry x="120" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="del2" value="GitHub Pages&#xa;(v2/)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="layer5">
+      <mxGeometry x="370" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="del3" value="レポートファイル&#xa;(DOCX + PPTX)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="layer5">
+      <mxGeometry x="620" y="40" width="150" height="50" as="geometry"/>
+    </mxCell>
+    <!-- Inter-layer edges -->
+    <mxCell id="ie1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#999999;" edge="1" source="gs1" target="ci1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#999999;" edge="1" source="gs2" target="ci2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="ci1" target="py1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="ci2" target="py2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="ci3" target="nd1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="py1" target="o1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="py2" target="o2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie8" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="py3" target="o3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie9" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="nd1" target="o4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie10" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="o1" target="del1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie11" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="o2" target="del2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie12" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="o3" target="del3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ie13" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="o4" target="del3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+  </root>
+</mxGraphModel>
