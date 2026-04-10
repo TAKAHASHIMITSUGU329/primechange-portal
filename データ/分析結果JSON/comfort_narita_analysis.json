@@ -1,38 +1,29 @@
 {
-  "total_reviews": 89,
-  "overall_avg_10pt": 8.67,
-  "high_count": 76,
-  "high_rate": 85.4,
+  "total_reviews": 93,
+  "overall_avg_10pt": 8.61,
+  "high_count": 79,
+  "high_rate": 84.9,
   "mid_count": 11,
-  "mid_rate": 12.4,
-  "low_count": 2,
-  "low_rate": 2.2,
+  "mid_rate": 11.8,
+  "low_count": 3,
+  "low_rate": 3.2,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 14,
-      "native_avg": 9.5,
+      "count": 15,
+      "native_avg": 9.4,
       "scale": "/10",
-      "avg_10pt": 9.5,
+      "avg_10pt": 9.4,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
       "site": "楽天トラベル",
-      "count": 15,
-      "native_avg": 4.47,
-      "scale": "/5",
-      "avg_10pt": 8.93,
-      "median_10pt": 10.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
       "count": 16,
-      "native_avg": 4.38,
+      "native_avg": 4.44,
       "scale": "/5",
-      "avg_10pt": 8.75,
-      "median_10pt": 9.0,
+      "avg_10pt": 8.88,
+      "median_10pt": 10.0,
       "judgment": "良好"
     },
     {
@@ -45,12 +36,21 @@
       "judgment": "良好"
     },
     {
-      "site": "Booking.com",
-      "count": 31,
-      "native_avg": 8.39,
-      "scale": "/10",
-      "avg_10pt": 8.39,
+      "site": "Google",
+      "count": 17,
+      "native_avg": 4.24,
+      "scale": "/5",
+      "avg_10pt": 8.47,
       "median_10pt": 8.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Booking.com",
+      "count": 32,
+      "native_avg": 8.41,
+      "scale": "/10",
+      "avg_10pt": 8.41,
+      "median_10pt": 8.5,
       "judgment": "良好"
     },
     {
@@ -67,32 +67,32 @@
     {
       "score": 10,
       "count": 37,
-      "pct": "41.6%"
+      "pct": "39.8%"
     },
     {
       "score": 9,
-      "count": 12,
-      "pct": "13.5%"
+      "count": 13,
+      "pct": "14.0%"
     },
     {
       "score": 8,
-      "count": 27,
-      "pct": "30.3%"
+      "count": 29,
+      "pct": "31.2%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "5.6%"
+      "pct": "5.4%"
     },
     {
       "score": 6,
       "count": 6,
-      "pct": "6.7%"
+      "pct": "6.5%"
     },
     {
       "score": 4,
-      "count": 1,
-      "pct": "1.1%"
+      "count": 2,
+      "pct": "2.2%"
     },
     {
       "score": 3,
@@ -101,6 +101,58 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-09",
+      "comment": "",
+      "good": "La habitación estuvo muy comoda a unos pasos de la estación Narita,",
+      "bad": "Que no tuviera traslado al aeropuerto , pero eso la lo sabía",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "彼女は空港への乗り継ぎ便がないことを知っていた。",
+      "reviewer": "Julio"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-09",
+      "comment": "Its room is quite bigger than most hotels in Japan. The breakfast was good. The hotel is a 5min walk to the station. Overall a convenient hotel.",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は日本のほとんどのホテルよりもかなり広い。朝食も美味しかった。ホテルは駅から徒歩5分。全体的に便利なホテルだ。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "N‍i‍k‍k‍o‍ ‍P‍a‍j‍a‍r‍i‍l‍l‍a"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-09",
+      "comment": "バスアメニティが足りなくはないが　もう少し欲しい。朝食美味しい。JR駅からは回り込んで行く感じ",
+      "good": "",
+      "bad": "",
+      "translated": "バスアメニティが足りなくはないが　もう少し欲しい。朝食美味しい。JR駅からは回り込んで行く感じ",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "かなですが"
+    },
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-09",
+      "comment": "服務友善、價格合理，而且交通方便  但4/9早晨櫃檯人員林永富除外。  態度極其惡劣、語氣輕佻與不耐煩，不想接待可以不用勉強。  一顆老鼠屎壞了一鍋粥。  接客や価格、立地に関しては満足しております。 しかし、4月9日の朝に勤務していたフロントの林永富氏の対応には非常に失望しました。 非常に高圧的かつ不真面目な態度で、こちらの気分を害するものでした。仕事への意欲がないのであれば、接客に立つべきではないと感じます。  I found the service to be welcoming, the pricing fair, and the location excellent. However, I must highlight a very poor experience with a staff member named 林永富（Lin Yong-fu） on the morning of April 9th. His behavior was highly unprofessional, characterized by a dismissive and disrespectful tone. Such a lack of basic courtesy is unacceptable in a customer service role.",
+      "good": "",
+      "bad": "",
+      "translated": "服務友善、價格合理，而且交通方便  但4/9早晨櫃檯人員林永富除外。  態度極其惡劣、語氣輕佻與不耐煩，不想接待可以不用勉強。  一顆老鼠屎壞了一鍋粥。  接客や価格、立地に関しては満足しております。 しかし、4月9日の朝に勤務していたフロントの林永富氏の対応には非常に失望しました。 非常に高圧的かつ不真面目な態度で、こちらの気分を害するものでした。仕事への意欲がないのであれば、接客に立つべきではないと感じます。  I found the service to be welcoming, the pricing fair, and the location excellent. However, I must highlight a very poor experience with a staff member named 林永富（Lin Yong-fu） on the morning of April 9th. His behavior was highly unprofessional, characterized by a dismissive and disrespectful tone. Such a lack of basic courtesy is unacceptable in a customer service role.",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yan Saint"
+    },
     {
       "site": "Booking.com",
       "rating": 7.0,
@@ -696,7 +748,7 @@
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房モードには切り替えられていなかった。",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房のオプションはなかった。",
       "reviewer": "Suzanne"
     },
     {
@@ -967,7 +1019,7 @@
       "comment": "I recently stayed at the Comfort Hotel Narita and had a fantastic experience. The location is incredibly convenient, making it an ideal choice for anyone traveling to or from the airport. What truly made my stay special was the wonderful staff. Every employee I encountered was exceptionally nice, polite, and went out of their way to be helpful. Their hospitality made me feel welcome from the moment I arrived. A few highlights of my stay:  Cleanliness: The room was spotless and well-maintained.  Comfort: The bed was very comfortable, ensuring a great night's sleep.  Amenities: I really appreciated the complimentary coffee and the delicious breakfast options provided.  Quiet Atmosphere: Despite being near transportation hubs, the room was very quiet.  Overall, this hotel offers excellent value for money. I highly recommend it to anyone looking for a stress-free and pleasant stay in Narita. I will definitely be back",
       "good": "",
       "bad": "",
-      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点は以下の通りです。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは大変ありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。総合的に見て、このホテルは価格以上の価値があります。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
+      "translated": "先日コンフォートホテル成田に宿泊し、素晴らしい滞在となりました。立地が非常に便利で、空港を利用する方にとって理想的なホテルです。特に滞在を特別なものにしてくれたのは、素晴らしいスタッフの方々でした。出会ったスタッフ全員が非常に親切で礼儀正しく、親身になって対応してくれました。到着した瞬間から、温かいおもてなしを感じました。滞在で特に印象に残った点をいくつか挙げます。清潔さ：部屋は隅々まで清潔で、手入れが行き届いていました。快適さ：ベッドはとても快適で、ぐっすり眠ることができました。アメニティ：無料のコーヒーと美味しい朝食メニューは本当にありがたかったです。静かな雰囲気：交通機関のハブに近いにもかかわらず、部屋はとても静かでした。全体的に見て、このホテルは価格以上の価値を提供しています。成田でストレスフリーで快適な滞在をお望みの方には、ぜひお勧めします。また必ず利用したいと思います。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "David Herz"

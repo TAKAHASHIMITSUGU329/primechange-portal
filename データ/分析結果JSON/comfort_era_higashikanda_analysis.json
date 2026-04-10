@@ -1,12 +1,12 @@
 {
-  "total_reviews": 85,
-  "overall_avg_10pt": 8.86,
-  "high_count": 75,
-  "high_rate": 88.2,
-  "mid_count": 5,
-  "mid_rate": 5.9,
+  "total_reviews": 91,
+  "overall_avg_10pt": 8.88,
+  "high_count": 80,
+  "high_rate": 87.9,
+  "mid_count": 6,
+  "mid_rate": 6.6,
   "low_count": 5,
-  "low_rate": 5.9,
+  "low_rate": 5.5,
   "site_stats": [
     {
       "site": "Agoda",
@@ -28,10 +28,10 @@
     },
     {
       "site": "Trip.com",
-      "count": 19,
-      "native_avg": 9.63,
+      "count": 22,
+      "native_avg": 9.5,
       "scale": "/10",
-      "avg_10pt": 9.63,
+      "avg_10pt": 9.5,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
@@ -46,66 +46,131 @@
     },
     {
       "site": "Booking.com",
-      "count": 41,
-      "native_avg": 8.93,
+      "count": 43,
+      "native_avg": 8.95,
       "scale": "/10",
-      "avg_10pt": 8.93,
+      "avg_10pt": 8.95,
       "median_10pt": 9.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 17,
-      "native_avg": 3.82,
+      "count": 18,
+      "native_avg": 3.89,
       "scale": "/5",
-      "avg_10pt": 7.65,
-      "median_10pt": 8.0,
+      "avg_10pt": 7.78,
+      "median_10pt": 9.0,
       "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 50,
-      "pct": "58.8%"
+      "count": 54,
+      "pct": "59.3%"
     },
     {
       "score": 9,
-      "count": 6,
-      "pct": "7.1%"
+      "count": 7,
+      "pct": "7.7%"
     },
     {
       "score": 8,
       "count": 19,
-      "pct": "22.4%"
+      "pct": "20.9%"
     },
     {
       "score": 7,
       "count": 4,
-      "pct": "4.7%"
+      "pct": "4.4%"
     },
     {
       "score": 6,
-      "count": 1,
-      "pct": "1.2%"
+      "count": 2,
+      "pct": "2.2%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.1%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.1%"
     },
     {
       "score": 2,
       "count": 3,
-      "pct": "3.5%"
+      "pct": "3.3%"
     }
   ],
   "comments": [
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-10",
+      "comment": "房間大小還不錯，隔音很好很安靜，check in 的時候因為看到是中國護照，還特地有台灣小哥辦理，很舒適的兩晚。",
+      "good": "",
+      "bad": "",
+      "translated": "部屋は適度な広さで、防音性も抜群で静かでした。チェックインの際、私が中国のパスポートを持っていることに気づいた台湾人の男性が親切に対応してくれました。とても快適な2泊でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-10",
+      "comment": "Чисто, хорошие сотрудники на ресепшен. Со всем могут помочь.",
+      "good": "",
+      "bad": "",
+      "translated": "清潔で親切な受付スタッフ。どんなことでも手伝ってくれます。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-10",
+      "comment": "",
+      "good": "Selective but good, nutritious breakfast. Convenient relaxing common room with free coffee and snacks. Very clean throughout and comfortable beds. Friendly attentive staff and daily room servicing. Relatively close to Tokyo Station and the Bullet Train.",
+      "bad": "Wine selection could have been better, but the free tasting helped. About a 500 metre walk to the nearest local station (Bakurocho) and restaurant precinct. Lots of steps and no escalators at the station - ideal for getting some exercise, if needed.",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ワインの品揃えはもう少し充実していても良かったが、無料試飲はありがたかった。最寄りの駅（馬呂町駅）と飲食店街までは徒歩約500メートル。駅には階段が多くエスカレーターはないので、運動不足解消には最適だ。",
+      "reviewer": "Graham"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-10",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ioannis"
+    },
+    {
+      "site": "Trip.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-10",
+      "comment": "出張で宿泊する分には全く問題ありません。 所謂普通のビジネスホテルです。",
+      "good": "",
+      "bad": "",
+      "translated": "出張で宿泊する分には全く問題ありません。 所謂普通のビジネスホテルです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ゲ‍ス‍ト"
+    },
     {
       "site": "Google",
       "rating": 5.0,
@@ -115,6 +180,19 @@
       "good": "",
       "bad": "",
       "translated": "最高の朝食とフレンドリーなスタッフ😍 とても親切で可愛かったです。部屋も素敵で、温かい便座も良かったです。もちろんまたすぐに戻ってきます xx",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Honey Boobee"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-09",
+      "comment": "Best breakfast and friendly staffs 😍 they’re so nice and kawaii too.  The room  was so nice as well as the warm toilet seat and ofc I will be back soon xx",
+      "good": "",
+      "bad": "",
+      "translated": "最高の朝食とフレンドリーなスタッフ😍 とても親切で可愛かったです。部屋も素敵で、温かい便座も良かったです。もちろんまたすぐに戻ってきますxx",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "Honey Boobee"
@@ -634,7 +712,7 @@
       "comment": "東京酒店既size算唔錯呀，開到喼。雖然酒店位置唔算十分方便鐵路，要行大約10 分鐘先到地鐵站，但房間清潔，職員有禮貌笑容，大堂都有野飲同nuts供應，去機場坐淺草線一條線到達 好方便！推介大家去住！",
       "good": "",
       "bad": "",
-      "translated": "東京ホテルは広さも十分で、スーツケースも楽々収納できます。鉄道駅からは少し離れていますが（地下鉄駅まで徒歩約10分）、部屋は清潔で、スタッフは笑顔で丁寧に対応してくれます。ロビーにはドリンクやナッツ類が用意されており、浅草線で空港へ行くのもとても便利です！ぜひ皆さんにおすすめします！",
+      "translated": "東京ホテルは広さも十分で、スーツケースも楽々収納できます。鉄道駅からは少し離れていますが（地下鉄駅まで徒歩約10分）、部屋は清潔で、スタッフは笑顔で丁寧に対応してくれます。ロビーには飲み物やナッツ類が用意されており、浅草線で空港へ行くのもとても便利です！ぜひ皆さんにおすすめします！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍1‍2‍W"

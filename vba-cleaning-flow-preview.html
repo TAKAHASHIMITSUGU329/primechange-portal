@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>VBA清掃管理マクロ フロー図</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,'Hiragino Sans',sans-serif;background:#f8f9fa;padding:30px}
+h1{text-align:center;color:#333;margin-bottom:8px;font-size:20px}
+.subtitle{text-align:center;color:#888;font-size:12px;margin-bottom:24px}
+.canvas{max-width:1100px;margin:0 auto;display:flex;gap:24px}
+.main-flow{flex:2;min-width:0}
+.side-panels{flex:1;min-width:260px;display:flex;flex-direction:column;gap:16px}
+
+/* Flow nodes */
+.node{border-radius:10px;padding:14px 18px;margin-bottom:10px;font-size:12px;line-height:1.5;position:relative}
+.node b{display:block;font-size:13px;margin-bottom:2px}
+.start{background:#d5e8d4;border:2px solid #82b366;text-align:center;font-weight:bold;font-size:14px;border-radius:30px;padding:10px}
+.end{background:#f8cecc;border:2px solid #b85450;text-align:center;font-weight:bold;font-size:14px;border-radius:30px;padding:10px}
+.process{background:#dae8fc;border:2px solid #6c8ebf}
+.summary{background:#fff2cc;border:2px solid #d6b656}
+.worktime{background:#e1d5e7;border:2px solid #9673a6}
+.decision{background:#f5f5f5;border:2px solid #666;text-align:center;padding:10px 18px;
+  clip-path:polygon(50% 0%,100% 50%,50% 100%,0% 50%);min-height:70px;display:flex;align-items:center;justify-content:center;margin:10px auto;width:140px}
+
+.arrow{text-align:center;font-size:22px;color:#aaa;margin:4px 0}
+.arrow-label{font-size:11px;color:#82b366;font-weight:bold}
+
+/* Bug badges */
+.bug{display:inline-block;background:#b85450;color:#fff;font-size:10px;font-weight:bold;padding:2px 8px;border-radius:10px;position:absolute;top:-8px;right:10px}
+.mac{display:inline-block;background:#d6930a;color:#fff;font-size:10px;font-weight:bold;padding:2px 8px;border-radius:10px;position:absolute;top:-8px;right:70px}
+
+/* Color chips */
+.colors{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{padding:4px 10px;border-radius:6px;font-size:10px;font-weight:500}
+.pink{background:#ff69b4;color:#fff}.yellow{background:#ffff00;color:#333}
+.green{background:#00ff00;color:#333}
+
+/* Side panels */
+.panel{background:#fff;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.06);overflow:hidden}
+.panel-header{padding:10px 14px;font-weight:bold;font-size:13px;color:#fff}
+.ph-green{background:#82b366}.ph-blue{background:#6c8ebf}
+.panel-body{padding:12px 14px}
+.panel-item{padding:6px 10px;margin-bottom:6px;border-radius:6px;font-size:11px;line-height:1.4}
+.pi-green{background:#e8f5e1;border-left:3px solid #82b366}
+.pi-blue{background:#e8f0fe;border-left:3px solid #6c8ebf}
+
+/* Detail expansion */
+.detail-box{border:1px dashed;border-radius:8px;padding:14px;margin:8px 0}
+.detail-yellow{border-color:#d6b656;background:#fffbe6}
+.detail-purple{border-color:#9673a6;background:#f9f0ff}
+.detail-title{font-weight:bold;font-size:12px;margin-bottom:8px}
+.detail-step{padding:5px 10px;margin-bottom:4px;border-radius:5px;font-size:11px}
+.ds-y{background:#fff2cc;border-left:3px solid #d6b656}
+.ds-p{background:#e1d5e7;border-left:3px solid #9673a6}
+
+/* Split */
+.split{display:flex;gap:12px}
+.split > div{flex:1}
+</style>
+</head>
+<body>
+<h1>ハートンホテル東品川 清掃管理マクロ フロー図</h1>
+<p class="subtitle">VBAコードレビュー結果付き - バグ14箇所 / Mac警告2箇所</p>
+
+<div class="canvas">
+<!-- ========== MAIN FLOW ========== -->
+<div class="main-flow">
+
+  <div class="start">開始</div>
+  <div class="arrow">▼</div>
+
+  <div class="node process">
+    <span class="bug">BUG x3</span>
+    <span class="mac">Mac注意</span>
+    <b>SelectAndEditFile()</b>
+    メインエントリーポイント
+    <div style="font-size:10px;color:#b85450;margin-top:6px">
+      - FileDialog行が破損(2行が結合)<br>
+      - varPath 未宣言<br>
+      - セル着色ループの開始部分が欠落
+    </div>
+  </div>
+  <div class="arrow">▼ 呼出</div>
+
+  <div class="node summary">
+    <span class="bug">BUG x1</span>
+    <b>DeleteSheets()</b>
+    既存シート削除: Copied_清掃確認書 / Copied_指示集計表 / 指示書一覧 / 作業時間合計
+    <div style="font-size:10px;color:#b85450;margin-top:4px">
+      - シート名「指示書一覧」が途切れている
+    </div>
+  </div>
+  <div class="arrow">▼</div>
+
+  <div class="node" style="background:#e1d5e7;border:2px solid #9673a6">
+    <span class="mac">Mac注意</span>
+    <b>ファイルダイアログ表示</b>
+    FileDialog(msoFileDialogOpen) - 2ファイル選択
+    <div style="font-size:10px;color:#d6930a;margin-top:4px">
+      - Mac ExcelではAllowMultiSelectの挙動が異なる可能性
+    </div>
+  </div>
+  <div class="arrow">▼</div>
+
+  <div style="text-align:center;margin:8px 0">
+    <div style="display:inline-block;background:#f5f5f5;border:2px solid #666;padding:12px 24px;transform:rotate(45deg);margin:10px">
+      <span style="display:block;transform:rotate(-45deg);font-size:12px;font-weight:bold">ファイル選択？</span>
+    </div>
+  </div>
+
+  <div class="split">
+    <div>
+      <div class="arrow"><span class="arrow-label">Yes (1st)</span> ▼</div>
+      <div class="node process">
+        <b>1st File: 清掃確認書</b>
+        シートコピー → Copied_清掃確認書<br>
+        対象範囲 A1:Z1000 をループ、セル着色:
+        <div class="colors">
+          <span class="chip pink">連泊</span>
+          <span class="chip yellow">出発/RC</span>
+          <span class="chip pink">D/Tセット・解除</span>
+          <span class="chip green">STAY</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="arrow"><span class="arrow-label">Yes (2nd)</span> ▼</div>
+      <div class="node process">
+        <b>2nd File: Sheet2</b>
+        シートコピー → Copied_清掃指示書
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">▼ 呼出</div>
+
+  <div class="node summary">
+    <span class="bug">BUG x6</span>
+    <b>CreateSummary()</b>
+    清掃指示集計表を自動作成
+  </div>
+
+  <div class="detail-box detail-yellow">
+    <div class="detail-title" style="color:#7b6b1a">CreateSummary() 詳細</div>
+    <div class="detail-step ds-y">1. 指示集計表シートをコピー → Copied_指示集計表 <span style="color:#b85450;font-weight:bold">※構文エラー</span></div>
+    <div class="detail-step ds-y">2. 指示書一覧シート作成 - ヘッダー12列: フロア/S/T/UR/FA/D解除/Dセット/T解除/Tメイク/3解除/3メイク/済 <span style="color:#b85450;font-weight:bold">※ループ破損</span></div>
+    <div class="detail-step ds-y">3. 19F→3F ループ（各フロア集計）<br>
+      &nbsp;&nbsp;NormG()で全角→半角正規化してG列比較<br>
+      &nbsp;&nbsp;済/未掃/ノータッチ/入室禁止を除外 <span style="color:#b85450;font-weight:bold">※InStr欠落</span><br>
+      &nbsp;&nbsp;S/T/D/3 + セット・解除をカウント <span style="color:#b85450;font-weight:bold">※total3=tof タイプミス</span><br>
+      &nbsp;&nbsp;特殊部屋: 1615→UR, 1513→FA</div>
+    <div class="detail-step ds-y">4. 小計行（25行目: B〜L列SUM数式）/ 未掃分 / 追加分 / 合計 <span style="color:#b85450;font-weight:bold">※ActiveSheet参照の恐れ</span></div>
+    <div class="detail-step ds-y">5. Copied_指示集計表へ転記（S/T/合計、UR/FA固定転記） <span style="color:#b85450;font-weight:bold">※出力行が結合</span></div>
+    <div class="detail-step ds-y">6. 罫線 A7:L28 / 斜め罫線 / 押印エリア(K-L列)</div>
+  </div>
+
+  <div class="arrow">▼ 呼出</div>
+
+  <div class="node worktime">
+    <span class="bug">BUG x4</span>
+    <b>CreateWorkTimeSheet()</b>
+    フロア別作業時間合計シート作成
+  </div>
+
+  <div class="detail-box detail-purple">
+    <div class="detail-title" style="color:#553c7b">CreateWorkTimeSheet() 詳細</div>
+    <div class="detail-step ds-p">1. Copied_清掃確認書からデータ読み取り <span style="color:#b85450;font-weight:bold">※定数SRC_SHEET宣言が途切れ</span></div>
+    <div class="detail-step ds-p">2. 3F→19F ループ<br>
+      &nbsp;&nbsp;B列=部屋No, E列=STAY判定, F列=出発/RC/延長, D列=済 <span style="color:#b85450;font-weight:bold">※STAY判定が途切れ</span></div>
+    <div class="detail-step ds-p">3. 作業時間計算: <code>stay*3分 + out*6分 + 済*1分</code> <span style="color:#b85450;font-weight:bold">※数式が途切れ</span></div>
+    <div class="detail-step ds-p">4. 担当者テーブル: 合計(分) / total時間 / 9:00スタート終了時間 / 目標時間 <span style="color:#b85450;font-weight:bold">※names配列が途切れ</span></div>
+    <div class="detail-step ds-p">5. 終了目標時間 = TIME(9,0,0) + 合計分/1440</div>
+  </div>
+
+  <div class="arrow">▼</div>
+  <div class="end">完了</div>
+</div>
+
+<!-- ========== SIDE PANELS ========== -->
+<div class="side-panels">
+
+  <!-- Helper functions -->
+  <div class="panel">
+    <div class="panel-header ph-green">ヘルパー関数</div>
+    <div class="panel-body">
+      <div class="panel-item pi-green">
+        <b>NormG(s)</b><br>
+        全角→半角正規化 StrConv(Trim(s), vbNarrow)<br>
+        <span style="color:#d6930a;font-size:10px;font-weight:bold">Mac Excel未サポート</span>
+      </div>
+      <div class="panel-item pi-green">
+        <b>SheetExists(name)</b><br>
+        シート存在チェック（On Error方式）
+      </div>
+      <div class="panel-item pi-green">
+        <b>SheetExistsVB(wb, name)</b><br>
+        Workbook引数版<br>
+        <span style="color:#b85450;font-size:10px;font-weight:bold">BUG: 関数名タイプミスで常にFalse</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sheet map -->
+  <div class="panel">
+    <div class="panel-header ph-blue">シート構成 (6シート)</div>
+    <div class="panel-body">
+      <div class="panel-item pi-blue"><b>Menu</b> - basePath保存</div>
+      <div class="panel-item pi-blue"><b>Copied_清掃確認書</b><br>1stファイルからコピー、着色処理済み<br><span style="color:#666;font-size:10px">→ CreateWorkTimeSheetの入力元</span></div>
+      <div class="panel-item pi-blue"><b>Copied_清掃指示書</b><br>2ndファイルからコピー</div>
+      <div class="panel-item pi-blue"><b>Copied_指示集計表</b><br>テンプレからコピー、S/T/合計を転記</div>
+      <div class="panel-item pi-blue"><b>指示書一覧</b><br>フロア別集計 (19F→3F)<br>S/T/UR/FA/解除/セット/済</div>
+      <div class="panel-item pi-blue"><b>作業時間合計</b><br>フロア別 stay/out/済<br>担当者別 終了目標時間</div>
+    </div>
+  </div>
+
+  <!-- Issue summary -->
+  <div class="panel">
+    <div class="panel-header" style="background:#b85450">問題サマリー</div>
+    <div class="panel-body">
+      <div class="panel-item" style="background:#fde8e8;border-left:3px solid #b85450"><b>致命的 (構文エラー・破損)</b>: 10件</div>
+      <div class="panel-item" style="background:#fde8e8;border-left:3px solid #e57373"><b>重大 (ロジックバグ)</b>: 3件<br>
+        <span style="font-size:10px">- フロアマッチング誤判定<br>- STAY未カウント<br>- SheetExistsVB常にFalse</span>
+      </div>
+      <div class="panel-item" style="background:#fff3e0;border-left:3px solid #d6930a"><b>Mac互換性</b>: 2件<br>
+        <span style="font-size:10px">- StrConv(vbNarrow)<br>- FileDialog</span>
+      </div>
+      <div class="panel-item" style="background:#e8f0fe;border-left:3px solid #6c8ebf"><b>改善提案</b>: 3件</div>
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>

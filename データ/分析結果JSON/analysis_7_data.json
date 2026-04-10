@@ -98,12 +98,12 @@
         "現場運営": 77.1,
         "現場ルール・マナー": 90.0
       },
-      "review_score": 8.86,
-      "cleaning_issue_rate": 2.4,
+      "review_score": 8.88,
+      "cleaning_issue_rate": 2.2,
       "tier": "良好",
       "revpar": 768.8602,
       "monthly_revenue": 4047280,
-      "composite_score": 0.713
+      "composite_score": 0.714
     },
     {
       "hotel_key": "comfort_hakata",
@@ -123,12 +123,12 @@
         "現場運営": 56.6,
         "現場ルール・マナー": 86.7
       },
-      "review_score": 7.73,
-      "cleaning_issue_rate": 15.0,
-      "tier": "要改善",
+      "review_score": 8.1,
+      "cleaning_issue_rate": 9.7,
+      "tier": "概ね良好",
       "revpar": 850.7423,
       "monthly_revenue": 5764630,
-      "composite_score": 0.551
+      "composite_score": 0.561
     },
     {
       "hotel_key": "comfort_narita",
@@ -145,12 +145,12 @@
         "整理整頓": 66.7,
         "現場運営": 60.0
       },
-      "review_score": 8.67,
+      "review_score": 8.61,
       "cleaning_issue_rate": 2.2,
       "tier": "良好",
       "revpar": 667.9477,
       "monthly_revenue": 2655760,
-      "composite_score": 0.662
+      "composite_score": 0.66
     },
     {
       "hotel_key": "comfort_roppongi",
@@ -170,7 +170,7 @@
         "現場運営": 71.4,
         "現場ルール・マナー": 93.3
       },
-      "review_score": 8.33,
+      "review_score": 8.34,
       "cleaning_issue_rate": 4.9,
       "tier": "概ね良好",
       "revpar": 890.5482,
@@ -195,12 +195,12 @@
         "現場運営": 68.6,
         "現場ルール・マナー": 90.0
       },
-      "review_score": 9.06,
+      "review_score": 9.02,
       "cleaning_issue_rate": 0.0,
       "tier": "優秀",
       "revpar": 1514.2353,
       "monthly_revenue": 13228360,
-      "composite_score": 0.653
+      "composite_score": 0.652
     },
     {
       "hotel_key": "comfort_yokohama",
@@ -292,12 +292,12 @@
         "現場運営": 70.0,
         "現場ルール・マナー": 86.7
       },
-      "review_score": 9.33,
-      "cleaning_issue_rate": 5.7,
+      "review_score": 9.27,
+      "cleaning_issue_rate": 6.6,
       "tier": "優秀",
       "revpar": 1107.5565,
       "monthly_revenue": 4310610,
-      "composite_score": 0.714
+      "composite_score": 0.712
     },
     {
       "hotel_key": "daiwa_osaki",
@@ -342,8 +342,8 @@
         "現場運営": 79.1,
         "現場ルール・マナー": 73.3
       },
-      "review_score": 8.46,
-      "cleaning_issue_rate": 7.1,
+      "review_score": 8.47,
+      "cleaning_issue_rate": 6.9,
       "tier": "概ね良好",
       "revpar": 893.7779,
       "monthly_revenue": 11211550,
@@ -367,8 +367,8 @@
         "現場運営": 81.0,
         "現場ルール・マナー": 88.9
       },
-      "review_score": 8.26,
-      "cleaning_issue_rate": 1.0,
+      "review_score": 8.27,
+      "cleaning_issue_rate": 0.9,
       "tier": "概ね良好",
       "revpar": 956.8125,
       "monthly_revenue": 5358150,
@@ -393,7 +393,7 @@
         "現場ルール・マナー": 100.0
       },
       "review_score": 8.56,
-      "cleaning_issue_rate": 5.3,
+      "cleaning_issue_rate": 5.2,
       "tier": "良好",
       "revpar": 1391.3276,
       "monthly_revenue": 7168120,
@@ -442,12 +442,12 @@
         "現場運営": 67.6,
         "現場ルール・マナー": 86.7
       },
-      "review_score": 8.8,
-      "cleaning_issue_rate": 4.5,
+      "review_score": 8.72,
+      "cleaning_issue_rate": 5.9,
       "tier": "良好",
       "revpar": 1013.1399,
       "monthly_revenue": 4425395,
-      "composite_score": 0.562
+      "composite_score": 0.56
     },
     {
       "hotel_key": "richmond_mejiro",
@@ -502,12 +502,12 @@
         "safety": 2.92
       },
       {
-        "name": "第一イン池袋",
+        "name": "コンフォートホテルERA東神田",
         "composite": 0.714,
-        "review": 9.33,
-        "claims": 5.7,
-        "time": 15.14,
-        "safety": 2.93
+        "review": 8.88,
+        "claims": 4.92,
+        "time": 15.26,
+        "safety": 3.17
       },
       {
         "name": "ダイワロイネットホテル東京大崎",
@@ -518,12 +518,12 @@
         "safety": 3.09
       },
       {
-        "name": "コンフォートホテルERA東神田",
-        "composite": 0.713,
-        "review": 8.86,
-        "claims": 4.92,
-        "time": 15.26,
-        "safety": 3.17
+        "name": "第一イン池袋",
+        "composite": 0.712,
+        "review": 9.27,
+        "claims": 5.7,
+        "time": 15.14,
+        "safety": 2.93
       },
       {
         "name": "ホテルコメント横浜関内",
@@ -544,7 +544,7 @@
       {
         "name": "変なホテル東京羽田",
         "composite": 0.682,
-        "review": 8.26,
+        "review": 8.27,
         "claims": 7.3,
         "time": 15.11,
         "safety": 3.18
@@ -559,16 +559,16 @@
       },
       {
         "name": "コンフォートホテル成田",
-        "composite": 0.662,
-        "review": 8.67,
+        "composite": 0.66,
+        "review": 8.61,
         "claims": 0,
         "time": 16.23,
         "safety": 2.62
       },
       {
         "name": "コンフォートスイーツ東京ベイ",
-        "composite": 0.653,
-        "review": 9.06,
+        "composite": 0.652,
+        "review": 9.02,
         "claims": 8.47,
         "time": 15.45,
         "safety": 3.07
@@ -584,7 +584,7 @@
       {
         "name": "ハートンホテル東品川",
         "composite": 0.622,
-        "review": 8.46,
+        "review": 8.47,
         "claims": 7.49,
         "time": 15.83,
         "safety": 3.13
@@ -598,9 +598,17 @@
         "safety": 2.87
       },
       {
+        "name": "コンフォートホテル博多",
+        "composite": 0.561,
+        "review": 8.1,
+        "claims": 9.28,
+        "time": 15.87,
+        "safety": 2.6
+      },
+      {
         "name": "ホテルケヤキゲート東京府中",
-        "composite": 0.562,
-        "review": 8.8,
+        "composite": 0.56,
+        "review": 8.72,
         "claims": 4.12,
         "time": 35.41,
         "safety": 2.87
@@ -608,18 +616,10 @@
       {
         "name": "コンフォートイン六本木",
         "composite": 0.556,
-        "review": 8.33,
+        "review": 8.34,
         "claims": 4.69,
         "time": 1225.96,
         "safety": 3.12
-      },
-      {
-        "name": "コンフォートホテル博多",
-        "composite": 0.551,
-        "review": 7.73,
-        "claims": 9.28,
-        "time": 15.87,
-        "safety": 2.6
       },
       {
         "name": "川崎日航ホテル",
@@ -634,14 +634,14 @@
       "チサンホテル浜松町",
       "リッチモンドホテル東京目白",
       "コートホテル新横浜",
-      "第一イン池袋",
+      "コンフォートホテルERA東神田",
       "ダイワロイネットホテル東京大崎"
     ],
     "bottom5_improvement": [
       "京成リッチモンドホテル東京錦糸町",
+      "コンフォートホテル博多",
       "ホテルケヤキゲート東京府中",
       "コンフォートイン六本木",
-      "コンフォートホテル博多",
       "川崎日航ホテル"
     ],
     "differentiating_factors": [
@@ -701,8 +701,8 @@
         ]
       }
     ],
-    "top5_avg_score": 8.05,
-    "bottom5_avg_score": 8.55
+    "top5_avg_score": 7.96,
+    "bottom5_avg_score": 8.61
   },
   "implementation_roadmap": {
     "phases": [
@@ -751,12 +751,12 @@
   "cross_analysis_insights": [
     {
       "title": "品質→売上の連鎖効果",
-      "finding": "スコア0.1点改善でRevPAR 2.48%向上（分析6）。クレーム50%削減で年間¥63,966,233増収（分析1）。",
+      "finding": "スコア0.1点改善でRevPAR 2.48%向上（分析6）。クレーム50%削減で年間¥69,253,400増収（分析1）。",
       "implication": "品質改善の経済効果は業界平均の2.5倍。投資対効果が非常に高い。"
     },
     {
       "title": "「チェック体制」が品質の鍵",
-      "finding": "M:C比率とスコアの相関r=-0.3835。メイド「数」より「質」と「チェック」が重要。",
+      "finding": "M:C比率とスコアの相関r=-0.4227。メイド「数」より「質」と「チェック」が重要。",
       "implication": "チェッカー配置の最適化が最もレバレッジの高い施策。"
     },
     {

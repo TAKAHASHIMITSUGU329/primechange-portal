@@ -1,10 +1,10 @@
 {
-  "total_reviews": 81,
-  "overall_avg_10pt": 8.33,
-  "high_count": 64,
-  "high_rate": 79.0,
+  "total_reviews": 82,
+  "overall_avg_10pt": 8.34,
+  "high_count": 65,
+  "high_rate": 79.3,
   "mid_count": 16,
-  "mid_rate": 19.8,
+  "mid_rate": 19.5,
   "low_count": 1,
   "low_rate": 1.2,
   "site_stats": [
@@ -37,10 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 41,
-      "native_avg": 8.12,
+      "count": 42,
+      "native_avg": 8.14,
       "scale": "/10",
-      "avg_10pt": 8.12,
+      "avg_10pt": 8.14,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -67,27 +67,27 @@
     {
       "score": 10,
       "count": 24,
-      "pct": "29.6%"
+      "pct": "29.3%"
     },
     {
       "score": 9,
-      "count": 12,
-      "pct": "14.8%"
+      "count": 13,
+      "pct": "15.9%"
     },
     {
       "score": 8,
       "count": 28,
-      "pct": "34.6%"
+      "pct": "34.1%"
     },
     {
       "score": 7,
       "count": 6,
-      "pct": "7.4%"
+      "pct": "7.3%"
     },
     {
       "score": 6,
       "count": 9,
-      "pct": "11.1%"
+      "pct": "11.0%"
     },
     {
       "score": 5,
@@ -101,6 +101,19 @@
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-09",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Lena"
+    },
     {
       "site": "Booking.com",
       "rating": 9.0,
@@ -265,7 +278,7 @@
       "comment": "While everything you could need was here, provided, tea, coffee, water filter, laundry, a great shower..., great staff and service, just the room's are just too small.. Two people travelling international,with lge bags and carry on bag each..not a spare space for a bag anywhere...",
       "good": "",
       "bad": "",
-      "translated": "必要なものはすべて揃っていて、紅茶、コーヒー、浄水器、ランドリー、素晴らしいシャワーなど、スタッフもサービスも最高だったのですが、部屋がとにかく狭すぎました。大きなスーツケースと機内持ち込みバッグをそれぞれ持っていた2人組が海外旅行をしたのですが、どこにもバッグを置くスペースがありませんでした。",
+      "translated": "必要なものはすべて揃っていて、紅茶、コーヒー、浄水器、ランドリー、素晴らしいシャワーなど、スタッフもサービスも最高だったのですが、部屋がとにかく狭すぎました。大きなスーツケースと機内持ち込みバッグをそれぞれ持っていた2人で海外旅行をしたのですが、どこにもバッグを置くスペースがありませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -798,7 +811,7 @@
       "comment": "這裏太方便了，樓下就是地鐵站，不論是自己或是朋友一起來都非常之方便，最重要的是客服人員態度10分好，10分推薦",
       "good": "",
       "bad": "",
-      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフがとても親切で助かります。本当におすすめです！",
+      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフの方々がとても親切で助かります。本当におすすめです！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍o‍m‍o‍4‍2‍9"
@@ -1151,7 +1164,7 @@
       "bad": "Il distributore di caffè è attivo solo dalle 7, sarebbe comodo prima per chi prende voli di ritorno al mattino presto",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していると便利でしょう。",
+      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していれば便利でしょう。",
       "reviewer": "Mariafrancesca"
     }
   ]

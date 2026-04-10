@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>データ構造 ER図</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Hiragino Sans', sans-serif; background: #f8f9fa; padding: 40px; }
+h1 { text-align: center; color: #333; margin-bottom: 30px; font-size: 22px; }
+.canvas { max-width: 1100px; margin: 0 auto; position: relative; }
+.tables { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; margin-bottom: 40px; }
+.table { border-collapse: collapse; box-shadow: 0 2px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; min-width: 260px; }
+.table-header { padding: 12px 16px; font-weight: bold; font-size: 14px; text-align: center; }
+.table td { padding: 8px 14px; font-size: 12px; border-top: 1px solid #e0e0e0; background: #fff; }
+.table td.key { font-weight: bold; color: #666; width: 40px; text-align: center; }
+.blue .table-header { background: #dae8fc; border-bottom: 2px solid #6c8ebf; color: #2c5282; }
+.yellow .table-header { background: #fff2cc; border-bottom: 2px solid #d6b656; color: #7b6b1a; }
+.green .table-header { background: #d5e8d4; border-bottom: 2px solid #82b366; color: #2d6a2e; }
+.red .table-header { background: #f8cecc; border-bottom: 2px solid #b85450; color: #9b2c2c; }
+.purple .table-header { background: #e1d5e7; border-bottom: 2px solid #9673a6; color: #553c7b; }
+.relations { display: flex; justify-content: center; gap: 60px; flex-wrap: wrap; margin-top: 20px; }
+.relation { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px 20px; font-size: 12px; text-align: center; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
+.relation .label { font-weight: bold; color: #555; font-size: 13px; margin-bottom: 4px; }
+.relation .desc { color: #888; }
+.arrow-label { font-size: 18px; color: #888; }
+</style>
+</head>
+<body>
+<h1>データ構造 ER図</h1>
+<div class="canvas">
+
+<div class="tables">
+  <!-- Hotel Master -->
+  <table class="table blue">
+    <tr><td colspan="2" class="table-header">ホテルマスター<br><small>hotel_reviews_all.json</small></td></tr>
+    <tr><td class="key">PK</td><td>hotel_key (string)</td></tr>
+    <tr><td></td><td>name (ホテル名)</td></tr>
+    <tr><td></td><td>overall_score (総合評価)</td></tr>
+    <tr><td></td><td>total_reviews (口コミ総数)</td></tr>
+    <tr><td></td><td>category_scores (カテゴリ別評価)</td></tr>
+    <tr><td></td><td>strengths / weaknesses</td></tr>
+  </table>
+
+  <!-- Revenue Data -->
+  <table class="table yellow">
+    <tr><td colspan="2" class="table-header">売上データ<br><small>hotel_revenue_data.json</small></td></tr>
+    <tr><td class="key">FK</td><td>hotel_key (string)</td></tr>
+    <tr><td></td><td>actual_revenue (売上)</td></tr>
+    <tr><td></td><td>occupancy_rate (稼働率)</td></tr>
+    <tr><td></td><td>adr / revpar</td></tr>
+    <tr><td></td><td>march_revenue / april_revenue</td></tr>
+    <tr><td></td><td>cleaning_data (清掃データ)</td></tr>
+  </table>
+
+  <!-- Analysis -->
+  <table class="table green">
+    <tr><td colspan="2" class="table-header">深掘り分析<br><small>analysis_1-7_data.json</small></td></tr>
+    <tr><td></td><td>A1: OTAプラットフォーム分析</td></tr>
+    <tr><td></td><td>A2: スタッフパフォーマンス</td></tr>
+    <tr><td></td><td>A3: 時系列トレンド分析</td></tr>
+    <tr><td></td><td>A4: 競合ベンチマーク</td></tr>
+    <tr><td></td><td>A5: 感情分析ヒートマップ</td></tr>
+    <tr><td></td><td>A6: 品質 x 売上相関</td></tr>
+    <tr><td></td><td>A7: 清掃品質深掘り</td></tr>
+  </table>
+</div>
+
+<div class="tables">
+  <!-- Delta -->
+  <table class="table red">
+    <tr><td colspan="2" class="table-header">差分データ<br><small>deltas.json</small></td></tr>
+    <tr><td class="key">FK</td><td>hotel_key</td></tr>
+    <tr><td></td><td>score_delta / review_count_delta</td></tr>
+    <tr><td></td><td>snapshot_date (スナップショット日)</td></tr>
+  </table>
+
+  <!-- Portfolio -->
+  <table class="table purple">
+    <tr><td colspan="2" class="table-header">ポートフォリオ分析<br><small>portfolio_analysis.json</small></td></tr>
+    <tr><td></td><td>portfolio_kpi (全体KPI)</td></tr>
+    <tr><td></td><td>rankings (ランキング)</td></tr>
+    <tr><td></td><td>cross_hotel_insights (横断分析)</td></tr>
+  </table>
+</div>
+
+<div class="relations">
+  <div class="relation"><div class="label">ホテルマスター → 売上データ</div><div class="desc">1:1 (hotel_keyで結合)</div></div>
+  <div class="relation"><div class="label">ホテルマスター → 差分データ</div><div class="desc">1:N (日次スナップショット)</div></div>
+  <div class="relation"><div class="label">ホテルマスター → 深掘り分析</div><div class="desc">N:1 (複数ホテルを横断分析)</div></div>
+  <div class="relation"><div class="label">深掘り分析 → ポートフォリオ</div><div class="desc">集約 (全体サマリー)</div></div>
+</div>
+
+</div>
+</body>
+</html>

@@ -10,23 +10,23 @@
   "staffing_analysis": {
     "correlations": {
       "staff_vs_score": {
-        "r": -0.1049,
-        "r_squared": 0.011,
+        "r": -0.073,
+        "r_squared": 0.0053,
         "n": 17
       },
       "maids_vs_score": {
-        "r": -0.0623,
-        "r_squared": 0.0039,
+        "r": -0.021,
+        "r_squared": 0.0004,
         "n": 19
       },
       "checkers_vs_score": {
-        "r": -0.0652,
-        "r_squared": 0.0043,
+        "r": -0.0596,
+        "r_squared": 0.0036,
         "n": 17
       },
       "ratio_vs_score": {
-        "r": -0.3835,
-        "r_squared": 0.1471,
+        "r": -0.4227,
+        "r_squared": 0.1787,
         "n": 17
       },
       "staff_vs_claims": {
@@ -38,25 +38,18 @@
       "low_staff": {
         "count": 9,
         "avg_maids": 7.0,
-        "avg_score": 8.54,
+        "avg_score": 8.53,
         "avg_claim_rate": 5.57
       },
       "high_staff": {
         "count": 10,
         "avg_maids": 12.6,
-        "avg_score": 8.13,
+        "avg_score": 8.15,
         "avg_claim_rate": 6.55
       }
     },
     "optimal_staffing": {
       "top5_hotels": [
-        {
-          "name": "第一イン池袋",
-          "avg_maids": 5.6,
-          "avg_checkers": 3.6,
-          "ratio": 1.6,
-          "score": 9.33
-        },
         {
           "name": "京成リッチモンドホテル東京錦糸町",
           "avg_maids": 8.3,
@@ -65,18 +58,25 @@
           "score": 9.31
         },
         {
+          "name": "第一イン池袋",
+          "avg_maids": 5.6,
+          "avg_checkers": 3.6,
+          "ratio": 1.6,
+          "score": 9.27
+        },
+        {
           "name": "コンフォートスイーツ東京ベイ",
           "avg_maids": 23.4,
           "avg_checkers": 6.0,
           "ratio": 3.9,
-          "score": 9.06
+          "score": 9.02
         },
         {
           "name": "コンフォートホテルERA東神田",
           "avg_maids": 8.1,
           "avg_checkers": null,
           "ratio": null,
-          "score": 8.86
+          "score": 8.88
         },
         {
           "name": "ホテルコメント横浜関内",
@@ -120,7 +120,7 @@
           "avg_maids": 17.3,
           "avg_checkers": 5.2,
           "ratio": 3.3,
-          "score": 7.73
+          "score": 8.1
         }
       ],
       "top5_avg_ratio": 3.2,
@@ -158,8 +158,8 @@
         "avg_checkers": 1.6,
         "avg_total_staff": 13.8,
         "maid_checker_ratio": 7.8,
-        "score": 8.46,
-        "cleaning_issue_rate": 7.1,
+        "score": 8.47,
+        "cleaning_issue_rate": 6.9,
         "claim_rate": 7.49,
         "maid_data_points": 67
       },
@@ -170,8 +170,8 @@
         "avg_checkers": 1.4,
         "avg_total_staff": 11.8,
         "maid_checker_ratio": 7.2,
-        "score": 8.8,
-        "cleaning_issue_rate": 4.5,
+        "score": 8.72,
+        "cleaning_issue_rate": 5.9,
         "claim_rate": 4.12,
         "maid_data_points": 67
       },
@@ -206,8 +206,8 @@
         "avg_checkers": 3.6,
         "avg_total_staff": 9.2,
         "maid_checker_ratio": 1.6,
-        "score": 9.33,
-        "cleaning_issue_rate": 5.7,
+        "score": 9.27,
+        "cleaning_issue_rate": 6.6,
         "claim_rate": 5.7,
         "maid_data_points": 45
       },
@@ -218,7 +218,7 @@
         "avg_checkers": 1.0,
         "avg_total_staff": 6.5,
         "maid_checker_ratio": 5.5,
-        "score": 8.33,
+        "score": 8.34,
         "cleaning_issue_rate": 4.9,
         "claim_rate": 4.69,
         "maid_data_points": 43
@@ -230,7 +230,7 @@
         "avg_checkers": 6.0,
         "avg_total_staff": 29.4,
         "maid_checker_ratio": 3.9,
-        "score": 9.06,
+        "score": 9.02,
         "cleaning_issue_rate": 0.0,
         "claim_rate": 8.47,
         "maid_data_points": 67
@@ -242,8 +242,8 @@
         "avg_checkers": null,
         "avg_total_staff": null,
         "maid_checker_ratio": null,
-        "score": 8.86,
-        "cleaning_issue_rate": 2.4,
+        "score": 8.88,
+        "cleaning_issue_rate": 2.2,
         "claim_rate": 4.92,
         "maid_data_points": 58
       },
@@ -254,7 +254,7 @@
         "avg_checkers": 1.0,
         "avg_total_staff": 8.7,
         "maid_checker_ratio": 7.7,
-        "score": 8.67,
+        "score": 8.61,
         "cleaning_issue_rate": 2.2,
         "claim_rate": 0,
         "maid_data_points": 18
@@ -326,8 +326,8 @@
         "avg_checkers": 3.2,
         "avg_total_staff": 15.4,
         "maid_checker_ratio": 3.7,
-        "score": 8.26,
-        "cleaning_issue_rate": 1.0,
+        "score": 8.27,
+        "cleaning_issue_rate": 0.9,
         "claim_rate": 7.3,
         "maid_data_points": 56
       },
@@ -339,7 +339,7 @@
         "avg_total_staff": 9.9,
         "maid_checker_ratio": 1.9,
         "score": 8.56,
-        "cleaning_issue_rate": 5.3,
+        "cleaning_issue_rate": 5.2,
         "claim_rate": 16.79,
         "maid_data_points": 63
       },
@@ -350,8 +350,8 @@
         "avg_checkers": 5.2,
         "avg_total_staff": 22.5,
         "maid_checker_ratio": 3.3,
-        "score": 7.73,
-        "cleaning_issue_rate": 15.0,
+        "score": 8.1,
+        "cleaning_issue_rate": 9.7,
         "claim_rate": 9.28,
         "maid_data_points": 53
       }
@@ -359,21 +359,6 @@
     "total_hotels_analyzed": 19
   },
   "hotel_summary": [
-    {
-      "hotel_key": "daiichi_ikebukuro",
-      "name": "第一イン池袋",
-      "days": 89,
-      "avg_maids": 5.6,
-      "avg_checkers": 3.6,
-      "maid_checker_ratio": 1.6,
-      "avg_completion_time": 15.14,
-      "time_std": 0.2,
-      "avg_rooms_per_maid": null,
-      "score": 9.33,
-      "claim_rate": 5.7,
-      "maid_data_points": 45,
-      "time_data_points": 11
-    },
     {
       "hotel_key": "keisei_richmond",
       "name": "京成リッチモンドホテル東京錦糸町",
@@ -390,6 +375,21 @@
       "time_data_points": 52
     },
     {
+      "hotel_key": "daiichi_ikebukuro",
+      "name": "第一イン池袋",
+      "days": 89,
+      "avg_maids": 5.6,
+      "avg_checkers": 3.6,
+      "maid_checker_ratio": 1.6,
+      "avg_completion_time": 15.14,
+      "time_std": 0.2,
+      "avg_rooms_per_maid": null,
+      "score": 9.27,
+      "claim_rate": 5.7,
+      "maid_data_points": 45,
+      "time_data_points": 11
+    },
+    {
       "hotel_key": "comfort_suites_tokyobay",
       "name": "コンフォートスイーツ東京ベイ",
       "days": 89,
@@ -399,7 +399,7 @@
       "avg_completion_time": 15.45,
       "time_std": 0.52,
       "avg_rooms_per_maid": 11.3,
-      "score": 9.06,
+      "score": 9.02,
       "claim_rate": 8.47,
       "maid_data_points": 67,
       "time_data_points": 66
@@ -414,7 +414,7 @@
       "avg_completion_time": 15.26,
       "time_std": 0.61,
       "avg_rooms_per_maid": 19.0,
-      "score": 8.86,
+      "score": 8.88,
       "claim_rate": 4.92,
       "maid_data_points": 58,
       "time_data_points": 42
@@ -444,7 +444,7 @@
       "avg_completion_time": 35.41,
       "time_std": 169.26,
       "avg_rooms_per_maid": 13.8,
-      "score": 8.8,
+      "score": 8.72,
       "claim_rate": 4.12,
       "maid_data_points": 67,
       "time_data_points": 66
@@ -474,7 +474,7 @@
       "avg_completion_time": 16.23,
       "time_std": 0.5,
       "avg_rooms_per_maid": 14.7,
-      "score": 8.67,
+      "score": 8.61,
       "claim_rate": 0,
       "maid_data_points": 18,
       "time_data_points": 16
@@ -519,7 +519,7 @@
       "avg_completion_time": 15.83,
       "time_std": 0.4,
       "avg_rooms_per_maid": null,
-      "score": 8.46,
+      "score": 8.47,
       "claim_rate": 7.49,
       "maid_data_points": 67,
       "time_data_points": 65
@@ -534,7 +534,7 @@
       "avg_completion_time": 1225.96,
       "time_std": 575.96,
       "avg_rooms_per_maid": 17.5,
-      "score": 8.33,
+      "score": 8.34,
       "claim_rate": 4.69,
       "maid_data_points": 43,
       "time_data_points": 38
@@ -549,7 +549,7 @@
       "avg_completion_time": 15.11,
       "time_std": 0.2,
       "avg_rooms_per_maid": 11.9,
-      "score": 8.26,
+      "score": 8.27,
       "claim_rate": 7.3,
       "maid_data_points": 56,
       "time_data_points": 54
@@ -579,7 +579,7 @@
       "avg_completion_time": 15.87,
       "time_std": 0.72,
       "avg_rooms_per_maid": 13.0,
-      "score": 7.73,
+      "score": 8.1,
       "claim_rate": 9.28,
       "maid_data_points": 53,
       "time_data_points": 58
@@ -658,7 +658,7 @@
     },
     {
       "title": "チェッカー配置とスコアの連動強化",
-      "rationale": "チェッカー数とスコアの相関r=-0.0652。チェッカーによる品質検査がスコア改善の鍵。",
+      "rationale": "チェッカー数とスコアの相関r=-0.0596。チェッカーによる品質検査がスコア改善の鍵。",
       "actions": [
         "チェッカー配置率100%を目標に採用・配置計画を策定",
         "チェッカー研修プログラムの統一と強化",
