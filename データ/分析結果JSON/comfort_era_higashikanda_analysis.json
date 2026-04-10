@@ -1,12 +1,12 @@
 {
-  "total_reviews": 91,
-  "overall_avg_10pt": 8.88,
-  "high_count": 80,
-  "high_rate": 87.9,
-  "mid_count": 6,
-  "mid_rate": 6.6,
+  "total_reviews": 67,
+  "overall_avg_10pt": 8.78,
+  "high_count": 59,
+  "high_rate": 88.1,
+  "mid_count": 3,
+  "mid_rate": 4.5,
   "low_count": 5,
-  "low_rate": 5.5,
+  "low_rate": 7.5,
   "site_stats": [
     {
       "site": "Agoda",
@@ -28,396 +28,79 @@
     },
     {
       "site": "Trip.com",
-      "count": 22,
-      "native_avg": 9.5,
+      "count": 14,
+      "native_avg": 9.79,
       "scale": "/10",
-      "avg_10pt": 9.5,
+      "avg_10pt": 9.79,
       "median_10pt": 10.0,
       "judgment": "優秀"
     },
     {
-      "site": "楽天トラベル",
-      "count": 6,
-      "native_avg": 4.5,
-      "scale": "/5",
-      "avg_10pt": 9.0,
-      "median_10pt": 9.0,
-      "judgment": "優秀"
+      "site": "Booking.com",
+      "count": 34,
+      "native_avg": 8.91,
+      "scale": "/10",
+      "avg_10pt": 8.91,
+      "median_10pt": 9.5,
+      "judgment": "良好"
     },
     {
-      "site": "Booking.com",
-      "count": 43,
-      "native_avg": 8.95,
-      "scale": "/10",
-      "avg_10pt": 8.95,
-      "median_10pt": 9.0,
+      "site": "楽天トラベル",
+      "count": 5,
+      "native_avg": 4.4,
+      "scale": "/5",
+      "avg_10pt": 8.8,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Google",
-      "count": 18,
-      "native_avg": 3.89,
+      "count": 12,
+      "native_avg": 3.5,
       "scale": "/5",
-      "avg_10pt": 7.78,
-      "median_10pt": 9.0,
+      "avg_10pt": 7.0,
+      "median_10pt": 8.0,
       "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 54,
-      "pct": "59.3%"
+      "count": 39,
+      "pct": "58.2%"
     },
     {
       "score": 9,
-      "count": 7,
-      "pct": "7.7%"
+      "count": 4,
+      "pct": "6.0%"
     },
     {
       "score": 8,
-      "count": 19,
-      "pct": "20.9%"
+      "count": 16,
+      "pct": "23.9%"
     },
     {
       "score": 7,
-      "count": 4,
-      "pct": "4.4%"
-    },
-    {
-      "score": 6,
-      "count": 2,
-      "pct": "2.2%"
+      "count": 3,
+      "pct": "4.5%"
     },
     {
       "score": 4,
       "count": 1,
-      "pct": "1.1%"
+      "pct": "1.5%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.1%"
+      "pct": "1.5%"
     },
     {
       "score": 2,
       "count": 3,
-      "pct": "3.3%"
+      "pct": "4.5%"
     }
   ],
   "comments": [
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-10",
-      "comment": "房間大小還不錯，隔音很好很安靜，check in 的時候因為看到是中國護照，還特地有台灣小哥辦理，很舒適的兩晚。",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は適度な広さで、防音性も抜群で静かでした。チェックインの際、私が中国のパスポートを持っていることに気づいた台湾人の男性が親切に対応してくれました。とても快適な2泊でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-10",
-      "comment": "Чисто, хорошие сотрудники на ресепшен. Со всем могут помочь.",
-      "good": "",
-      "bad": "",
-      "translated": "清潔で親切な受付スタッフ。どんなことでも手伝ってくれます。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-10",
-      "comment": "",
-      "good": "Selective but good, nutritious breakfast. Convenient relaxing common room with free coffee and snacks. Very clean throughout and comfortable beds. Friendly attentive staff and daily room servicing. Relatively close to Tokyo Station and the Bullet Train.",
-      "bad": "Wine selection could have been better, but the free tasting helped. About a 500 metre walk to the nearest local station (Bakurocho) and restaurant precinct. Lots of steps and no escalators at the station - ideal for getting some exercise, if needed.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "ワインの品揃えはもう少し充実していても良かったが、無料試飲はありがたかった。最寄りの駅（馬呂町駅）と飲食店街までは徒歩約500メートル。駅には階段が多くエスカレーターはないので、運動不足解消には最適だ。",
-      "reviewer": "Graham"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-10",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Ioannis"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-04-10",
-      "comment": "出張で宿泊する分には全く問題ありません。 所謂普通のビジネスホテルです。",
-      "good": "",
-      "bad": "",
-      "translated": "出張で宿泊する分には全く問題ありません。 所謂普通のビジネスホテルです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-09",
-      "comment": "最高の朝食とフレンドリーなスタッフ😍 とても親切で可愛かったです。部屋も素敵で、温かい便座も良かったです。もちろんまたすぐに戻ってきます xx",
-      "good": "",
-      "bad": "",
-      "translated": "最高の朝食とフレンドリーなスタッフ😍 とても親切で可愛かったです。部屋も素敵で、温かい便座も良かったです。もちろんまたすぐに戻ってきます xx",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Honey Boobee"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-09",
-      "comment": "Best breakfast and friendly staffs 😍 they’re so nice and kawaii too.  The room  was so nice as well as the warm toilet seat and ofc I will be back soon xx",
-      "good": "",
-      "bad": "",
-      "translated": "最高の朝食とフレンドリーなスタッフ😍 とても親切で可愛かったです。部屋も素敵で、温かい便座も良かったです。もちろんまたすぐに戻ってきますxx",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Honey Boobee"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-08",
-      "comment": "",
-      "good": "La ubicación es muy buena, queda cerca de varias estaciones que conectan muy bien y de la asakusa line que es la que te trae y te lleva al aeropuerto",
-      "bad": "Las habitaciones son pequeñas para estándares occidentales, pero no para los estándares en Tokio",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "部屋は欧米の基準からすると狭いが、東京の基準からするとそうでもない。",
-      "reviewer": "Katerin"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-07",
-      "comment": "",
-      "good": "Clean and comfortable",
-      "bad": "Location is far from most sites although good access by subway is good",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "立地はほとんどの観光スポットから遠いが、地下鉄でのアクセスは良好である。",
-      "reviewer": "Clare"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-07",
-      "comment": "Удобное расположение, классные сотрудники на ресепшене. Завтрак окей. Мест в номере было достаточно",
-      "good": "",
-      "bad": "",
-      "translated": "立地が便利で、受付スタッフも素晴らしかったです。朝食はまあまあでした。部屋は十分な広さでした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-05",
-      "comment": "I had a great stay at this hotel and would highly recommend it. I stayed here as a solo traveller and felt safe walking back to the hotel during evenings and early mornings.  The receptionists were attentive, helpful, and always present at the counter. They also offer luggage storage, which is very convenient if you’re checking out but want to explore the area a bit more or are transitioning to another city or coming from the airport.  The location is great, with multiple train stations nearby, and it’s within walking distance to Akihabara and Ueno. There’s also a 7-Eleven close by, which is perfect for grabbing a quick bite if you’re heading out early.  Amenities are well provided and can be collected from the lobby. I also enjoyed the communal lounge/library area, where free snacks, coffee, and cold drinks are available. Umbrellas are also provided, which is very helpful during rainy days.  The room was kept very clean, with daily makeup service done well. During my stay, I used the laundry facilities (coin-operated), which worked perfectly.  The hotel is very quiet and peaceful, with no noise issues. The only minor downside was that I could occasionally smell some sewage from the drain during showers, but it wasn’t too strong or overwhelming.",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルでの滞在は素晴らしく、強くお勧めします。一人旅でしたが、夜や早朝にホテルまで歩いて帰る際も安全だと感じました。受付スタッフは親切で気配りが行き届いており、常にカウンターにいました。チェックアウト後も周辺を少し散策したい場合や、別の都市へ移動する場合、空港から来た場合などに便利な荷物預かりサービスもあります。立地も抜群で、近くに複数の駅があり、秋葉原や上野へも徒歩圏内です。近くにセブンイレブンもあるので、早朝に出かける際にちょっとした軽食を買うのに最適です。アメニティも充実しており、ロビーで受け取ることができます。無料のスナック、コーヒー、冷たい飲み物が用意されている共用ラウンジ/ライブラリーエリアも気に入りました。傘も用意されているので、雨の日にもとても便利です。部屋は常に清潔に保たれており、毎日のメイクアップサービスも行き届いていました。滞在中、コインランドリーを利用しましたが、問題なく使えました。ホテルはとても静かで穏やかで、騒音の問題は全くありませんでした。唯一の小さな難点は、シャワー中に排水溝から時折下水の臭いがすることでしたが、それほど強い臭いではなく、耐えられないほどではありませんでした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-05",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Livio"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-03",
-      "comment": "平日で駐車場が空いていたので助かりました！ラウンジのスナック美味しい！本もちゃんとある！バイキングおしゃれ！ベッド広い！大満足です。フロントの方もみなさん親切でした。リピ大いに有りです！",
-      "good": "",
-      "bad": "",
-      "translated": "平日で駐車場が空いていたので助かりました！ラウンジのスナック美味しい！本もちゃんとある！バイキングおしゃれ！ベッド広い！大満足です。フロントの方もみなさん親切でした。リピ大いに有りです！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ぱらちゃん5654"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-03",
-      "comment": "",
-      "good": "Das Zimmer war sauber und verhältnismäßig groß.",
-      "bad": "Nichts",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "何もない",
-      "reviewer": "Sabine"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-03",
-      "comment": "秋葉原近辺のホテルをお探しなら、ここは中心部に位置する非常に便利なホテルです。  客室は典型的な東京の部屋で、やや狭めです。事前チェックインサービスも利用できます。  唯一の難点は朝食で、もう少し種類が豊富だと良いと思います。",
-      "good": "",
-      "bad": "",
-      "translated": "秋葉原近辺のホテルをお探しなら、ここは中心部に位置する非常に便利なホテルです。  客室は典型的な東京の部屋で、やや狭めです。事前チェックインサービスも利用できます。  唯一の難点は朝食で、もう少し種類が豊富だと良いと思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Ayca"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-03",
-      "comment": "Akihibaranın yakınında bir otel arayışı içindeyseniz gayet merkezi bir hotel. Odalar klasik tokyo odaları olup küçük, bavulu önceden gönderme servisleri kabul ediyorlar. Tek kritiğim, Kahvaltı konusunda, biraz daha çeşitlilik sunabilirler.",
-      "good": "",
-      "bad": "",
-      "translated": "秋葉原近辺のホテルをお探しなら、ここは中心部に位置する非常に便利なホテルです。客室は典型的な東京の部屋で、やや狭めですが、チェックイン代行サービスも利用できます。唯一の難点は朝食で、もう少し種類が豊富だと良いと思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Ayca"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-04-02",
-      "comment": "Overall average, hotel cleaning was good. Rest needs improvement",
-      "good": "",
-      "bad": "",
-      "translated": "全体的に見て、ホテルの清掃は良かった。その他は改善が必要。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "",
-      "good": "The staff were always wonderful and happy to assist with any questions. The breakfasts every day were excellent and varied. The location was super - there were about five different stations (metro and JR) within a ten minute walk of the hotel, so getting anywhere in Tokyo was easy. The bed was comfy and everything in the room worked well.",
-      "bad": "-",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "-",
-      "reviewer": "Daniel"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "отличный отель! рядом несколько станций метро, номера чистые, ежедневная уборка, свежие полотенца, тапочки и зубной набор. персонал вежливый, готов всегда помочь. недалеко от аэропорта Ханеда. рекомендую, сама тоже остановлюсь вновь в следующий раз",
-      "good": "",
-      "bad": "",
-      "translated": "素晴らしいホテルです！近くに地下鉄の駅が複数あり、部屋は清潔で、毎日清掃が行われ、清潔なタオル、スリッパ、歯磨きセットが用意されています。スタッフは礼儀正しく、いつでも親切に対応してくれます。羽田空港にも近いです。おすすめです。次回もまた利用したいと思います。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "S‍h‍e‍v‍c‍h‍e‍n‍k‍o‍ ‍E‍l‍l‍a"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "非常好，值得再次光臨",
-      "good": "",
-      "bad": "",
-      "translated": "素晴らしい！間違いなくまた訪れたい。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "K‍i‍k‍i‍k‍i‍7‍7"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-02",
-      "comment": "",
-      "good": "Tout sauf une personne à l’accueil un grand Mr pas très sympa pour une personne qui travail à la réception d’un hôtel",
-      "bad": "Tout sauf une personne à l’accueil un grand Mr pas très sympa pour une personne qui travail à la réception d’un hôtel",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "ホテルの受付にいたのは、決して親切な人ではなく、背が高くて愛想の悪い男だった。",
-      "reviewer": "Hyssam"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "日本旅行中にセイヤカンを試してみようと思っていたところ、偶然にもサービスを利用することになりました。手続きはとてもスムーズで、外国人にも利用しやすく、価格もリーズナブルでした。一番驚いたのは、写真が偽物に見えなかったことです。実際の商品は写真とほぼ同じでした。興味のある方は、ぜひご自身で調べてみてください。「セイヤカン 日本 ドアツードアサービス」で検索すれば見つかります。  ✈️Telegram: meiyou06 / Gleezy: meiyou008 / 公式アカウント: (@951iboll)",
-      "good": "",
-      "bad": "",
-      "translated": "日本旅行中にセイヤカンを試してみようと思っていたところ、偶然にもサービスを利用することになりました。手続きはとてもスムーズで、外国人にも利用しやすく、価格もリーズナブルでした。一番驚いたのは、写真が偽物に見えなかったことです。実際の商品は写真とほぼ同じでした。興味のある方は、ぜひご自身で調べてみてください。「セイヤカン 日本 ドアツードアサービス」で検索すれば見つかります。  ✈️Telegram: meiyou06 / Gleezy: meiyou008 / 公式アカウント: (@951iboll)",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Rosy Khan"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "日本旅遊期間想說試看看 剛好用到青雅館 流程蠻順的 外國人也OK，價格也正常 最意外是沒有照騙 實際來的跟照片差不多 有興趣可以自己查一下 google搜「青雅館 日本上門」就有 ✈️Telegram：meiyou06 / Gleezy：meiyou008 / 賴官方：（@951iboll )",
-      "good": "",
-      "bad": "",
-      "translated": "日本旅行中にセイヤカンを試してみようと思っていたのですが、まさに完璧でした。手続きはスムーズで、外国人にも門戸を開いてくれていて、値段も手頃でした。一番驚いたのは、実際の商品が写真とほとんど同じだったことです。興味のある方は、「セイヤカン 日本 ドアツードア サービス」で検索してみてください。✈️Telegram: meiyou06 / Gleezy: meiyou008 / Official Lai: (@951iboll)",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Rosy Khan"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "Good Breakfast, quite rooms",
-      "bad": "The rooms were too small and breakfast time was limiting",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "部屋が狭すぎたし、朝食の時間も限られていた。",
-      "reviewer": "Gitonga"
-    },
     {
       "site": "Booking.com",
       "rating": 8.0,

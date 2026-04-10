@@ -1,16 +1,16 @@
 {
-  "total_reviews": 93,
-  "overall_avg_10pt": 8.61,
-  "high_count": 79,
-  "high_rate": 84.9,
-  "mid_count": 11,
-  "mid_rate": 11.8,
-  "low_count": 3,
-  "low_rate": 3.2,
+  "total_reviews": 73,
+  "overall_avg_10pt": 8.56,
+  "high_count": 61,
+  "high_rate": 83.6,
+  "mid_count": 10,
+  "mid_rate": 13.7,
+  "low_count": 2,
+  "low_rate": 2.7,
   "site_stats": [
     {
       "site": "Trip.com",
-      "count": 15,
+      "count": 10,
       "native_avg": 9.4,
       "scale": "/10",
       "avg_10pt": 9.4,
@@ -19,11 +19,20 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 16,
-      "native_avg": 4.44,
+      "count": 12,
+      "native_avg": 4.42,
       "scale": "/5",
-      "avg_10pt": 8.88,
+      "avg_10pt": 8.83,
       "median_10pt": 10.0,
+      "judgment": "良好"
+    },
+    {
+      "site": "Google",
+      "count": 11,
+      "native_avg": 4.27,
+      "scale": "/5",
+      "avg_10pt": 8.55,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
@@ -36,21 +45,12 @@
       "judgment": "良好"
     },
     {
-      "site": "Google",
-      "count": 17,
-      "native_avg": 4.24,
-      "scale": "/5",
-      "avg_10pt": 8.47,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
       "site": "Booking.com",
-      "count": 32,
-      "native_avg": 8.41,
+      "count": 27,
+      "native_avg": 8.37,
       "scale": "/10",
-      "avg_10pt": 8.41,
-      "median_10pt": 8.5,
+      "avg_10pt": 8.37,
+      "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
@@ -66,301 +66,41 @@
   "distribution": [
     {
       "score": 10,
-      "count": 37,
-      "pct": "39.8%"
+      "count": 28,
+      "pct": "38.4%"
     },
     {
       "score": 9,
-      "count": 13,
-      "pct": "14.0%"
+      "count": 10,
+      "pct": "13.7%"
     },
     {
       "score": 8,
-      "count": 29,
-      "pct": "31.2%"
+      "count": 23,
+      "pct": "31.5%"
     },
     {
       "score": 7,
-      "count": 5,
-      "pct": "5.4%"
+      "count": 4,
+      "pct": "5.5%"
     },
     {
       "score": 6,
       "count": 6,
-      "pct": "6.5%"
+      "pct": "8.2%"
     },
     {
       "score": 4,
-      "count": 2,
-      "pct": "2.2%"
+      "count": 1,
+      "pct": "1.4%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "1.1%"
+      "pct": "1.4%"
     }
   ],
   "comments": [
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-09",
-      "comment": "",
-      "good": "La habitación estuvo muy comoda a unos pasos de la estación Narita,",
-      "bad": "Que no tuviera traslado al aeropuerto , pero eso la lo sabía",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "彼女は空港への乗り継ぎ便がないことを知っていた。",
-      "reviewer": "Julio"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-09",
-      "comment": "Its room is quite bigger than most hotels in Japan. The breakfast was good. The hotel is a 5min walk to the station. Overall a convenient hotel.",
-      "good": "",
-      "bad": "",
-      "translated": "部屋は日本のほとんどのホテルよりもかなり広い。朝食も美味しかった。ホテルは駅から徒歩5分。全体的に便利なホテルだ。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "N‍i‍k‍k‍o‍ ‍P‍a‍j‍a‍r‍i‍l‍l‍a"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-09",
-      "comment": "バスアメニティが足りなくはないが　もう少し欲しい。朝食美味しい。JR駅からは回り込んで行く感じ",
-      "good": "",
-      "bad": "",
-      "translated": "バスアメニティが足りなくはないが　もう少し欲しい。朝食美味しい。JR駅からは回り込んで行く感じ",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "かなですが"
-    },
-    {
-      "site": "Google",
-      "rating": 2.0,
-      "rating_10pt": 4.0,
-      "date": "2026-04-09",
-      "comment": "服務友善、價格合理，而且交通方便  但4/9早晨櫃檯人員林永富除外。  態度極其惡劣、語氣輕佻與不耐煩，不想接待可以不用勉強。  一顆老鼠屎壞了一鍋粥。  接客や価格、立地に関しては満足しております。 しかし、4月9日の朝に勤務していたフロントの林永富氏の対応には非常に失望しました。 非常に高圧的かつ不真面目な態度で、こちらの気分を害するものでした。仕事への意欲がないのであれば、接客に立つべきではないと感じます。  I found the service to be welcoming, the pricing fair, and the location excellent. However, I must highlight a very poor experience with a staff member named 林永富（Lin Yong-fu） on the morning of April 9th. His behavior was highly unprofessional, characterized by a dismissive and disrespectful tone. Such a lack of basic courtesy is unacceptable in a customer service role.",
-      "good": "",
-      "bad": "",
-      "translated": "服務友善、價格合理，而且交通方便  但4/9早晨櫃檯人員林永富除外。  態度極其惡劣、語氣輕佻與不耐煩，不想接待可以不用勉強。  一顆老鼠屎壞了一鍋粥。  接客や価格、立地に関しては満足しております。 しかし、4月9日の朝に勤務していたフロントの林永富氏の対応には非常に失望しました。 非常に高圧的かつ不真面目な態度で、こちらの気分を害するものでした。仕事への意欲がないのであれば、接客に立つべきではないと感じます。  I found the service to be welcoming, the pricing fair, and the location excellent. However, I must highlight a very poor experience with a staff member named 林永富（Lin Yong-fu） on the morning of April 9th. His behavior was highly unprofessional, characterized by a dismissive and disrespectful tone. Such a lack of basic courtesy is unacceptable in a customer service role.",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Yan Saint"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-08",
-      "comment": "",
-      "good": "房間大，員工服務態度佳",
-      "bad": "房間內燈光亮度不足。",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "部屋は薄暗かった。",
-      "reviewer": "Pei"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-08",
-      "comment": "スタッフの皆さんが笑顔で気持ちいいです！",
-      "good": "",
-      "bad": "",
-      "translated": "スタッフの皆さんが笑顔で気持ちいいです！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "あきみさん"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-07",
-      "comment": "トランジットのため、海外渡航前後に２回ほど利用しました。 京成成田駅に近いため、空港利用者にとって大変便利です。 スタッフのみなさんも親切で、滞在中は快適に過ごすことが出来ました。 また宿泊する機会がありましたら、よろしくお願いします。",
-      "good": "",
-      "bad": "",
-      "translated": "トランジットのため、海外渡航前後に２回ほど利用しました。 京成成田駅に近いため、空港利用者にとって大変便利です。 スタッフのみなさんも親切で、滞在中は快適に過ごすことが出来ました。 また宿泊する機会がありましたら、よろしくお願いします。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ケンヨウ"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-05",
-      "comment": "駅近くの立地で移動に便利。 連泊だったけど、朝食も少しずつメニューを変えていてよかった。スタッフのちょっとした対応が温かくてよかった。",
-      "good": "",
-      "bad": "",
-      "translated": "駅近くの立地で移動に便利。 連泊だったけど、朝食も少しずつメニューを変えていてよかった。スタッフのちょっとした対応が温かくてよかった。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "でぶさんと大吉"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-04",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Joel"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-03",
-      "comment": "ที่พักอาจจะเก่าไปนิด แต่สะดวกเพราะอยู่ใกล้รถไฟ ใกล้สนามบิน",
-      "good": "",
-      "bad": "",
-      "translated": "宿泊施設は少し古いかもしれませんが、駅と空港に近いので便利です。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ป‍อ‍ป‍ี‍้‍ย‍ิ‍้‍ม"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-02",
-      "comment": "とってもよかったです。成田空港近くのホテルは古いまま以上してるところが多い一方、コンフォート成田は清潔、かつとてもきめ細やかなサービスなので、とても安心して宿泊出来ました。1点、湯船がもう少し広ければと思いましたが、それもカバーできるほどの良さでした。空港からもJR、京成出すぐなので成田空港を頻繁に使う自分としては、とてもおすすめです。",
-      "good": "",
-      "bad": "",
-      "translated": "とってもよかったです。成田空港近くのホテルは古いまま以上してるところが多い一方、コンフォート成田は清潔、かつとてもきめ細やかなサービスなので、とても安心して宿泊出来ました。1点、湯船がもう少し広ければと思いましたが、それもカバーできるほどの良さでした。空港からもJR、京成出すぐなので成田空港を頻繁に使う自分としては、とてもおすすめです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "S‍Z‍4‍2‍5"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-02",
-      "comment": "朝食サービスが内容、時間共に最高でした。 忙しい朝にぴったりでした！",
-      "good": "",
-      "bad": "",
-      "translated": "朝食サービスが内容、時間共に最高でした。 忙しい朝にぴったりでした！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "ゲ‍ス‍ト"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-02",
-      "comment": "全体的には、まあまあです。",
-      "good": "",
-      "bad": "",
-      "translated": "全体的には、まあまあです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "游俊廷"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-02",
-      "comment": "整體來說 還OK",
-      "good": "",
-      "bad": "",
-      "translated": "全体的には、まあまあです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "游俊廷"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "The staff at this place were very helpful and friendly. The dining room area can be used at any time and they have a microwave and coffee maker that you can use. It also overlooks a small part of the city. The rooms were spacious and very comfortable.",
-      "good": "",
-      "bad": "",
-      "translated": "このホテルのスタッフはとても親切でフレンドリーでした。ダイニングエリアはいつでも利用でき、電子レンジとコーヒーメーカーも備え付けられています。また、街の一部が少し見えるのも魅力です。客室は広々としていて、とても快適でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Mark Shimei"
-    },
-    {
-      "site": "Trip.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "Booked 2 nights in order to kept room for late checkout the next day as my flight is in the evening. Very good location. 2 Lawson stores nearby and near Narita rail station for easy access to Narita airport ! Many eatery and old Japan charm shops houses and walking distance to nearby Naritasan temples ! It is definitely a better comfort hotel than the one I stayed in Fukuoka",
-      "good": "",
-      "bad": "",
-      "translated": "翌日のフライトが夕方なので、レイトチェックアウトのために2泊予約しました。立地は最高です。近くにローソンが2店舗あり、成田空港へのアクセスも便利な成田駅もすぐ近くです！飲食店や昔ながらの日本の趣のあるお店がたくさんあり、近くの成田山のお寺にも徒歩圏内です！福岡で泊まったホテルよりも断然快適でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "T‍e‍o‍ ‍T"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 8.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kawi"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "Posizione ottimale, a pochi passi dalla stazione e quindi molto comodo per prendere i voli su aeroporto di Narita. Stanza ampia, pulita e confortevole con rifacimento quotidiano. Self check in e out per un ingresso e uscita rapido e veloce. Colazione a buffet varia e buona.",
-      "bad": "Nulla da segnalare",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "報告事項なし",
-      "reviewer": "Elena"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Krishna Karnadi"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "こちらのスタッフはとても親切でフレンドリーでした。ダイニングエリアはいつでも利用でき、電子レンジとコーヒーメーカーも備え付けられています。また、街の一部が少し見えるのも魅力です。客室は広々としていて、とても快適でした。",
-      "good": "",
-      "bad": "",
-      "translated": "こちらのスタッフはとても親切でフレンドリーでした。ダイニングエリアはいつでも利用でき、電子レンジとコーヒーメーカーも備え付けられています。また、街の一部が少し見えるのも魅力です。客室は広々としていて、とても快適でした。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Mark Shimei"
-    },
     {
       "site": "Google",
       "rating": 4.0,

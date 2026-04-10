@@ -1,37 +1,28 @@
 {
-  "total_reviews": 34,
-  "overall_avg_10pt": 8.12,
-  "high_count": 24,
-  "high_rate": 70.6,
+  "total_reviews": 30,
+  "overall_avg_10pt": 8.0,
+  "high_count": 20,
+  "high_rate": 66.7,
   "mid_count": 10,
-  "mid_rate": 29.4,
+  "mid_rate": 33.3,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
     {
       "site": "Google",
-      "count": 7,
-      "native_avg": 4.29,
+      "count": 6,
+      "native_avg": 4.33,
       "scale": "/5",
-      "avg_10pt": 8.57,
+      "avg_10pt": 8.67,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Agoda",
-      "count": 7,
-      "native_avg": 8.29,
+      "count": 6,
+      "native_avg": 8.17,
       "scale": "/10",
-      "avg_10pt": 8.29,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Booking.com",
-      "count": 10,
-      "native_avg": 8.0,
-      "scale": "/10",
-      "avg_10pt": 8.0,
+      "avg_10pt": 8.17,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -45,13 +36,22 @@
       "judgment": "良好"
     },
     {
-      "site": "楽天トラベル",
-      "count": 7,
-      "native_avg": 4.0,
-      "scale": "/5",
-      "avg_10pt": 8.0,
+      "site": "Booking.com",
+      "count": 9,
+      "native_avg": 7.89,
+      "scale": "/10",
+      "avg_10pt": 7.89,
       "median_10pt": 8.0,
-      "judgment": "良好"
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 6,
+      "native_avg": 3.83,
+      "scale": "/5",
+      "avg_10pt": 7.67,
+      "median_10pt": 7.0,
+      "judgment": "概ね良好"
     },
     {
       "site": "Trip.com",
@@ -66,83 +66,31 @@
   "distribution": [
     {
       "score": 10,
-      "count": 7,
-      "pct": "20.6%"
+      "count": 6,
+      "pct": "20.0%"
     },
     {
       "score": 9,
-      "count": 5,
-      "pct": "14.7%"
+      "count": 3,
+      "pct": "10.0%"
     },
     {
       "score": 8,
-      "count": 12,
-      "pct": "35.3%"
+      "count": 11,
+      "pct": "36.7%"
     },
     {
       "score": 7,
       "count": 5,
-      "pct": "14.7%"
+      "pct": "16.7%"
     },
     {
       "score": 6,
       "count": 5,
-      "pct": "14.7%"
+      "pct": "16.7%"
     }
   ],
   "comments": [
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-08",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Kengo"
-    },
-    {
-      "site": "Agoda",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-07",
-      "comment": "駅に近く便利です。 大浴場があるのが良かったです。",
-      "good": "",
-      "bad": "",
-      "translated": "駅に近く便利です。 大浴場があるのが良かったです。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "YOSHIMI"
-    },
-    {
-      "site": "Google",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-07",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Ka Y"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-01",
-      "comment": "フロントのみなさんの応対がよかった。館内は部屋も大浴場も清潔に掃除されていた。朝食の種類が少なく、和食のみでデザートや飲み物があまりないところが残念。それでも手作り感のある味はよかった。ロケーションもよく、橋本からの行動には抜群だった。また機会があったらぜひとも泊まりたい",
-      "good": "",
-      "bad": "",
-      "translated": "フロントのみなさんの応対がよかった。館内は部屋も大浴場も清潔に掃除されていた。朝食の種類が少なく、和食のみでデザートや飲み物があまりないところが残念。それでも手作り感のある味はよかった。ロケーションもよく、橋本からの行動には抜群だった。また機会があったらぜひとも泊まりたい",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "えみやん2"
-    },
     {
       "site": "Google",
       "rating": 5.0,
