@@ -15,22 +15,22 @@
         "n": 17
       },
       "maids_vs_score": {
-        "r": -0.0419,
-        "r_squared": 0.0018,
+        "r": -0.0401,
+        "r_squared": 0.0016,
         "n": 19
       },
       "checkers_vs_score": {
-        "r": -0.1036,
-        "r_squared": 0.0107,
+        "r": -0.1049,
+        "r_squared": 0.011,
         "n": 17
       },
       "ratio_vs_score": {
-        "r": -0.3879,
-        "r_squared": 0.1504,
+        "r": -0.3871,
+        "r_squared": 0.1499,
         "n": 17
       },
       "staff_vs_claims": {
-        "r": 0.2055,
+        "r": 0.2049,
         "n": 19
       }
     },
@@ -39,13 +39,13 @@
         "count": 9,
         "avg_maids": 7.1,
         "avg_score": 8.52,
-        "avg_claim_rate": 5.81
+        "avg_claim_rate": 5.73
       },
       "high_staff": {
         "count": 10,
         "avg_maids": 12.6,
         "avg_score": 8.15,
-        "avg_claim_rate": 7.07
+        "avg_claim_rate": 6.96
       }
     },
     "optimal_staffing": {
@@ -53,7 +53,7 @@
         {
           "name": "第一イン池袋",
           "avg_maids": 5.7,
-          "avg_checkers": 3.6,
+          "avg_checkers": 3.5,
           "ratio": 1.6,
           "score": 9.47
         },
@@ -73,7 +73,7 @@
         },
         {
           "name": "ホテルケヤキゲート東京府中",
-          "avg_maids": 10.3,
+          "avg_maids": 10.4,
           "avg_checkers": 1.5,
           "ratio": 7.1,
           "score": 8.95
@@ -117,7 +117,7 @@
         },
         {
           "name": "コンフォートホテル博多",
-          "avg_maids": 17.3,
+          "avg_maids": 17.2,
           "avg_checkers": 5.2,
           "ratio": 3.3,
           "score": 7.83
@@ -136,8 +136,8 @@
         "maid_checker_ratio": 3.3,
         "score": 8.59,
         "cleaning_issue_rate": 8.1,
-        "claim_rate": 11.58,
-        "maid_data_points": 57
+        "claim_rate": 11.41,
+        "maid_data_points": 58
       },
       {
         "hotel_key": "chisan",
@@ -148,8 +148,8 @@
         "maid_checker_ratio": null,
         "score": 6.52,
         "cleaning_issue_rate": 9.3,
-        "claim_rate": 0.58,
-        "maid_data_points": 43
+        "claim_rate": 0.55,
+        "maid_data_points": 44
       },
       {
         "hotel_key": "hearton",
@@ -157,23 +157,23 @@
         "avg_maids": 12.3,
         "avg_checkers": 1.5,
         "avg_total_staff": 13.8,
-        "maid_checker_ratio": 7.9,
+        "maid_checker_ratio": 8.0,
         "score": 8.43,
         "cleaning_issue_rate": 4.4,
-        "claim_rate": 7.25,
-        "maid_data_points": 69
+        "claim_rate": 7.14,
+        "maid_data_points": 70
       },
       {
         "hotel_key": "keyakigate",
         "name": "ホテルケヤキゲート東京府中",
-        "avg_maids": 10.3,
+        "avg_maids": 10.4,
         "avg_checkers": 1.5,
         "avg_total_staff": 11.8,
         "maid_checker_ratio": 7.1,
         "score": 8.95,
         "cleaning_issue_rate": 3.4,
-        "claim_rate": 4.0,
-        "maid_data_points": 69
+        "claim_rate": 3.94,
+        "maid_data_points": 70
       },
       {
         "hotel_key": "richmond_mejiro",
@@ -185,7 +185,7 @@
         "score": 8.6,
         "cleaning_issue_rate": 2.7,
         "claim_rate": 0,
-        "maid_data_points": 54
+        "maid_data_points": 55
       },
       {
         "hotel_key": "keisei_richmond",
@@ -196,20 +196,20 @@
         "maid_checker_ratio": 3.0,
         "score": 9.24,
         "cleaning_issue_rate": 1.5,
-        "claim_rate": 10.92,
-        "maid_data_points": 66
+        "claim_rate": 10.77,
+        "maid_data_points": 67
       },
       {
         "hotel_key": "daiichi_ikebukuro",
         "name": "第一イン池袋",
         "avg_maids": 5.7,
-        "avg_checkers": 3.6,
+        "avg_checkers": 3.5,
         "avg_total_staff": 9.2,
         "maid_checker_ratio": 1.6,
         "score": 9.47,
         "cleaning_issue_rate": 1.4,
-        "claim_rate": 6.92,
-        "maid_data_points": 46
+        "claim_rate": 6.82,
+        "maid_data_points": 47
       },
       {
         "hotel_key": "comfort_roppongi",
@@ -220,7 +220,7 @@
         "maid_checker_ratio": 5.5,
         "score": 8.24,
         "cleaning_issue_rate": 4.3,
-        "claim_rate": 4.54,
+        "claim_rate": 4.48,
         "maid_data_points": 44
       },
       {
@@ -232,8 +232,8 @@
         "maid_checker_ratio": 4.0,
         "score": 9.05,
         "cleaning_issue_rate": 0.0,
-        "claim_rate": 8.83,
-        "maid_data_points": 69
+        "claim_rate": 8.69,
+        "maid_data_points": 70
       },
       {
         "hotel_key": "comfort_era_higashikanda",
@@ -244,8 +244,8 @@
         "maid_checker_ratio": null,
         "score": 8.78,
         "cleaning_issue_rate": 0.0,
-        "claim_rate": 4.76,
-        "maid_data_points": 60
+        "claim_rate": 4.69,
+        "maid_data_points": 61
       },
       {
         "hotel_key": "comfort_narita",
@@ -268,7 +268,7 @@
         "maid_checker_ratio": 10.7,
         "score": 7.57,
         "cleaning_issue_rate": 8.4,
-        "claim_rate": 5.64,
+        "claim_rate": 5.54,
         "maid_data_points": 42
       },
       {
@@ -280,8 +280,8 @@
         "maid_checker_ratio": 0.2,
         "score": 8.0,
         "cleaning_issue_rate": 3.3,
-        "claim_rate": 6.48,
-        "maid_data_points": 56
+        "claim_rate": 6.38,
+        "maid_data_points": 57
       },
       {
         "hotel_key": "apa_kamata",
@@ -292,8 +292,8 @@
         "maid_checker_ratio": 12.9,
         "score": 7.38,
         "cleaning_issue_rate": 11.7,
-        "claim_rate": 8.08,
-        "maid_data_points": 66
+        "claim_rate": 7.97,
+        "maid_data_points": 67
       },
       {
         "hotel_key": "court_shinyokohama",
@@ -316,8 +316,8 @@
         "maid_checker_ratio": 4.4,
         "score": 8.83,
         "cleaning_issue_rate": 5.3,
-        "claim_rate": 7.62,
-        "maid_data_points": 67
+        "claim_rate": 7.52,
+        "maid_data_points": 68
       },
       {
         "hotel_key": "henn_na_haneda",
@@ -328,8 +328,8 @@
         "maid_checker_ratio": 3.7,
         "score": 8.35,
         "cleaning_issue_rate": 1.2,
-        "claim_rate": 6.83,
-        "maid_data_points": 56
+        "claim_rate": 6.75,
+        "maid_data_points": 58
       },
       {
         "hotel_key": "kawasaki_nikko",
@@ -340,20 +340,20 @@
         "maid_checker_ratio": 2.0,
         "score": 8.66,
         "cleaning_issue_rate": 1.4,
-        "claim_rate": 17.23,
-        "maid_data_points": 65
+        "claim_rate": 16.99,
+        "maid_data_points": 66
       },
       {
         "hotel_key": "comfort_hakata",
         "name": "コンフォートホテル博多",
-        "avg_maids": 17.3,
+        "avg_maids": 17.2,
         "avg_checkers": 5.2,
         "avg_total_staff": 22.5,
         "maid_checker_ratio": 3.3,
         "score": 7.83,
         "cleaning_issue_rate": 11.4,
-        "claim_rate": 10.28,
-        "maid_data_points": 54
+        "claim_rate": 10.13,
+        "maid_data_points": 55
       }
     ],
     "total_hotels_analyzed": 19
@@ -364,14 +364,14 @@
       "name": "第一イン池袋",
       "days": 89,
       "avg_maids": 5.7,
-      "avg_checkers": 3.6,
+      "avg_checkers": 3.5,
       "maid_checker_ratio": 1.6,
       "avg_completion_time": 15.14,
       "time_std": 0.2,
       "avg_rooms_per_maid": null,
       "score": 9.47,
-      "claim_rate": 6.92,
-      "maid_data_points": 46,
+      "claim_rate": 6.82,
+      "maid_data_points": 47,
       "time_data_points": 11
     },
     {
@@ -382,12 +382,12 @@
       "avg_checkers": 2.7,
       "maid_checker_ratio": 3.0,
       "avg_completion_time": 15.94,
-      "time_std": 0.63,
+      "time_std": 0.62,
       "avg_rooms_per_maid": 15.2,
       "score": 9.24,
-      "claim_rate": 10.92,
-      "maid_data_points": 66,
-      "time_data_points": 54
+      "claim_rate": 10.77,
+      "maid_data_points": 67,
+      "time_data_points": 55
     },
     {
       "hotel_key": "comfort_suites_tokyobay",
@@ -398,26 +398,26 @@
       "maid_checker_ratio": 4.0,
       "avg_completion_time": 15.46,
       "time_std": 0.51,
-      "avg_rooms_per_maid": 11.3,
+      "avg_rooms_per_maid": 11.4,
       "score": 9.05,
-      "claim_rate": 8.83,
-      "maid_data_points": 69,
-      "time_data_points": 68
+      "claim_rate": 8.69,
+      "maid_data_points": 70,
+      "time_data_points": 69
     },
     {
       "hotel_key": "keyakigate",
       "name": "ホテルケヤキゲート東京府中",
       "days": 89,
-      "avg_maids": 10.3,
+      "avg_maids": 10.4,
       "avg_checkers": 1.5,
       "maid_checker_ratio": 7.1,
-      "avg_completion_time": 34.78,
-      "time_std": 166.79,
+      "avg_completion_time": 34.5,
+      "time_std": 165.59,
       "avg_rooms_per_maid": 13.8,
       "score": 8.95,
-      "claim_rate": 4.0,
-      "maid_data_points": 69,
-      "time_data_points": 68
+      "claim_rate": 3.94,
+      "maid_data_points": 70,
+      "time_data_points": 69
     },
     {
       "hotel_key": "comment_yokohama",
@@ -430,9 +430,9 @@
       "time_std": 0.24,
       "avg_rooms_per_maid": 10.2,
       "score": 8.83,
-      "claim_rate": 7.62,
-      "maid_data_points": 67,
-      "time_data_points": 67
+      "claim_rate": 7.52,
+      "maid_data_points": 68,
+      "time_data_points": 68
     },
     {
       "hotel_key": "comfort_era_higashikanda",
@@ -445,9 +445,9 @@
       "time_std": 0.6,
       "avg_rooms_per_maid": 19.0,
       "score": 8.78,
-      "claim_rate": 4.76,
-      "maid_data_points": 60,
-      "time_data_points": 43
+      "claim_rate": 4.69,
+      "maid_data_points": 61,
+      "time_data_points": 44
     },
     {
       "hotel_key": "kawasaki_nikko",
@@ -456,13 +456,13 @@
       "avg_maids": 6.5,
       "avg_checkers": 3.3,
       "maid_checker_ratio": 2.0,
-      "avg_completion_time": 63.03,
-      "time_std": 265.58,
+      "avg_completion_time": 62.32,
+      "time_std": 263.66,
       "avg_rooms_per_maid": 22.0,
       "score": 8.66,
-      "claim_rate": 17.23,
-      "maid_data_points": 65,
-      "time_data_points": 66
+      "claim_rate": 16.99,
+      "maid_data_points": 66,
+      "time_data_points": 67
     },
     {
       "hotel_key": "richmond_mejiro",
@@ -471,13 +471,13 @@
       "avg_maids": 6.0,
       "avg_checkers": 3.0,
       "maid_checker_ratio": 2.0,
-      "avg_completion_time": 15.48,
-      "time_std": 0.18,
+      "avg_completion_time": 15.49,
+      "time_std": 0.19,
       "avg_rooms_per_maid": 23.9,
       "score": 8.6,
       "claim_rate": 0,
-      "maid_data_points": 54,
-      "time_data_points": 54
+      "maid_data_points": 55,
+      "time_data_points": 55
     },
     {
       "hotel_key": "daiwa_osaki",
@@ -487,12 +487,12 @@
       "avg_checkers": 2.6,
       "maid_checker_ratio": 3.3,
       "avg_completion_time": 14.61,
-      "time_std": 0.38,
+      "time_std": 0.37,
       "avg_rooms_per_maid": 20.0,
       "score": 8.59,
-      "claim_rate": 11.58,
-      "maid_data_points": 57,
-      "time_data_points": 56
+      "claim_rate": 11.41,
+      "maid_data_points": 58,
+      "time_data_points": 57
     },
     {
       "hotel_key": "comfort_narita",
@@ -515,13 +515,13 @@
       "days": 89,
       "avg_maids": 12.3,
       "avg_checkers": 1.5,
-      "maid_checker_ratio": 7.9,
+      "maid_checker_ratio": 8.0,
       "avg_completion_time": 15.82,
       "time_std": 0.39,
       "avg_rooms_per_maid": null,
       "score": 8.43,
-      "claim_rate": 7.25,
-      "maid_data_points": 69,
+      "claim_rate": 7.14,
+      "maid_data_points": 70,
       "time_data_points": 67
     },
     {
@@ -535,8 +535,8 @@
       "time_std": 0.2,
       "avg_rooms_per_maid": 11.9,
       "score": 8.35,
-      "claim_rate": 6.83,
-      "maid_data_points": 56,
+      "claim_rate": 6.75,
+      "maid_data_points": 58,
       "time_data_points": 54
     },
     {
@@ -550,7 +550,7 @@
       "time_std": 575.96,
       "avg_rooms_per_maid": 17.6,
       "score": 8.24,
-      "claim_rate": 4.54,
+      "claim_rate": 4.48,
       "maid_data_points": 44,
       "time_data_points": 38
     },
@@ -561,28 +561,28 @@
       "avg_maids": 7.7,
       "avg_checkers": 33.0,
       "maid_checker_ratio": 0.2,
-      "avg_completion_time": 15.34,
+      "avg_completion_time": 15.33,
       "time_std": 0.51,
       "avg_rooms_per_maid": 14.0,
       "score": 8.0,
-      "claim_rate": 6.48,
-      "maid_data_points": 56,
-      "time_data_points": 52
+      "claim_rate": 6.38,
+      "maid_data_points": 57,
+      "time_data_points": 53
     },
     {
       "hotel_key": "comfort_hakata",
       "name": "コンフォートホテル博多",
       "days": 89,
-      "avg_maids": 17.3,
+      "avg_maids": 17.2,
       "avg_checkers": 5.2,
       "maid_checker_ratio": 3.3,
       "avg_completion_time": 15.87,
-      "time_std": 0.72,
+      "time_std": 0.71,
       "avg_rooms_per_maid": 13.0,
       "score": 7.83,
-      "claim_rate": 10.28,
-      "maid_data_points": 54,
-      "time_data_points": 59
+      "claim_rate": 10.13,
+      "maid_data_points": 55,
+      "time_data_points": 60
     },
     {
       "hotel_key": "comfort_yokohama",
@@ -595,7 +595,7 @@
       "time_std": 0.51,
       "avg_rooms_per_maid": 16.8,
       "score": 7.57,
-      "claim_rate": 5.64,
+      "claim_rate": 5.54,
       "maid_data_points": 42,
       "time_data_points": 53
     },
@@ -608,11 +608,11 @@
       "maid_checker_ratio": 12.9,
       "avg_completion_time": 15.02,
       "time_std": 0.27,
-      "avg_rooms_per_maid": 18.0,
+      "avg_rooms_per_maid": 18.1,
       "score": 7.38,
-      "claim_rate": 8.08,
-      "maid_data_points": 66,
-      "time_data_points": 64
+      "claim_rate": 7.97,
+      "maid_data_points": 67,
+      "time_data_points": 65
     },
     {
       "hotel_key": "court_shinyokohama",
@@ -637,12 +637,12 @@
       "avg_checkers": null,
       "maid_checker_ratio": null,
       "avg_completion_time": 14.54,
-      "time_std": 0.28,
+      "time_std": 0.27,
       "avg_rooms_per_maid": null,
       "score": 6.52,
-      "claim_rate": 0.58,
-      "maid_data_points": 43,
-      "time_data_points": 19
+      "claim_rate": 0.55,
+      "maid_data_points": 44,
+      "time_data_points": 20
     }
   ],
   "recommendations": [
@@ -658,7 +658,7 @@
     },
     {
       "title": "チェッカー配置とスコアの連動強化",
-      "rationale": "チェッカー数とスコアの相関r=-0.1036。チェッカーによる品質検査がスコア改善の鍵。",
+      "rationale": "チェッカー数とスコアの相関r=-0.1049。チェッカーによる品質検査がスコア改善の鍵。",
       "actions": [
         "チェッカー配置率100%を目標に採用・配置計画を策定",
         "チェッカー研修プログラムの統一と強化",

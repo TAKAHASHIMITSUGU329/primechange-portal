@@ -5,8 +5,8 @@
     "subtitle": "Claim Type × Review Score Correlation Analysis",
     "total_hotels": 19,
     "total_claims": 150,
-    "total_rooms_cleaned": 221668,
-    "overall_claim_rate": 0.0677,
+    "total_rooms_cleaned": 225378,
+    "overall_claim_rate": 0.0666,
     "claim_types_analyzed": 13,
     "data_period": "R8年度（2月〜1月）"
   },
@@ -131,23 +131,23 @@
   },
   "correlation_analysis": {
     "overall_correlation": {
-      "r": 0.3408,
-      "r_squared": 0.1162,
+      "r": 0.3413,
+      "r_squared": 0.1165,
       "interpretation": "弱い相関",
       "direction": "クレーム率が高いほどスコアが高い傾向（予想外）"
     },
     "type_correlations": [
       {
         "type": "手配ミス",
-        "correlation_r": 0.4073,
-        "abs_r": 0.4073,
+        "correlation_r": 0.4072,
+        "abs_r": 0.4072,
         "direction": "正（スコア上昇）",
         "interpretation": "中程度の相関"
       },
       {
         "type": "汚れ",
-        "correlation_r": 0.2933,
-        "abs_r": 0.2933,
+        "correlation_r": 0.2938,
+        "abs_r": 0.2938,
         "direction": "正（スコア上昇）",
         "interpretation": "弱い相関"
       },
@@ -160,22 +160,22 @@
       },
       {
         "type": "巻き込み",
-        "correlation_r": 0.227,
-        "abs_r": 0.227,
+        "correlation_r": 0.2269,
+        "abs_r": 0.2269,
         "direction": "正（スコア上昇）",
         "interpretation": "弱い相関"
       },
       {
         "type": "残置",
-        "correlation_r": 0.1775,
-        "abs_r": 0.1775,
+        "correlation_r": 0.1774,
+        "abs_r": 0.1774,
         "direction": "正（スコア上昇）",
         "interpretation": "ほぼ無相関"
       },
       {
         "type": "セット漏れ",
-        "correlation_r": 0.166,
-        "abs_r": 0.166,
+        "correlation_r": 0.1665,
+        "abs_r": 0.1665,
         "direction": "正（スコア上昇）",
         "interpretation": "ほぼ無相関"
       },
@@ -188,15 +188,15 @@
       },
       {
         "type": "髪の毛",
-        "correlation_r": 0.1034,
-        "abs_r": 0.1034,
+        "correlation_r": 0.1036,
+        "abs_r": 0.1036,
         "direction": "正（スコア上昇）",
         "interpretation": "ほぼ無相関"
       },
       {
         "type": "清掃不備",
-        "correlation_r": 0.0933,
-        "abs_r": 0.0933,
+        "correlation_r": 0.0934,
+        "abs_r": 0.0934,
         "direction": "弱い/なし",
         "interpretation": "ほぼ無相関"
       },
@@ -216,8 +216,8 @@
       },
       {
         "type": "その他",
-        "correlation_r": 0.006,
-        "abs_r": 0.006,
+        "correlation_r": 0.0068,
+        "abs_r": 0.0068,
         "direction": "弱い/なし",
         "interpretation": "ほぼ無相関"
       },
@@ -234,33 +234,33 @@
         "hotel_key": "daiwa_osaki",
         "name": "ダイワロイネットホテル東京大崎",
         "score": 8.59,
-        "claim_rate": 0.0011583011583011582,
+        "claim_rate": 0.0011412919424788862,
         "total_claims": 15,
-        "rooms": 12950
+        "rooms": 13143
       },
       {
         "hotel_key": "chisan",
         "name": "チサンホテル浜松町",
         "score": 6.52,
-        "claim_rate": 5.752416014726185e-05,
+        "claim_rate": 5.47855147099107e-05,
         "total_claims": 1,
-        "rooms": 17384
+        "rooms": 18253
       },
       {
         "hotel_key": "hearton",
         "name": "ハートンホテル東品川",
         "score": 8.43,
-        "claim_rate": 0.000725242049534032,
+        "claim_rate": 0.0007140561962226428,
         "total_claims": 20,
-        "rooms": 27577
+        "rooms": 28009
       },
       {
         "hotel_key": "keyakigate",
         "name": "ホテルケヤキゲート東京府中",
         "score": 8.95,
-        "claim_rate": 0.00039996000399960006,
+        "claim_rate": 0.00039397222495814047,
         "total_claims": 4,
-        "rooms": 10001
+        "rooms": 10153
       },
       {
         "hotel_key": "richmond_mejiro",
@@ -268,47 +268,47 @@
         "score": 8.6,
         "claim_rate": 0.0,
         "total_claims": 0,
-        "rooms": 9845
+        "rooms": 9989
       },
       {
         "hotel_key": "keisei_richmond",
         "name": "京成リッチモンドホテル東京錦糸町",
         "score": 9.24,
-        "claim_rate": 0.0010923987255348202,
+        "claim_rate": 0.0010773927096426647,
         "total_claims": 12,
-        "rooms": 10985
+        "rooms": 11138
       },
       {
         "hotel_key": "daiichi_ikebukuro",
         "name": "第一イン池袋",
         "score": 9.47,
-        "claim_rate": 0.0006920415224913495,
+        "claim_rate": 0.0006820351930159597,
         "total_claims": 5,
-        "rooms": 7225
+        "rooms": 7331
       },
       {
         "hotel_key": "comfort_roppongi",
         "name": "コンフォートイン六本木",
         "score": 8.24,
-        "claim_rate": 0.00045413260672116256,
+        "claim_rate": 0.00044802867383512545,
         "total_claims": 3,
-        "rooms": 6606
+        "rooms": 6696
       },
       {
         "hotel_key": "comfort_suites_tokyobay",
         "name": "コンフォートスイーツ東京ベイ",
         "score": 9.05,
-        "claim_rate": 0.00088261253309797,
+        "claim_rate": 0.0008686480114165167,
         "total_claims": 14,
-        "rooms": 15862
+        "rooms": 16117
       },
       {
         "hotel_key": "comfort_era_higashikanda",
         "name": "コンフォートホテルERA東神田",
         "score": 8.78,
-        "claim_rate": 0.000476462740613684,
+        "claim_rate": 0.0004691311690748733,
         "total_claims": 5,
-        "rooms": 10494
+        "rooms": 10658
       },
       {
         "hotel_key": "comfort_narita",
@@ -322,25 +322,25 @@
         "hotel_key": "comfort_yokohama",
         "name": "コンフォートホテル横浜関内",
         "score": 7.57,
-        "claim_rate": 0.0005640612409347301,
+        "claim_rate": 0.0005542359461599367,
         "total_claims": 7,
-        "rooms": 12410
+        "rooms": 12630
       },
       {
         "hotel_key": "apa_sagamihara",
         "name": "アパホテル相模原橋本駅東",
         "score": 8.0,
-        "claim_rate": 0.0006480881399870382,
+        "claim_rate": 0.0006384880602732729,
         "total_claims": 5,
-        "rooms": 7715
+        "rooms": 7831
       },
       {
         "hotel_key": "apa_kamata",
         "name": "アパホテル蒲田駅東",
         "score": 7.38,
-        "claim_rate": 0.0008084619012329044,
+        "claim_rate": 0.0007967598433038975,
         "total_claims": 12,
-        "rooms": 14843
+        "rooms": 15061
       },
       {
         "hotel_key": "court_shinyokohama",
@@ -354,33 +354,33 @@
         "hotel_key": "comment_yokohama",
         "name": "ホテルコメント横浜関内",
         "score": 8.83,
-        "claim_rate": 0.0007616146230007616,
+        "claim_rate": 0.0007524454477050414,
         "total_claims": 5,
-        "rooms": 6565
+        "rooms": 6645
       },
       {
         "hotel_key": "henn_na_haneda",
         "name": "変なホテル東京羽田",
         "score": 8.35,
-        "claim_rate": 0.0006833935370496925,
+        "claim_rate": 0.0006751543209876543,
         "total_claims": 7,
-        "rooms": 10243
+        "rooms": 10368
       },
       {
         "hotel_key": "kawasaki_nikko",
         "name": "川崎日航ホテル",
         "score": 8.66,
-        "claim_rate": 0.0017234775947912676,
+        "claim_rate": 0.0016989145823501652,
         "total_claims": 18,
-        "rooms": 10444
+        "rooms": 10595
       },
       {
         "hotel_key": "comfort_hakata",
         "name": "コンフォートホテル博多",
         "score": 7.83,
-        "claim_rate": 0.001028475927235328,
+        "claim_rate": 0.001012722324197734,
         "total_claims": 16,
-        "rooms": 15557
+        "rooms": 15799
       }
     ]
   },
@@ -389,8 +389,8 @@
       "hotel_key": "kawasaki_nikko",
       "name": "川崎日航ホテル",
       "total_claims": 18,
-      "claim_rate": 17.23,
-      "rooms_cleaned": 10444,
+      "claim_rate": 16.99,
+      "rooms_cleaned": 10595,
       "type_composition": {
         "巻き込み": {
           "count": 1,
@@ -463,8 +463,8 @@
       "hotel_key": "daiwa_osaki",
       "name": "ダイワロイネットホテル東京大崎",
       "total_claims": 15,
-      "claim_rate": 11.58,
-      "rooms_cleaned": 12950,
+      "claim_rate": 11.41,
+      "rooms_cleaned": 13143,
       "type_composition": {
         "残置": {
           "count": 6,
@@ -525,8 +525,8 @@
       "hotel_key": "keisei_richmond",
       "name": "京成リッチモンドホテル東京錦糸町",
       "total_claims": 12,
-      "claim_rate": 10.92,
-      "rooms_cleaned": 10985,
+      "claim_rate": 10.77,
+      "rooms_cleaned": 11138,
       "type_composition": {
         "髪の毛": {
           "count": 1,
@@ -591,8 +591,8 @@
       "hotel_key": "comfort_hakata",
       "name": "コンフォートホテル博多",
       "total_claims": 16,
-      "claim_rate": 10.28,
-      "rooms_cleaned": 15557,
+      "claim_rate": 10.13,
+      "rooms_cleaned": 15799,
       "type_composition": {
         "残置": {
           "count": 2,
@@ -657,8 +657,8 @@
       "hotel_key": "comfort_suites_tokyobay",
       "name": "コンフォートスイーツ東京ベイ",
       "total_claims": 14,
-      "claim_rate": 8.83,
-      "rooms_cleaned": 15862,
+      "claim_rate": 8.69,
+      "rooms_cleaned": 16117,
       "type_composition": {
         "巻き込み": {
           "count": 1,
@@ -731,8 +731,8 @@
       "hotel_key": "apa_kamata",
       "name": "アパホテル蒲田駅東",
       "total_claims": 12,
-      "claim_rate": 8.08,
-      "rooms_cleaned": 14843,
+      "claim_rate": 7.97,
+      "rooms_cleaned": 15061,
       "type_composition": {
         "髪の毛": {
           "count": 2,
@@ -793,8 +793,8 @@
       "hotel_key": "comment_yokohama",
       "name": "ホテルコメント横浜関内",
       "total_claims": 5,
-      "claim_rate": 7.62,
-      "rooms_cleaned": 6565,
+      "claim_rate": 7.52,
+      "rooms_cleaned": 6645,
       "type_composition": {
         "髪の毛": {
           "count": 1,
@@ -855,8 +855,8 @@
       "hotel_key": "hearton",
       "name": "ハートンホテル東品川",
       "total_claims": 20,
-      "claim_rate": 7.25,
-      "rooms_cleaned": 27577,
+      "claim_rate": 7.14,
+      "rooms_cleaned": 28009,
       "type_composition": {
         "巻き込み": {
           "count": 1,
@@ -929,8 +929,8 @@
       "hotel_key": "daiichi_ikebukuro",
       "name": "第一イン池袋",
       "total_claims": 5,
-      "claim_rate": 6.92,
-      "rooms_cleaned": 7225,
+      "claim_rate": 6.82,
+      "rooms_cleaned": 7331,
       "type_composition": {
         "セット漏れ": {
           "count": 1,
@@ -987,8 +987,8 @@
       "hotel_key": "henn_na_haneda",
       "name": "変なホテル東京羽田",
       "total_claims": 7,
-      "claim_rate": 6.83,
-      "rooms_cleaned": 10243,
+      "claim_rate": 6.75,
+      "rooms_cleaned": 10368,
       "type_composition": {
         "残置": {
           "count": 3,
@@ -1053,8 +1053,8 @@
       "hotel_key": "apa_sagamihara",
       "name": "アパホテル相模原橋本駅東",
       "total_claims": 5,
-      "claim_rate": 6.48,
-      "rooms_cleaned": 7715,
+      "claim_rate": 6.38,
+      "rooms_cleaned": 7831,
       "type_composition": {
         "残置": {
           "count": 1,
@@ -1115,8 +1115,8 @@
       "hotel_key": "comfort_yokohama",
       "name": "コンフォートホテル横浜関内",
       "total_claims": 7,
-      "claim_rate": 5.64,
-      "rooms_cleaned": 12410,
+      "claim_rate": 5.54,
+      "rooms_cleaned": 12630,
       "type_composition": {
         "残置": {
           "count": 1,
@@ -1173,8 +1173,8 @@
       "hotel_key": "comfort_era_higashikanda",
       "name": "コンフォートホテルERA東神田",
       "total_claims": 5,
-      "claim_rate": 4.76,
-      "rooms_cleaned": 10494,
+      "claim_rate": 4.69,
+      "rooms_cleaned": 10658,
       "type_composition": {
         "ドア閉め忘れ": {
           "count": 1,
@@ -1231,8 +1231,8 @@
       "hotel_key": "comfort_roppongi",
       "name": "コンフォートイン六本木",
       "total_claims": 3,
-      "claim_rate": 4.54,
-      "rooms_cleaned": 6606,
+      "claim_rate": 4.48,
+      "rooms_cleaned": 6696,
       "type_composition": {
         "残置": {
           "count": 2,
@@ -1280,8 +1280,8 @@
       "hotel_key": "keyakigate",
       "name": "ホテルケヤキゲート東京府中",
       "total_claims": 4,
-      "claim_rate": 4.0,
-      "rooms_cleaned": 10001,
+      "claim_rate": 3.94,
+      "rooms_cleaned": 10153,
       "type_composition": {
         "残置": {
           "count": 2,
@@ -1378,8 +1378,8 @@
       "hotel_key": "chisan",
       "name": "チサンホテル浜松町",
       "total_claims": 1,
-      "claim_rate": 0.58,
-      "rooms_cleaned": 17384,
+      "claim_rate": 0.55,
+      "rooms_cleaned": 18253,
       "type_composition": {
         "その他": {
           "count": 1,
@@ -1435,23 +1435,23 @@
   ],
   "revenue_impact": {
     "regression": {
-      "slope": 592.2586,
-      "intercept": 7.9413,
-      "interpretation": "クレーム率が1%上昇すると、スコアが592.26点上昇する推定"
+      "slope": 601.7217,
+      "intercept": 7.9408,
+      "interpretation": "クレーム率が1%上昇すると、スコアが601.72点上昇する推定"
     },
     "scenarios": [
       {
         "reduction_pct": 25,
-        "total_monthly_impact": 2682838,
-        "total_annual_impact": 32194056,
+        "total_monthly_impact": 2685603,
+        "total_annual_impact": 32227237,
         "hotel_impacts": [
           {
             "name": "川崎日航ホテル",
             "current_claims": 18,
             "reduced_claims": 13,
-            "score_improvement": 0.2552,
-            "revpar_improvement_pct": 6.329,
-            "revenue_impact_monthly": 453643
+            "score_improvement": 0.2556,
+            "revpar_improvement_pct": 6.338,
+            "revenue_impact_monthly": 454322
           },
           {
             "name": "コンフォートスイーツ東京ベイ",
@@ -1459,127 +1459,127 @@
             "reduced_claims": 10,
             "score_improvement": 0.1307,
             "revpar_improvement_pct": 3.241,
-            "revenue_impact_monthly": 428725
+            "revenue_impact_monthly": 428684
           },
           {
             "name": "ハートンホテル東品川",
             "current_claims": 20,
             "reduced_claims": 15,
             "score_improvement": 0.1074,
-            "revpar_improvement_pct": 2.663,
-            "revenue_impact_monthly": 298574
+            "revpar_improvement_pct": 2.664,
+            "revenue_impact_monthly": 298666
           },
           {
             "name": "ダイワロイネットホテル東京大崎",
             "current_claims": 15,
             "reduced_claims": 11,
-            "score_improvement": 0.1715,
-            "revpar_improvement_pct": 4.253,
-            "revenue_impact_monthly": 221300
+            "score_improvement": 0.1717,
+            "revpar_improvement_pct": 4.258,
+            "revenue_impact_monthly": 221534
           },
           {
             "name": "コンフォートホテル博多",
             "current_claims": 16,
             "reduced_claims": 12,
             "score_improvement": 0.1523,
-            "revpar_improvement_pct": 3.777,
-            "revenue_impact_monthly": 217705
+            "revpar_improvement_pct": 3.778,
+            "revenue_impact_monthly": 217796
           },
           {
             "name": "京成リッチモンドホテル東京錦糸町",
             "current_claims": 12,
             "reduced_claims": 9,
-            "score_improvement": 0.1617,
-            "revpar_improvement_pct": 4.011,
-            "revenue_impact_monthly": 192213
+            "score_improvement": 0.1621,
+            "revpar_improvement_pct": 4.019,
+            "revenue_impact_monthly": 192602
           },
           {
             "name": "アパホテル蒲田駅東",
             "current_claims": 12,
             "reduced_claims": 9,
-            "score_improvement": 0.1197,
-            "revpar_improvement_pct": 2.969,
-            "revenue_impact_monthly": 138920
+            "score_improvement": 0.1199,
+            "revpar_improvement_pct": 2.972,
+            "revenue_impact_monthly": 139096
           },
           {
             "name": "変なホテル東京羽田",
             "current_claims": 7,
             "reduced_claims": 5,
-            "score_improvement": 0.1012,
-            "revpar_improvement_pct": 2.509,
-            "revenue_impact_monthly": 134459
+            "score_improvement": 0.1016,
+            "revpar_improvement_pct": 2.519,
+            "revenue_impact_monthly": 134960
           },
           {
             "name": "ホテルコメント横浜関内",
             "current_claims": 5,
             "reduced_claims": 3,
-            "score_improvement": 0.1128,
-            "revpar_improvement_pct": 2.797,
-            "revenue_impact_monthly": 124824
+            "score_improvement": 0.1132,
+            "revpar_improvement_pct": 2.807,
+            "revenue_impact_monthly": 125291
           },
           {
             "name": "第一イン池袋",
             "current_claims": 5,
             "reduced_claims": 3,
-            "score_improvement": 0.1025,
-            "revpar_improvement_pct": 2.541,
-            "revenue_impact_monthly": 109540
+            "score_improvement": 0.1026,
+            "revpar_improvement_pct": 2.544,
+            "revenue_impact_monthly": 109681
           },
           {
             "name": "コンフォートホテル横浜関内",
             "current_claims": 7,
             "reduced_claims": 5,
-            "score_improvement": 0.0835,
-            "revpar_improvement_pct": 2.071,
-            "revenue_impact_monthly": 83924
+            "score_improvement": 0.0834,
+            "revpar_improvement_pct": 2.068,
+            "revenue_impact_monthly": 83780
           },
           {
             "name": "コンフォートホテルERA東神田",
             "current_claims": 5,
             "reduced_claims": 3,
-            "score_improvement": 0.0705,
+            "score_improvement": 0.0706,
             "revpar_improvement_pct": 1.75,
-            "revenue_impact_monthly": 70810
+            "revenue_impact_monthly": 70835
           },
           {
             "name": "ホテルケヤキゲート東京府中",
             "current_claims": 4,
             "reduced_claims": 3,
-            "score_improvement": 0.0592,
-            "revpar_improvement_pct": 1.469,
-            "revenue_impact_monthly": 64994
+            "score_improvement": 0.0593,
+            "revpar_improvement_pct": 1.47,
+            "revenue_impact_monthly": 65044
           },
           {
             "name": "アパホテル相模原橋本駅東",
             "current_claims": 5,
             "reduced_claims": 3,
             "score_improvement": 0.096,
-            "revpar_improvement_pct": 2.38,
-            "revenue_impact_monthly": 64217
+            "revpar_improvement_pct": 2.382,
+            "revenue_impact_monthly": 64276
           },
           {
             "name": "コンフォートイン六本木",
             "current_claims": 3,
             "reduced_claims": 2,
-            "score_improvement": 0.0672,
-            "revpar_improvement_pct": 1.668,
-            "revenue_impact_monthly": 47403
+            "score_improvement": 0.0674,
+            "revpar_improvement_pct": 1.671,
+            "revenue_impact_monthly": 47513
           },
           {
             "name": "コートホテル新横浜",
             "current_claims": 1,
             "reduced_claims": 0,
-            "score_improvement": 0.0216,
-            "revpar_improvement_pct": 0.534,
-            "revenue_impact_monthly": 19804
+            "score_improvement": 0.0219,
+            "revpar_improvement_pct": 0.543,
+            "revenue_impact_monthly": 20121
           },
           {
             "name": "チサンホテル浜松町",
             "current_claims": 1,
             "reduced_claims": 0,
-            "score_improvement": 0.0085,
-            "revpar_improvement_pct": 0.211,
-            "revenue_impact_monthly": 11784
+            "score_improvement": 0.0082,
+            "revpar_improvement_pct": 0.204,
+            "revenue_impact_monthly": 11402
           },
           {
             "name": "リッチモンドホテル東京目白",
@@ -1601,144 +1601,144 @@
       },
       {
         "reduction_pct": 50,
-        "total_monthly_impact": 5365676,
-        "total_annual_impact": 64388113,
+        "total_monthly_impact": 5371206,
+        "total_annual_impact": 64454474,
         "hotel_impacts": [
           {
             "name": "川崎日航ホテル",
             "current_claims": 18,
             "reduced_claims": 9,
-            "score_improvement": 0.5104,
-            "revpar_improvement_pct": 12.657,
-            "revenue_impact_monthly": 907286
+            "score_improvement": 0.5111,
+            "revpar_improvement_pct": 12.676,
+            "revenue_impact_monthly": 908645
           },
           {
             "name": "コンフォートスイーツ東京ベイ",
             "current_claims": 14,
             "reduced_claims": 7,
-            "score_improvement": 0.2614,
-            "revpar_improvement_pct": 6.482,
-            "revenue_impact_monthly": 857451
+            "score_improvement": 0.2613,
+            "revpar_improvement_pct": 6.481,
+            "revenue_impact_monthly": 857368
           },
           {
             "name": "ハートンホテル東品川",
             "current_claims": 20,
             "reduced_claims": 10,
             "score_improvement": 0.2148,
-            "revpar_improvement_pct": 5.326,
-            "revenue_impact_monthly": 597148
+            "revpar_improvement_pct": 5.328,
+            "revenue_impact_monthly": 597332
           },
           {
             "name": "ダイワロイネットホテル東京大崎",
             "current_claims": 15,
             "reduced_claims": 7,
-            "score_improvement": 0.343,
-            "revpar_improvement_pct": 8.507,
-            "revenue_impact_monthly": 442600
+            "score_improvement": 0.3434,
+            "revpar_improvement_pct": 8.516,
+            "revenue_impact_monthly": 443069
           },
           {
             "name": "コンフォートホテル博多",
             "current_claims": 16,
             "reduced_claims": 8,
-            "score_improvement": 0.3046,
-            "revpar_improvement_pct": 7.553,
-            "revenue_impact_monthly": 435410
+            "score_improvement": 0.3047,
+            "revpar_improvement_pct": 7.556,
+            "revenue_impact_monthly": 435591
           },
           {
             "name": "京成リッチモンドホテル東京錦糸町",
             "current_claims": 12,
             "reduced_claims": 6,
-            "score_improvement": 0.3235,
-            "revpar_improvement_pct": 8.023,
-            "revenue_impact_monthly": 384426
+            "score_improvement": 0.3241,
+            "revpar_improvement_pct": 8.039,
+            "revenue_impact_monthly": 385203
           },
           {
             "name": "アパホテル蒲田駅東",
             "current_claims": 12,
             "reduced_claims": 6,
-            "score_improvement": 0.2394,
-            "revpar_improvement_pct": 5.937,
-            "revenue_impact_monthly": 277839
+            "score_improvement": 0.2397,
+            "revpar_improvement_pct": 5.945,
+            "revenue_impact_monthly": 278193
           },
           {
             "name": "変なホテル東京羽田",
             "current_claims": 7,
             "reduced_claims": 3,
-            "score_improvement": 0.2024,
-            "revpar_improvement_pct": 5.019,
-            "revenue_impact_monthly": 268917
+            "score_improvement": 0.2031,
+            "revpar_improvement_pct": 5.038,
+            "revenue_impact_monthly": 269920
           },
           {
             "name": "ホテルコメント横浜関内",
             "current_claims": 5,
             "reduced_claims": 2,
-            "score_improvement": 0.2255,
-            "revpar_improvement_pct": 5.593,
-            "revenue_impact_monthly": 249647
+            "score_improvement": 0.2264,
+            "revpar_improvement_pct": 5.614,
+            "revenue_impact_monthly": 250582
           },
           {
             "name": "第一イン池袋",
             "current_claims": 5,
             "reduced_claims": 2,
-            "score_improvement": 0.2049,
-            "revpar_improvement_pct": 5.082,
-            "revenue_impact_monthly": 219081
+            "score_improvement": 0.2052,
+            "revpar_improvement_pct": 5.089,
+            "revenue_impact_monthly": 219363
           },
           {
             "name": "コンフォートホテル横浜関内",
             "current_claims": 7,
             "reduced_claims": 3,
-            "score_improvement": 0.167,
-            "revpar_improvement_pct": 4.142,
-            "revenue_impact_monthly": 167848
+            "score_improvement": 0.1667,
+            "revpar_improvement_pct": 4.135,
+            "revenue_impact_monthly": 167560
           },
           {
             "name": "コンフォートホテルERA東神田",
             "current_claims": 5,
             "reduced_claims": 2,
             "score_improvement": 0.1411,
-            "revpar_improvement_pct": 3.499,
-            "revenue_impact_monthly": 141620
+            "revpar_improvement_pct": 3.5,
+            "revenue_impact_monthly": 141669
           },
           {
             "name": "ホテルケヤキゲート東京府中",
             "current_claims": 4,
             "reduced_claims": 2,
-            "score_improvement": 0.1184,
-            "revpar_improvement_pct": 2.937,
-            "revenue_impact_monthly": 129988
+            "score_improvement": 0.1185,
+            "revpar_improvement_pct": 2.94,
+            "revenue_impact_monthly": 130087
           },
           {
             "name": "アパホテル相模原橋本駅東",
             "current_claims": 5,
             "reduced_claims": 2,
-            "score_improvement": 0.1919,
-            "revpar_improvement_pct": 4.76,
-            "revenue_impact_monthly": 128433
+            "score_improvement": 0.1921,
+            "revpar_improvement_pct": 4.764,
+            "revenue_impact_monthly": 128552
           },
           {
             "name": "コンフォートイン六本木",
             "current_claims": 3,
             "reduced_claims": 1,
-            "score_improvement": 0.1345,
-            "revpar_improvement_pct": 3.335,
-            "revenue_impact_monthly": 94806
+            "score_improvement": 0.1348,
+            "revpar_improvement_pct": 3.343,
+            "revenue_impact_monthly": 95026
           },
           {
             "name": "コートホテル新横浜",
             "current_claims": 1,
             "reduced_claims": 0,
-            "score_improvement": 0.0431,
-            "revpar_improvement_pct": 1.069,
-            "revenue_impact_monthly": 39609
+            "score_improvement": 0.0438,
+            "revpar_improvement_pct": 1.086,
+            "revenue_impact_monthly": 40241
           },
           {
             "name": "チサンホテル浜松町",
             "current_claims": 1,
             "reduced_claims": 0,
-            "score_improvement": 0.017,
-            "revpar_improvement_pct": 0.422,
-            "revenue_impact_monthly": 23567
+            "score_improvement": 0.0165,
+            "revpar_improvement_pct": 0.409,
+            "revenue_impact_monthly": 22804
           },
           {
             "name": "リッチモンドホテル東京目白",
@@ -1760,144 +1760,144 @@
       },
       {
         "reduction_pct": 75,
-        "total_monthly_impact": 8048514,
-        "total_annual_impact": 96582169,
+        "total_monthly_impact": 8056809,
+        "total_annual_impact": 96681710,
         "hotel_impacts": [
           {
             "name": "川崎日航ホテル",
             "current_claims": 18,
             "reduced_claims": 4,
-            "score_improvement": 0.7656,
-            "revpar_improvement_pct": 18.986,
-            "revenue_impact_monthly": 1360928
+            "score_improvement": 0.7667,
+            "revpar_improvement_pct": 19.014,
+            "revenue_impact_monthly": 1362967
           },
           {
             "name": "コンフォートスイーツ東京ベイ",
             "current_claims": 14,
             "reduced_claims": 3,
-            "score_improvement": 0.3921,
-            "revpar_improvement_pct": 9.723,
-            "revenue_impact_monthly": 1286176
+            "score_improvement": 0.392,
+            "revpar_improvement_pct": 9.722,
+            "revenue_impact_monthly": 1286052
           },
           {
             "name": "ハートンホテル東品川",
             "current_claims": 20,
             "reduced_claims": 5,
-            "score_improvement": 0.3221,
-            "revpar_improvement_pct": 7.989,
-            "revenue_impact_monthly": 895721
+            "score_improvement": 0.3222,
+            "revpar_improvement_pct": 7.992,
+            "revenue_impact_monthly": 895997
           },
           {
             "name": "ダイワロイネットホテル東京大崎",
             "current_claims": 15,
             "reduced_claims": 3,
-            "score_improvement": 0.5145,
-            "revpar_improvement_pct": 12.76,
-            "revenue_impact_monthly": 663900
+            "score_improvement": 0.5151,
+            "revpar_improvement_pct": 12.773,
+            "revenue_impact_monthly": 664603
           },
           {
             "name": "コンフォートホテル博多",
             "current_claims": 16,
             "reduced_claims": 4,
-            "score_improvement": 0.4568,
-            "revpar_improvement_pct": 11.33,
-            "revenue_impact_monthly": 653115
+            "score_improvement": 0.457,
+            "revpar_improvement_pct": 11.334,
+            "revenue_impact_monthly": 653387
           },
           {
             "name": "京成リッチモンドホテル東京錦糸町",
             "current_claims": 12,
             "reduced_claims": 3,
-            "score_improvement": 0.4852,
-            "revpar_improvement_pct": 12.034,
-            "revenue_impact_monthly": 576639
+            "score_improvement": 0.4862,
+            "revpar_improvement_pct": 12.058,
+            "revenue_impact_monthly": 577805
           },
           {
             "name": "アパホテル蒲田駅東",
             "current_claims": 12,
             "reduced_claims": 3,
-            "score_improvement": 0.3591,
-            "revpar_improvement_pct": 8.906,
-            "revenue_impact_monthly": 416759
+            "score_improvement": 0.3596,
+            "revpar_improvement_pct": 8.917,
+            "revenue_impact_monthly": 417289
           },
           {
             "name": "変なホテル東京羽田",
             "current_claims": 7,
             "reduced_claims": 1,
-            "score_improvement": 0.3036,
-            "revpar_improvement_pct": 7.528,
-            "revenue_impact_monthly": 403376
+            "score_improvement": 0.3047,
+            "revpar_improvement_pct": 7.556,
+            "revenue_impact_monthly": 404880
           },
           {
             "name": "ホテルコメント横浜関内",
             "current_claims": 5,
             "reduced_claims": 1,
-            "score_improvement": 0.3383,
-            "revpar_improvement_pct": 8.39,
-            "revenue_impact_monthly": 374471
+            "score_improvement": 0.3396,
+            "revpar_improvement_pct": 8.421,
+            "revenue_impact_monthly": 375873
           },
           {
             "name": "第一イン池袋",
             "current_claims": 5,
             "reduced_claims": 1,
-            "score_improvement": 0.3074,
-            "revpar_improvement_pct": 7.624,
-            "revenue_impact_monthly": 328621
+            "score_improvement": 0.3078,
+            "revpar_improvement_pct": 7.633,
+            "revenue_impact_monthly": 329044
           },
           {
             "name": "コンフォートホテル横浜関内",
             "current_claims": 7,
             "reduced_claims": 1,
-            "score_improvement": 0.2506,
-            "revpar_improvement_pct": 6.214,
-            "revenue_impact_monthly": 251772
+            "score_improvement": 0.2501,
+            "revpar_improvement_pct": 6.203,
+            "revenue_impact_monthly": 251340
           },
           {
             "name": "コンフォートホテルERA東神田",
             "current_claims": 5,
             "reduced_claims": 1,
-            "score_improvement": 0.2116,
-            "revpar_improvement_pct": 5.249,
-            "revenue_impact_monthly": 212430
+            "score_improvement": 0.2117,
+            "revpar_improvement_pct": 5.251,
+            "revenue_impact_monthly": 212504
           },
           {
             "name": "ホテルケヤキゲート東京府中",
             "current_claims": 4,
             "reduced_claims": 1,
-            "score_improvement": 0.1777,
-            "revpar_improvement_pct": 4.406,
-            "revenue_impact_monthly": 194981
+            "score_improvement": 0.1778,
+            "revpar_improvement_pct": 4.409,
+            "revenue_impact_monthly": 195131
           },
           {
             "name": "アパホテル相模原橋本駅東",
             "current_claims": 5,
             "reduced_claims": 1,
-            "score_improvement": 0.2879,
-            "revpar_improvement_pct": 7.139,
-            "revenue_impact_monthly": 192650
+            "score_improvement": 0.2881,
+            "revpar_improvement_pct": 7.146,
+            "revenue_impact_monthly": 192828
           },
           {
             "name": "コンフォートイン六本木",
             "current_claims": 3,
             "reduced_claims": 0,
-            "score_improvement": 0.2017,
-            "revpar_improvement_pct": 5.003,
-            "revenue_impact_monthly": 142209
+            "score_improvement": 0.2022,
+            "revpar_improvement_pct": 5.014,
+            "revenue_impact_monthly": 142539
           },
           {
             "name": "コートホテル新横浜",
             "current_claims": 1,
             "reduced_claims": 0,
-            "score_improvement": 0.0647,
-            "revpar_improvement_pct": 1.603,
-            "revenue_impact_monthly": 59413
+            "score_improvement": 0.0657,
+            "revpar_improvement_pct": 1.629,
+            "revenue_impact_monthly": 60362
           },
           {
             "name": "チサンホテル浜松町",
             "current_claims": 1,
             "reduced_claims": 0,
-            "score_improvement": 0.0256,
-            "revpar_improvement_pct": 0.634,
-            "revenue_impact_monthly": 35351
+            "score_improvement": 0.0247,
+            "revpar_improvement_pct": 0.613,
+            "revenue_impact_monthly": 34206
           },
           {
             "name": "リッチモンドホテル東京目白",
@@ -1923,97 +1923,97 @@
         "type": "セット漏れ",
         "current_count": 49,
         "reduced_count": 24,
-        "rate_reduction": 1.1053,
-        "score_improvement": 0.0655,
-        "revenue_impact_monthly": 1620931
+        "rate_reduction": 1.0871,
+        "score_improvement": 0.0654,
+        "revenue_impact_monthly": 1619722
       },
       {
         "type": "残置",
         "current_count": 32,
         "reduced_count": 16,
-        "rate_reduction": 0.7218,
+        "rate_reduction": 0.7099,
         "score_improvement": 0.0427,
-        "revenue_impact_monthly": 1058567
+        "revenue_impact_monthly": 1057777
       },
       {
         "type": "汚れ",
         "current_count": 18,
         "reduced_count": 9,
-        "rate_reduction": 0.406,
+        "rate_reduction": 0.3993,
         "score_improvement": 0.024,
-        "revenue_impact_monthly": 595444
+        "revenue_impact_monthly": 595000
       },
       {
         "type": "清掃不備",
         "current_count": 15,
         "reduced_count": 7,
-        "rate_reduction": 0.3383,
+        "rate_reduction": 0.3328,
         "score_improvement": 0.02,
-        "revenue_impact_monthly": 496203
+        "revenue_impact_monthly": 495833
       },
       {
         "type": "その他",
         "current_count": 14,
         "reduced_count": 7,
-        "rate_reduction": 0.3158,
+        "rate_reduction": 0.3106,
         "score_improvement": 0.0187,
-        "revenue_impact_monthly": 463123
+        "revenue_impact_monthly": 462778
       },
       {
         "type": "髪の毛",
         "current_count": 8,
         "reduced_count": 4,
-        "rate_reduction": 0.1805,
+        "rate_reduction": 0.1775,
         "score_improvement": 0.0107,
-        "revenue_impact_monthly": 264642
+        "revenue_impact_monthly": 264444
       },
       {
         "type": "巻き込み",
         "current_count": 3,
         "reduced_count": 1,
-        "rate_reduction": 0.0677,
+        "rate_reduction": 0.0666,
         "score_improvement": 0.004,
-        "revenue_impact_monthly": 99241
+        "revenue_impact_monthly": 99167
       },
       {
         "type": "手配ミス",
         "current_count": 3,
         "reduced_count": 1,
-        "rate_reduction": 0.0677,
+        "rate_reduction": 0.0666,
         "score_improvement": 0.004,
-        "revenue_impact_monthly": 99241
+        "revenue_impact_monthly": 99167
       },
       {
         "type": "私物破棄",
         "current_count": 3,
         "reduced_count": 1,
-        "rate_reduction": 0.0677,
+        "rate_reduction": 0.0666,
         "score_improvement": 0.004,
-        "revenue_impact_monthly": 99241
+        "revenue_impact_monthly": 99167
       },
       {
         "type": "ドア閉め忘れ",
         "current_count": 2,
         "reduced_count": 1,
-        "rate_reduction": 0.0451,
+        "rate_reduction": 0.0444,
         "score_improvement": 0.0027,
-        "revenue_impact_monthly": 66160
+        "revenue_impact_monthly": 66111
       },
       {
         "type": "未清掃",
         "current_count": 2,
         "reduced_count": 1,
-        "rate_reduction": 0.0451,
+        "rate_reduction": 0.0444,
         "score_improvement": 0.0027,
-        "revenue_impact_monthly": 66160
+        "revenue_impact_monthly": 66111
       },
       {
         "type": "破損",
         "current_count": 1,
         "reduced_count": 0,
-        "rate_reduction": 0.0226,
+        "rate_reduction": 0.0222,
         "score_improvement": 0.0013,
-        "revenue_impact_monthly": 33080
+        "revenue_impact_monthly": 33056
       },
       {
         "type": "誤入室",
@@ -2033,20 +2033,20 @@
       "type": "汚れ",
       "total_count": 18,
       "hotels_affected": 9,
-      "correlation_r": 0.2933,
-      "abs_correlation": 0.2933,
+      "correlation_r": 0.2938,
+      "abs_correlation": 0.2938,
       "frequency_score": 1.0,
-      "correlation_score": 0.293,
+      "correlation_score": 0.294,
       "spread_score": 0.9,
-      "composite_priority": 0.697,
+      "composite_priority": 0.698,
       "priority_rank": 1
     },
     {
       "type": "残置",
       "total_count": 32,
       "hotels_affected": 12,
-      "correlation_r": 0.1775,
-      "abs_correlation": 0.1775,
+      "correlation_r": 0.1774,
+      "abs_correlation": 0.1774,
       "frequency_score": 1.0,
       "correlation_score": 0.177,
       "spread_score": 1.0,
@@ -2057,20 +2057,20 @@
       "type": "セット漏れ",
       "total_count": 49,
       "hotels_affected": 14,
-      "correlation_r": 0.166,
-      "abs_correlation": 0.166,
+      "correlation_r": 0.1665,
+      "abs_correlation": 0.1665,
       "frequency_score": 1.0,
-      "correlation_score": 0.166,
+      "correlation_score": 0.167,
       "spread_score": 1.0,
-      "composite_priority": 0.666,
+      "composite_priority": 0.667,
       "priority_rank": 3
     },
     {
       "type": "清掃不備",
       "total_count": 15,
       "hotels_affected": 7,
-      "correlation_r": 0.0933,
-      "abs_correlation": 0.0933,
+      "correlation_r": 0.0934,
+      "abs_correlation": 0.0934,
       "frequency_score": 1.0,
       "correlation_score": 0.093,
       "spread_score": 0.7,
@@ -2081,22 +2081,22 @@
       "type": "その他",
       "total_count": 14,
       "hotels_affected": 8,
-      "correlation_r": 0.006,
-      "abs_correlation": 0.006,
+      "correlation_r": 0.0068,
+      "abs_correlation": 0.0068,
       "frequency_score": 1.0,
-      "correlation_score": 0.006,
+      "correlation_score": 0.007,
       "spread_score": 0.8,
-      "composite_priority": 0.562,
+      "composite_priority": 0.563,
       "priority_rank": 5
     },
     {
       "type": "髪の毛",
       "total_count": 8,
       "hotels_affected": 5,
-      "correlation_r": 0.1034,
-      "abs_correlation": 0.1034,
+      "correlation_r": 0.1036,
+      "abs_correlation": 0.1036,
       "frequency_score": 1.0,
-      "correlation_score": 0.103,
+      "correlation_score": 0.104,
       "spread_score": 0.5,
       "composite_priority": 0.541,
       "priority_rank": 6
@@ -2105,8 +2105,8 @@
       "type": "手配ミス",
       "total_count": 3,
       "hotels_affected": 2,
-      "correlation_r": 0.4073,
-      "abs_correlation": 0.4073,
+      "correlation_r": 0.4072,
+      "abs_correlation": 0.4072,
       "frequency_score": 0.6,
       "correlation_score": 0.407,
       "spread_score": 0.2,
@@ -2117,8 +2117,8 @@
       "type": "巻き込み",
       "total_count": 3,
       "hotels_affected": 3,
-      "correlation_r": 0.227,
-      "abs_correlation": 0.227,
+      "correlation_r": 0.2269,
+      "abs_correlation": 0.2269,
       "frequency_score": 0.6,
       "correlation_score": 0.227,
       "spread_score": 0.3,
@@ -2196,7 +2196,7 @@
       "priority": "高"
     },
     {
-      "title": "収益連動目標: クレーム50%削減で年間¥64,388,113増収",
+      "title": "収益連動目標: クレーム50%削減で年間¥64,454,474増収",
       "rationale": "分析6の品質→売上弾力性を活用し、クレーム削減→スコア改善→売上増の連鎖効果を定量化。",
       "actions": [
         "四半期ごとのクレーム削減目標の設定",
@@ -2219,9 +2219,9 @@
   "summary_stats": {
     "hotels_with_claims": 17,
     "hotels_zero_claims": 2,
-    "avg_claim_rate": 6.47,
+    "avg_claim_rate": 6.38,
     "max_claim_rate_hotel": "川崎日航ホテル",
-    "max_claim_rate": 17.23,
+    "max_claim_rate": 16.99,
     "top_claim_type": "セット漏れ",
     "top_claim_count": 49
   }

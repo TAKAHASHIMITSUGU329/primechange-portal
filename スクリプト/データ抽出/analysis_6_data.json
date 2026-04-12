@@ -2,7 +2,7 @@
   "analysis_metadata": {
     "title": "品質→売上弾力性分析",
     "analysis_number": 6,
-    "date": "2026-04-10",
+    "date": "2026-04-11",
     "hotels_count": 19,
     "data_sources": [
       "hotel_revenue_data.json（19ホテル売上実績）",
