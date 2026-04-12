@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>システムアーキテクチャ図</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Hiragino Sans', sans-serif; background: #f8f9fa; padding: 40px; }
+h1 { text-align: center; color: #333; margin-bottom: 30px; font-size: 22px; }
+.canvas { max-width: 960px; margin: 0 auto; }
+.layer {
+  background: #fff; border-radius: 12px; padding: 20px;
+  margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border-left: 5px solid;
+}
+.layer-title {
+  font-size: 13px; font-weight: bold; letter-spacing: 1px;
+  margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+}
+.layer-title .badge {
+  display: inline-block; padding: 2px 10px; border-radius: 20px;
+  color: #fff; font-size: 11px;
+}
+.components { display: flex; gap: 16px; flex-wrap: wrap; }
+.comp {
+  flex: 1; min-width: 180px; padding: 12px 16px;
+  border-radius: 8px; text-align: center; font-size: 12px; line-height: 1.5;
+}
+.comp b { display: block; font-size: 13px; margin-bottom: 4px; }
+.l1 { border-color: #d6b656; }
+.l1 .badge { background: #d6b656; }
+.l1 .comp { background: #fff8e1; border: 1px solid #d6b656; }
+.l2 { border-color: #6c8ebf; }
+.l2 .badge { background: #6c8ebf; }
+.l2 .comp { background: #e8f0fe; border: 1px solid #6c8ebf; }
+.l3 { border-color: #9673a6; }
+.l3 .badge { background: #9673a6; }
+.l3 .comp { background: #f3e8fa; border: 1px solid #9673a6; }
+.l4 { border-color: #82b366; }
+.l4 .badge { background: #82b366; }
+.l4 .comp { background: #e8f5e1; border: 1px solid #82b366; }
+.l5 { border-color: #b85450; }
+.l5 .badge { background: #b85450; }
+.l5 .comp { background: #fde8e8; border: 1px solid #b85450; }
+.arrow-row { text-align: center; font-size: 24px; color: #aaa; margin: 4px 0; }
+</style>
+</head>
+<body>
+<h1>システムアーキテクチャ図</h1>
+<div class="canvas">
+
+<div class="layer l1">
+  <div class="layer-title"><span class="badge">Layer 1</span> データソース層</div>
+  <div class="components">
+    <div class="comp"><b>Google Sheets</b>19ホテル口コミ</div>
+    <div class="comp"><b>Google Sheets</b>月報XLSX</div>
+    <div class="comp"><b>Google Sheets</b>売上データ</div>
+    <div class="comp"><b>Google Sheets</b>清掃・皆勤データ</div>
+  </div>
+</div>
+<div class="arrow-row">▼</div>
+
+<div class="layer l2">
+  <div class="layer-title"><span class="badge">Layer 2</span> CI/CD層 (GitHub Actions)</div>
+  <div class="components">
+    <div class="comp"><b>download-csvs.yml</b>日次CSV取得</div>
+    <div class="comp"><b>download-csvs.yml</b>日次XLSX取得</div>
+    <div class="comp"><b>update_all.sh</b>パイプライン実行</div>
+  </div>
+</div>
+<div class="arrow-row">▼</div>
+
+<div class="layer l3">
+  <div class="layer-title"><span class="badge">Layer 3</span> 分析・処理層 (Python + Node.js)</div>
+  <div class="components">
+    <div class="comp"><b>analyze_reviews.py</b>口コミ分析 x19</div>
+    <div class="comp"><b>analysis_1-7_extract.py</b>深掘り分析</div>
+    <div class="comp"><b>aggregate_portfolio.py</b>ポートフォリオ集約</div>
+    <div class="comp"><b>delta-engine.js</b>前日比差分計算</div>
+  </div>
+</div>
+<div class="arrow-row">▼</div>
+
+<div class="layer l4">
+  <div class="layer-title"><span class="badge">Layer 4</span> 出力・生成層</div>
+  <div class="components">
+    <div class="comp"><b>build_all.js</b>V1ダッシュボード (5P)</div>
+    <div class="comp"><b>build_all_v2.js</b>V2ダッシュボード (11P)</div>
+    <div class="comp"><b>generate_hotel_report.js</b>ホテルレポート (DOCX)</div>
+    <div class="comp"><b>generate_pptx.js</b>プレゼン (PPTX)</div>
+  </div>
+</div>
+<div class="arrow-row">▼</div>
+
+<div class="layer l5">
+  <div class="layer-title"><span class="badge">Layer 5</span> 配信層</div>
+  <div class="components">
+    <div class="comp"><b>GitHub Pages</b>ルート直下HTML (V1)</div>
+    <div class="comp"><b>GitHub Pages</b>v2/ (V2)</div>
+    <div class="comp"><b>レポートファイル</b>DOCX + PPTX</div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

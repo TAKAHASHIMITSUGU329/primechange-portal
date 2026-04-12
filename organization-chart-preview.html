@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ホテルポートフォリオ 組織図</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Hiragino Sans', sans-serif; background: #f8f9fa; padding: 40px; }
+h1 { text-align: center; color: #333; margin-bottom: 30px; font-size: 22px; }
+.canvas { max-width: 1000px; margin: 0 auto; }
+.root {
+  text-align: center; margin-bottom: 24px;
+}
+.root-box {
+  display: inline-block; padding: 16px 32px; background: #dae8fc;
+  border: 2px solid #6c8ebf; border-radius: 12px; font-size: 16px;
+  font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.root-box small { display: block; font-weight: normal; font-size: 12px; color: #555; margin-top: 4px; }
+.arrow-down { text-align: center; font-size: 24px; color: #aaa; margin: 8px 0; }
+.branches { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+.branch {
+  flex: 1; min-width: 280px; max-width: 320px;
+  background: #fff; border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06); overflow: hidden;
+}
+.branch-header {
+  padding: 12px 16px; font-weight: bold; font-size: 14px;
+  text-align: center; color: #fff;
+}
+.bh-purple { background: #9673a6; }
+.bh-orange { background: #d6b656; }
+.bh-red { background: #b85450; }
+.branch-items { padding: 12px; }
+.item {
+  padding: 8px 12px; margin-bottom: 6px; border-radius: 6px;
+  font-size: 12px; display: flex; align-items: center; gap: 8px;
+}
+.item:last-child { margin-bottom: 0; }
+.item .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.purple-item { background: #f3e8fa; }
+.purple-item .dot { background: #9673a6; }
+.orange-item { background: #fff8e1; }
+.orange-item .dot { background: #d6b656; }
+.red-item { background: #fde8e8; }
+.red-item .dot { background: #b85450; }
+</style>
+</head>
+<body>
+<h1>ホテルポートフォリオ 組織図</h1>
+<div class="canvas">
+
+<div class="root">
+  <div class="root-box">
+    PRIMECHANGE
+    <small>ホテル口コミ分析ポータル — 19ホテル管理</small>
+  </div>
+</div>
+
+<div class="arrow-down">▼</div>
+
+<div class="branches">
+  <!-- Dashboard -->
+  <div class="branch">
+    <div class="branch-header bh-purple">ダッシュボード</div>
+    <div class="branch-items">
+      <div class="item purple-item"><span class="dot"></span>エグゼクティブサマリー</div>
+      <div class="item purple-item"><span class="dot"></span>ホテル別ダッシュボード</div>
+      <div class="item purple-item"><span class="dot"></span>OTA戦略</div>
+      <div class="item purple-item"><span class="dot"></span>ESダッシュボード</div>
+      <div class="item purple-item"><span class="dot"></span>シミュレータ</div>
+      <div class="item purple-item"><span class="dot"></span>タレントマネジメント</div>
+    </div>
+  </div>
+
+  <!-- Reports -->
+  <div class="branch">
+    <div class="branch-header bh-orange">レポート生成</div>
+    <div class="branch-items">
+      <div class="item orange-item"><span class="dot"></span>ホテル個別レポート (DOCX x 19)</div>
+      <div class="item orange-item"><span class="dot"></span>戦略レポート (DOCX x 12)</div>
+      <div class="item orange-item"><span class="dot"></span>プレゼン資料 (PPTX)</div>
+      <div class="item orange-item"><span class="dot"></span>清掃戦略レポート</div>
+      <div class="item orange-item"><span class="dot"></span>売上インパクトレポート</div>
+      <div class="item orange-item"><span class="dot"></span>アクションプラン</div>
+    </div>
+  </div>
+
+  <!-- Analysis -->
+  <div class="branch">
+    <div class="branch-header bh-red">深掘り分析 (7種)</div>
+    <div class="branch-items">
+      <div class="item red-item"><span class="dot"></span>A1: OTAプラットフォーム分析</div>
+      <div class="item red-item"><span class="dot"></span>A2: スタッフパフォーマンス</div>
+      <div class="item red-item"><span class="dot"></span>A3: 時系列トレンド分析</div>
+      <div class="item red-item"><span class="dot"></span>A4: 競合ベンチマーク</div>
+      <div class="item red-item"><span class="dot"></span>A5: 感情分析ヒートマップ</div>
+      <div class="item red-item"><span class="dot"></span>A6: 品質 x 売上相関</div>
+      <div class="item red-item"><span class="dot"></span>A7: 清掃品質深掘り</div>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>

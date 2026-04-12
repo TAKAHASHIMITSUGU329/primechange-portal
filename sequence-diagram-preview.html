@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>日次更新パイプライン シーケンス図</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Hiragino Sans', sans-serif; background: #f8f9fa; padding: 40px; }
+h1 { text-align: center; color: #333; margin-bottom: 30px; font-size: 22px; }
+.canvas { max-width: 900px; margin: 0 auto; }
+.actors { display: flex; justify-content: space-between; margin-bottom: 0; }
+.actor {
+  width: 130px; text-align: center; padding: 10px 8px;
+  border-radius: 8px; font-size: 12px; font-weight: bold;
+  position: relative; z-index: 2;
+}
+.a1 { background: #dae8fc; border: 2px solid #6c8ebf; }
+.a2 { background: #fff2cc; border: 2px solid #d6b656; }
+.a3 { background: #e1d5e7; border: 2px solid #9673a6; }
+.a4 { background: #d5e8d4; border: 2px solid #82b366; }
+.a5 { background: #f8cecc; border: 2px solid #b85450; }
+.lifelines {
+  display: flex; justify-content: space-between; position: relative;
+  min-height: 600px;
+}
+.lifeline {
+  width: 130px; display: flex; justify-content: center; position: relative;
+}
+.lifeline::before {
+  content: ''; position: absolute; top: 0; bottom: 0;
+  width: 2px; background: #ccc; left: 50%;
+}
+.messages { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+.msg {
+  position: absolute; display: flex; align-items: center;
+  font-size: 11px; white-space: nowrap;
+}
+.msg .line {
+  height: 2px; flex: 1; position: relative;
+}
+.msg .line.solid { background: #555; }
+.msg .line.dashed { background: repeating-linear-gradient(90deg, #888 0, #888 6px, transparent 6px, transparent 10px); }
+.msg .line::after {
+  content: ''; position: absolute; right: -1px; top: -4px;
+  border-left: 8px solid #555; border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+.msg .line.dashed::after { border-left-color: #888; }
+.msg .line.reverse::after {
+  right: auto; left: -1px;
+  border-left: none; border-right: 8px solid #888;
+}
+.msg .text {
+  position: absolute; top: -18px; left: 50%;
+  transform: translateX(-50%); background: #f8f9fa;
+  padding: 0 6px; color: #333; font-weight: 500;
+}
+.step-list {
+  margin-top: 20px; background: #fff; border-radius: 10px;
+  padding: 20px 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.step-list h3 { font-size: 14px; color: #555; margin-bottom: 12px; }
+.step {
+  display: flex; gap: 12px; padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0; font-size: 12px; align-items: center;
+}
+.step:last-child { border-bottom: none; }
+.step-num {
+  width: 28px; height: 28px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold; color: #fff; font-size: 12px; flex-shrink: 0;
+}
+.step-from { color: #888; min-width: 100px; }
+.step-arrow { color: #aaa; }
+.step-to { color: #888; min-width: 90px; }
+.step-desc { color: #333; flex: 1; }
+.step-return { color: #999; font-style: italic; }
+.s1 { background: #6c8ebf; } .s2 { background: #6c8ebf; }
+.s3 { background: #9673a6; } .s4 { background: #9673a6; }
+.s5 { background: #9673a6; } .s6 { background: #82b366; }
+.s7 { background: #82b366; } .s8 { background: #b85450; }
+</style>
+</head>
+<body>
+<h1>日次更新パイプライン シーケンス図</h1>
+<div class="canvas">
+
+<div class="actors">
+  <div class="actor a1">GitHub Actions<br>(cron)</div>
+  <div class="actor a2">Google<br>Sheets</div>
+  <div class="actor a3">Python<br>分析</div>
+  <div class="actor a4">Node.js<br>ビルド</div>
+  <div class="actor a5">GitHub<br>Pages</div>
+</div>
+
+<div class="step-list">
+  <h3>処理シーケンス (毎日自動実行)</h3>
+  <div class="step">
+    <div class="step-num s1">1</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">Google Sheets</div>
+    <div class="step-desc">curl CSV取得 (19ホテル口コミ)</div>
+    <div class="step-return">← CSV files</div>
+  </div>
+  <div class="step">
+    <div class="step-num s2">2</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">Google Sheets</div>
+    <div class="step-desc">curl XLSX取得 (19ホテル月報)</div>
+    <div class="step-return">← XLSX files</div>
+  </div>
+  <div class="step">
+    <div class="step-num s3">3</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">Python分析</div>
+    <div class="step-desc">analyze_reviews.py x 19 実行</div>
+    <div class="step-return">← {key}_analysis.json</div>
+  </div>
+  <div class="step">
+    <div class="step-num s4">4</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">Python分析</div>
+    <div class="step-desc">analysis_1〜7_extract.py 実行</div>
+    <div class="step-return">← analysis_{1-7}_data.json</div>
+  </div>
+  <div class="step">
+    <div class="step-num s5">5</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">Python分析</div>
+    <div class="step-desc">aggregate_portfolio_analysis.py 実行</div>
+    <div class="step-return">← portfolio_analysis.json</div>
+  </div>
+  <div class="step">
+    <div class="step-num s6">6</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">Node.js ビルド</div>
+    <div class="step-desc">build_all.js + build_all_v2.js 実行</div>
+    <div class="step-return">← HTML (V1 + V2)</div>
+  </div>
+  <div class="step">
+    <div class="step-num s7">7</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">Node.js ビルド</div>
+    <div class="step-desc">generate_hotel_report.js x 19 実行</div>
+    <div class="step-return">← DOCX + PPTX</div>
+  </div>
+  <div class="step">
+    <div class="step-num s8">8</div>
+    <div class="step-from">GitHub Actions</div>
+    <div class="step-arrow">→</div>
+    <div class="step-to">GitHub Pages</div>
+    <div class="step-desc">git push (rsync + deploy)</div>
+    <div class="step-return">← 公開完了</div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
