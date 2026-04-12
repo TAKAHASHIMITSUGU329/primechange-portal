@@ -1,12 +1,12 @@
 {
-  "total_reviews": 81,
-  "overall_avg_10pt": 8.33,
-  "high_count": 64,
-  "high_rate": 79.0,
-  "mid_count": 16,
-  "mid_rate": 19.8,
+  "total_reviews": 70,
+  "overall_avg_10pt": 8.24,
+  "high_count": 55,
+  "high_rate": 78.6,
+  "mid_count": 14,
+  "mid_rate": 20.0,
   "low_count": 1,
-  "low_rate": 1.2,
+  "low_rate": 1.4,
   "site_stats": [
     {
       "site": "じゃらん",
@@ -28,7 +28,7 @@
     },
     {
       "site": "楽天トラベル",
-      "count": 12,
+      "count": 10,
       "native_avg": 4.5,
       "scale": "/5",
       "avg_10pt": 9.0,
@@ -37,19 +37,10 @@
     },
     {
       "site": "Booking.com",
-      "count": 41,
-      "native_avg": 8.12,
+      "count": 35,
+      "native_avg": 8.09,
       "scale": "/10",
-      "avg_10pt": 8.12,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 14,
-      "native_avg": 4.0,
-      "scale": "/5",
-      "avg_10pt": 8.0,
+      "avg_10pt": 8.09,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
@@ -61,189 +52,55 @@
       "avg_10pt": 7.5,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
+    },
+    {
+      "site": "Google",
+      "count": 11,
+      "native_avg": 3.73,
+      "scale": "/5",
+      "avg_10pt": 7.45,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 24,
-      "pct": "29.6%"
+      "count": 19,
+      "pct": "27.1%"
     },
     {
       "score": 9,
-      "count": 12,
-      "pct": "14.8%"
+      "count": 9,
+      "pct": "12.9%"
     },
     {
       "score": 8,
-      "count": 28,
-      "pct": "34.6%"
+      "count": 27,
+      "pct": "38.6%"
     },
     {
       "score": 7,
-      "count": 6,
-      "pct": "7.4%"
+      "count": 5,
+      "pct": "7.1%"
     },
     {
       "score": 6,
-      "count": 9,
-      "pct": "11.1%"
+      "count": 8,
+      "pct": "11.4%"
     },
     {
       "score": 5,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.4%"
     },
     {
       "score": 2,
       "count": 1,
-      "pct": "1.2%"
+      "pct": "1.4%"
     }
   ],
   "comments": [
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-08",
-      "comment": "",
-      "good": "Amazing location in Roppongi  Great staff with excellent English skills  daily cleaning and towels on demand  free umbrellas to borrow on rainy days",
-      "bad": "Only one electric plug but you can borrow an extension at the lobby.  furniture and bathroom a bit outdated.   Cleaning staff uses fire escape stairs and sometimes ruins your nap  tiny desk barely enough room for a laptop",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "コンセントは1つだけですが、ロビーで延長コードを借りることができます。家具やバスルームは少し古めです。清掃スタッフが非常階段を使うため、昼寝が邪魔されることがあります。机は小さく、ノートパソコンを置くスペースがほとんどありません。",
-      "reviewer": "Vortex"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-07",
-      "comment": "立地が最高。スタッフもとても親切。",
-      "good": "",
-      "bad": "",
-      "translated": "立地が最高。スタッフもとても親切。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Craig Cannon"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-07",
-      "comment": "Great location. Very helpful staff.",
-      "good": "",
-      "bad": "",
-      "translated": "立地が最高。スタッフもとても親切。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Craig Cannon"
-    },
-    {
-      "site": "Google",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-07",
-      "comment": "素晴らしいロケーション。とても親切なスタッフ。",
-      "good": "",
-      "bad": "",
-      "translated": "素晴らしいロケーション。とても親切なスタッフ。",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Craig Cannon"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 7.0,
-      "rating_10pt": 7.0,
-      "date": "2026-04-06",
-      "comment": "",
-      "good": "A cama é confortável, a localização excelente e o quarto que fiquei tinha um tamanho bom. Por esse motivo, julgo um bom custo benefício.",
-      "bad": "A privada do banheiro vazava um pouco de água, além do cheiro do ralo ser bem forte. Alguns dias ficava com forte cheiro de urina, principalmente após a limpeza. A recepção também tinha esse cheiro. Foi algo que me incomodou bastante. O café da manhã é caro e tem pouca variedade (três tipos de pão, geleia, manteiga, sucrilhos, ovo e só - além de comida comida) não compensa o preço.",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "トイレは少し水漏れしていて、排水口からかなり強い臭いがしました。特に掃除後は、尿の臭いがひどくなる日もありました。受付エリアも同じ臭いがして、かなり気になりました。朝食は値段が高い上に種類も少なく（パンが3種類、ジャム、バター、シリアル、卵、それだけです。それ以外は食事がほとんどありません）、値段に見合う価値はありません。",
-      "reviewer": "Marcella"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 5.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-06",
-      "comment": "六本木駅5番出口から近くて便利！大人2人と幼児2人でキングベッドの一部屋を利用。スタッフさんの気遣いもとてもよかった。ただ部屋が狭かったのは残念。都心の駅近と料金を考えると仕方がない…。清掃は行き届いているのでキレイ！",
-      "good": "",
-      "bad": "",
-      "translated": "六本木駅5番出口から近くて便利！大人2人と幼児2人でキングベッドの一部屋を利用。スタッフさんの気遣いもとてもよかった。ただ部屋が狭かったのは残念。都心の駅近と料金を考えると仕方がない…。清掃は行き届いているのでキレイ！",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "にゃーやん"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-05",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Craig"
-    },
-    {
-      "site": "楽天トラベル",
-      "rating": 4.0,
-      "rating_10pt": 8.0,
-      "date": "2026-04-05",
-      "comment": "国立競技場でのライブ参戦のために宿泊しました。 国立競技場までのアクセスが良く、移動がとてもスムーズでした。  部屋は想像していたよりも広く、バストイレもゆったりしていて快適でした。 ツインベッドもあっても広く感じました！ 浴槽などは、少し古さを感じる部分もありましたが、特に気になるほどではありませんでした。 六本木駅前という立地ですが、ホテル周辺は落ち着いていて静かで、治安の良さも感じられました。 また、都営大江戸線・六本木駅の5番出口を出てすぐの場所にあり、アクセスがとても良かったです。 近くにファミマもあり、ちょっとした買い物にも便利でした。 今回は、同行者がいましたが、女性一人での宿泊でも安心できると感じました。 ★チェックイン開始の15時は混み合っていたのでオンラインチェックインを事前にしてから行くとスムーズにチェックインできると思います！ ぜひまた宿泊したいです〜",
-      "good": "",
-      "bad": "",
-      "translated": "国立競技場でのライブ参戦のために宿泊しました。 国立競技場までのアクセスが良く、移動がとてもスムーズでした。  部屋は想像していたよりも広く、バストイレもゆったりしていて快適でした。 ツインベッドもあっても広く感じました！ 浴槽などは、少し古さを感じる部分もありましたが、特に気になるほどではありませんでした。 六本木駅前という立地ですが、ホテル周辺は落ち着いていて静かで、治安の良さも感じられました。 また、都営大江戸線・六本木駅の5番出口を出てすぐの場所にあり、アクセスがとても良かったです。 近くにファミマもあり、ちょっとした買い物にも便利でした。 今回は、同行者がいましたが、女性一人での宿泊でも安心できると感じました。 ★チェックイン開始の15時は混み合っていたのでオンラインチェックインを事前にしてから行くとスムーズにチェックインできると思います！ ぜひまた宿泊したいです〜",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "oimoo"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 10.0,
-      "rating_10pt": 10.0,
-      "date": "2026-04-04",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Tahlee"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 9.0,
-      "rating_10pt": 9.0,
-      "date": "2026-04-03",
-      "comment": "",
-      "good": "The location is great next to a subway station, staff are helpful and the room that we had was very spacious.",
-      "bad": "Yummy but Very limited breakfast option as they have the same menu everyday",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "美味しいけど、毎日同じメニューなので朝食の選択肢がすごく限られている。",
-      "reviewer": "Carlito"
-    },
-    {
-      "site": "Booking.com",
-      "rating": 6.0,
-      "rating_10pt": 6.0,
-      "date": "2026-04-01",
-      "comment": "",
-      "good": "",
-      "bad": "",
-      "translated": "",
-      "translated_good": "",
-      "translated_bad": "",
-      "reviewer": "Ai"
-    },
     {
       "site": "Booking.com",
       "rating": 8.0,
@@ -265,7 +122,7 @@
       "comment": "While everything you could need was here, provided, tea, coffee, water filter, laundry, a great shower..., great staff and service, just the room's are just too small.. Two people travelling international,with lge bags and carry on bag each..not a spare space for a bag anywhere...",
       "good": "",
       "bad": "",
-      "translated": "必要なものはすべて揃っていて、紅茶、コーヒー、浄水器、ランドリー、素晴らしいシャワーなど、スタッフもサービスも最高だったのですが、部屋がとにかく狭すぎました。大きなスーツケースと機内持ち込みバッグをそれぞれ持っていた2人組が海外旅行をしたのですが、どこにもバッグを置くスペースがありませんでした。",
+      "translated": "必要なものはすべて揃っていて、紅茶、コーヒー、浄水器、ランドリー、素晴らしいシャワーなど、スタッフもサービスも最高だったのですが、部屋がとにかく狭すぎました。大きなスーツケースと機内持ち込みバッグをそれぞれ持っていた2人で海外旅行をしたのですが、どこにもバッグを置くスペースがありませんでした。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
@@ -798,7 +655,7 @@
       "comment": "這裏太方便了，樓下就是地鐵站，不論是自己或是朋友一起來都非常之方便，最重要的是客服人員態度10分好，10分推薦",
       "good": "",
       "bad": "",
-      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフがとても親切で助かります。本当におすすめです！",
+      "translated": "ここは本当に便利です！階下に地下鉄の駅があるので、一人でも友達とでも気軽に来られます。そして何より、カスタマーサービスのスタッフの方々がとても親切で助かります。本当におすすめです！",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "M‍o‍m‍o‍4‍2‍9"
@@ -1151,7 +1008,7 @@
       "bad": "Il distributore di caffè è attivo solo dalle 7, sarebbe comodo prima per chi prende voli di ritorno al mattino presto",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していると便利でしょう。",
+      "translated_bad": "コーヒーマシンは午前7時からしか稼働しないので、早朝の帰りの便を利用する人にとっては、もっと早くから稼働していれば便利でしょう。",
       "reviewer": "Mariafrancesca"
     }
   ]
