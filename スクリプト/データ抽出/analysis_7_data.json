@@ -162,20 +162,20 @@
       "avg_checkers": 1.0,
       "maid_checker_ratio": 5.5,
       "avg_completion_time": 1225.96,
-      "safety_score": 3.12,
+      "safety_score": 3.16,
       "safety_categories": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
       },
       "review_score": 8.24,
       "cleaning_issue_rate": 4.3,
       "tier": "概ね良好",
       "revpar": 890.5482,
       "monthly_revenue": 2842630,
-      "composite_score": 0.554
+      "composite_score": 0.556
     },
     {
       "hotel_key": "comfort_suites_tokyobay",
@@ -607,11 +607,11 @@
       },
       {
         "name": "コンフォートイン六本木",
-        "composite": 0.554,
+        "composite": 0.556,
         "review": 8.24,
         "claims": 4.61,
         "time": 1225.96,
-        "safety": 3.12
+        "safety": 3.16
       },
       {
         "name": "コンフォートホテル博多",

@@ -5,7 +5,7 @@
     "subtitle": "Safety Inspection × Early Warning Analysis",
     "total_hotels": 19,
     "hotels_with_data": 19,
-    "data_period": "R8年度（2月〜3月）"
+    "data_period": "R8年度（2月〜4月）"
   },
   "hotel_details": {
     "daiwa_osaki": {
@@ -94,14 +94,14 @@
     },
     "comfort_roppongi": {
       "name": "コンフォートイン六本木",
-      "avg_score": 3.12,
-      "inspections_count": 3,
+      "avg_score": 3.16,
+      "inspections_count": 4,
       "category_scores": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
       }
     },
     "comfort_suites_tokyobay": {
@@ -337,16 +337,16 @@
     {
       "hotel_key": "comfort_roppongi",
       "name": "コンフォートイン六本木",
-      "safety_score": 3.12,
+      "safety_score": 3.16,
       "review_score": 8.24,
       "claim_rate": 4.61,
-      "inspections": 3,
+      "inspections": 4,
       "category_scores": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
       }
     },
     {
@@ -508,11 +508,11 @@
   ],
   "correlations": {
     "safety_vs_review": {
-      "r": 0.1525,
+      "r": 0.1505,
       "n": 19
     },
     "safety_vs_claims": {
-      "r": 0.1743,
+      "r": 0.1695,
       "n": 19
     }
   },
@@ -1219,6 +1219,21 @@
       }
     },
     {
+      "hotel_key": "comfort_roppongi",
+      "name": "コンフォートイン六本木",
+      "safety_score": 3.16,
+      "review_score": 8.24,
+      "claim_rate": 4.61,
+      "inspections": 4,
+      "category_scores": {
+        "整理整頓": 83.4,
+        "安全管理": 100.0,
+        "衛生管理": 100.0,
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
+      }
+    },
+    {
       "hotel_key": "comment_yokohama",
       "name": "ホテルコメント横浜関内",
       "safety_score": 3.14,
@@ -1246,21 +1261,6 @@
         "衛生管理": 100.0,
         "現場運営": 79.1,
         "現場ルール・マナー": 73.3
-      }
-    },
-    {
-      "hotel_key": "comfort_roppongi",
-      "name": "コンフォートイン六本木",
-      "safety_score": 3.12,
-      "review_score": 8.24,
-      "claim_rate": 4.61,
-      "inspections": 3,
-      "category_scores": {
-        "整理整頓": 81.5,
-        "安全管理": 100.0,
-        "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
       }
     },
     {
