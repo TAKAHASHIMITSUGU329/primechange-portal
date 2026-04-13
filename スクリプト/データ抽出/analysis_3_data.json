@@ -245,7 +245,7 @@
         "score": 8.78,
         "cleaning_issue_rate": 0.0,
         "claim_rate": 4.55,
-        "maid_data_points": 63
+        "maid_data_points": 59
       },
       {
         "hotel_key": "comfort_narita",
@@ -441,13 +441,13 @@
       "avg_maids": 8.1,
       "avg_checkers": null,
       "maid_checker_ratio": null,
-      "avg_completion_time": 15.26,
-      "time_std": 0.59,
+      "avg_completion_time": 15.25,
+      "time_std": 0.6,
       "avg_rooms_per_maid": 19.0,
       "score": 8.78,
       "claim_rate": 4.55,
-      "maid_data_points": 63,
-      "time_data_points": 46
+      "maid_data_points": 59,
+      "time_data_points": 43
     },
     {
       "hotel_key": "kawasaki_nikko",
