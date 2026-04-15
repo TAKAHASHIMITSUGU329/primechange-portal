@@ -4,17 +4,35 @@
     "title": "スタッフ個人別パフォーマンス分析",
     "subtitle": "Individual Staff Performance Analysis",
     "total_hotels": 19,
-    "total_staff_analyzed": 386,
+    "total_staff_analyzed": 420,
     "data_period": "R8年度（2月〜4月）"
   },
   "maid_claims_summary": {
-    "total_maids_with_claims": 133,
+    "total_maids_with_claims": 136,
     "top_claim_maids": [
+      {
+        "name": "大沼",
+        "claims": 11,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
       {
         "name": "不明",
         "claims": 10,
         "hotel": "コンフォートホテル横浜関内",
         "hotel_key": "comfort_yokohama"
+      },
+      {
+        "name": "プラミラ",
+        "claims": 8,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
+      {
+        "name": "早川",
+        "claims": 7,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
       },
       {
         "name": "ファンホン",
@@ -23,10 +41,22 @@
         "hotel_key": "comment_yokohama"
       },
       {
+        "name": "－",
+        "claims": 6,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
+      {
         "name": "平田",
         "claims": 6,
         "hotel": "ホテルコメント横浜関内",
         "hotel_key": "comment_yokohama"
+      },
+      {
+        "name": "サンタ",
+        "claims": 5,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
       },
       {
         "name": "寺島",
@@ -69,47 +99,29 @@
         "claims": 4,
         "hotel": "コンフォートホテル横浜関内",
         "hotel_key": "comfort_yokohama"
-      },
-      {
-        "name": "藤原",
-        "claims": 4,
-        "hotel": "ホテルコメント横浜関内",
-        "hotel_key": "comment_yokohama"
-      },
-      {
-        "name": "アンビカ",
-        "claims": 3,
-        "hotel": "ダイワロイネットホテル東京大崎",
-        "hotel_key": "daiwa_osaki"
-      },
-      {
-        "name": "サンティ",
-        "claims": 3,
-        "hotel": "ハートンホテル東品川",
-        "hotel_key": "hearton"
-      },
-      {
-        "name": "メイ",
-        "claims": 3,
-        "hotel": "京成リッチモンドホテル東京錦糸町",
-        "hotel_key": "keisei_richmond"
-      },
-      {
-        "name": "スニル",
-        "claims": 3,
-        "hotel": "コンフォートイン六本木",
-        "hotel_key": "comfort_roppongi"
       }
     ]
   },
   "checker_claims_summary": {
-    "total_checkers_with_claims": 94,
+    "total_checkers_with_claims": 99,
     "top_claim_checkers": [
+      {
+        "name": "カン",
+        "claims": 17,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
       {
         "name": "福岡",
         "claims": 15,
         "hotel": "ホテルコメント横浜関内",
         "hotel_key": "comment_yokohama"
+      },
+      {
+        "name": "エリ",
+        "claims": 14,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
       },
       {
         "name": "荒井",
@@ -148,6 +160,12 @@
         "hotel_key": "kawasaki_nikko"
       },
       {
+        "name": "佐藤",
+        "claims": 8,
+        "hotel": "京成リッチモンドホテル東京錦糸町",
+        "hotel_key": "keisei_richmond"
+      },
+      {
         "name": "伊藤",
         "claims": 8,
         "hotel": "川崎日航ホテル",
@@ -176,75 +194,57 @@
         "claims": 6,
         "hotel": "ダイワロイネットホテル東京大崎",
         "hotel_key": "daiwa_osaki"
-      },
-      {
-        "name": "メイ",
-        "claims": 6,
-        "hotel": "京成リッチモンドホテル東京錦糸町",
-        "hotel_key": "keisei_richmond"
-      },
-      {
-        "name": "藤原",
-        "claims": 6,
-        "hotel": "ホテルコメント横浜関内",
-        "hotel_key": "comment_yokohama"
-      },
-      {
-        "name": "ピョー",
-        "claims": 5,
-        "hotel": "ダイワロイネットホテル東京大崎",
-        "hotel_key": "daiwa_osaki"
       }
     ]
   },
   "maid_productivity": {
-    "total_maids_with_room_data": 217,
-    "avg_rooms_per_day": 12.9,
-    "median_rooms_per_day": 13.6,
-    "max_rooms_per_day": 25.7,
+    "total_maids_with_room_data": 240,
+    "avg_rooms_per_day": 12.5,
+    "median_rooms_per_day": 13.0,
+    "max_rooms_per_day": 25.5,
     "min_rooms_per_day": 0.3,
     "top_performers": [
       {
         "name": "辛",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 60,
+        "total_days": 62,
         "absence_days": 0,
-        "total_hours": 328.4,
-        "rooms_cleaned": 1544,
+        "total_hours": 337.7,
+        "rooms_cleaned": 1584,
         "feb_rooms": 638,
         "mar_rooms": 798,
-        "apr_rooms": 108,
+        "apr_rooms": 148,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
-        "rooms_per_day": 25.7
+        "rooms_per_day": 25.5
       },
       {
         "name": "楊",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 66,
+        "total_days": 68,
         "absence_days": 0,
-        "total_hours": 355.5,
-        "rooms_cleaned": 1633,
+        "total_hours": 363.3,
+        "rooms_cleaned": 1674,
         "feb_rooms": 659,
         "mar_rooms": 713,
-        "apr_rooms": 261,
+        "apr_rooms": 302,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
-        "rooms_per_day": 24.7
+        "rooms_per_day": 24.6
       },
       {
         "name": "スニタ（セルフ）",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 60,
+        "total_days": 62,
         "absence_days": 0,
-        "total_hours": 273.9,
-        "rooms_cleaned": 1470,
+        "total_hours": 283.1,
+        "rooms_cleaned": 1521,
         "feb_rooms": 561,
         "mar_rooms": 648,
-        "apr_rooms": 261,
+        "apr_rooms": 312,
         "hotel": "ハートンホテル東品川",
         "hotel_key": "hearton",
         "rooms_per_day": 24.5
@@ -253,43 +253,43 @@
         "name": "ビマラ（セルフ）",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 60,
+        "total_days": 61,
         "absence_days": 0,
-        "total_hours": 291.0,
-        "rooms_cleaned": 1350,
+        "total_hours": 296.6,
+        "rooms_cleaned": 1386,
         "feb_rooms": 544,
         "mar_rooms": 557,
-        "apr_rooms": 249,
+        "apr_rooms": 285,
         "hotel": "ハートンホテル東品川",
         "hotel_key": "hearton",
-        "rooms_per_day": 22.5
+        "rooms_per_day": 22.7
       },
       {
         "name": "プスカル",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 62,
+        "total_days": 64,
         "absence_days": 0,
-        "total_hours": 304.3,
-        "rooms_cleaned": 1384,
+        "total_hours": 313.6,
+        "rooms_cleaned": 1432,
         "feb_rooms": 542,
         "mar_rooms": 562,
-        "apr_rooms": 280,
+        "apr_rooms": 328,
         "hotel": "ハートンホテル東品川",
         "hotel_key": "hearton",
-        "rooms_per_day": 22.3
+        "rooms_per_day": 22.4
       },
       {
         "name": "マヤ",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 63,
+        "total_days": 64,
         "absence_days": 0,
-        "total_hours": 341.4,
-        "rooms_cleaned": 1396,
+        "total_hours": 346.3,
+        "rooms_cleaned": 1418,
         "feb_rooms": 529,
         "mar_rooms": 642,
-        "apr_rooms": 225,
+        "apr_rooms": 247,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
         "rooms_per_day": 22.2
@@ -298,58 +298,58 @@
         "name": "ブラトキ",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 63,
+        "total_days": 64,
         "absence_days": 0,
-        "total_hours": 325.0,
-        "rooms_cleaned": 1397,
+        "total_hours": 329.1,
+        "rooms_cleaned": 1413,
         "feb_rooms": 543,
         "mar_rooms": 647,
-        "apr_rooms": 207,
+        "apr_rooms": 223,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
-        "rooms_per_day": 22.2
-      },
-      {
-        "name": "コイララ",
-        "position": "メイド",
-        "pay_type": "歩合",
-        "total_days": 62,
-        "absence_days": 0,
-        "total_hours": 322.2,
-        "rooms_cleaned": 1360,
-        "feb_rooms": 527,
-        "mar_rooms": 636,
-        "apr_rooms": 197,
-        "hotel": "チサンホテル浜松町",
-        "hotel_key": "chisan",
-        "rooms_per_day": 21.9
+        "rooms_per_day": 22.1
       },
       {
         "name": "ビナ",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 54,
+        "total_days": 56,
         "absence_days": 0,
-        "total_hours": 289.1,
-        "rooms_cleaned": 1181,
+        "total_hours": 297.9,
+        "rooms_cleaned": 1226,
         "feb_rooms": 307,
         "mar_rooms": 664,
-        "apr_rooms": 210,
+        "apr_rooms": 255,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
         "rooms_per_day": 21.9
       },
       {
-        "name": "スシラ",
+        "name": "グルン",
         "position": "メイド",
         "pay_type": "歩合",
-        "total_days": 63,
+        "total_days": 67,
         "absence_days": 0,
-        "total_hours": 338.1,
-        "rooms_cleaned": 1373,
-        "feb_rooms": 546,
-        "mar_rooms": 639,
-        "apr_rooms": 188,
+        "total_hours": 398.7,
+        "rooms_cleaned": 1464,
+        "feb_rooms": 532,
+        "mar_rooms": 624,
+        "apr_rooms": 308,
+        "hotel": "リッチモンドホテル東京目白",
+        "hotel_key": "richmond_mejiro",
+        "rooms_per_day": 21.9
+      },
+      {
+        "name": "プルザ",
+        "position": "メイド",
+        "pay_type": "歩合",
+        "total_days": 65,
+        "absence_days": 0,
+        "total_hours": 320.8,
+        "rooms_cleaned": 1414,
+        "feb_rooms": 596,
+        "mar_rooms": 564,
+        "apr_rooms": 254,
         "hotel": "チサンホテル浜松町",
         "hotel_key": "chisan",
         "rooms_per_day": 21.8
@@ -357,10 +357,10 @@
     ]
   },
   "attendance_analysis": {
-    "total_staff": 364,
-    "avg_days": 34.9,
-    "high_attendance": 298,
-    "low_attendance": 28
+    "total_staff": 400,
+    "avg_days": 34.8,
+    "high_attendance": 319,
+    "low_attendance": 37
   },
   "hotel_summaries": [
     {
@@ -383,7 +383,7 @@
       "total_claims": 0,
       "claims_per_maid": 0.0,
       "avg_rooms_per_day": 3.6,
-      "avg_attendance_days": 30.2
+      "avg_attendance_days": 30.7
     },
     {
       "hotel_key": "court_shinyokohama",
@@ -397,17 +397,6 @@
       "avg_attendance_days": 0
     },
     {
-      "hotel_key": "comment_yokohama",
-      "name": "ホテルコメント横浜関内",
-      "roster_size": 1,
-      "maid_count": 0,
-      "checker_count": 0,
-      "total_claims": 37,
-      "claims_per_maid": 0,
-      "avg_rooms_per_day": 0,
-      "avg_attendance_days": 0
-    },
-    {
       "hotel_key": "richmond_mejiro",
       "name": "リッチモンドホテル東京目白",
       "roster_size": 10,
@@ -416,7 +405,7 @@
       "total_claims": 1,
       "claims_per_maid": 0.14,
       "avg_rooms_per_day": 18.7,
-      "avg_attendance_days": 47.1
+      "avg_attendance_days": 48.4
     },
     {
       "hotel_key": "apa_sagamihara",
@@ -427,18 +416,18 @@
       "total_claims": 3,
       "claims_per_maid": 0.16,
       "avg_rooms_per_day": 0.3,
-      "avg_attendance_days": 32.8
+      "avg_attendance_days": 33.4
     },
     {
       "hotel_key": "henn_na_haneda",
       "name": "変なホテル東京羽田",
-      "roster_size": 40,
-      "maid_count": 31,
+      "roster_size": 42,
+      "maid_count": 33,
       "checker_count": 6,
       "total_claims": 7,
-      "claims_per_maid": 0.23,
-      "avg_rooms_per_day": 11.1,
-      "avg_attendance_days": 27.6
+      "claims_per_maid": 0.21,
+      "avg_rooms_per_day": 10.7,
+      "avg_attendance_days": 27.2
     },
     {
       "hotel_key": "comfort_era_higashikanda",
@@ -448,8 +437,8 @@
       "checker_count": 0,
       "total_claims": 5,
       "claims_per_maid": 0.26,
-      "avg_rooms_per_day": 14.8,
-      "avg_attendance_days": 31.8
+      "avg_rooms_per_day": 14.9,
+      "avg_attendance_days": 32.6
     },
     {
       "hotel_key": "keyakigate",
@@ -460,7 +449,7 @@
       "total_claims": 5,
       "claims_per_maid": 0.28,
       "avg_rooms_per_day": 12.0,
-      "avg_attendance_days": 32.9
+      "avg_attendance_days": 33.8
     },
     {
       "hotel_key": "comfort_hakata",
@@ -471,18 +460,7 @@
       "total_claims": 11,
       "claims_per_maid": 0.32,
       "avg_rooms_per_day": 7.1,
-      "avg_attendance_days": 29.5
-    },
-    {
-      "hotel_key": "keisei_richmond",
-      "name": "京成リッチモンドホテル東京錦糸町",
-      "roster_size": 32,
-      "maid_count": 24,
-      "checker_count": 6,
-      "total_claims": 12,
-      "claims_per_maid": 0.5,
-      "avg_rooms_per_day": 9.1,
-      "avg_attendance_days": 31.5
+      "avg_attendance_days": 30.4
     },
     {
       "hotel_key": "chisan",
@@ -492,8 +470,8 @@
       "checker_count": 0,
       "total_claims": 7,
       "claims_per_maid": 0.58,
-      "avg_rooms_per_day": 22.1,
-      "avg_attendance_days": 57.1
+      "avg_rooms_per_day": 22.0,
+      "avg_attendance_days": 58.7
     },
     {
       "hotel_key": "apa_kamata",
@@ -504,7 +482,7 @@
       "total_claims": 16,
       "claims_per_maid": 0.62,
       "avg_rooms_per_day": 11.2,
-      "avg_attendance_days": 34.6
+      "avg_attendance_days": 35.4
     },
     {
       "hotel_key": "hearton",
@@ -512,10 +490,10 @@
       "roster_size": 28,
       "maid_count": 26,
       "checker_count": 2,
-      "total_claims": 17,
-      "claims_per_maid": 0.65,
-      "avg_rooms_per_day": 16.0,
-      "avg_attendance_days": 44.8
+      "total_claims": 18,
+      "claims_per_maid": 0.69,
+      "avg_rooms_per_day": 16.1,
+      "avg_attendance_days": 44.6
     },
     {
       "hotel_key": "daiichi_ikebukuro",
@@ -526,7 +504,7 @@
       "total_claims": 5,
       "claims_per_maid": 0.71,
       "avg_rooms_per_day": 18.4,
-      "avg_attendance_days": 41.5
+      "avg_attendance_days": 42.6
     },
     {
       "hotel_key": "daiwa_osaki",
@@ -537,7 +515,7 @@
       "total_claims": 18,
       "claims_per_maid": 1.38,
       "avg_rooms_per_day": 14.9,
-      "avg_attendance_days": 48.5
+      "avg_attendance_days": 49.8
     },
     {
       "hotel_key": "comfort_roppongi",
@@ -547,8 +525,8 @@
       "checker_count": 0,
       "total_claims": 22,
       "claims_per_maid": 1.57,
-      "avg_rooms_per_day": 13.6,
-      "avg_attendance_days": 27.4
+      "avg_rooms_per_day": 13.7,
+      "avg_attendance_days": 28.1
     },
     {
       "hotel_key": "kawasaki_nikko",
@@ -559,7 +537,18 @@
       "total_claims": 28,
       "claims_per_maid": 1.65,
       "avg_rooms_per_day": 13.9,
-      "avg_attendance_days": 32.0
+      "avg_attendance_days": 32.9
+    },
+    {
+      "hotel_key": "comment_yokohama",
+      "name": "ホテルコメント横浜関内",
+      "roster_size": 33,
+      "maid_count": 22,
+      "checker_count": 3,
+      "total_claims": 37,
+      "claims_per_maid": 1.68,
+      "avg_rooms_per_day": 8.4,
+      "avg_attendance_days": 28.6
     },
     {
       "hotel_key": "comfort_yokohama",
@@ -569,15 +558,26 @@
       "checker_count": 1,
       "total_claims": 42,
       "claims_per_maid": 2.1,
-      "avg_rooms_per_day": 14.3,
-      "avg_attendance_days": 38.8
+      "avg_rooms_per_day": 14.2,
+      "avg_attendance_days": 39.8
+    },
+    {
+      "hotel_key": "keisei_richmond",
+      "name": "京成リッチモンドホテル東京錦糸町",
+      "roster_size": 32,
+      "maid_count": 24,
+      "checker_count": 6,
+      "total_claims": 53,
+      "claims_per_maid": 2.21,
+      "avg_rooms_per_day": 9.2,
+      "avg_attendance_days": 29.7
     }
   ],
   "recommendations": [
     {
       "title": "クレーム多発スタッフへの個別研修",
       "priority": "最優先",
-      "rationale": "全133名のメイドからクレームが報告。上位集中是正で全体品質向上が可能。",
+      "rationale": "全136名のメイドからクレームが報告。上位集中是正で全体品質向上が可能。",
       "actions": [
         "クレーム2件以上のメイドへの個別フィードバック面談",
         "清掃手順の再確認と実技研修",
@@ -587,7 +587,7 @@
     {
       "title": "チェッカー品質管理力の強化",
       "priority": "高",
-      "rationale": "チェッカー94名の指摘実績を分析。見逃し傾向のあるチェッカーの底上げが重要。",
+      "rationale": "チェッカー99名の指摘実績を分析。見逃し傾向のあるチェッカーの底上げが重要。",
       "actions": [
         "チェッカー間のクレーム発見率比較と是正",
         "ベストチェッカーの手法共有会の開催",
@@ -597,7 +597,7 @@
     {
       "title": "生産性指標の導入と目標管理",
       "priority": "中",
-      "rationale": "メイド1日あたり清掃室数の平均12.9室。個人差が大きく標準化が課題。",
+      "rationale": "メイド1日あたり清掃室数の平均12.5室。個人差が大きく標準化が課題。",
       "actions": [
         "日あたり清掃室数の個人別トラッキング",
         "効率と品質のバランス指標の設定",

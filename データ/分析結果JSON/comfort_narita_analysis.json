@@ -488,7 +488,7 @@
       "bad": "There was no way to control the temperature in the room on an unusually warm day except to turn off the system. It was set on heating with no option to cool down the room.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房モードには切り替えられていなかった。",
+      "translated_bad": "異常に暑い日には、室温を調節する方法はシステムをオフにする以外になかった。暖房モードになっており、冷房のオプションはなかった。",
       "reviewer": "Suzanne"
     },
     {
