@@ -162,20 +162,20 @@
       "avg_checkers": 1.0,
       "maid_checker_ratio": 5.5,
       "avg_completion_time": 1225.96,
-      "safety_score": 3.12,
+      "safety_score": 3.16,
       "safety_categories": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
       },
       "review_score": 8.24,
       "cleaning_issue_rate": 4.3,
       "tier": "概ね良好",
       "revpar": 890.5482,
       "monthly_revenue": 2842630,
-      "composite_score": 0.554
+      "composite_score": 0.556
     },
     {
       "hotel_key": "comfort_suites_tokyobay",
@@ -187,20 +187,20 @@
       "avg_checkers": 6.0,
       "maid_checker_ratio": 3.9,
       "avg_completion_time": 15.46,
-      "safety_score": 3.07,
+      "safety_score": 3.11,
       "safety_categories": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 68.6,
-        "現場ルール・マナー": 90.0
+        "現場運営": 67.8,
+        "現場ルール・マナー": 91.1
       },
       "review_score": 9.05,
       "cleaning_issue_rate": 0.0,
       "tier": "優秀",
       "revpar": 1514.2353,
       "monthly_revenue": 13228360,
-      "composite_score": 0.646
+      "composite_score": 0.648
     },
     {
       "hotel_key": "comfort_yokohama",
@@ -409,12 +409,12 @@
       "avg_checkers": 2.7,
       "maid_checker_ratio": 3.1,
       "avg_completion_time": 15.94,
-      "safety_score": 2.87,
+      "safety_score": 2.97,
       "safety_categories": {
-        "整理整頓": 77.8,
+        "整理整頓": 79.2,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 61.9,
+        "現場運営": 66.4,
         "現場ルール・マナー": 73.3
       },
       "review_score": 9.24,
@@ -422,7 +422,7 @@
       "tier": "優秀",
       "revpar": 977.9184,
       "monthly_revenue": 4791800,
-      "composite_score": 0.574
+      "composite_score": 0.579
     },
     {
       "hotel_key": "keyakigate",
@@ -567,11 +567,11 @@
       },
       {
         "name": "コンフォートスイーツ東京ベイ",
-        "composite": 0.646,
+        "composite": 0.648,
         "review": 9.05,
         "claims": 8.97,
         "time": 15.46,
-        "safety": 3.07
+        "safety": 3.11
       },
       {
         "name": "アパホテル蒲田駅東",
@@ -591,11 +591,11 @@
       },
       {
         "name": "京成リッチモンドホテル東京錦糸町",
-        "composite": 0.574,
+        "composite": 0.579,
         "review": 9.24,
         "claims": 11.09,
         "time": 15.94,
-        "safety": 2.87
+        "safety": 2.97
       },
       {
         "name": "ホテルケヤキゲート東京府中",
@@ -607,11 +607,11 @@
       },
       {
         "name": "コンフォートイン六本木",
-        "composite": 0.554,
+        "composite": 0.556,
         "review": 8.24,
         "claims": 4.61,
         "time": 1225.96,
-        "safety": 3.12
+        "safety": 3.16
       },
       {
         "name": "コンフォートホテル博多",

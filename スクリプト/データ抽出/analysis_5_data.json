@@ -5,7 +5,7 @@
     "subtitle": "Safety Inspection × Early Warning Analysis",
     "total_hotels": 19,
     "hotels_with_data": 19,
-    "data_period": "R8年度（2月〜3月）"
+    "data_period": "R8年度（2月〜4月）"
   },
   "hotel_details": {
     "daiwa_osaki": {
@@ -70,13 +70,13 @@
     },
     "keisei_richmond": {
       "name": "京成リッチモンドホテル東京錦糸町",
-      "avg_score": 2.87,
-      "inspections_count": 3,
+      "avg_score": 2.97,
+      "inspections_count": 4,
       "category_scores": {
-        "整理整頓": 77.8,
+        "整理整頓": 79.2,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 61.9,
+        "現場運営": 66.4,
         "現場ルール・マナー": 73.3
       }
     },
@@ -94,26 +94,26 @@
     },
     "comfort_roppongi": {
       "name": "コンフォートイン六本木",
-      "avg_score": 3.12,
-      "inspections_count": 3,
+      "avg_score": 3.16,
+      "inspections_count": 4,
       "category_scores": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
       }
     },
     "comfort_suites_tokyobay": {
       "name": "コンフォートスイーツ東京ベイ",
-      "avg_score": 3.07,
-      "inspections_count": 3,
+      "avg_score": 3.11,
+      "inspections_count": 4,
       "category_scores": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 68.6,
-        "現場ルール・マナー": 90.0
+        "現場運営": 67.8,
+        "現場ルール・マナー": 91.1
       }
     },
     "comfort_era_higashikanda": {
@@ -307,15 +307,15 @@
     {
       "hotel_key": "keisei_richmond",
       "name": "京成リッチモンドホテル東京錦糸町",
-      "safety_score": 2.87,
+      "safety_score": 2.97,
       "review_score": 9.24,
       "claim_rate": 11.09,
-      "inspections": 3,
+      "inspections": 4,
       "category_scores": {
-        "整理整頓": 77.8,
+        "整理整頓": 79.2,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 61.9,
+        "現場運営": 66.4,
         "現場ルール・マナー": 73.3
       }
     },
@@ -337,31 +337,31 @@
     {
       "hotel_key": "comfort_roppongi",
       "name": "コンフォートイン六本木",
-      "safety_score": 3.12,
+      "safety_score": 3.16,
       "review_score": 8.24,
       "claim_rate": 4.61,
-      "inspections": 3,
+      "inspections": 4,
       "category_scores": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
       }
     },
     {
       "hotel_key": "comfort_suites_tokyobay",
       "name": "コンフォートスイーツ東京ベイ",
-      "safety_score": 3.07,
+      "safety_score": 3.11,
       "review_score": 9.05,
       "claim_rate": 8.97,
-      "inspections": 3,
+      "inspections": 4,
       "category_scores": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 68.6,
-        "現場ルール・マナー": 90.0
+        "現場運営": 67.8,
+        "現場ルール・マナー": 91.1
       }
     },
     {
@@ -508,11 +508,11 @@
   ],
   "correlations": {
     "safety_vs_review": {
-      "r": 0.1525,
+      "r": 0.1896,
       "n": 19
     },
     "safety_vs_claims": {
-      "r": 0.1743,
+      "r": 0.2039,
       "n": 19
     }
   },
@@ -742,6 +742,13 @@
       "score": 2
     },
     {
+      "hotel": "京成リッチモンドホテル東京錦糸町",
+      "category": "整理整頓",
+      "item": "⑤デスク上に物が散乱していないか",
+      "value": "✖",
+      "score": 1
+    },
+    {
       "hotel": "第一イン池袋",
       "category": "整理整頓",
       "item": "③棚に物が積みあがっていないか",
@@ -829,6 +836,27 @@
       "hotel": "コンフォートスイーツ東京ベイ",
       "category": "現場運営",
       "item": "②終業時間の遵守（15:30～17:30）",
+      "value": "D",
+      "score": 2
+    },
+    {
+      "hotel": "コンフォートスイーツ東京ベイ",
+      "category": "現場運営",
+      "item": "①人員過不足",
+      "value": "D",
+      "score": 2
+    },
+    {
+      "hotel": "コンフォートスイーツ東京ベイ",
+      "category": "現場運営",
+      "item": "②終業時間の遵守（15:30～17:30）",
+      "value": "D",
+      "score": 2
+    },
+    {
+      "hotel": "コンフォートスイーツ東京ベイ",
+      "category": "現場運営",
+      "item": "⑥離職（アルバイト募集をし続けていないか）",
       "value": "D",
       "score": 2
     },
@@ -1141,7 +1169,7 @@
       "score": 2
     }
   ],
-  "total_problem_count": 89,
+  "total_problem_count": 93,
   "hotel_ranking": [
     {
       "hotel_key": "kawasaki_nikko",
@@ -1219,6 +1247,21 @@
       }
     },
     {
+      "hotel_key": "comfort_roppongi",
+      "name": "コンフォートイン六本木",
+      "safety_score": 3.16,
+      "review_score": 8.24,
+      "claim_rate": 4.61,
+      "inspections": 4,
+      "category_scores": {
+        "整理整頓": 83.4,
+        "安全管理": 100.0,
+        "衛生管理": 100.0,
+        "現場運営": 72.8,
+        "現場ルール・マナー": 88.9
+      }
+    },
+    {
       "hotel_key": "comment_yokohama",
       "name": "ホテルコメント横浜関内",
       "safety_score": 3.14,
@@ -1249,18 +1292,18 @@
       }
     },
     {
-      "hotel_key": "comfort_roppongi",
-      "name": "コンフォートイン六本木",
-      "safety_score": 3.12,
-      "review_score": 8.24,
-      "claim_rate": 4.61,
-      "inspections": 3,
+      "hotel_key": "comfort_suites_tokyobay",
+      "name": "コンフォートスイーツ東京ベイ",
+      "safety_score": 3.11,
+      "review_score": 9.05,
+      "claim_rate": 8.97,
+      "inspections": 4,
       "category_scores": {
-        "整理整頓": 81.5,
+        "整理整頓": 83.4,
         "安全管理": 100.0,
         "衛生管理": 100.0,
-        "現場運営": 71.4,
-        "現場ルール・マナー": 93.3
+        "現場運営": 67.8,
+        "現場ルール・マナー": 91.1
       }
     },
     {
@@ -1279,21 +1322,6 @@
       }
     },
     {
-      "hotel_key": "comfort_suites_tokyobay",
-      "name": "コンフォートスイーツ東京ベイ",
-      "safety_score": 3.07,
-      "review_score": 9.05,
-      "claim_rate": 8.97,
-      "inspections": 3,
-      "category_scores": {
-        "整理整頓": 81.5,
-        "安全管理": 100.0,
-        "衛生管理": 100.0,
-        "現場運営": 68.6,
-        "現場ルール・マナー": 90.0
-      }
-    },
-    {
       "hotel_key": "richmond_mejiro",
       "name": "リッチモンドホテル東京目白",
       "safety_score": 3.04,
@@ -1306,6 +1334,21 @@
         "衛生管理": 66.7,
         "現場運営": 75.3,
         "現場ルール・マナー": 86.7
+      }
+    },
+    {
+      "hotel_key": "keisei_richmond",
+      "name": "京成リッチモンドホテル東京錦糸町",
+      "safety_score": 2.97,
+      "review_score": 9.24,
+      "claim_rate": 11.09,
+      "inspections": 4,
+      "category_scores": {
+        "整理整頓": 79.2,
+        "安全管理": 100.0,
+        "衛生管理": 100.0,
+        "現場運営": 66.4,
+        "現場ルール・マナー": 73.3
       }
     },
     {
@@ -1351,21 +1394,6 @@
         "衛生管理": 66.7,
         "現場運営": 67.6,
         "現場ルール・マナー": 86.7
-      }
-    },
-    {
-      "hotel_key": "keisei_richmond",
-      "name": "京成リッチモンドホテル東京錦糸町",
-      "safety_score": 2.87,
-      "review_score": 9.24,
-      "claim_rate": 11.09,
-      "inspections": 3,
-      "category_scores": {
-        "整理整頓": 77.8,
-        "安全管理": 100.0,
-        "衛生管理": 100.0,
-        "現場運営": 61.9,
-        "現場ルール・マナー": 73.3
       }
     },
     {
@@ -1434,7 +1462,7 @@
     {
       "title": "問題項目の重点改善",
       "priority": "高",
-      "rationale": "全89件の問題項目を特定。整理整頓と現場運営に課題集中。",
+      "rationale": "全93件の問題項目を特定。整理整頓と現場運営に課題集中。",
       "actions": [
         "△・✖評価の項目への是正措置と期限設定",
         "改善前後の写真記録による可視化",
