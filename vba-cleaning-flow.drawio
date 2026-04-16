@@ -1,0 +1,316 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <!-- Title -->
+    <mxCell id="t1" value="&lt;b&gt;ハートンホテル東品川 清掃管理マクロ フロー図&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=18;fontColor=#333333;" vertex="1" parent="1">
+      <mxGeometry x="200" y="10" width="500" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- ============ MAIN FLOW (Left) ============ -->
+    <!-- Start -->
+    <mxCell id="s1" value="開始" style="ellipse;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="340" y="70" width="100" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- SelectAndEditFile -->
+    <mxCell id="m1" value="&lt;b&gt;SelectAndEditFile()&lt;/b&gt;&#xa;メインエントリーポイント" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="150" width="180" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- DeleteSheets -->
+    <mxCell id="m2" value="&lt;b&gt;DeleteSheets()&lt;/b&gt;&#xa;既存シート削除&#xa;(Copied_清掃確認書&#xa; Copied_指示集計表&#xa; 指示書一覧&#xa; 作業時間合計)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="300" y="230" width="180" height="90" as="geometry"/>
+    </mxCell>
+
+    <!-- FileDialog -->
+    <mxCell id="m3" value="ファイルダイアログ表示&#xa;(2ファイル選択)" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="300" y="350" width="180" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Decision: files selected? -->
+    <mxCell id="d1" value="ファイル&#xa;選択？" style="rhombus;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="335" y="430" width="110" height="70" as="geometry"/>
+    </mxCell>
+
+    <!-- File 1 processing -->
+    <mxCell id="f1" value="&lt;b&gt;1st File: 清掃確認書&lt;/b&gt;&#xa;シートコピー → Copied_清掃確認書&#xa;セル着色処理:" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="80" y="540" width="200" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- Color coding detail -->
+    <mxCell id="cc1" value="連泊 → 蛍光ピンク" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="20" y="620" width="130" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="cc2" value="出発 / RC → 蛍光黄色" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="160" y="620" width="130" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="cc3" value="Dセット/T解除 等 → ピンク" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="20" y="660" width="130" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="cc4" value="STAY → 蛍光緑" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="160" y="660" width="130" height="30" as="geometry"/>
+    </mxCell>
+
+    <!-- File 2 processing -->
+    <mxCell id="f2" value="&lt;b&gt;2nd File: Sheet2&lt;/b&gt;&#xa;シートコピー&#xa;→ Copied_清掃指示書" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="500" y="540" width="200" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- CreateSummary -->
+    <mxCell id="cs1" value="&lt;b&gt;CreateSummary()&lt;/b&gt;&#xa;清掃指示集計表作成" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="730" width="180" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- CreateSummary detail box -->
+    <mxCell id="cs_detail" value="" style="rounded=1;whiteSpace=wrap;fillColor=#fffbe6;strokeColor=#d6b656;dashed=1;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="530" y="700" width="340" height="310" as="geometry"/>
+    </mxCell>
+    <mxCell id="cs_t" value="&lt;b&gt;CreateSummary() 詳細&lt;/b&gt;" style="text;html=1;fontSize=11;fontColor=#7b6b1a;align=center;" vertex="1" parent="1">
+      <mxGeometry x="610" y="705" width="180" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="cs2" value="1. 指示集計表シートをコピー&#xa;   → Copied_指示集計表" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="545" y="730" width="310" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="cs3" value="2. 指示書一覧シート作成&#xa;   ヘッダー: フロア/S/T/UR/FA/D解除/Dセット/T解除/Tメイク/3解除/3メイク/済" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="545" y="770" width="310" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="cs4" value="3. 19F→3F ループ (各フロア集計)&#xa;   NormG()で全角→半角正規化&#xa;   済/未掃/ノータッチ/入室禁止を除外&#xa;   S/T/D/3 + セット・解除をカウント" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="545" y="815" width="310" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="cs5" value="4. 小計行 (25行目: SUM数式)&#xa;   未掃分/追加分/合計 行" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="545" y="880" width="310" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="cs6" value="5. Copied_指示集計表へ転記&#xa;   S/T/合計、UR(1615)/FA(1513)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="545" y="920" width="310" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="cs7" value="6. 罫線・斜め罫線・押印エリア設定" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="545" y="960" width="310" height="30" as="geometry"/>
+    </mxCell>
+
+    <!-- CreateWorkTimeSheet -->
+    <mxCell id="wt1" value="&lt;b&gt;CreateWorkTimeSheet()&lt;/b&gt;&#xa;作業時間合計シート作成" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;shadow=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="810" width="180" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- WorkTime detail -->
+    <mxCell id="wt_detail" value="" style="rounded=1;whiteSpace=wrap;fillColor=#f3e8fa;strokeColor=#9673a6;dashed=1;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="20" y="780" width="250" height="240" as="geometry"/>
+    </mxCell>
+    <mxCell id="wt_t" value="&lt;b&gt;CreateWorkTimeSheet() 詳細&lt;/b&gt;" style="text;html=1;fontSize=11;fontColor=#553c7b;align=center;" vertex="1" parent="1">
+      <mxGeometry x="35" y="785" width="220" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="wt2" value="1. Copied_清掃確認書から読み取り" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="35" y="810" width="220" height="28" as="geometry"/>
+    </mxCell>
+    <mxCell id="wt3" value="2. 3F→19F ループ&#xa;   STAY数 / 出発+RC+延長数 / 済数" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="35" y="843" width="220" height="38" as="geometry"/>
+    </mxCell>
+    <mxCell id="wt4" value="3. 作業時間計算&#xa;   = stay*3分 + out*6分 + 済*1分" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="35" y="886" width="220" height="38" as="geometry"/>
+    </mxCell>
+    <mxCell id="wt5" value="4. 担当者テーブル&#xa;   合計(分)/total時間/終了時間" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="35" y="929" width="220" height="38" as="geometry"/>
+    </mxCell>
+    <mxCell id="wt6" value="5. 9:00スタート → 終了目標時間算出" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="35" y="972" width="220" height="28" as="geometry"/>
+    </mxCell>
+
+    <!-- End -->
+    <mxCell id="end1" value="完了" style="ellipse;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="340" y="900" width="100" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- No path -->
+    <mxCell id="end2" value="終了&#xa;(未選択)" style="ellipse;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="510" y="440" width="80" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- ============ HELPER FUNCTIONS (Right side) ============ -->
+    <mxCell id="hbox" value="" style="rounded=1;whiteSpace=wrap;fillColor=#f0fff0;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="700" y="60" width="200" height="200" as="geometry"/>
+    </mxCell>
+    <mxCell id="ht" value="&lt;b&gt;ヘルパー関数&lt;/b&gt;" style="text;html=1;fontSize=12;fontColor=#2d6a2e;align=center;" vertex="1" parent="1">
+      <mxGeometry x="730" y="65" width="140" height="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="h1" value="&lt;b&gt;NormG()&lt;/b&gt;&#xa;全角→半角 正規化&#xa;StrConv(Trim(s), vbNarrow)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="95" width="170" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="h2" value="&lt;b&gt;SheetExists()&lt;/b&gt;&#xa;シート存在チェック" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="155" width="170" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="h3" value="&lt;b&gt;SheetExistsVB()&lt;/b&gt;&#xa;シート存在チェック (Workbook引数版)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="205" width="170" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- ============ SHEET MAP (Bottom right) ============ -->
+    <mxCell id="sbox" value="" style="rounded=1;whiteSpace=wrap;fillColor=#e8f0fe;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="700" y="290" width="200" height="370" as="geometry"/>
+    </mxCell>
+    <mxCell id="st" value="&lt;b&gt;シート構成&lt;/b&gt;" style="text;html=1;fontSize=12;fontColor=#2c5282;align=center;" vertex="1" parent="1">
+      <mxGeometry x="730" y="295" width="140" height="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="sh1" value="&lt;b&gt;Menu&lt;/b&gt;&#xa;basePath保存" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="325" width="170" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="sh2" value="&lt;b&gt;Copied_清掃確認書&lt;/b&gt;&#xa;1stファイルからコピー&#xa;着色処理済み" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="370" width="170" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="sh3" value="&lt;b&gt;Copied_清掃指示書&lt;/b&gt;&#xa;2ndファイルからコピー" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="425" width="170" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="sh4" value="&lt;b&gt;Copied_指示集計表&lt;/b&gt;&#xa;指示集計表テンプレからコピー&#xa;S/T/合計を転記" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="475" width="170" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="sh5" value="&lt;b&gt;指示書一覧&lt;/b&gt;&#xa;フロア別集計表&#xa;S/T/UR/FA/解除/セット/済" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="535" width="170" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="sh6" value="&lt;b&gt;作業時間合計&lt;/b&gt;&#xa;フロア別 stay/out/済&#xa;担当者別 終了目標時間" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="1">
+      <mxGeometry x="715" y="595" width="170" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- ============ EDGES ============ -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1" target="m1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e2" value="呼出" style="edgeStyle=orthogonalEdgeStyle;fontStyle=1;fontSize=10;" edge="1" source="m1" target="m2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="m2" target="m3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="m3" target="d1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e5" value="No" style="edgeStyle=orthogonalEdgeStyle;fontStyle=1;fontSize=10;fontColor=#b85450;" edge="1" source="d1" target="end2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e6" value="Yes" style="edgeStyle=orthogonalEdgeStyle;fontStyle=1;fontSize=10;fontColor=#82b366;" edge="1" source="d1" target="f1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="300" y="465"/>
+          <mxPoint x="300" y="520"/>
+          <mxPoint x="180" y="520"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e6b" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="d1" target="f2" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="480" y="465"/>
+          <mxPoint x="480" y="520"/>
+          <mxPoint x="600" y="520"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="f1" target="cc1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e7b" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#999999;" edge="1" source="f1" target="cc2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e8" value="呼出" style="edgeStyle=orthogonalEdgeStyle;fontStyle=1;fontSize=10;" edge="1" source="f1" target="cs1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="180" y="710"/>
+          <mxPoint x="390" y="710"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="e9" value="呼出" style="edgeStyle=orthogonalEdgeStyle;fontStyle=1;fontSize=10;" edge="1" source="cs1" target="wt1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="wt1" target="end1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Detail arrows -->
+    <mxCell id="ed1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#d6b656;" edge="1" source="cs1" target="cs_detail" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+    <mxCell id="ed2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#9673a6;" edge="1" source="wt1" target="wt_detail" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+    <!-- Helper usage arrows -->
+    <mxCell id="hu1" value="使用" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#82b366;fontSize=9;" edge="1" source="m2" target="h2" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="600" y="275"/>
+          <mxPoint x="600" y="175"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="hu2" value="使用" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#82b366;fontSize=9;" edge="1" source="cs1" target="h1" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="480" y="755"/>
+          <mxPoint x="660" y="755"/>
+          <mxPoint x="660" y="120"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- Sheet creation arrows -->
+    <mxCell id="sa1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#6c8ebf;fontSize=9;" edge="1" source="f1" target="sh2" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="280" y="570"/>
+          <mxPoint x="280" y="393"/>
+          <mxPoint x="715" y="393"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sa2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#6c8ebf;fontSize=9;" edge="1" source="f2" target="sh3" parent="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="680" y="570"/>
+          <mxPoint x="680" y="445"/>
+          <mxPoint x="715" y="445"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- ============ ISSUE BADGES ============ -->
+    <mxCell id="bug1" value="&lt;font color='#ffffff'&gt;BUG x3&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#b85450;strokeColor=#b85450;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="240" y="150" width="55" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="bug2" value="&lt;font color='#ffffff'&gt;BUG x6&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#b85450;strokeColor=#b85450;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="485" y="730" width="55" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="bug3" value="&lt;font color='#ffffff'&gt;BUG x4&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#b85450;strokeColor=#b85450;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="240" y="810" width="55" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="bug4" value="&lt;font color='#ffffff'&gt;BUG x1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#b85450;strokeColor=#b85450;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="240" y="235" width="55" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="mac1" value="&lt;font color='#ffffff'&gt;Mac注意&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#d6930a;strokeColor=#d6930a;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="820" y="95" width="60" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="mac2" value="&lt;font color='#ffffff'&gt;Mac注意&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;fillColor=#d6930a;strokeColor=#d6930a;fontSize=9;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="240" y="355" width="60" height="20" as="geometry"/>
+    </mxCell>
+
+    <!-- Legend -->
+    <mxCell id="leg" value="" style="rounded=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cccccc;" vertex="1" parent="1">
+      <mxGeometry x="20" y="70" width="200" height="130" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg_t" value="&lt;b&gt;凡例&lt;/b&gt;" style="text;html=1;fontSize=11;align=center;" vertex="1" parent="1">
+      <mxGeometry x="80" y="72" width="60" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg1" value="" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="30" y="95" width="16" height="16" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg1t" value="メイン処理" style="text;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="50" y="93" width="70" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg2" value="" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="30" y="115" width="16" height="16" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg2t" value="集計処理" style="text;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="50" y="113" width="70" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg3" value="" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+      <mxGeometry x="30" y="135" width="16" height="16" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg3t" value="時間計算" style="text;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="50" y="133" width="70" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg4" value="" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="30" y="155" width="16" height="16" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg4t" value="ヘルパー" style="text;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="50" y="153" width="70" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg5" value="" style="rounded=1;fillColor=#b85450;strokeColor=#b85450;" vertex="1" parent="1">
+      <mxGeometry x="130" y="95" width="16" height="16" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg5t" value="バグ" style="text;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="150" y="93" width="50" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg6" value="" style="rounded=1;fillColor=#d6930a;strokeColor=#d6930a;" vertex="1" parent="1">
+      <mxGeometry x="130" y="115" width="16" height="16" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg6t" value="Mac警告" style="text;fontSize=10;" vertex="1" parent="1">
+      <mxGeometry x="150" y="113" width="60" height="20" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
