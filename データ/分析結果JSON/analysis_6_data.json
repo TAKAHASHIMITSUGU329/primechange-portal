@@ -2,7 +2,7 @@
   "analysis_metadata": {
     "title": "品質→売上弾力性分析",
     "analysis_number": 6,
-    "date": "2026-04-09",
+    "date": "2026-04-16",
     "hotels_count": 19,
     "data_sources": [
       "hotel_revenue_data.json（19ホテル売上実績）",
@@ -19,7 +19,7 @@
   "portfolio_summary": {
     "total_hotels": 19,
     "total_monthly_revenue": 99847777,
-    "avg_score": 8.33,
+    "avg_score": 8.32,
     "median_score": 8.56,
     "avg_occupancy": "73.9%",
     "avg_adr": 1308.1,
@@ -33,44 +33,44 @@
   },
   "regression_results": {
     "score_vs_occupancy": {
-      "slope": 0.041442,
-      "intercept": 0.394234,
-      "r": 0.4207,
-      "r_squared": 0.177,
+      "slope": 0.04512,
+      "intercept": 0.363876,
+      "r": 0.4595,
+      "r_squared": 0.2112,
       "n": 19,
       "x_label": "口コミスコア",
       "y_label": "稼働率",
-      "interpretation": "スコア1点上昇で稼働率が4.1%ポイント変動"
+      "interpretation": "スコア1点上昇で稼働率が4.5%ポイント変動"
     },
     "score_vs_adr": {
-      "slope": 217.695579,
-      "intercept": -504.300433,
-      "r": 0.382,
-      "r_squared": 0.1459,
+      "slope": 231.534244,
+      "intercept": -618.170506,
+      "r": 0.4076,
+      "r_squared": 0.1661,
       "n": 19,
       "x_label": "口コミスコア",
       "y_label": "ADR（客室単価）",
-      "interpretation": "スコア1点上昇でADRが218円変動"
+      "interpretation": "スコア1点上昇でADRが232円変動"
     },
     "score_vs_revpar": {
-      "slope": 203.569109,
-      "intercept": -758.224479,
-      "r": 0.6047,
-      "r_squared": 0.3657,
+      "slope": 213.899598,
+      "intercept": -842.990156,
+      "r": 0.6374,
+      "r_squared": 0.4063,
       "n": 19,
       "x_label": "口コミスコア",
       "y_label": "RevPAR",
-      "interpretation": "スコア1点上昇でRevPARが204円変動"
+      "interpretation": "スコア1点上昇でRevPARが214円変動"
     },
     "score_vs_rev_per_room": {
-      "slope": 5699.935094,
-      "intercept": -21230.285658,
-      "r": 0.6047,
-      "r_squared": 0.3657,
+      "slope": 5989.188798,
+      "intercept": -23603.724607,
+      "r": 0.6374,
+      "r_squared": 0.4063,
       "n": 19,
       "x_label": "口コミスコア",
       "y_label": "1室あたり月間売上",
-      "interpretation": "スコア1点上昇で1室あたり月間売上が5700円変動"
+      "interpretation": "スコア1点上昇で1室あたり月間売上が5989円変動"
     }
   },
   "threshold_analysis": {
@@ -95,7 +95,7 @@
       {
         "range": "8.0-8.5",
         "count": 4,
-        "avg_score": 8.29,
+        "avg_score": 8.26,
         "avg_occupancy": 0.7428,
         "avg_occupancy_pct": "74.3%",
         "avg_adr": 1201.8,
@@ -104,15 +104,15 @@
         "avg_complaint_rate": 0.0001,
         "hotels": [
           "ハートンホテル東品川",
-          "コンフォートイン六本木",
           "変なホテル東京羽田",
+          "コンフォートイン六本木",
           "アパホテル相模原橋本駅東"
         ]
       },
       {
         "range": "8.5-9.0",
         "count": 7,
-        "avg_score": 8.72,
+        "avg_score": 8.71,
         "avg_occupancy": 0.7497,
         "avg_occupancy_pct": "75.0%",
         "avg_adr": 1496.2,
@@ -120,19 +120,19 @@
         "avg_revenue": 4518050,
         "avg_complaint_rate": 0.0003,
         "hotels": [
-          "コンフォートホテルERA東京東神田",
-          "ホテルコメント横浜関内",
           "ホテルケヤキゲート東京府中",
-          "ダイワロイネットホテル東京大崎",
-          "コンフォートホテル成田",
+          "ホテルコメント横浜関内",
+          "コンフォートホテルERA東京東神田",
+          "川崎日航ホテル",
           "リッチモンドホテル東京目白",
-          "川崎日航ホテル"
+          "ダイワロイネットホテル東京大崎",
+          "コンフォートホテル成田"
         ]
       },
       {
         "range": "9.0+",
         "count": 3,
-        "avg_score": 9.23,
+        "avg_score": 9.25,
         "avg_occupancy": 0.7851,
         "avg_occupancy_pct": "78.5%",
         "avg_adr": 1484.4,
@@ -157,370 +157,370 @@
   "revenue_impact_scenarios": [
     {
       "score_improvement": 0.1,
-      "revpar_change": 20.4,
-      "revpar_pct_change": "2.2%",
-      "total_monthly_revenue_change": 2170316,
-      "annual_revenue_change": 26043792,
+      "revpar_change": 21.4,
+      "revpar_pct_change": "2.3%",
+      "total_monthly_revenue_change": 2280452,
+      "annual_revenue_change": 27365424,
       "per_hotel_impacts": [
         {
           "name": "コンフォートスイーツ東京ベイ",
-          "current_score": 9.06,
+          "current_score": 9.05,
           "current_revenue": 13228360,
-          "estimated_revenue_change": 287535
+          "estimated_revenue_change": 302126
         },
         {
           "name": "ハートンホテル東品川",
-          "current_score": 8.46,
+          "current_score": 8.43,
           "current_revenue": 11211550,
-          "estimated_revenue_change": 243697
+          "estimated_revenue_change": 256064
         },
         {
           "name": "川崎日航ホテル",
-          "current_score": 8.56,
+          "current_score": 8.66,
           "current_revenue": 7168120,
-          "estimated_revenue_change": 155808
+          "estimated_revenue_change": 163715
         },
         {
           "name": "コンフォートホテル博多",
           "current_score": 7.73,
           "current_revenue": 5764630,
-          "estimated_revenue_change": 125301
+          "estimated_revenue_change": 131660
         },
         {
           "name": "チサンホテル浜松町",
-          "current_score": 6.48,
+          "current_score": 6.52,
           "current_revenue": 5578650,
-          "estimated_revenue_change": 121259
+          "estimated_revenue_change": 127412
         },
         {
           "name": "変なホテル東京羽田",
-          "current_score": 8.26,
+          "current_score": 8.35,
           "current_revenue": 5358150,
-          "estimated_revenue_change": 116466
+          "estimated_revenue_change": 122376
         },
         {
           "name": "ダイワロイネットホテル東京大崎",
-          "current_score": 8.71,
+          "current_score": 8.59,
           "current_revenue": 5203037,
-          "estimated_revenue_change": 113095
+          "estimated_revenue_change": 118834
         },
         {
           "name": "京成リッチモンドホテル東京錦糸町",
-          "current_score": 9.31,
+          "current_score": 9.24,
           "current_revenue": 4791800,
-          "estimated_revenue_change": 104156
+          "estimated_revenue_change": 109441
         },
         {
           "name": "アパホテル蒲田駅東",
           "current_score": 7.38,
           "current_revenue": 4679520,
-          "estimated_revenue_change": 101715
+          "estimated_revenue_change": 106877
         },
         {
           "name": "ホテルコメント横浜関内",
           "current_score": 8.83,
           "current_revenue": 4463320,
-          "estimated_revenue_change": 97016
+          "estimated_revenue_change": 101939
         },
         {
           "name": "ホテルケヤキゲート東京府中",
-          "current_score": 8.8,
+          "current_score": 8.95,
           "current_revenue": 4425395,
-          "estimated_revenue_change": 96191
+          "estimated_revenue_change": 101073
         },
         {
           "name": "第一イン池袋",
-          "current_score": 9.33,
+          "current_score": 9.47,
           "current_revenue": 4310610,
-          "estimated_revenue_change": 93697
+          "estimated_revenue_change": 98451
         },
         {
           "name": "コンフォートホテル横浜関内",
           "current_score": 7.57,
           "current_revenue": 4051890,
-          "estimated_revenue_change": 88073
+          "estimated_revenue_change": 92542
         },
         {
           "name": "コンフォートホテルERA東京東神田",
-          "current_score": 8.86,
+          "current_score": 8.78,
           "current_revenue": 4047280,
-          "estimated_revenue_change": 87973
+          "estimated_revenue_change": 92437
         },
         {
           "name": "コートホテル新横浜",
           "current_score": 7.12,
           "current_revenue": 3705215,
-          "estimated_revenue_change": 80537
+          "estimated_revenue_change": 84625
         },
         {
           "name": "リッチモンドホテル東京目白",
           "current_score": 8.6,
           "current_revenue": 3663440,
-          "estimated_revenue_change": 79629
+          "estimated_revenue_change": 83670
         },
         {
           "name": "コンフォートイン六本木",
-          "current_score": 8.33,
+          "current_score": 8.24,
           "current_revenue": 2842630,
-          "estimated_revenue_change": 61788
+          "estimated_revenue_change": 64924
         },
         {
           "name": "アパホテル相模原橋本駅東",
-          "current_score": 8.12,
+          "current_score": 8.0,
           "current_revenue": 2698420,
-          "estimated_revenue_change": 58654
+          "estimated_revenue_change": 61630
         },
         {
           "name": "コンフォートホテル成田",
-          "current_score": 8.67,
+          "current_score": 8.56,
           "current_revenue": 2655760,
-          "estimated_revenue_change": 57726
+          "estimated_revenue_change": 60656
         }
       ]
     },
     {
       "score_improvement": 0.3,
-      "revpar_change": 61.1,
-      "revpar_pct_change": "6.5%",
-      "total_monthly_revenue_change": 6510949,
-      "annual_revenue_change": 78131388,
+      "revpar_change": 64.2,
+      "revpar_pct_change": "6.9%",
+      "total_monthly_revenue_change": 6841358,
+      "annual_revenue_change": 82096296,
       "per_hotel_impacts": [
         {
           "name": "コンフォートスイーツ東京ベイ",
-          "current_score": 9.06,
+          "current_score": 9.05,
           "current_revenue": 13228360,
-          "estimated_revenue_change": 862605
+          "estimated_revenue_change": 906379
         },
         {
           "name": "ハートンホテル東品川",
-          "current_score": 8.46,
+          "current_score": 8.43,
           "current_revenue": 11211550,
-          "estimated_revenue_change": 731091
+          "estimated_revenue_change": 768192
         },
         {
           "name": "川崎日航ホテル",
-          "current_score": 8.56,
+          "current_score": 8.66,
           "current_revenue": 7168120,
-          "estimated_revenue_change": 467424
+          "estimated_revenue_change": 491144
         },
         {
           "name": "コンフォートホテル博多",
           "current_score": 7.73,
           "current_revenue": 5764630,
-          "estimated_revenue_change": 375904
+          "estimated_revenue_change": 394980
         },
         {
           "name": "チサンホテル浜松町",
-          "current_score": 6.48,
+          "current_score": 6.52,
           "current_revenue": 5578650,
-          "estimated_revenue_change": 363777
+          "estimated_revenue_change": 382237
         },
         {
           "name": "変なホテル東京羽田",
-          "current_score": 8.26,
+          "current_score": 8.35,
           "current_revenue": 5358150,
-          "estimated_revenue_change": 349398
+          "estimated_revenue_change": 367129
         },
         {
           "name": "ダイワロイネットホテル東京大崎",
-          "current_score": 8.71,
+          "current_score": 8.59,
           "current_revenue": 5203037,
-          "estimated_revenue_change": 339284
+          "estimated_revenue_change": 356501
         },
         {
           "name": "京成リッチモンドホテル東京錦糸町",
-          "current_score": 9.31,
+          "current_score": 9.24,
           "current_revenue": 4791800,
-          "estimated_revenue_change": 312467
+          "estimated_revenue_change": 328324
         },
         {
           "name": "アパホテル蒲田駅東",
           "current_score": 7.38,
           "current_revenue": 4679520,
-          "estimated_revenue_change": 305146
+          "estimated_revenue_change": 320631
         },
         {
           "name": "ホテルコメント横浜関内",
           "current_score": 8.83,
           "current_revenue": 4463320,
-          "estimated_revenue_change": 291048
+          "estimated_revenue_change": 305817
         },
         {
           "name": "ホテルケヤキゲート東京府中",
-          "current_score": 8.8,
+          "current_score": 8.95,
           "current_revenue": 4425395,
-          "estimated_revenue_change": 288574
+          "estimated_revenue_change": 303219
         },
         {
           "name": "第一イン池袋",
-          "current_score": 9.33,
+          "current_score": 9.47,
           "current_revenue": 4310610,
-          "estimated_revenue_change": 281090
+          "estimated_revenue_change": 295354
         },
         {
           "name": "コンフォートホテル横浜関内",
           "current_score": 7.57,
           "current_revenue": 4051890,
-          "estimated_revenue_change": 264219
+          "estimated_revenue_change": 277627
         },
         {
           "name": "コンフォートホテルERA東京東神田",
-          "current_score": 8.86,
+          "current_score": 8.78,
           "current_revenue": 4047280,
-          "estimated_revenue_change": 263918
+          "estimated_revenue_change": 277311
         },
         {
           "name": "コートホテル新横浜",
           "current_score": 7.12,
           "current_revenue": 3705215,
-          "estimated_revenue_change": 241612
+          "estimated_revenue_change": 253874
         },
         {
           "name": "リッチモンドホテル東京目白",
           "current_score": 8.6,
           "current_revenue": 3663440,
-          "estimated_revenue_change": 238888
+          "estimated_revenue_change": 251011
         },
         {
           "name": "コンフォートイン六本木",
-          "current_score": 8.33,
+          "current_score": 8.24,
           "current_revenue": 2842630,
-          "estimated_revenue_change": 185364
+          "estimated_revenue_change": 194771
         },
         {
           "name": "アパホテル相模原橋本駅東",
-          "current_score": 8.12,
+          "current_score": 8.0,
           "current_revenue": 2698420,
-          "estimated_revenue_change": 175961
+          "estimated_revenue_change": 184890
         },
         {
           "name": "コンフォートホテル成田",
-          "current_score": 8.67,
+          "current_score": 8.56,
           "current_revenue": 2655760,
-          "estimated_revenue_change": 173179
+          "estimated_revenue_change": 181967
         }
       ]
     },
     {
       "score_improvement": 0.5,
-      "revpar_change": 101.8,
-      "revpar_pct_change": "10.9%",
-      "total_monthly_revenue_change": 10851581,
-      "annual_revenue_change": 130218972,
+      "revpar_change": 106.9,
+      "revpar_pct_change": "11.4%",
+      "total_monthly_revenue_change": 11402267,
+      "annual_revenue_change": 136827204,
       "per_hotel_impacts": [
         {
           "name": "コンフォートスイーツ東京ベイ",
-          "current_score": 9.06,
+          "current_score": 9.05,
           "current_revenue": 13228360,
-          "estimated_revenue_change": 1437675
+          "estimated_revenue_change": 1510632
         },
         {
           "name": "ハートンホテル東品川",
-          "current_score": 8.46,
+          "current_score": 8.43,
           "current_revenue": 11211550,
-          "estimated_revenue_change": 1218485
+          "estimated_revenue_change": 1280320
         },
         {
           "name": "川崎日航ホテル",
-          "current_score": 8.56,
+          "current_score": 8.66,
           "current_revenue": 7168120,
-          "estimated_revenue_change": 779040
+          "estimated_revenue_change": 818574
         },
         {
           "name": "コンフォートホテル博多",
           "current_score": 7.73,
           "current_revenue": 5764630,
-          "estimated_revenue_change": 626507
+          "estimated_revenue_change": 658301
         },
         {
           "name": "チサンホテル浜松町",
-          "current_score": 6.48,
+          "current_score": 6.52,
           "current_revenue": 5578650,
-          "estimated_revenue_change": 606295
+          "estimated_revenue_change": 637062
         },
         {
           "name": "変なホテル東京羽田",
-          "current_score": 8.26,
+          "current_score": 8.35,
           "current_revenue": 5358150,
-          "estimated_revenue_change": 582330
+          "estimated_revenue_change": 611882
         },
         {
           "name": "ダイワロイネットホテル東京大崎",
-          "current_score": 8.71,
+          "current_score": 8.59,
           "current_revenue": 5203037,
-          "estimated_revenue_change": 565473
+          "estimated_revenue_change": 594169
         },
         {
           "name": "京成リッチモンドホテル東京錦糸町",
-          "current_score": 9.31,
+          "current_score": 9.24,
           "current_revenue": 4791800,
-          "estimated_revenue_change": 520779
+          "estimated_revenue_change": 547207
         },
         {
           "name": "アパホテル蒲田駅東",
           "current_score": 7.38,
           "current_revenue": 4679520,
-          "estimated_revenue_change": 508576
+          "estimated_revenue_change": 534385
         },
         {
           "name": "ホテルコメント横浜関内",
           "current_score": 8.83,
           "current_revenue": 4463320,
-          "estimated_revenue_change": 485079
+          "estimated_revenue_change": 509695
         },
         {
           "name": "ホテルケヤキゲート東京府中",
-          "current_score": 8.8,
+          "current_score": 8.95,
           "current_revenue": 4425395,
-          "estimated_revenue_change": 480957
+          "estimated_revenue_change": 505365
         },
         {
           "name": "第一イン池袋",
-          "current_score": 9.33,
+          "current_score": 9.47,
           "current_revenue": 4310610,
-          "estimated_revenue_change": 468483
+          "estimated_revenue_change": 492257
         },
         {
           "name": "コンフォートホテル横浜関内",
           "current_score": 7.57,
           "current_revenue": 4051890,
-          "estimated_revenue_change": 440365
+          "estimated_revenue_change": 462712
         },
         {
           "name": "コンフォートホテルERA東京東神田",
-          "current_score": 8.86,
+          "current_score": 8.78,
           "current_revenue": 4047280,
-          "estimated_revenue_change": 439863
+          "estimated_revenue_change": 462185
         },
         {
           "name": "コートホテル新横浜",
           "current_score": 7.12,
           "current_revenue": 3705215,
-          "estimated_revenue_change": 402687
+          "estimated_revenue_change": 423123
         },
         {
           "name": "リッチモンドホテル東京目白",
           "current_score": 8.6,
           "current_revenue": 3663440,
-          "estimated_revenue_change": 398147
+          "estimated_revenue_change": 418352
         },
         {
           "name": "コンフォートイン六本木",
-          "current_score": 8.33,
+          "current_score": 8.24,
           "current_revenue": 2842630,
-          "estimated_revenue_change": 308941
+          "estimated_revenue_change": 324618
         },
         {
           "name": "アパホテル相模原橋本駅東",
-          "current_score": 8.12,
+          "current_score": 8.0,
           "current_revenue": 2698420,
-          "estimated_revenue_change": 293268
+          "estimated_revenue_change": 308150
         },
         {
           "name": "コンフォートホテル成田",
-          "current_score": 8.67,
+          "current_score": 8.56,
           "current_revenue": 2655760,
-          "estimated_revenue_change": 288631
+          "estimated_revenue_change": 303278
         }
       ]
     }
@@ -528,8 +528,8 @@
   "benchmark_comparison": {
     "industry_benchmark": "スコア0.1点改善 = RevPAR 1%向上",
     "industry_revpar_pct_per_01": "1.0%",
-    "our_data_revpar_pct_per_01": "2.17%",
-    "our_revpar_change_per_01": "20.4円",
+    "our_data_revpar_pct_per_01": "2.28%",
+    "our_revpar_change_per_01": "21.4円",
     "deviation": "業界ベンチマーク比 2%",
     "interpretation": "自社データでも正の相関が確認された。業界ベンチマークと同等以上の弾力性がある可能性。"
   },
@@ -537,44 +537,44 @@
     {
       "key": "hearton",
       "name": "ハートンホテル東品川",
-      "current_score": 8.46,
-      "target_score": 9.0,
+      "current_score": 8.43,
+      "target_score": 8.9,
       "improvement": 0.5,
-      "priority": "HIGH",
+      "priority": "STANDARD",
       "current_revenue": 11211550,
       "current_occupancy": 79.7,
       "current_revpar": 893.8,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 1276785,
-      "estimated_revenue_change_annual": 15321425
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 1341578,
+      "estimated_revenue_change_annual": 16098939
     },
     {
       "key": "chisan",
       "name": "チサンホテル浜松町",
-      "current_score": 6.48,
+      "current_score": 6.52,
       "target_score": 7.0,
       "improvement": 0.5,
       "priority": "URGENT",
       "current_revenue": 5578650,
       "current_occupancy": 67.8,
       "current_revpar": 655.4,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 866390,
-      "estimated_revenue_change_annual": 10396682
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 910357,
+      "estimated_revenue_change_annual": 10924280
     },
     {
       "key": "comfort_suites_tokyobay",
       "name": "コンフォートスイーツ東京ベイ",
-      "current_score": 9.06,
+      "current_score": 9.05,
       "target_score": 9.5,
       "improvement": 0.4,
       "priority": "MAINTENANCE",
       "current_revenue": 13228360,
       "current_occupancy": 72.1,
       "current_revpar": 1514.2,
-      "estimated_revpar_change": 89.6,
-      "estimated_revenue_change": 782487,
-      "estimated_revenue_change_annual": 9389845
+      "estimated_revpar_change": 96.3,
+      "estimated_revenue_change": 840882,
+      "estimated_revenue_change_annual": 10090586
     },
     {
       "key": "comfort_yokohama_kannai",
@@ -586,9 +586,9 @@
       "current_revenue": 4051890,
       "current_occupancy": 55.9,
       "current_revpar": 595.5,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 692542,
-      "estimated_revenue_change_annual": 8310505
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 727686,
+      "estimated_revenue_change_annual": 8732237
     },
     {
       "key": "comfort_hakata",
@@ -600,9 +600,9 @@
       "current_revenue": 5764630,
       "current_occupancy": 78.1,
       "current_revpar": 850.7,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 689692,
-      "estimated_revenue_change_annual": 8276306
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 724692,
+      "estimated_revenue_change_annual": 8696302
     },
     {
       "key": "apa_kamata",
@@ -614,37 +614,37 @@
       "current_revenue": 4679520,
       "current_occupancy": 74.5,
       "current_revpar": 759.7,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 626993,
-      "estimated_revenue_change_annual": 7523915
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 658811,
+      "estimated_revenue_change_annual": 7905730
     },
     {
       "key": "henn_na_haneda",
       "name": "変なホテル東京羽田",
-      "current_score": 8.26,
+      "current_score": 8.35,
       "target_score": 8.8,
       "improvement": 0.5,
       "priority": "STANDARD",
       "current_revenue": 5358150,
       "current_occupancy": 78.2,
       "current_revpar": 956.8,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 569994,
-      "estimated_revenue_change_annual": 6839922
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 598919,
+      "estimated_revenue_change_annual": 7187026
     },
     {
       "key": "daiwa_osaki",
       "name": "ダイワロイネットホテル東京大崎",
-      "current_score": 8.71,
-      "target_score": 9.2,
+      "current_score": 8.59,
+      "target_score": 9.1,
       "improvement": 0.5,
       "priority": "HIGH",
       "current_revenue": 5203037,
       "current_occupancy": 70.3,
       "current_revpar": 957.8,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 552894,
-      "estimated_revenue_change_annual": 6634725
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 580951,
+      "estimated_revenue_change_annual": 6971416
     },
     {
       "key": "court_shinyokohama",
@@ -656,51 +656,51 @@
       "current_revenue": 3705215,
       "current_occupancy": 70.9,
       "current_revpar": 692.8,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 544344,
-      "estimated_revenue_change_annual": 6532125
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 571967,
+      "estimated_revenue_change_annual": 6863610
     },
     {
       "key": "comfort_era_higashikanda",
       "name": "コンフォートホテルERA東京東神田",
-      "current_score": 8.86,
-      "target_score": 9.4,
+      "current_score": 8.78,
+      "target_score": 9.3,
       "improvement": 0.5,
-      "priority": "STANDARD",
+      "priority": "MAINTENANCE",
       "current_revenue": 4047280,
       "current_occupancy": 65.8,
       "current_revpar": 768.9,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 535794,
-      "estimated_revenue_change_annual": 6429527
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 562984,
+      "estimated_revenue_change_annual": 6755805
     },
     {
       "key": "kawasaki_nikko",
       "name": "川崎日航ホテル",
-      "current_score": 8.56,
-      "target_score": 9.1,
+      "current_score": 8.66,
+      "target_score": 9.2,
       "improvement": 0.5,
-      "priority": "HIGH",
+      "priority": "STANDARD",
       "current_revenue": 7168120,
       "current_occupancy": 79.4,
       "current_revpar": 1391.3,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 524394,
-      "estimated_revenue_change_annual": 6292728
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 551005,
+      "estimated_revenue_change_annual": 6612065
     },
     {
       "key": "keyakigate",
       "name": "ホテルケヤキゲート東京府中",
-      "current_score": 8.8,
-      "target_score": 9.3,
+      "current_score": 8.95,
+      "target_score": 9.4,
       "improvement": 0.5,
       "priority": "STANDARD",
       "current_revenue": 4425395,
       "current_occupancy": 82.4,
       "current_revpar": 1013.1,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 444595,
-      "estimated_revenue_change_annual": 5335139
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 467157,
+      "estimated_revenue_change_annual": 5605881
     },
     {
       "key": "richmond_mejiro",
@@ -712,37 +712,37 @@
       "current_revenue": 3663440,
       "current_occupancy": 81.8,
       "current_revpar": 902.3,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 413245,
-      "estimated_revenue_change_annual": 4958944
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 434216,
+      "estimated_revenue_change_annual": 5210594
     },
     {
       "key": "comfort_narita",
       "name": "コンフォートホテル成田",
-      "current_score": 8.67,
-      "target_score": 9.2,
+      "current_score": 8.56,
+      "target_score": 9.1,
       "improvement": 0.5,
       "priority": "STANDARD",
       "current_revenue": 2655760,
       "current_occupancy": 66.0,
       "current_revpar": 667.9,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 404695,
-      "estimated_revenue_change_annual": 4856345
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 425232,
+      "estimated_revenue_change_annual": 5102789
     },
     {
       "key": "apa_sagamihara",
       "name": "アパホテル相模原橋本駅東",
-      "current_score": 8.12,
-      "target_score": 8.6,
+      "current_score": 8.0,
+      "target_score": 8.5,
       "improvement": 0.5,
       "priority": "STANDARD",
       "current_revenue": 2698420,
       "current_occupancy": 66.9,
       "current_revpar": 823.7,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 333446,
-      "estimated_revenue_change_annual": 4001355
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 350368,
+      "estimated_revenue_change_annual": 4204411
     },
     {
       "key": "comment_yokohama",
@@ -754,62 +754,62 @@
       "current_revenue": 4463320,
       "current_occupancy": 79.2,
       "current_revpar": 1374.2,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 330596,
-      "estimated_revenue_change_annual": 3967155
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 347373,
+      "estimated_revenue_change_annual": 4168475
     },
     {
       "key": "comfort_roppongi",
       "name": "コンフォートイン六本木",
-      "current_score": 8.33,
-      "target_score": 8.8,
+      "current_score": 8.24,
+      "target_score": 8.7,
       "improvement": 0.5,
       "priority": "STANDARD",
       "current_revenue": 2842630,
       "current_occupancy": 72.3,
       "current_revpar": 890.5,
-      "estimated_revpar_change": 101.8,
-      "estimated_revenue_change": 324896,
-      "estimated_revenue_change_annual": 3898756
+      "estimated_revpar_change": 106.9,
+      "estimated_revenue_change": 341384,
+      "estimated_revenue_change_annual": 4096605
     },
     {
       "key": "keisei_kinshicho",
       "name": "京成リッチモンドホテル東京錦糸町",
-      "current_score": 9.31,
+      "current_score": 9.24,
       "target_score": 9.5,
-      "improvement": 0.2,
+      "improvement": 0.3,
       "priority": "STANDARD",
       "current_revenue": 4791800,
       "current_occupancy": 87.2,
       "current_revpar": 977.9,
-      "estimated_revpar_change": 38.7,
-      "estimated_revenue_change": 189523,
-      "estimated_revenue_change_annual": 2274274
+      "estimated_revpar_change": 55.6,
+      "estimated_revenue_change": 272508,
+      "estimated_revenue_change_annual": 3270097
     },
     {
       "key": "daiichi_ikebukuro",
       "name": "第一イン池袋",
-      "current_score": 9.33,
+      "current_score": 9.47,
       "target_score": 9.5,
-      "improvement": 0.2,
-      "priority": "HIGH",
+      "improvement": 0.0,
+      "priority": "STANDARD",
       "current_revenue": 4310610,
       "current_occupancy": 76.2,
       "current_revpar": 1107.6,
-      "estimated_revpar_change": 34.6,
-      "estimated_revenue_change": 134689,
-      "estimated_revenue_change_annual": 1616274
+      "estimated_revpar_change": 6.4,
+      "estimated_revenue_change": 24975,
+      "estimated_revenue_change_annual": 299699
     }
   ],
   "total_improvement_potential": {
-    "monthly": 10237994,
-    "annual": 122855928
+    "monthly": 10733045,
+    "annual": 128796540
   },
   "phase_analysis": [
     {
       "phase": "P1",
       "count": 7,
-      "avg_score": 8.53,
+      "avg_score": 8.54,
       "avg_occupancy": "77.9%",
       "avg_revenue": 5597783,
       "total_revenue": 39184482
@@ -817,7 +817,7 @@
     {
       "phase": "P2",
       "count": 5,
-      "avg_score": 8.5,
+      "avg_score": 8.44,
       "avg_occupancy": "66.4%",
       "avg_revenue": 5365184,
       "total_revenue": 26825920
@@ -825,7 +825,7 @@
     {
       "phase": "P3",
       "count": 6,
-      "avg_score": 8.04,
+      "avg_score": 8.06,
       "avg_occupancy": "74.9%",
       "avg_revenue": 4678791,
       "total_revenue": 28072745
@@ -842,7 +842,7 @@
   "data_points": [
     {
       "name": "チサンホテル浜松町",
-      "score": 6.48,
+      "score": 6.52,
       "occupancy": 67.8,
       "adr": 967.0,
       "revpar": 655.0,
@@ -912,7 +912,7 @@
     },
     {
       "name": "アパホテル相模原橋本駅東",
-      "score": 8.12,
+      "score": 8.0,
       "occupancy": 66.9,
       "adr": 1230.0,
       "revpar": 824.0,
@@ -925,22 +925,8 @@
       "rev_per_room": 23063
     },
     {
-      "name": "変なホテル東京羽田",
-      "score": 8.26,
-      "occupancy": 78.2,
-      "adr": 1223.0,
-      "revpar": 957.0,
-      "revenue": 5358150,
-      "march_revenue": 5828610,
-      "april_revenue": 843410,
-      "room_count": 200,
-      "phase": "P3",
-      "priority": "STANDARD",
-      "rev_per_room": 26791
-    },
-    {
       "name": "コンフォートイン六本木",
-      "score": 8.33,
+      "score": 8.24,
       "occupancy": 72.3,
       "adr": 1232.0,
       "revpar": 891.0,
@@ -953,8 +939,22 @@
       "rev_per_room": 24935
     },
     {
+      "name": "変なホテル東京羽田",
+      "score": 8.35,
+      "occupancy": 78.2,
+      "adr": 1223.0,
+      "revpar": 957.0,
+      "revenue": 5358150,
+      "march_revenue": 5828610,
+      "april_revenue": 843410,
+      "room_count": 200,
+      "phase": "P3",
+      "priority": "STANDARD",
+      "rev_per_room": 26791
+    },
+    {
       "name": "ハートンホテル東品川",
-      "score": 8.46,
+      "score": 8.43,
       "occupancy": 79.7,
       "adr": 1121.0,
       "revpar": 894.0,
@@ -963,22 +963,36 @@
       "april_revenue": 3432255.333,
       "room_count": 448,
       "phase": "P1",
-      "priority": "HIGH",
+      "priority": "STANDARD",
       "rev_per_room": 25026
     },
     {
-      "name": "川崎日航ホテル",
+      "name": "コンフォートホテル成田",
       "score": 8.56,
-      "occupancy": 79.4,
-      "adr": 2704.0,
-      "revpar": 1391.0,
-      "revenue": 7168120,
-      "march_revenue": 8069300,
-      "april_revenue": 2150235.333,
-      "room_count": 184,
-      "phase": "P3",
+      "occupancy": 66.0,
+      "adr": 1013.0,
+      "revpar": 668.0,
+      "revenue": 2655760,
+      "march_revenue": 2954380,
+      "april_revenue": 559330,
+      "room_count": 142,
+      "phase": "P2",
+      "priority": "STANDARD",
+      "rev_per_room": 18703
+    },
+    {
+      "name": "ダイワロイネットホテル東京大崎",
+      "score": 8.59,
+      "occupancy": 70.3,
+      "adr": 1363.0,
+      "revpar": 958.0,
+      "revenue": 5203037,
+      "march_revenue": 5490862,
+      "april_revenue": 1395668.2,
+      "room_count": 194,
+      "phase": "P1",
       "priority": "HIGH",
-      "rev_per_room": 38957
+      "rev_per_room": 26820
     },
     {
       "name": "リッチモンドホテル東京目白",
@@ -995,46 +1009,32 @@
       "rev_per_room": 25265
     },
     {
-      "name": "コンフォートホテル成田",
-      "score": 8.67,
-      "occupancy": 66.0,
-      "adr": 1013.0,
-      "revpar": 668.0,
-      "revenue": 2655760,
-      "march_revenue": 2954380,
-      "april_revenue": 559330,
-      "room_count": 142,
+      "name": "川崎日航ホテル",
+      "score": 8.66,
+      "occupancy": 79.4,
+      "adr": 2704.0,
+      "revpar": 1391.0,
+      "revenue": 7168120,
+      "march_revenue": 8069300,
+      "april_revenue": 2150235.333,
+      "room_count": 184,
+      "phase": "P3",
+      "priority": "STANDARD",
+      "rev_per_room": 38957
+    },
+    {
+      "name": "コンフォートホテルERA東京東神田",
+      "score": 8.78,
+      "occupancy": 65.8,
+      "adr": 1168.0,
+      "revpar": 769.0,
+      "revenue": 4047280,
+      "march_revenue": 4478190,
+      "april_revenue": 1115065.333,
+      "room_count": 188,
       "phase": "P2",
-      "priority": "STANDARD",
-      "rev_per_room": 18703
-    },
-    {
-      "name": "ダイワロイネットホテル東京大崎",
-      "score": 8.71,
-      "occupancy": 70.3,
-      "adr": 1363.0,
-      "revpar": 958.0,
-      "revenue": 5203037,
-      "march_revenue": 5490862,
-      "april_revenue": 1395668.2,
-      "room_count": 194,
-      "phase": "P1",
-      "priority": "HIGH",
-      "rev_per_room": 26820
-    },
-    {
-      "name": "ホテルケヤキゲート東京府中",
-      "score": 8.8,
-      "occupancy": 82.4,
-      "adr": 1230.0,
-      "revpar": 1013.0,
-      "revenue": 4425395,
-      "march_revenue": 4905970,
-      "april_revenue": 1281220,
-      "room_count": 156,
-      "phase": "P1",
-      "priority": "STANDARD",
-      "rev_per_room": 28368
+      "priority": "MAINTENANCE",
+      "rev_per_room": 21528
     },
     {
       "name": "ホテルコメント横浜関内",
@@ -1051,22 +1051,22 @@
       "rev_per_room": 38477
     },
     {
-      "name": "コンフォートホテルERA東京東神田",
-      "score": 8.86,
-      "occupancy": 65.8,
-      "adr": 1168.0,
-      "revpar": 769.0,
-      "revenue": 4047280,
-      "march_revenue": 4478190,
-      "april_revenue": 1115065.333,
-      "room_count": 188,
-      "phase": "P2",
+      "name": "ホテルケヤキゲート東京府中",
+      "score": 8.95,
+      "occupancy": 82.4,
+      "adr": 1230.0,
+      "revpar": 1013.0,
+      "revenue": 4425395,
+      "march_revenue": 4905970,
+      "april_revenue": 1281220,
+      "room_count": 156,
+      "phase": "P1",
       "priority": "STANDARD",
-      "rev_per_room": 21528
+      "rev_per_room": 28368
     },
     {
       "name": "コンフォートスイーツ東京ベイ",
-      "score": 9.06,
+      "score": 9.05,
       "occupancy": 72.1,
       "adr": 2099.0,
       "revpar": 1514.0,
@@ -1080,7 +1080,7 @@
     },
     {
       "name": "京成リッチモンドホテル東京錦糸町",
-      "score": 9.31,
+      "score": 9.24,
       "occupancy": 87.2,
       "adr": 1122.0,
       "revpar": 978.0,
@@ -1094,7 +1094,7 @@
     },
     {
       "name": "第一イン池袋",
-      "score": 9.33,
+      "score": 9.47,
       "occupancy": 76.2,
       "adr": 1232.0,
       "revpar": 1108.0,
@@ -1103,7 +1103,7 @@
       "april_revenue": 1228494,
       "room_count": 139,
       "phase": "P1",
-      "priority": "HIGH",
+      "priority": "STANDARD",
       "rev_per_room": 31012
     }
   ]
