@@ -118,14 +118,14 @@
     },
     "comfort_era_higashikanda": {
       "name": "コンフォートホテルERA東神田",
-      "avg_score": 3.17,
-      "inspections_count": 3,
+      "avg_score": 3.27,
+      "inspections_count": 4,
       "category_scores": {
-        "整理整頓": 81.5,
-        "安全管理": 91.7,
+        "整理整頓": 83.4,
+        "安全管理": 94.5,
         "衛生管理": 100.0,
-        "現場運営": 77.1,
-        "現場ルール・マナー": 90.0
+        "現場運営": 80.7,
+        "現場ルール・マナー": 91.1
       }
     },
     "comfort_narita": {
@@ -234,7 +234,7 @@
       "name": "ダイワロイネットホテル東京大崎",
       "safety_score": 3.09,
       "review_score": 8.59,
-      "claim_rate": 10.19,
+      "claim_rate": 12.26,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -249,7 +249,7 @@
       "name": "チサンホテル浜松町",
       "safety_score": 3.21,
       "review_score": 6.52,
-      "claim_rate": 0.58,
+      "claim_rate": 0.5,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -264,7 +264,7 @@
       "name": "ハートンホテル東品川",
       "safety_score": 3.13,
       "review_score": 8.43,
-      "claim_rate": 7.37,
+      "claim_rate": 7.61,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -279,7 +279,7 @@
       "name": "ホテルケヤキゲート東京府中",
       "safety_score": 2.87,
       "review_score": 8.95,
-      "claim_rate": 4.06,
+      "claim_rate": 4.41,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -293,7 +293,7 @@
       "hotel_key": "richmond_mejiro",
       "name": "リッチモンドホテル東京目白",
       "safety_score": 3.04,
-      "review_score": 8.6,
+      "review_score": 8.49,
       "claim_rate": 0,
       "inspections": 3,
       "category_scores": {
@@ -309,7 +309,7 @@
       "name": "京成リッチモンドホテル東京錦糸町",
       "safety_score": 2.97,
       "review_score": 9.24,
-      "claim_rate": 11.09,
+      "claim_rate": 13.67,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 79.2,
@@ -324,7 +324,7 @@
       "name": "第一イン池袋",
       "safety_score": 2.93,
       "review_score": 9.47,
-      "claim_rate": 5.62,
+      "claim_rate": 7.32,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 80.0,
@@ -339,7 +339,7 @@
       "name": "コンフォートイン六本木",
       "safety_score": 3.16,
       "review_score": 8.24,
-      "claim_rate": 4.61,
+      "claim_rate": 4.01,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -354,7 +354,7 @@
       "name": "コンフォートスイーツ東京ベイ",
       "safety_score": 3.11,
       "review_score": 9.05,
-      "claim_rate": 8.97,
+      "claim_rate": 7.71,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -367,16 +367,16 @@
     {
       "hotel_key": "comfort_era_higashikanda",
       "name": "コンフォートホテルERA東神田",
-      "safety_score": 3.17,
+      "safety_score": 3.27,
       "review_score": 8.78,
-      "claim_rate": 4.85,
-      "inspections": 3,
+      "claim_rate": 4.18,
+      "inspections": 4,
       "category_scores": {
-        "整理整頓": 81.5,
-        "安全管理": 91.7,
+        "整理整頓": 83.4,
+        "安全管理": 94.5,
         "衛生管理": 100.0,
-        "現場運営": 77.1,
-        "現場ルール・マナー": 90.0
+        "現場運営": 80.7,
+        "現場ルール・マナー": 91.1
       }
     },
     {
@@ -396,7 +396,7 @@
       "name": "コンフォートホテル横浜関内",
       "safety_score": 2.62,
       "review_score": 7.57,
-      "claim_rate": 3.28,
+      "claim_rate": 4.91,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -408,7 +408,7 @@
       "name": "アパホテル相模原橋本駅東",
       "safety_score": 3.25,
       "review_score": 8.0,
-      "claim_rate": 6.58,
+      "claim_rate": 5.72,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -422,8 +422,8 @@
       "hotel_key": "apa_kamata",
       "name": "アパホテル蒲田駅東",
       "safety_score": 2.62,
-      "review_score": 7.38,
-      "claim_rate": 8.2,
+      "review_score": 7.5,
+      "claim_rate": 7.74,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -449,8 +449,8 @@
       "hotel_key": "comment_yokohama",
       "name": "ホテルコメント横浜関内",
       "safety_score": 3.14,
-      "review_score": 8.83,
-      "claim_rate": 7.74,
+      "review_score": 8.82,
+      "claim_rate": 8.08,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 81.5,
@@ -465,7 +465,7 @@
       "name": "変なホテル東京羽田",
       "safety_score": 3.18,
       "review_score": 8.35,
-      "claim_rate": 6.91,
+      "claim_rate": 6.14,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -480,7 +480,7 @@
       "name": "川崎日航ホテル",
       "safety_score": 3.26,
       "review_score": 8.66,
-      "claim_rate": 16.53,
+      "claim_rate": 16.83,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -494,8 +494,8 @@
       "hotel_key": "comfort_hakata",
       "name": "コンフォートホテル博多",
       "safety_score": 2.6,
-      "review_score": 7.73,
-      "claim_rate": 10.45,
+      "review_score": 7.83,
+      "claim_rate": 9.63,
       "inspections": 2,
       "category_scores": {
         "整理整頓": 73.4,
@@ -508,11 +508,11 @@
   ],
   "correlations": {
     "safety_vs_review": {
-      "r": 0.1896,
+      "r": 0.1743,
       "n": 19
     },
     "safety_vs_claims": {
-      "r": 0.2039,
+      "r": 0.1382,
       "n": 19
     }
   },
@@ -1172,11 +1172,26 @@
   "total_problem_count": 93,
   "hotel_ranking": [
     {
+      "hotel_key": "comfort_era_higashikanda",
+      "name": "コンフォートホテルERA東神田",
+      "safety_score": 3.27,
+      "review_score": 8.78,
+      "claim_rate": 4.18,
+      "inspections": 4,
+      "category_scores": {
+        "整理整頓": 83.4,
+        "安全管理": 94.5,
+        "衛生管理": 100.0,
+        "現場運営": 80.7,
+        "現場ルール・マナー": 91.1
+      }
+    },
+    {
       "hotel_key": "kawasaki_nikko",
       "name": "川崎日航ホテル",
       "safety_score": 3.26,
       "review_score": 8.66,
-      "claim_rate": 16.53,
+      "claim_rate": 16.83,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -1191,7 +1206,7 @@
       "name": "アパホテル相模原橋本駅東",
       "safety_score": 3.25,
       "review_score": 8.0,
-      "claim_rate": 6.58,
+      "claim_rate": 5.72,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -1206,7 +1221,7 @@
       "name": "チサンホテル浜松町",
       "safety_score": 3.21,
       "review_score": 6.52,
-      "claim_rate": 0.58,
+      "claim_rate": 0.5,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -1221,7 +1236,7 @@
       "name": "変なホテル東京羽田",
       "safety_score": 3.18,
       "review_score": 8.35,
-      "claim_rate": 6.91,
+      "claim_rate": 6.14,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -1232,26 +1247,11 @@
       }
     },
     {
-      "hotel_key": "comfort_era_higashikanda",
-      "name": "コンフォートホテルERA東神田",
-      "safety_score": 3.17,
-      "review_score": 8.78,
-      "claim_rate": 4.85,
-      "inspections": 3,
-      "category_scores": {
-        "整理整頓": 81.5,
-        "安全管理": 91.7,
-        "衛生管理": 100.0,
-        "現場運営": 77.1,
-        "現場ルール・マナー": 90.0
-      }
-    },
-    {
       "hotel_key": "comfort_roppongi",
       "name": "コンフォートイン六本木",
       "safety_score": 3.16,
       "review_score": 8.24,
-      "claim_rate": 4.61,
+      "claim_rate": 4.01,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -1265,8 +1265,8 @@
       "hotel_key": "comment_yokohama",
       "name": "ホテルコメント横浜関内",
       "safety_score": 3.14,
-      "review_score": 8.83,
-      "claim_rate": 7.74,
+      "review_score": 8.82,
+      "claim_rate": 8.08,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 81.5,
@@ -1281,7 +1281,7 @@
       "name": "ハートンホテル東品川",
       "safety_score": 3.13,
       "review_score": 8.43,
-      "claim_rate": 7.37,
+      "claim_rate": 7.61,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -1296,7 +1296,7 @@
       "name": "コンフォートスイーツ東京ベイ",
       "safety_score": 3.11,
       "review_score": 9.05,
-      "claim_rate": 8.97,
+      "claim_rate": 7.71,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -1311,7 +1311,7 @@
       "name": "ダイワロイネットホテル東京大崎",
       "safety_score": 3.09,
       "review_score": 8.59,
-      "claim_rate": 10.19,
+      "claim_rate": 12.26,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -1325,7 +1325,7 @@
       "hotel_key": "richmond_mejiro",
       "name": "リッチモンドホテル東京目白",
       "safety_score": 3.04,
-      "review_score": 8.6,
+      "review_score": 8.49,
       "claim_rate": 0,
       "inspections": 3,
       "category_scores": {
@@ -1341,7 +1341,7 @@
       "name": "京成リッチモンドホテル東京錦糸町",
       "safety_score": 2.97,
       "review_score": 9.24,
-      "claim_rate": 11.09,
+      "claim_rate": 13.67,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 79.2,
@@ -1356,7 +1356,7 @@
       "name": "第一イン池袋",
       "safety_score": 2.93,
       "review_score": 9.47,
-      "claim_rate": 5.62,
+      "claim_rate": 7.32,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 80.0,
@@ -1386,7 +1386,7 @@
       "name": "ホテルケヤキゲート東京府中",
       "safety_score": 2.87,
       "review_score": 8.95,
-      "claim_rate": 4.06,
+      "claim_rate": 4.41,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -1413,7 +1413,7 @@
       "name": "コンフォートホテル横浜関内",
       "safety_score": 2.62,
       "review_score": 7.57,
-      "claim_rate": 3.28,
+      "claim_rate": 4.91,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -1424,8 +1424,8 @@
       "hotel_key": "apa_kamata",
       "name": "アパホテル蒲田駅東",
       "safety_score": 2.62,
-      "review_score": 7.38,
-      "claim_rate": 8.2,
+      "review_score": 7.5,
+      "claim_rate": 7.74,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -1436,8 +1436,8 @@
       "hotel_key": "comfort_hakata",
       "name": "コンフォートホテル博多",
       "safety_score": 2.6,
-      "review_score": 7.73,
-      "claim_rate": 10.45,
+      "review_score": 7.83,
+      "claim_rate": 9.63,
       "inspections": 2,
       "category_scores": {
         "整理整頓": 73.4,

@@ -14,10 +14,10 @@
       "claim_rate": 7.74,
       "total_claims": 13,
       "zero_claims": false,
-      "avg_maids": 12.9,
+      "avg_maids": 12.8,
       "avg_checkers": 1.0,
-      "maid_checker_ratio": 12.9,
-      "avg_completion_time": 15.02,
+      "maid_checker_ratio": 12.8,
+      "avg_completion_time": 15.01,
       "safety_score": 2.62,
       "safety_categories": {
         "整理整頓": 66.7,
@@ -28,7 +28,7 @@
       "tier": "要改善",
       "revpar": 759.6623,
       "monthly_revenue": 4679520,
-      "composite_score": 0.637
+      "composite_score": 0.638
     },
     {
       "hotel_key": "apa_sagamihara",
@@ -36,10 +36,10 @@
       "claim_rate": 5.72,
       "total_claims": 5,
       "zero_claims": false,
-      "avg_maids": 7.7,
+      "avg_maids": 7.5,
       "avg_checkers": 33.0,
       "maid_checker_ratio": 0.2,
-      "avg_completion_time": 15.34,
+      "avg_completion_time": 15.32,
       "safety_score": 3.25,
       "safety_categories": {
         "整理整頓": 85.2,
@@ -53,7 +53,7 @@
       "tier": "概ね良好",
       "revpar": 823.6935,
       "monthly_revenue": 2698420,
-      "composite_score": 0.679
+      "composite_score": 0.681
     },
     {
       "hotel_key": "chisan",
@@ -61,7 +61,7 @@
       "claim_rate": 0.5,
       "total_claims": 1,
       "zero_claims": false,
-      "avg_maids": 9.2,
+      "avg_maids": 9.3,
       "avg_checkers": null,
       "maid_checker_ratio": null,
       "avg_completion_time": 14.54,
@@ -89,21 +89,21 @@
       "avg_maids": 8.1,
       "avg_checkers": null,
       "maid_checker_ratio": null,
-      "avg_completion_time": 15.25,
-      "safety_score": 3.17,
+      "avg_completion_time": 15.27,
+      "safety_score": 3.27,
       "safety_categories": {
-        "整理整頓": 81.5,
-        "安全管理": 91.7,
+        "整理整頓": 83.4,
+        "安全管理": 94.5,
         "衛生管理": 100.0,
-        "現場運営": 77.1,
-        "現場ルール・マナー": 90.0
+        "現場運営": 80.7,
+        "現場ルール・マナー": 91.1
       },
       "review_score": 8.78,
       "cleaning_issue_rate": 0.0,
       "tier": "良好",
       "revpar": 768.8602,
       "monthly_revenue": 4047280,
-      "composite_score": 0.722
+      "composite_score": 0.725
     },
     {
       "hotel_key": "comfort_hakata",
@@ -111,10 +111,10 @@
       "claim_rate": 9.63,
       "total_claims": 17,
       "zero_claims": false,
-      "avg_maids": 17.3,
-      "avg_checkers": 5.2,
-      "maid_checker_ratio": 3.3,
-      "avg_completion_time": 15.87,
+      "avg_maids": 17.0,
+      "avg_checkers": 5.3,
+      "maid_checker_ratio": 3.2,
+      "avg_completion_time": 15.84,
       "safety_score": 2.6,
       "safety_categories": {
         "整理整頓": 73.4,
@@ -128,7 +128,7 @@
       "tier": "要改善",
       "revpar": 850.7423,
       "monthly_revenue": 5764630,
-      "composite_score": 0.55
+      "composite_score": 0.552
     },
     {
       "hotel_key": "comfort_narita",
@@ -139,7 +139,7 @@
       "avg_maids": 7.7,
       "avg_checkers": 1.0,
       "maid_checker_ratio": 7.7,
-      "avg_completion_time": 16.22,
+      "avg_completion_time": 16.3,
       "safety_score": 2.62,
       "safety_categories": {
         "整理整頓": 66.7,
@@ -150,7 +150,7 @@
       "tier": "良好",
       "revpar": 667.9477,
       "monthly_revenue": 2655760,
-      "composite_score": 0.66
+      "composite_score": 0.653
     },
     {
       "hotel_key": "comfort_roppongi",
@@ -158,9 +158,9 @@
       "claim_rate": 4.01,
       "total_claims": 3,
       "zero_claims": false,
-      "avg_maids": 5.5,
+      "avg_maids": 5.4,
       "avg_checkers": 1.0,
-      "maid_checker_ratio": 5.5,
+      "maid_checker_ratio": 5.4,
       "avg_completion_time": 1225.96,
       "safety_score": 3.16,
       "safety_categories": {
@@ -183,10 +183,10 @@
       "claim_rate": 7.71,
       "total_claims": 14,
       "zero_claims": false,
-      "avg_maids": 23.5,
-      "avg_checkers": 6.0,
-      "maid_checker_ratio": 3.9,
-      "avg_completion_time": 15.46,
+      "avg_maids": 23.7,
+      "avg_checkers": 5.9,
+      "maid_checker_ratio": 4.0,
+      "avg_completion_time": 15.48,
       "safety_score": 3.11,
       "safety_categories": {
         "整理整頓": 83.4,
@@ -200,7 +200,7 @@
       "tier": "優秀",
       "revpar": 1514.2353,
       "monthly_revenue": 13228360,
-      "composite_score": 0.664
+      "composite_score": 0.662
     },
     {
       "hotel_key": "comfort_yokohama",
@@ -208,10 +208,10 @@
       "claim_rate": 4.91,
       "total_claims": 7,
       "zero_claims": false,
-      "avg_maids": 10.7,
+      "avg_maids": 25.0,
       "avg_checkers": 1.0,
-      "maid_checker_ratio": 10.7,
-      "avg_completion_time": 15.26,
+      "maid_checker_ratio": 25.0,
+      "avg_completion_time": 15.21,
       "safety_score": 2.62,
       "safety_categories": {
         "整理整頓": 66.7,
@@ -222,7 +222,7 @@
       "tier": "要改善",
       "revpar": 595.5159,
       "monthly_revenue": 4051890,
-      "composite_score": 0.654
+      "composite_score": 0.658
     },
     {
       "hotel_key": "comment_yokohama",
@@ -281,9 +281,9 @@
       "total_claims": 6,
       "zero_claims": false,
       "avg_maids": 5.7,
-      "avg_checkers": 3.6,
+      "avg_checkers": 3.5,
       "maid_checker_ratio": 1.6,
-      "avg_completion_time": 15.14,
+      "avg_completion_time": 15.12,
       "safety_score": 2.93,
       "safety_categories": {
         "整理整頓": 80.0,
@@ -297,7 +297,7 @@
       "tier": "優秀",
       "revpar": 1107.5565,
       "monthly_revenue": 4310610,
-      "composite_score": 0.697
+      "composite_score": 0.698
     },
     {
       "hotel_key": "daiwa_osaki",
@@ -305,10 +305,10 @@
       "claim_rate": 12.26,
       "total_claims": 18,
       "zero_claims": false,
-      "avg_maids": 8.6,
-      "avg_checkers": 2.6,
+      "avg_maids": 8.4,
+      "avg_checkers": 2.5,
       "maid_checker_ratio": 3.3,
-      "avg_completion_time": 14.6,
+      "avg_completion_time": 14.62,
       "safety_score": 3.09,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -322,7 +322,7 @@
       "tier": "良好",
       "revpar": 957.8492,
       "monthly_revenue": 5203037,
-      "composite_score": 0.666
+      "composite_score": 0.664
     },
     {
       "hotel_key": "hearton",
@@ -330,9 +330,9 @@
       "claim_rate": 7.61,
       "total_claims": 24,
       "zero_claims": false,
-      "avg_maids": 12.2,
-      "avg_checkers": 1.6,
-      "maid_checker_ratio": 7.9,
+      "avg_maids": 12.4,
+      "avg_checkers": 1.5,
+      "maid_checker_ratio": 8.2,
       "avg_completion_time": 15.83,
       "safety_score": 3.13,
       "safety_categories": {
@@ -357,7 +357,7 @@
       "zero_claims": false,
       "avg_maids": 12.1,
       "avg_checkers": 3.2,
-      "maid_checker_ratio": 3.7,
+      "maid_checker_ratio": 3.8,
       "avg_completion_time": 15.11,
       "safety_score": 3.18,
       "safety_categories": {
@@ -380,10 +380,10 @@
       "claim_rate": 16.83,
       "total_claims": 20,
       "zero_claims": false,
-      "avg_maids": 6.5,
+      "avg_maids": 6.6,
       "avg_checkers": 3.4,
-      "maid_checker_ratio": 1.9,
-      "avg_completion_time": 63.76,
+      "maid_checker_ratio": 2.0,
+      "avg_completion_time": 57.4,
       "safety_score": 3.26,
       "safety_categories": {
         "整理整頓": 88.9,
@@ -407,8 +407,8 @@
       "zero_claims": false,
       "avg_maids": 8.3,
       "avg_checkers": 2.7,
-      "maid_checker_ratio": 3.1,
-      "avg_completion_time": 15.94,
+      "maid_checker_ratio": 3.0,
+      "avg_completion_time": 15.93,
       "safety_score": 2.97,
       "safety_categories": {
         "整理整頓": 79.2,
@@ -422,7 +422,7 @@
       "tier": "優秀",
       "revpar": 977.9184,
       "monthly_revenue": 4791800,
-      "composite_score": 0.547
+      "composite_score": 0.548
     },
     {
       "hotel_key": "keyakigate",
@@ -430,10 +430,10 @@
       "claim_rate": 4.41,
       "total_claims": 5,
       "zero_claims": false,
-      "avg_maids": 10.4,
+      "avg_maids": 10.3,
       "avg_checkers": 1.4,
-      "maid_checker_ratio": 7.1,
-      "avg_completion_time": 35.09,
+      "maid_checker_ratio": 7.2,
+      "avg_completion_time": 32.68,
       "safety_score": 2.87,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -458,7 +458,7 @@
       "avg_maids": 6.0,
       "avg_checkers": 3.0,
       "maid_checker_ratio": 2.0,
-      "avg_completion_time": 15.48,
+      "avg_completion_time": 15.49,
       "safety_score": 3.04,
       "safety_categories": {
         "整理整頓": 85.2,
@@ -472,7 +472,7 @@
       "tier": "概ね良好",
       "revpar": 902.3251,
       "monthly_revenue": 3663440,
-      "composite_score": 0.741
+      "composite_score": 0.74
     }
   ],
   "best_practices": {
@@ -487,10 +487,10 @@
       },
       {
         "name": "リッチモンドホテル東京目白",
-        "composite": 0.741,
+        "composite": 0.74,
         "review": 8.49,
         "claims": 0,
-        "time": 15.48,
+        "time": 15.49,
         "safety": 3.04
       },
       {
@@ -503,11 +503,11 @@
       },
       {
         "name": "コンフォートホテルERA東神田",
-        "composite": 0.722,
+        "composite": 0.725,
         "review": 8.78,
         "claims": 4.18,
-        "time": 15.25,
-        "safety": 3.17
+        "time": 15.27,
+        "safety": 3.27
       },
       {
         "name": "変なホテル東京羽田",
@@ -519,10 +519,10 @@
       },
       {
         "name": "第一イン池袋",
-        "composite": 0.697,
+        "composite": 0.698,
         "review": 9.47,
         "claims": 7.32,
-        "time": 15.14,
+        "time": 15.12,
         "safety": 2.93
       },
       {
@@ -535,50 +535,50 @@
       },
       {
         "name": "アパホテル相模原橋本駅東",
-        "composite": 0.679,
+        "composite": 0.681,
         "review": 8.0,
         "claims": 5.72,
-        "time": 15.34,
+        "time": 15.32,
         "safety": 3.25
       },
       {
         "name": "ダイワロイネットホテル東京大崎",
-        "composite": 0.666,
+        "composite": 0.664,
         "review": 8.59,
         "claims": 12.26,
-        "time": 14.6,
+        "time": 14.62,
         "safety": 3.09
       },
       {
         "name": "コンフォートスイーツ東京ベイ",
-        "composite": 0.664,
+        "composite": 0.662,
         "review": 9.05,
         "claims": 7.71,
-        "time": 15.46,
+        "time": 15.48,
         "safety": 3.11
       },
       {
-        "name": "コンフォートホテル成田",
-        "composite": 0.66,
-        "review": 8.56,
-        "claims": 0,
-        "time": 16.22,
+        "name": "コンフォートホテル横浜関内",
+        "composite": 0.658,
+        "review": 7.57,
+        "claims": 4.91,
+        "time": 15.21,
         "safety": 2.62
       },
       {
-        "name": "コンフォートホテル横浜関内",
-        "composite": 0.654,
-        "review": 7.57,
-        "claims": 4.91,
-        "time": 15.26,
+        "name": "コンフォートホテル成田",
+        "composite": 0.653,
+        "review": 8.56,
+        "claims": 0,
+        "time": 16.3,
         "safety": 2.62
       },
       {
         "name": "アパホテル蒲田駅東",
-        "composite": 0.637,
+        "composite": 0.638,
         "review": 7.5,
         "claims": 7.74,
-        "time": 15.02,
+        "time": 15.01,
         "safety": 2.62
       },
       {
@@ -602,23 +602,23 @@
         "composite": 0.562,
         "review": 8.95,
         "claims": 4.41,
-        "time": 35.09,
+        "time": 32.68,
         "safety": 2.87
       },
       {
         "name": "コンフォートホテル博多",
-        "composite": 0.55,
+        "composite": 0.552,
         "review": 7.83,
         "claims": 9.63,
-        "time": 15.87,
+        "time": 15.84,
         "safety": 2.6
       },
       {
         "name": "京成リッチモンドホテル東京錦糸町",
-        "composite": 0.547,
+        "composite": 0.548,
         "review": 9.24,
         "claims": 13.67,
-        "time": 15.94,
+        "time": 15.93,
         "safety": 2.97
       },
       {
@@ -626,7 +626,7 @@
         "composite": 0.419,
         "review": 8.66,
         "claims": 16.83,
-        "time": 63.76,
+        "time": 57.4,
         "safety": 3.26
       }
     ],
@@ -688,11 +688,11 @@
       {
         "factor": "高安全チェックスコア",
         "hotels": [
+          "コンフォートホテルERA東神田",
           "川崎日航ホテル",
           "アパホテル相模原橋本駅東",
           "チサンホテル浜松町",
-          "変なホテル東京羽田",
-          "コンフォートホテルERA東神田"
+          "変なホテル東京羽田"
         ],
         "description": "安全チェック高得点ホテルは現場管理体制が成熟。",
         "transferable_actions": [
@@ -756,7 +756,7 @@
     },
     {
       "title": "「チェック体制」が品質の鍵",
-      "finding": "M:C比率とスコアの相関r=-0.3798。メイド「数」より「質」と「チェック」が重要。",
+      "finding": "M:C比率とスコアの相関r=-0.4048。メイド「数」より「質」と「チェック」が重要。",
       "implication": "チェッカー配置の最適化が最もレバレッジの高い施策。"
     },
     {
