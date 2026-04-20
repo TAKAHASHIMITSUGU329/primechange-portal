@@ -2,7 +2,7 @@
   "report_metadata": {
     "title": "PRIMECHANGE ホテル清掃戦略レポート",
     "subtitle": "ゲスト口コミデータに基づく清掃品質改善提案書",
-    "date": "2026年4月19日",
+    "date": "2026年4月20日",
     "analysis_period": "2026年1月〜2026年3月",
     "total_hotels": 19,
     "total_reviews": 1404,
@@ -319,15 +319,21 @@
       },
       {
         "category": "シミ・汚れ跡",
-        "total_mentions": 10,
+        "total_mentions": 11,
         "hotels_affected": 4,
-        "severity": "HIGH",
+        "severity": "CRITICAL",
         "sample_comments": [
           {
             "hotel": "ダイワロイネットホテル東京大崎",
             "rating": 6.0,
             "text": "部屋は広々としていますが、基本的な設備が不足しています。部屋にセーフティボックスがないため、旅行が不便でした。結局、貴重品は毎日フロントに預けなければなりませんでした。コットンボールなどの基本的なアメニティが用意されていないのは驚きです。それ以外は、部屋の広さと清潔さは気に入っています。フットマッサージ機が備え付けられているのは良かったです。夏に予定されている改装工事後のより良い部屋を楽しみにして",
             "site": "じゃらん"
+          },
+          {
+            "hotel": "ダイワロイネットホテル東京大崎",
+            "rating": 6.0,
+            "text": "Excellent location; very close to the station and other amenities. My partner had horrible allergies that only occurred when staying in the room. We don’t know if it was from pests or their cleaning c",
+            "site": "Google"
           },
           {
             "hotel": "リッチモンドホテル東京目白",
@@ -346,12 +352,6 @@
             "rating": 7.0,
             "text": "喫煙場所が遠すぎるのでHPに案内して欲しかったし、工事中で階段が付かずエレベータが使えない事を知らずに長時間フロントに行けなかったのでスタッフが1階で説明するか案内文を掲示して欲しかった。楽しみにしていたビュッフェで朝食が取れなかったことも残念。 喫煙場所が遠すぎるのでHPに案内して欲しかったし、工事中で階段が付かずエレベータが使えない事を知らずに長時間フロントに行けなかったのでスタッフが1階で説",
             "site": "Trip.com"
-          },
-          {
-            "hotel": "コンフォートホテル横浜関内",
-            "rating": 5.0,
-            "text": "ホテルが改装しているのを知らないで 宿泊をしたので、楽しみにしていた朝食のスムージーが飲めなくて残念でした。 ホテルが改装しているのを知らないで 宿泊をしたので、楽しみにしていた朝食のスムージーが飲めなくて残念でした。",
-            "site": "Agoda"
           }
         ]
       },
@@ -696,7 +696,7 @@
         "priority": "HIGH",
         "categories": {
           "清掃品質全般": 3,
-          "シミ・汚れ跡": 1,
+          "シミ・汚れ跡": 2,
           "害虫": 2
         },
         "neg_review_count": 10
@@ -974,8 +974,8 @@
         "cleaning_rate": 8.1,
         "key_problems": [
           "清掃品質全般",
-          "害虫",
-          "シミ・汚れ跡"
+          "シミ・汚れ跡",
+          "害虫"
         ]
       }
     ],
@@ -1688,6 +1688,11 @@
             "issue_count": 3
           },
           {
+            "action": "シミ箇所の特定と専用クリーナーによる除去",
+            "category": "シミ・汚れ跡",
+            "issue_count": 2
+          },
+          {
             "action": "害虫駆除業者による即時消毒実施",
             "category": "害虫",
             "issue_count": 2
@@ -1696,11 +1701,6 @@
             "action": "発生箇所の特定と封鎖",
             "category": "害虫",
             "issue_count": 2
-          },
-          {
-            "action": "シミ箇所の特定と専用クリーナーによる除去",
-            "category": "シミ・汚れ跡",
-            "issue_count": 1
           }
         ]
       },
@@ -1716,16 +1716,16 @@
             "category": "清掃品質全般"
           },
           {
+            "action": "シミ発見時の即時報告・対処フロー構築",
+            "category": "シミ・汚れ跡"
+          },
+          {
             "action": "月次予防駆除の定期契約導入",
             "category": "害虫"
           },
           {
             "action": "侵入経路の点検と封鎖工事",
             "category": "害虫"
-          },
-          {
-            "action": "シミ発見時の即時報告・対処フロー構築",
-            "category": "シミ・汚れ跡"
           }
         ]
       },
