@@ -22,8 +22,9 @@ if (args.length < 3) {
 
 const HOTEL_NAME = args[0];
 const ANALYSIS_JSON_PATH = path.resolve(args[1]);
-const OUTPUT_PREFIX = args[2];
-const OUTPUT_DIR = path.dirname(ANALYSIS_JSON_PATH);
+const OUTPUT_PREFIX_RAW = args[2];
+const OUTPUT_DIR = path.dirname(path.resolve(OUTPUT_PREFIX_RAW));
+const OUTPUT_PREFIX = path.basename(OUTPUT_PREFIX_RAW);
 
 // ============================================================
 // Load analysis data

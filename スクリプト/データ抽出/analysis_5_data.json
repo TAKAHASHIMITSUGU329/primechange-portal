@@ -234,7 +234,7 @@
       "name": "ダイワロイネットホテル東京大崎",
       "safety_score": 3.09,
       "review_score": 8.59,
-      "claim_rate": 12.12,
+      "claim_rate": 11.96,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -249,7 +249,7 @@
       "name": "チサンホテル浜松町",
       "safety_score": 3.21,
       "review_score": 6.52,
-      "claim_rate": 0.48,
+      "claim_rate": 0.47,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -264,7 +264,7 @@
       "name": "ハートンホテル東品川",
       "safety_score": 3.13,
       "review_score": 8.43,
-      "claim_rate": 7.52,
+      "claim_rate": 7.42,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -279,7 +279,7 @@
       "name": "ホテルケヤキゲート東京府中",
       "safety_score": 2.87,
       "review_score": 8.95,
-      "claim_rate": 4.36,
+      "claim_rate": 4.32,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -324,7 +324,7 @@
       "name": "第一イン池袋",
       "safety_score": 2.93,
       "review_score": 9.47,
-      "claim_rate": 7.22,
+      "claim_rate": 7.13,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 80.0,
@@ -339,7 +339,7 @@
       "name": "コンフォートイン六本木",
       "safety_score": 3.16,
       "review_score": 8.24,
-      "claim_rate": 3.96,
+      "claim_rate": 3.91,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -354,7 +354,7 @@
       "name": "コンフォートスイーツ東京ベイ",
       "safety_score": 3.11,
       "review_score": 9.05,
-      "claim_rate": 7.6,
+      "claim_rate": 7.5,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -369,7 +369,7 @@
       "name": "コンフォートホテルERA東神田",
       "safety_score": 3.27,
       "review_score": 8.78,
-      "claim_rate": 4.12,
+      "claim_rate": 4.06,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -396,7 +396,7 @@
       "name": "コンフォートホテル横浜関内",
       "safety_score": 2.62,
       "review_score": 7.57,
-      "claim_rate": 4.83,
+      "claim_rate": 4.77,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -408,7 +408,7 @@
       "name": "アパホテル相模原橋本駅東",
       "safety_score": 3.25,
       "review_score": 8.0,
-      "claim_rate": 5.65,
+      "claim_rate": 5.57,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -423,7 +423,7 @@
       "name": "アパホテル蒲田駅東",
       "safety_score": 2.62,
       "review_score": 7.5,
-      "claim_rate": 7.64,
+      "claim_rate": 7.55,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -450,7 +450,7 @@
       "name": "ホテルコメント横浜関内",
       "safety_score": 3.14,
       "review_score": 8.82,
-      "claim_rate": 7.99,
+      "claim_rate": 7.92,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 81.5,
@@ -465,7 +465,7 @@
       "name": "変なホテル東京羽田",
       "safety_score": 3.18,
       "review_score": 8.35,
-      "claim_rate": 6.07,
+      "claim_rate": 5.99,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -480,7 +480,7 @@
       "name": "川崎日航ホテル",
       "safety_score": 3.26,
       "review_score": 8.66,
-      "claim_rate": 20.76,
+      "claim_rate": 21.31,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -495,7 +495,7 @@
       "name": "コンフォートホテル博多",
       "safety_score": 2.6,
       "review_score": 7.83,
-      "claim_rate": 9.52,
+      "claim_rate": 7.51,
       "inspections": 2,
       "category_scores": {
         "整理整頓": 73.4,
@@ -512,7 +512,7 @@
       "n": 19
     },
     "safety_vs_claims": {
-      "r": 0.1726,
+      "r": 0.2133,
       "n": 19
     }
   },
@@ -1176,7 +1176,7 @@
       "name": "コンフォートホテルERA東神田",
       "safety_score": 3.27,
       "review_score": 8.78,
-      "claim_rate": 4.12,
+      "claim_rate": 4.06,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -1191,7 +1191,7 @@
       "name": "川崎日航ホテル",
       "safety_score": 3.26,
       "review_score": 8.66,
-      "claim_rate": 20.76,
+      "claim_rate": 21.31,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -1206,7 +1206,7 @@
       "name": "アパホテル相模原橋本駅東",
       "safety_score": 3.25,
       "review_score": 8.0,
-      "claim_rate": 5.65,
+      "claim_rate": 5.57,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -1221,7 +1221,7 @@
       "name": "チサンホテル浜松町",
       "safety_score": 3.21,
       "review_score": 6.52,
-      "claim_rate": 0.48,
+      "claim_rate": 0.47,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 88.9,
@@ -1236,7 +1236,7 @@
       "name": "変なホテル東京羽田",
       "safety_score": 3.18,
       "review_score": 8.35,
-      "claim_rate": 6.07,
+      "claim_rate": 5.99,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -1251,7 +1251,7 @@
       "name": "コンフォートイン六本木",
       "safety_score": 3.16,
       "review_score": 8.24,
-      "claim_rate": 3.96,
+      "claim_rate": 3.91,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -1266,7 +1266,7 @@
       "name": "ホテルコメント横浜関内",
       "safety_score": 3.14,
       "review_score": 8.82,
-      "claim_rate": 7.99,
+      "claim_rate": 7.92,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 81.5,
@@ -1281,7 +1281,7 @@
       "name": "ハートンホテル東品川",
       "safety_score": 3.13,
       "review_score": 8.43,
-      "claim_rate": 7.52,
+      "claim_rate": 7.42,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 85.2,
@@ -1296,7 +1296,7 @@
       "name": "コンフォートスイーツ東京ベイ",
       "safety_score": 3.11,
       "review_score": 9.05,
-      "claim_rate": 7.6,
+      "claim_rate": 7.5,
       "inspections": 4,
       "category_scores": {
         "整理整頓": 83.4,
@@ -1311,7 +1311,7 @@
       "name": "ダイワロイネットホテル東京大崎",
       "safety_score": 3.09,
       "review_score": 8.59,
-      "claim_rate": 12.12,
+      "claim_rate": 11.96,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -1356,7 +1356,7 @@
       "name": "第一イン池袋",
       "safety_score": 2.93,
       "review_score": 9.47,
-      "claim_rate": 7.22,
+      "claim_rate": 7.13,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 80.0,
@@ -1386,7 +1386,7 @@
       "name": "ホテルケヤキゲート東京府中",
       "safety_score": 2.87,
       "review_score": 8.95,
-      "claim_rate": 4.36,
+      "claim_rate": 4.32,
       "inspections": 3,
       "category_scores": {
         "整理整頓": 77.8,
@@ -1413,7 +1413,7 @@
       "name": "コンフォートホテル横浜関内",
       "safety_score": 2.62,
       "review_score": 7.57,
-      "claim_rate": 4.83,
+      "claim_rate": 4.77,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -1425,7 +1425,7 @@
       "name": "アパホテル蒲田駅東",
       "safety_score": 2.62,
       "review_score": 7.5,
-      "claim_rate": 7.64,
+      "claim_rate": 7.55,
       "inspections": 1,
       "category_scores": {
         "整理整頓": 66.7,
@@ -1437,7 +1437,7 @@
       "name": "コンフォートホテル博多",
       "safety_score": 2.6,
       "review_score": 7.83,
-      "claim_rate": 9.52,
+      "claim_rate": 7.51,
       "inspections": 2,
       "category_scores": {
         "整理整頓": 73.4,
