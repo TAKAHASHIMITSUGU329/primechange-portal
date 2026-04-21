@@ -14,9 +14,9 @@
       "claim_rate": 7.55,
       "total_claims": 13,
       "zero_claims": false,
-      "avg_maids": 12.8,
+      "avg_maids": 12.7,
       "avg_checkers": 1.0,
-      "maid_checker_ratio": 12.8,
+      "maid_checker_ratio": 12.7,
       "avg_completion_time": 15.01,
       "safety_score": 2.62,
       "safety_categories": {
@@ -36,7 +36,7 @@
       "claim_rate": 5.57,
       "total_claims": 5,
       "zero_claims": false,
-      "avg_maids": 7.5,
+      "avg_maids": 7.4,
       "avg_checkers": 33.0,
       "maid_checker_ratio": 0.2,
       "avg_completion_time": 15.33,
@@ -64,7 +64,7 @@
       "avg_maids": 9.3,
       "avg_checkers": null,
       "maid_checker_ratio": null,
-      "avg_completion_time": 14.51,
+      "avg_completion_time": 14.53,
       "safety_score": 3.21,
       "safety_categories": {
         "整理整頓": 88.9,
@@ -78,7 +78,7 @@
       "tier": "要緊急対応",
       "revpar": 655.3865,
       "monthly_revenue": 5578650,
-      "composite_score": 0.775
+      "composite_score": 0.773
     },
     {
       "hotel_key": "comfort_era_higashikanda",
@@ -184,9 +184,9 @@
       "total_claims": 14,
       "zero_claims": false,
       "avg_maids": 23.7,
-      "avg_checkers": 5.9,
+      "avg_checkers": 5.8,
       "maid_checker_ratio": 4.0,
-      "avg_completion_time": 15.46,
+      "avg_completion_time": 15.47,
       "safety_score": 3.11,
       "safety_categories": {
         "整理整頓": 83.4,
@@ -380,10 +380,10 @@
       "claim_rate": 21.31,
       "total_claims": 26,
       "zero_claims": false,
-      "avg_maids": 6.6,
+      "avg_maids": 6.7,
       "avg_checkers": 3.4,
-      "maid_checker_ratio": 1.9,
-      "avg_completion_time": 56.84,
+      "maid_checker_ratio": 2.0,
+      "avg_completion_time": 56.31,
       "safety_score": 3.26,
       "safety_categories": {
         "整理整頓": 88.9,
@@ -408,7 +408,7 @@
       "avg_maids": 8.3,
       "avg_checkers": 2.7,
       "maid_checker_ratio": 3.0,
-      "avg_completion_time": 15.91,
+      "avg_completion_time": 15.93,
       "safety_score": 2.97,
       "safety_categories": {
         "整理整頓": 79.2,
@@ -422,7 +422,7 @@
       "tier": "優秀",
       "revpar": 977.9184,
       "monthly_revenue": 4791800,
-      "composite_score": 0.552
+      "composite_score": 0.55
     },
     {
       "hotel_key": "keyakigate",
@@ -433,7 +433,7 @@
       "avg_maids": 10.3,
       "avg_checkers": 1.4,
       "maid_checker_ratio": 7.1,
-      "avg_completion_time": 32.45,
+      "avg_completion_time": 32.22,
       "safety_score": 2.87,
       "safety_categories": {
         "整理整頓": 77.8,
@@ -479,10 +479,10 @@
     "hotels_ranked": [
       {
         "name": "チサンホテル浜松町",
-        "composite": 0.775,
+        "composite": 0.773,
         "review": 6.52,
         "claims": 0.47,
-        "time": 14.51,
+        "time": 14.53,
         "safety": 3.21
       },
       {
@@ -554,7 +554,7 @@
         "composite": 0.666,
         "review": 9.05,
         "claims": 7.5,
-        "time": 15.46,
+        "time": 15.47,
         "safety": 3.11
       },
       {
@@ -610,15 +610,15 @@
         "composite": 0.563,
         "review": 8.95,
         "claims": 4.32,
-        "time": 32.45,
+        "time": 32.22,
         "safety": 2.87
       },
       {
         "name": "京成リッチモンドホテル東京錦糸町",
-        "composite": 0.552,
+        "composite": 0.55,
         "review": 9.24,
         "claims": 13.5,
-        "time": 15.91,
+        "time": 15.93,
         "safety": 2.97
       },
       {
@@ -626,7 +626,7 @@
         "composite": 0.379,
         "review": 8.66,
         "claims": 21.31,
-        "time": 56.84,
+        "time": 56.31,
         "safety": 3.26
       }
     ],
@@ -756,7 +756,7 @@
     },
     {
       "title": "「チェック体制」が品質の鍵",
-      "finding": "M:C比率とスコアの相関r=-0.406。メイド「数」より「質」と「チェック」が重要。",
+      "finding": "M:C比率とスコアの相関r=-0.4048。メイド「数」より「質」と「チェック」が重要。",
       "implication": "チェッカー配置の最適化が最もレバレッジの高い施策。"
     },
     {
