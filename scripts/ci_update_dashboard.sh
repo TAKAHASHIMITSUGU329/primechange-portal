@@ -129,6 +129,9 @@ if [[ "$csv_success" -eq 0 ]]; then
   exit 1
 fi
 
+echo "=== Step 1b: Download monthly review source sheets ==="
+python3 "$ROOT_DIR/scripts/download_monthly_review_sources.py" || echo "Monthly review source download skipped"
+
 if [[ "${SKIP_XLSX_DOWNLOAD:-1}" == "1" ]]; then
   echo "=== Step 2: Skip XLSX download; using existing committed XLSX files ==="
 else

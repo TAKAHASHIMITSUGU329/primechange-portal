@@ -84,10 +84,20 @@ function doGet(e) {
 
     var sheet = null;
     var sheets = ss.getSheets();
-    for (var i = 0; i < sheets.length; i++) {
-      if (sheets[i].getSheetId().toString() === gid) {
-        sheet = sheets[i];
-        break;
+    if (params.sheet) {
+      for (var n = 0; n < sheets.length; n++) {
+        if (sheets[n].getName() === params.sheet) {
+          sheet = sheets[n];
+          break;
+        }
+      }
+    }
+    if (!sheet) {
+      for (var i = 0; i < sheets.length; i++) {
+        if (sheets[i].getSheetId().toString() === gid) {
+          sheet = sheets[i];
+          break;
+        }
       }
     }
     if (!sheet) sheet = sheets[0];
