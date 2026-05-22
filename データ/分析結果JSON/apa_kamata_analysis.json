@@ -1,25 +1,16 @@
 {
-  "total_reviews": 28,
-  "overall_avg_10pt": 7.5,
-  "high_count": 18,
-  "high_rate": 64.3,
-  "mid_count": 8,
-  "mid_rate": 28.6,
-  "low_count": 2,
-  "low_rate": 7.1,
+  "total_reviews": 51,
+  "overall_avg_10pt": 7.47,
+  "high_count": 31,
+  "high_rate": 60.8,
+  "mid_count": 15,
+  "mid_rate": 29.4,
+  "low_count": 5,
+  "low_rate": 9.8,
   "site_stats": [
     {
-      "site": "Booking.com",
-      "count": 10,
-      "native_avg": 8.0,
-      "scale": "/10",
-      "avg_10pt": 8.0,
-      "median_10pt": 8.0,
-      "judgment": "良好"
-    },
-    {
-      "site": "Google",
-      "count": 6,
+      "site": "じゃらん",
+      "count": 4,
       "native_avg": 4.0,
       "scale": "/5",
       "avg_10pt": 8.0,
@@ -27,67 +18,384 @@
       "judgment": "良好"
     },
     {
-      "site": "じゃらん",
-      "count": 3,
-      "native_avg": 3.67,
+      "site": "Booking.com",
+      "count": 20,
+      "native_avg": 7.8,
+      "scale": "/10",
+      "avg_10pt": 7.8,
+      "median_10pt": 8.0,
+      "judgment": "概ね良好"
+    },
+    {
+      "site": "Google",
+      "count": 13,
+      "native_avg": 3.85,
       "scale": "/5",
-      "avg_10pt": 7.33,
+      "avg_10pt": 7.69,
       "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
     {
       "site": "Agoda",
-      "count": 9,
-      "native_avg": 6.67,
+      "count": 10,
+      "native_avg": 6.7,
       "scale": "/10",
-      "avg_10pt": 6.67,
+      "avg_10pt": 6.7,
       "median_10pt": 7.0,
+      "judgment": "要改善"
+    },
+    {
+      "site": "楽天トラベル",
+      "count": 4,
+      "native_avg": 3.25,
+      "scale": "/5",
+      "avg_10pt": 6.5,
+      "median_10pt": 6.0,
       "judgment": "要改善"
     }
   ],
   "distribution": [
     {
       "score": 10,
-      "count": 5,
-      "pct": "17.9%"
+      "count": 10,
+      "pct": "19.6%"
     },
     {
       "score": 9,
-      "count": 2,
-      "pct": "7.1%"
+      "count": 3,
+      "pct": "5.9%"
     },
     {
       "score": 8,
-      "count": 11,
-      "pct": "39.3%"
+      "count": 18,
+      "pct": "35.3%"
     },
     {
       "score": 7,
-      "count": 1,
-      "pct": "3.6%"
+      "count": 3,
+      "pct": "5.9%"
     },
     {
       "score": 6,
-      "count": 5,
-      "pct": "17.9%"
+      "count": 10,
+      "pct": "19.6%"
     },
     {
       "score": 5,
       "count": 2,
-      "pct": "7.1%"
+      "pct": "3.9%"
     },
     {
       "score": 4,
-      "count": 1,
-      "pct": "3.6%"
+      "count": 4,
+      "pct": "7.8%"
     },
     {
       "score": 3,
       "count": 1,
-      "pct": "3.6%"
+      "pct": "2.0%"
     }
   ],
   "comments": [
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-27",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "上田"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-24",
+      "comment": "チェックインで困っていたら、丁寧に教えてくれました。  お風呂が狭いのが残念ですが、出張には十分な部屋の広さでした。",
+      "good": "",
+      "bad": "",
+      "translated": "チェックインで困っていたら、丁寧に教えてくれました。  お風呂が狭いのが残念ですが、出張には十分な部屋の広さでした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ぞうさんさん"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-22",
+      "comment": "朝ごはんをいっぱいいただき、満足",
+      "good": "",
+      "bad": "",
+      "translated": "朝ごはんをいっぱいいただき、満足",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "True True"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-22",
+      "comment": "大浴場がなかったぁ～",
+      "good": "",
+      "bad": "",
+      "translated": "大浴場がなかったぁ～",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "True True"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-21",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "向井弘"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Cheng"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-20",
+      "comment": "",
+      "good": "駅に近く、羽田空港にも近い",
+      "bad": "ロビーが狭い。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ロビーが狭い。",
+      "reviewer": "Akinori"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-20",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Lourdes"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-20",
+      "comment": "京急蒲田から徒歩5分ほどの立地です。 回りには飲食店もコンビニもあるので とても、便利です",
+      "good": "",
+      "bad": "",
+      "translated": "京急蒲田から徒歩5分ほどの立地です。 回りには飲食店もコンビニもあるので とても、便利です",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "ひめビック"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-19",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "山口峰夫"
+    },
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-19",
+      "comment": "ダブルの部屋にアップグレードしてくれてましたが、とにかく狭い、通路もスペースレイアウト上仕方ないのか直角に曲がっており歩くものつらい、２、３泊対応のキャリーケースも広げるのがつらかった ランドリーもなく夏とかの連泊は難しそう。スタッフさんの対応や駅への立地はよいけど、次回は近くの別のアパホテルに泊まろうかなぁ",
+      "good": "",
+      "bad": "",
+      "translated": "ダブルの部屋にアップグレードしてくれてましたが、とにかく狭い、通路もスペースレイアウト上仕方ないのか直角に曲がっており歩くものつらい、２、３泊対応のキャリーケースも広げるのがつらかった ランドリーもなく夏とかの連泊は難しそう。スタッフさんの対応や駅への立地はよいけど、次回は近くの別のアパホテルに泊まろうかなぁ",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "karry"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-17",
+      "comment": "",
+      "good": "Close to two stations, spacious room with everything you need",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Anna"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-16",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "忍田則昭"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-13",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Papasupa"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-12",
+      "comment": "水漏れトラブルがあったようで、シャワーが使えない時間があって不便だった",
+      "good": "",
+      "bad": "",
+      "translated": "水漏れトラブルがあったようで、シャワーが使えない時間があって不便だった",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "REINA2258"
+    },
+    {
+      "site": "Google",
+      "rating": 2.0,
+      "rating_10pt": 4.0,
+      "date": "2026-04-11",
+      "comment": "廊下やフロントでタバコのような臭いがして、少し不快でした。客室にある電話も状態が悪かったです。また、男性スタッフの日本語があまり上手ではなく、コミュニケーションが取りづらかったです。防音もあまり良くない印象でした。",
+      "good": "",
+      "bad": "",
+      "translated": "廊下やフロントでタバコのような臭いがして、少し不快でした。客室にある電話も状態が悪かったです。また、男性スタッフの日本語があまり上手ではなく、コミュニケーションが取りづらかったです。防音もあまり良くない印象でした。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "k p"
+    },
+    {
+      "site": "Google",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-10",
+      "comment": "廊下やフロントでタバコのような臭いがして、少し不快でした。客室にある電話も状態があまり良くないように感じました。また、男性スタッフの日本語があまり上手ではなく、コミュニケーションが取りづらかったです。",
+      "good": "",
+      "bad": "",
+      "translated": "廊下やフロントでタバコのような臭いがして、少し不快でした。客室にある電話も状態があまり良くないように感じました。また、男性スタッフの日本語があまり上手ではなく、コミュニケーションが取りづらかったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "k p"
+    },
+    {
+      "site": "Agoda",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-04-09",
+      "comment": "駅に近いし飲食店が近くに多いためよかった",
+      "good": "",
+      "bad": "",
+      "translated": "駅に近いし飲食店が近くに多いためよかった",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Madoka"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-04-08",
+      "comment": "",
+      "good": "Pequeno almoço com boas opções. O hotel está perto de uma zona com vários restaurantes",
+      "bad": "O quarto era demasiado pequeno",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "部屋が狭すぎた。",
+      "reviewer": "Dirceu"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-07",
+      "comment": "清潔でした。また、宿泊します。",
+      "good": "",
+      "bad": "",
+      "translated": "清潔でした。また、宿泊します。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "どん　どん　どん　どん　どん"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-03",
+      "comment": "",
+      "good": "羽田空港に近い。",
+      "bad": "ロビーが狭い。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "ロビーが狭い。",
+      "reviewer": "Akinori"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 6.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-02",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Okubo"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-01",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Koutarou"
+    },
     {
       "site": "Booking.com",
       "rating": 8.0,

@@ -34,7 +34,7 @@ var HOTEL_MAP = {
   "comfort_narita":           { id: "1lQ3FRDuE75dkByQRFd0i0F2xcHnl-3-UAOJwhIt3jAU", gid: "0" },
   "apa_kamata":               { id: "16xuhAdNzdeyAKu-LhU8ATgR8_kZ1JXfa9lT51tAB1Nw", gid: "0" },
   "apa_sagamihara":           { id: "1E2ZQJyE6pOJ3jr6GyB56KcYnVVq54m6dO_6h_SQy39A", gid: "0" },
-  "court_shinyokohama":       { id: "1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY", gid: "0" },
+  "court_shinyokohama":       { id: "1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY", gid: "1067771580" },
   "comment_yokohama":         { id: "1cVH7khdgh8bDN-wtAw2KVakJqHILo58VOBu0SKmBFrU", gid: "0" },
   "kawasaki_nikko":           { id: "1aQ2MaKJmOz7eT53oqszCDO9Fa3UEbfhFSgXfVmVpO9A", gid: "0" },
   "henn_na_haneda":           { id: "18DkZLJ8UDQ2-4MBrh7B4y28tHaYnoWIQqEoFkvFDNKg", gid: "2026949334" },
@@ -65,6 +65,23 @@ function doGet(e) {
 
   try {
     var ss = SpreadsheetApp.openById(spreadsheetId);
+    if (params.action === "sheets" || params.mode === "sheets") {
+      var sheetList = ss.getSheets().map(function(sheet) {
+        return {
+          name: sheet.getName(),
+          gid: String(sheet.getSheetId()),
+          rows: sheet.getLastRow(),
+          columns: sheet.getLastColumn()
+        };
+      });
+      return ContentService.createTextOutput(JSON.stringify({
+        ok: true,
+        spreadsheetId: spreadsheetId,
+        sheets: sheetList
+      }))
+        .setMimeType(ContentService.MimeType.JSON);
+    }
+
     var sheet = null;
     var sheets = ss.getSheets();
     for (var i = 0; i < sheets.length; i++) {

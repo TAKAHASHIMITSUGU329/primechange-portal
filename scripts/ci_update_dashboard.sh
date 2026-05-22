@@ -26,7 +26,7 @@ HOTELS=(
   "comfort_narita|1lQ3FRDuE75dkByQRFd0i0F2xcHnl-3-UAOJwhIt3jAU|0|comfort_narita_data.csv|コンフォートホテル成田"
   "apa_kamata|16xuhAdNzdeyAKu-LhU8ATgR8_kZ1JXfa9lT51tAB1Nw|0|apa_kamata_data.csv|アパホテル蒲田駅東"
   "apa_sagamihara|1E2ZQJyE6pOJ3jr6GyB56KcYnVVq54m6dO_6h_SQy39A|0|apa_sagamihara_data.csv|アパホテル相模原橋本駅東"
-  "court_shinyokohama|1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY|0|court_shinyokohama_data.csv|コートホテル新横浜"
+  "court_shinyokohama|1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY|1067771580|court_shinyokohama_data.csv|コートホテル新横浜"
   "comment_yokohama|1cVH7khdgh8bDN-wtAw2KVakJqHILo58VOBu0SKmBFrU|0|comment_yokohama_data.csv|ホテルコメント横浜関内"
   "kawasaki_nikko|1aQ2MaKJmOz7eT53oqszCDO9Fa3UEbfhFSgXfVmVpO9A|0|kawasaki_nikko_data.csv|川崎日航ホテル"
   "henn_na_haneda|18DkZLJ8UDQ2-4MBrh7B4y28tHaYnoWIQqEoFkvFDNKg|2026949334|henn_na_haneda_data.csv|変なホテル東京羽田"
@@ -63,6 +63,27 @@ download_file() {
   printf '%s' "$code"
 }
 
+is_review_csv() {
+  local file="$1"
+  python3 - "$file" <<'PY'
+import csv
+import sys
+
+path = sys.argv[1]
+try:
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        for i, row in enumerate(csv.reader(f)):
+            if i >= 30:
+                break
+            row_text = " ".join(row).lower()
+            if any(k in row_text for k in ("サイト", "site")) and any(k in row_text for k in ("評価", "rating", "score")):
+                sys.exit(0)
+except Exception:
+    pass
+sys.exit(1)
+PY
+}
+
 echo "=== Step 1: Download CSV data ==="
 csv_success=0
 csv_fail=0
@@ -74,7 +95,7 @@ for entry in "${HOTELS[@]}"; do
   echo "Downloading CSV: ${key}"
 
   if [[ -n "${GAS_CSV_PROXY_URL:-}" ]]; then
-    code="$(download_file "${GAS_CSV_PROXY_URL}?key=${key}" "$tmp")"
+    code="$(download_file "${GAS_CSV_PROXY_URL}?id=${sheet_id}&gid=${gid}" "$tmp")"
     if [[ "$code" != "200" ]] || grep -q '^ERROR:' "$tmp"; then
       rm -f "$tmp"
       code=""
@@ -85,15 +106,20 @@ for entry in "${HOTELS[@]}"; do
     code="$(download_file "https://docs.google.com/spreadsheets/d/${sheet_id}/gviz/tq?tqx=out:csv&gid=${gid}" "$tmp")"
   fi
 
-  if [[ "$code" == "200" ]] && [[ -s "$tmp" ]] && ! grep -q '^ERROR:' "$tmp"; then
+  if [[ "$code" == "200" ]] && [[ -s "$tmp" ]] && ! grep -q '^ERROR:' "$tmp" && is_review_csv "$tmp"; then
     mv "$tmp" "$out"
     lines="$(wc -l < "$out" | tr -d ' ')"
     echo "OK  ${key}: ${lines} lines"
     csv_success=$((csv_success + 1))
   else
     rm -f "$tmp"
-    echo "NG  ${key}: HTTP ${code:-proxy-error}"
-    csv_fail=$((csv_fail + 1))
+    if [[ -s "$out" ]] && is_review_csv "$out"; then
+      echo "KEEP ${key}: downloaded data is not a review CSV; using existing ${filename}"
+      csv_success=$((csv_success + 1))
+    else
+      echo "NG  ${key}: HTTP ${code:-proxy-error} or invalid review CSV"
+      csv_fail=$((csv_fail + 1))
+    fi
   fi
 done
 echo "CSV summary: ${csv_success}/19 success, ${csv_fail}/19 failed"
