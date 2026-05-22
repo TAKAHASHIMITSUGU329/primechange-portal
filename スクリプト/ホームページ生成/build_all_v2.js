@@ -169,6 +169,9 @@ writeJSON('tier-color.json', { '優秀': '#10B981', '良好': '#3B82F6', '概ね
 writeJSON('portfolio-summary.json', portfolioSummary);
 writeJSON('deltas.json', deltas);
 writeJSON('cleaning-summary.json', { category_summary: (data.cleanDive && data.cleanDive.category_summary) || [] });
+if (data.cleaningActuals) {
+  writeJSON('cleaning-actuals-daily.json', data.cleaningActuals);
+}
 
 var buildDate = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10); // JST
 var buildMetaData = {
@@ -280,7 +283,7 @@ var snapshotDir = path.join(OUTPUT_DIR, 'data', 'snapshots', buildDate);
 if (!fs.existsSync(snapshotDir)) fs.mkdirSync(snapshotDir, { recursive: true });
 
 // Copy snapshot files
-['hotel-reviews-all.json', 'hotel-details.json', 'build-meta.json', 'portfolio-summary.json', 'cleaning-summary.json', 'deltas.json'].forEach(function(f) {
+['hotel-reviews-all.json', 'hotel-details.json', 'build-meta.json', 'portfolio-summary.json', 'cleaning-summary.json', 'cleaning-actuals-daily.json', 'deltas.json'].forEach(function(f) {
   var src = path.join(OUTPUT_DIR, 'data', f);
   if (fs.existsSync(src)) {
     fs.copyFileSync(src, path.join(snapshotDir, f));

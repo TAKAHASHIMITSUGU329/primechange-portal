@@ -19,6 +19,10 @@ function loadDataV2(dataDir) {
   try { revenueData = JSON.parse(fs.readFileSync(path.join(dataDir, 'hotel_revenue_data.json'), 'utf8')); }
   catch(e) { console.warn('hotel_revenue_data.json not found'); }
 
+  var cleaningActuals = null;
+  try { cleaningActuals = JSON.parse(fs.readFileSync(path.join(dataDir, 'cleaning_actuals_daily.json'), 'utf8')); }
+  catch(e) { /* optional live operations data */ }
+
   // Hotel details (individual analysis files)
   var hotelFiles = fs.readdirSync(dataDir).filter(function(f) {
     return f.endsWith('_analysis.json') && !f.includes('portfolio');
@@ -61,6 +65,7 @@ function loadDataV2(dataDir) {
     roi: portfolio.roi_estimation,
     analyses: analyses,
     revenueData: revenueData,
+    cleaningActuals: cleaningActuals,
     hotelDetails: hotelDetails,
     kpiTargets: kpiTargets,
     perHotelTargets: perHotelTargets,

@@ -13,6 +13,7 @@
  * 使用方法:
  *   {DEPLOY_URL}?id={SPREADSHEET_ID}&gid={GID}
  *   {DEPLOY_URL}?key={HOTEL_KEY}
+ *   {DEPLOY_URL}?id={SPREADSHEET_ID}&sheet={SHEET_NAME}&values=display
  *
  * 例:
  *   https://script.google.com/macros/s/xxxx/exec?key=daiwa_osaki
@@ -102,14 +103,20 @@ function doGet(e) {
     }
     if (!sheet) sheet = sheets[0];
 
-    var data = sheet.getDataRange().getValues();
+    var useDisplayValues = params.values === "display" || params.valueRenderOption === "FORMATTED_VALUE";
+    var data = useDisplayValues ? sheet.getDataRange().getDisplayValues() : sheet.getDataRange().getValues();
     var csv = data.map(function(row) {
       return row.map(function(cell) {
         if (cell instanceof Date) {
           var y = cell.getFullYear();
           var m = ("0" + (cell.getMonth() + 1)).slice(-2);
           var d = ("0" + cell.getDate()).slice(-2);
-          cell = y + "-" + m + "-" + d;
+          var hh = ("0" + cell.getHours()).slice(-2);
+          var mm = ("0" + cell.getMinutes()).slice(-2);
+          var ss = ("0" + cell.getSeconds()).slice(-2);
+          cell = (hh !== "00" || mm !== "00" || ss !== "00")
+            ? y + "-" + m + "-" + d + " " + hh + ":" + mm + ":" + ss
+            : y + "-" + m + "-" + d;
         }
         var str = String(cell);
         if (str.indexOf(",") >= 0 || str.indexOf('"') >= 0 || str.indexOf("\n") >= 0) {
