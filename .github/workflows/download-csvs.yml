@@ -1,145 +1,90 @@
-name: Download Hotel Data from Google Sheets
+name: Download Hotel Data and Deploy Dashboards
 
 on:
   schedule:
-    # 毎日 22:30 UTC (翌07:30 JST) - リモートトリガー(23:00 UTC)の30分前
+    # Daily 22:30 UTC / 07:30 JST
     - cron: '30 22 * * *'
-  workflow_dispatch: # 手動実行用
+  workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  download:
+  update-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download 19 hotel CSVs from Google Sheets
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
         run: |
-          mkdir -p "データ/ホテル口コミデータ"
+          npm ci
+          python -m pip install --upgrade pip
+          python -m pip install numpy openpyxl
 
-          declare -A HOTELS
-          HOTELS[daiwa_osaki]="1IIHEn4nAIy9UXzrYptU-RQIiTbKkV0G_CaABF7znVrY|0"
-          HOTELS[chisan]="1IWigsWTzbRG-juWtIlg4ZchiuWqRhJFpPPczXdQxG6Y|0"
-          HOTELS[hearton]="1A25mmVRYSnG3ZB8oa0oZVp-vCP2xMkwX-Zqdkk4BIzI|0"
-          HOTELS[keyakigate]="1srchDxFyv7TJ3IEZXJ19miH04p3jRug5nVtA3BLertQ|605247000"
-          HOTELS[richmond_mejiro]="1XWU6925CpT3GMMonAqy4UENKM11gWloUkJIsgGImUts|0"
-          HOTELS[keisei_kinshicho]="1jUS_HwTfowG1xIHFtwJbCL5dTj7FrhvUe6d32AevZ2g|0"
-          HOTELS[daiichi_ikebukuro]="1X2GgFKxTOs7CuJSlPYrpzigraSnWcKh6cMJLfsXhWlU|0"
-          HOTELS[comfort_roppongi]="1Jtm0rXTigY2OVManNjx1qQ6G9EKQEXuPs_T1BdlOvls|0"
-          HOTELS[comfort_suites_tokyobay]="1zCFAmzRqvSDbjwvK7qI4cYBHlrmBifTPm0Y-g0rruyE|0"
-          HOTELS[comfort_era_higashikanda]="1H9jmOVQR4UdEQ5hsxZ2Xz44BT72RJDwNa6BOKFhXxRg|0"
-          HOTELS[comfort_yokohama_kannai]="1rnQOsyUXuSzBKdqPN_ey_4Iw5VtYWTgSR5Z4nh-1zd4|0"
-          HOTELS[comfort_narita]="1lQ3FRDuE75dkByQRFd0i0F2xcHnl-3-UAOJwhIt3jAU|0"
-          HOTELS[apa_kamata]="16xuhAdNzdeyAKu-LhU8ATgR8_kZ1JXfa9lT51tAB1Nw|0"
-          HOTELS[apa_sagamihara]="1E2ZQJyE6pOJ3jr6GyB56KcYnVVq54m6dO_6h_SQy39A|0"
-          HOTELS[court_shinyokohama]="1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY|0"
-          HOTELS[comment_yokohama]="1cVH7khdgh8bDN-wtAw2KVakJqHILo58VOBu0SKmBFrU|0"
-          HOTELS[kawasaki_nikko]="1aQ2MaKJmOz7eT53oqszCDO9Fa3UEbfhFSgXfVmVpO9A|0"
-          HOTELS[henn_na_haneda]="18DkZLJ8UDQ2-4MBrh7B4y28tHaYnoWIQqEoFkvFDNKg|2026949334"
-          HOTELS[comfort_hakata]="1_7xoyIiq1llfO0I2328ZQlB6sD0lMsnpRMp1rMGNPcg|0"
+      - name: Update source data and rebuild dashboards
+        env:
+          GAS_CSV_PROXY_URL: ${{ secrets.GAS_CSV_PROXY_URL }}
+        run: bash scripts/ci_update_dashboard.sh
 
-          SUCCESS=0
-          FAIL=0
-
-          for key in "${!HOTELS[@]}"; do
-            IFS='|' read -r SHEET_ID GID <<< "${HOTELS[$key]}"
-            URL="https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${GID}"
-
-            if [ "$key" = "chisan" ]; then
-              FILENAME="chisan_data_converted.csv"
-            else
-              FILENAME="${key}_data.csv"
-            fi
-
-            HTTP_CODE=$(curl -sL -o "データ/ホテル口コミデータ/${FILENAME}" -w "%{http_code}" "$URL")
-
-            if [ "$HTTP_CODE" = "200" ]; then
-              LINES=$(wc -l < "データ/ホテル口コミデータ/${FILENAME}")
-              echo "✓ ${key}: ${LINES} lines"
-              SUCCESS=$((SUCCESS + 1))
-            else
-              echo "✗ ${key}: HTTP ${HTTP_CODE}"
-              FAIL=$((FAIL + 1))
-            fi
-          done
-
-          echo ""
-          echo "=== Summary: ${SUCCESS}/19 success, ${FAIL}/19 failed ==="
-
-          # 1つでも成功していればコミット対象あり
-          if [ "$SUCCESS" -eq 0 ]; then
-            echo "::error::All downloads failed"
-            exit 1
-          fi
-
-      - name: Download 19 hotel XLSX files from Google Sheets
-        run: |
-          mkdir -p "データ/ホテル集計表XLSX"
-
-          declare -A XLSX_MAP
-          XLSX_MAP[daiwa_osaki]="1IIHEn4nAIy9UXzrYptU-RQIiTbKkV0G_CaABF7znVrY|R8_P1_ダイワロイネットホテル東京大崎_集計表.xlsx"
-          XLSX_MAP[chisan]="1IWigsWTzbRG-juWtIlg4ZchiuWqRhJFpPPczXdQxG6Y|R8_P1_チサンホテル浜松町_集計表.xlsx"
-          XLSX_MAP[hearton]="1A25mmVRYSnG3ZB8oa0oZVp-vCP2xMkwX-Zqdkk4BIzI|R8_P1_ハートンホテル東品川_集計表.xlsx"
-          XLSX_MAP[keyakigate]="1srchDxFyv7TJ3IEZXJ19miH04p3jRug5nVtA3BLertQ|R8_P1_ホテルケヤキゲート東京府中_集計表.xlsx"
-          XLSX_MAP[richmond_mejiro]="1XWU6925CpT3GMMonAqy4UENKM11gWloUkJIsgGImUts|R8_P1_リッチモンドホテル東京目白_集計表.xlsx"
-          XLSX_MAP[keisei_kinshicho]="1jUS_HwTfowG1xIHFtwJbCL5dTj7FrhvUe6d32AevZ2g|R8_P1_京成リッチモンドホテル東京錦糸町_集計表.xlsx"
-          XLSX_MAP[daiichi_ikebukuro]="1X2GgFKxTOs7CuJSlPYrpzigraSnWcKh6cMJLfsXhWlU|R8_P1_第一イン池袋_集計表.xlsx"
-          XLSX_MAP[comfort_roppongi]="1Jtm0rXTigY2OVManNjx1qQ6G9EKQEXuPs_T1BdlOvls|R8_P2_コンフォートイン六本木_集計表.xlsx"
-          XLSX_MAP[comfort_suites_tokyobay]="1zCFAmzRqvSDbjwvK7qI4cYBHlrmBifTPm0Y-g0rruyE|R8_P2_コンフォートスイーツ東京ベイ_集計表.xlsx"
-          XLSX_MAP[comfort_era_higashikanda]="1H9jmOVQR4UdEQ5hsxZ2Xz44BT72RJDwNa6BOKFhXxRg|R8_P2_コンフォートホテルERA東京東神田_集計表.xlsx"
-          XLSX_MAP[comfort_narita]="1lQ3FRDuE75dkByQRFd0i0F2xcHnl-3-UAOJwhIt3jAU|R8_P2_コンフォートホテル成田_集計表.xlsx"
-          XLSX_MAP[comfort_yokohama_kannai]="1rnQOsyUXuSzBKdqPN_ey_4Iw5VtYWTgSR5Z4nh-1zd4|R8_P2_コンフォートホテル横浜関内_集計表.xlsx"
-          XLSX_MAP[apa_kamata]="16xuhAdNzdeyAKu-LhU8ATgR8_kZ1JXfa9lT51tAB1Nw|R8_P3_アパホテル蒲田駅東_集計表.xlsx"
-          XLSX_MAP[apa_sagamihara]="1E2ZQJyE6pOJ3jr6GyB56KcYnVVq54m6dO_6h_SQy39A|R8_P3_アパホテル相模原橋本駅東_集計表.xlsx"
-          XLSX_MAP[court_shinyokohama]="1Qm5lPPc8m7yutyIH3Pf03YUnF2KpnWjn0SecMzq0CjY|R8_P3_コートホテル新横浜_集計表.xlsx"
-          XLSX_MAP[comment_yokohama]="1cVH7khdgh8bDN-wtAw2KVakJqHILo58VOBu0SKmBFrU|R8_P3_ホテルコメント横浜関内_集計表.xlsx"
-          XLSX_MAP[kawasaki_nikko]="1aQ2MaKJmOz7eT53oqszCDO9Fa3UEbfhFSgXfVmVpO9A|R8_P3_川崎日航ホテル_集計表.xlsx"
-          XLSX_MAP[henn_na_haneda]="18DkZLJ8UDQ2-4MBrh7B4y28tHaYnoWIQqEoFkvFDNKg|R8_P3_変なホテル東京羽田_集計表.xlsx"
-          XLSX_MAP[comfort_hakata]="1_7xoyIiq1llfO0I2328ZQlB6sD0lMsnpRMp1rMGNPcg|R8_P4_コンフォートホテル博多_集計表.xlsx"
-
-          XLSX_SUCCESS=0
-          XLSX_FAIL=0
-
-          for key in "${!XLSX_MAP[@]}"; do
-            IFS='|' read -r SHEET_ID FILENAME <<< "${XLSX_MAP[$key]}"
-            URL="https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx"
-
-            HTTP_CODE=$(curl -sL -o "データ/ホテル集計表XLSX/${FILENAME}" -w "%{http_code}" "$URL")
-
-            if [ "$HTTP_CODE" = "200" ]; then
-              SIZE=$(wc -c < "データ/ホテル集計表XLSX/${FILENAME}")
-              echo "✓ ${key}: ${SIZE} bytes"
-              XLSX_SUCCESS=$((XLSX_SUCCESS + 1))
-            else
-              echo "✗ ${key}: HTTP ${HTTP_CODE}"
-              rm -f "データ/ホテル集計表XLSX/${FILENAME}"
-              XLSX_FAIL=$((XLSX_FAIL + 1))
-            fi
-          done
-
-          echo ""
-          echo "=== XLSX Summary: ${XLSX_SUCCESS}/19 success, ${XLSX_FAIL}/19 failed ==="
-
-      - name: Summary
-        run: |
-          CSV_TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
-          XLSX_COUNT=$(ls データ/ホテル集計表XLSX/*.xlsx 2>/dev/null | wc -l)
-          echo "CSV lines: ${CSV_TOTAL}"
-          echo "XLSX files: ${XLSX_COUNT}"
-
-      - name: Commit and push
+      - name: Commit generated dashboard data
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "データ/ホテル口コミデータ/" "データ/ホテル集計表XLSX/"
+          git add \
+            "データ/ホテル口コミデータ/" \
+            "データ/ホテル集計表XLSX/" \
+            "データ/分析結果JSON/" \
+            "ホームページ/" \
+            "ホームページV2/" \
+            "v2/" \
+            *.html \
+            data/ \
+            scripts/ \
+            styles/ \
+            || true
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No generated changes to commit"
           else
-            DATE=$(date -u +%Y-%m-%d)
-            CSV_TOTAL=$(cat データ/ホテル口コミデータ/*.csv 2>/dev/null | wc -l)
-            XLSX_COUNT=$(ls データ/ホテル集計表XLSX/*.xlsx 2>/dev/null | wc -l)
-            git commit -m "データ自動更新: ${DATE} (CSV ${CSV_TOTAL}行, XLSX ${XLSX_COUNT}件)"
+            BUILD_DATE="$(node -e "console.log(require('./v2/data/build-meta.json').build_date)")"
+            TOTAL_REVIEWS="$(node -e "console.log(require('./v2/data/build-meta.json').total_reviews)")"
+            git commit -m "日次ダッシュボード最新化: ${BUILD_DATE} 口コミ${TOTAL_REVIEWS}件"
             git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - uses: actions/configure-pages@v5
+
+      - name: Prepare Pages artifact
+        run: |
+          rm -rf _site
+          rsync -a ./ _site/ \
+            --exclude '.git' \
+            --exclude 'node_modules' \
+            --exclude '_site'
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
