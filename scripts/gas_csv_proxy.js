@@ -42,19 +42,24 @@ var HOTEL_MAP = {
 };
 
 function doGet(e) {
+  e = e || { parameter: {} };
+  var params = e.parameter || {};
   var spreadsheetId, gid;
 
   // key パラメータでホテルを指定
-  if (e.parameter.key && HOTEL_MAP[e.parameter.key]) {
-    var hotel = HOTEL_MAP[e.parameter.key];
+  if (params.key && HOTEL_MAP[params.key]) {
+    var hotel = HOTEL_MAP[params.key];
     spreadsheetId = hotel.id;
     gid = hotel.gid;
-  } else if (e.parameter.id) {
-    spreadsheetId = e.parameter.id;
-    gid = e.parameter.gid || "0";
+  } else if (params.id) {
+    spreadsheetId = params.id;
+    gid = params.gid || "0";
   } else {
     // キー一覧を返す
-    return ContentService.createTextOutput(JSON.stringify(Object.keys(HOTEL_MAP)))
+    return ContentService.createTextOutput(JSON.stringify({
+      ok: true,
+      keys: Object.keys(HOTEL_MAP)
+    }))
       .setMimeType(ContentService.MimeType.JSON);
   }
 
@@ -87,10 +92,10 @@ function doGet(e) {
       }).join(",");
     }).join("\n");
 
-    return ContentService.createTextOutput(csv)
+    return ContentService.createTextOutput(csv + "\n")
       .setMimeType(ContentService.MimeType.TEXT);
   } catch (err) {
-    return ContentService.createTextOutput("ERROR: " + err.message)
+    return ContentService.createTextOutput("ERROR: " + err.message + "\n")
       .setMimeType(ContentService.MimeType.TEXT);
   }
 }
