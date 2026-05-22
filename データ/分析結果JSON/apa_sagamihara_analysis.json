@@ -1,56 +1,56 @@
 {
-  "total_reviews": 30,
-  "overall_avg_10pt": 8.0,
-  "high_count": 20,
-  "high_rate": 66.7,
-  "mid_count": 10,
-  "mid_rate": 33.3,
+  "total_reviews": 48,
+  "overall_avg_10pt": 8.27,
+  "high_count": 35,
+  "high_rate": 72.9,
+  "mid_count": 13,
+  "mid_rate": 27.1,
   "low_count": 0,
   "low_rate": 0.0,
   "site_stats": [
     {
       "site": "Google",
-      "count": 6,
-      "native_avg": 4.33,
+      "count": 10,
+      "native_avg": 4.5,
       "scale": "/5",
-      "avg_10pt": 8.67,
-      "median_10pt": 8.0,
-      "judgment": "良好"
+      "avg_10pt": 9.0,
+      "median_10pt": 9.0,
+      "judgment": "優秀"
     },
     {
       "site": "Agoda",
-      "count": 6,
-      "native_avg": 8.17,
+      "count": 9,
+      "native_avg": 8.44,
       "scale": "/10",
-      "avg_10pt": 8.17,
+      "avg_10pt": 8.44,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
-      "site": "じゃらん",
-      "count": 2,
-      "native_avg": 4.0,
+      "site": "楽天トラベル",
+      "count": 9,
+      "native_avg": 4.11,
       "scale": "/5",
-      "avg_10pt": 8.0,
+      "avg_10pt": 8.22,
       "median_10pt": 8.0,
       "judgment": "良好"
     },
     {
       "site": "Booking.com",
-      "count": 9,
-      "native_avg": 7.89,
+      "count": 16,
+      "native_avg": 8.06,
       "scale": "/10",
-      "avg_10pt": 7.89,
+      "avg_10pt": 8.06,
       "median_10pt": 8.0,
-      "judgment": "概ね良好"
+      "judgment": "良好"
     },
     {
-      "site": "楽天トラベル",
-      "count": 6,
-      "native_avg": 3.83,
+      "site": "じゃらん",
+      "count": 3,
+      "native_avg": 3.67,
       "scale": "/5",
-      "avg_10pt": 7.67,
-      "median_10pt": 7.0,
+      "avg_10pt": 7.33,
+      "median_10pt": 8.0,
       "judgment": "概ね良好"
     },
     {
@@ -66,31 +66,270 @@
   "distribution": [
     {
       "score": 10,
-      "count": 6,
-      "pct": "20.0%"
+      "count": 14,
+      "pct": "29.2%"
     },
     {
       "score": 9,
-      "count": 3,
-      "pct": "10.0%"
+      "count": 6,
+      "pct": "12.5%"
     },
     {
       "score": 8,
-      "count": 11,
-      "pct": "36.7%"
+      "count": 15,
+      "pct": "31.2%"
     },
     {
       "score": 7,
-      "count": 5,
-      "pct": "16.7%"
+      "count": 6,
+      "pct": "12.5%"
     },
     {
       "score": 6,
-      "count": 5,
-      "pct": "16.7%"
+      "count": 6,
+      "pct": "12.5%"
+    },
+    {
+      "score": 5,
+      "count": 1,
+      "pct": "2.1%"
     }
   ],
   "comments": [
+    {
+      "site": "Agoda",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-26",
+      "comment": "橋本駅から近くで、荷物も早々に預かって頂いて、環境も静かで部屋でゆっくり休めました。ありがとうございました。",
+      "good": "",
+      "bad": "",
+      "translated": "橋本駅から近くで、荷物も早々に預かって頂いて、環境も静かで部屋でゆっくり休めました。ありがとうございました。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Sayuri"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 7.0,
+      "rating_10pt": 7.0,
+      "date": "2026-04-25",
+      "comment": "",
+      "good": "Estuve por 3 noches y la verdad no me gustó que se escuchará el tren pasar sobre todo mas cercano a la noche y a la madrugada. Fue un buen lugar que cumplió mis expectativas dado que solo buscaba estar de paso, pero esta muy lejos del centro de la ciudad y su conexión a ciudades cercanas como Kamakura o Yokohama tampoco es tan directa. Cumple como todos los APA pero si buscas disfrutar de tokio y/o alrededores recomiendo buscar uno mas céntrico :)",
+      "bad": "La Almohada y el ruido del tren al pasar!",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "枕と、通り過ぎる列車の音！",
+      "reviewer": "Correa"
+    },
+    {
+      "site": "Agoda",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-24",
+      "comment": "旅行の際利用しております。 駅からも近く周りも居酒屋などが多く立地も〇です。 ホテル内もとても綺麗で大変満足です",
+      "good": "",
+      "bad": "",
+      "translated": "旅行の際利用しております。 駅からも近く周りも居酒屋などが多く立地も〇です。 ホテル内もとても綺麗で大変満足です",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "YUSUKE"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-23",
+      "comment": "出張の際に滞在するのにとても便利です。環境は快適でリラックスするのに最適です。より高度な、隠れた限定版の詳細な体験については、ⓣⓖⒿ Ⓟ ⑧ ⑥ ⑨ へ移動してください。",
+      "good": "",
+      "bad": "",
+      "translated": "出張の際に滞在するのにとても便利です。環境は快適でリラックスするのに最適です。より高度な、隠れた限定版の詳細な体験については、ⓣⓖⒿ Ⓟ ⑧ ⑥ ⑨ へ移動してください。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "なの"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-23",
+      "comment": "來這出差住這很方便，環境舒適適合放鬆休息。更多高端隱藏版深度體驗導航ⓣⓖⒿ Ⓟ ⑧ ⑥ ⑨",
+      "good": "",
+      "bad": "",
+      "translated": "出張の際に滞在するのにとても便利です。環境は快適でリラックスするのに最適です。より高度な、隠れた限定版の詳細な体験については、ⓣⓖⒿ Ⓟ ⑧ ⑥ ⑨ へ移動してください。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "なの"
+    },
+    {
+      "site": "Google",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-21",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "峯勝宏"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 8.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-16",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Reini"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-15",
+      "comment": "",
+      "good": "",
+      "bad": "カーテンの隙間から光が入ってきます、",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "カーテンの隙間から光が入ってきます、",
+      "reviewer": "1"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-15",
+      "comment": "味の素スタジアムへのライブ参戦で利用させて頂きました。 東京方面は値段高騰している中、会場へのアクセスも良く、約半額ぐらいのお値段で駅近で大浴場もあり、駅前にイオンやドンキがあったり飲食店も多く本当に助かりました。 また機会があれば利用したいです。",
+      "good": "",
+      "bad": "",
+      "translated": "味の素スタジアムへのライブ参戦で利用させて頂きました。 東京方面は値段高騰している中、会場へのアクセスも良く、約半額ぐらいのお値段で駅近で大浴場もあり、駅前にイオンやドンキがあったり飲食店も多く本当に助かりました。 また機会があれば利用したいです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "まなみん0306"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 5.0,
+      "rating_10pt": 5.0,
+      "date": "2026-04-13",
+      "comment": "",
+      "good": "大浴場があった事。",
+      "bad": "浴室が異臭がした事。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "浴室が異臭がした事。",
+      "reviewer": "Tatsuo"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 10.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-13",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Yusuke"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-11",
+      "comment": "駐車場が目の前で予約できたのでとても便利でした。エレベーターは一機しかなかったので10階に宿泊でしたので朝の待ち時間が長かったです。忙しい場合は余裕を持って出ないといけませんね。",
+      "good": "",
+      "bad": "",
+      "translated": "駐車場が目の前で予約できたのでとても便利でした。エレベーターは一機しかなかったので10階に宿泊でしたので朝の待ち時間が長かったです。忙しい場合は余裕を持って出ないといけませんね。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "takumarin5129"
+    },
+    {
+      "site": "じゃらん",
+      "rating": 3.0,
+      "rating_10pt": 6.0,
+      "date": "2026-04-11",
+      "comment": "フロントの方々は丁寧に向かい入れていただけました  エコ対策として連泊しても清掃は希望すればお願いできる事になっていて良かったです  ウェルカムドリンクが初日の一本だけというのは残念でした  会員登録も説明通り簡単に出来ました",
+      "good": "",
+      "bad": "",
+      "translated": "フロントの方々は丁寧に向かい入れていただけました  エコ対策として連泊しても清掃は希望すればお願いできる事になっていて良かったです  ウェルカムドリンクが初日の一本だけというのは残念でした  会員登録も説明通り簡単に出来ました",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "はらぺこさん"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-10",
+      "comment": "",
+      "good": "駅、ショッピングセンターから近い。清潔。スタッフの方々も親切で良かった。",
+      "bad": "特にありません。",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "特にありません。",
+      "reviewer": "Yoko"
+    },
+    {
+      "site": "Booking.com",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-08",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Kengo"
+    },
+    {
+      "site": "Agoda",
+      "rating": 9.0,
+      "rating_10pt": 9.0,
+      "date": "2026-04-07",
+      "comment": "駅に近く便利です。 大浴場があるのが良かったです。",
+      "good": "",
+      "bad": "",
+      "translated": "駅に近く便利です。 大浴場があるのが良かったです。",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "YOSHIMI"
+    },
+    {
+      "site": "Google",
+      "rating": 4.0,
+      "rating_10pt": 8.0,
+      "date": "2026-04-07",
+      "comment": "",
+      "good": "",
+      "bad": "",
+      "translated": "",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "Ka Y"
+    },
+    {
+      "site": "楽天トラベル",
+      "rating": 5.0,
+      "rating_10pt": 10.0,
+      "date": "2026-04-01",
+      "comment": "フロントのみなさんの応対がよかった。館内は部屋も大浴場も清潔に掃除されていた。朝食の種類が少なく、和食のみでデザートや飲み物があまりないところが残念。それでも手作り感のある味はよかった。ロケーションもよく、橋本からの行動には抜群だった。また機会があったらぜひとも泊まりたい",
+      "good": "",
+      "bad": "",
+      "translated": "フロントのみなさんの応対がよかった。館内は部屋も大浴場も清潔に掃除されていた。朝食の種類が少なく、和食のみでデザートや飲み物があまりないところが残念。それでも手作り感のある味はよかった。ロケーションもよく、橋本からの行動には抜群だった。また機会があったらぜひとも泊まりたい",
+      "translated_good": "",
+      "translated_bad": "",
+      "reviewer": "えみやん2"
+    },
     {
       "site": "Google",
       "rating": 5.0,
