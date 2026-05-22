@@ -103,27 +103,31 @@ if [[ "$csv_success" -eq 0 ]]; then
   exit 1
 fi
 
-echo "=== Step 2: Download XLSX data ==="
-xlsx_success=0
-xlsx_fail=0
-for entry in "${XLSX_FILES[@]}"; do
-  IFS='|' read -r key sheet_id filename <<< "$entry"
-  out="$XLSX_DIR/$filename"
-  tmp="${out}.tmp"
-  echo "Downloading XLSX: ${key}"
-  code="$(download_file "https://docs.google.com/spreadsheets/d/${sheet_id}/export?format=xlsx" "$tmp")"
-  if [[ "$code" == "200" ]] && [[ -s "$tmp" ]]; then
-    mv "$tmp" "$out"
-    bytes="$(wc -c < "$out" | tr -d ' ')"
-    echo "OK  ${key}: ${bytes} bytes"
-    xlsx_success=$((xlsx_success + 1))
-  else
-    rm -f "$tmp"
-    echo "NG  ${key}: HTTP ${code}"
-    xlsx_fail=$((xlsx_fail + 1))
-  fi
-done
-echo "XLSX summary: ${xlsx_success}/19 success, ${xlsx_fail}/19 failed"
+if [[ "${SKIP_XLSX_DOWNLOAD:-1}" == "1" ]]; then
+  echo "=== Step 2: Skip XLSX download; using existing committed XLSX files ==="
+else
+  echo "=== Step 2: Download XLSX data ==="
+  xlsx_success=0
+  xlsx_fail=0
+  for entry in "${XLSX_FILES[@]}"; do
+    IFS='|' read -r key sheet_id filename <<< "$entry"
+    out="$XLSX_DIR/$filename"
+    tmp="${out}.tmp"
+    echo "Downloading XLSX: ${key}"
+    code="$(download_file "https://docs.google.com/spreadsheets/d/${sheet_id}/export?format=xlsx" "$tmp")"
+    if [[ "$code" == "200" ]] && [[ -s "$tmp" ]]; then
+      mv "$tmp" "$out"
+      bytes="$(wc -c < "$out" | tr -d ' ')"
+      echo "OK  ${key}: ${bytes} bytes"
+      xlsx_success=$((xlsx_success + 1))
+    else
+      rm -f "$tmp"
+      echo "NG  ${key}: HTTP ${code}"
+      xlsx_fail=$((xlsx_fail + 1))
+    fi
+  done
+  echo "XLSX summary: ${xlsx_success}/19 success, ${xlsx_fail}/19 failed"
+fi
 
 echo "=== Step 3: Analyze hotel reviews ==="
 analysis_success=0
