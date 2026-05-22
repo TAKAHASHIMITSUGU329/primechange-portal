@@ -22,6 +22,10 @@ function calcAllRevenueOpportunities(data) {
   var opportunities = {};
   var hotelsRanked = data.pov && data.pov.hotels_ranked ? data.pov.hotels_ranked : [];
   var portfolioTargetScore = 8.89; // Default target
+  var keyMap = {
+    keisei_kinshicho: 'keisei_richmond',
+    comfort_yokohama_kannai: 'comfort_yokohama'
+  };
 
   if (data.kpiTargets && data.kpiTargets['ポートフォリオ平均スコア']) {
     portfolioTargetScore = data.kpiTargets['ポートフォリオ平均スコア'].target || 8.89;
@@ -29,7 +33,7 @@ function calcAllRevenueOpportunities(data) {
 
   hotelsRanked.forEach(function(h) {
     var key = h.key;
-    var revData = data.revenueData[key];
+    var revData = data.revenueData[key] || data.revenueData[keyMap[key]];
     var currentScore = h.avg || h.avg_score || 0;
 
     // Use per-hotel target if available, otherwise portfolio target
@@ -55,6 +59,7 @@ function calcAllRevenueOpportunities(data) {
       actualRevenue: revData ? revData.actual_revenue : 0,
       marchRevenue: revData ? (revData.march_revenue || 0) : 0,
       aprilRevenue: revData ? (revData.april_revenue || 0) : 0,
+      mayRevenue: revData ? (revData.may_revenue || 0) : 0,
       occupancyRate: revData ? revData.occupancy_rate : 0,
       priority: perHotelTarget ? perHotelTarget.priority : null
     };

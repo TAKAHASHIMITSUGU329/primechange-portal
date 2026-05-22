@@ -188,6 +188,7 @@ fi
 
 echo "=== Step 4: Refresh aggregate data ==="
 python3 "$DATA_SCRIPT_DIR/extract_revenue_from_xlsx.py" || echo "Revenue extraction skipped"
+[[ -f "$JSON_DIR/hotel_revenue_data.json" ]] && cp "$JSON_DIR/hotel_revenue_data.json" "$DATA_SCRIPT_DIR/"
 python3 "$DATA_SCRIPT_DIR/aggregate_portfolio_analysis.py"
 python3 "$ROOT_DIR/scripts/download_cleaning_actuals.py" || echo "Cleaning actuals download skipped"
 for script in analysis_1_extract.py analysis_2_extract.py analysis_3_4_extract.py analysis_5_extract.py analysis_6_extract.py analysis_7_extract.py; do

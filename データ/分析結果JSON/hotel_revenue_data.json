@@ -25,7 +25,17 @@
     "april_occupancy": 0.6639,
     "april_net_profit": 1458919.5,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 3970,
+    "march_target_revenue": 5241666,
+    "april_rooms_sold": 3864,
+    "april_target_revenue": 4914000,
+    "may_revenue": 4321487.0,
+    "may_occupancy": 0.5387,
+    "may_net_profit": 2658368.333333333,
+    "may_days": 31,
+    "may_rooms_sold": 3240.0,
+    "may_target_revenue": 4204289.800000001
   },
   "chisan": {
     "hotel_name": "チサンホテル浜松町",
@@ -53,7 +63,17 @@
     "april_occupancy": 0.6962,
     "april_net_profit": 2713625,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 7099,
+    "march_target_revenue": 6585704,
+    "april_rooms_sold": 6349,
+    "april_target_revenue": 5969040,
+    "may_revenue": 4466797.419354838,
+    "may_occupancy": 0.6842,
+    "may_net_profit": 1811953.3870967736,
+    "may_days": 31,
+    "may_rooms_sold": 4576.0,
+    "may_target_revenue": 5789376.000000001
   },
   "hearton": {
     "hotel_name": "ハートンホテル東品川",
@@ -81,7 +101,17 @@
     "april_occupancy": 0.8705,
     "april_net_profit": 3391626.879,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 11899,
+    "march_target_revenue": 13092350,
+    "april_rooms_sold": 11699,
+    "april_target_revenue": 12581630,
+    "may_revenue": 8187661.290322581,
+    "may_occupancy": 0.7822,
+    "may_net_profit": 1985234.9206989252,
+    "may_days": 31,
+    "may_rooms_sold": 7359.0,
+    "may_target_revenue": 11991725.999999998
   },
   "keyakigate": {
     "hotel_name": "ホテルケヤキゲート東京府中",
@@ -109,7 +139,17 @@
     "april_occupancy": 0.7859,
     "april_net_profit": 1210982.167,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 4014,
+    "march_target_revenue": 4854501,
+    "april_rooms_sold": 3678,
+    "april_target_revenue": 4442310,
+    "may_revenue": 3283125.4838709678,
+    "may_occupancy": 0.7832,
+    "may_net_profit": 797055.9892473118,
+    "may_days": 31,
+    "may_rooms_sold": 2688.0,
+    "may_target_revenue": 4581267.0
   },
   "richmond_mejiro": {
     "hotel_name": "リッチモンドホテル東京目白",
@@ -137,7 +177,17 @@
     "april_occupancy": 0.8887,
     "april_net_profit": 1182270.5,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 3138,
+    "march_target_revenue": 3766210.5,
+    "april_rooms_sold": 2982,
+    "april_target_revenue": 3663565,
+    "may_revenue": 2576673.5483870967,
+    "may_occupancy": 0.8257,
+    "may_net_profit": 810097.8924731181,
+    "may_days": 31,
+    "may_rooms_sold": 2004.0,
+    "may_target_revenue": 3576836.15
   },
   "keisei_richmond": {
     "hotel_name": "京成リッチモンドホテル東京錦糸町",
@@ -165,7 +215,17 @@
     "april_occupancy": 0.8653,
     "april_net_profit": 1272204.924,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 4819,
+    "march_target_revenue": 4938757.5,
+    "april_rooms_sold": 4543,
+    "april_target_revenue": 4722300,
+    "may_revenue": 3554610.0,
+    "may_occupancy": 0.8621,
+    "may_net_profit": 1109519.9462365592,
+    "may_days": 31,
+    "may_rooms_sold": 3319.0,
+    "may_target_revenue": 4908920.000000001
   },
   "daiichi_ikebukuro": {
     "hotel_name": "第一イン池袋",
@@ -193,7 +253,17 @@
     "april_occupancy": 0.7803,
     "april_net_profit": 1210444.75,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 3902,
+    "march_target_revenue": 4483530.75,
+    "april_rooms_sold": 3830,
+    "april_target_revenue": 4595182.5,
+    "may_revenue": 3142134.0322580645,
+    "may_occupancy": 0.6785,
+    "may_net_profit": 674200.5591397849,
+    "may_days": 31,
+    "may_rooms_sold": 2490.0,
+    "may_target_revenue": 4252999.25
   },
   "comfort_roppongi": {
     "hotel_name": "コンフォートイン六本木",
@@ -221,7 +291,17 @@
     "april_occupancy": 0.6579,
     "april_net_profit": 957412.5,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 2351,
+    "march_target_revenue": 2734860,
+    "april_rooms_sold": 2250,
+    "april_target_revenue": 2656200,
+    "may_revenue": 1982508.3870967743,
+    "may_occupancy": 0.6715,
+    "may_net_profit": 549692.1774193549,
+    "may_days": 31,
+    "may_rooms_sold": 1684.0,
+    "may_target_revenue": 2734860.0000000005
   },
   "comfort_suites_tokyobay": {
     "hotel_name": "コンフォートスイーツ東京ベイ",
@@ -249,7 +329,17 @@
     "april_occupancy": 0.7829,
     "april_net_profit": 4988897.833,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 7085,
+    "march_target_revenue": 14425534.75,
+    "april_rooms_sold": 7328,
+    "april_target_revenue": 14987524.75,
+    "may_revenue": 10391121.612903224,
+    "may_occupancy": 0.7407,
+    "may_net_profit": 3189348.037634408,
+    "may_days": 31,
+    "may_rooms_sold": 5084.0,
+    "may_target_revenue": 14628646.750000002
   },
   "comfort_era_higashikanda": {
     "hotel_name": "コンフォートホテルERA東京東神田",
@@ -277,7 +367,17 @@
     "april_occupancy": 0.655,
     "april_net_profit": 1500915.5,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 3732,
+    "march_target_revenue": 4292844.625,
+    "april_rooms_sold": 3694,
+    "april_target_revenue": 4313507,
+    "may_revenue": 3191299.0322580645,
+    "may_occupancy": 0.6656,
+    "may_net_profit": 946014.9032258064,
+    "may_days": 31,
+    "may_rooms_sold": 2753.0,
+    "may_target_revenue": 4407589.25
   },
   "comfort_narita": {
     "hotel_name": "コンフォートホテル成田",
@@ -305,7 +405,17 @@
     "april_occupancy": 0.7425,
     "april_net_profit": 958913.9091,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 2926,
+    "march_target_revenue": 2900918,
+    "april_rooms_sold": 3163,
+    "april_target_revenue": 3139620,
+    "may_revenue": 1862820.0,
+    "may_occupancy": 0.6033,
+    "may_net_profit": 370975.54838709673,
+    "may_days": 31,
+    "may_rooms_sold": 1799.0,
+    "may_target_revenue": 2755652.000000001
   },
   "comfort_yokohama": {
     "hotel_name": "コンフォートホテル横浜関内",
@@ -333,7 +443,17 @@
     "april_revenue": 4583330,
     "april_occupancy": 0.5896,
     "april_net_profit": 1376948.333,
-    "april_days": 30
+    "april_days": 30,
+    "march_rooms_sold": 4619,
+    "march_target_revenue": 4795462,
+    "april_rooms_sold": 4298,
+    "april_target_revenue": 4804893.316,
+    "may_revenue": 3119326.7741935486,
+    "may_occupancy": 0.5816,
+    "may_net_profit": 967594.7419354841,
+    "may_days": 31,
+    "may_rooms_sold": 2968.0,
+    "may_target_revenue": 4537456.75
   },
   "apa_sagamihara": {
     "hotel_name": "アパホテル相模原橋本駅東",
@@ -361,7 +481,17 @@
     "april_occupancy": 0.5613,
     "april_net_profit": 458130.1667,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 2417,
+    "march_target_revenue": 2873338.25,
+    "april_rooms_sold": 1970,
+    "april_target_revenue": 2506280,
+    "may_revenue": 1887816.7741935484,
+    "may_occupancy": 0.5828,
+    "may_net_profit": 410854.29569892463,
+    "may_days": 31,
+    "may_rooms_sold": 1500.0,
+    "may_target_revenue": 2633049.5
   },
   "apa_kamata": {
     "hotel_name": "アパホテル蒲田駅東",
@@ -389,7 +519,17 @@
     "april_occupancy": 0.6606,
     "april_net_profit": 982194.3333,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 5002,
+    "march_target_revenue": 5012850,
+    "april_rooms_sold": 4360,
+    "april_target_revenue": 4454600,
+    "may_revenue": 3396306.4516129033,
+    "may_occupancy": 0.6839,
+    "may_net_profit": 755021.8333333335,
+    "may_days": 31,
+    "may_rooms_sold": 3310.0,
+    "may_target_revenue": 4726410.0
   },
   "court_shinyokohama": {
     "hotel_name": "コートホテル新横浜",
@@ -441,7 +581,17 @@
     "april_occupancy": 0.7911,
     "april_net_profit": 1444379.333,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 2895,
+    "march_target_revenue": 4902370.125,
+    "april_rooms_sold": 2753,
+    "april_target_revenue": 4630288.75,
+    "may_revenue": 3217246.1290322584,
+    "may_occupancy": 0.7304,
+    "may_net_profit": 903119.1935483876,
+    "may_days": 31,
+    "may_rooms_sold": 1864.0,
+    "may_target_revenue": 4496494.875
   },
   "henn_na_haneda": {
     "hotel_name": "変なホテル東京羽田",
@@ -469,7 +619,17 @@
     "april_occupancy": 0.8088,
     "april_net_profit": 491849.0833,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 4643,
+    "march_target_revenue": 5520500,
+    "april_rooms_sold": 3868,
+    "april_target_revenue": 5066100,
+    "may_revenue": 3617284.193548387,
+    "may_occupancy": 0.7495,
+    "may_net_profit": 309948.2849462364,
+    "may_days": 31,
+    "may_rooms_sold": 2848.0,
+    "may_target_revenue": 4934600.0
   },
   "kawasaki_nikko": {
     "hotel_name": "川崎日航ホテル",
@@ -497,7 +657,17 @@
     "april_occupancy": 0.8473,
     "april_net_profit": 1443394.538,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 3056,
+    "march_target_revenue": 8037144.2,
+    "april_rooms_sold": 3014,
+    "april_target_revenue": 7973705.6,
+    "may_revenue": 5246159.35483871,
+    "may_occupancy": 0.7211,
+    "may_net_profit": 1007245.2419354847,
+    "may_days": 31,
+    "may_rooms_sold": 1918.0,
+    "may_target_revenue": 7292857.76
   },
   "comfort_hakata": {
     "hotel_name": "コンフォートホテル博多",
@@ -525,6 +695,16 @@
     "april_occupancy": 0.7519,
     "april_net_profit": 1038609.167,
     "april_days": 30,
-    "march_days": 31
+    "march_days": 31,
+    "march_rooms_sold": 5748,
+    "march_target_revenue": 5955991.5,
+    "april_rooms_sold": 5459,
+    "april_target_revenue": 5890470,
+    "may_revenue": 4268300.322580645,
+    "may_occupancy": 0.729,
+    "may_net_profit": 561529.1666666663,
+    "may_days": 31,
+    "may_rooms_sold": 3881.0,
+    "may_target_revenue": 5882155.031250001
   }
 }

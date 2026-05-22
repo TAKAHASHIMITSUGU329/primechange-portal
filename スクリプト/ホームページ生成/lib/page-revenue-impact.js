@@ -99,14 +99,17 @@ function buildRevenueImpact(data, revenueOps, deltas) {
     var febRev = ps.feb_total_revenue || ps.total_monthly_revenue || 0;
     var marRev = ps.mar_total_revenue || 0;
     var aprRev = ps.apr_total_revenue || 0;
+    var mayRev = ps.may_total_revenue || 0;
     var febOcc = ps.feb_avg_occupancy || ps.avg_occupancy || '';
     var marOcc = ps.mar_avg_occupancy || '';
     var aprOcc = ps.apr_avg_occupancy || '';
+    var mayOcc = ps.may_avg_occupancy || '';
 
     content.push('<div class="kpi-grid">');
     content.push('<div class="kpi-card" style="border-left-color:var(--accent);"><div class="kpi-label">2月 売上 / 稼働率</div><div class="kpi-value">&#165;' + Math.round(febRev / 10000).toLocaleString() + '万</div><div class="kpi-sub">稼働率 ' + esc(String(febOcc)) + '</div></div>');
     content.push('<div class="kpi-card" style="border-left-color:var(--green);"><div class="kpi-label">3月 売上 / 稼働率</div><div class="kpi-value">&#165;' + Math.round(marRev / 10000).toLocaleString() + '万</div><div class="kpi-sub">稼働率 ' + esc(String(marOcc)) + '</div></div>');
     content.push('<div class="kpi-card" style="border-left-color:var(--blue);"><div class="kpi-label">4月 売上 / 稼働率 <span style="font-size:0.65rem;color:#94A3B8;">途中</span></div><div class="kpi-value">&#165;' + Math.round(aprRev / 10000).toLocaleString() + '万</div><div class="kpi-sub">稼働率 ' + esc(String(aprOcc)) + '</div></div>');
+    content.push('<div class="kpi-card" style="border-left-color:var(--orange);"><div class="kpi-label">5月 売上 / 稼働率 <span style="font-size:0.65rem;color:#94A3B8;">途中</span></div><div class="kpi-value">&#165;' + Math.round(mayRev / 10000).toLocaleString() + '万</div><div class="kpi-sub">稼働率 ' + esc(String(mayOcc)) + '</div></div>');
     content.push('<div class="kpi-card"><div class="kpi-label">平均ADR</div><div class="kpi-value">&#165;' + Math.round(ps.avg_adr).toLocaleString() + '</div></div>');
     content.push('<div class="kpi-card"><div class="kpi-label">平均RevPAR</div><div class="kpi-value">&#165;' + Math.round(ps.avg_revpar).toLocaleString() + '</div></div>');
     if (totalPotential > 0) {
@@ -206,7 +209,7 @@ function buildRevenueImpact(data, revenueOps, deltas) {
 
     content.push('<div class="card"><div class="card-title">&#127919; ホテル別改善機会（売上インパクト横串）</div>');
     content.push('<p style="font-size:0.8rem;color:var(--text-light);margin-bottom:1rem;">口コミスコアを目標値まで改善した場合の月間売上改善ポテンシャルをホテル横断で比較します。</p>');
-    content.push('<div class="opp-table-wrap"><table class="data-table"><thead><tr><th>ホテル名</th><th>現スコア</th><th>目標</th><th>Gap</th><th>客室</th><th>2月売上</th><th>3月売上</th><th>4月売上</th><th>月間改善機会</th></tr></thead><tbody>');
+    content.push('<div class="opp-table-wrap"><table class="data-table"><thead><tr><th>ホテル名</th><th>現スコア</th><th>目標</th><th>Gap</th><th>客室</th><th>2月売上</th><th>3月売上</th><th>4月売上</th><th>5月売上</th><th>月間改善機会</th></tr></thead><tbody>');
 
     for (var hi = 0; hi < opsArr.length; hi++) {
       var ho = opsArr[hi];
@@ -224,13 +227,14 @@ function buildRevenueImpact(data, revenueOps, deltas) {
       content.push('<td style="text-align:right;">&#165;' + (ho.actualRevenue ? Math.round(ho.actualRevenue / 10000).toLocaleString() + '万' : '-') + '</td>');
       content.push('<td style="text-align:right;">&#165;' + (ho.marchRevenue ? Math.round(ho.marchRevenue / 10000).toLocaleString() + '万' : '-') + '</td>');
       content.push('<td style="text-align:right;">&#165;' + (ho.aprilRevenue ? Math.round(ho.aprilRevenue / 10000).toLocaleString() + '万' : '-') + '</td>');
+      content.push('<td style="text-align:right;">&#165;' + (ho.mayRevenue ? Math.round(ho.mayRevenue / 10000).toLocaleString() + '万' : '-') + '</td>');
       content.push('<td style="text-align:right;">' + revBadge + '</td>');
       content.push('</tr>');
     }
 
     // Total row
     content.push('<tr class="opp-total-row">');
-    content.push('<td colspan="8" style="text-align:right;">合計 (' + opsArr.length + 'ホテル)</td>');
+    content.push('<td colspan="9" style="text-align:right;">合計 (' + opsArr.length + 'ホテル)</td>');
     content.push('<td style="text-align:right;"><span class="revenue-badge">+&#165;' + formatYen(grandTotalLoss) + '/月</span></td>');
     content.push('</tr>');
 

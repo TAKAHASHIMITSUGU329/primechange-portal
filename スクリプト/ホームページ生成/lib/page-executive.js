@@ -13,18 +13,20 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   var revenueData = data.revenueData || {};
   var hotelsRanked = pov.hotels_ranked || [];
 
-  // --- Calculate revenue totals (Feb / Mar / Apr) ---
-  var febRevenue = 0, marRevenue = 0, aprRevenue = 0;
-  var febOccupancy = 0, marOccupancy = 0, aprOccupancy = 0;
+  // --- Calculate revenue totals (Feb / Mar / Apr / May) ---
+  var febRevenue = 0, marRevenue = 0, aprRevenue = 0, mayRevenue = 0;
+  var febOccupancy = 0, marOccupancy = 0, aprOccupancy = 0, mayOccupancy = 0;
   var totalOpportunity = 0, hotelCount = 0;
   Object.keys(revenueData).forEach(function(k) {
     var rd = revenueData[k];
     febRevenue += rd.actual_revenue || 0;
     marRevenue += rd.march_revenue || 0;
     aprRevenue += rd.april_revenue || 0;
+    mayRevenue += rd.may_revenue || 0;
     febOccupancy += rd.occupancy_rate || 0;
     marOccupancy += rd.march_occupancy || 0;
     aprOccupancy += rd.april_occupancy || 0;
+    mayOccupancy += rd.may_occupancy || 0;
     hotelCount++;
   });
   var totalRevenue = febRevenue;
@@ -33,6 +35,7 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   var avgFebOcc = hotelCount > 0 ? (febOccupancy / hotelCount * 100).toFixed(1) : 0;
   var avgMarOcc = hotelCount > 0 ? (marOccupancy / hotelCount * 100).toFixed(1) : 0;
   var avgAprOcc = hotelCount > 0 ? (aprOccupancy / hotelCount * 100).toFixed(1) : 0;
+  var avgMayOcc = hotelCount > 0 ? (mayOccupancy / hotelCount * 100).toFixed(1) : 0;
   Object.keys(revenueOps || {}).forEach(function(k) { totalOpportunity += (revenueOps[k].monthlyLoss || 0); });
 
   // --- Calculate portfolio NPS ---
@@ -72,7 +75,7 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
     '.kpi-arrow { color: #94A3B8; }',
     '.kpi-ptarget { font-size: 1rem; font-weight: 600; color: #C23B3A; }',
     '.kpi-progress-footer { font-size: 0.7rem; color: #64748B; margin-top: 0.5rem; }',
-    '.revenue-overview { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }',
+    '.revenue-overview { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 2rem; }',
     '.revenue-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); text-align: center; }',
     '.revenue-card .big-num { font-size: 1.8rem; font-weight: 800; color: #1A1A2E; }',
     '.revenue-card .sub-label { font-size: 0.75rem; color: #64748B; margin-top: 0.25rem; }',
@@ -139,6 +142,7 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   lines.push('<div class="revenue-card"><div class="sub-label">2月 売上 / 稼働率</div><div class="big-num">&yen;' + formatYen(febRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgFebOcc + '%</div></div>');
   lines.push('<div class="revenue-card"><div class="sub-label">3月 売上 / 稼働率</div><div class="big-num">&yen;' + formatYen(marRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgMarOcc + '%</div></div>');
   lines.push('<div class="revenue-card"><div class="sub-label">4月 売上 / 稼働率<span style="font-size:0.7rem;color:#94A3B8;margin-left:0.3rem;">途中</span></div><div class="big-num">&yen;' + formatYen(aprRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgAprOcc + '%</div></div>');
+  lines.push('<div class="revenue-card"><div class="sub-label">5月 売上 / 稼働率<span style="font-size:0.7rem;color:#94A3B8;margin-left:0.3rem;">途中</span></div><div class="big-num">&yen;' + formatYen(mayRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgMayOcc + '%</div></div>');
   lines.push('<div class="revenue-card"><div class="sub-label">月間改善余地（推定）</div><div class="big-num" style="color:#C23B3A;">&yen;' + formatYen(totalOpportunity) + '/月</div></div>');
   lines.push('</div>');
 
