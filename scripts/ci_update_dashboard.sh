@@ -59,7 +59,7 @@ download_file() {
   local url="$1"
   local out="$2"
   local code
-  code="$(curl -sL -o "$out" -w "%{http_code}" "$url")"
+  code="$(curl -sS -L --retry 2 --retry-delay 2 --connect-timeout 15 --max-time 60 -o "$out" -w "%{http_code}" "$url" || true)"
   printf '%s' "$code"
 }
 
@@ -71,6 +71,7 @@ for entry in "${HOTELS[@]}"; do
   out="$CSV_DIR/$filename"
   tmp="${out}.tmp"
   code=""
+  echo "Downloading CSV: ${key}"
 
   if [[ -n "${GAS_CSV_PROXY_URL:-}" ]]; then
     code="$(download_file "${GAS_CSV_PROXY_URL}?key=${key}" "$tmp")"
@@ -109,6 +110,7 @@ for entry in "${XLSX_FILES[@]}"; do
   IFS='|' read -r key sheet_id filename <<< "$entry"
   out="$XLSX_DIR/$filename"
   tmp="${out}.tmp"
+  echo "Downloading XLSX: ${key}"
   code="$(download_file "https://docs.google.com/spreadsheets/d/${sheet_id}/export?format=xlsx" "$tmp")"
   if [[ "$code" == "200" ]] && [[ -s "$tmp" ]]; then
     mv "$tmp" "$out"
