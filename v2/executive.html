@@ -9,6 +9,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/common-v2.css">
 <style>
+.exec-decision { background: #FFFFFF; border: 1px solid #E8E0E0; border-left: 5px solid #C23B3A; border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.exec-decision-title { font-size: 0.9rem; font-weight: 800; color: #1A1A2E; margin-bottom: 0.75rem; }
+.exec-decision-list { display: grid; gap: 0.55rem; }
+.exec-decision-line { font-size: 0.86rem; color: #334155; display: flex; gap: 0.65rem; align-items: flex-start; }
+.exec-decision-num { width: 1.35rem; height: 1.35rem; border-radius: 50%; background: #C23B3A; color: white; display: inline-flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 800; flex-shrink: 0; }
+.exec-split { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(320px, 0.8fr); gap: 1.25rem; align-items: start; }
+.mgmt-risk-row { display: grid; grid-template-columns: 42px minmax(180px, 1fr) repeat(5, minmax(82px, auto)); gap: 0.75rem; align-items: center; padding: 0.8rem 0; border-bottom: 1px solid #F1F5F9; font-size: 0.78rem; }
+.mgmt-risk-row.header { color: #64748B; font-weight: 700; font-size: 0.68rem; text-transform: uppercase; padding-top: 0; }
+.mgmt-risk-row:last-child { border-bottom: none; }
+.mgmt-rank { width: 32px; height: 32px; border-radius: 8px; background: #FEF2F2; color: #C23B3A; display: inline-flex; align-items: center; justify-content: center; font-weight: 800; }
+.mgmt-hotel { font-weight: 800; color: #1A1A2E; }
+.mgmt-sub { font-size: 0.7rem; color: #64748B; margin-top: 0.1rem; }
+.metric-strong { font-weight: 800; color: #1A1A2E; }
+.metric-danger { font-weight: 800; color: #C23B3A; }
+.mini-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }
+.mini-panel { background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 0.9rem; }
+.mini-label { font-size: 0.7rem; color: #64748B; font-weight: 700; margin-bottom: 0.25rem; }
+.mini-value { font-size: 1.2rem; font-weight: 800; color: #1A1A2E; }
+.mini-note { font-size: 0.7rem; color: #64748B; margin-top: 0.15rem; }
+.gap-list { display: grid; gap: 0.55rem; }
+.gap-item { background: #FFFBEB; border: 1px solid #FDE68A; border-radius: 8px; padding: 0.65rem 0.75rem; font-size: 0.76rem; color: #92400E; }
+.quadrant-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; }
+.quadrant-card { border: 1px solid #E2E8F0; border-radius: 8px; padding: 0.85rem; background: #FFFFFF; }
+.quadrant-title { font-size: 0.76rem; font-weight: 800; color: #1A1A2E; margin-bottom: 0.5rem; }
+.quadrant-hotel { display: flex; justify-content: space-between; gap: 0.5rem; border-top: 1px solid #F1F5F9; padding: 0.45rem 0; font-size: 0.73rem; }
+.decision-table-wrap { overflow-x: auto; }
 .kpi-progress-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
 .kpi-progress-card { background: white; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
 .kpi-progress-label { font-size: 0.75rem; font-weight: 600; color: #64748B; margin-bottom: 0.5rem; }
@@ -40,7 +66,8 @@
 .action-row { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; border-bottom: 1px solid #F1F5F9; }
 .action-hotel { font-weight: 700; font-size: 0.85rem; color: #1A1A2E; }
 .action-detail { font-size: 0.72rem; color: #64748B; margin-top: 0.15rem; }
-@media (max-width: 768px) { .revenue-overview, .roi-grid { grid-template-columns: 1fr; } .kpi-progress-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 980px) { .exec-split, .quadrant-grid { grid-template-columns: 1fr; } .mgmt-risk-row { grid-template-columns: 36px minmax(180px, 1fr) repeat(2, minmax(80px, auto)); } .mgmt-risk-row .hide-mobile { display: none; } }
+@media (max-width: 768px) { .revenue-overview, .roi-grid, .mini-grid { grid-template-columns: 1fr; } .kpi-progress-grid { grid-template-columns: 1fr; } }
 </style>
 <script src="data/inline-data.js"></script>
 <script src="scripts/common-v2.js" defer></script>
@@ -83,6 +110,13 @@
   </div>
 </div>
 <div class="section-heading"><span class="heading-en">EXECUTIVE SUMMARY</span><span class="heading-ja">エグゼクティブサマリー &mdash; 経営会議用ダッシュボード</span></div>
+<div class="exec-decision">
+<div class="exec-decision-title">本日の経営判断サマリー</div>
+<div class="exec-decision-list">
+<div class="exec-decision-line"><span class="exec-decision-num">1</span><span>5月売上は18ホテルで&yen;7,171万、稼働率66.4%。4月比は-30.9%で、月中データとして進捗監視が必要です。</span></div>
+<div class="exec-decision-line"><span class="exec-decision-num">2</span><span>経営リスクは「売上規模 × 品質ギャップ × 清掃課題 × 低評価率」で見ると、チサンホテル浜松町が最優先です。</span></div>
+<div class="exec-decision-line"><span class="exec-decision-num">3</span><span>清掃実績は54,255室・クレーム47件、1,000室あたり0.87件です。口コミと日報を同じ会議体で管理できます。</span></div>
+</div></div>
 <div class="card"><div class="card-title">KPI目標進捗（2026年9月期限）</div>
 <div class="kpi-progress-grid">
 <div class="kpi-progress-card">
@@ -117,6 +151,97 @@
 <div class="revenue-card"><div class="sub-label">5月 売上 / 稼働率<span style="font-size:0.7rem;color:#94A3B8;margin-left:0.3rem;">途中</span></div><div class="big-num">&yen;7,171万</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 66.4%</div></div>
 <div class="revenue-card"><div class="sub-label">月間改善余地（推定）</div><div class="big-num" style="color:#C23B3A;">&yen;878万/月</div></div>
 </div>
+<div class="exec-split">
+<div class="card"><div class="card-title">経営リスク優先順位 TOP5</div>
+<div class="decision-table-wrap">
+<div class="mgmt-risk-row header"><div></div><div>ホテル</div><div>5月売上</div><div>品質</div><div>清掃</div><div class="hide-mobile">低評価</div><div class="hide-mobile">推定効果</div></div>
+<div class="mgmt-risk-row">
+<div><span class="mgmt-rank">1</span></div>
+<div><div class="mgmt-hotel">チサンホテル浜松町</div><div class="mgmt-sub">5月データ取得済み / リスク指数 76.8</div></div>
+<div class="metric-strong">&yen;447万</div>
+<div class="metric-danger">7.13</div>
+<div class="metric-danger">9.8%</div>
+<div class="hide-mobile metric-danger">18.0%</div>
+<div class="hide-mobile">&yen;94万/月</div>
+</div>
+<div class="mgmt-risk-row">
+<div><span class="mgmt-rank">2</span></div>
+<div><div class="mgmt-hotel">コートホテル新横浜</div><div class="mgmt-sub">データ欠損あり / リスク指数 43.8</div></div>
+<div class="metric-strong">-</div>
+<div class="metric-danger">7.13</div>
+<div class="metric-danger">7.2%</div>
+<div class="hide-mobile metric-danger">11.6%</div>
+<div class="hide-mobile">&yen;59万/月</div>
+</div>
+<div class="mgmt-risk-row">
+<div><span class="mgmt-rank">3</span></div>
+<div><div class="mgmt-hotel">アパホテル蒲田駅東</div><div class="mgmt-sub">5月データ取得済み / リスク指数 30.3</div></div>
+<div class="metric-strong">&yen;340万</div>
+<div class="metric-danger">7.62</div>
+<div class="metric-danger">7.7%</div>
+<div class="hide-mobile metric-danger">10.0%</div>
+<div class="hide-mobile">&yen;69万/月</div>
+</div>
+<div class="mgmt-risk-row">
+<div><span class="mgmt-rank">4</span></div>
+<div><div class="mgmt-hotel">コンフォートホテル博多</div><div class="mgmt-sub">5月データ取得済み / リスク指数 29.1</div></div>
+<div class="metric-strong">&yen;427万</div>
+<div class="metric-strong">8.00</div>
+<div class="metric-danger">8.3%</div>
+<div class="hide-mobile metric-strong">7.7%</div>
+<div class="hide-mobile">&yen;79万/月</div>
+</div>
+<div class="mgmt-risk-row">
+<div><span class="mgmt-rank">5</span></div>
+<div><div class="mgmt-hotel">コンフォートホテル横浜関内</div><div class="mgmt-sub">5月データ取得済み / リスク指数 23.0</div></div>
+<div class="metric-strong">&yen;312万</div>
+<div class="metric-danger">7.77</div>
+<div class="metric-danger">7.1%</div>
+<div class="hide-mobile metric-danger">8.4%</div>
+<div class="hide-mobile">&yen;85万/月</div>
+</div>
+</div></div>
+<div class="card"><div class="card-title">データ信頼性・運営実績</div>
+<div class="mini-grid">
+<div class="mini-panel"><div class="mini-label">5月清掃室数</div><div class="mini-value">54,255</div><div class="mini-note">2026-05-01〜2026-05-22</div></div>
+<div class="mini-panel"><div class="mini-label">清掃クレーム</div><div class="mini-value">47</div><div class="mini-note">1,000室あたり 0.87件</div></div>
+<div class="mini-panel"><div class="mini-label">5月売上取得</div><div class="mini-value">18/19</div><div class="mini-note">未取得は会議アラート対象</div></div>
+<div class="mini-panel"><div class="mini-label">口コミ母数</div><div class="mini-value">6,569</div><div class="mini-note">平均スコア 8.44</div></div>
+</div>
+<div style="margin-top:1rem;" class="gap-list">
+<div class="gap-item">コートホテル新横浜の5月清掃実績が未取得</div>
+<div class="gap-item">コートホテル新横浜の5月売上が未取得</div>
+<div class="gap-item">清掃完了時刻はGAS側の時刻取得が未反映</div>
+</div>
+</div>
+</div>
+<div class="card"><div class="card-title">売上 × 品質 ポートフォリオ判断</div>
+<div class="quadrant-grid">
+<div class="quadrant-card"><div class="quadrant-title">守るべき主力（高売上・品質リスク）</div>
+<div class="quadrant-hotel"><span>チサンホテル浜松町</span><strong>&yen;447万</strong></div>
+<div class="quadrant-hotel"><span>アパホテル蒲田駅東</span><strong>&yen;340万</strong></div>
+<div class="quadrant-hotel"><span>コンフォートホテル博多</span><strong>&yen;427万</strong></div>
+<div class="quadrant-hotel"><span>コンフォートホテル横浜関内</span><strong>&yen;312万</strong></div>
+</div>
+<div class="quadrant-card"><div class="quadrant-title">早期改善（品質ギャップ大）</div>
+<div class="quadrant-hotel"><span>チサンホテル浜松町</span><strong>&yen;447万</strong></div>
+<div class="quadrant-hotel"><span>コートホテル新横浜</span><strong>品質7.13</strong></div>
+<div class="quadrant-hotel"><span>アパホテル蒲田駅東</span><strong>&yen;340万</strong></div>
+<div class="quadrant-hotel"><span>コンフォートホテル横浜関内</span><strong>&yen;312万</strong></div>
+</div>
+<div class="quadrant-card"><div class="quadrant-title">清掃運営の重点監視</div>
+<div class="quadrant-hotel"><span>チサンホテル浜松町</span><strong>&yen;447万</strong></div>
+<div class="quadrant-hotel"><span>コートホテル新横浜</span><strong>品質7.13</strong></div>
+<div class="quadrant-hotel"><span>アパホテル蒲田駅東</span><strong>&yen;340万</strong></div>
+<div class="quadrant-hotel"><span>コンフォートホテル博多</span><strong>&yen;427万</strong></div>
+</div>
+<div class="quadrant-card"><div class="quadrant-title">成長余地（改善効果見込み）</div>
+<div class="quadrant-hotel"><span>ハートンホテル東品川</span><strong>&yen;819万</strong></div>
+<div class="quadrant-hotel"><span>変なホテル東京羽田</span><strong>&yen;362万</strong></div>
+<div class="quadrant-hotel"><span>チサンホテル浜松町</span><strong>&yen;447万</strong></div>
+<div class="quadrant-hotel"><span>コンフォートホテル横浜関内</span><strong>&yen;312万</strong></div>
+</div>
+</div></div>
 <div class="card"><div class="card-title">&#9888; リスクアラート TOP5</div>
 <div class="risk-card"><div class="risk-info">
   <div class="risk-hotel-name">チサンホテル浜松町</div>

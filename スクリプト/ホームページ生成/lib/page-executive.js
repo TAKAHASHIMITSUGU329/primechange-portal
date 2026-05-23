@@ -3,6 +3,22 @@
 const { esc, nav, footer, pageHead, pageFoot, deltaBadge, deltaBadgeCompact, deltaSummaryBanner } = require('./common-v2');
 const { formatYen } = require('./revenue-calc');
 
+var REVENUE_KEY_MAP = {
+  keisei_kinshicho: 'keisei_richmond',
+  comfort_yokohama_kannai: 'comfort_yokohama'
+};
+
+function resolveRevenueKey(key, revenueData) {
+  if (revenueData && revenueData[key]) return key;
+  if (REVENUE_KEY_MAP[key] && revenueData && revenueData[REVENUE_KEY_MAP[key]]) return REVENUE_KEY_MAP[key];
+  return key;
+}
+
+function pct(n, digits) {
+  if (n == null || isNaN(n)) return '-';
+  return Number(n).toFixed(digits == null ? 1 : digits) + '%';
+}
+
 function buildExecutive(data, deltas, revenueOps, csResults) {
   var pov = data.pov || {};
   var meta = data.meta || {};
@@ -12,6 +28,10 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   var actionPlans = data.actionPlans || [];
   var revenueData = data.revenueData || {};
   var hotelsRanked = pov.hotels_ranked || [];
+  var cleaningActuals = data.cleaningActuals || {};
+  var cleaningSummary = cleaningActuals.portfolio_summary || {};
+  var cleaningHotels = cleaningActuals.hotels || {};
+  var cleaningMeta = cleaningActuals.metadata || {};
 
   // --- Calculate revenue totals (Feb / Mar / Apr / May) ---
   var febRevenue = 0, marRevenue = 0, aprRevenue = 0, mayRevenue = 0;
@@ -37,6 +57,72 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   var avgAprOcc = hotelCount > 0 ? (aprOccupancy / hotelCount * 100).toFixed(1) : 0;
   var avgMayOcc = hotelCount > 0 ? (mayOccupancy / hotelCount * 100).toFixed(1) : 0;
   Object.keys(revenueOps || {}).forEach(function(k) { totalOpportunity += (revenueOps[k].monthlyLoss || 0); });
+  var mayRevenueHotels = Object.keys(revenueData).filter(function(k) { return (revenueData[k].may_revenue || 0) > 0; }).length;
+  var mayVsApr = aprRevenue > 0 ? ((mayRevenue / aprRevenue - 1) * 100) : null;
+  var cleaningClaimsPer1000 = cleaningSummary.total_cleaned_rooms > 0
+    ? cleaningSummary.total_claims / cleaningSummary.total_cleaned_rooms * 1000
+    : null;
+  var cleaningClaimsPer1000Text = cleaningClaimsPer1000 == null ? '-' : cleaningClaimsPer1000.toFixed(2) + '件';
+
+  var managementRisks = hotelsRanked.map(function(h) {
+    var revKey = resolveRevenueKey(h.key, revenueData);
+    var rd = revenueData[revKey] || {};
+    var cl = cleaningHotels[h.key] || cleaningHotels[revKey] || {};
+    var clSummary = cl.summary || {};
+    var mayRev = rd.may_revenue || 0;
+    var revenueBase = mayRev || rd.april_revenue || rd.march_revenue || rd.actual_revenue || 0;
+    var scoreGap = Math.max(0, 8.89 - (h.avg || 0));
+    var cleaningRate = h.cleaning_issue_rate != null ? h.cleaning_issue_rate : (h.cleaning_rate || 0);
+    var lowRate = h.low_rate || 0;
+    var claimRate = clSummary.total_cleaned_rooms > 0 ? clSummary.total_claims / clSummary.total_cleaned_rooms * 1000 : null;
+    var dataPenalty = mayRev > 0 && clSummary.total_cleaned_rooms > 0 ? 1 : 1.25;
+    var riskScore = (revenueBase / 1000000) * (1 + scoreGap) * (1 + cleaningRate / 8) * (1 + lowRate / 10) * dataPenalty;
+    return {
+      key: h.key,
+      revenueKey: revKey,
+      name: h.name,
+      score: h.avg || 0,
+      scoreGap: scoreGap,
+      highRate: h.high_rate || 0,
+      lowRate: lowRate,
+      cleaningRate: cleaningRate,
+      mayRevenue: mayRev,
+      revenueBase: revenueBase,
+      monthlyLoss: revenueOps && revenueOps[h.key] ? revenueOps[h.key].monthlyLoss || 0 : 0,
+      cleanedRooms: clSummary.total_cleaned_rooms || 0,
+      claims: clSummary.total_claims || 0,
+      claimRate: claimRate,
+      dataMissing: !(mayRev > 0) || !(clSummary.total_cleaned_rooms > 0),
+      riskScore: riskScore,
+      priority: h.priority || ''
+    };
+  }).sort(function(a, b) { return b.riskScore - a.riskScore; });
+
+  var topManagementRisks = managementRisks.slice(0, 5);
+  var qualityRevenueRisks = managementRisks.filter(function(h) {
+    return h.mayRevenue > 0 && (h.score < 8.1 || h.cleaningRate >= 6 || h.lowRate >= 8);
+  }).slice(0, 4);
+  var dataGaps = [];
+  (cleaningMeta.hotels_without_data || []).forEach(function(k) {
+    var h = hotelsRanked.find(function(x) { return x.key === k; });
+    dataGaps.push((h ? h.name : k) + 'の5月清掃実績が未取得');
+  });
+  Object.keys(revenueData).forEach(function(k) {
+    if (!(revenueData[k].may_revenue > 0)) {
+      var h = hotelsRanked.find(function(x) { return resolveRevenueKey(x.key, revenueData) === k; });
+      dataGaps.push((h ? h.name : revenueData[k].hotel_name || k) + 'の5月売上が未取得');
+    }
+  });
+  if (cleaningSummary.time_data_points === 0) {
+    dataGaps.push('清掃完了時刻はGAS側の時刻取得が未反映');
+  }
+  dataGaps = dataGaps.filter(function(v, i, arr) { return arr.indexOf(v) === i; }).slice(0, 5);
+
+  var executiveCalls = [
+    '5月売上は' + mayRevenueHotels + 'ホテルで&yen;' + formatYen(mayRevenue) + '、稼働率' + avgMayOcc + '%。4月比は' + (mayVsApr == null ? '-' : (mayVsApr >= 0 ? '+' : '') + mayVsApr.toFixed(1) + '%') + 'で、月中データとして進捗監視が必要です。',
+    '経営リスクは「売上規模 × 品質ギャップ × 清掃課題 × 低評価率」で見ると、' + (topManagementRisks[0] ? esc(topManagementRisks[0].name) : '該当なし') + 'が最優先です。',
+    '清掃実績は' + (cleaningSummary.total_cleaned_rooms || 0).toLocaleString() + '室・クレーム' + (cleaningSummary.total_claims || 0).toLocaleString() + '件、1,000室あたり' + cleaningClaimsPer1000Text + 'です。口コミと日報を同じ会議体で管理できます。'
+  ];
 
   // --- Calculate portfolio NPS ---
   var totalProm = 0, totalDet = 0, totalPass = 0, totalRev = 0;
@@ -67,6 +153,32 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   }
 
   var extraCSS = [
+    '.exec-decision { background: #FFFFFF; border: 1px solid #E8E0E0; border-left: 5px solid #C23B3A; border-radius: 10px; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }',
+    '.exec-decision-title { font-size: 0.9rem; font-weight: 800; color: #1A1A2E; margin-bottom: 0.75rem; }',
+    '.exec-decision-list { display: grid; gap: 0.55rem; }',
+    '.exec-decision-line { font-size: 0.86rem; color: #334155; display: flex; gap: 0.65rem; align-items: flex-start; }',
+    '.exec-decision-num { width: 1.35rem; height: 1.35rem; border-radius: 50%; background: #C23B3A; color: white; display: inline-flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 800; flex-shrink: 0; }',
+    '.exec-split { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(320px, 0.8fr); gap: 1.25rem; align-items: start; }',
+    '.mgmt-risk-row { display: grid; grid-template-columns: 42px minmax(180px, 1fr) repeat(5, minmax(82px, auto)); gap: 0.75rem; align-items: center; padding: 0.8rem 0; border-bottom: 1px solid #F1F5F9; font-size: 0.78rem; }',
+    '.mgmt-risk-row.header { color: #64748B; font-weight: 700; font-size: 0.68rem; text-transform: uppercase; padding-top: 0; }',
+    '.mgmt-risk-row:last-child { border-bottom: none; }',
+    '.mgmt-rank { width: 32px; height: 32px; border-radius: 8px; background: #FEF2F2; color: #C23B3A; display: inline-flex; align-items: center; justify-content: center; font-weight: 800; }',
+    '.mgmt-hotel { font-weight: 800; color: #1A1A2E; }',
+    '.mgmt-sub { font-size: 0.7rem; color: #64748B; margin-top: 0.1rem; }',
+    '.metric-strong { font-weight: 800; color: #1A1A2E; }',
+    '.metric-danger { font-weight: 800; color: #C23B3A; }',
+    '.mini-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.75rem; }',
+    '.mini-panel { background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 0.9rem; }',
+    '.mini-label { font-size: 0.7rem; color: #64748B; font-weight: 700; margin-bottom: 0.25rem; }',
+    '.mini-value { font-size: 1.2rem; font-weight: 800; color: #1A1A2E; }',
+    '.mini-note { font-size: 0.7rem; color: #64748B; margin-top: 0.15rem; }',
+    '.gap-list { display: grid; gap: 0.55rem; }',
+    '.gap-item { background: #FFFBEB; border: 1px solid #FDE68A; border-radius: 8px; padding: 0.65rem 0.75rem; font-size: 0.76rem; color: #92400E; }',
+    '.quadrant-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; }',
+    '.quadrant-card { border: 1px solid #E2E8F0; border-radius: 8px; padding: 0.85rem; background: #FFFFFF; }',
+    '.quadrant-title { font-size: 0.76rem; font-weight: 800; color: #1A1A2E; margin-bottom: 0.5rem; }',
+    '.quadrant-hotel { display: flex; justify-content: space-between; gap: 0.5rem; border-top: 1px solid #F1F5F9; padding: 0.45rem 0; font-size: 0.73rem; }',
+    '.decision-table-wrap { overflow-x: auto; }',
     '.kpi-progress-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 2rem; }',
     '.kpi-progress-card { background: white; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }',
     '.kpi-progress-label { font-size: 0.75rem; font-weight: 600; color: #64748B; margin-bottom: 0.5rem; }',
@@ -98,7 +210,8 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
     '.action-row { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; border-bottom: 1px solid #F1F5F9; }',
     '.action-hotel { font-weight: 700; font-size: 0.85rem; color: #1A1A2E; }',
     '.action-detail { font-size: 0.72rem; color: #64748B; margin-top: 0.15rem; }',
-    '@media (max-width: 768px) { .revenue-overview, .roi-grid { grid-template-columns: 1fr; } .kpi-progress-grid { grid-template-columns: 1fr 1fr; } }',
+    '@media (max-width: 980px) { .exec-split, .quadrant-grid { grid-template-columns: 1fr; } .mgmt-risk-row { grid-template-columns: 36px minmax(180px, 1fr) repeat(2, minmax(80px, auto)); } .mgmt-risk-row .hide-mobile { display: none; } }',
+    '@media (max-width: 768px) { .revenue-overview, .roi-grid, .mini-grid { grid-template-columns: 1fr; } .kpi-progress-grid { grid-template-columns: 1fr; } }',
   ].join('\n');
 
   var lines = [];
@@ -111,6 +224,15 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
 
   // --- Header ---
   lines.push('<div class="section-heading"><span class="heading-en">EXECUTIVE SUMMARY</span><span class="heading-ja">エグゼクティブサマリー &mdash; 経営会議用ダッシュボード</span></div>');
+
+  // --- Executive Decision Summary ---
+  lines.push('<div class="exec-decision">');
+  lines.push('<div class="exec-decision-title">本日の経営判断サマリー</div>');
+  lines.push('<div class="exec-decision-list">');
+  executiveCalls.forEach(function(call, idx) {
+    lines.push('<div class="exec-decision-line"><span class="exec-decision-num">' + (idx + 1) + '</span><span>' + call + '</span></div>');
+  });
+  lines.push('</div></div>');
 
   // --- Alert banners ---
   if (deltas && deltas.hasDeltas && deltas.alerts && deltas.alerts.length > 0) {
@@ -145,6 +267,58 @@ function buildExecutive(data, deltas, revenueOps, csResults) {
   lines.push('<div class="revenue-card"><div class="sub-label">5月 売上 / 稼働率<span style="font-size:0.7rem;color:#94A3B8;margin-left:0.3rem;">途中</span></div><div class="big-num">&yen;' + formatYen(mayRevenue) + '</div><div class="sub-label" style="margin-top:0.3rem;font-size:0.85rem;">稼働率 ' + avgMayOcc + '%</div></div>');
   lines.push('<div class="revenue-card"><div class="sub-label">月間改善余地（推定）</div><div class="big-num" style="color:#C23B3A;">&yen;' + formatYen(totalOpportunity) + '/月</div></div>');
   lines.push('</div>');
+
+  // --- Management Risk and Data Quality ---
+  lines.push('<div class="exec-split">');
+  lines.push('<div class="card"><div class="card-title">経営リスク優先順位 TOP5</div>');
+  lines.push('<div class="decision-table-wrap">');
+  lines.push('<div class="mgmt-risk-row header"><div></div><div>ホテル</div><div>5月売上</div><div>品質</div><div>清掃</div><div class="hide-mobile">低評価</div><div class="hide-mobile">推定効果</div></div>');
+  topManagementRisks.forEach(function(h, idx) {
+    lines.push('<div class="mgmt-risk-row">');
+    lines.push('<div><span class="mgmt-rank">' + (idx + 1) + '</span></div>');
+    lines.push('<div><div class="mgmt-hotel">' + esc(h.name) + '</div><div class="mgmt-sub">' + (h.dataMissing ? 'データ欠損あり' : '5月データ取得済み') + ' / リスク指数 ' + h.riskScore.toFixed(1) + '</div></div>');
+    lines.push('<div class="metric-strong">' + (h.mayRevenue > 0 ? '&yen;' + formatYen(h.mayRevenue) : '-') + '</div>');
+    lines.push('<div class="' + (h.score < 8 ? 'metric-danger' : 'metric-strong') + '">' + h.score.toFixed(2) + '</div>');
+    lines.push('<div class="' + (h.cleaningRate >= 6 ? 'metric-danger' : 'metric-strong') + '">' + pct(h.cleaningRate, 1) + '</div>');
+    lines.push('<div class="hide-mobile ' + (h.lowRate >= 8 ? 'metric-danger' : 'metric-strong') + '">' + pct(h.lowRate, 1) + '</div>');
+    lines.push('<div class="hide-mobile">' + (h.monthlyLoss > 0 ? '&yen;' + formatYen(h.monthlyLoss) + '/月' : '-') + '</div>');
+    lines.push('</div>');
+  });
+  lines.push('</div></div>');
+  lines.push('<div class="card"><div class="card-title">データ信頼性・運営実績</div>');
+  lines.push('<div class="mini-grid">');
+  lines.push('<div class="mini-panel"><div class="mini-label">5月清掃室数</div><div class="mini-value">' + (cleaningSummary.total_cleaned_rooms || 0).toLocaleString() + '</div><div class="mini-note">' + (cleaningMeta.target_period || '') + '</div></div>');
+  lines.push('<div class="mini-panel"><div class="mini-label">清掃クレーム</div><div class="mini-value">' + (cleaningSummary.total_claims || 0).toLocaleString() + '</div><div class="mini-note">1,000室あたり ' + cleaningClaimsPer1000Text + '</div></div>');
+  lines.push('<div class="mini-panel"><div class="mini-label">5月売上取得</div><div class="mini-value">' + mayRevenueHotels + '/' + Object.keys(revenueData).length + '</div><div class="mini-note">未取得は会議アラート対象</div></div>');
+  lines.push('<div class="mini-panel"><div class="mini-label">口コミ母数</div><div class="mini-value">' + ((meta.total_reviews || totalRev || 0).toLocaleString()) + '</div><div class="mini-note">平均スコア ' + (pov.avg_score || 0) + '</div></div>');
+  lines.push('</div>');
+  if (dataGaps.length > 0) {
+    lines.push('<div style="margin-top:1rem;" class="gap-list">');
+    dataGaps.forEach(function(g) { lines.push('<div class="gap-item">' + esc(g) + '</div>'); });
+    lines.push('</div>');
+  }
+  lines.push('</div>');
+  lines.push('</div>');
+
+  // --- Revenue x Quality View ---
+  lines.push('<div class="card"><div class="card-title">売上 × 品質 ポートフォリオ判断</div>');
+  lines.push('<div class="quadrant-grid">');
+  [
+    { title: '守るべき主力（高売上・品質リスク）', items: qualityRevenueRisks },
+    { title: '早期改善（品質ギャップ大）', items: managementRisks.filter(function(h) { return h.score < 8 || h.lowRate >= 8; }).slice(0, 4) },
+    { title: '清掃運営の重点監視', items: managementRisks.filter(function(h) { return h.cleaningRate >= 6 || (h.claimRate != null && h.claimRate >= 1); }).slice(0, 4) },
+    { title: '成長余地（改善効果見込み）', items: managementRisks.filter(function(h) { return h.monthlyLoss > 0; }).sort(function(a, b) { return b.monthlyLoss - a.monthlyLoss; }).slice(0, 4) }
+  ].forEach(function(group) {
+    lines.push('<div class="quadrant-card"><div class="quadrant-title">' + esc(group.title) + '</div>');
+    if (group.items.length === 0) {
+      lines.push('<div class="mini-note">該当なし</div>');
+    }
+    group.items.forEach(function(h) {
+      lines.push('<div class="quadrant-hotel"><span>' + esc(h.name) + '</span><strong>' + (h.mayRevenue > 0 ? '&yen;' + formatYen(h.mayRevenue) : '品質' + h.score.toFixed(2)) + '</strong></div>');
+    });
+    lines.push('</div>');
+  });
+  lines.push('</div></div>');
 
   // --- Risk Alert TOP3 ---
   var urgentHotels = (priMatrix.urgent || []).concat(priMatrix.high || []).slice(0, 5);

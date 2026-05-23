@@ -26,6 +26,7 @@ function buildIndex(data, deltas, revenueOps) {
   var priMatrix = data.priMatrix;
   var kpiTargets = data.kpiTargets || {};
   var cleanDive = data.cleanDive;
+  var buildDate = new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10);
 
   // Resolve KPI target values
   var targetAvgScore = (kpiTargets['ポートフォリオ平均スコア'] && kpiTargets['ポートフォリオ平均スコア'].target) || 8.89;
@@ -70,7 +71,7 @@ function buildIndex(data, deltas, revenueOps) {
   // ── Page Title + Subtitle ──
   html.push(
     '<h1 class="page-title">PRIMECHANGE ポートフォリオ品質管理ポータル V2</h1>',
-    '<p class="page-subtitle">' + esc(meta.date) + ' 更新 &mdash; ' + totalHotels + 'ホテル・' + totalReviews.toLocaleString() + '件の口コミデータに基づく統合ダッシュボード</p>',
+    '<p class="page-subtitle">' + esc(buildDate) + ' 更新 &mdash; ' + totalHotels + 'ホテル・' + totalReviews.toLocaleString() + '件の口コミデータに基づく統合ダッシュボード</p>',
     ''
   );
 
@@ -112,15 +113,18 @@ function buildIndex(data, deltas, revenueOps) {
 
   // ── 7 Link Cards ──
   var a6 = data.analyses && data.analyses[6];
-  var monthlyRev = (a6 && a6.portfolio_summary && a6.portfolio_summary.total_monthly_revenue)
-    ? Math.round(a6.portfolio_summary.total_monthly_revenue / 10000).toLocaleString()
+  var latestRevenue = (a6 && a6.portfolio_summary && a6.portfolio_summary.may_total_revenue)
+    || (a6 && a6.portfolio_summary && a6.portfolio_summary.total_monthly_revenue)
+    || 0;
+  var monthlyRev = latestRevenue
+    ? Math.round(latestRevenue / 10000).toLocaleString()
     : '---';
 
   var linkCards = [
     { icon: '&#128200;', title: 'ホテル別口コミ', desc: 'ホテルの口コミ分析をカード形式で一覧。サイト別評価・スコア分布・口コミ詳細をモーダルで閲覧。', link: 'hotel-dashboard.html', stat: totalHotels + 'ホテル / ' + totalReviews.toLocaleString() + '件' },
     { icon: '&#128167;', title: '清掃戦略', desc: '清掃品質の課題分析、カテゴリ別ヒートマップ、優先度マトリクス、横断的改善施策。', link: 'cleaning-strategy.html', stat: (cleanDive && cleanDive.total_cleaning_mentions ? cleanDive.total_cleaning_mentions + '件の清掃指摘' : '') },
     { icon: '&#128270;', title: '深掘り分析', desc: 'クレーム類型・スタッフ・人員配置・完了時間・安全・品質売上・ベストプラクティスの7分析。', link: 'deep-analysis.html', stat: '7つの専門分析' },
-    { icon: '&#128176;', title: '品質×売上', desc: '品質スコアと売上の相関分析、弾力性係数、3つのROIシナリオ比較。', link: 'revenue-impact.html', stat: '月間約' + monthlyRev + '万円' },
+    { icon: '&#128176;', title: '品質×売上', desc: '品質スコアと売上の相関分析、弾力性係数、3つのROIシナリオ比較。', link: 'revenue-impact.html', stat: '5月約' + monthlyRev + '万円' },
     { icon: '&#9989;', title: 'アクションプラン', desc: 'ホテル別の3フェーズ改善計画（即時/短期/中期）とKPI目標管理。', link: 'action-plans.html', stat: (data.actionPlans ? data.actionPlans.length + 'ホテルの改善計画' : '') },
     { icon: '&#128101;', title: 'ES管理', desc: '従業員満足度と品質スコアの相関分析、負荷管理、離職リスク予測。', link: 'es-dashboard.html', stat: 'ES×品質統合管理' },
     { icon: '&#128188;', title: 'タレントマネジメント', desc: 'スタッフ生産性ランキング・ホテル別人員配置・クレーム集中リスク分析。', link: 'talent-management.html', stat: '人材配置×品質分析' }
