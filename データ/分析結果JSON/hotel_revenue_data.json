@@ -32,7 +32,7 @@
     "april_target_revenue": 4914000,
     "may_revenue": 3880175.0,
     "may_occupancy": 0.5387,
-    "may_net_profit": 2083010.0,
+    "may_net_profit": 1946175.0,
     "may_days": 31,
     "may_rooms_sold": 3240.0,
     "may_target_revenue": 4204289.800000001
@@ -68,12 +68,12 @@
     "march_target_revenue": 6585704,
     "april_rooms_sold": 6349,
     "april_target_revenue": 5969040,
-    "may_revenue": 6734750.0,
+    "may_revenue": 6832400.0,
     "may_occupancy": 0.7314,
-    "may_net_profit": 2960565.0,
+    "may_net_profit": 3058215.0,
     "may_days": 31,
     "may_rooms_sold": 6893.0,
-    "may_target_revenue": 6204032.000000001
+    "may_target_revenue": 6434920.000000001
   },
   "hearton": {
     "hotel_name": "ハートンホテル東品川",
@@ -106,9 +106,9 @@
     "march_target_revenue": 13092350,
     "april_rooms_sold": 11699,
     "april_target_revenue": 12581630,
-    "may_revenue": 12595606.129032258,
+    "may_revenue": 12621460.0,
     "may_occupancy": 0.8191,
-    "may_net_profit": 3824530.059139785,
+    "may_net_profit": 3624083.930107527,
     "may_days": 31,
     "may_rooms_sold": 11009.0,
     "may_target_revenue": 12307678.000000002
@@ -182,9 +182,9 @@
     "march_target_revenue": 3766210.5,
     "april_rooms_sold": 2982,
     "april_target_revenue": 3663565,
-    "may_revenue": 3719770.0,
+    "may_revenue": 3717770.0,
     "may_occupancy": 0.8447,
-    "may_net_profit": 1229240.0,
+    "may_net_profit": 1217004.0,
     "may_days": 31,
     "may_rooms_sold": 2915.0,
     "may_target_revenue": 3576836.15
@@ -220,9 +220,9 @@
     "march_target_revenue": 4938757.5,
     "april_rooms_sold": 4543,
     "april_target_revenue": 4722300,
-    "may_revenue": 5276810.0,
+    "may_revenue": 5836810.0,
     "may_occupancy": 0.8763,
-    "may_net_profit": 1896895.6666666665,
+    "may_net_profit": 1836895.6666666665,
     "may_days": 31,
     "may_rooms_sold": 4754.0,
     "may_target_revenue": 4991922.5
@@ -372,12 +372,12 @@
     "march_target_revenue": 4292844.625,
     "april_rooms_sold": 3694,
     "april_target_revenue": 4313507,
-    "may_revenue": 4707900.0,
+    "may_revenue": 4772900.0,
     "may_occupancy": 0.6937,
     "may_net_profit": 1511084.8106060603,
     "may_days": 31,
     "may_rooms_sold": 4043.0,
-    "may_target_revenue": 4563917.125
+    "may_target_revenue": 4476497.125
   },
   "comfort_narita": {
     "hotel_name": "コンフォートホテル成田",
@@ -486,12 +486,12 @@
     "march_target_revenue": 2873338.25,
     "april_rooms_sold": 1970,
     "april_target_revenue": 2506280,
-    "may_revenue": 2667020.0,
+    "may_revenue": 2671020.0,
     "may_occupancy": 0.5853,
-    "may_net_profit": 578600.5,
+    "may_net_profit": 582600.5,
     "may_days": 31,
     "may_rooms_sold": 2123.0,
-    "may_target_revenue": 2632142.75
+    "may_target_revenue": 2635769.75
   },
   "apa_kamata": {
     "hotel_name": "アパホテル蒲田駅東",
@@ -526,7 +526,7 @@
     "april_target_revenue": 4454600,
     "may_revenue": 4836520.0,
     "may_occupancy": 0.6922,
-    "may_net_profit": 1186109.1515151514,
+    "may_net_profit": 1175227.2196969702,
     "may_days": 31,
     "may_rooms_sold": 4721.0,
     "may_target_revenue": 4726410.0
@@ -626,7 +626,7 @@
     "april_target_revenue": 5066100,
     "may_revenue": 5542140.0,
     "may_occupancy": 0.7803,
-    "may_net_profit": 485225.3333333335,
+    "may_net_profit": 498056.3333333335,
     "may_days": 31,
     "may_rooms_sold": 4200.0,
     "may_target_revenue": 5227550.0
@@ -662,9 +662,9 @@
     "march_target_revenue": 8037144.2,
     "april_rooms_sold": 3014,
     "april_target_revenue": 7973705.6,
-    "may_revenue": 7670890.0,
+    "may_revenue": 7676890.0,
     "may_occupancy": 0.7661,
-    "may_net_profit": 1395995.2272727268,
+    "may_net_profit": 1415319.992424242,
     "may_days": 31,
     "may_rooms_sold": 2866.0,
     "may_target_revenue": 7618356.52
