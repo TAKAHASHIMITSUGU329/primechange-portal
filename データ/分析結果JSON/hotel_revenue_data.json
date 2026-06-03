@@ -32,7 +32,7 @@
     "april_target_revenue": 4914000,
     "may_revenue": 3880175.0,
     "may_occupancy": 0.5387,
-    "may_net_profit": 1946175.0,
+    "may_net_profit": 1900176.0,
     "may_days": 31,
     "may_rooms_sold": 3240.0,
     "may_target_revenue": 4204289.800000001
@@ -70,7 +70,7 @@
     "april_target_revenue": 5969040,
     "may_revenue": 6832400.0,
     "may_occupancy": 0.7314,
-    "may_net_profit": 3058215.0,
+    "may_net_profit": 3137005.0,
     "may_days": 31,
     "may_rooms_sold": 6893.0,
     "may_target_revenue": 6434920.000000001
@@ -222,7 +222,7 @@
     "april_target_revenue": 4722300,
     "may_revenue": 5836810.0,
     "may_occupancy": 0.8763,
-    "may_net_profit": 1836895.6666666665,
+    "may_net_profit": 1841607.6666666665,
     "may_days": 31,
     "may_rooms_sold": 4754.0,
     "may_target_revenue": 4991922.5
@@ -450,7 +450,7 @@
     "april_target_revenue": 4804893.316,
     "may_revenue": 4863880.0,
     "may_occupancy": 0.6124,
-    "may_net_profit": 1625833.333333333,
+    "may_net_profit": 1613003.333333333,
     "may_days": 31,
     "may_rooms_sold": 4613.0,
     "may_target_revenue": 4712599.0
@@ -624,9 +624,9 @@
     "march_target_revenue": 5520500,
     "april_rooms_sold": 3868,
     "april_target_revenue": 5066100,
-    "may_revenue": 5542140.0,
+    "may_revenue": 5517600.0,
     "may_occupancy": 0.7803,
-    "may_net_profit": 498056.3333333335,
+    "may_net_profit": 473516.3333333335,
     "may_days": 31,
     "may_rooms_sold": 4200.0,
     "may_target_revenue": 5227550.0

@@ -2,7 +2,7 @@
   "analysis_metadata": {
     "title": "品質→売上弾力性分析",
     "analysis_number": 6,
-    "date": "2026-06-02",
+    "date": "2026-06-03",
     "hotels_count": 19,
     "data_sources": [
       "hotel_revenue_data.json（19ホテル売上実績）",
@@ -30,7 +30,7 @@
     "mar_avg_occupancy": "75.3%",
     "apr_total_revenue": 103809072,
     "apr_avg_occupancy": "70.5%",
-    "may_total_revenue": 105242010,
+    "may_total_revenue": 105217470,
     "may_avg_occupancy": "68.6%"
   },
   "regression_results": {
@@ -956,7 +956,7 @@
       "revenue": 5358150,
       "march_revenue": 5828610,
       "april_revenue": 5142110,
-      "may_revenue": 5542140.0,
+      "may_revenue": 5517600.0,
       "room_count": 200,
       "phase": "P3",
       "priority": "STANDARD",
