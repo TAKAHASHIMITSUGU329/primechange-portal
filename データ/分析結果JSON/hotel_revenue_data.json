@@ -298,7 +298,7 @@
     "april_target_revenue": 2656200,
     "may_revenue": 3042820.0,
     "may_occupancy": 0.7046,
-    "may_net_profit": 1034499.75,
+    "may_net_profit": 1061801.3571428573,
     "may_days": 31,
     "may_rooms_sold": 2490.0,
     "may_target_revenue": 2909792.9999999995
@@ -374,7 +374,7 @@
     "april_target_revenue": 4313507,
     "may_revenue": 4772900.0,
     "may_occupancy": 0.6937,
-    "may_net_profit": 1512404.8106060603,
+    "may_net_profit": 1485103.203463203,
     "may_days": 31,
     "may_rooms_sold": 4043.0,
     "may_target_revenue": 4476497.125
@@ -588,7 +588,7 @@
     "april_target_revenue": 4630288.75,
     "may_revenue": 4688430.0,
     "may_occupancy": 0.7581,
-    "may_net_profit": 1364038.333333333,
+    "may_net_profit": 1363850.333333333,
     "may_days": 31,
     "may_rooms_sold": 2726.0,
     "may_target_revenue": 4631786.625
@@ -626,7 +626,7 @@
     "april_target_revenue": 5066100,
     "may_revenue": 5517600.0,
     "may_occupancy": 0.7803,
-    "may_net_profit": 467066.3333333335,
+    "may_net_profit": 467914.3333333335,
     "may_days": 31,
     "may_rooms_sold": 4200.0,
     "may_target_revenue": 5227550.0
@@ -666,7 +666,7 @@
     "may_occupancy": 0.7661,
     "may_net_profit": 1415319.992424242,
     "may_days": 31,
-    "may_rooms_sold": 2866.0,
+    "may_rooms_sold": 4370.0,
     "may_target_revenue": 7618356.52
   },
   "comfort_hakata": {
