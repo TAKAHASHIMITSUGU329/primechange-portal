@@ -1612,7 +1612,7 @@
       "bad": "La actitud desde la recepción dejó mucho que desear, las instalaciones bastante acabadas y sucias, me sorprendió mucho esto. La habitación no tenía la ventilación adecuada, calefacción ni circulación. La regadera gotea, si te bañas, toda la habitación está hirviendo.",
       "translated": "",
       "translated_good": "",
-      "translated_bad": "受付の対応はひどく、設備もかなり老朽化していて汚く、大変驚きました。部屋には十分な換気、暖房、空気循環がありませんでした。シャワーは水漏れしていて、シャワーを浴びると部屋全体が熱くなりました。",
+      "translated_bad": "受付の対応はひどく、設備もかなり老朽化していて汚く、大変驚きました。部屋の換気、暖房、空気循環も不十分でした。シャワーは水漏れしていて、シャワーを浴びると部屋全体が熱くなりました。",
       "reviewer": "Jacqueline"
     },
     {
@@ -2546,7 +2546,7 @@
       "comment": "雖然天氣寒冷，但想掌握返自己房間嘅溫度，可惜佢哋切咗做中央系統控制，基本上冇得自己控制，成間房都好熱",
       "good": "",
       "bad": "",
-      "translated": "天気は寒いけれど、部屋の温度をコントロールしたいのに、残念ながら中央制御システムに接続できないため、基本的に自分で温度を制御できず、部屋全体がとても暑くなってしまう。",
+      "translated": "天気は寒いけれど、部屋の温度をコントロールしたいのに、残念ながら中央制御システムに接続されてしまい、基本的に自分では何も制御できず、部屋全体がとても暑くなってしまう。",
       "translated_good": "",
       "translated_bad": "",
       "reviewer": "ゲ‍ス‍ト"
