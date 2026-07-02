@@ -2,7 +2,7 @@
   "report_metadata": {
     "title": "PRIMECHANGE ホテル清掃戦略レポート",
     "subtitle": "ゲスト口コミデータに基づく清掃品質改善提案書",
-    "date": "2026年6月30日",
+    "date": "2026年7月2日",
     "analysis_period": "2026年1月〜2026年5月",
     "total_hotels": 19,
     "total_reviews": 6569,
@@ -357,7 +357,7 @@
       },
       {
         "category": "ほこり・塵",
-        "total_mentions": 28,
+        "total_mentions": 29,
         "hotels_affected": 12,
         "severity": "CRITICAL",
         "sample_comments": [
@@ -762,7 +762,7 @@
           "排水・詰まり": 2,
           "害虫": 4,
           "ゴミ残置": 4,
-          "ほこり・塵": 6,
+          "ほこり・塵": 7,
           "シミ・汚れ跡": 2
         },
         "neg_review_count": 157
@@ -1111,7 +1111,7 @@
         "key_problems": [
           "清掃品質全般",
           "臭気・異臭",
-          "カーペット汚れ"
+          "ほこり・塵"
         ]
       },
       {
@@ -1695,6 +1695,16 @@
             "issue_count": 11
           },
           {
+            "action": "高所・棚上部・エアコン上部のほこり除去",
+            "category": "ほこり・塵",
+            "issue_count": 7
+          },
+          {
+            "action": "テレビ裏・家具裏の清掃徹底",
+            "category": "ほこり・塵",
+            "issue_count": 7
+          },
+          {
             "action": "汚損箇所のスポットクリーニング即時実施",
             "category": "カーペット汚れ",
             "issue_count": 6
@@ -1702,16 +1712,6 @@
           {
             "action": "掃除機がけの重点エリア指定と徹底",
             "category": "カーペット汚れ",
-            "issue_count": 6
-          },
-          {
-            "action": "高所・棚上部・エアコン上部のほこり除去",
-            "category": "ほこり・塵",
-            "issue_count": 6
-          },
-          {
-            "action": "テレビ裏・家具裏の清掃徹底",
-            "category": "ほこり・塵",
             "issue_count": 6
           },
           {
@@ -1811,16 +1811,16 @@
             "category": "臭気・異臭"
           },
           {
+            "action": "週次の高所清掃スケジュール導入",
+            "category": "ほこり・塵"
+          },
+          {
             "action": "四半期ごとのカーペットディープクリーニング導入",
             "category": "カーペット汚れ"
           },
           {
             "action": "カーペットの劣化度調査と交換計画策定",
             "category": "カーペット汚れ"
-          },
-          {
-            "action": "週次の高所清掃スケジュール導入",
-            "category": "ほこり・塵"
           },
           {
             "action": "防カビコーティング施工（浴室・エアコン周り）",
