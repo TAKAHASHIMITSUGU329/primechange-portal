@@ -2,8 +2,8 @@
   "metadata": {
     "title": "ホテル清掃実績（日報）",
     "source": "Google Sheets daily report tabs via GAS CSV proxy",
-    "generated_date": "2026-07-08",
-    "target_period": "2026-07-01〜2026-07-08",
+    "generated_date": "2026-07-09",
+    "target_period": "2026-07-01〜2026-07-09",
     "hotels_total": 19,
     "hotels_downloaded": 18,
     "hotels_with_data": 17,
@@ -18,22 +18,22 @@
     ]
   },
   "portfolio_summary": {
-    "days": 136,
+    "days": 153,
     "date_min": "2026-07-01",
-    "date_max": "2026-07-08",
-    "total_cleaned_rooms": 18952,
-    "total_occupied_rooms": 21639,
-    "total_workload": 5650,
+    "date_max": "2026-07-09",
+    "total_cleaned_rooms": 21340,
+    "total_occupied_rooms": 24313,
+    "total_workload": 6291,
     "total_claims": 16,
-    "avg_cleaned_rooms": 140.4,
-    "avg_occupied_rooms": 160.3,
-    "avg_workload": 176.6,
+    "avg_cleaned_rooms": 141.3,
+    "avg_occupied_rooms": 161.0,
+    "avg_workload": 179.7,
     "avg_maids": 7.9,
-    "avg_checkers": 3.0,
+    "avg_checkers": 2.9,
     "avg_completion_time": null,
     "time_data_points": 0,
-    "cleaned_room_data_points": 135,
-    "workload_data_points": 32
+    "cleaned_room_data_points": 151,
+    "workload_data_points": 35
   },
   "hotels": {
     "chisan": {
@@ -44,9 +44,9 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
+        "date_max": "2026-07-09",
         "total_cleaned_rooms": 1585,
         "total_occupied_rooms": 1793,
         "total_workload": 0,
@@ -213,6 +213,16 @@
           "workload": null,
           "total_staff": 7.0,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -224,21 +234,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 2593,
-        "total_occupied_rooms": 2763,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 2989,
+        "total_occupied_rooms": 3193,
         "total_workload": 0,
         "total_claims": 1,
-        "avg_cleaned_rooms": 324.1,
-        "avg_occupied_rooms": 345.4,
+        "avg_cleaned_rooms": 332.1,
+        "avg_occupied_rooms": 354.8,
         "avg_workload": null,
-        "avg_maids": 10.8,
+        "avg_maids": 10.9,
         "avg_checkers": 1.6,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -393,6 +403,25 @@
           "workload": null,
           "total_staff": 14.0,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 448,
+          "occupied_rooms": 430,
+          "cleaned_rooms": 396,
+          "dd_rooms": 34,
+          "single_rooms": 331,
+          "twin_rooms": 65,
+          "double_rooms": 25,
+          "extra_rooms": 17,
+          "vcan_checks": 14,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 12,
+          "checkers": 1,
+          "workload": null,
+          "total_staff": 13.0,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -404,22 +433,22 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 901,
-        "total_occupied_rooms": 990,
-        "total_workload": 928,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1034,
+        "total_occupied_rooms": 1140,
+        "total_workload": 1078,
         "total_claims": 2,
-        "avg_cleaned_rooms": 112.6,
-        "avg_occupied_rooms": 123.8,
-        "avg_workload": 116.0,
-        "avg_maids": 8.5,
+        "avg_cleaned_rooms": 114.9,
+        "avg_occupied_rooms": 126.7,
+        "avg_workload": 119.8,
+        "avg_maids": 8.6,
         "avg_checkers": 1.8,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
-        "workload_data_points": 8
+        "cleaned_room_data_points": 9,
+        "workload_data_points": 9
       },
       "daily_entries": [
         {
@@ -573,6 +602,25 @@
           "workload": 150,
           "total_staff": 11.0,
           "rooms_per_maid": 16.7
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 156,
+          "occupied_rooms": 150,
+          "cleaned_rooms": 133,
+          "dd_rooms": 17,
+          "single_rooms": 4,
+          "twin_rooms": null,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 9,
+          "checkers": 2,
+          "workload": 150,
+          "total_staff": 11.0,
+          "rooms_per_maid": 16.7
         }
       ]
     },
@@ -584,21 +632,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1006,
-        "total_occupied_rooms": 1105,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1135,
+        "total_occupied_rooms": 1250,
         "total_workload": 0,
         "total_claims": 0,
-        "avg_cleaned_rooms": 125.8,
-        "avg_occupied_rooms": 138.1,
+        "avg_cleaned_rooms": 126.1,
+        "avg_occupied_rooms": 138.9,
         "avg_workload": null,
         "avg_maids": 5.6,
         "avg_checkers": 3.0,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -753,6 +801,25 @@
           "workload": null,
           "total_staff": null,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 145,
+          "occupied_rooms": 145,
+          "cleaned_rooms": 129,
+          "dd_rooms": 18,
+          "single_rooms": 16,
+          "twin_rooms": 19,
+          "double_rooms": 3,
+          "extra_rooms": 26,
+          "vcan_checks": 0.0,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -764,21 +831,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1215,
-        "total_occupied_rooms": 1242,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1371,
+        "total_occupied_rooms": 1405,
         "total_workload": 0,
-        "total_claims": 7,
-        "avg_cleaned_rooms": 151.9,
-        "avg_occupied_rooms": 155.2,
+        "total_claims": 6,
+        "avg_cleaned_rooms": 152.3,
+        "avg_occupied_rooms": 156.1,
         "avg_workload": null,
         "avg_maids": 6.6,
         "avg_checkers": 2.1,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -907,7 +974,7 @@
           "double_rooms": 20,
           "extra_rooms": 33,
           "vcan_checks": 5,
-          "claims": 2,
+          "claims": 1,
           "completion_time": null,
           "maids": 7,
           "checkers": 2,
@@ -933,6 +1000,25 @@
           "workload": null,
           "total_staff": 9.0,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 175,
+          "occupied_rooms": 163,
+          "cleaned_rooms": 156,
+          "dd_rooms": 62,
+          "single_rooms": 9,
+          "twin_rooms": 23,
+          "double_rooms": 5,
+          "extra_rooms": 43,
+          "vcan_checks": 10,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 6,
+          "checkers": 2,
+          "workload": null,
+          "total_staff": 8.0,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -944,21 +1030,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 853,
-        "total_occupied_rooms": 706,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1092,
+        "total_occupied_rooms": 886,
         "total_workload": 0,
         "total_claims": 2,
-        "avg_cleaned_rooms": 121.9,
-        "avg_occupied_rooms": 100.9,
+        "avg_cleaned_rooms": 121.3,
+        "avg_occupied_rooms": 98.4,
         "avg_workload": null,
         "avg_maids": 9.4,
         "avg_checkers": 3.3,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 7,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -1097,12 +1183,40 @@
         },
         {
           "date": "2026-07-08",
+          "room_count": 139,
+          "occupied_rooms": 84,
+          "cleaned_rooms": 117,
+          "dd_rooms": 33,
+          "single_rooms": 19,
+          "twin_rooms": null,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
           "claims": 0,
           "completion_time": null,
           "maids": 10,
           "checkers": 4,
           "workload": null,
           "total_staff": 14.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 139,
+          "occupied_rooms": 96,
+          "cleaned_rooms": 122,
+          "dd_rooms": 26,
+          "single_rooms": 27,
+          "twin_rooms": null,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
           "rooms_per_maid": null
         }
       ]
@@ -1115,21 +1229,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 571,
-        "total_occupied_rooms": 676,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 650,
+        "total_occupied_rooms": 773,
         "total_workload": 0,
         "total_claims": 0,
-        "avg_cleaned_rooms": 71.4,
-        "avg_occupied_rooms": 84.5,
+        "avg_cleaned_rooms": 72.2,
+        "avg_occupied_rooms": 85.9,
         "avg_workload": null,
         "avg_maids": 4.6,
         "avg_checkers": null,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -1284,6 +1398,25 @@
           "workload": null,
           "total_staff": null,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 114,
+          "occupied_rooms": 97,
+          "cleaned_rooms": 79,
+          "dd_rooms": 18,
+          "single_rooms": 2,
+          "twin_rooms": null,
+          "double_rooms": 2,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -1295,22 +1428,22 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1672,
-        "total_occupied_rooms": 1928,
-        "total_workload": 1703,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1905,
+        "total_occupied_rooms": 2195,
+        "total_workload": 1968,
         "total_claims": 0,
-        "avg_cleaned_rooms": 209.0,
-        "avg_occupied_rooms": 241.0,
-        "avg_workload": 243.3,
+        "avg_cleaned_rooms": 211.7,
+        "avg_occupied_rooms": 243.9,
+        "avg_workload": 246.0,
         "avg_maids": null,
         "avg_checkers": 6.8,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
-        "workload_data_points": 7
+        "cleaned_room_data_points": 9,
+        "workload_data_points": 8
       },
       "daily_entries": [
         {
@@ -1464,6 +1597,25 @@
           "workload": null,
           "total_staff": 8.0,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 312,
+          "occupied_rooms": 267,
+          "cleaned_rooms": 233,
+          "dd_rooms": 0.0,
+          "single_rooms": 34,
+          "twin_rooms": 22,
+          "double_rooms": 0.0,
+          "extra_rooms": 0.0,
+          "vcan_checks": 0.0,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": 7,
+          "workload": 265,
+          "total_staff": 7.0,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -1475,21 +1627,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 913,
-        "total_occupied_rooms": 1181,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1026,
+        "total_occupied_rooms": 1332,
         "total_workload": 777,
         "total_claims": 0,
-        "avg_cleaned_rooms": 114.1,
-        "avg_occupied_rooms": 147.6,
+        "avg_cleaned_rooms": 114.0,
+        "avg_occupied_rooms": 148.0,
         "avg_workload": 155.4,
         "avg_maids": 7.6,
         "avg_checkers": 6.0,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 5
       },
       "daily_entries": [
@@ -1644,6 +1796,25 @@
           "workload": 154,
           "total_staff": 7.0,
           "rooms_per_maid": 22.0
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 188,
+          "occupied_rooms": 151,
+          "cleaned_rooms": 113,
+          "dd_rooms": 19,
+          "single_rooms": 38,
+          "twin_rooms": 0.0,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -1655,21 +1826,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1071,
-        "total_occupied_rooms": 1325,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1226,
+        "total_occupied_rooms": 1498,
         "total_workload": 658,
         "total_claims": 0,
-        "avg_cleaned_rooms": 133.9,
-        "avg_occupied_rooms": 165.6,
+        "avg_cleaned_rooms": 136.2,
+        "avg_occupied_rooms": 166.4,
         "avg_workload": 164.5,
         "avg_maids": null,
         "avg_checkers": null,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 4
       },
       "daily_entries": [
@@ -1824,6 +1995,25 @@
           "workload": null,
           "total_staff": null,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 243,
+          "occupied_rooms": 173,
+          "cleaned_rooms": 155,
+          "dd_rooms": 155,
+          "single_rooms": 0.0,
+          "twin_rooms": 18,
+          "double_rooms": 0.0,
+          "extra_rooms": 1,
+          "vcan_checks": 0.0,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -1835,9 +2025,9 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
+        "date_max": "2026-07-09",
         "total_cleaned_rooms": 538,
         "total_occupied_rooms": 695,
         "total_workload": 0,
@@ -2004,6 +2194,16 @@
           "workload": null,
           "total_staff": null,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -2015,22 +2215,22 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1223,
-        "total_occupied_rooms": 1742,
-        "total_workload": 1387,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1388,
+        "total_occupied_rooms": 1959,
+        "total_workload": 1613,
         "total_claims": 0,
-        "avg_cleaned_rooms": 152.9,
-        "avg_occupied_rooms": 217.8,
-        "avg_workload": 231.2,
+        "avg_cleaned_rooms": 154.2,
+        "avg_occupied_rooms": 217.7,
+        "avg_workload": 230.4,
         "avg_maids": 12.3,
         "avg_checkers": 1.0,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
-        "workload_data_points": 6
+        "cleaned_room_data_points": 9,
+        "workload_data_points": 7
       },
       "daily_entries": [
         {
@@ -2184,6 +2384,25 @@
           "workload": 237,
           "total_staff": 14.0,
           "rooms_per_maid": 18.2
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 220,
+          "occupied_rooms": 217,
+          "cleaned_rooms": 165,
+          "dd_rooms": 142,
+          "single_rooms": 23,
+          "twin_rooms": 52,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 12,
+          "checkers": 1,
+          "workload": 226,
+          "total_staff": 13.0,
+          "rooms_per_maid": 18.8
         }
       ]
     },
@@ -2195,21 +2414,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 632,
-        "total_occupied_rooms": 894,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 691,
+        "total_occupied_rooms": 1009,
         "total_workload": 197,
         "total_claims": 2,
-        "avg_cleaned_rooms": 79.0,
-        "avg_occupied_rooms": 111.8,
+        "avg_cleaned_rooms": 76.8,
+        "avg_occupied_rooms": 112.1,
         "avg_workload": 98.5,
         "avg_maids": 6.7,
         "avg_checkers": null,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 2
       },
       "daily_entries": [
@@ -2364,6 +2583,25 @@
           "workload": null,
           "total_staff": null,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 117,
+          "occupied_rooms": 115,
+          "cleaned_rooms": 59,
+          "dd_rooms": 40,
+          "single_rooms": 19,
+          "twin_rooms": 56,
+          "double_rooms": 0.0,
+          "extra_rooms": 0.0,
+          "vcan_checks": 0.0,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -2399,21 +2637,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 640,
-        "total_occupied_rooms": 651,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 725,
+        "total_occupied_rooms": 737,
         "total_workload": 0,
         "total_claims": 0,
-        "avg_cleaned_rooms": 80.0,
-        "avg_occupied_rooms": 81.4,
+        "avg_cleaned_rooms": 80.6,
+        "avg_occupied_rooms": 81.9,
         "avg_workload": null,
-        "avg_maids": 8.6,
+        "avg_maids": 8.8,
         "avg_checkers": 2.1,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -2568,6 +2806,25 @@
           "workload": null,
           "total_staff": 13.0,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 116,
+          "occupied_rooms": 86,
+          "cleaned_rooms": 85,
+          "dd_rooms": 39,
+          "single_rooms": 20,
+          "twin_rooms": 3,
+          "double_rooms": 1,
+          "extra_rooms": 6,
+          "vcan_checks": 2,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 10,
+          "checkers": 2,
+          "workload": null,
+          "total_staff": 12.0,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -2579,21 +2836,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1132,
-        "total_occupied_rooms": 1147,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1261,
+        "total_occupied_rooms": 1277,
         "total_workload": 0,
         "total_claims": 0,
-        "avg_cleaned_rooms": 141.5,
-        "avg_occupied_rooms": 143.4,
+        "avg_cleaned_rooms": 140.1,
+        "avg_occupied_rooms": 141.9,
         "avg_workload": null,
         "avg_maids": 0.1,
         "avg_checkers": null,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -2727,6 +2984,18 @@
           "double_rooms": 1,
           "extra_rooms": 23,
           "vcan_checks": 0.0
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 184,
+          "occupied_rooms": 130,
+          "cleaned_rooms": 129,
+          "dd_rooms": 99,
+          "single_rooms": 28,
+          "twin_rooms": 2,
+          "double_rooms": 1,
+          "extra_rooms": 26,
+          "vcan_checks": 0.0
         }
       ]
     },
@@ -2738,21 +3007,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1113,
-        "total_occupied_rooms": 1275,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1251,
+        "total_occupied_rooms": 1429,
         "total_workload": 0,
         "total_claims": 0,
-        "avg_cleaned_rooms": 139.1,
-        "avg_occupied_rooms": 159.4,
+        "avg_cleaned_rooms": 139.0,
+        "avg_occupied_rooms": 158.8,
         "avg_workload": null,
         "avg_maids": null,
         "avg_checkers": null,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -2907,6 +3176,25 @@
           "workload": null,
           "total_staff": null,
           "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 200,
+          "occupied_rooms": 154,
+          "cleaned_rooms": 138,
+          "dd_rooms": 16,
+          "single_rooms": 3,
+          "twin_rooms": 5,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
         }
       ]
     },
@@ -2918,21 +3206,21 @@
         "③R8_7日報"
       ],
       "summary": {
-        "days": 8,
+        "days": 9,
         "date_min": "2026-07-01",
-        "date_max": "2026-07-08",
-        "total_cleaned_rooms": 1294,
-        "total_occupied_rooms": 1526,
+        "date_max": "2026-07-09",
+        "total_cleaned_rooms": 1473,
+        "total_occupied_rooms": 1742,
         "total_workload": 0,
-        "total_claims": 2,
-        "avg_cleaned_rooms": 161.8,
-        "avg_occupied_rooms": 190.8,
+        "total_claims": 3,
+        "avg_cleaned_rooms": 163.7,
+        "avg_occupied_rooms": 193.6,
         "avg_workload": null,
-        "avg_maids": null,
+        "avg_maids": 5.0,
         "avg_checkers": 4.9,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 8,
+        "cleaned_room_data_points": 9,
         "workload_data_points": 0
       },
       "daily_entries": [
@@ -3084,6 +3372,25 @@
           "completion_time": null,
           "maids": null,
           "checkers": 5,
+          "workload": null,
+          "total_staff": 5.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-07-09",
+          "room_count": 242,
+          "occupied_rooms": 216,
+          "cleaned_rooms": 179,
+          "dd_rooms": 37,
+          "single_rooms": 37,
+          "twin_rooms": 0.0,
+          "double_rooms": 14,
+          "extra_rooms": 0.0,
+          "vcan_checks": 35,
+          "claims": 1,
+          "completion_time": null,
+          "maids": 5,
+          "checkers": null,
           "workload": null,
           "total_staff": 5.0,
           "rooms_per_maid": null
