@@ -586,12 +586,12 @@
     "march_target_revenue": 4902370.125,
     "april_rooms_sold": 2753,
     "april_target_revenue": 4630288.75,
-    "may_revenue": 4688430.0,
-    "may_occupancy": 0.7581,
-    "may_net_profit": 1363850.333333333,
+    "may_revenue": 751845.4839,
+    "may_occupancy": 0.7414,
+    "may_net_profit": 187586.7258,
     "may_days": 31,
-    "may_rooms_sold": 2726.0,
-    "may_target_revenue": 4631786.625
+    "may_rooms_sold": 430,
+    "may_target_revenue": 4496494.875
   },
   "henn_na_haneda": {
     "hotel_name": "変なホテル東京羽田",
