@@ -30,12 +30,12 @@
     "march_target_revenue": 5241666,
     "april_rooms_sold": 3864,
     "april_target_revenue": 4914000,
-    "may_revenue": 3880175.0,
-    "may_occupancy": 0.5387,
-    "may_net_profit": 1892173.0,
+    "may_revenue": 3546675.0,
+    "may_occupancy": 0.4905,
+    "may_net_profit": 1558673.0,
     "may_days": 31,
-    "may_rooms_sold": 3240.0,
-    "may_target_revenue": 4204289.800000001
+    "may_rooms_sold": 2950.0,
+    "may_target_revenue": 3858484.8
   },
   "chisan": {
     "hotel_name": "チサンホテル浜松町",
@@ -486,12 +486,12 @@
     "march_target_revenue": 2873338.25,
     "april_rooms_sold": 1970,
     "april_target_revenue": 2506280,
-    "may_revenue": 2671020.0,
-    "may_occupancy": 0.5853,
-    "may_net_profit": 582600.5,
+    "may_revenue": 623218.0645,
+    "may_occupancy": 0.6252,
+    "may_net_profit": 128902.1774,
     "may_days": 31,
-    "may_rooms_sold": 2123.0,
-    "may_target_revenue": 2635769.75
+    "may_rooms_sold": 512,
+    "may_target_revenue": 2758181
   },
   "apa_kamata": {
     "hotel_name": "アパホテル蒲田駅東",
