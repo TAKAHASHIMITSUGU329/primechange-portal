@@ -486,12 +486,12 @@
     "march_target_revenue": 2873338.25,
     "april_rooms_sold": 1970,
     "april_target_revenue": 2506280,
-    "may_revenue": 623218.0645,
-    "may_occupancy": 0.6252,
-    "may_net_profit": 128902.1774,
+    "may_revenue": 2671020.0,
+    "may_occupancy": 0.5853,
+    "may_net_profit": 582600.5,
     "may_days": 31,
-    "may_rooms_sold": 512,
-    "may_target_revenue": 2758181
+    "may_rooms_sold": 2123.0,
+    "may_target_revenue": 2635769.75
   },
   "apa_kamata": {
     "hotel_name": "アパホテル蒲田駅東",
