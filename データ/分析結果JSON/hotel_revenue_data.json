@@ -144,12 +144,12 @@
     "march_target_revenue": 4854501,
     "april_rooms_sold": 3678,
     "april_target_revenue": 4442310,
-    "may_revenue": 4707860.0,
-    "may_occupancy": 0.7976,
-    "may_net_profit": 1152050.787878788,
+    "may_revenue": 914890.6452,
+    "may_occupancy": 0.6795,
+    "may_net_profit": 188884.7957,
     "may_days": 31,
-    "may_rooms_sold": 3857.0,
-    "may_target_revenue": 4581267.0
+    "may_rooms_sold": 742,
+    "may_target_revenue": 4034799
   },
   "richmond_mejiro": {
     "hotel_name": "リッチモンドホテル東京目白",
