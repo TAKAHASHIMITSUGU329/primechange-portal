@@ -296,12 +296,12 @@
     "march_target_revenue": 2734860,
     "april_rooms_sold": 2250,
     "april_target_revenue": 2656200,
-    "may_revenue": 624479.0323,
-    "may_occupancy": 0.6704,
-    "may_net_profit": 198817.0565,
+    "may_revenue": 3042820.0,
+    "may_occupancy": 0.7046,
+    "may_net_profit": 1061801.3571428573,
     "may_days": 31,
-    "may_rooms_sold": 535,
-    "may_target_revenue": 2734860
+    "may_rooms_sold": 2490.0,
+    "may_target_revenue": 2909792.9999999995
   },
   "comfort_suites_tokyobay": {
     "hotel_name": "コンフォートスイーツ東京ベイ",
