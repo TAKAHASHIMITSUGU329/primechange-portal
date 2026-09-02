@@ -2,131 +2,823 @@
   "metadata": {
     "title": "ホテル清掃実績（日報）",
     "source": "Google Sheets daily report tabs via GAS CSV proxy",
-    "generated_date": "2026-09-01",
-    "target_period": "2026-09-01〜2026-09-01",
+    "generated_date": "2026-09-02",
+    "target_period": "2026-09-01〜2026-09-02",
     "hotels_total": 19,
-    "hotels_downloaded": 2,
-    "hotels_with_data": 1,
+    "hotels_downloaded": 19,
+    "hotels_with_data": 18,
     "hotels_without_data": [
       "court_shinyokohama"
     ],
-    "failures": [
-      {
-        "hotel_key": "daiwa_osaki",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "chisan",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "hearton",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "keyakigate",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "richmond_mejiro",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "daiichi_ikebukuro",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "comfort_roppongi",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "comfort_suites_tokyobay",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "comfort_era_higashikanda",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "comfort_yokohama_kannai",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "comfort_narita",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "apa_kamata",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "apa_sagamihara",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "comment_yokohama",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "kawasaki_nikko",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "henn_na_haneda",
-        "error": "day is out of range for month"
-      },
-      {
-        "hotel_key": "comfort_hakata",
-        "error": "day is out of range for month"
-      }
-    ]
+    "failures": []
   },
   "portfolio_summary": {
-    "days": 1,
+    "days": 36,
     "date_min": "2026-09-01",
-    "date_max": "2026-09-01",
-    "total_cleaned_rooms": 0,
-    "total_occupied_rooms": 0,
-    "total_workload": 0,
-    "total_claims": 0,
-    "avg_cleaned_rooms": null,
-    "avg_occupied_rooms": null,
-    "avg_workload": null,
-    "avg_maids": null,
-    "avg_checkers": null,
+    "date_max": "2026-09-02",
+    "total_cleaned_rooms": 1911,
+    "total_occupied_rooms": 2269,
+    "total_workload": 330,
+    "total_claims": 1,
+    "avg_cleaned_rooms": 106.2,
+    "avg_occupied_rooms": 126.1,
+    "avg_workload": 165.0,
+    "avg_maids": 7.4,
+    "avg_checkers": 2.6,
     "avg_completion_time": null,
     "time_data_points": 0,
-    "cleaned_room_data_points": 0,
-    "workload_data_points": 0
+    "cleaned_room_data_points": 18,
+    "workload_data_points": 2
   },
   "hotels": {
-    "keisei_kinshicho": {
-      "name": "京成リッチモンドホテル東京錦糸町",
-      "spreadsheet_id": "1jUS_HwTfowG1xIHFtwJbCL5dTj7FrhvUe6d32AevZ2g",
+    "daiwa_osaki": {
+      "name": "ダイワロイネットホテル東京大崎",
+      "spreadsheet_id": "1IIHEn4nAIy9UXzrYptU-RQIiTbKkV0G_CaABF7znVrY",
       "sheets": [
+        "①R8_9集計",
         "③R8_9日報"
       ],
       "summary": {
-        "days": 1,
+        "days": 2,
         "date_min": "2026-09-01",
-        "date_max": "2026-09-01",
-        "total_cleaned_rooms": 0,
-        "total_occupied_rooms": 0,
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 53,
+        "total_occupied_rooms": 77,
         "total_workload": 0,
         "total_claims": 0,
-        "avg_cleaned_rooms": null,
-        "avg_occupied_rooms": null,
+        "avg_cleaned_rooms": 53.0,
+        "avg_occupied_rooms": 77.0,
         "avg_workload": null,
         "avg_maids": null,
         "avg_checkers": null,
         "avg_completion_time": null,
         "time_data_points": 0,
-        "cleaned_room_data_points": 0,
+        "cleaned_room_data_points": 1,
         "workload_data_points": 0
       },
       "daily_entries": [
         {
           "date": "2026-09-01",
+          "room_count": 193,
+          "occupied_rooms": 77,
+          "cleaned_rooms": 53,
+          "dd_rooms": 4,
+          "single_rooms": 24,
+          "twin_rooms": null,
+          "double_rooms": 1,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "chisan": {
+      "name": "チサンホテル浜松町",
+      "spreadsheet_id": "1IWigsWTzbRG-juWtIlg4ZchiuWqRhJFpPPczXdQxG6Y",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 123,
+        "total_occupied_rooms": 170,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 123.0,
+        "avg_occupied_rooms": 170.0,
+        "avg_workload": null,
+        "avg_maids": null,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 304,
+          "occupied_rooms": 170,
+          "cleaned_rooms": 123,
+          "dd_rooms": 122,
+          "single_rooms": 1,
+          "twin_rooms": 6,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "hearton": {
+      "name": "ハートンホテル東品川",
+      "spreadsheet_id": "1A25mmVRYSnG3ZB8oa0oZVp-vCP2xMkwX-Zqdkk4BIzI",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 243,
+        "total_occupied_rooms": 255,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 243.0,
+        "avg_occupied_rooms": 255.0,
+        "avg_workload": null,
+        "avg_maids": 8.0,
+        "avg_checkers": 3.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 448,
+          "occupied_rooms": 255,
+          "cleaned_rooms": 243,
+          "dd_rooms": 12,
+          "single_rooms": 208,
+          "twin_rooms": 35,
+          "double_rooms": 7,
+          "extra_rooms": 58,
+          "vcan_checks": 56,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 8,
+          "checkers": 3,
+          "workload": null,
+          "total_staff": 11.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "keyakigate": {
+      "name": "ホテルケヤキゲート東京府中",
+      "spreadsheet_id": "1srchDxFyv7TJ3IEZXJ19miH04p3jRug5nVtA3BLertQ",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 92,
+        "total_occupied_rooms": 106,
+        "total_workload": 100,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 92.0,
+        "avg_occupied_rooms": 106.0,
+        "avg_workload": 100.0,
+        "avg_maids": 9.0,
+        "avg_checkers": 2.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 1
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 156,
+          "occupied_rooms": 106,
+          "cleaned_rooms": 92,
+          "dd_rooms": 14,
+          "single_rooms": 0.0,
+          "twin_rooms": 1,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 9,
+          "checkers": 2,
+          "workload": 100,
+          "total_staff": 11.0,
+          "rooms_per_maid": 11.1
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "richmond_mejiro": {
+      "name": "リッチモンドホテル東京目白",
+      "spreadsheet_id": "1XWU6925CpT3GMMonAqy4UENKM11gWloUkJIsgGImUts",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 87,
+        "total_occupied_rooms": 107,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 87.0,
+        "avg_occupied_rooms": 107.0,
+        "avg_workload": null,
+        "avg_maids": 5.0,
+        "avg_checkers": 3.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 145,
+          "occupied_rooms": 107,
+          "cleaned_rooms": 87,
+          "dd_rooms": 18,
+          "single_rooms": 20,
+          "twin_rooms": 21,
+          "double_rooms": 1,
+          "extra_rooms": 12,
+          "vcan_checks": 1,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 5,
+          "checkers": 3,
+          "workload": null,
+          "total_staff": 8.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "keisei_kinshicho": {
+      "name": "京成リッチモンドホテル東京錦糸町",
+      "spreadsheet_id": "1jUS_HwTfowG1xIHFtwJbCL5dTj7FrhvUe6d32AevZ2g",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 111,
+        "total_occupied_rooms": 121,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 111.0,
+        "avg_occupied_rooms": 121.0,
+        "avg_workload": null,
+        "avg_maids": null,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 175,
+          "occupied_rooms": 121,
+          "cleaned_rooms": 111,
+          "dd_rooms": 65,
+          "single_rooms": 4,
+          "twin_rooms": 6,
+          "double_rooms": 42,
+          "extra_rooms": 24,
+          "vcan_checks": 2,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "daiichi_ikebukuro": {
+      "name": "第一イン池袋",
+      "spreadsheet_id": "1X2GgFKxTOs7CuJSlPYrpzigraSnWcKh6cMJLfsXhWlU",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 114,
+        "total_occupied_rooms": 77,
+        "total_workload": 0,
+        "total_claims": 1,
+        "avg_cleaned_rooms": 114.0,
+        "avg_occupied_rooms": 77.0,
+        "avg_workload": null,
+        "avg_maids": 10.0,
+        "avg_checkers": 3.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 137,
+          "occupied_rooms": 77,
+          "cleaned_rooms": 114,
+          "dd_rooms": 37,
+          "single_rooms": 14,
+          "twin_rooms": null,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 1,
+          "completion_time": null,
+          "maids": 10,
+          "checkers": 3,
+          "workload": null,
+          "total_staff": 13.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "comfort_roppongi": {
+      "name": "コンフォートイン六本木",
+      "spreadsheet_id": "1Jtm0rXTigY2OVManNjx1qQ6G9EKQEXuPs_T1BdlOvls",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 40,
+        "total_occupied_rooms": 36,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 40.0,
+        "avg_occupied_rooms": 36.0,
+        "avg_workload": null,
+        "avg_maids": null,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 114,
+          "occupied_rooms": 36,
+          "cleaned_rooms": 40,
+          "dd_rooms": 8,
+          "single_rooms": 3,
+          "twin_rooms": null,
+          "double_rooms": 1,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "comfort_suites_tokyobay": {
+      "name": "コンフォートスイーツ東京ベイ",
+      "spreadsheet_id": "1zCFAmzRqvSDbjwvK7qI4cYBHlrmBifTPm0Y-g0rruyE",
+      "sheets": [
+        "①R8_9集計",
+        "④R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 167,
+        "total_occupied_rooms": 183,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 167.0,
+        "avg_occupied_rooms": 183.0,
+        "avg_workload": null,
+        "avg_maids": null,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 312,
+          "occupied_rooms": 183,
+          "cleaned_rooms": 167,
+          "dd_rooms": 0.0,
+          "single_rooms": 16,
+          "twin_rooms": 7,
+          "double_rooms": 3,
+          "extra_rooms": 0.0,
+          "vcan_checks": 1,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "comfort_era_higashikanda": {
+      "name": "コンフォートホテルERA東京東神田",
+      "spreadsheet_id": "1H9jmOVQR4UdEQ5hsxZ2Xz44BT72RJDwNa6BOKFhXxRg",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 87,
+        "total_occupied_rooms": 116,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 87.0,
+        "avg_occupied_rooms": 116.0,
+        "avg_workload": null,
+        "avg_maids": 7.0,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 188,
+          "occupied_rooms": 116,
+          "cleaned_rooms": 87,
+          "dd_rooms": 12,
+          "single_rooms": 29,
+          "twin_rooms": 0.0,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 7,
+          "checkers": null,
+          "workload": null,
+          "total_staff": 7.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "comfort_yokohama_kannai": {
+      "name": "コンフォートホテル横浜関内",
+      "spreadsheet_id": "1rnQOsyUXuSzBKdqPN_ey_4Iw5VtYWTgSR5Z4nh-1zd4",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 81,
+        "total_occupied_rooms": 117,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 81.0,
+        "avg_occupied_rooms": 117.0,
+        "avg_workload": null,
+        "avg_maids": null,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 243,
+          "occupied_rooms": 117,
+          "cleaned_rooms": 81,
+          "dd_rooms": 81,
+          "single_rooms": 0.0,
+          "twin_rooms": 36,
+          "double_rooms": 0.0,
+          "extra_rooms": 0.0,
+          "vcan_checks": 0.0,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "comfort_narita": {
+      "name": "コンフォートホテル成田",
+      "spreadsheet_id": "1lQ3FRDuE75dkByQRFd0i0F2xcHnl-3-UAOJwhIt3jAU",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 66,
+        "total_occupied_rooms": 90,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 66.0,
+        "avg_occupied_rooms": 90.0,
+        "avg_workload": null,
+        "avg_maids": 7.0,
+        "avg_checkers": 1.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 142,
+          "occupied_rooms": 90,
+          "cleaned_rooms": 66,
+          "dd_rooms": 24,
+          "single_rooms": null,
+          "twin_rooms": null,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 7,
+          "checkers": 1,
+          "workload": null,
+          "total_staff": 8.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "apa_kamata": {
+      "name": "アパホテル蒲田駅東",
+      "spreadsheet_id": "16xuhAdNzdeyAKu-LhU8ATgR8_kZ1JXfa9lT51tAB1Nw",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 162,
+        "total_occupied_rooms": 219,
+        "total_workload": 230,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 162.0,
+        "avg_occupied_rooms": 219.0,
+        "avg_workload": 230.0,
+        "avg_maids": 11.0,
+        "avg_checkers": 1.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 1
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 220,
+          "occupied_rooms": 219,
+          "cleaned_rooms": 162,
+          "dd_rooms": 151,
+          "single_rooms": 11,
+          "twin_rooms": 57,
+          "double_rooms": 10,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 11,
+          "checkers": 1,
+          "workload": 230,
+          "total_staff": 12.0,
+          "rooms_per_maid": 20.9
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "apa_sagamihara": {
+      "name": "アパホテル相模原橋本駅東",
+      "spreadsheet_id": "1E2ZQJyE6pOJ3jr6GyB56KcYnVVq54m6dO_6h_SQy39A",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 55,
+        "total_occupied_rooms": 99,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 55.0,
+        "avg_occupied_rooms": 99.0,
+        "avg_workload": null,
+        "avg_maids": null,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 117,
+          "occupied_rooms": 99,
+          "cleaned_rooms": 55,
+          "dd_rooms": 41,
+          "single_rooms": 14,
+          "twin_rooms": 44,
+          "double_rooms": 0.0,
+          "extra_rooms": 0.0,
+          "vcan_checks": 0.0,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
           "claims": 0,
           "completion_time": null,
           "maids": null,
@@ -160,6 +852,234 @@
         "workload_data_points": 0
       },
       "daily_entries": []
+    },
+    "comment_yokohama": {
+      "name": "ホテルコメント横浜関内",
+      "spreadsheet_id": "1cVH7khdgh8bDN-wtAw2KVakJqHILo58VOBu0SKmBFrU",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 54,
+        "total_occupied_rooms": 56,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 54.0,
+        "avg_occupied_rooms": 56.0,
+        "avg_workload": null,
+        "avg_maids": 6.0,
+        "avg_checkers": 2.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 116,
+          "occupied_rooms": 56,
+          "cleaned_rooms": 54,
+          "dd_rooms": 22,
+          "single_rooms": 8,
+          "twin_rooms": 2,
+          "double_rooms": 2,
+          "extra_rooms": 3,
+          "vcan_checks": 2,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 6,
+          "checkers": 2,
+          "workload": null,
+          "total_staff": 8.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "kawasaki_nikko": {
+      "name": "川崎日航ホテル",
+      "spreadsheet_id": "1aQ2MaKJmOz7eT53oqszCDO9Fa3UEbfhFSgXfVmVpO9A",
+      "sheets": [
+        "①R8_9集計",
+        "④R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 102,
+        "total_occupied_rooms": 107,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 102.0,
+        "avg_occupied_rooms": 107.0,
+        "avg_workload": null,
+        "avg_maids": 4.0,
+        "avg_checkers": 3.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 184,
+          "occupied_rooms": 107,
+          "cleaned_rooms": 102,
+          "dd_rooms": 79,
+          "single_rooms": 20,
+          "twin_rooms": 3,
+          "double_rooms": 5,
+          "extra_rooms": 25,
+          "vcan_checks": 0.0,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 4,
+          "checkers": 3,
+          "workload": null,
+          "total_staff": 7.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "henn_na_haneda": {
+      "name": "変なホテル東京羽田",
+      "spreadsheet_id": "18DkZLJ8UDQ2-4MBrh7B4y28tHaYnoWIQqEoFkvFDNKg",
+      "sheets": [
+        "①R8_9集計",
+        "④R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 117,
+        "total_occupied_rooms": 142,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 117.0,
+        "avg_occupied_rooms": 142.0,
+        "avg_workload": null,
+        "avg_maids": 0.0,
+        "avg_checkers": null,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 200,
+          "occupied_rooms": 142,
+          "cleaned_rooms": 117,
+          "dd_rooms": 25,
+          "single_rooms": 2,
+          "twin_rooms": 8,
+          "double_rooms": null,
+          "extra_rooms": null,
+          "vcan_checks": null,
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": 0.029411764705882353,
+          "checkers": null,
+          "workload": null,
+          "total_staff": 0.029411764705882353,
+          "rooms_per_maid": null
+        }
+      ]
+    },
+    "comfort_hakata": {
+      "name": "コンフォートホテル博多",
+      "spreadsheet_id": "1_7xoyIiq1llfO0I2328ZQlB6sD0lMsnpRMp1rMGNPcg",
+      "sheets": [
+        "①R8_9集計",
+        "③R8_9日報"
+      ],
+      "summary": {
+        "days": 2,
+        "date_min": "2026-09-01",
+        "date_max": "2026-09-02",
+        "total_cleaned_rooms": 157,
+        "total_occupied_rooms": 191,
+        "total_workload": 0,
+        "total_claims": 0,
+        "avg_cleaned_rooms": 157.0,
+        "avg_occupied_rooms": 191.0,
+        "avg_workload": null,
+        "avg_maids": 14.0,
+        "avg_checkers": 5.0,
+        "avg_completion_time": null,
+        "time_data_points": 0,
+        "cleaned_room_data_points": 1,
+        "workload_data_points": 0
+      },
+      "daily_entries": [
+        {
+          "date": "2026-09-01",
+          "room_count": 242,
+          "occupied_rooms": 191,
+          "cleaned_rooms": 157,
+          "dd_rooms": 34,
+          "single_rooms": 34,
+          "twin_rooms": 0.0,
+          "double_rooms": 9,
+          "extra_rooms": 1,
+          "vcan_checks": 28,
+          "claims": 0,
+          "completion_time": null,
+          "maids": 14,
+          "checkers": 5,
+          "workload": null,
+          "total_staff": 19.0,
+          "rooms_per_maid": null
+        },
+        {
+          "date": "2026-09-02",
+          "claims": 0,
+          "completion_time": null,
+          "maids": null,
+          "checkers": null,
+          "workload": null,
+          "total_staff": null,
+          "rooms_per_maid": null
+        }
+      ]
     }
   }
 }
