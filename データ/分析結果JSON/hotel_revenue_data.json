@@ -30,12 +30,12 @@
     "march_target_revenue": 5241666,
     "april_rooms_sold": 3864,
     "april_target_revenue": 4914000,
-    "may_revenue": 1215882.548,
-    "may_occupancy": 0.6561,
-    "may_net_profit": 399000.7097,
+    "may_revenue": 3546675.0,
+    "may_occupancy": 0.4905,
+    "may_net_profit": 1558673.0,
     "may_days": 31,
-    "may_rooms_sold": 891,
-    "may_target_revenue": 5068802.3
+    "may_rooms_sold": 2950.0,
+    "may_target_revenue": 3858484.8
   },
   "chisan": {
     "hotel_name": "チサンホテル浜松町",
@@ -372,12 +372,12 @@
     "march_target_revenue": 4292844.625,
     "april_rooms_sold": 3694,
     "april_target_revenue": 4313507,
-    "may_revenue": 4772900.0,
-    "may_occupancy": 0.6937,
-    "may_net_profit": 1485103.203463203,
+    "may_revenue": 977087.4194,
+    "may_occupancy": 0.636,
+    "may_net_profit": 315216.2769,
     "may_days": 31,
-    "may_rooms_sold": 4043.0,
-    "may_target_revenue": 4476497.125
+    "may_rooms_sold": 837,
+    "may_target_revenue": 4282789.563
   },
   "comfort_narita": {
     "hotel_name": "コンフォートホテル成田",
@@ -410,12 +410,12 @@
     "march_target_revenue": 2900918,
     "april_rooms_sold": 3163,
     "april_target_revenue": 3139620,
-    "may_revenue": 2885440.0,
-    "may_occupancy": 0.6345,
-    "may_net_profit": 789750.3181818184,
+    "may_revenue": 556500,
+    "may_occupancy": 0.6279,
+    "may_net_profit": 109489.871,
     "may_days": 31,
-    "may_rooms_sold": 2793.0,
-    "may_target_revenue": 2856898.0
+    "may_rooms_sold": 535,
+    "may_target_revenue": 2861300
   },
   "comfort_yokohama": {
     "hotel_name": "コンフォートホテル横浜関内",
@@ -624,12 +624,12 @@
     "march_target_revenue": 5520500,
     "april_rooms_sold": 3868,
     "april_target_revenue": 5066100,
-    "may_revenue": 1130544.516,
-    "may_occupancy": 0.7293,
-    "may_net_profit": 80584.95161,
+    "may_revenue": 5517600.0,
+    "may_occupancy": 0.7803,
+    "may_net_profit": 467914.3333333335,
     "may_days": 31,
-    "may_rooms_sold": 884,
-    "may_target_revenue": 4926850
+    "may_rooms_sold": 4200.0,
+    "may_target_revenue": 5227550.0
   },
   "kawasaki_nikko": {
     "hotel_name": "川崎日航ホテル",
