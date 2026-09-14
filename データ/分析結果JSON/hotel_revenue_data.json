@@ -372,12 +372,12 @@
     "march_target_revenue": 4292844.625,
     "april_rooms_sold": 3694,
     "april_target_revenue": 4313507,
-    "may_revenue": 977087.4194,
-    "may_occupancy": 0.636,
-    "may_net_profit": 315216.2769,
+    "may_revenue": 4772900.0,
+    "may_occupancy": 0.6937,
+    "may_net_profit": 1485103.203463203,
     "may_days": 31,
-    "may_rooms_sold": 837,
-    "may_target_revenue": 4282789.563
+    "may_rooms_sold": 4043.0,
+    "may_target_revenue": 4476497.125
   },
   "comfort_narita": {
     "hotel_name": "コンフォートホテル成田",
@@ -410,12 +410,12 @@
     "march_target_revenue": 2900918,
     "april_rooms_sold": 3163,
     "april_target_revenue": 3139620,
-    "may_revenue": 556500,
-    "may_occupancy": 0.6279,
-    "may_net_profit": 109489.871,
+    "may_revenue": 2885440.0,
+    "may_occupancy": 0.6345,
+    "may_net_profit": 789750.3181818184,
     "may_days": 31,
-    "may_rooms_sold": 535,
-    "may_target_revenue": 2861300
+    "may_rooms_sold": 2793.0,
+    "may_target_revenue": 2856898.0
   },
   "comfort_yokohama": {
     "hotel_name": "コンフォートホテル横浜関内",
@@ -524,12 +524,12 @@
     "march_target_revenue": 5012850,
     "april_rooms_sold": 4360,
     "april_target_revenue": 4454600,
-    "may_revenue": 4836520.0,
-    "may_occupancy": 0.6922,
-    "may_net_profit": 1175227.2196969702,
+    "may_revenue": 1062583.871,
+    "may_occupancy": 0.6623,
+    "may_net_profit": 245384.3333,
     "may_days": 31,
-    "may_rooms_sold": 4721.0,
-    "may_target_revenue": 4726410.0
+    "may_rooms_sold": 1020,
+    "may_target_revenue": 4624110
   },
   "court_shinyokohama": {
     "hotel_name": "コートホテル新横浜",
