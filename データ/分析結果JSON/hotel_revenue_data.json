@@ -182,12 +182,12 @@
     "march_target_revenue": 3766210.5,
     "april_rooms_sold": 2982,
     "april_target_revenue": 3663565,
-    "may_revenue": 808366.129,
-    "may_occupancy": 0.8158,
-    "may_net_profit": 254424.4355,
+    "may_revenue": 3717770.0,
+    "may_occupancy": 0.8447,
+    "may_net_profit": 1217634.0,
     "may_days": 31,
-    "may_rooms_sold": 606,
-    "may_target_revenue": 3409936.8
+    "may_rooms_sold": 3797.0,
+    "may_target_revenue": 3576836.15
   },
   "keisei_richmond": {
     "hotel_name": "京成リッチモンドホテル東京錦糸町",
