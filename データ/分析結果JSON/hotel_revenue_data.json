@@ -301,7 +301,7 @@
     "may_net_profit": 1061801.3571428573,
     "may_days": 31,
     "may_rooms_sold": 2490.0,
-    "may_target_revenue": 2909792.9999999995
+    "may_target_revenue": 3033482.9999999995
   },
   "comfort_suites_tokyobay": {
     "hotel_name": "コンフォートスイーツ東京ベイ",
@@ -448,12 +448,12 @@
     "march_target_revenue": 4795462,
     "april_rooms_sold": 4298,
     "april_target_revenue": 4804893.316,
-    "may_revenue": 4863880.0,
-    "may_occupancy": 0.6124,
-    "may_net_profit": 1569383.333333333,
+    "may_revenue": 1087722.258,
+    "may_occupancy": 0.6126,
+    "may_net_profit": 382974.5968,
     "may_days": 31,
-    "may_rooms_sold": 4613.0,
-    "may_target_revenue": 4712599.0
+    "may_rooms_sold": 1042,
+    "may_target_revenue": 4827492.316
   },
   "apa_sagamihara": {
     "hotel_name": "アパホテル相模原橋本駅東",
