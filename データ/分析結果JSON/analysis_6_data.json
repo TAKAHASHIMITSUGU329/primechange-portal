@@ -2,7 +2,7 @@
   "analysis_metadata": {
     "title": "品質→売上弾力性分析",
     "analysis_number": 6,
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "hotels_count": 19,
     "data_sources": [
       "hotel_revenue_data.json（19ホテル売上実績）",
@@ -30,8 +30,8 @@
     "mar_avg_occupancy": "75.3%",
     "apr_total_revenue": 103809072,
     "apr_avg_occupancy": "70.5%",
-    "may_total_revenue": 85919237,
-    "may_avg_occupancy": "67.7%"
+    "may_total_revenue": 104883970,
+    "may_avg_occupancy": "68.4%"
   },
   "regression_results": {
     "score_vs_occupancy": {
@@ -941,7 +941,7 @@
       "revenue": 2842630,
       "march_revenue": 2893810,
       "april_revenue": 2787760,
-      "may_revenue": 624479.0323,
+      "may_revenue": 3042820.0,
       "room_count": 114,
       "phase": "P2",
       "priority": "STANDARD",
@@ -1046,7 +1046,7 @@
       "revenue": 4047280,
       "march_revenue": 4478190,
       "april_revenue": 4281260,
-      "may_revenue": 977087.4194,
+      "may_revenue": 4772900.0,
       "room_count": 188,
       "phase": "P2",
       "priority": "MAINTENANCE",
@@ -1091,7 +1091,7 @@
       "revenue": 13228360,
       "march_revenue": 14945400,
       "april_revenue": 15477040,
-      "may_revenue": 3300870.968,
+      "may_revenue": 16051450.0,
       "room_count": 312,
       "phase": "P2",
       "priority": "MAINTENANCE",
