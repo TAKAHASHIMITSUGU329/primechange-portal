@@ -68,12 +68,12 @@
     "march_target_revenue": 6585704,
     "april_rooms_sold": 6349,
     "april_target_revenue": 5969040,
-    "may_revenue": 6832400.0,
-    "may_occupancy": 0.7314,
-    "may_net_profit": 3137005.0,
+    "may_revenue": 962010.3226,
+    "may_occupancy": 0.6566,
+    "may_net_profit": 261483.9516,
     "may_days": 31,
-    "may_rooms_sold": 6893.0,
-    "may_target_revenue": 6434920.000000001
+    "may_rooms_sold": 998,
+    "may_target_revenue": 5582048
   },
   "hearton": {
     "hotel_name": "ハートンホテル東品川",
@@ -220,12 +220,12 @@
     "march_target_revenue": 4938757.5,
     "april_rooms_sold": 4543,
     "april_target_revenue": 4722300,
-    "may_revenue": 5836810.0,
-    "may_occupancy": 0.8763,
-    "may_net_profit": 1840697.6666666665,
+    "may_revenue": 1140215,
+    "may_occupancy": 0.8376,
+    "may_net_profit": 325177.6344,
     "may_days": 31,
-    "may_rooms_sold": 4754.0,
-    "may_target_revenue": 4991922.5
+    "may_rooms_sold": 1026,
+    "may_target_revenue": 4926822.5
   },
   "daiichi_ikebukuro": {
     "hotel_name": "第一イン池袋",
@@ -448,12 +448,12 @@
     "march_target_revenue": 4795462,
     "april_rooms_sold": 4298,
     "april_target_revenue": 4804893.316,
-    "may_revenue": 4863880.0,
-    "may_occupancy": 0.6124,
-    "may_net_profit": 1569383.333333333,
+    "may_revenue": 1087722.258,
+    "may_occupancy": 0.6126,
+    "may_net_profit": 382974.5968,
     "may_days": 31,
-    "may_rooms_sold": 4613.0,
-    "may_target_revenue": 4712599.0
+    "may_rooms_sold": 1042,
+    "may_target_revenue": 4827492.316
   },
   "apa_sagamihara": {
     "hotel_name": "アパホテル相模原橋本駅東",
